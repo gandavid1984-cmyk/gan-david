@@ -206,8 +206,7 @@ font{background:transparent!important;box-shadow:none!important}
       </select>
     </div>
   </section>
-  <div id="google_translate_element" style="display:none"></div>
-  <div id="pdfStage" style="position:absolute;left:-10000px;top:0;width:200mm;background:#fff;color:#000;direction:rtl"></div>
+    <div id="pdfStage" style="position:absolute;left:-10000px;top:0;width:200mm;background:#fff;color:#000;direction:rtl"></div>
 
   <main id="list"></main>
   <div class="foot">הקטעים נכתבים מדי בוקר על סמך ידיעות שאומתו מול מקורות מוכרים. ידיעה שלא ניתן היה לאמת במלואה מסומנת.</div>
@@ -237,7 +236,7 @@ const TOPICS = [
 const TOPIC_NAME = Object.fromEntries(TOPICS.map(t=>[t[0],t[1]]));
 const TOPIC_EMOJI = Object.fromEntries(TOPICS.map(t=>[t[0],t[2]]));
 const LEVEL_NAME = {easy:"רמה קלה",medium:"רמה בינונית",hard:"רמה גבוהה",expert:"רמה גבוהה מאוד"};
-const DATA_URL = "data/news.json";
+const DATA_URL = location.hostname.includes("translate.goog") ? "https://gandavid1984-cmyk.github.io/gan-david/data/news.json" : "data/news.json";
 
 const state = {bold:true, level:"easy", topics:new Set(), date:null, dates:[], all:[], items:[], picked:new Set(), range:"day"};
 try{ const s=JSON.parse(localStorage.getItem("akt-state")||"{}"); if(s.level) state.level=s.level; if(Array.isArray(s.topics)) state.topics=new Set(s.topics); const b=localStorage.getItem("akt-bold"); if(b!==null) state.bold=b==="1"; }catch(e){}
@@ -460,19 +459,17 @@ async function init(){
   }
 }
 init();
-// ---- translation via Google Translate (free; only when a language is chosen)
-function getLangCookie(){ const m=document.cookie.match(/(?:^|; )googtrans=([^;]*)/); return m? decodeURIComponent(m[1]).split("/").pop() : ""; }
-function setLangCookie(l){
-  const exp = l? "; max-age=31536000" : "; max-age=0";
-  const val = l? "/iw/"+l : "";
-  document.cookie="googtrans="+val+"; path=/"+exp;
-  try{ document.cookie="googtrans="+val+"; path=/; domain="+location.hostname+exp; }catch(e){}
-}
-$("#lang").value=getLangCookie();
-$("#lang").addEventListener("change",()=>{ setLangCookie($("#lang").value); location.reload(); });
-window.googleTranslateElementInit=function(){ try{ new google.translate.TranslateElement({pageLanguage:"iw", includedLanguages:"en,ru,es,ka,fr", autoDisplay:false}, "google_translate_element"); }catch(e){} };
-if(getLangCookie()){ const g=document.createElement("script"); g.src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"; document.head.appendChild(g); }
-if("serviceWorker" in navigator && location.protocol==="https:"){ window.addEventListener("load",()=>navigator.serviceWorker.register("sw.js").catch(()=>{})); }
+// ---- translation via Google Translate (free; opens the site through Google's translating proxy)
+const ORIGIN_HOST="gandavid1984-cmyk.github.io", ORIGIN_URL="https://gandavid1984-cmyk.github.io/gan-david/";
+function currentLang(){ if(!location.hostname.includes("translate.goog")) return ""; return new URLSearchParams(location.search).get("_x_tr_tl")||""; }
+$("#lang").value=currentLang();
+$("#lang").addEventListener("change",()=>{
+  const l=$("#lang").value;
+  if(!l){ location.href=ORIGIN_URL; return; }
+  location.href="https://"+ORIGIN_HOST.replace(/\./g,"-")+".translate.goog/gan-david/?_x_tr_sl=iw&_x_tr_tl="+encodeURIComponent(l)+"&_x_tr_hl=iw&_x_tr_pto=wapp";
+});
+if(currentLang()){ $("#langNote").textContent="הדף מוצג בתרגום אוטומטי של Google. לחזרה לעברית — בוחרים \"עברית (המקור)\"."; }
+if("serviceWorker" in navigator && location.protocol==="https:" && !location.hostname.includes("translate.goog")){ window.addEventListener("load",()=>navigator.serviceWorker.register("sw.js").catch(()=>{})); }
 </script>
 </body>
 </html>
