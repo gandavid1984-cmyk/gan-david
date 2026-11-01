@@ -109,6 +109,10 @@ ul.src a{color:var(--accent)}
   ol.q{font-size:15pt}
   .print-head{font-size:12pt;color:#444;border-bottom:1px solid #999;padding-bottom:3mm;margin-bottom:6mm;display:flex;justify-content:space-between}
 }
+.goog-te-banner-frame,.skiptranslate iframe{display:none!important}
+body{top:0!important}
+#goog-gt-tt,.goog-te-balloon-frame{display:none!important}
+font{background:transparent!important;box-shadow:none!important}
 </style>
 </head>
 <body>
@@ -172,6 +176,20 @@ ul.src a{color:var(--accent)}
   </section>
 
 
+  <section class="card no-print" id="langCard">
+    <h2>3. שפה</h2>
+    <div class="row">
+      <select id="lang">
+        <option value="">עברית (המקור)</option>
+        <option value="ru">русский — רוסית</option>
+        <option value="es">español — ספרדית</option>
+        <option value="ka">ქართული — גאורגית</option>
+        <option value="fr">français — צרפתית</option>
+      </select>
+      <span class="count" id="langNote">תרגום אוטומטי של Google, רק כשבוחרים שפה. לחזרה לעברית — בוחרים "עברית (המקור)".</span>
+    </div>
+  </section>
+
   <section class="card no-print tools">
     <div class="count" id="count"></div>
     <div class="row">
@@ -187,6 +205,7 @@ ul.src a{color:var(--accent)}
       </select>
     </div>
   </section>
+  <div id="google_translate_element" style="display:none"></div>
   <div id="pdfStage" style="position:absolute;left:-10000px;top:0;width:200mm;background:#fff;color:#000;direction:rtl"></div>
 
   <main id="list"></main>
@@ -440,6 +459,18 @@ async function init(){
   }
 }
 init();
+// ---- translation via Google Translate (free; only when a language is chosen)
+function getLangCookie(){ const m=document.cookie.match(/(?:^|; )googtrans=([^;]*)/); return m? decodeURIComponent(m[1]).split("/").pop() : ""; }
+function setLangCookie(l){
+  const exp = l? "; max-age=31536000" : "; max-age=0";
+  const val = l? "/iw/"+l : "";
+  document.cookie="googtrans="+val+"; path=/"+exp;
+  try{ document.cookie="googtrans="+val+"; path=/; domain="+location.hostname+exp; }catch(e){}
+}
+$("#lang").value=getLangCookie();
+$("#lang").addEventListener("change",()=>{ setLangCookie($("#lang").value); location.reload(); });
+window.googleTranslateElementInit=function(){ try{ new google.translate.TranslateElement({pageLanguage:"iw", includedLanguages:"ru,es,ka,fr", autoDisplay:false}, "google_translate_element"); }catch(e){} };
+if(getLangCookie()){ const g=document.createElement("script"); g.src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"; document.head.appendChild(g); }
 if("serviceWorker" in navigator && location.protocol==="https:"){ window.addEventListener("load",()=>navigator.serviceWorker.register("sw.js").catch(()=>{})); }
 </script>
 </body>
