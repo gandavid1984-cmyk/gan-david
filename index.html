@@ -466,7 +466,7 @@ $("#lang").value=currentLang();
 $("#lang").addEventListener("change",()=>{
   const l=$("#lang").value;
   if(!l){ location.href=ORIGIN_URL; return; }
-  location.href="https://"+ORIGIN_HOST.replace(/\./g,"-")+".translate.goog/gan-david/?_x_tr_sl=iw&_x_tr_tl="+encodeURIComponent(l)+"&_x_tr_hl=iw&_x_tr_pto=wapp";
+  location.href="https://gandavid1984--cmyk-github-io.translate.goog/gan-david/?_x_tr_sl=iw&_x_tr_tl="+encodeURIComponent(l)+"&_x_tr_hl=iw&_x_tr_pto=wapp";
 });
 if(currentLang()){ $("#langNote").textContent="הדף מוצג בתרגום אוטומטי של Google. לחזרה לעברית — בוחרים \"עברית (המקור)\"."; }
 if("serviceWorker" in navigator && location.protocol==="https:" && !location.hostname.includes("translate.goog")){ window.addEventListener("load",()=>navigator.serviceWorker.register("sw.js").catch(()=>{})); }
