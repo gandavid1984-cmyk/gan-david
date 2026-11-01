@@ -187,7 +187,7 @@ font{background:transparent!important;box-shadow:none!important}
         <option value="ka">ქართული — גאורגית</option>
         <option value="fr">français — צרפתית</option>
       </select>
-      <span class="count" id="langNote">תרגום אוטומטי של Google, רק כשבוחרים שפה. לחזרה לעברית — בוחרים "עברית (המקור)".</span>
+      <span class="count" id="langNote">מתרגם רק את הידיעות (כותרת, טקסט ושאלות); הממשק נשאר בעברית. תרגום אוטומטי של Google.</span>
     </div>
   </section>
 
@@ -236,7 +236,7 @@ const TOPICS = [
 const TOPIC_NAME = Object.fromEntries(TOPICS.map(t=>[t[0],t[1]]));
 const TOPIC_EMOJI = Object.fromEntries(TOPICS.map(t=>[t[0],t[2]]));
 const LEVEL_NAME = {easy:"רמה קלה",medium:"רמה בינונית",hard:"רמה גבוהה",expert:"רמה גבוהה מאוד"};
-const DATA_URL = location.hostname.includes("translate.goog") ? "https://gandavid1984-cmyk.github.io/gan-david/data/news.json" : "data/news.json";
+const DATA_URL = "data/news.json";
 
 const state = {bold:true, level:"easy", topics:new Set(), date:null, dates:[], all:[], items:[], picked:new Set(), range:"day"};
 try{ const s=JSON.parse(localStorage.getItem("akt-state")||"{}"); if(s.level) state.level=s.level; if(Array.isArray(s.topics)) state.topics=new Set(s.topics); const b=localStorage.getItem("akt-bold"); if(b!==null) state.bold=b==="1"; }catch(e){}
@@ -314,7 +314,7 @@ function visibleItems(){
   const order = Object.fromEntries(TOPICS.map((t,i)=>[t[0],i]));
   return sel.slice().sort((a,b)=>String(b.date).localeCompare(String(a.date)) || (order[a.topic]??99)-(order[b.topic]??99) || String(a.id).localeCompare(String(b.id)));
 }
-function renderList(){
+let renderList=function(){
   const items=visibleItems();
   $("#count").textContent = state.items.length
     ? (state.topics.size? `מוצגות ${items.length} ידיעות מתוך ${state.items.length} · ${LEVEL_NAME[state.level]} · ${rangeLabel()}` : `כל ${state.items.length} הידיעות · ${LEVEL_NAME[state.level]} · ${rangeLabel()} — אפשר לצמצם לפי נושא`)
@@ -340,7 +340,7 @@ function renderList(){
       ${src.length?`<details class="src-wrap" translate="no"><summary>מקורות (למדריכה)</summary><ul class="src">${src.map(s=>`<li>${s.url?`<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.title||s.url)}</a>`:esc(s.title||"")}</li>`).join("")}</ul></details>`:""}
     </article>`;
   }).join("");
-}
+};
 listEl.addEventListener("change",e=>{
   const c=e.target.closest("input[data-pick]"); if(!c) return;
   const id=c.dataset.pick; c.checked? state.picked.add(id) : state.picked.delete(id);
@@ -362,10 +362,14 @@ $("#pdf").onclick=async()=>{
     const doc=new jsPDF({orientation:"portrait",unit:"mm",format:"a4"});
     const A4_W=210, A4_H=297, M=8, PW=A4_W-2*M, PH=A4_H-2*M;
     for(let i=0;i<items.length;i++){
-      const it=items[i]; const sh=shownText(it);
+      const it=items[i]; let sh=shownText(it);
+      const art=document.querySelector(`article.item[data-id="${CSS.escape(it.id)}"]`);
+      const translated = art && art.dataset.translated===state.lang && state.lang;
+      if(translated){ sh={title:art.querySelector("h3").textContent, body:art.querySelector(".body").textContent, questions:[...art.querySelectorAll("ol.q li")].map(l=>l.textContent)}; }
+      const dir = translated? "ltr":"rtl";
       const fs = Number($("#fontSize").value)||20;
-      stage.innerHTML=`<div style="width:${PW}mm;min-height:${PH}mm;padding:6mm 8mm;box-sizing:border-box;font-family:'Heebo',Arial,sans-serif;background:#fff;color:#000;direction:rtl;text-align:right">
-        <div style="font-size:11pt;color:#555;border-bottom:1px solid #999;padding-bottom:2mm;margin-bottom:6mm;display:flex;justify-content:space-between;direction:rtl"><span>${esc(topicLabel(it.topic,it))} · ${LEVEL_NAME[state.level]}</span><span>${heDate(it.date)}</span></div>
+      stage.innerHTML=`<div style="width:${PW}mm;min-height:${PH}mm;padding:6mm 8mm;box-sizing:border-box;font-family:'Heebo',Arial,sans-serif;background:#fff;color:#000;direction:${dir};text-align:${dir==="rtl"?"right":"left"}">
+        <div style="font-size:11pt;color:#555;border-bottom:1px solid #999;padding-bottom:2mm;margin-bottom:6mm;display:flex;justify-content:space-between;direction:rtl"><span>${esc(topicLabel(it.topic,it))} · ${LEVEL_NAME[state.level]}${translated?" · "+esc(LANG_NAME[state.lang]):""}</span><span>${heDate(it.date)}</span></div>
         <h1 style="font-size:${Math.round(fs*1.3)}pt;font-weight:800;margin:0 0 6mm;line-height:1.3">${esc(sh.title)}</h1>
         <div style="font-size:${fs}pt;line-height:1.85;white-space:pre-line;font-weight:${state.bold?700:400}">${esc(sh.body)}</div>
         ${sh.questions.length?`<div style="margin-top:8mm;border-top:1px solid #999;padding-top:4mm"><div style="font-weight:800;font-size:${Math.max(12,fs-4)}pt;margin-bottom:2mm">שאלות לשיחה</div><ol style="font-size:${Math.max(12,fs-4)}pt;line-height:1.6;margin:0;padding-inline-start:8mm">${sh.questions.map(q=>`<li style="margin-bottom:2mm">${esc(q)}</li>`).join("")}</ol></div>`:""}
@@ -459,17 +463,51 @@ async function init(){
   }
 }
 init();
-// ---- translation via Google Translate (free; opens the site through Google's translating proxy)
-const ORIGIN_HOST="gandavid1984-cmyk.github.io", ORIGIN_URL="https://gandavid1984-cmyk.github.io/gan-david/";
-function currentLang(){ if(!location.hostname.includes("translate.goog")) return ""; return new URLSearchParams(location.search).get("_x_tr_tl")||""; }
-$("#lang").value=currentLang();
-$("#lang").addEventListener("change",()=>{
-  const l=$("#lang").value;
-  if(!l){ location.href=ORIGIN_URL; return; }
-  location.href="https://gandavid1984--cmyk-github-io.translate.goog/gan-david/?_x_tr_sl=iw&_x_tr_tl="+encodeURIComponent(l)+"&_x_tr_hl=iw&_x_tr_pto=wapp";
-});
-if(currentLang()){ $("#langNote").textContent="הדף מוצג בתרגום אוטומטי של Google. לחזרה לעברית — בוחרים \"עברית (המקור)\"."; }
-if("serviceWorker" in navigator && location.protocol==="https:" && !location.hostname.includes("translate.goog")){ window.addEventListener("load",()=>navigator.serviceWorker.register("sw.js").catch(()=>{})); }
+// ---- translation of the articles only (Google Translate, free; cached on this device)
+const LANG_NAME={en:"אנגלית",ru:"רוסית",es:"ספרדית",ka:"גאורגית",fr:"צרפתית"};
+state.lang = (()=>{ try{ return localStorage.getItem("akt-lang")||""; }catch(e){ return ""; } })();
+const trCache = {};
+try{ Object.assign(trCache, JSON.parse(localStorage.getItem("akt-trcache")||"{}")); }catch(e){}
+function saveTrCache(){ try{ const keys=Object.keys(trCache); if(keys.length>600) keys.slice(0,keys.length-600).forEach(k=>delete trCache[k]); localStorage.setItem("akt-trcache",JSON.stringify(trCache)); }catch(e){} }
+async function gtranslate(text, lang){
+  const key=lang+"|"+text; if(trCache[key]) return trCache[key];
+  const r=await fetch("https://translate.googleapis.com/translate_a/single?client=gtx&sl=iw&tl="+encodeURIComponent(lang)+"&dt=t&q="+encodeURIComponent(text));
+  if(!r.ok) throw new Error("HTTP "+r.status);
+  const j=await r.json(); const out=(j[0]||[]).map(x=>x[0]).join("");
+  if(!out) throw new Error("empty");
+  trCache[key]=out; return out;
+}
+let trRun=0;
+async function translateVisible(){
+  const lang=state.lang; if(!lang) return;
+  const run=++trRun; const note=$("#langNote");
+  const arts=[...document.querySelectorAll("article.item")]; let done=0, failed=0;
+  note.textContent=`מתרגם ל${LANG_NAME[lang]}… 0 מתוך ${arts.length}`;
+  for(const art of arts){
+    if(run!==trRun) return;
+    const id=art.dataset.id; const it=state.items.find(x=>x.id===id); if(!it) continue;
+    const sh=shownText(it);
+    try{
+      const [t,b,...qs]=await Promise.all([gtranslate(sh.title,lang), gtranslate(sh.body,lang), ...sh.questions.map(q=>gtranslate(q,lang))]);
+      if(run!==trRun) return;
+      const h3=art.querySelector("h3"), body=art.querySelector(".body"), lis=art.querySelectorAll("ol.q li");
+      if(h3){ h3.textContent=t; h3.dir="ltr"; h3.style.textAlign="left"; }
+      if(body){ body.textContent=b; body.dir="ltr"; body.style.textAlign="left"; }
+      lis.forEach((li,i)=>{ if(qs[i]){ li.textContent=qs[i]; li.dir="ltr"; li.style.textAlign="left"; } });
+      art.dataset.translated=lang;
+      const orig=art.querySelector(".orig-note"); if(!orig){ const d=document.createElement("details"); d.className="orig-note"; d.innerHTML=`<summary translate="no">המקור בעברית</summary><div class="body ${state.level}" dir="rtl" style="font-size:16px;line-height:1.7;color:var(--muted)">${esc(sh.body)}</div>`; const q=art.querySelector("details"); art.insertBefore(d, q||null); }
+      done++;
+    }catch(e){ failed++; }
+    note.textContent=`מתרגם ל${LANG_NAME[lang]}… ${done+failed} מתוך ${arts.length}`;
+  }
+  saveTrCache();
+  note.textContent = failed? `${done} ידיעות תורגמו ל${LANG_NAME[lang]}; ${failed} לא הצליחו (אין חיבור לשירות התרגום?). נסי שוב בעוד רגע.` : `הידיעות מוצגות ב${LANG_NAME[lang]} — תרגום אוטומטי של Google. לחזרה לעברית: "עברית (המקור)".`;
+}
+$("#lang").value=state.lang;
+$("#lang").addEventListener("change",()=>{ state.lang=$("#lang").value; try{ localStorage.setItem("akt-lang",state.lang); }catch(e){} renderList(); if(state.lang) translateVisible(); else $("#langNote").textContent="תרגום אוטומטי של Google, רק כשבוחרים שפה. לחזרה לעברית — בוחרים \"עברית (המקור)\"."; });
+// re-translate whenever the list is re-rendered
+const _renderList=renderList; renderList=function(){ _renderList(); if(state.lang) translateVisible(); };
+if("serviceWorker" in navigator && location.protocol==="https:" ){ window.addEventListener("load",()=>navigator.serviceWorker.register("sw.js").catch(()=>{})); }
 </script>
 </body>
 </html>
