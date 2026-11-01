@@ -181,6 +181,7 @@ font{background:transparent!important;box-shadow:none!important}
     <div class="row">
       <select id="lang">
         <option value="">עברית (המקור)</option>
+        <option value="en">English — אנגלית</option>
         <option value="ru">русский — רוסית</option>
         <option value="es">español — ספרדית</option>
         <option value="ka">ქართული — גאורגית</option>
@@ -469,7 +470,7 @@ function setLangCookie(l){
 }
 $("#lang").value=getLangCookie();
 $("#lang").addEventListener("change",()=>{ setLangCookie($("#lang").value); location.reload(); });
-window.googleTranslateElementInit=function(){ try{ new google.translate.TranslateElement({pageLanguage:"iw", includedLanguages:"ru,es,ka,fr", autoDisplay:false}, "google_translate_element"); }catch(e){} };
+window.googleTranslateElementInit=function(){ try{ new google.translate.TranslateElement({pageLanguage:"iw", includedLanguages:"en,ru,es,ka,fr", autoDisplay:false}, "google_translate_element"); }catch(e){} };
 if(getLangCookie()){ const g=document.createElement("script"); g.src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"; document.head.appendChild(g); }
 if("serviceWorker" in navigator && location.protocol==="https:"){ window.addEventListener("load",()=>navigator.serviceWorker.register("sw.js").catch(()=>{})); }
 </script>
