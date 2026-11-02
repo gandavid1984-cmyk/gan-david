@@ -41,7 +41,7 @@ body{background:var(--bg);color:var(--ink);font-family:"Heebo",system-ui,-apple-
 header.top{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-bottom:14px}
 h1{font-size:clamp(24px,4vw,34px);font-weight:800;margin:0;letter-spacing:-.01em}
 .sub{color:var(--muted);font-size:15px;margin-top:2px}
-.status{font-size:14px;color:var(--muted);background:var(--card);border:1px solid var(--line);border-radius:999px;padding:6px 14px;box-shadow:var(--shadow)}
+.status{font-size:15px;font-weight:700;white-space:nowrap;max-width:100%;overflow:hidden;text-overflow:ellipsis;color:var(--muted);background:var(--card);border:1px solid var(--line);border-radius:999px;padding:6px 14px;box-shadow:var(--shadow)}
 .status.warn{color:var(--red);border-color:var(--red)}
 .card{background:var(--card);border-radius:var(--radius);box-shadow:var(--shadow);padding:18px 20px;margin-bottom:16px}
 .card h2{font-size:18px;font-weight:800;margin:0 0 10px}
@@ -128,12 +128,12 @@ font{background:transparent!important;box-shadow:none!important}
       <div class="sub">אקטואליה בפישוט לשוני · מתעדכן כל בוקר · בלי עמדה פוליטית</div>
     </div>
     </div>
-    <div class="status" id="status">מתחבר…</div>
+    <div class="status" id="status" translate="no"></div>
   </header>
 
   <section class="card no-print" translate="no">
     <div class="row">
-      <button class="btn primary" id="savePrefs">💾 שמרי את ההעדפות שלי</button>
+      <button class="btn primary" id="savePrefs">💾 שמור את ההעדפות שלי</button>
       <span class="count" id="prefsNote"></span>
     </div>
   </section>
@@ -161,11 +161,11 @@ font{background:transparent!important;box-shadow:none!important}
 
   <section class="card no-print" translate="no">
     <h2>2. בוחרים נושאים</h2>
-    <div class="row" id="topics"></div>
-    <div class="row" style="margin-top:10px">
-      <button class="chip ghost" id="allTopics">בחרי הכול</button>
-      <button class="chip ghost" id="noTopics">נקי בחירה</button>
+    <div class="row" style="margin-bottom:10px">
+      <button class="chip ghost" id="allTopics">בחר הכול</button>
+      <button class="chip ghost" id="noTopics">נקה בחירה</button>
     </div>
+    <div class="row" id="topics"></div>
   </section>
 
 
@@ -234,7 +234,7 @@ const DATA_URL = "data/news.json";
 
 const state = {bold:true, level:"easy", topics:new Set(), date:null, dates:[], all:[], items:[], picked:new Set(), range:"day"};
 try{ const s=JSON.parse(localStorage.getItem("akt-prefs")||localStorage.getItem("akt-state")||"{}"); if(s.level) state.level=s.level; if(Array.isArray(s.topics)) state.topics=new Set(s.topics); if(s.fontSize) state.fontSize=String(s.fontSize); }catch(e){}
-function persist(){ /* ההעדפות נשמרות רק בלחיצה על "שמרי את ההעדפות שלי" */ }
+function persist(){ /* ההעדפות נשמרות רק בלחיצה על "שמור את ההעדפות שלי" */ }
 function savePrefs(){ try{ localStorage.setItem("akt-prefs",JSON.stringify({level:state.level,topics:[...state.topics],fontSize:$("#fontSize").value})); return true; }catch(e){ return false; } }
 function applyBold(){ document.body.classList.toggle("bold-text",state.bold); const c=document.getElementById("boldText"); if(c) c.checked=state.bold; }
 
@@ -246,7 +246,7 @@ function heDate(iso){
   const d=new Date(iso+"T12:00:00");
   const days=["ראשון","שני","שלישי","רביעי","חמישי","שישי","שבת"];
   const months=["ינואר","פברואר","מרץ","אפריל","מאי","יוני","יולי","אוגוסט","ספטמבר","אוקטובר","נובמבר","דצמבר"];
-  return `יום ${days[d.getDay()]}, ${d.getDate()} ב${months[d.getMonth()]} ${d.getFullYear()}${hebDate(d)}`;
+  return `יום ${days[d.getDay()]}, ${d.getDate()}.${d.getMonth()+1}.${d.getFullYear()}`;
 }
 function gematria(n){
   n=Number(n); if(!n||n<1||n>999) return String(n);
@@ -333,7 +333,7 @@ let renderList=function(){
     return;
   }
   if(!items.length){
-    listEl.innerHTML = `<div class="empty" translate="no"><b>אין ידיעות בנושאים שנבחרו</b>בחרי נושאים אחרים, או "נקי בחירה" כדי לראות את הכול.</div>`;
+    listEl.innerHTML = `<div class="empty" translate="no"><b>אין ידיעות בנושאים שנבחרו</b>בחר נושאים אחרים, או "נקה בחירה" כדי לראות את הכול.</div>`;
     return;
   }
   listEl.innerHTML = items.map(it=>{
@@ -413,15 +413,16 @@ $("#pdf").onclick=async()=>{
 
 // ---- preferences (saved on this device, no name needed)
 $("#savePrefs").onclick=()=>{
-  if(!state.topics.size){ $("#prefsNote").textContent="בחרי לפחות נושא אחד לפני השמירה."; return; }
+  if(!state.topics.size){ $("#prefsNote").textContent="בחר לפחות נושא אחד לפני השמירה."; return; }
   $("#prefsNote").textContent = savePrefs()? `ההעדפות נשמרו במכשיר הזה (${state.topics.size} נושאים, ${LEVEL_NAME[state.level]}, גודל כתב ${$("#fontSize").value}).` : "השמירה נכשלה במכשיר הזה.";
 };
 function loadLocalProfiles(){ if(state.fontSize && $("#fontSize")) $("#fontSize").value=state.fontSize; if(localStorage.getItem("akt-prefs") && state.topics.size) $("#prefsNote").textContent="נטענו ההעדפות השמורות במכשיר הזה. אפשר לשנות לפעם הזאת, ולשמור שוב אם רוצים."; }
 
 // ---- data
 function setStatus(t,warn){ statusEl.textContent=t; statusEl.classList.toggle("warn",!!warn); }
+function showToday(){ const d=new Date(); const days=["ראשון","שני","שלישי","רביעי","חמישי","שישי","שבת"]; setStatus(`יום ${days[d.getDay()]}, ${d.getDate()}.${d.getMonth()+1}.${d.getFullYear()}${hebDate(d)}`); }
 async function init(){
-  applyBold(); loadLocalProfiles(); renderLevel(); renderTopics(); renderList();
+  showToday(); applyBold(); loadLocalProfiles(); renderLevel(); renderTopics(); renderList();
   try{
     const r=await fetch(DATA_URL+"?t="+Date.now(),{cache:"no-store"});
     if(!r.ok) throw new Error("HTTP "+r.status);
@@ -431,11 +432,11 @@ async function init(){
     state.dates = [...new Set(state.all.map(it=>it.date))].sort().reverse();
     renderCountries();
     if(!state.dates.length){ setStatus("עדיין אין ידיעות במערכת"); renderDates(); renderList(); return; }
-    setStatus(d.lastUpdate? `עודכן לאחרונה: ${d.lastUpdate}` : "מחובר");
+    showToday();
     state.date = state.dates[0];
     renderDates(); selectItems();
   }catch(e){
-    setStatus("לא הצלחתי לטעון את הידיעות — בדקי חיבור לאינטרנט ונסי לרענן",true);
+    setStatus("לא הצלחתי לטעון את הידיעות — בדוק חיבור לאינטרנט ונסה לרענן",true);
     renderCountries();
   }
 }
@@ -478,7 +479,7 @@ async function translateVisible(){
     note.textContent=`מתרגם ל${LANG_NAME[lang]}… ${done+failed} מתוך ${arts.length}`;
   }
   saveTrCache();
-  note.textContent = failed? `${done} ידיעות תורגמו ל${LANG_NAME[lang]}; ${failed} לא הצליחו (אין חיבור לשירות התרגום?). נסי שוב בעוד רגע.` : `הידיעות מוצגות ב${LANG_NAME[lang]} — תרגום אוטומטי של Google. לחזרה לעברית: "עברית (המקור)".`;
+  note.textContent = failed? `${done} ידיעות תורגמו ל${LANG_NAME[lang]}; ${failed} לא הצליחו (אין חיבור לשירות התרגום?). נסה שוב בעוד רגע.` : `הידיעות מוצגות ב${LANG_NAME[lang]} — תרגום אוטומטי של Google. לחזרה לעברית: "עברית (המקור)".`;
 }
 $("#lang").value=state.lang;
 $("#lang").addEventListener("change",()=>{ state.lang=$("#lang").value; try{ localStorage.setItem("akt-lang",state.lang); }catch(e){} renderList(); if(state.lang) translateVisible(); else $("#langNote").textContent=""; });
