@@ -294,7 +294,7 @@ topicsEl.addEventListener("click",e=>{
   const id=b.dataset.t; state.topics.has(id)?state.topics.delete(id):state.topics.add(id);
   persist(); renderTopics(); renderList();
 });
-$("#allTopics").onclick=()=>{ TOPICS.forEach(t=>state.topics.add(t[0])); persist(); renderTopics(); renderList(); };
+$("#allTopics").onclick=()=>{ TOPICS.forEach(t=>state.topics.add(t[0])); state.items.forEach(it=>state.topics.add(it.topic)); persist(); renderTopics(); renderList(); };
 $("#noTopics").onclick=()=>{ state.topics.clear(); persist(); renderTopics(); renderList(); };
 
 // ---- countries (fixed list from the data file)
@@ -327,7 +327,7 @@ function shownText(it){
   return {title:it.title, body, questions:Array.isArray(it.questions)?it.questions:[], fallback: state.level==="expert"&&!it.expert};
 }
 function visibleItems(){
-  const sel = state.topics.size? state.items.filter(it=>state.topics.has(it.topic)) : state.items;
+  const sel = state.topics.size? state.items.filter(it=>state.topics.has(it.topic)) : [];
   const order = Object.fromEntries(TOPICS.map((t,i)=>[t[0],i]));
   return sel.slice().sort((a,b)=>String(b.date).localeCompare(String(a.date)) || (order[a.topic]??99)-(order[b.topic]??99) || String(a.id).localeCompare(String(b.id)));
 }
@@ -339,7 +339,9 @@ let renderList=function(){
     return;
   }
   if(!items.length){
-    listEl.innerHTML = `<div class="empty" translate="no"><b>אין ידיעות בנושאים שנבחרו</b>בחר נושאים אחרים, או "נקה בחירה" כדי לראות את הכול.</div>`;
+    listEl.innerHTML = state.topics.size
+      ? `<div class="empty" translate="no"><b>אין ידיעות בנושאים שנבחרו</b>בחר נושאים אחרים למעלה.</div>`
+      : `<div class="empty" translate="no"><b>עדיין לא נבחרו נושאים</b>בחר נושאים למעלה כדי לראות ידיעות, או "בחר הכול".</div>`;
     return;
   }
   listEl.innerHTML = items.map(it=>{
