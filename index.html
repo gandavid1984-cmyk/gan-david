@@ -608,7 +608,7 @@ function showToday(){
 function showPlace(){
   const el=$("#place"); if(!el||!navigator.geolocation) return;
   const set=name=>{ if(name){ el.innerHTML=`<span class="lbl">📍 אנחנו ב:</span> ${esc(name)}`; el.style.display=""; } };
-  try{ const c=JSON.parse(localStorage.getItem("akt-place")||"null"); if(c&&c.name&&Date.now()-c.t<6*3600*1000){ set(c.name); if(c.lat!=null) showWeather(c.lat,c.lon); return; } }catch(e){}
+  try{ const c=JSON.parse(localStorage.getItem("akt-place")||"null"); if(c&&c.name&&c.lat!=null&&Date.now()-c.t<6*3600*1000){ set(c.name); showWeather(c.lat,c.lon); return; } }catch(e){}
   navigator.geolocation.getCurrentPosition(async pos=>{
     try{
       const {latitude:lat, longitude:lon}=pos.coords;
