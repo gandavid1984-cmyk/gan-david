@@ -41,6 +41,9 @@ body{background:var(--bg);color:var(--ink);font-family:"Heebo",system-ui,-apple-
 header.top{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-bottom:14px}
 h1{font-size:clamp(24px,4vw,34px);font-weight:800;margin:0;letter-spacing:-.01em}
 .sub{color:var(--muted);font-size:15px;margin-top:2px}
+.today{width:100%;background:var(--card);border:1px solid var(--line);border-radius:18px;padding:12px 16px;box-shadow:var(--shadow);font-size:18px;font-weight:700;line-height:1.7}
+.today .big{font-size:22px}
+.today .lbl{color:var(--muted);font-weight:600}
 .status{font-size:15px;font-weight:700;white-space:nowrap;max-width:100%;overflow:hidden;text-overflow:ellipsis;color:var(--muted);background:var(--card);border:1px solid var(--line);border-radius:999px;padding:6px 14px;box-shadow:var(--shadow)}
 .status.warn{color:var(--red);border-color:var(--red)}
 .card{background:var(--card);border-radius:var(--radius);box-shadow:var(--shadow);padding:18px 20px;margin-bottom:16px}
@@ -128,9 +131,8 @@ font{background:transparent!important;box-shadow:none!important}
       <div class="sub">אקטואליה בפישוט לשוני · מתעדכן כל בוקר · בלי עמדה פוליטית</div>
     </div>
     </div>
-    <div class="status" id="status" translate="no"></div>
-    <div class="status" id="parasha" translate="no" style="display:none;margin-top:6px"></div>
-    <div class="status" id="orient" translate="no" style="margin-top:6px;white-space:normal"></div>
+    <div class="today" id="today" translate="no"></div>
+    <div class="status" id="status" translate="no" style="display:none"></div>
   </header>
 
   <section class="card no-print" translate="no">
@@ -421,24 +423,35 @@ $("#savePrefs").onclick=()=>{
 function loadLocalProfiles(){ if(state.fontSize && $("#fontSize")) $("#fontSize").value=state.fontSize; if(localStorage.getItem("akt-prefs") && state.topics.size) $("#prefsNote").textContent="נטענו ההעדפות השמורות במכשיר הזה. אפשר לשנות לפעם הזאת, ולשמור שוב אם רוצים."; }
 
 // ---- data
-function setStatus(t,warn){ statusEl.textContent=t; statusEl.classList.toggle("warn",!!warn); }
-function showParasha(p){
-  const el=$("#parasha"); if(!el) return;
-  if(!p||!p.name||!p.shabbat||p.shabbat<todayIso()){ el.style.display="none"; return; }
-  const d=new Date(p.shabbat+"T12:00:00");
-  el.textContent=`📜 פרשת השבוע: ${p.name} · שבת ${d.getDate()}.${d.getMonth()+1}`; el.style.display="";
+function setStatus(t,warn){ statusEl.textContent=t; statusEl.style.display=t?"":"none"; statusEl.classList.toggle("warn",!!warn); }
+let parashaInfo=null;
+function hebParts(d){
+  try{
+    const parts=new Intl.DateTimeFormat("he-u-ca-hebrew",{day:"numeric",month:"long",year:"numeric"}).formatToParts(d);
+    const get=t=>(parts.find(x=>x.type===t)||{}).value||"";
+    const day=parseInt(get("day"),10), year=parseInt(get("year"),10), month=get("month");
+    if(!day||!year||!month) return null;
+    return {day:gematria(day), month, year:gematria(year%1000)};
+  }catch(e){ return null; }
 }
-function showOrient(){
-  const el=$("#orient"); if(!el) return;
+function showParasha(p){ parashaInfo=p||null; showToday(); }
+function showToday(){
+  const el=$("#today"); if(!el) return;
   const d=new Date(); const days=["ראשון","שני","שלישי","רביעי","חמישי","שישי","שבת"];
   const months=["ינואר","פברואר","מרץ","אפריל","מאי","יוני","יולי","אוגוסט","ספטמבר","אוקטובר","נובמבר","דצמבר"];
-  let hm=""; try{ const parts=new Intl.DateTimeFormat("he-u-ca-hebrew",{month:"long"}).formatToParts(d); hm=(parts.find(x=>x.type==="month")||{}).value||""; }catch(e){}
-  el.innerHTML = `היום יום ${days[d.getDay()]} · חודש ${months[d.getMonth()]}${hm?` (${esc(hm)})`:""} · שנת ${d.getFullYear()}<span id="place"></span>`;
+  const h=hebParts(d);
+  const lines=[`<div class="big">היום יום ${days[d.getDay()]}</div>`,
+    `<div><span class="lbl">תאריך לועזי:</span> ${d.getDate()} ב${months[d.getMonth()]}, שנת ${d.getFullYear()}</div>`];
+  if(h) lines.push(`<div><span class="lbl">תאריך עברי:</span> ${esc(h.day)} ב${esc(h.month)}, שנת ${esc(h.year)}</div>`);
+  const p=parashaInfo;
+  if(p&&p.name&&p.shabbat&&p.shabbat>=todayIso()){ const sd=new Date(p.shabbat+"T12:00:00"); lines.push(`<div><span class="lbl">📜 פרשת השבוע:</span> ${esc(p.name)} (שבת ${sd.getDate()}.${sd.getMonth()+1})</div>`); }
+  lines.push(`<div id="place" style="display:none"></div>`);
+  el.innerHTML=lines.join("");
   showPlace();
 }
 function showPlace(){
   const el=$("#place"); if(!el||!navigator.geolocation) return;
-  const set=name=>{ if(name) el.textContent=` · 📍 ${name}`; };
+  const set=name=>{ if(name){ el.innerHTML=`<span class="lbl">📍 אנחנו ב:</span> ${esc(name)}`; el.style.display=""; } };
   try{ const c=JSON.parse(localStorage.getItem("akt-place")||"null"); if(c&&c.name&&Date.now()-c.t<6*3600*1000){ set(c.name); return; } }catch(e){}
   navigator.geolocation.getCurrentPosition(async pos=>{
     try{
@@ -451,9 +464,8 @@ function showPlace(){
     }catch(e){}
   }, ()=>{}, {timeout:10000, maximumAge:3600000});
 }
-function showToday(){ const d=new Date(); const days=["ראשון","שני","שלישי","רביעי","חמישי","שישי","שבת"]; setStatus(`יום ${days[d.getDay()]}, ${d.getDate()}.${d.getMonth()+1}.${d.getFullYear()}${hebDate(d)}`); }
 async function init(){
-  showToday(); showOrient(); applyBold(); loadLocalProfiles(); renderLevel(); renderTopics(); renderList();
+  showToday(); applyBold(); loadLocalProfiles(); renderLevel(); renderTopics(); renderList();
   try{
     const r=await fetch(DATA_URL+"?t="+Date.now(),{cache:"no-store"});
     if(!r.ok) throw new Error("HTTP "+r.status);
