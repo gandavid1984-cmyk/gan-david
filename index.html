@@ -119,6 +119,8 @@ font{background:transparent!important;box-shadow:none!important}
 .people{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-top:10px;font-size:15px;color:#555}
 .people .pbtn{display:inline-block;padding:6px 12px;border:1px solid #c9b48a;border-radius:999px;background:#fff8e8;color:#4a3a1a;text-decoration:none;font-size:15px}
 .people .pbtn:hover{background:#f3e6c6}
+.people .pgrp{display:inline-flex;gap:4px;align-items:center}
+.people .pbtn.wiki{background:#eef3ff;border-color:#9fb4e8;color:#1e3a8a}
 </style>
 </head>
 <body>
@@ -350,7 +352,7 @@ let renderList=function(){
       <h3>${esc(shown.title)}</h3>
       <div class="body ${state.level}">${esc(shown.body)}</div>
       ${shown.questions.length?`<details><summary translate="no">שאלות לשיחה עם הקבוצה</summary><ol class="q">${shown.questions.map(q=>`<li>${esc(q)}</li>`).join("")}</ol></details>`:""}
-      ${Array.isArray(it.people)&&it.people.length?`<div class="people no-print" translate="no"><span>תמונות (נפתח בחלון חדש):</span>${it.people.map(p=>`<a class="pbtn" href="https://www.google.com/search?tbm=isch&q=${encodeURIComponent(p)}" target="_blank" rel="noopener">🖼️ ${esc(p)}</a>`).join("")}</div>`:""}
+      ${Array.isArray(it.people)&&it.people.length?`<div class="people no-print" translate="no"><span>לכל אדם — תמונות ומידע בעברית (נפתח בחלון חדש):</span>${it.people.map(p=>`<span class="pgrp"><a class="pbtn" href="https://www.google.com/search?tbm=isch&q=${encodeURIComponent(p)}" target="_blank" rel="noopener">🖼️ ${esc(p)}</a><a class="pbtn wiki" href="https://he.wikipedia.org/wiki/Special:Search?search=${encodeURIComponent(p)}&go=Go" target="_blank" rel="noopener">📖 ויקיפדיה</a></span>`).join("")}</div>`:""}
       ${src.length?`<details class="src-wrap" translate="no"><summary>מקורות (למדריכה)</summary><ul class="src">${src.map(s=>`<li>${s.url?`<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.title||s.url)}</a>`:esc(s.title||"")}</li>`).join("")}</ul></details>`:""}
     </article>`;
   }).join("");
