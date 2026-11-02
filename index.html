@@ -398,7 +398,9 @@ let renderList=function(){
       <div class="meta no-print" translate="no"><span class="tag">${topicEmoji(it.topic)} ${esc(topicLabel(it.topic,it))}</span>${state.range!=="day"?`<span>${heDate(it.date)}</span>`:""}${it.verified===false?`<span class="unverified">לא אומת במלואו</span>`:""}${shown.fallback?`<span class="unverified">אין לידיעה זו טקסט רגיל — מוצג הפישוט הגבוה</span>`:""}</div>
       <h3>${esc(shown.title)}</h3>
       <div class="body ${state.level}">${esc(shown.body)}</div>
-      <button class="speak no-print" data-speak="${esc(it.id)}" translate="no">🔊 הקרא</button>
+      ${(!state.lang && Array.isArray(it.audio) && it.audio.includes(state.level))
+        ? `<button class="speak no-print" data-play="${esc(it.id)}" data-src="audio/${esc(it.id)}-${state.level}.mp3" translate="no">▶ האזנה</button>`
+        : `<button class="speak no-print" data-speak="${esc(it.id)}" translate="no">🔊 הקרא</button>`}
       ${shown.questions.length?`<details><summary translate="no">שאלות לשיחה עם הקבוצה</summary><ol class="q">${shown.questions.map(q=>`<li>${esc(q)}</li>`).join("")}</ol></details>`:""}
       ${Array.isArray(it.people)&&it.people.length?`<div class="people no-print" translate="no"><span>לכל אדם — תמונות ומידע בעברית (נפתח בחלון חדש):</span>${it.people.map(p=>`<span class="pgrp"><a class="pbtn" href="https://www.google.com/search?tbm=isch&q=${encodeURIComponent(p)}" target="_blank" rel="noopener">🖼️ ${esc(p)}</a><a class="pbtn wiki" href="https://he.wikipedia.org/wiki/Special:Search?search=${encodeURIComponent(p)}&go=Go" target="_blank" rel="noopener">📖 ויקיפדיה</a></span>`).join("")}</div>`:""}
       ${src.length?`<details class="src-wrap" translate="no"><summary>מקורות (למדריכה)</summary><ul class="src">${src.map(s=>`<li>${s.url?`<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.title||s.url)}</a>`:esc(s.title||"")}</li>`).join("")}</ul></details>`:""}
@@ -481,7 +483,7 @@ function pickVoice(lang){
   const vs=voicesFor(lang); if(!vs.length) return null;
   return vs.find(v=>/premium|enhanced|neural|natural|משופר/i.test(v.name)) || vs.find(v=>v.lang.replace("_","-").toLowerCase()===lang.toLowerCase()) || vs[0];
 }
-function stopSpeak(){ try{ speechSynthesis.cancel(); }catch(e){} speakingId=null; document.querySelectorAll(".speak.on,#showSpeak.on").forEach(b=>b.classList.remove("on")); }
+function stopSpeak(){ try{ speechSynthesis.cancel(); }catch(e){} speakingId=null; if(typeof player!=="undefined"&&player&&playingId){ try{ player.pause(); }catch(e){} playingId=null; } document.querySelectorAll(".speak.on,#showSpeak.on").forEach(b=>b.classList.remove("on")); }
 function speakText(text,id,btn,lang){
   if(!("speechSynthesis" in window)){ alert("הדפדפן הזה לא תומך בהקראה."); return; }
   if(speakingId===id){ stopSpeak(); return; }
@@ -503,12 +505,26 @@ listEl.addEventListener("click",e=>{
   const b=e.target.closest("button[data-speak]"); if(!b) return;
   const it=state.items.find(x=>x.id===b.dataset.speak); if(!it) return; const sp=itemSpeech(it); speakText(sp.text, it.id, b, sp.lang);
 });
+// ---- narrated audio files (he-IL neural voice, made each morning)
+let player=null, playingId=null;
+function stopPlay(){ if(player){ try{ player.pause(); }catch(e){} } playingId=null; document.querySelectorAll(".speak.on,#showSpeak.on").forEach(b=>b.classList.remove("on")); }
+function playAudio(src,id,btn){
+  if(playingId===id){ stopPlay(); return; }
+  stopPlay(); stopSpeak();
+  if(!player){ player=new Audio(); player.preload="none"; player.addEventListener("ended",()=>stopPlay()); player.addEventListener("error",()=>{ stopPlay(); }); }
+  player.src=src; player.playbackRate=Number($("#rate").value)||1; playingId=id; if(btn) btn.classList.add("on");
+  player.play().catch(()=>{ stopPlay(); });
+}
+listEl.addEventListener("click",e=>{
+  const b=e.target.closest("button[data-play]"); if(!b) return;
+  playAudio(b.dataset.src, b.dataset.play, b);
+});
 function renderVoice(){ if(state.rate) $("#rate").value=state.rate; }
-$("#rate").addEventListener("change",()=>{ state.rate=$("#rate").value; stopSpeak(); const sp=state.lang? null : "שלום, זאת המהירות שבחרת."; if(sp) speakText(sp,"__test",null,"he-IL"); });
+$("#rate").addEventListener("change",()=>{ state.rate=$("#rate").value; if(player) player.playbackRate=Number(state.rate)||1; stopSpeak(); const sp=state.lang? null : "שלום, זאת המהירות שבחרת."; if(sp) speakText(sp,"__test",null,"he-IL"); });
 $("#voiceHelp").onclick=()=>{
   const el=$("#voiceNote"); const open=el.style.display==="none";
   const he=voicesFor("he-IL"), cur=SPEECH_LANG[state.lang||""]||"he-IL", vs=voicesFor(cur);
-  el.innerHTML = `ההקראה נעשית בקול של הטלפון עצמו, בשפה שנבחרה למעלה. ${vs.length? `במכשיר הזה נמצאו ${vs.length} קולות לשפה הזאת${vs.some(v=>/premium|enhanced|משופר/i.test(v.name))?" (כולל קול משופר ⭐)":""}.` : "במכשיר הזה לא נמצא קול לשפה הזאת — צריך להתקין."}<br>לקול טוב יותר באייפון: הגדרות ← נגישות ← תוכן מדובר ← קולות ← עברית (או השפה הרצויה) ← להוריד את הגרסה "משופר" או "פרימיום". באנדרואיד: הגדרות ← ניהול כללי ← טקסט לדיבור ← התקנת נתוני קול. אחרי ההתקנה האתר בוחר לבד את הקול הטוב ביותר.`;
+  el.innerHTML = `בעברית, ידיעות מהשבוע האחרון מגיעות עם קול קריין מוכן (כפתור "▶ האזנה"). בשאר המקרים ההקראה נעשית בקול של הטלפון עצמו, בשפה שנבחרה למעלה. ${vs.length? `במכשיר הזה נמצאו ${vs.length} קולות לשפה הזאת${vs.some(v=>/premium|enhanced|משופר/i.test(v.name))?" (כולל קול משופר ⭐)":""}.` : "במכשיר הזה לא נמצא קול לשפה הזאת — צריך להתקין."}<br>לקול טוב יותר באייפון: הגדרות ← נגישות ← תוכן מדובר ← קולות ← עברית (או השפה הרצויה) ← להוריד את הגרסה "משופר" או "פרימיום". באנדרואיד: הגדרות ← ניהול כללי ← טקסט לדיבור ← התקנת נתוני קול. אחרי ההתקנה האתר בוחר לבד את הקול הטוב ביותר.`;
   el.style.display = open? "" : "none";
 };
 window.addEventListener("pagehide",stopSpeak);
@@ -522,7 +538,7 @@ function openShow(){
   try{ if(document.documentElement.requestFullscreen) document.documentElement.requestFullscreen().catch(()=>{}); }catch(e){}
   renderShow();
 }
-function closeShow(){ stopSpeak(); $("#show").hidden=true; document.body.style.overflow=""; try{ if(document.fullscreenElement) document.exitFullscreen().catch(()=>{}); }catch(e){} }
+function closeShow(){ stopSpeak(); stopPlay(); $("#show").hidden=true; document.body.style.overflow=""; try{ if(document.fullscreenElement) document.exitFullscreen().catch(()=>{}); }catch(e){} }
 function renderShow(){
   const items=showItems(); if(!items.length){ closeShow(); return; }
   show.idx=Math.max(0,Math.min(show.idx,items.length-1));
@@ -536,12 +552,13 @@ function renderShow(){
   $("#showBody").scrollTop=0;
 }
 $("#present").onclick=openShow; $("#showClose").onclick=closeShow;
-$("#showNext").onclick=()=>{ stopSpeak(); show.idx++; show.q=false; renderShow(); };
-$("#showPrev").onclick=()=>{ stopSpeak(); show.idx--; show.q=false; renderShow(); };
+$("#showNext").onclick=()=>{ stopSpeak(); stopPlay(); show.idx++; show.q=false; renderShow(); };
+$("#showPrev").onclick=()=>{ stopSpeak(); stopPlay(); show.idx--; show.q=false; renderShow(); };
 $("#showQ").onclick=()=>{ show.q=!show.q; renderShow(); };
 $("#showBigger").onclick=()=>{ show.fs=Math.min(72,show.fs+4); renderShow(); };
 $("#showSmaller").onclick=()=>{ show.fs=Math.max(20,show.fs-4); renderShow(); };
-$("#showSpeak").onclick=()=>{ const it=showItems()[show.idx]; if(!it) return; const sh=displayedText(it); speakText(show.q? sh.questions.join(". ") : `${sh.title}. ${sh.body}`, "show:"+it.id+(show.q?":q":""), $("#showSpeak"), sh.lang); };
+$("#showSpeak").onclick=()=>{ const it=showItems()[show.idx]; if(!it) return; const sh=displayedText(it);
+  if(!show.q && !state.lang && Array.isArray(it.audio) && it.audio.includes(state.level)){ playAudio(`audio/${it.id}-${state.level}.mp3`, "show:"+it.id, $("#showSpeak")); return; } speakText(show.q? sh.questions.join(". ") : `${sh.title}. ${sh.body}`, "show:"+it.id+(show.q?":q":""), $("#showSpeak"), sh.lang); };
 document.addEventListener("keydown",e=>{ if($("#show").hidden) return; if(e.key==="Escape") closeShow(); if(e.key==="ArrowLeft") $("#showNext").click(); if(e.key==="ArrowRight") $("#showPrev").click(); });
 
 // ---- back to top + lock mode

@@ -45,7 +45,12 @@
    ],
    "verified": true,
    "date": "2026-11-02",
-   "ts": 1793589087
+   "ts": 1793589087,
+   "audio": [
+    "easy",
+    "medium",
+    "hard"
+   ]
   },
   {
    "id": "2026-11-02-israel-2",
@@ -76,7 +81,12 @@
    ],
    "verified": true,
    "date": "2026-11-02",
-   "ts": 1793589087
+   "ts": 1793589087,
+   "audio": [
+    "easy",
+    "medium",
+    "hard"
+   ]
   },
   {
    "id": "2026-11-02-israel-3",
@@ -111,7 +121,12 @@
    ],
    "verified": true,
    "date": "2026-11-02",
-   "ts": 1793589087
+   "ts": 1793589087,
+   "audio": [
+    "easy",
+    "medium",
+    "hard"
+   ]
   },
   {
    "id": "2026-11-02-weather-1",
@@ -154,7 +169,12 @@
    ],
    "verified": true,
    "date": "2026-11-02",
-   "ts": 1793589087
+   "ts": 1793589087,
+   "audio": [
+    "easy",
+    "medium",
+    "hard"
+   ]
   },
   {
    "id": "2026-11-02-nature-1",
@@ -193,7 +213,12 @@
    ],
    "verified": true,
    "date": "2026-11-02",
-   "ts": 1793589087
+   "ts": 1793589087,
+   "audio": [
+    "easy",
+    "medium",
+    "hard"
+   ]
   },
   {
    "id": "2026-11-02-holidays-1",
@@ -220,7 +245,12 @@
    ],
    "verified": true,
    "date": "2026-11-02",
-   "ts": 1793589087
+   "ts": 1793589087,
+   "audio": [
+    "easy",
+    "medium",
+    "hard"
+   ]
   },
   {
    "id": "2026-11-02-hebrew-1",
@@ -247,7 +277,12 @@
    ],
    "verified": true,
    "date": "2026-11-02",
-   "ts": 1793589087
+   "ts": 1793589087,
+   "audio": [
+    "easy",
+    "medium",
+    "hard"
+   ]
   },
   {
    "id": "2026-11-02-onthisday-1",
@@ -278,7 +313,12 @@
    ],
    "verified": true,
    "date": "2026-11-02",
-   "ts": 1793589087
+   "ts": 1793589087,
+   "audio": [
+    "easy",
+    "medium",
+    "hard"
+   ]
   },
   {
    "id": "2026-11-02-birthdays-1",
@@ -327,7 +367,12 @@
    ],
    "verified": true,
    "date": "2026-11-02",
-   "ts": 1793589087
+   "ts": 1793589087,
+   "audio": [
+    "easy",
+    "medium",
+    "hard"
+   ]
   },
   {
    "id": "2026-11-02-economy-1",
@@ -354,7 +399,12 @@
    ],
    "verified": true,
    "date": "2026-11-02",
-   "ts": 1793589087
+   "ts": 1793589087,
+   "audio": [
+    "easy",
+    "medium",
+    "hard"
+   ]
   },
   {
    "id": "2026-11-02-food-1",
@@ -389,7 +439,12 @@
    ],
    "verified": true,
    "date": "2026-11-02",
-   "ts": 1793589087
+   "ts": 1793589087,
+   "audio": [
+    "easy",
+    "medium",
+    "hard"
+   ]
   },
   {
    "id": "2026-11-02-health-1",
@@ -412,7 +467,12 @@
    ],
    "verified": true,
    "date": "2026-11-02",
-   "ts": 1793589087
+   "ts": 1793589087,
+   "audio": [
+    "easy",
+    "medium",
+    "hard"
+   ]
   },
   {
    "id": "2026-11-02-kids-1",
@@ -447,7 +507,12 @@
    ],
    "verified": true,
    "date": "2026-11-02",
-   "ts": 1793589087
+   "ts": 1793589087,
+   "audio": [
+    "easy",
+    "medium",
+    "hard"
+   ]
   },
   {
    "id": "2026-11-02-sport-1",
@@ -482,7 +547,12 @@
    ],
    "verified": true,
    "date": "2026-11-02",
-   "ts": 1793589087
+   "ts": 1793589087,
+   "audio": [
+    "easy",
+    "medium",
+    "hard"
+   ]
   },
   {
    "id": "2026-11-02-transport-1",
@@ -505,7 +575,12 @@
    ],
    "verified": true,
    "date": "2026-11-02",
-   "ts": 1793589087
+   "ts": 1793589087,
+   "audio": [
+    "easy",
+    "medium",
+    "hard"
+   ]
   },
   {
    "id": "2026-11-02-world-1",
@@ -528,7 +603,12 @@
    ],
    "verified": true,
    "date": "2026-11-02",
-   "ts": 1793589087
+   "ts": 1793589087,
+   "audio": [
+    "easy",
+    "medium",
+    "hard"
+   ]
   },
   {
    "id": "2026-11-02-country-1",
@@ -564,7 +644,12 @@
    ],
    "verified": true,
    "date": "2026-11-02",
-   "ts": 1793589087
+   "ts": 1793589087,
+   "audio": [
+    "easy",
+    "medium",
+    "hard"
+   ]
   },
   {
    "id": "2026-11-02-country-2",
@@ -596,7 +681,12 @@
    ],
    "verified": true,
    "date": "2026-11-02",
-   "ts": 1793589087
+   "ts": 1793589087,
+   "audio": [
+    "easy",
+    "medium",
+    "hard"
+   ]
   },
   {
    "id": "2026-11-02-country-3",
@@ -624,7 +714,12 @@
    ],
    "verified": true,
    "date": "2026-11-02",
-   "ts": 1793589087
+   "ts": 1793589087,
+   "audio": [
+    "easy",
+    "medium",
+    "hard"
+   ]
   },
   {
    "topic": "israel",
@@ -650,7 +745,12 @@
    "verified": true,
    "date": "2026-11-01",
    "ts": 1793525453,
-   "id": "2026-11-01-israel-1"
+   "id": "2026-11-01-israel-1",
+   "audio": [
+    "easy",
+    "medium",
+    "hard"
+   ]
   },
   {
    "topic": "nature",
@@ -676,7 +776,12 @@
    "verified": true,
    "date": "2026-11-01",
    "ts": 1793525453,
-   "id": "2026-11-01-nature-1"
+   "id": "2026-11-01-nature-1",
+   "audio": [
+    "easy",
+    "medium",
+    "hard"
+   ]
   },
   {
    "topic": "israel",
@@ -706,7 +811,12 @@
    "verified": true,
    "date": "2026-11-01",
    "ts": 1793525453,
-   "id": "2026-11-01-politics-1"
+   "id": "2026-11-01-politics-1",
+   "audio": [
+    "easy",
+    "medium",
+    "hard"
+   ]
   },
   {
    "topic": "science",
@@ -732,7 +842,12 @@
    "verified": true,
    "date": "2026-11-01",
    "ts": 1793525453,
-   "id": "2026-11-01-science-1"
+   "id": "2026-11-01-science-1",
+   "audio": [
+    "easy",
+    "medium",
+    "hard"
+   ]
   },
   {
    "topic": "sport",
@@ -754,7 +869,12 @@
    "verified": true,
    "date": "2026-11-01",
    "ts": 1793525453,
-   "id": "2026-11-01-sport-1"
+   "id": "2026-11-01-sport-1",
+   "audio": [
+    "easy",
+    "medium",
+    "hard"
+   ]
   },
   {
    "topic": "tech",
@@ -776,7 +896,12 @@
    "verified": true,
    "date": "2026-11-01",
    "ts": 1793525453,
-   "id": "2026-11-01-tech-1"
+   "id": "2026-11-01-tech-1",
+   "audio": [
+    "easy",
+    "medium",
+    "hard"
+   ]
   },
   {
    "topic": "weather",
@@ -802,7 +927,12 @@
    "verified": true,
    "date": "2026-11-01",
    "ts": 1793525453,
-   "id": "2026-11-01-weather-1"
+   "id": "2026-11-01-weather-1",
+   "audio": [
+    "easy",
+    "medium",
+    "hard"
+   ]
   },
   {
    "topic": "world",
@@ -824,7 +954,12 @@
    "verified": true,
    "date": "2026-11-01",
    "ts": 1793525453,
-   "id": "2026-11-01-world-1"
+   "id": "2026-11-01-world-1",
+   "audio": [
+    "easy",
+    "medium",
+    "hard"
+   ]
   }
  ]
 }
