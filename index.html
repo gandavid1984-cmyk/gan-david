@@ -166,6 +166,8 @@ font{background:transparent!important;box-shadow:none!important}
         <button data-v="f" class="on">קול אישה</button>
         <button data-v="m">קול גבר</button>
       </div>
+      <select id="voicePick" style="display:none"></select>
+      <select id="rate"><option value="0.75">איטי</option><option value="0.9" selected>רגיל</option><option value="1.05">מהיר</option></select>
       <span class="count" id="voiceNote"></span>
     </div>
     <div class="row">
@@ -288,9 +290,9 @@ const LEVEL_NAME = {easy:"פישוט קל",medium:"פישוט בינוני",hard
 const DATA_URL = "data/news.json";
 
 const state = {bold:true, level:"easy", topics:new Set(), date:null, dates:[], all:[], items:[], picked:new Set(), range:"day"};
-try{ const s=JSON.parse(localStorage.getItem("akt-prefs")||localStorage.getItem("akt-state")||"{}"); if(s.level) state.level=s.level; if(Array.isArray(s.topics)) state.topics=new Set(s.topics); if(s.fontSize) state.fontSize=String(s.fontSize); if(s.voice) state.voice=s.voice; }catch(e){}
+try{ const s=JSON.parse(localStorage.getItem("akt-prefs")||localStorage.getItem("akt-state")||"{}"); if(s.level) state.level=s.level; if(Array.isArray(s.topics)) state.topics=new Set(s.topics); if(s.fontSize) state.fontSize=String(s.fontSize); if(s.voice) state.voice=s.voice; if(s.voiceName) state.voiceName=s.voiceName; if(s.rate) state.rate=s.rate; }catch(e){}
 function persist(){ /* ההעדפות נשמרות רק בלחיצה על "שמור את ההעדפות שלי" */ }
-function savePrefs(){ try{ localStorage.setItem("akt-prefs",JSON.stringify({level:state.level,topics:[...state.topics],fontSize:$("#fontSize").value,voice:state.voice||"f"})); return true; }catch(e){ return false; } }
+function savePrefs(){ try{ localStorage.setItem("akt-prefs",JSON.stringify({level:state.level,topics:[...state.topics],fontSize:$("#fontSize").value,voice:state.voice||"f",voiceName:state.voiceName||"",rate:$("#rate").value})); return true; }catch(e){ return false; } }
 function applyBold(){ document.body.classList.toggle("bold-text",state.bold); const c=document.getElementById("boldText"); if(c) c.checked=state.bold; }
 
 const $ = s=>document.querySelector(s);
@@ -482,6 +484,7 @@ let speakingId=null, voicesCache=[];
 function heVoices(){ try{ voicesCache=speechSynthesis.getVoices().filter(v=>/^he/i.test(v.lang)||/hebrew|עברית/i.test(v.name)); }catch(e){ voicesCache=[]; } return voicesCache; }
 function pickVoice(){
   const vs=heVoices(); if(!vs.length) return {voice:null,pitch:state.voice==="m"?0.75:1.05};
+  if(state.voiceName){ const v=vs.find(x=>x.name===state.voiceName); if(v) return {voice:v,pitch:state.voice==="m"?0.8:1}; }
   const fem=/carmit|female|woman|אישה|נשי|shelly|michal|noa/i, mal=/male|man|גבר|asaf|eitan|guy|david|uri/i;
   let v=null;
   if(state.voice==="m") v=vs.find(x=>mal.test(x.name)&&!fem.test(x.name)) || (vs.length>1? vs[1]:null);
@@ -494,7 +497,7 @@ function speakText(text,id,btn){
   if(!("speechSynthesis" in window)){ alert("הדפדפן הזה לא תומך בהקראה."); return; }
   if(speakingId===id){ stopSpeak(); return; }
   stopSpeak();
-  const u=new SpeechSynthesisUtterance(text); u.lang="he-IL"; const pv=pickVoice(); if(pv.voice) u.voice=pv.voice; u.pitch=pv.pitch; u.rate=0.9;
+  const u=new SpeechSynthesisUtterance(text); u.lang="he-IL"; const pv=pickVoice(); if(pv.voice) u.voice=pv.voice; u.pitch=pv.pitch; u.rate=Number($("#rate").value)||0.9;
   u.onend=u.onerror=()=>{ if(speakingId===id) stopSpeak(); };
   speakingId=id; if(btn) btn.classList.add("on"); speechSynthesis.speak(u);
 }
@@ -503,7 +506,16 @@ listEl.addEventListener("click",e=>{
   const b=e.target.closest("button[data-speak]"); if(!b) return;
   const it=state.items.find(x=>x.id===b.dataset.speak); if(it) speakText(itemSpeech(it), it.id, b);
 });
-function renderVoice(){ document.querySelectorAll("#voiceSel button").forEach(b=>b.classList.toggle("on",b.dataset.v===state.voice)); const n=heVoices().length; $("#voiceNote").textContent = n? (n>1? "" : "במכשיר הזה יש קול עברי אחד — קול הגבר מושג בשינוי גובה הצליל.") : "אם לא נשמע קול — במכשיר אין קול עברי מותקן."; }
+function renderVoice(){
+  document.querySelectorAll("#voiceSel button").forEach(b=>b.classList.toggle("on",b.dataset.v===state.voice));
+  const vs=heVoices(), sel=$("#voicePick");
+  if(vs.length>1){ sel.style.display=""; sel.innerHTML=`<option value="">קול אוטומטי</option>`+vs.map(v=>`<option value="${esc(v.name)}" ${v.name===state.voiceName?"selected":""}>${esc(v.name.replace(/\(.*?\)/g,"").trim())}${/enhanced|premium|משופר|neural/i.test(v.name)?" ⭐":""}</option>`).join(""); }
+  else sel.style.display="none";
+  if(state.rate) $("#rate").value=state.rate;
+  $("#voiceNote").textContent = vs.length? (vs.length>1? "⭐ = קול משופר. " : "במכשיר הזה יש קול עברי אחד. ") + "איכות הקול תלויה בטלפון: באייפון מורידים קול עברי משופר ב: הגדרות ← נגישות ← תוכן מדובר ← קולות ← עברית." : "אם לא נשמע קול — במכשיר אין קול עברי מותקן (באייפון: הגדרות ← נגישות ← תוכן מדובר ← קולות ← עברית).";
+}
+$("#voicePick").addEventListener("change",()=>{ state.voiceName=$("#voicePick").value; stopSpeak(); speakText("שלום, זה הקול שבחרת.","__test",null); });
+$("#rate").addEventListener("change",()=>{ state.rate=$("#rate").value; });
 $("#voiceSel").addEventListener("click",e=>{ const b=e.target.closest("button[data-v]"); if(!b) return; state.voice=b.dataset.v; stopSpeak(); renderVoice(); speakText("שלום, זה הקול שבחרת.","__test",null); });
 try{ speechSynthesis.addEventListener("voiceschanged",renderVoice); }catch(e){}
 window.addEventListener("pagehide",stopSpeak);
