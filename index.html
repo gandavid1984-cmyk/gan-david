@@ -86,6 +86,28 @@ ul.src{margin:8px 0 0;padding-inline-start:20px;font-size:14px;color:var(--muted
 ul.src a{color:var(--accent)}
 .unverified{display:inline-block;background:var(--gold-soft);color:var(--ink);border-radius:999px;padding:2px 10px;font-size:13px;font-weight:700}
 .empty{text-align:center;color:var(--muted);padding:40px 20px;font-size:18px}
+.item .speak{display:inline-block;margin:6px 0 2px;padding:8px 16px;border-radius:999px;border:2px solid var(--line);background:var(--card);font:inherit;font-size:16px;font-weight:700;cursor:pointer;color:var(--ink)}
+.item .speak.on{background:var(--green-soft);border-color:var(--green)}
+.fab{position:fixed;bottom:18px;left:16px;z-index:900;font:inherit;font-size:16px;font-weight:700;padding:12px 18px;border-radius:999px;border:2px solid var(--accent);background:var(--accent);color:#fff;box-shadow:var(--shadow);cursor:pointer}
+.fab.unlock{left:auto;right:16px;background:#fff;color:var(--ink);border-color:var(--line)}
+.fab[hidden]{display:none}
+body.locked .card.no-print, body.locked .item .pick, body.locked .item .src-wrap{display:none!important}
+body.locked header.top .sub{display:none}
+.show[hidden]{display:none}
+.show{position:fixed;inset:0;z-index:1000;background:#fffdf7;color:#111;display:flex;flex-direction:column;direction:rtl}
+.show-bar,.show-nav{display:flex;gap:10px;align-items:center;justify-content:center;flex-wrap:wrap;padding:10px 14px;background:#f1efe6;border-bottom:1px solid #ddd}
+.show-nav{border-top:1px solid #ddd;border-bottom:0}
+.show-pos{font-weight:700;font-size:18px;color:#555;margin:0 8px}
+.sbtn{font:inherit;font-size:18px;font-weight:700;padding:10px 18px;border-radius:999px;border:2px solid #bbb;background:#fff;cursor:pointer;color:#111}
+.sbtn.big{font-size:22px;padding:14px 26px;background:var(--accent);color:#fff;border-color:var(--accent)}
+.sbtn.big#showQ{background:#fff;color:#111;border-color:#bbb}
+.sbtn.on{background:var(--green-soft);border-color:var(--green)}
+.show-body{flex:1;overflow:auto;padding:24px 28px;font-size:var(--showfs,34px);line-height:1.7;font-weight:700}
+.show-body .tag{display:inline-block;background:var(--accent-soft);border-radius:999px;padding:4px 16px;font-size:0.6em;margin-bottom:10px}
+.show-body h2{font-size:1.25em;margin:0 0 16px;line-height:1.3}
+.show-body .txt{white-space:pre-line}
+.show-body ol{padding-inline-start:1.2em}
+.show-body ol li{margin-bottom:0.5em}
 .empty b{color:var(--ink);display:block;font-size:22px;margin-bottom:6px}
 .item .pick{float:left;margin-inline-start:10px}
 .item .pick input{width:22px;height:22px;cursor:pointer}
@@ -138,6 +160,14 @@ font{background:transparent!important;box-shadow:none!important}
   </header>
 
   <section class="card no-print" translate="no">
+    <div class="row" style="margin-bottom:10px">
+      <span style="font-weight:700">🔊 קול הקראה:</span>
+      <div class="lvl" id="voiceSel" style="margin:0">
+        <button data-v="f" class="on">קול אישה</button>
+        <button data-v="m">קול גבר</button>
+      </div>
+      <span class="count" id="voiceNote"></span>
+    </div>
     <div class="row">
       <button class="btn primary" id="savePrefs">💾 שמור את ההעדפות שלי</button>
       <span class="count" id="prefsNote"></span>
@@ -145,7 +175,7 @@ font{background:transparent!important;box-shadow:none!important}
   </section>
 
   <section class="card no-print" translate="no">
-    <h2>1. בוחרים תאריך ורמה</h2>
+    <h2>1. בוחרים תאריך ופישוט לשוני</h2>
     <div class="row" style="margin-bottom:12px">
       <label for="range" style="font-weight:700">תקופה:</label>
       <select id="range">
@@ -158,10 +188,10 @@ font{background:transparent!important;box-shadow:none!important}
       <span class="count" id="dateNote"></span>
     </div>
     <div class="lvl" id="lvl">
-      <button data-l="easy" class="on">רמה קלה</button>
-      <button data-l="medium">רמה בינונית</button>
-      <button data-l="hard">רמה גבוהה</button>
-      <button data-l="expert">רמה גבוהה מאוד</button>
+      <button data-l="easy" class="on">קל</button>
+      <button data-l="medium">בינוני</button>
+      <button data-l="hard">גבוה</button>
+      <button data-l="expert">רגיל</button>
     </div>
   </section>
 
@@ -193,6 +223,8 @@ font{background:transparent!important;box-shadow:none!important}
   <section class="card no-print tools" translate="no">
     <div class="count" id="count"></div>
     <div class="row">
+      <button class="btn primary" id="lock">🔒 נעילה — רק הידיעות שנבחרו</button>
+      <button class="btn primary" id="present">📺 מצב הצגה לקבוצה</button>
       <button class="btn primary" id="pdf">📄 הורדת PDF להדפסה (A4)</button>
       <label for="fontSize" style="font-weight:700">גודל כתב:</label>
       <select id="fontSize">
@@ -207,6 +239,23 @@ font{background:transparent!important;box-shadow:none!important}
     <div id="pdfStage" style="position:absolute;left:-10000px;top:0;width:200mm;background:#fff;color:#000;direction:rtl"></div>
 
   <main id="list"></main>
+  <button id="toTop" class="fab no-print" title="חזרה למעלה" translate="no" hidden>⬆ למעלה</button>
+  <button id="unlock" class="fab unlock no-print" translate="no" hidden>🔓 ביטול נעילה</button>
+  <div id="show" class="show" hidden translate="no">
+    <div class="show-bar">
+      <button class="sbtn" id="showClose">✕ סגור</button>
+      <span class="show-pos" id="showPos"></span>
+      <button class="sbtn" id="showSpeak">🔊 הקרא</button>
+      <button class="sbtn" id="showSmaller">א−</button>
+      <button class="sbtn" id="showBigger">א+</button>
+    </div>
+    <div class="show-body" id="showBody"></div>
+    <div class="show-nav">
+      <button class="sbtn big" id="showPrev">▶ הקודמת</button>
+      <button class="sbtn big" id="showQ">❓ שאלות</button>
+      <button class="sbtn big" id="showNext">הבאה ◀</button>
+    </div>
+  </div>
   <div class="foot" translate="no">הקטעים נכתבים מדי בוקר על סמך ידיעות שאומתו מול מקורות מוכרים. ידיעה שלא ניתן היה לאמת במלואה מסומנת.</div>
 </div>
 
@@ -235,13 +284,13 @@ const TOPICS = [
 ];
 const TOPIC_NAME = Object.fromEntries(TOPICS.map(t=>[t[0],t[1]]));
 const TOPIC_EMOJI = Object.fromEntries(TOPICS.map(t=>[t[0],t[2]]));
-const LEVEL_NAME = {easy:"רמה קלה",medium:"רמה בינונית",hard:"רמה גבוהה",expert:"רמה גבוהה מאוד"};
+const LEVEL_NAME = {easy:"פישוט קל",medium:"פישוט בינוני",hard:"פישוט גבוה",expert:"טקסט רגיל"};
 const DATA_URL = "data/news.json";
 
 const state = {bold:true, level:"easy", topics:new Set(), date:null, dates:[], all:[], items:[], picked:new Set(), range:"day"};
-try{ const s=JSON.parse(localStorage.getItem("akt-prefs")||localStorage.getItem("akt-state")||"{}"); if(s.level) state.level=s.level; if(Array.isArray(s.topics)) state.topics=new Set(s.topics); if(s.fontSize) state.fontSize=String(s.fontSize); }catch(e){}
+try{ const s=JSON.parse(localStorage.getItem("akt-prefs")||localStorage.getItem("akt-state")||"{}"); if(s.level) state.level=s.level; if(Array.isArray(s.topics)) state.topics=new Set(s.topics); if(s.fontSize) state.fontSize=String(s.fontSize); if(s.voice) state.voice=s.voice; }catch(e){}
 function persist(){ /* ההעדפות נשמרות רק בלחיצה על "שמור את ההעדפות שלי" */ }
-function savePrefs(){ try{ localStorage.setItem("akt-prefs",JSON.stringify({level:state.level,topics:[...state.topics],fontSize:$("#fontSize").value})); return true; }catch(e){ return false; } }
+function savePrefs(){ try{ localStorage.setItem("akt-prefs",JSON.stringify({level:state.level,topics:[...state.topics],fontSize:$("#fontSize").value,voice:state.voice||"f"})); return true; }catch(e){ return false; } }
 function applyBold(){ document.body.classList.toggle("bold-text",state.bold); const c=document.getElementById("boldText"); if(c) c.checked=state.bold; }
 
 const $ = s=>document.querySelector(s);
@@ -350,9 +399,10 @@ let renderList=function(){
     const checked = state.picked.has(it.id);
     return `<article class="item ${checked?"":"hide-print"}" data-id="${esc(it.id)}">
       <label class="pick no-print" title="לכלול בהדפסה" translate="no"><input type="checkbox" ${checked?"checked":""} data-pick="${esc(it.id)}"></label>
-      <div class="meta no-print" translate="no"><span class="tag">${topicEmoji(it.topic)} ${esc(topicLabel(it.topic,it))}</span>${state.range!=="day"?`<span>${heDate(it.date)}</span>`:""}${it.verified===false?`<span class="unverified">לא אומת במלואו</span>`:""}${shown.fallback?`<span class="unverified">אין לידיעה זו רמה גבוהה מאוד — מוצגת הרמה הגבוהה</span>`:""}</div>
+      <div class="meta no-print" translate="no"><span class="tag">${topicEmoji(it.topic)} ${esc(topicLabel(it.topic,it))}</span>${state.range!=="day"?`<span>${heDate(it.date)}</span>`:""}${it.verified===false?`<span class="unverified">לא אומת במלואו</span>`:""}${shown.fallback?`<span class="unverified">אין לידיעה זו טקסט רגיל — מוצג הפישוט הגבוה</span>`:""}</div>
       <h3>${esc(shown.title)}</h3>
       <div class="body ${state.level}">${esc(shown.body)}</div>
+      <button class="speak no-print" data-speak="${esc(it.id)}" translate="no">🔊 הקרא</button>
       ${shown.questions.length?`<details><summary translate="no">שאלות לשיחה עם הקבוצה</summary><ol class="q">${shown.questions.map(q=>`<li>${esc(q)}</li>`).join("")}</ol></details>`:""}
       ${Array.isArray(it.people)&&it.people.length?`<div class="people no-print" translate="no"><span>לכל אדם — תמונות ומידע בעברית (נפתח בחלון חדש):</span>${it.people.map(p=>`<span class="pgrp"><a class="pbtn" href="https://www.google.com/search?tbm=isch&q=${encodeURIComponent(p)}" target="_blank" rel="noopener">🖼️ ${esc(p)}</a><a class="pbtn wiki" href="https://he.wikipedia.org/wiki/Special:Search?search=${encodeURIComponent(p)}&go=Go" target="_blank" rel="noopener">📖 ויקיפדיה</a></span>`).join("")}</div>`:""}
       ${src.length?`<details class="src-wrap" translate="no"><summary>מקורות (למדריכה)</summary><ul class="src">${src.map(s=>`<li>${s.url?`<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.title||s.url)}</a>`:esc(s.title||"")}</li>`).join("")}</ul></details>`:""}
@@ -426,6 +476,96 @@ $("#savePrefs").onclick=()=>{
 };
 function loadLocalProfiles(){ if(state.fontSize && $("#fontSize")) $("#fontSize").value=state.fontSize; if(localStorage.getItem("akt-prefs") && state.topics.size) $("#prefsNote").textContent="נטענו ההעדפות השמורות במכשיר הזה. אפשר לשנות לפעם הזאת, ולשמור שוב אם רוצים."; }
 
+// ---- read aloud (browser speech, Hebrew)
+state.voice = state.voice||"f";
+let speakingId=null, voicesCache=[];
+function heVoices(){ try{ voicesCache=speechSynthesis.getVoices().filter(v=>/^he/i.test(v.lang)||/hebrew|עברית/i.test(v.name)); }catch(e){ voicesCache=[]; } return voicesCache; }
+function pickVoice(){
+  const vs=heVoices(); if(!vs.length) return {voice:null,pitch:state.voice==="m"?0.75:1.05};
+  const fem=/carmit|female|woman|אישה|נשי|shelly|michal|noa/i, mal=/male|man|גבר|asaf|eitan|guy|david|uri/i;
+  let v=null;
+  if(state.voice==="m") v=vs.find(x=>mal.test(x.name)&&!fem.test(x.name)) || (vs.length>1? vs[1]:null);
+  else v=vs.find(x=>fem.test(x.name)) || vs[0];
+  const distinct = v && (state.voice==="m" ? (mal.test(v.name)||vs.length>1) : true);
+  return {voice:v||vs[0], pitch: state.voice==="m" ? (distinct&&mal.test((v||{}).name||"")?1:0.75) : 1.05};
+}
+function stopSpeak(){ try{ speechSynthesis.cancel(); }catch(e){} speakingId=null; document.querySelectorAll(".speak.on,#showSpeak.on").forEach(b=>b.classList.remove("on")); }
+function speakText(text,id,btn){
+  if(!("speechSynthesis" in window)){ alert("הדפדפן הזה לא תומך בהקראה."); return; }
+  if(speakingId===id){ stopSpeak(); return; }
+  stopSpeak();
+  const u=new SpeechSynthesisUtterance(text); u.lang="he-IL"; const pv=pickVoice(); if(pv.voice) u.voice=pv.voice; u.pitch=pv.pitch; u.rate=0.9;
+  u.onend=u.onerror=()=>{ if(speakingId===id) stopSpeak(); };
+  speakingId=id; if(btn) btn.classList.add("on"); speechSynthesis.speak(u);
+}
+function itemSpeech(it){ const sh=shownText(it); return `${sh.title}. ${sh.body}`; }
+listEl.addEventListener("click",e=>{
+  const b=e.target.closest("button[data-speak]"); if(!b) return;
+  const it=state.items.find(x=>x.id===b.dataset.speak); if(it) speakText(itemSpeech(it), it.id, b);
+});
+function renderVoice(){ document.querySelectorAll("#voiceSel button").forEach(b=>b.classList.toggle("on",b.dataset.v===state.voice)); const n=heVoices().length; $("#voiceNote").textContent = n? (n>1? "" : "במכשיר הזה יש קול עברי אחד — קול הגבר מושג בשינוי גובה הצליל.") : "אם לא נשמע קול — במכשיר אין קול עברי מותקן."; }
+$("#voiceSel").addEventListener("click",e=>{ const b=e.target.closest("button[data-v]"); if(!b) return; state.voice=b.dataset.v; stopSpeak(); renderVoice(); speakText("שלום, זה הקול שבחרת.","__test",null); });
+try{ speechSynthesis.addEventListener("voiceschanged",renderVoice); }catch(e){}
+window.addEventListener("pagehide",stopSpeak);
+
+// ---- presentation mode (one item, big text)
+const show={idx:0,fs:(window.innerWidth<600?26:34),q:false};
+function showItems(){ return visibleItems(); }
+function openShow(){
+  const items=showItems(); if(!items.length){ alert("קודם בחר נושאים כדי שיהיו ידיעות להצגה."); return; }
+  show.idx=0; show.q=false; $("#show").hidden=false; document.body.style.overflow="hidden";
+  try{ if(document.documentElement.requestFullscreen) document.documentElement.requestFullscreen().catch(()=>{}); }catch(e){}
+  renderShow();
+}
+function closeShow(){ stopSpeak(); $("#show").hidden=true; document.body.style.overflow=""; try{ if(document.fullscreenElement) document.exitFullscreen().catch(()=>{}); }catch(e){} }
+function renderShow(){
+  const items=showItems(); if(!items.length){ closeShow(); return; }
+  show.idx=Math.max(0,Math.min(show.idx,items.length-1));
+  const it=items[show.idx], sh=shownText(it);
+  document.documentElement.style.setProperty("--showfs",show.fs+"px");
+  $("#showPos").textContent=`${show.idx+1} / ${items.length}`;
+  $("#showBody").innerHTML=`<span class="tag">${topicEmoji(it.topic)} ${esc(topicLabel(it.topic,it))}</span><h2>${esc(sh.title)}</h2>`+
+    (show.q? `<ol>${sh.questions.map(q=>`<li>${esc(q)}</li>`).join("")}</ol>` : `<div class="txt">${esc(sh.body)}</div>`);
+  $("#showQ").classList.toggle("on",show.q); $("#showQ").textContent = show.q? "📰 חזרה לידיעה" : "❓ שאלות";
+  $("#showBody").scrollTop=0;
+}
+$("#present").onclick=openShow; $("#showClose").onclick=closeShow;
+$("#showNext").onclick=()=>{ stopSpeak(); show.idx++; show.q=false; renderShow(); };
+$("#showPrev").onclick=()=>{ stopSpeak(); show.idx--; show.q=false; renderShow(); };
+$("#showQ").onclick=()=>{ show.q=!show.q; renderShow(); };
+$("#showBigger").onclick=()=>{ show.fs=Math.min(72,show.fs+4); renderShow(); };
+$("#showSmaller").onclick=()=>{ show.fs=Math.max(20,show.fs-4); renderShow(); };
+$("#showSpeak").onclick=()=>{ const it=showItems()[show.idx]; if(!it) return; const sh=shownText(it); speakText(show.q? sh.questions.join(". ") : itemSpeech(it), "show:"+it.id+(show.q?":q":""), $("#showSpeak")); };
+document.addEventListener("keydown",e=>{ if($("#show").hidden) return; if(e.key==="Escape") closeShow(); if(e.key==="ArrowLeft") $("#showNext").click(); if(e.key==="ArrowRight") $("#showPrev").click(); });
+
+// ---- back to top + lock mode
+window.addEventListener("scroll",()=>{ $("#toTop").hidden = window.scrollY<400; },{passive:true});
+$("#toTop").onclick=()=>window.scrollTo({top:0,behavior:"smooth"});
+function setLocked(on){
+  if(on && !visibleItems().length){ alert("קודם בחר נושאים כדי שיהיו ידיעות על המסך."); return; }
+  document.body.classList.toggle("locked",on); $("#unlock").hidden=!on;
+  if(on){ stopSpeak(); const first=document.querySelector("article.item"); if(first) first.scrollIntoView({behavior:"smooth",block:"start"}); }
+}
+$("#lock").onclick=()=>setLocked(true);
+$("#unlock").onclick=()=>setLocked(false);
+
+// ---- weather for the current place (Open-Meteo, no key)
+const WMO={0:["☀️","בהיר"],1:["🌤️","בהיר ברובו"],2:["⛅","מעונן חלקית"],3:["☁️","מעונן"],45:["🌫️","ערפל"],48:["🌫️","ערפל"],51:["🌦️","טפטוף"],53:["🌦️","טפטוף"],55:["🌦️","טפטוף"],61:["🌧️","גשם קל"],63:["🌧️","גשם"],65:["🌧️","גשם חזק"],71:["🌨️","שלג"],73:["🌨️","שלג"],75:["🌨️","שלג"],80:["🌦️","ממטרים"],81:["🌧️","ממטרים"],82:["🌧️","ממטרים חזקים"],95:["⛈️","סופת רעמים"],96:["⛈️","סופת רעמים"],99:["⛈️","סופת רעמים"]};
+async function showWeather(lat,lon){
+  const el=$("#wx"); if(!el) return;
+  try{
+    let w=null; try{ const c=JSON.parse(localStorage.getItem("akt-wx")||"null"); if(c&&Date.now()-c.t<60*60*1000&&Math.abs(c.lat-lat)<0.05&&Math.abs(c.lon-lon)<0.05) w=c.w; }catch(e){}
+    if(!w){
+      const r=await fetch(`https://api.open-meteo.com/v1/forecast?latitude=${lat.toFixed(3)}&longitude=${lon.toFixed(3)}&current=temperature_2m,weather_code&daily=temperature_2m_max,temperature_2m_min&timezone=Asia%2FJerusalem&forecast_days=1`);
+      if(!r.ok) return; const j=await r.json();
+      w={t:Math.round(j.current.temperature_2m), code:j.current.weather_code, max:Math.round(j.daily.temperature_2m_max[0]), min:Math.round(j.daily.temperature_2m_min[0])};
+      try{ localStorage.setItem("akt-wx",JSON.stringify({t:Date.now(),lat,lon,w})); }catch(e){}
+    }
+    const d=WMO[w.code]||["🌡️",""];
+    el.innerHTML=`<span class="lbl">${d[0]} מזג האוויר:</span> עכשיו ${w.t}°${d[1]?", "+esc(d[1]):""} · היום בין ${w.min}° ל-${w.max}°`; el.style.display="";
+  }catch(e){}
+}
+
 // ---- data
 function setStatus(t,warn){ statusEl.textContent=t; statusEl.style.display=t?"":"none"; statusEl.classList.toggle("warn",!!warn); }
 let parashaInfo=null;
@@ -449,27 +589,28 @@ function showToday(){
   if(h) lines.push(`<div><span class="lbl">תאריך עברי:</span> ${esc(h.day)} ב${esc(h.month)}, שנת ${esc(h.year)}</div>`);
   const p=parashaInfo;
   if(p&&p.name&&p.shabbat&&p.shabbat>=todayIso()){ const sd=new Date(p.shabbat+"T12:00:00"); lines.push(`<div><span class="lbl">📜 פרשת השבוע:</span> ${esc(p.name)} (שבת ${sd.getDate()}.${sd.getMonth()+1})</div>`); }
-  lines.push(`<div id="place" style="display:none"></div>`);
+  lines.push(`<div id="place" style="display:none"></div>`,`<div id="wx" style="display:none"></div>`);
   el.innerHTML=lines.join("");
   showPlace();
 }
 function showPlace(){
   const el=$("#place"); if(!el||!navigator.geolocation) return;
   const set=name=>{ if(name){ el.innerHTML=`<span class="lbl">📍 אנחנו ב:</span> ${esc(name)}`; el.style.display=""; } };
-  try{ const c=JSON.parse(localStorage.getItem("akt-place")||"null"); if(c&&c.name&&Date.now()-c.t<6*3600*1000){ set(c.name); return; } }catch(e){}
+  try{ const c=JSON.parse(localStorage.getItem("akt-place")||"null"); if(c&&c.name&&Date.now()-c.t<6*3600*1000){ set(c.name); if(c.lat!=null) showWeather(c.lat,c.lon); return; } }catch(e){}
   navigator.geolocation.getCurrentPosition(async pos=>{
     try{
       const {latitude:lat, longitude:lon}=pos.coords;
+      showWeather(lat,lon);
       const r=await fetch(`https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=${lat}&lon=${lon}&zoom=10&accept-language=he`,{headers:{"Accept":"application/json"}});
       if(!r.ok) return;
       const j=await r.json(); const a=j.address||{};
       const name=a.city||a.town||a.village||a.municipality||a.county||"";
-      if(name){ set(name); try{ localStorage.setItem("akt-place",JSON.stringify({name,t:Date.now()})); }catch(e){} }
+      if(name){ set(name); try{ localStorage.setItem("akt-place",JSON.stringify({name,lat,lon,t:Date.now()})); }catch(e){} }
     }catch(e){}
   }, ()=>{}, {timeout:10000, maximumAge:3600000});
 }
 async function init(){
-  showToday(); applyBold(); loadLocalProfiles(); renderLevel(); renderTopics(); renderList();
+  showToday(); applyBold(); loadLocalProfiles(); renderVoice(); renderLevel(); renderTopics(); renderList();
   try{
     const r=await fetch(DATA_URL+"?t="+Date.now(),{cache:"no-store"});
     if(!r.ok) throw new Error("HTTP "+r.status);
