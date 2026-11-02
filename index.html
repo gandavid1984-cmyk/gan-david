@@ -161,15 +161,23 @@ font{background:transparent!important;box-shadow:none!important}
 
   <section class="card no-print" translate="no">
     <div class="row" style="margin-bottom:10px">
-      <span style="font-weight:700">🔊 קול הקראה:</span>
-      <div class="lvl" id="voiceSel" style="margin:0">
-        <button data-v="f" class="on">קול אישה</button>
-        <button data-v="m">קול גבר</button>
-      </div>
-      <select id="voicePick" style="display:none"></select>
-      <select id="rate"><option value="0.75">איטי</option><option value="0.9" selected>רגיל</option><option value="1.05">מהיר</option></select>
-      <span class="count" id="voiceNote"></span>
+      <label for="lang" style="font-weight:700">🌐 שפה:</label>
+      <select id="lang">
+        <option value="">עברית (המקור)</option>
+        <option value="en">English — אנגלית</option>
+        <option value="ru">русский — רוסית</option>
+        <option value="es">español — ספרדית</option>
+        <option value="ka">ქართული — გაორגית</option>
+        <option value="fr">français — צרפתית</option>
+      </select>
+      <span class="count" id="langNote"></span>
     </div>
+    <div class="row" style="margin-bottom:10px">
+      <label for="rate" style="font-weight:700">🔊 מהירות הקראה:</label>
+      <select id="rate"><option value="0.75">איטי</option><option value="0.9" selected>רגיל</option><option value="1.05">מהיר</option></select>
+      <button class="chip ghost" id="voiceHelp" type="button">? איך לשפר את הקול</button>
+    </div>
+    <div class="count" id="voiceNote" style="display:none;margin-bottom:10px"></div>
     <div class="row">
       <button class="btn primary" id="savePrefs">💾 שמור את ההעדפות שלי</button>
       <span class="count" id="prefsNote"></span>
@@ -207,20 +215,6 @@ font{background:transparent!important;box-shadow:none!important}
   </section>
 
 
-  <section class="card no-print" id="langCard" translate="no">
-    <h2>3. שפה</h2>
-    <div class="row">
-      <select id="lang">
-        <option value="">עברית (המקור)</option>
-        <option value="en">English — אנגלית</option>
-        <option value="ru">русский — רוסית</option>
-        <option value="es">español — ספרדית</option>
-        <option value="ka">ქართული — גאורגית</option>
-        <option value="fr">français — צרפתית</option>
-      </select>
-      <span class="count" id="langNote"></span>
-    </div>
-  </section>
 
   <section class="card no-print tools" translate="no">
     <div class="count" id="count"></div>
@@ -290,9 +284,9 @@ const LEVEL_NAME = {easy:"פישוט קל",medium:"פישוט בינוני",hard
 const DATA_URL = "data/news.json";
 
 const state = {bold:true, level:"easy", topics:new Set(), date:null, dates:[], all:[], items:[], picked:new Set(), range:"day"};
-try{ const s=JSON.parse(localStorage.getItem("akt-prefs")||localStorage.getItem("akt-state")||"{}"); if(s.level) state.level=s.level; if(Array.isArray(s.topics)) state.topics=new Set(s.topics); if(s.fontSize) state.fontSize=String(s.fontSize); if(s.voice) state.voice=s.voice; if(s.voiceName) state.voiceName=s.voiceName; if(s.rate) state.rate=s.rate; }catch(e){}
+try{ const s=JSON.parse(localStorage.getItem("akt-prefs")||localStorage.getItem("akt-state")||"{}"); if(s.level) state.level=s.level; if(Array.isArray(s.topics)) state.topics=new Set(s.topics); if(s.fontSize) state.fontSize=String(s.fontSize); if(s.rate) state.rate=s.rate; }catch(e){}
 function persist(){ /* ההעדפות נשמרות רק בלחיצה על "שמור את ההעדפות שלי" */ }
-function savePrefs(){ try{ localStorage.setItem("akt-prefs",JSON.stringify({level:state.level,topics:[...state.topics],fontSize:$("#fontSize").value,voice:state.voice||"f",voiceName:state.voiceName||"",rate:$("#rate").value})); return true; }catch(e){ return false; } }
+function savePrefs(){ try{ localStorage.setItem("akt-prefs",JSON.stringify({level:state.level,topics:[...state.topics],fontSize:$("#fontSize").value,rate:$("#rate").value})); return true; }catch(e){ return false; } }
 function applyBold(){ document.body.classList.toggle("bold-text",state.bold); const c=document.getElementById("boldText"); if(c) c.checked=state.bold; }
 
 const $ = s=>document.querySelector(s);
@@ -478,46 +472,45 @@ $("#savePrefs").onclick=()=>{
 };
 function loadLocalProfiles(){ if(state.fontSize && $("#fontSize")) $("#fontSize").value=state.fontSize; if(localStorage.getItem("akt-prefs") && state.topics.size) $("#prefsNote").textContent="נטענו ההעדפות השמורות במכשיר הזה. אפשר לשנות לפעם הזאת, ולשמור שוב אם רוצים."; }
 
-// ---- read aloud (browser speech, Hebrew)
-state.voice = state.voice||"f";
-let speakingId=null, voicesCache=[];
-function heVoices(){ try{ voicesCache=speechSynthesis.getVoices().filter(v=>/^he/i.test(v.lang)||/hebrew|עברית/i.test(v.name)); }catch(e){ voicesCache=[]; } return voicesCache; }
-function pickVoice(){
-  const vs=heVoices(); if(!vs.length) return {voice:null,pitch:state.voice==="m"?0.75:1.05};
-  if(state.voiceName){ const v=vs.find(x=>x.name===state.voiceName); if(v) return {voice:v,pitch:state.voice==="m"?0.8:1}; }
-  const fem=/carmit|female|woman|אישה|נשי|shelly|michal|noa/i, mal=/male|man|גבר|asaf|eitan|guy|david|uri/i;
-  let v=null;
-  if(state.voice==="m") v=vs.find(x=>mal.test(x.name)&&!fem.test(x.name)) || (vs.length>1? vs[1]:null);
-  else v=vs.find(x=>fem.test(x.name)) || vs[0];
-  const distinct = v && (state.voice==="m" ? (mal.test(v.name)||vs.length>1) : true);
-  return {voice:v||vs[0], pitch: state.voice==="m" ? (distinct&&mal.test((v||{}).name||"")?1:0.75) : 1.05};
+// ---- read aloud (browser speech, in the selected language)
+let speakingId=null;
+const SPEECH_LANG={"":"he-IL",en:"en-US",ru:"ru-RU",es:"es-ES",ka:"ka-GE",fr:"fr-FR"};
+function allVoices(){ try{ return speechSynthesis.getVoices(); }catch(e){ return []; } }
+function voicesFor(lang){ const base=lang.split("-")[0].toLowerCase(); return allVoices().filter(v=>v.lang.toLowerCase().startsWith(base)); }
+function pickVoice(lang){
+  const vs=voicesFor(lang); if(!vs.length) return null;
+  return vs.find(v=>/premium|enhanced|neural|natural|משופר/i.test(v.name)) || vs.find(v=>v.lang.replace("_","-").toLowerCase()===lang.toLowerCase()) || vs[0];
 }
 function stopSpeak(){ try{ speechSynthesis.cancel(); }catch(e){} speakingId=null; document.querySelectorAll(".speak.on,#showSpeak.on").forEach(b=>b.classList.remove("on")); }
-function speakText(text,id,btn){
+function speakText(text,id,btn,lang){
   if(!("speechSynthesis" in window)){ alert("הדפדפן הזה לא תומך בהקראה."); return; }
   if(speakingId===id){ stopSpeak(); return; }
   stopSpeak();
-  const u=new SpeechSynthesisUtterance(text); u.lang="he-IL"; const pv=pickVoice(); if(pv.voice) u.voice=pv.voice; u.pitch=pv.pitch; u.rate=Number($("#rate").value)||0.9;
+  lang=lang||SPEECH_LANG[state.lang||""]||"he-IL";
+  const u=new SpeechSynthesisUtterance(text); u.lang=lang; const v=pickVoice(lang); if(v) u.voice=v; u.rate=Number($("#rate").value)||0.9;
   u.onend=u.onerror=()=>{ if(speakingId===id) stopSpeak(); };
   speakingId=id; if(btn) btn.classList.add("on"); speechSynthesis.speak(u);
 }
-function itemSpeech(it){ const sh=shownText(it); return `${sh.title}. ${sh.body}`; }
+function displayedText(it){
+  const art=document.querySelector(`article.item[data-id="${CSS.escape(it.id)}"]`);
+  if(art && state.lang && art.dataset.translated===state.lang){
+    return {title:art.querySelector("h3").textContent, body:art.querySelector(".body").textContent, questions:[...art.querySelectorAll("ol.q li")].map(l=>l.textContent), lang:SPEECH_LANG[state.lang]||state.lang};
+  }
+  const sh=shownText(it); return {title:sh.title, body:sh.body, questions:sh.questions, lang:"he-IL"};
+}
+function itemSpeech(it){ const t=displayedText(it); return {text:`${t.title}. ${t.body}`, lang:t.lang}; }
 listEl.addEventListener("click",e=>{
   const b=e.target.closest("button[data-speak]"); if(!b) return;
-  const it=state.items.find(x=>x.id===b.dataset.speak); if(it) speakText(itemSpeech(it), it.id, b);
+  const it=state.items.find(x=>x.id===b.dataset.speak); if(!it) return; const sp=itemSpeech(it); speakText(sp.text, it.id, b, sp.lang);
 });
-function renderVoice(){
-  document.querySelectorAll("#voiceSel button").forEach(b=>b.classList.toggle("on",b.dataset.v===state.voice));
-  const vs=heVoices(), sel=$("#voicePick");
-  if(vs.length>1){ sel.style.display=""; sel.innerHTML=`<option value="">קול אוטומטי</option>`+vs.map(v=>`<option value="${esc(v.name)}" ${v.name===state.voiceName?"selected":""}>${esc(v.name.replace(/\(.*?\)/g,"").trim())}${/enhanced|premium|משופר|neural/i.test(v.name)?" ⭐":""}</option>`).join(""); }
-  else sel.style.display="none";
-  if(state.rate) $("#rate").value=state.rate;
-  $("#voiceNote").textContent = vs.length? (vs.length>1? "⭐ = קול משופר. " : "במכשיר הזה יש קול עברי אחד. ") + "איכות הקול תלויה בטלפון: באייפון מורידים קול עברי משופר ב: הגדרות ← נגישות ← תוכן מדובר ← קולות ← עברית." : "אם לא נשמע קול — במכשיר אין קול עברי מותקן (באייפון: הגדרות ← נגישות ← תוכן מדובר ← קולות ← עברית).";
-}
-$("#voicePick").addEventListener("change",()=>{ state.voiceName=$("#voicePick").value; stopSpeak(); speakText("שלום, זה הקול שבחרת.","__test",null); });
-$("#rate").addEventListener("change",()=>{ state.rate=$("#rate").value; });
-$("#voiceSel").addEventListener("click",e=>{ const b=e.target.closest("button[data-v]"); if(!b) return; state.voice=b.dataset.v; stopSpeak(); renderVoice(); speakText("שלום, זה הקול שבחרת.","__test",null); });
-try{ speechSynthesis.addEventListener("voiceschanged",renderVoice); }catch(e){}
+function renderVoice(){ if(state.rate) $("#rate").value=state.rate; }
+$("#rate").addEventListener("change",()=>{ state.rate=$("#rate").value; stopSpeak(); const sp=state.lang? null : "שלום, זאת המהירות שבחרת."; if(sp) speakText(sp,"__test",null,"he-IL"); });
+$("#voiceHelp").onclick=()=>{
+  const el=$("#voiceNote"); const open=el.style.display==="none";
+  const he=voicesFor("he-IL"), cur=SPEECH_LANG[state.lang||""]||"he-IL", vs=voicesFor(cur);
+  el.innerHTML = `ההקראה נעשית בקול של הטלפון עצמו, בשפה שנבחרה למעלה. ${vs.length? `במכשיר הזה נמצאו ${vs.length} קולות לשפה הזאת${vs.some(v=>/premium|enhanced|משופר/i.test(v.name))?" (כולל קול משופר ⭐)":""}.` : "במכשיר הזה לא נמצא קול לשפה הזאת — צריך להתקין."}<br>לקול טוב יותר באייפון: הגדרות ← נגישות ← תוכן מדובר ← קולות ← עברית (או השפה הרצויה) ← להוריד את הגרסה "משופר" או "פרימיום". באנדרואיד: הגדרות ← ניהול כללי ← טקסט לדיבור ← התקנת נתוני קול. אחרי ההתקנה האתר בוחר לבד את הקול הטוב ביותר.`;
+  el.style.display = open? "" : "none";
+};
 window.addEventListener("pagehide",stopSpeak);
 
 // ---- presentation mode (one item, big text)
@@ -533,8 +526,9 @@ function closeShow(){ stopSpeak(); $("#show").hidden=true; document.body.style.o
 function renderShow(){
   const items=showItems(); if(!items.length){ closeShow(); return; }
   show.idx=Math.max(0,Math.min(show.idx,items.length-1));
-  const it=items[show.idx], sh=shownText(it);
+  const it=items[show.idx], sh=displayedText(it);
   document.documentElement.style.setProperty("--showfs",show.fs+"px");
+  $("#showBody").dir = sh.lang==="he-IL"? "rtl":"ltr";
   $("#showPos").textContent=`${show.idx+1} / ${items.length}`;
   $("#showBody").innerHTML=`<span class="tag">${topicEmoji(it.topic)} ${esc(topicLabel(it.topic,it))}</span><h2>${esc(sh.title)}</h2>`+
     (show.q? `<ol>${sh.questions.map(q=>`<li>${esc(q)}</li>`).join("")}</ol>` : `<div class="txt">${esc(sh.body)}</div>`);
@@ -547,7 +541,7 @@ $("#showPrev").onclick=()=>{ stopSpeak(); show.idx--; show.q=false; renderShow()
 $("#showQ").onclick=()=>{ show.q=!show.q; renderShow(); };
 $("#showBigger").onclick=()=>{ show.fs=Math.min(72,show.fs+4); renderShow(); };
 $("#showSmaller").onclick=()=>{ show.fs=Math.max(20,show.fs-4); renderShow(); };
-$("#showSpeak").onclick=()=>{ const it=showItems()[show.idx]; if(!it) return; const sh=shownText(it); speakText(show.q? sh.questions.join(". ") : itemSpeech(it), "show:"+it.id+(show.q?":q":""), $("#showSpeak")); };
+$("#showSpeak").onclick=()=>{ const it=showItems()[show.idx]; if(!it) return; const sh=displayedText(it); speakText(show.q? sh.questions.join(". ") : `${sh.title}. ${sh.body}`, "show:"+it.id+(show.q?":q":""), $("#showSpeak"), sh.lang); };
 document.addEventListener("keydown",e=>{ if($("#show").hidden) return; if(e.key==="Escape") closeShow(); if(e.key==="ArrowLeft") $("#showNext").click(); if(e.key==="ArrowRight") $("#showPrev").click(); });
 
 // ---- back to top + lock mode
@@ -682,7 +676,7 @@ async function translateVisible(){
   note.textContent = failed? `${done} ידיעות תורגמו ל${LANG_NAME[lang]}; ${failed} לא הצליחו (אין חיבור לשירות התרגום?). נסה שוב בעוד רגע.` : `הידיעות מוצגות ב${LANG_NAME[lang]} — תרגום אוטומטי של Google. לחזרה לעברית: "עברית (המקור)".`;
 }
 $("#lang").value=state.lang;
-$("#lang").addEventListener("change",()=>{ state.lang=$("#lang").value; try{ localStorage.setItem("akt-lang",state.lang); }catch(e){} renderList(); if(state.lang) translateVisible(); else $("#langNote").textContent=""; });
+$("#lang").addEventListener("change",()=>{ stopSpeak(); state.lang=$("#lang").value; try{ localStorage.setItem("akt-lang",state.lang); }catch(e){} renderList(); if(state.lang) translateVisible(); else $("#langNote").textContent=""; });
 // re-translate whenever the list is re-rendered
 const _renderList=renderList; renderList=function(){ _renderList(); if(state.lang) translateVisible(); };
 if("serviceWorker" in navigator && location.protocol==="https:" ){ window.addEventListener("load",()=>navigator.serviceWorker.register("sw.js").catch(()=>{})); }
