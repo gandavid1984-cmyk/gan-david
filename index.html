@@ -132,14 +132,10 @@ font{background:transparent!important;box-shadow:none!important}
   </header>
 
   <section class="card no-print" translate="no">
-    <h2>מי מפעילה היום?</h2>
     <div class="row">
-      <select id="who"><option value="">— בלי שם (בחירה חד-פעמית) —</option></select>
-      <input id="newName" type="text" placeholder="שם חדש" style="font:inherit;font-size:16px;border:2px solid var(--line);border-radius:999px;padding:10px 16px;background:var(--card);color:var(--ink);min-height:46px;width:200px">
-      <button class="btn primary" id="saveProfile">💾 שמרי את ההעדפות שלי</button>
-      <button class="btn" id="deleteProfile" style="display:none">🗑 מחקי שם</button>
+      <button class="btn primary" id="savePrefs">💾 שמרי את ההעדפות שלי</button>
+      <span class="count" id="prefsNote"></span>
     </div>
-    <div class="count" id="profileNote" style="margin-top:8px">בוחרים שם מהרשימה — הנושאים והרמה הרגילים נטענים לבד. אפשר תמיד להוסיף נושאים לפעם הזאת, ולשמור שוב אם רוצים. השמות נשמרים במכשיר הזה.</div>
   </section>
 
   <section class="card no-print" translate="no">
@@ -155,7 +151,6 @@ font{background:transparent!important;box-shadow:none!important}
       <select id="date"></select>
       <span class="count" id="dateNote"></span>
     </div>
-    <label class="row" style="margin-bottom:10px;gap:8px;cursor:pointer"><input type="checkbox" id="boldText" checked style="width:22px;height:22px"> <span style="font-weight:700">כתב מעובה</span></label>
     <div class="lvl" id="lvl">
       <button data-l="easy" class="on">רמה קלה</button>
       <button data-l="medium">רמה בינונית</button>
@@ -171,11 +166,6 @@ font{background:transparent!important;box-shadow:none!important}
       <button class="chip ghost" id="allTopics">בחרי הכול</button>
       <button class="chip ghost" id="noTopics">נקי בחירה</button>
     </div>
-    <details style="margin-top:14px">
-      <summary>🌐 מדינות שמעניינות אותנו (ידיעה יומית מכל מדינה)</summary>
-      <div class="row" style="margin-top:10px" id="countries"></div>
-      <div class="count" id="countryNote" style="margin-top:8px">כל בוקר נכנסות ידיעות משלוש מדינות מהרשימה, בסבב — כל מדינה פעמיים בשבוע. ב"שבוע אחורה" מוצאים ידיעה מכל מדינה. לשינוי הרשימה — לפנות ליפית.</div>
-    </details>
   </section>
 
 
@@ -190,14 +180,13 @@ font{background:transparent!important;box-shadow:none!important}
         <option value="ka">ქართული — גאורגית</option>
         <option value="fr">français — צרפתית</option>
       </select>
-      <span class="count" id="langNote">מתרגם רק את הידיעות (כותרת, טקסט ושאלות); הממשק נשאר בעברית. תרגום אוטומטי של Google.</span>
+      <span class="count" id="langNote"></span>
     </div>
   </section>
 
   <section class="card no-print tools" translate="no">
     <div class="count" id="count"></div>
     <div class="row">
-      <button class="btn" id="checkAll">סמני הכול</button>
       <button class="btn primary" id="pdf">📄 הורדת PDF להדפסה (A4)</button>
       <label for="fontSize" style="font-weight:700">גודל כתב:</label>
       <select id="fontSize">
@@ -243,8 +232,9 @@ const LEVEL_NAME = {easy:"רמה קלה",medium:"רמה בינונית",hard:"ר
 const DATA_URL = "data/news.json";
 
 const state = {bold:true, level:"easy", topics:new Set(), date:null, dates:[], all:[], items:[], picked:new Set(), range:"day"};
-try{ const s=JSON.parse(localStorage.getItem("akt-state")||"{}"); if(s.level) state.level=s.level; if(Array.isArray(s.topics)) state.topics=new Set(s.topics); const b=localStorage.getItem("akt-bold"); if(b!==null) state.bold=b==="1"; }catch(e){}
-function persist(){ try{ localStorage.setItem("akt-state",JSON.stringify({level:state.level,topics:[...state.topics]})); }catch(e){} }
+try{ const s=JSON.parse(localStorage.getItem("akt-prefs")||localStorage.getItem("akt-state")||"{}"); if(s.level) state.level=s.level; if(Array.isArray(s.topics)) state.topics=new Set(s.topics); if(s.fontSize) state.fontSize=String(s.fontSize); }catch(e){}
+function persist(){ /* ההעדפות נשמרות רק בלחיצה על "שמרי את ההעדפות שלי" */ }
+function savePrefs(){ try{ localStorage.setItem("akt-prefs",JSON.stringify({level:state.level,topics:[...state.topics],fontSize:$("#fontSize").value})); return true; }catch(e){ return false; } }
 function applyBold(){ document.body.classList.toggle("bold-text",state.bold); const c=document.getElementById("boldText"); if(c) c.checked=state.bold; }
 
 const $ = s=>document.querySelector(s);
@@ -255,7 +245,23 @@ function heDate(iso){
   const d=new Date(iso+"T12:00:00");
   const days=["ראשון","שני","שלישי","רביעי","חמישי","שישי","שבת"];
   const months=["ינואר","פברואר","מרץ","אפריל","מאי","יוני","יולי","אוגוסט","ספטמבר","אוקטובר","נובמבר","דצמבר"];
-  return `יום ${days[d.getDay()]}, ${d.getDate()} ב${months[d.getMonth()]} ${d.getFullYear()}`;
+  return `יום ${days[d.getDay()]}, ${d.getDate()} ב${months[d.getMonth()]} ${d.getFullYear()}${hebDate(d)}`;
+}
+function gematria(n){
+  n=Number(n); if(!n||n<1||n>999) return String(n);
+  const H=[[400,"ת"],[300,"ש"],[200,"ר"],[100,"ק"],[90,"צ"],[80,"פ"],[70,"ע"],[60,"ס"],[50,"נ"],[40,"מ"],[30,"ל"],[20,"כ"],[10,"י"],[9,"ט"],[8,"ח"],[7,"ז"],[6,"ו"],[5,"ה"],[4,"ד"],[3,"ג"],[2,"ב"],[1,"א"]];
+  let out="";
+  for(const [v,l] of H){ while(n>=v){ if(n===15){ out+="טו"; n=0; break; } if(n===16){ out+="טז"; n=0; break; } out+=l; n-=v; } }
+  return out.length>1 ? out.slice(0,-1)+"״"+out.slice(-1) : out+"׳";
+}
+function hebDate(d){
+  try{
+    const parts=new Intl.DateTimeFormat("he-u-ca-hebrew",{day:"numeric",month:"long",year:"numeric"}).formatToParts(d);
+    const get=t=>(parts.find(x=>x.type===t)||{}).value||"";
+    const day=parseInt(get("day"),10), year=parseInt(get("year"),10), month=get("month");
+    if(!day||!year||!month) return "";
+    return ` · ${gematria(day)} ב${month} ${gematria(year%1000)}`;
+  }catch(e){ return ""; }
 }
 function todayIso(){ const d=new Date(); return d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0"); }
 function esc(s){ return String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c])); }
@@ -265,7 +271,6 @@ $("#lvl").addEventListener("click",e=>{
   const b=e.target.closest("button[data-l]"); if(!b) return;
   state.level=b.dataset.l; persist(); renderLevel(); renderList();
 });
-$("#boldText").addEventListener("change",e=>{ state.bold=e.target.checked; try{localStorage.setItem("akt-bold",state.bold?"1":"0");}catch(x){} applyBold(); });
 function renderLevel(){ document.querySelectorAll("#lvl button").forEach(b=>b.classList.toggle("on",b.dataset.l===state.level)); }
 
 // ---- topics
@@ -288,6 +293,7 @@ $("#noTopics").onclick=()=>{ state.topics.clear(); persist(); renderTopics(); re
 // ---- countries (fixed list from the data file)
 let countries=[];
 function renderCountries(){
+  if(!$("#countries")) return;
   $("#countries").innerHTML = countries.map(c=>`<span class="chip on" style="cursor:default">🌐 ${esc(c)}</span>`).join("") || `<span class="count">עדיין לא נבחרו מדינות.</span>`;
 }
 
@@ -320,9 +326,7 @@ function visibleItems(){
 }
 let renderList=function(){
   const items=visibleItems();
-  $("#count").textContent = state.items.length
-    ? (state.topics.size? `מוצגות ${items.length} ידיעות מתוך ${state.items.length} · ${LEVEL_NAME[state.level]} · ${rangeLabel()}` : `כל ${state.items.length} הידיעות · ${LEVEL_NAME[state.level]} · ${rangeLabel()} — אפשר לצמצם לפי נושא`)
-    : "";
+  $("#count").textContent = "";
   if(!state.items.length){
     listEl.innerHTML = `<div class="empty" translate="no"><b>אין עדיין ידיעות לתאריך הזה</b>הידיעות נכנסות למערכת כל בוקר. אם זה הבוקר של היום — אפשר לבדוק שוב בעוד כמה דקות.</div>`;
     return;
@@ -351,7 +355,6 @@ listEl.addEventListener("change",e=>{
   const id=c.dataset.pick; c.checked? state.picked.add(id) : state.picked.delete(id);
   c.closest("article").classList.toggle("hide-print",!c.checked);
 });
-$("#checkAll").onclick=()=>{ visibleItems().forEach(it=>state.picked.add(it.id)); renderList(); };
 function pickedItems(){ if(!state.picked.size){ visibleItems().forEach(it=>state.picked.add(it.id)); renderList(); } return visibleItems().filter(it=>state.picked.has(it.id)); }
 
 // ---- PDF (A4, one item per page, page breaks between lines)
@@ -407,44 +410,12 @@ $("#pdf").onclick=async()=>{
   finally{ btn.disabled=false; btn.textContent=old; }
 };
 
-// ---- profiles (saved on this device)
-const whoSel=$("#who"), newName=$("#newName"), profileNote=$("#profileNote");
-let profiles={}, currentProfile="";
-function slug(name){ return name.trim().replace(/\s+/g,"-").replace(/[^\p{L}\p{N}_\-]/gu,"").slice(0,60); }
-function saveProfilesLocal(){ try{ localStorage.setItem("akt-profiles",JSON.stringify(profiles)); localStorage.setItem("akt-who",currentProfile); }catch(e){} }
-function renderProfiles(){
-  const ids=Object.keys(profiles).sort((a,b)=>profiles[a].name.localeCompare(profiles[b].name,"he"));
-  whoSel.innerHTML = `<option value="">— בלי שם (בחירה חד-פעמית) —</option>` + ids.map(id=>`<option value="${esc(id)}" ${id===currentProfile?"selected":""}>${esc(profiles[id].name)}</option>`).join("");
-  $("#deleteProfile").style.display = currentProfile? "" : "none";
-}
-whoSel.addEventListener("change",()=>{
-  currentProfile=whoSel.value;
-  const p=profiles[currentProfile];
-  if(p){ state.topics=new Set(p.topics||[]); if(p.level) state.level=p.level; persist(); renderLevel(); renderTopics(); renderList(); profileNote.textContent=`נטענו ההעדפות של ${p.name}: ${state.topics.size} נושאים, ${LEVEL_NAME[state.level]}. אפשר להוסיף נושאים לפעם הזאת.`; }
-  else profileNote.textContent="בוחרים שם מהרשימה — הנושאים והרמה הרגילים נטענים לבד.";
-  renderProfiles(); saveProfilesLocal();
-});
-$("#saveProfile").onclick=()=>{
-  const typed=newName.value.trim();
-  const id = typed? slug(typed) : currentProfile;
-  const name = typed || (profiles[currentProfile]?.name||"");
-  if(!id||!name){ profileNote.textContent="כתבי שם בתיבה, או בחרי שם קיים מהרשימה."; newName.focus(); return; }
-  if(!state.topics.size){ profileNote.textContent="בחרי לפחות נושא אחד לפני השמירה."; return; }
-  profiles[id]={name, topics:[...state.topics], level:state.level}; currentProfile=id; newName.value="";
-  renderProfiles(); saveProfilesLocal();
-  profileNote.textContent=`ההעדפות של ${name} נשמרו במכשיר הזה (${profiles[id].topics.length} נושאים, ${LEVEL_NAME[state.level]}).`;
+// ---- preferences (saved on this device, no name needed)
+$("#savePrefs").onclick=()=>{
+  if(!state.topics.size){ $("#prefsNote").textContent="בחרי לפחות נושא אחד לפני השמירה."; return; }
+  $("#prefsNote").textContent = savePrefs()? `ההעדפות נשמרו במכשיר הזה (${state.topics.size} נושאים, ${LEVEL_NAME[state.level]}, גודל כתב ${$("#fontSize").value}).` : "השמירה נכשלה במכשיר הזה.";
 };
-$("#deleteProfile").onclick=()=>{
-  const p=profiles[currentProfile]; if(!p) return;
-  if(!confirm(`למחוק את ההעדפות של ${p.name}?`)) return;
-  delete profiles[currentProfile]; currentProfile=""; renderProfiles(); saveProfilesLocal(); profileNote.textContent="נמחק.";
-};
-function loadLocalProfiles(){
-  try{ const p=JSON.parse(localStorage.getItem("akt-profiles")||"{}"); if(p&&typeof p==="object") profiles=p; currentProfile=localStorage.getItem("akt-who")||""; if(!profiles[currentProfile]) currentProfile=""; }catch(e){}
-  const p=profiles[currentProfile];
-  if(p){ state.topics=new Set(p.topics||[]); if(p.level) state.level=p.level; profileNote.textContent=`נטענו ההעדפות של ${p.name}. אפשר להוסיף נושאים לפעם הזאת.`; }
-  renderProfiles();
-}
+function loadLocalProfiles(){ if(state.fontSize && $("#fontSize")) $("#fontSize").value=state.fontSize; if(localStorage.getItem("akt-prefs") && state.topics.size) $("#prefsNote").textContent="נטענו ההעדפות השמורות במכשיר הזה. אפשר לשנות לפעם הזאת, ולשמור שוב אם רוצים."; }
 
 // ---- data
 function setStatus(t,warn){ statusEl.textContent=t; statusEl.classList.toggle("warn",!!warn); }
@@ -509,7 +480,7 @@ async function translateVisible(){
   note.textContent = failed? `${done} ידיעות תורגמו ל${LANG_NAME[lang]}; ${failed} לא הצליחו (אין חיבור לשירות התרגום?). נסי שוב בעוד רגע.` : `הידיעות מוצגות ב${LANG_NAME[lang]} — תרגום אוטומטי של Google. לחזרה לעברית: "עברית (המקור)".`;
 }
 $("#lang").value=state.lang;
-$("#lang").addEventListener("change",()=>{ state.lang=$("#lang").value; try{ localStorage.setItem("akt-lang",state.lang); }catch(e){} renderList(); if(state.lang) translateVisible(); else $("#langNote").textContent="תרגום אוטומטי של Google, רק כשבוחרים שפה. לחזרה לעברית — בוחרים \"עברית (המקור)\"."; });
+$("#lang").addEventListener("change",()=>{ state.lang=$("#lang").value; try{ localStorage.setItem("akt-lang",state.lang); }catch(e){} renderList(); if(state.lang) translateVisible(); else $("#langNote").textContent=""; });
 // re-translate whenever the list is re-rendered
 const _renderList=renderList; renderList=function(){ _renderList(); if(state.lang) translateVisible(); };
 if("serviceWorker" in navigator && location.protocol==="https:" ){ window.addEventListener("load",()=>navigator.serviceWorker.register("sw.js").catch(()=>{})); }
