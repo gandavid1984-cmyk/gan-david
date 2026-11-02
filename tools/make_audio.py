@@ -6,6 +6,7 @@
 - קורא את data/news.json, מפיק לכל ידיעה מ-N הימים האחרונים קובץ MP3 לכל רמה
   (audio/<id>-<level>.mp3) אם עדיין אינו קיים, ומוחק קבצים של ידיעות ישנות יותר.
 - מעדכן בכל ידיעה שדה "audio": רשימת הרמות שיש להן קובץ.
+- מילון הגייה לשמות: tools/tts_lexicon.json (מילה -> צורה מנוקדת); מוחלים לפני ההפקה.
 - דורש: pip install edge-tts ; ffmpeg (לדחיסה). אם ffmpeg חסר — נשמר הקובץ המקורי.
 - השירות: Microsoft Edge TTS (speech.platform.bing.com). אם אינו נגיש — הסקריפט מדווח ויוצא בלי לשנות דבר.
 """
@@ -18,9 +19,25 @@ VOICE = "he-IL-HilaNeural"
 LEVELS = ["easy", "medium", "hard", "expert"]
 DEFAULT_LEVELS = ["easy", "medium", "hard"]
 
+LEXICON_PATH = os.path.join(ROOT, "tools", "tts_lexicon.json")
+def load_lexicon():
+    """מילון הגייה: מילה/שם -> צורה מנוקדת. נטען פעם אחת; החלפה מהארוך לקצר."""
+    try:
+        lex = json.load(open(LEXICON_PATH, encoding="utf-8"))
+        return sorted(((k, v) for k, v in lex.items() if k and v), key=lambda kv: -len(kv[0]))
+    except Exception:
+        return []
+LEXICON = load_lexicon()
+
+def apply_lexicon(text):
+    import re
+    for k, v in LEXICON:
+        text = re.sub(r"(?<![\u05d0-\u05ea])" + re.escape(k) + r"(?![\u05d0-\u05ea])", v, text)
+    return text
+
 def tts_text(item, level):
     body = (item.get(level) or "").replace("\n", ". ").replace("..", ".")
-    return f"{item.get('title','')}. {body}"
+    return apply_lexicon(f"{item.get('title','')}. {body}")
 
 async def synth(text, out_path, proxy):
     import edge_tts
