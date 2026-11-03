@@ -223,10 +223,11 @@ font{background:transparent!important;box-shadow:none!important}
       <button class="btn primary" id="present">📺 מצב הצגה לקבוצה</button>
       <button class="btn primary" id="pdf">📄 הורדת PDF להדפסה (A4)</button>
       <label for="fontSize" style="font-weight:700">גודל כתב:</label>
-      <select id="fontSize">
+      <select id="fontSize" title="בכל גודל הידיעה מותאמת לעמוד אחד: אם היא ארוכה מדי, הכתב מוקטן אוטומטית עד שהכול נכנס">
+        <option value="auto" selected>אוטומטי — הכי גדול שנכנס בעמוד</option>
         <option value="14">רגיל (14)</option>
         <option value="17">גדול (17)</option>
-        <option value="20" selected>גדול מאוד (20)</option>
+        <option value="20">גדול מאוד (20)</option>
         <option value="24">ענק (24)</option>
         <option value="28">ענק במיוחד (28)</option>
       </select>
@@ -432,16 +433,25 @@ $("#pdf").onclick=async()=>{
       const translated = art && art.dataset.translated===state.lang && state.lang;
       if(translated){ sh={title:art.querySelector("h3").textContent, body:art.querySelector(".body").textContent, questions:[...art.querySelectorAll("ol.q li")].map(l=>l.textContent)}; }
       const dir = translated? "ltr":"rtl";
-      const fs = Number($("#fontSize").value)||20;
-      stage.innerHTML=`<div style="width:${PW}mm;min-height:${PH}mm;padding:6mm 8mm;box-sizing:border-box;font-family:'Heebo',Arial,sans-serif;background:#fff;color:#000;direction:${dir};text-align:${dir==="rtl"?"right":"left"}">
-        <div style="font-size:11pt;color:#555;border-bottom:1px solid #999;padding-bottom:2mm;margin-bottom:6mm;display:flex;justify-content:space-between;direction:rtl"><span>${esc(topicLabel(it.topic,it))} · ${LEVEL_NAME[state.level]}${translated?" · "+esc(LANG_NAME[state.lang]):""}</span><span>${heDate(it.date)}</span></div>
-        <h1 style="font-size:${Math.round(fs*1.3)}pt;font-weight:800;margin:0 0 6mm;line-height:1.3">${esc(sh.title)}</h1>
-        <div style="font-size:${fs}pt;line-height:1.85;white-space:pre-line;font-weight:${state.bold?700:400}">${esc(sh.body)}</div>
-        ${sh.questions.length?`<div style="margin-top:8mm;border-top:1px solid #999;padding-top:4mm"><div style="font-weight:800;font-size:${Math.max(12,fs-4)}pt;margin-bottom:2mm">שאלות לשיחה</div><ol style="font-size:${Math.max(12,fs-4)}pt;line-height:1.6;margin:0;padding-inline-start:8mm">${sh.questions.map(q=>`<li style="margin-bottom:2mm">${esc(q)}</li>`).join("")}</ol></div>`:""}
+      // גודל כתב: "auto" = הכי גדול שנכנס בעמוד אחד (עד 24). בכל גודל — אם הידיעה גולשת, הכתב מוקטן בהדרגה (עד 11) כדי שכל הידיעה תיכנס לעמוד אחד.
+      const chosen=$("#fontSize").value; let fs = chosen==="auto"? 24 : (Number(chosen)||20);
+      const build=(fs)=>{
+        const qfs=Math.max(12,fs-3);
+        const bodyLH = fs>=22? 1.7 : 1.85;
+        stage.innerHTML=`<div style="width:${PW}mm;min-height:${PH}mm;padding:6mm 8mm;box-sizing:border-box;font-family:'Heebo',Arial,sans-serif;background:#fff;color:#000;direction:${dir};text-align:${dir==="rtl"?"right":"left"}">
+        <div style="font-size:11pt;color:#555;border-bottom:1px solid #999;padding-bottom:2mm;margin-bottom:5mm;display:flex;justify-content:space-between;direction:rtl"><span>${esc(topicLabel(it.topic,it))} · ${LEVEL_NAME[state.level]}${translated?" · "+esc(LANG_NAME[state.lang]):""}</span><span>${heDate(it.date)}</span></div>
+        <h1 style="font-size:${Math.round(fs*1.3)}pt;font-weight:800;margin:0 0 5mm;line-height:1.3">${esc(sh.title)}</h1>
+        <div style="font-size:${fs}pt;line-height:${bodyLH};white-space:pre-line;font-weight:${state.bold?700:400}">${esc(sh.body)}</div>
+        ${sh.questions.length?`<div style="margin-top:6mm;border-top:1px solid #999;padding-top:3mm"><div style="font-weight:800;font-size:${qfs}pt;margin-bottom:2mm">שאלות לשיחה</div>${sh.questions.map((q,k)=>`<div style="display:flex;gap:3mm;align-items:flex-start;font-size:${qfs}pt;line-height:1.6;margin-bottom:2mm;direction:${dir}"><span style="font-weight:800;flex:0 0 auto;min-width:1.4em">${k+1}.</span><span style="flex:1 1 auto">${esc(q)}</span></div>`).join("")}</div>`:""}
       </div>`;
+        return stage.firstElementChild;
+      };
+      let root=build(fs);
       await new Promise(r=>setTimeout(r,60));
-      const root=stage.firstElementChild;
-      const top=root.getBoundingClientRect().top, pxPerMm=root.getBoundingClientRect().width/PW;
+      let pxPerMm=root.getBoundingClientRect().width/PW;
+      const overflows=()=>root.getBoundingClientRect().height > PH*pxPerMm + 1;
+      while(overflows() && fs>11){ fs = Math.round((fs-0.5)*2)/2; root=build(fs); pxPerMm=root.getBoundingClientRect().width/PW; }
+      const top=root.getBoundingClientRect().top;
       const bottoms=new Set();
       const walker=document.createTreeWalker(root,NodeFilter.SHOW_TEXT);
       let n; while((n=walker.nextNode())){ if(!n.textContent.trim()) continue; const r=document.createRange(); r.selectNodeContents(n); for(const rc of r.getClientRects()) bottoms.add(Math.ceil((rc.bottom-top)/pxPerMm)); }
@@ -658,13 +668,31 @@ state.lang = (()=>{ try{ return localStorage.getItem("akt-lang")||""; }catch(e){
 const trCache = {};
 try{ Object.assign(trCache, JSON.parse(localStorage.getItem("akt-trcache")||"{}")); }catch(e){}
 function saveTrCache(){ try{ const keys=Object.keys(trCache); if(keys.length>600) keys.slice(0,keys.length-600).forEach(k=>delete trCache[k]); localStorage.setItem("akt-trcache",JSON.stringify(trCache)); }catch(e){} }
+// בקשה אחת לשירות התרגום, עם מגבלת זמן (בטלפון הרשת איטית) ו-3 ניסיונות עם המתנה הולכת וגדלה (השירות חוסם זמנית כשיש הרבה בקשות בבת אחת)
+async function gtranslateOnce(text, lang){
+  const ctrl=new AbortController(); const timer=setTimeout(()=>ctrl.abort(),20000);
+  try{
+    const r=await fetch("https://translate.googleapis.com/translate_a/single?client=gtx&sl=iw&tl="+encodeURIComponent(lang)+"&dt=t&q="+encodeURIComponent(text),{signal:ctrl.signal});
+    if(!r.ok) throw new Error("HTTP "+r.status);
+    const j=await r.json(); const out=(j[0]||[]).map(x=>x[0]).join("");
+    if(!out) throw new Error("empty");
+    return out;
+  } finally { clearTimeout(timer); }
+}
 async function gtranslate(text, lang){
   const key=lang+"|"+text; if(trCache[key]) return trCache[key];
-  const r=await fetch("https://translate.googleapis.com/translate_a/single?client=gtx&sl=iw&tl="+encodeURIComponent(lang)+"&dt=t&q="+encodeURIComponent(text));
-  if(!r.ok) throw new Error("HTTP "+r.status);
-  const j=await r.json(); const out=(j[0]||[]).map(x=>x[0]).join("");
-  if(!out) throw new Error("empty");
-  trCache[key]=out; return out;
+  // טקסט ארוך (רמה רגילה) נשלח בפסקאות, כדי לא לחרוג מאורך הבקשה
+  if(text.length>1500 && text.includes("\n")){
+    const parts=text.split("\n"); const outs=[];
+    for(const p of parts){ outs.push(p.trim()? await gtranslate(p,lang) : ""); }
+    const joined=outs.join("\n"); trCache[key]=joined; return joined;
+  }
+  let lastErr;
+  for(let attempt=0; attempt<3; attempt++){
+    try{ const out=await gtranslateOnce(text,lang); trCache[key]=out; return out; }
+    catch(e){ lastErr=e; await new Promise(r=>setTimeout(r, 800*Math.pow(2,attempt))); }
+  }
+  throw lastErr;
 }
 let trRun=0;
 async function translateVisible(){
@@ -672,12 +700,23 @@ async function translateVisible(){
   const run=++trRun; const note=$("#langNote");
   const arts=[...document.querySelectorAll("article.item")]; let done=0, failed=0;
   note.textContent=`מתרגם ל${LANG_NAME[lang]}… 0 מתוך ${arts.length}`;
+  const failedArts=[];
+  const translateOne=async(art)=>{
+    const id=art.dataset.id; const it=state.items.find(x=>x.id===id); if(!it) return false;
+    if(art.dataset.translated===lang) return true;
+    const sh=shownText(it);
+    // בקשות בזו אחר זו (לא כולן בבת אחת) — יציב יותר בטלפון וברשת סלולרית
+    const t=await gtranslate(sh.title,lang); const b=await gtranslate(sh.body,lang);
+    const qs=[]; for(const q of sh.questions) qs.push(await gtranslate(q,lang));
+    return {t,b,qs};
+  };
   for(const art of arts){
     if(run!==trRun) return;
     const id=art.dataset.id; const it=state.items.find(x=>x.id===id); if(!it) continue;
     const sh=shownText(it);
     try{
-      const [t,b,...qs]=await Promise.all([gtranslate(sh.title,lang), gtranslate(sh.body,lang), ...sh.questions.map(q=>gtranslate(q,lang))]);
+      const res=await translateOne(art); if(res===true){ done++; continue; }
+      const {t,b,qs}=res;
       if(run!==trRun) return;
       const h3=art.querySelector("h3"), body=art.querySelector(".body"), lis=art.querySelectorAll("ol.q li");
       if(h3){ h3.textContent=t; h3.dir="ltr"; h3.style.textAlign="left"; }
@@ -686,11 +725,29 @@ async function translateVisible(){
       art.dataset.translated=lang;
       const orig=art.querySelector(".orig-note"); if(!orig){ const d=document.createElement("details"); d.className="orig-note"; d.innerHTML=`<summary translate="no">המקור בעברית</summary><div class="body ${state.level}" dir="rtl" style="font-size:16px;line-height:1.7;color:var(--muted)">${esc(sh.body)}</div>`; const q=art.querySelector("details"); art.insertBefore(d, q||null); }
       done++;
-    }catch(e){ failed++; }
+    }catch(e){ failed++; failedArts.push(art); }
     note.textContent=`מתרגם ל${LANG_NAME[lang]}… ${done+failed} מתוך ${arts.length}`;
+    saveTrCache();
+  }
+  // ידיעות שנכשלו — ניסיון נוסף אוטומטי אחרי הפסקה קצרה (בלי שהמשתמש יצטרך ללחוץ)
+  if(failedArts.length && run===trRun){
+    note.textContent=`${failed} ידיעות לא תורגמו — מנסה שוב…`;
+    await new Promise(r=>setTimeout(r,3000));
+    for(const art of failedArts){
+      if(run!==trRun) return;
+      try{
+        const res=await translateOne(art); if(!res||res===true) continue;
+        const {t,b,qs}=res;
+        const h3=art.querySelector("h3"), body=art.querySelector(".body"), lis=art.querySelectorAll("ol.q li");
+        if(h3){ h3.textContent=t; h3.dir="ltr"; h3.style.textAlign="left"; }
+        if(body){ body.textContent=b; body.dir="ltr"; body.style.textAlign="left"; }
+        lis.forEach((li,i)=>{ if(qs[i]){ li.textContent=qs[i]; li.dir="ltr"; li.style.textAlign="left"; } });
+        art.dataset.translated=lang; done++; failed--;
+      }catch(e){}
+    }
   }
   saveTrCache();
-  note.textContent = failed? `${done} ידיעות תורגמו ל${LANG_NAME[lang]}; ${failed} לא הצליחו (אין חיבור לשירות התרגום?). נסה שוב בעוד רגע.` : `הידיעות מוצגות ב${LANG_NAME[lang]} — תרגום אוטומטי של Google. לחזרה לעברית: "עברית (המקור)".`;
+  note.textContent = failed? `${done} ידיעות תורגמו ל${LANG_NAME[lang]}; ${failed} לא הצליחו (שירות התרגום של Google לא ענה). אפשר לבחור שוב את השפה כדי לנסות שוב.` : `הידיעות מוצגות ב${LANG_NAME[lang]} — תרגום אוטומטי של Google. לחזרה לעברית: "עברית (המקור)".`;
 }
 $("#lang").value=state.lang;
 $("#lang").addEventListener("change",()=>{ stopSpeak(); state.lang=$("#lang").value; try{ localStorage.setItem("akt-lang",state.lang); }catch(e){} renderList(); if(state.lang) translateVisible(); else $("#langNote").textContent=""; });
