@@ -49,7 +49,12 @@
    ],
    "verified": true,
    "date": "2026-11-03",
-   "ts": 1793679678
+   "ts": 1793679678,
+   "audio": [
+    "easy",
+    "medium",
+    "hard"
+   ]
   },
   {
    "id": "2026-11-03-israel-2",
@@ -72,7 +77,12 @@
    ],
    "verified": true,
    "date": "2026-11-03",
-   "ts": 1793679678
+   "ts": 1793679678,
+   "audio": [
+    "easy",
+    "medium",
+    "hard"
+   ]
   },
   {
    "id": "2026-11-03-israel-3",
@@ -99,7 +109,12 @@
    ],
    "verified": true,
    "date": "2026-11-03",
-   "ts": 1793679678
+   "ts": 1793679678,
+   "audio": [
+    "easy",
+    "medium",
+    "hard"
+   ]
   },
   {
    "id": "2026-11-03-weather-1",
@@ -134,7 +149,12 @@
    ],
    "verified": true,
    "date": "2026-11-03",
-   "ts": 1793679678
+   "ts": 1793679678,
+   "audio": [
+    "easy",
+    "medium",
+    "hard"
+   ]
   },
   {
    "id": "2026-11-03-nature-1",
@@ -165,7 +185,12 @@
    ],
    "verified": true,
    "date": "2026-11-03",
-   "ts": 1793679678
+   "ts": 1793679678,
+   "audio": [
+    "easy",
+    "medium",
+    "hard"
+   ]
   },
   {
    "id": "2026-11-03-parasha-1",
@@ -192,7 +217,12 @@
    ],
    "verified": true,
    "date": "2026-11-03",
-   "ts": 1793679678
+   "ts": 1793679678,
+   "audio": [
+    "easy",
+    "medium",
+    "hard"
+   ]
   },
   {
    "id": "2026-11-03-hebrew-1",
@@ -219,7 +249,12 @@
    ],
    "verified": true,
    "date": "2026-11-03",
-   "ts": 1793679678
+   "ts": 1793679678,
+   "audio": [
+    "easy",
+    "medium",
+    "hard"
+   ]
   },
   {
    "id": "2026-11-03-onthisday-1",
@@ -250,7 +285,12 @@
    ],
    "verified": true,
    "date": "2026-11-03",
-   "ts": 1793679678
+   "ts": 1793679678,
+   "audio": [
+    "easy",
+    "medium",
+    "hard"
+   ]
   },
   {
    "id": "2026-11-03-birthdays-1",
@@ -303,7 +343,12 @@
    ],
    "verified": true,
    "date": "2026-11-03",
-   "ts": 1793679678
+   "ts": 1793679678,
+   "audio": [
+    "easy",
+    "medium",
+    "hard"
+   ]
   },
   {
    "id": "2026-11-03-world-1",
@@ -330,7 +375,12 @@
    ],
    "verified": true,
    "date": "2026-11-03",
-   "ts": 1793679678
+   "ts": 1793679678,
+   "audio": [
+    "easy",
+    "medium",
+    "hard"
+   ]
   },
   {
    "id": "2026-11-03-economy-1",
@@ -361,7 +411,12 @@
    ],
    "verified": true,
    "date": "2026-11-03",
-   "ts": 1793679678
+   "ts": 1793679678,
+   "audio": [
+    "easy",
+    "medium",
+    "hard"
+   ]
   },
   {
    "id": "2026-11-03-transport-1",
@@ -388,7 +443,12 @@
    ],
    "verified": true,
    "date": "2026-11-03",
-   "ts": 1793679678
+   "ts": 1793679678,
+   "audio": [
+    "easy",
+    "medium",
+    "hard"
+   ]
   },
   {
    "id": "2026-11-03-health-1",
@@ -411,7 +471,12 @@
    ],
    "verified": true,
    "date": "2026-11-03",
-   "ts": 1793679678
+   "ts": 1793679678,
+   "audio": [
+    "easy",
+    "medium",
+    "hard"
+   ]
   },
   {
    "id": "2026-11-03-science-1",
@@ -438,7 +503,12 @@
    ],
    "verified": true,
    "date": "2026-11-03",
-   "ts": 1793679678
+   "ts": 1793679678,
+   "audio": [
+    "easy",
+    "medium",
+    "hard"
+   ]
   },
   {
    "id": "2026-11-03-sport-1",
@@ -473,7 +543,12 @@
    ],
    "verified": true,
    "date": "2026-11-03",
-   "ts": 1793679678
+   "ts": 1793679678,
+   "audio": [
+    "easy",
+    "medium",
+    "hard"
+   ]
   },
   {
    "id": "2026-11-03-culture-1",
@@ -496,7 +571,12 @@
    ],
    "verified": true,
    "date": "2026-11-03",
-   "ts": 1793679678
+   "ts": 1793679678,
+   "audio": [
+    "easy",
+    "medium",
+    "hard"
+   ]
   },
   {
    "id": "2026-11-03-food-1",
@@ -527,7 +607,12 @@
    ],
    "verified": true,
    "date": "2026-11-03",
-   "ts": 1793679678
+   "ts": 1793679678,
+   "audio": [
+    "easy",
+    "medium",
+    "hard"
+   ]
   },
   {
    "id": "2026-11-03-history-1",
@@ -554,7 +639,12 @@
    ],
    "verified": true,
    "date": "2026-11-03",
-   "ts": 1793679678
+   "ts": 1793679678,
+   "audio": [
+    "easy",
+    "medium",
+    "hard"
+   ]
   },
   {
    "id": "2026-11-03-country-1",
@@ -586,7 +676,12 @@
    ],
    "verified": true,
    "date": "2026-11-03",
-   "ts": 1793679678
+   "ts": 1793679678,
+   "audio": [
+    "easy",
+    "medium",
+    "hard"
+   ]
   },
   {
    "id": "2026-11-03-country-2",
@@ -626,7 +721,12 @@
    ],
    "verified": true,
    "date": "2026-11-03",
-   "ts": 1793679678
+   "ts": 1793679678,
+   "audio": [
+    "easy",
+    "medium",
+    "hard"
+   ]
   },
   {
    "id": "2026-11-03-country-3",
@@ -666,7 +766,12 @@
    ],
    "verified": true,
    "date": "2026-11-03",
-   "ts": 1793679678
+   "ts": 1793679678,
+   "audio": [
+    "easy",
+    "medium",
+    "hard"
+   ]
   },
   {
    "id": "2026-11-02-israel-1",
