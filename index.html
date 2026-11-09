@@ -167,8 +167,6 @@ font{background:transparent!important;box-shadow:none!important}
         <option value="en">English — אנגלית</option>
         <option value="ru">русский — רוסית</option>
         <option value="es">español — ספרדית</option>
-        <option value="ka">ქართული — გაორגית</option>
-        <option value="fr">français — צרפתית</option>
       </select>
       <span class="count" id="langNote"></span>
     </div>
@@ -665,7 +663,7 @@ async function init(){
 init();
 // ---- translation of the articles only (Google Translate, free; cached on this device)
 const LANG_NAME={en:"אנגלית",ru:"רוסית",es:"ספרדית",ka:"גאורגית",fr:"צרפתית"};
-state.lang = (()=>{ try{ return localStorage.getItem("akt-lang")||""; }catch(e){ return ""; } })();
+state.lang = (()=>{ try{ const l=localStorage.getItem("akt-lang")||""; return ["en","ru","es"].includes(l)? l : ""; }catch(e){ return ""; } })();
 const trCache = {};
 try{ Object.assign(trCache, JSON.parse(localStorage.getItem("akt-trcache")||"{}")); }catch(e){}
 function saveTrCache(){ try{ const keys=Object.keys(trCache); if(keys.length>600) keys.slice(0,keys.length-600).forEach(k=>delete trCache[k]); localStorage.setItem("akt-trcache",JSON.stringify(trCache)); }catch(e){} }
@@ -706,6 +704,15 @@ async function translateVisible(){
     const id=art.dataset.id; const it=state.items.find(x=>x.id===id); if(!it) return false;
     if(art.dataset.translated===lang) return true;
     const sh=shownText(it);
+    // תרגום מוכן מראש (נשמר ב-news.json על ידי GitHub Actions) — בלי רשת
+    const pre=(it.tr||{})[lang];
+    if(pre && pre.title && (pre[state.level]||(state.level==="expert"&&pre.hard))){
+      const b=pre[state.level]||pre.hard;
+      const qs=Array.isArray(pre.questions)&&pre.questions.length===sh.questions.length? pre.questions : [];
+      if(qs.length || !sh.questions.length) return {t:pre.title,b,qs};
+      const qs2=[]; for(const q of sh.questions) qs2.push(await gtranslate(q,lang));
+      return {t:pre.title,b,qs:qs2};
+    }
     // בקשות בזו אחר זו (לא כולן בבת אחת) — יציב יותר בטלפון וברשת סלולרית
     const t=await gtranslate(sh.title,lang); const b=await gtranslate(sh.body,lang);
     const qs=[]; for(const q of sh.questions) qs.push(await gtranslate(q,lang));
