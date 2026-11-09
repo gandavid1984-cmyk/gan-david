@@ -189,7 +189,7 @@ font{background:transparent!important;box-shadow:none!important}
       <select id="range">
         <option value="day">יום אחד</option>
         <option value="3">3 הימים האחרונים</option>
-        <option value="7">שבוע אחורה</option>
+        <option value="7" selected>שבוע אחורה</option>
         <option value="30">חודש אחורה</option>
       </select>
       <select id="date"></select>
@@ -283,7 +283,7 @@ const TOPIC_EMOJI = Object.fromEntries(TOPICS.map(t=>[t[0],t[2]]));
 const LEVEL_NAME = {easy:"פישוט קל",medium:"פישוט בינוני",hard:"פישוט גבוה",expert:"טקסט רגיל"};
 const DATA_URL = "data/news.json";
 
-const state = {bold:true, level:"easy", topics:new Set(), date:null, dates:[], all:[], items:[], picked:new Set(), range:"day"};
+const state = {bold:true, level:"easy", topics:new Set(), date:null, dates:[], all:[], items:[], picked:new Set(), range:"7"};
 try{ const s=JSON.parse(localStorage.getItem("akt-prefs")||localStorage.getItem("akt-state")||"{}"); if(s.level) state.level=s.level; if(Array.isArray(s.topics)) state.topics=new Set(s.topics); if(s.fontSize) state.fontSize=String(s.fontSize); if(s.rate) state.rate=s.rate; }catch(e){}
 function persist(){ /* ההעדפות נשמרות רק בלחיצה על "שמור את ההעדפות שלי" */ }
 function savePrefs(){ try{ localStorage.setItem("akt-prefs",JSON.stringify({level:state.level,topics:[...state.topics],fontSize:$("#fontSize").value,rate:$("#rate").value})); return true; }catch(e){ return false; } }
@@ -363,6 +363,11 @@ function selectItems(){
   if(!state.date){ state.items=[]; renderTopics(); renderList(); return; }
   const from=rangeFrom(), to=state.date;
   state.items = state.all.filter(it=>it.date>=from && it.date<=to);
+  // פרשת השבוע: הידיעה האחרונה שנכתבה לפני התאריך הנבחר ושהשבת שלה עוד לא עברה — מוצגת גם אם נכתבה בתחילת השבוע
+  if(!state.items.some(it=>it.topic==="parasha")){
+    const p=state.all.filter(it=>it.topic==="parasha" && it.date<=to && (it.shabbat||it.date)>=from).sort((a,b)=>String(b.date).localeCompare(String(a.date)))[0];
+    if(p) state.items=[...state.items,p];
+  }
   renderTopics(); renderList();
 }
 
@@ -647,13 +652,17 @@ async function init(){
     const r=await fetch(DATA_URL+"?t="+Date.now(),{cache:"no-store"});
     if(!r.ok) throw new Error("HTTP "+r.status);
     const d=await r.json();
-    state.all = Array.isArray(d.items)? d.items : [];
-    countries = Array.isArray(d.countries)? d.countries : [];
+    // ידיעות מדינות בוטלו (9.11.2026) — לא מוצגות גם אם נשארו בקובץ
+    state.all = (Array.isArray(d.items)? d.items : []).filter(it=>!String(it.topic).startsWith("country:"));
+    // פרשת השבוע נכתבת פעם בשבוע ומוצגת כל השבוע: לכל ידיעת פרשה נשמר תאריך השבת שלה
+    state.all.forEach(it=>{ if(it.topic==="parasha" && !it.shabbat){ const dt=new Date(it.date+"T12:00:00"); dt.setDate(dt.getDate()+((6-dt.getDay())+7)%7); it.shabbat=dt.toISOString().slice(0,10); } });
+    countries = [];
     state.dates = [...new Set(state.all.map(it=>it.date))].sort().reverse();
     renderCountries();
     if(!state.dates.length){ setStatus("עדיין אין ידיעות במערכת"); renderDates(); renderList(); return; }
     showToday(); showParasha(d.parasha);
     state.date = state.dates[0];
+    $("#range").value=state.range; dateSel.style.display = state.range==="day"? "" : "none";
     renderDates(); selectItems();
   }catch(e){
     setStatus("לא הצלחתי לטעון את הידיעות — בדוק חיבור לאינטרנט ונסה לרענן",true);
