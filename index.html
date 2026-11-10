@@ -16,6 +16,8 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;800&display=swap" rel="stylesheet">
 <style>
+.oldnote{background:#fff4d6;border:1px solid #f5b301;color:#5b4300;border-radius:10px;padding:8px 12px;margin:6px 0 10px;font-weight:700;font-size:.95em}
+
 :root{
   --bg:#f4f7fb; --card:#ffffff; --ink:#1f2937; --muted:#6b7280; --line:#e5e7eb;
   --accent:#2563eb; --accent-soft:#dbeafe; --purple:#7c3aed; --purple-soft:#ede9fe;
@@ -275,7 +277,6 @@ const TOPICS = [
   ["history","היסטוריה וארכאולוגיה","🏺"],
   ["onthisday","היום בהיסטוריה — נוסטלגיה","🕰️"],
   ["birthdays","נולדו היום — אישים מפורסמים","🎂"],
-  ["kids","ילדים ונכדים","🧒"],
   ["hebrew","מילה ביום — עברית","🔤"],
 ];
 const TOPIC_NAME = Object.fromEntries(TOPICS.map(t=>[t[0],t[1]]));
@@ -368,6 +369,13 @@ function selectItems(){
     const p=state.all.filter(it=>it.topic==="parasha" && it.date<=to && (it.shabbat||it.date)>=from).sort((a,b)=>String(b.date).localeCompare(String(a.date)))[0];
     if(p) state.items=[...state.items,p];
   }
+  // נושא בלי ידיעה בתקופה שנבחרה: מציגים את הידיעה האחרונה שנכתבה בו, עם הודעה ברורה בראשה
+  const have=new Set(state.items.map(it=>it.topic));
+  TOPICS.forEach(([id])=>{
+    if(have.has(id)||id==="parasha") return;
+    const last=state.all.filter(it=>it.topic===id && it.date<from).sort((a,b)=>String(b.date).localeCompare(String(a.date)))[0];
+    if(last) state.items=[...state.items,{...last,_old:true}];
+  });
   renderTopics(); renderList();
 }
 
@@ -401,6 +409,7 @@ let renderList=function(){
     return `<article class="item ${checked?"":"hide-print"}" data-id="${esc(it.id)}">
       <label class="pick no-print" title="לכלול בהדפסה" translate="no"><input type="checkbox" ${checked?"checked":""} data-pick="${esc(it.id)}"></label>
       <div class="meta no-print" translate="no"><span class="tag">${topicEmoji(it.topic)} ${esc(topicLabel(it.topic,it))}</span>${state.range!=="day"?`<span>${heDate(it.date)}</span>`:""}${it.verified===false?`<span class="unverified">לא אומת במלואו</span>`:""}${shown.fallback?`<span class="unverified">אין לידיעה זו טקסט רגיל — מוצג הפישוט הגבוה</span>`:""}</div>
+      ${it._old?`<div class="oldnote" translate="no">כתבה זו נכתבה ב${heDate(it.date)}. אין כתבה חדשה בנושא הזה להיום.</div>`:""}
       <h3>${esc(shown.title)}</h3>
       <div class="body ${state.level}">${esc(shown.body)}</div>
       ${(!state.lang && Array.isArray(it.audio) && it.audio.includes(state.level))
@@ -653,7 +662,7 @@ async function init(){
     if(!r.ok) throw new Error("HTTP "+r.status);
     const d=await r.json();
     // ידיעות מדינות בוטלו (9.11.2026) — לא מוצגות גם אם נשארו בקובץ
-    state.all = (Array.isArray(d.items)? d.items : []).filter(it=>!String(it.topic).startsWith("country:"));
+    state.all = (Array.isArray(d.items)? d.items : []).filter(it=>!String(it.topic).startsWith("country:") && it.topic!=="kids");
     // פרשת השבוע נכתבת פעם בשבוע ומוצגת כל השבוע: לכל ידיעת פרשה נשמר תאריך השבת שלה
     state.all.forEach(it=>{ if(it.topic==="parasha" && !it.shabbat){ const dt=new Date(it.date+"T12:00:00"); dt.setDate(dt.getDate()+((6-dt.getDay())+7)%7); it.shabbat=dt.toISOString().slice(0,10); } });
     countries = [];
