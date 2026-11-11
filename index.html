@@ -277,7 +277,6 @@ const TOPICS = [
   ["history","היסטוריה וארכאולוגיה","🏺"],
   ["onthisday","היום בהיסטוריה — נוסטלגיה","🕰️"],
   ["birthdays","נולדו היום — אישים מפורסמים","🎂"],
-  ["hebrew","מילה ביום — עברית","🔤"],
 ];
 const TOPIC_NAME = Object.fromEntries(TOPICS.map(t=>[t[0],t[1]]));
 const TOPIC_EMOJI = Object.fromEntries(TOPICS.map(t=>[t[0],t[2]]));
@@ -662,7 +661,7 @@ async function init(){
     if(!r.ok) throw new Error("HTTP "+r.status);
     const d=await r.json();
     // ידיעות מדינות בוטלו (9.11.2026) — לא מוצגות גם אם נשארו בקובץ
-    state.all = (Array.isArray(d.items)? d.items : []).filter(it=>!String(it.topic).startsWith("country:") && it.topic!=="kids");
+    state.all = (Array.isArray(d.items)? d.items : []).filter(it=>!String(it.topic).startsWith("country:") && it.topic!=="kids" && it.topic!=="hebrew");
     // פרשת השבוע נכתבת פעם בשבוע ומוצגת כל השבוע: לכל ידיעת פרשה נשמר תאריך השבת שלה
     state.all.forEach(it=>{ if(it.topic==="parasha" && !it.shabbat){ const dt=new Date(it.date+"T12:00:00"); dt.setDate(dt.getDate()+((6-dt.getDay())+7)%7); it.shabbat=dt.toISOString().slice(0,10); } });
     countries = [];
