@@ -25,7 +25,47 @@
    ],
    "verified": true,
    "date": "2026-11-11",
-   "ts": 1794376800
+   "ts": 1794376800,
+   "tr": {
+    "en": {
+     "title": "The new Knesset was sworn in: the talks to form a government begin",
+     "easy": "The new Knesset was sworn in on November 10.\nThis is the 26th Knesset.\nThe heads of the parties started talking to each other.\nThey must form a new government.\nEveryone said they did not want new elections.",
+     "medium": "On November 10, 2026, the 26th Knesset was sworn in. On the same day, the leaders of the parties of what is called in the article the \"Bloc of Change\" held their first faction meetings, and presented their conditions for the formation of a government. Prime Minister Benjamin Netanyahu delivered a speech on unity right after the inauguration. According to the Ynet report, all the heads of the bloc say they do not want to go back to the elections. At the same time, there are differences of opinion between them regarding the composition of the government: a narrow government, a government with the support of Arab parties, a government that includes the ultra-orthodox parties, or a unity government.",
+     "hard": "On November 10, 2026, the 26th Knesset was sworn in. Immediately after the inauguration, Prime Minister Benjamin Netanyahu delivered a speech on unity. On the same day, the leaders of the parties of what is called in the article \"the change block\" held their first faction meetings.\n\nAccording to the Ynet report, Gadi Eisenkot, head of the Ishr! party, said that his party has 21 seats, and 15 of its Knesset members are new. He said he was planning an \"emergency government\" and did not elaborate, and canceled a scheduled meeting with the Likud. Avigdor Lieberman, head of Yisrael Beitenu, said that the group's goals are to end Netanyahu's term and prevent further elections, and that a government with Arab parties will not be formed. Naftali Bennett and Yair Lapid chose to remain silent during the talks, and Bennett said in a voice message that there was no time and that he was working to help Eisenkot form a government. Yair Golan, the leader of the Democrats, proposed a government supported by the National Assembly from within and the Joint List from without, and according to the article, the other parties of the bloc oppose this.\n\nAll the heads of the bloc agree that they do not want new elections. The options being discussed are a narrow government, a government with the support of Arab parties, a government with the ultra-Orthodox and a unity government.",
+     "questions": [
+      "How did you feel on the first election days that you remember? Do you remember what you voted for?",
+      "In your opinion, why is it important for the government to stand up quickly?",
+      "What do you think about conversations and compromises between people who think differently?"
+     ]
+    },
+    "ru": {
+     "title": "Новый Кнессет приведен к присяге: начинаются переговоры о формировании правительства",
+     "easy": "Новый состав Кнессета был приведен к присяге 10 ноября.\nЭто 26-й Кнессет.\nГлавы сторон начали беседовать друг с другом.\nОни должны сформировать новое правительство.\nВсе говорили, что не хотят новых выборов.",
+     "medium": "10 ноября 2026 года Кнессет 26-го созыва был приведен к присяге. В тот же день лидеры партий так называемого в статье «Блока перемен» провели свои первые заседания фракций и представили свои условия формирования правительства. Премьер-министр Биньямин Нетаньяху произнес речь о единстве сразу после инаугурации. Согласно сообщению Ynet, все главы блока заявляют, что не хотят возвращаться к выборам. В то же время между ними существуют разногласия относительно состава правительства: узкое правительство, правительство при поддержке арабских партий, правительство, включающее ультраортодоксальные партии, или правительство единства.",
+     "hard": "10 ноября 2026 года Кнессет 26-го созыва был приведен к присяге. Сразу после инаугурации премьер-министр Биньямин Нетаньяху произнес речь о единстве. В тот же день лидеры партий так называемого в статье «блока перемен» провели свои первые фракционные заседания.\n\nСогласно сообщению Ynet, Гади Айзенкот, глава организации «Ишр!» партии, заявил, что его партия имеет 21 место, а 15 членов Кнессета являются новыми. Он сказал, что планирует создать «чрезвычайное правительство», но не стал вдаваться в подробности и отменил запланированную встречу с «Ликудом». Авигдор Либерман, глава партии «Исраэль Бейтену», заявил, что цели группы — завершить срок полномочий Нетаньяху и предотвратить дальнейшие выборы, и что правительство с арабскими партиями не будет сформировано. Нафтали Беннет и Яир Лапид предпочли хранить молчание во время переговоров, а Беннетт сказал в голосовом сообщении, что на это нет времени и что он работает над тем, чтобы помочь Айзенкоту сформировать правительство. Лидер демократов Яир Голан предложил правительство, поддерживаемое Национальной ассамблеей изнутри и «Объединенным списком» снаружи, и, согласно статье, другие партии блока выступают против этого.\n\nВсе главы блока сходятся во мнении, что они не хотят новых выборов. Обсуждаются следующие варианты: узкое правительство, правительство при поддержке арабских партий, правительство ультраортодоксов и правительство единства.",
+     "questions": [
+      "Что вы чувствовали в первые запомнившиеся вам дни выборов? Помните, за что вы голосовали?",
+      "На ваш взгляд, почему правительству важно быстро встать на ноги?",
+      "Что вы думаете о разговорах и компромиссах между людьми, которые думают иначе?"
+     ]
+    },
+    "es": {
+     "title": "La nueva Knesset tomó juramento: comienzan las conversaciones para formar gobierno",
+     "easy": "La nueva Knesset prestó juramento el 10 de noviembre.\nEsta es la 26ª Knesset.\nLos jefes de los partidos empezaron a hablar entre ellos.\nDeben formar un nuevo gobierno.\nTodos dijeron que no querían nuevas elecciones.",
+     "medium": "El 10 de noviembre de 2026 prestó juramento la 26.ª Knesset. El mismo día, los líderes de los partidos del llamado en el artículo \"Bloque del Cambio\" celebraron sus primeras reuniones de facciones y presentaron sus condiciones para la formación de un gobierno. El Primer Ministro Benjamín Netanyahu pronunció un discurso sobre la unidad justo después de la toma de posesión. Según el informe Ynet, todos los jefes del bloque dicen que no quieren volver a las elecciones. Al mismo tiempo, existen diferencias de opinión entre ellos en cuanto a la composición del gobierno: un gobierno estrecho, un gobierno con el apoyo de los partidos árabes, un gobierno que incluya a los partidos ultraortodoxos o un gobierno de unidad.",
+     "hard": "El 10 de noviembre de 2026 prestó juramento la 26.ª Knesset. Inmediatamente después de la toma de posesión, el Primer Ministro Benjamín Netanyahu pronunció un discurso sobre la unidad. El mismo día, los líderes de los partidos del llamado en el artículo \"el bloque del cambio\" celebraron sus primeras reuniones fraccionarias.\n\nSegún el informe de Ynet, Gadi Eisenkot, jefe del Ishr! partido, dijo que su partido tiene 21 escaños y 15 de sus miembros en la Knesset son nuevos. Dijo que estaba planeando un \"gobierno de emergencia\" y no dio más detalles, y canceló una reunión programada con el Likud. Avigdor Lieberman, jefe de Yisrael Beitenu, dijo que los objetivos del grupo son poner fin al mandato de Netanyahu e impedir nuevas elecciones, y que no se formará un gobierno con partidos árabes. Naftali Bennett y Yair Lapid optaron por permanecer en silencio durante las conversaciones, y Bennett dijo en un mensaje de voz que no había tiempo y que estaba trabajando para ayudar a Eisenkot a formar gobierno. Yair Golan, el líder de los demócratas, propuso un gobierno apoyado por la Asamblea Nacional desde dentro y la Lista Conjunta desde fuera, y según el artículo, los demás partidos del bloque se oponen a ello.\n\nTodos los jefes del bloque coinciden en que no quieren nuevas elecciones. Las opciones que se están discutiendo son un gobierno estrecho, un gobierno con el apoyo de los partidos árabes, un gobierno con los ultraortodoxos y un gobierno de unidad.",
+     "questions": [
+      "¿Cómo se sintió en los primeros días electorales que recuerda? ¿Recuerdas por qué votaste?",
+      "En su opinión, ¿por qué es importante que el gobierno actúe rápidamente?",
+      "¿Qué opinas de las conversaciones y compromisos entre personas que piensan diferente?"
+     ]
+    }
+   },
+   "audio": [
+    "easy",
+    "medium",
+    "hard"
+   ]
   },
   {
    "id": "2026-11-11-israel-2",
@@ -47,7 +87,47 @@
    ],
    "verified": true,
    "date": "2026-11-11",
-   "ts": 1794376800
+   "ts": 1794376800,
+   "tr": {
+    "en": {
+     "title": "A record number of women in the new Knesset",
+     "easy": "There are 33 women in the new Knesset.\nThis is a record in the history of the Knesset.\nThey are 27.5 percent of Knesset members.\nThe Knesset has 120 members.\nNo party is headed by a woman.",
+     "medium": "In the 26th Knesset, which was sworn in on November 10, 2026, there are 33 female Knesset members. According to Ynet, this is a record in the history of the Knesset, 27.5 percent of the 120 members of the Knesset. The number of women differs from party to party: in the Ishar party! Of Gadi Eisenkot 11 out of 21 members of the Knesset are women, in Naftali Bennett's coalition 6 out of 12, and in Likud 4 out of 27. The ultra-orthodox parties have no female members of the Knesset. None of the parties is headed by a woman. The article also states that in the current transitional government, the percentage of women in CEO positions in government ministries is very low, between 0 and 5 percent in the last four years. In the previous government, it was close to 40 percent.",
+     "hard": "In the 26th Knesset, which was sworn in on November 10, 2026, there are 33 female members of the Knesset, a record in the history of the Knesset, according to an article published on Ynet. They are 27.5 percent of the 120 members of the Knesset.\n\nThe number of women differs from party to party. In the straight party! of Gadi Eisenkot 11 out of 21 Knesset members are women. In Naftali Bennett's unity 6 out of 12, in Yair Golan's Democrats 4 out of 8, in Israel Beytinu 2 out of 7, and in Likud 4 out of 27. The ultra-orthodox parties have no members of the Knesset.\n\nDespite the record, only men appear in the picture of the 12 party leaders. The last woman to head a party in the Knesset was Merav Michaeli, who was the chairman of the Labor Party in the 24th and 25th Knesset and resigned in 2023. After her, Yair Golan headed the party.\n\nIn the joint list, 2 out of 11 members of the Knesset are women, in Otzma Yehudit 2 out of 7, in religious Zionism one out of 6, and in the Jewish People's Party one out of 8. The article also states that in the current transitional government, the proportion of women in executive director positions in government ministries is very low, between 0 and 5 percent in the last four years, the lowest in at least 20 years. In the previous government, it was close to 40 percent.",
+     "questions": [
+      "Who was the first woman in politics that you remember, and what did you think of her?",
+      "What was the working world like for women when you were young?",
+      "What do you think is important for more women to enter leadership positions?"
+     ]
+    },
+    "ru": {
+     "title": "Рекордное количество женщин в новом Кнессете",
+     "easy": "В новом Кнессете 33 женщины.\nЭто рекорд в истории Кнессета.\nОни составляют 27,5 процентов членов Кнессета.\nВ Кнессете 120 депутатов.\nНи одна партия не возглавляется женщиной.",
+     "medium": "В состав Кнессета 26-го созыва, который был приведен к присяге 10 ноября 2026 года, входят 33 женщины-депутата Кнессета. По данным Ynet, это рекорд в истории Кнессета — 27,5 процента из 120 членов Кнессета. Число женщин варьируется от партии к партии: в партии «Ишар»! У Гади Айзенкота 11 из 21 депутата Кнессета - женщины, в коалиции Нафтали Беннета - 6 из 12, а в Ликуде - 4 из 27. У ультраортодоксальных партий нет женщин-депутатов Кнессета. Ни одну из партий не возглавляет женщина. В статье также говорится, что в нынешнем переходном правительстве процент женщин на должностях руководителей правительственных министерств очень низок: от 0 до 5 процентов за последние четыре года. В предыдущем правительстве она была близка к 40 процентам.",
+     "hard": "Согласно статье, опубликованной на Ynet, в Кнессете 26-го созыва, который был приведен к присяге 10 ноября 2026 года, членами Кнессета являются 33 женщины, что является рекордом в истории Кнессета. Они составляют 27,5 процентов из 120 членов Кнессета.\n\nЧисло женщин варьируется от партии к партии. В натуральную сторону! Гади Айзенкота 11 из 21 депутата Кнессета – женщины. У «Единства» Нафтали Беннета — 6 из 12, у «Демократов» Яира Голана — 4 из 8, у «Исраэль Бейтину» — 2 из 7, а у «Ликуда» — 4 из 27. Ультраортодоксальные партии не имеют членов Кнессета.\n\nНесмотря на рекорд, на фотографиях 12 партийных лидеров фигурируют только мужчины. Последней женщиной, возглавившей партию в Кнессете, была Мерав Михаэли, которая была председателем Лейбористской партии в 24-м и 25-м Кнессете и ушла в отставку в 2023 году. После нее партию возглавил Яир Голан.\n\nВ объединенном списке 2 из 11 членов Кнессета — женщины, в «Оцма Йехудит» — 2 из 7, в религиозном сионизме — один из 6 и в Еврейской народной партии — один из 8. В статье также говорится, что в нынешнем переходном правительстве доля женщин на должностях исполнительных директоров в правительственных министерствах очень низка: от 0 до 5 процентов за последние четыре года, что является самым низким показателем как минимум за 20 лет. В предыдущем правительстве она была близка к 40 процентам.",
+     "questions": [
+      "Кто была первой женщиной в политике, которую вы помните, и что вы о ней думаете?",
+      "Каким был рабочий мир для женщин, когда вы были молоды?",
+      "Что, по вашему мнению, важно для того, чтобы больше женщин занимало руководящие должности?"
+     ]
+    },
+    "es": {
+     "title": "Un número récord de mujeres en la nueva Knesset",
+     "easy": "Hay 33 mujeres en la nueva Knesset.\nEste es un récord en la historia de la Knesset.\nSon el 27,5 por ciento de los miembros de la Knesset.\nLa Knesset tiene 120 miembros.\nNingún partido está encabezado por una mujer.",
+     "medium": "En la 26.ª Knesset, que prestó juramento el 10 de noviembre de 2026, hay 33 mujeres miembros de la Knesset. Según Ynet, se trata de un récord en la historia de la Knesset: el 27,5 por ciento de los 120 miembros de la Knesset. El número de mujeres difiere de un partido a otro: ¡en el partido Ishar! En Gadi Eisenkot, 11 de 21 miembros de la Knesset son mujeres, en la coalición de Naftali Bennett 6 de 12 y en el Likud 4 de 27. Los partidos ultraortodoxos no tienen mujeres en la Knesset. Ninguno de los partidos está encabezado por una mujer. El artículo también afirma que en el actual gobierno de transición, el porcentaje de mujeres en puestos ejecutivos en ministerios gubernamentales es muy bajo, entre 0 y 5 por ciento en los últimos cuatro años. En el gobierno anterior, era cercana al 40 por ciento.",
+     "hard": "En la 26.ª Knesset, que tomó juramento el 10 de noviembre de 2026, hay 33 mujeres miembros de la Knesset, un récord en la historia de la Knesset, según un artículo publicado en Ynet. Son el 27,5 por ciento de los 120 miembros de la Knesset.\n\nEl número de mujeres difiere de un partido a otro. ¡En la fiesta heterosexual! de Gadi Eisenkot, 11 de los 21 miembros de la Knesset son mujeres. En la unidad de Naftali Bennett 6 de 12, en los demócratas de Yair Golan 4 de 8, en Israel Beytinu 2 de 7 y en el Likud 4 de 27. Los partidos ultraortodoxos no tienen miembros en la Knesset.\n\nA pesar del historial, en la fotografía de los 12 líderes del partido sólo aparecen hombres. La última mujer en encabezar un partido en la Knesset fue Merav Michaeli, quien fue presidenta del Partido Laborista en las sesiones 24 y 25 de la Knesset y renunció en 2023. Después de ella, Yair Golan encabezó el partido.\n\nEn la lista conjunta, 2 de 11 miembros de la Knesset son mujeres, en Otzma Yehudit 2 de 7, en el sionismo religioso uno de 6 y en el Partido del Pueblo Judío uno de 8. El artículo también afirma que en el actual gobierno de transición, la proporción de mujeres en puestos de directora ejecutiva en ministerios gubernamentales es muy baja, entre 0 y 5 por ciento en los últimos cuatro años, la más baja en al menos 20 años. En el gobierno anterior, era cercana al 40 por ciento.",
+     "questions": [
+      "¿Quién fue la primera mujer en política que recuerdas y qué pensabas de ella?",
+      "¿Cómo era el mundo laboral para las mujeres cuando era joven?",
+      "¿Qué crees que es importante para que más mujeres ocupen puestos de liderazgo?"
+     ]
+    }
+   },
+   "audio": [
+    "easy",
+    "medium",
+    "hard"
+   ]
   },
   {
    "id": "2026-11-11-weather-1",
@@ -69,7 +149,47 @@
    ],
    "verified": true,
    "date": "2026-11-11",
-   "ts": 1794376800
+   "ts": 1794376800,
+   "tr": {
+    "en": {
+     "title": "The weather: It's colder than usual today, and it's starting to warm up tomorrow",
+     "easy": "Today is colder than usual for the season.\nIn the afternoon there is light rain on the coast.\nTomorrow will be a little warmer.\nIt will get warmer on Friday.\nOn Saturday the temperatures will continue to rise.\nYou should go out with a thin coat.",
+     "medium": "Today, Wednesday November 11, the temperatures are lower than normal for the season. In the morning the sky is clear to partly cloudy, and in the afternoon it is possible that it will drizzle or light local rain along the coastal plain. Temperatures of 9 to 17 degrees are expected in Jerusalem today and night, in Tel Aviv 12 to 22, in Haifa 14 to 21, in Be'er Sheva 10 to 21 and in Eilat 17 to 25. Tomorrow will continue to warm up a bit, and on Friday and Saturday the temperatures will continue to rise. You should wear layers. It is colder in the north and in the mountains than on the coast, so those who go out in the evening should cover up well.",
+     "hard": "Today, Wednesday November 11, the temperatures are lower than usual for the season, according to the forecast published on Ynet. In the morning the sky is clear to partly cloudy, and in the afternoon it is possible that it will drizzle or light local rain along the coastal plain.\n\nThe ranges throughout the day and night: Jerusalem 9 to 17 degrees, Tel Aviv 12 to 22, Haifa 14 to 21, Safed 9 to 18, Tiberias 12 to 20, Nazareth 13 to 20, Beer Sheva 10 to 21, Mitzpe Ramon 12 to 19, Ein Gedi 17 to 22 and Eilat 17 to 25.\n\nTomorrow, Thursday, temperatures will rise a bit, but there is still a chance of light localized rain in the northern coastal plain. On Friday it will be warmer, and on Saturday the temperatures will continue to rise. When there is a big difference between morning and afternoon, you should wear several thin layers and remove them gradually.\n\nA range of 12 to 22 degrees is expected in Ashdod and Lod, in Afula 9 to 22, in Beit Shan 12 to 22 and in Katzrin 9 to 18. Those who go to the beach in the afternoon can take a small umbrella, because the rain is expected to be localized and light.",
+     "questions": [
+      "Which weather do you like better, hot or cold? why?",
+      "What do you do at home when it rains for the first time in the season?",
+      "What food do you make when it's cold outside?"
+     ]
+    },
+    "ru": {
+     "title": "Погода: сегодня холоднее, чем обычно, а завтра начинает теплеть.",
+     "easy": "Сегодня холоднее, чем обычно в этом сезоне.\nДнем на побережье идет небольшой дождь.\nЗавтра будет немного теплее.\nВ пятницу потеплеет.\nВ субботу температура продолжит повышаться.\nВы должны выйти в тонком пальто.",
+     "medium": "Сегодня, в среду, 11 ноября, температура ниже нормы для этого сезона. Утром небо ясное или переменное облачное, а днем ​​не исключена морось или небольшой локальный дождь по прибрежной равнине. В Иерусалиме сегодня и ночью ожидается от 9 до 17 градусов, в Тель-Авиве - с 12 до 22, в Хайфе - с 14 до 21, в Беэр-Шеве - с 10 до 21, в Эйлате - с 17 до 25. Завтра продолжится небольшое потепление, а в пятницу и субботу температура продолжит повышаться. Вам следует носить многослойную одежду. На севере и в горах холоднее, чем на побережье, поэтому тем, кто выходит вечером на улицу, следует хорошо укрыться.",
+     "hard": "Сегодня, в среду, 11 ноября, температура ниже обычной для сезона, согласно прогнозу, опубликованному на Ynet. Утром небо ясное или переменное облачное, а днем ​​не исключена морось или небольшой локальный дождь по прибрежной равнине.\n\nДиапазон температур днем и ночью: Иерусалим от 9 до 17 градусов, Тель-Авив от 12 до 22, Хайфа от 14 до 21, Цфат от 9 до 18, Тверия от 12 до 20, Назарет от 13 до 20, Беэр-Шева от 10 до 21, Мицпе-Рамон от 12 до 19, Эйн-Геди от 17 до 22 и Эйлат от 17 до 21. 25.\n\nЗавтра, в четверг, температура немного повысится, но на северной прибрежной равнине все еще сохраняется вероятность небольшого локального дождя. В пятницу будет теплее, а в субботу температура продолжит повышаться. Когда между утром и днем ​​большая разница, следует надеть несколько тонких слоев и постепенно их снимать.\n\nВ Ашдоде и Лоде ожидается температура от 12 до 22 градусов, в Афуле от 9 до 22, в Бейт-Шане от 12 до 22 и в Кацрине от 9 до 18. Те, кто идет на пляж во второй половине дня, могут взять с собой небольшой зонтик, поскольку дождь ожидается локальный и легкий.",
+     "questions": [
+      "Какая погода вам больше нравится, жаркая или холодная? почему?",
+      "Что вы делаете дома, когда впервые за сезон идет дождь?",
+      "Какую еду вы готовите, когда на улице холодно?"
+     ]
+    },
+    "es": {
+     "title": "El clima: hoy hace más frío de lo habitual y mañana empezará a hacer calor",
+     "easy": "Hoy hace más frío de lo habitual para la temporada.\nPor la tarde llueve ligeramente en la costa.\nMañana hará un poco más de calor.\nEl viernes hará más calor.\nEl sábado las temperaturas seguirán subiendo.\nDeberías salir con un abrigo fino.",
+     "medium": "Hoy miércoles 11 de noviembre las temperaturas son más bajas de lo normal para la temporada. Por la mañana el cielo estará despejado a parcialmente nublado, y por la tarde es posible que llovizne o lluvias locales débiles a lo largo de la llanura costera. Se esperan temperaturas de 9 a 17 grados en Jerusalén hoy y por la noche, en Tel Aviv de 12 a 22, en Haifa de 14 a 21, en Be'er Sheva de 10 a 21 y en Eilat de 17 a 25. Mañana seguirá calentándose un poco, y el viernes y sábado las temperaturas seguirán subiendo. Deberías usar capas. Hace más frío en el norte y en la montaña que en la costa, por lo que quienes salgan por la noche deberán abrigarse bien.",
+     "hard": "Hoy, miércoles 11 de noviembre, las temperaturas son más bajas de lo habitual para la temporada, según el pronóstico publicado en Ynet. Por la mañana el cielo estará despejado a parcialmente nublado, y por la tarde es posible que llovizne o lluvias locales débiles a lo largo de la llanura costera.\n\nLas oscilaciones a lo largo del día y de la noche: Jerusalén de 9 a 17 grados, Tel Aviv de 12 a 22, Haifa de 14 a 21, Safed de 9 a 18, Tiberíades de 12 a 20, Nazaret de 13 a 20, Beer Sheva de 10 a 21, Mitzpe Ramon de 12 a 19, Ein Gedi de 17 a 22 y Eilat de 17 a 25.\n\nMañana jueves subirán un poco las temperaturas, pero aún existe probabilidad de lluvias ligeras localizadas en la llanura costera norte. El viernes hará más calor y el sábado las temperaturas seguirán subiendo. Cuando hay una gran diferencia entre la mañana y la tarde, conviene ponerse varias capas finas y retirarlas poco a poco.\n\nSe esperan temperaturas de 12 a 22 grados en Ashdod y Lod, en Afula de 9 a 22, en Beit Shan de 12 a 22 y en Katzrin de 9 a 18. Quienes vayan a la playa por la tarde pueden llevar un pequeño paraguas, porque se espera que la lluvia sea localizada y ligera.",
+     "questions": [
+      "¿Qué clima te gusta más, el frío o el calor? ¿por qué?",
+      "¿Qué haces en casa cuando llueve por primera vez en la temporada?",
+      "¿Qué comida haces cuando hace frío afuera?"
+     ]
+    }
+   },
+   "audio": [
+    "easy",
+    "medium",
+    "hard"
+   ]
   },
   {
    "id": "2026-11-11-onthisday-1",
@@ -91,7 +211,47 @@
    ],
    "verified": true,
    "date": "2026-11-11",
-   "ts": 1794376800
+   "ts": 1794376800,
+   "tr": {
+    "en": {
+     "title": "Today in history, November 11: Route 66 was born",
+     "easy": "100 years ago something important happened in the United States.\nOn November 11, 1926, numbered roads were approved.\nOne of them was Route 66.\nHe connected Chicago with California.\nIt is still known today.",
+     "medium": "On November 11, 1926, 100 years ago, road officials from the federal and state governments met in North Carolina and approved a numbered road system for all 48 continental states. One of the roads that was given a number was Route 66. It went through eight states, from the city of Chicago to Santa Monica in California, connecting existing roads and dirt roads. The person behind the idea was Cyrus Avery, a businessman from Oklahoma called \"the father of Route 66\". The name, meaning the number 66, was proposed in April 1926 by Avery and a highway engineer from the state of Missouri in a telegram to Washington, and it was officially approved in November.",
+     "hard": "On November 11, 1926, 100 years ago, road officials from the federal and state governments met in North Carolina and approved a numbered road system for all 48 continental states. Until then many roads had names and not numbers.\n\nOne of the roads that got a number was Route 66, about 2,400 miles long, about 3,900 kilometers. He passed through eight states, from the city of Chicago to Santa Monica in California, connecting existing roads and dirt roads.\n\nAccording to the History website, the person who pushed the idea was Cyrus Avery, a real estate man and owner of a coal company from Tulsa, Oklahoma, who wanted a road that would connect the Midwest region to the West Coast. He was later considered the \"Father of Route 66\". John Woodruff of the state of Missouri also worked to promote a diagonal road that would connect rural communities. In April 1926, Avery and the Missouri highway engineer sent a telegram to Washington and proposed the number, and it was officially confirmed in November.\n\nThe idea was to build a road diagonally that would pass between rural settlements and connect them. The road received its number already in the year of its establishment, and it remains one of the most famous roads in the United States, and in 2026 it marks 100 years since its establishment.",
+     "questions": [
+      "Have you ever traveled a very long way? Where, and with whom?",
+      "Which road in Israel do you remember from your youth?",
+      "How would you find your way before there were signs and numbers?"
+     ]
+    },
+    "ru": {
+     "title": "Сегодня в истории, 11 ноября: рождение Шоссе 66",
+     "easy": "100 лет назад в Соединённых Штатах произошло нечто важное.\n11 ноября 1926 года были утверждены нумерованные дороги.\nОдним из них был Маршрут 66.\nОн соединил Чикаго с Калифорнией.\nЭто известно и сегодня.",
+     "medium": "11 ноября 1926 года, 100 лет назад, дорожные чиновники федерального правительства и правительств штатов встретились в Северной Каролине и утвердили пронумерованную дорожную систему для всех 48 континентальных штатов. Одной из дорог, получившей номер, было шоссе 66. Оно проходило через восемь штатов, от города Чикаго до Санта-Моники в Калифорнии, соединяя существующие дороги и грунтовые дороги. Инициатором идеи был Сайрус Эйвери, бизнесмен из Оклахомы, которого называли «отцом шоссе 66». Название, означающее число 66, было предложено в апреле 1926 года Эйвери и дорожным инженером из штата Миссури в телеграмме в Вашингтон и официально одобрено в ноябре.",
+     "hard": "11 ноября 1926 года, 100 лет назад, дорожные чиновники федерального правительства и правительств штатов встретились в Северной Каролине и утвердили пронумерованную дорожную систему для всех 48 континентальных штатов. До этого многие дороги имели названия, а не номера.\n\nОдной из дорог, получивших номер, было шоссе 66, длиной около 2400 миль, около 3900 километров. Он проехал через восемь штатов, от города Чикаго до Санта-Моники в Калифорнии, соединяя существующие дороги и грунтовые дороги.\n\nСогласно веб-сайту History, человеком, который выдвинул эту идею, был Сайрус Эйвери, специалист по недвижимости и владелец угольной компании из Талсы, Оклахома, который хотел построить дорогу, которая соединила бы регион Среднего Запада с Западным побережьем. Позже его считали «отцом шоссе 66». Джон Вудрафф из штата Миссури также работал над продвижением диагональной дороги, которая соединила бы сельские общины. В апреле 1926 года Эйвери и дорожный инженер из Миссури отправили телеграмму в Вашингтон и предложили номер, который был официально подтвержден в ноябре.\n\nИдея заключалась в том, чтобы построить дорогу по диагонали, которая бы проходила между сельскими населенными пунктами и соединяла их. Свой номер дорога получила уже в год своего основания и остается одной из самых известных дорог США, а в 2026 году ей исполнится 100 лет со дня основания.",
+     "questions": [
+      "Вы когда-нибудь путешествовали очень далеко? Где и с кем?",
+      "Какую дорогу в Израиле вы помните из своей юности?",
+      "Как бы вы находили дорогу до того, как появились знаки и цифры?"
+     ]
+    },
+    "es": {
+     "title": "Hoy en la historia, 11 de noviembre: nació la Ruta 66",
+     "easy": "Hace 100 años sucedió algo importante en Estados Unidos.\nEl 11 de noviembre de 1926 se aprobaron los caminos numerados.\nUno de ellos fue la Ruta 66.\nConectó Chicago con California.\nTodavía se sabe hoy.",
+     "medium": "El 11 de noviembre de 1926, hace 100 años, funcionarios de carreteras de los gobiernos federal y estatal se reunieron en Carolina del Norte y aprobaron un sistema de carreteras numeradas para los 48 estados continentales. Una de las carreteras a las que se le asignó un número fue la Ruta 66. Atravesaba ocho estados, desde la ciudad de Chicago hasta Santa Mónica en California, conectando carreteras existentes y caminos de tierra. La persona detrás de la idea fue Cyrus Avery, un empresario de Oklahoma llamado \"el padre de la Ruta 66\". El nombre, que significa número 66, fue propuesto en abril de 1926 por Avery y un ingeniero de carreteras del estado de Missouri en un telegrama a Washington, y fue aprobado oficialmente en noviembre.",
+     "hard": "El 11 de noviembre de 1926, hace 100 años, funcionarios de carreteras de los gobiernos federal y estatal se reunieron en Carolina del Norte y aprobaron un sistema de carreteras numeradas para los 48 estados continentales. Hasta entonces muchas carreteras tenían nombres y no números.\n\nUna de las carreteras que obtuvo un número fue la Ruta 66, de unas 2.400 millas de largo, unos 3.900 kilómetros. Pasó por ocho estados, desde la ciudad de Chicago hasta Santa Mónica en California, conectando carreteras existentes y caminos de tierra.\n\nSegún el sitio web History, la persona que impulsó la idea fue Cyrus Avery, un agente inmobiliario y propietario de una empresa de carbón de Tulsa, Oklahoma, que quería una carretera que conectara la región del Medio Oeste con la Costa Oeste. Posteriormente fue considerado el \"Padre de la Ruta 66\". John Woodruff del estado de Missouri también trabajó para promover una carretera diagonal que conectaría las comunidades rurales. En abril de 1926, Avery y el ingeniero de carreteras de Missouri enviaron un telegrama a Washington y propusieron el número, que fue confirmado oficialmente en noviembre.\n\nLa idea era construir una carretera en diagonal que pasara entre los asentamientos rurales y los conectara. La carretera recibió su número ya en el año de su creación, sigue siendo una de las carreteras más famosas de los Estados Unidos y en 2026 se cumplirán 100 años desde su creación.",
+     "questions": [
+      "¿Alguna vez has viajado un largo camino? ¿Dónde y con quién?",
+      "¿Qué camino de Israel recuerdas de tu juventud?",
+      "¿Cómo encontrarías el camino antes de que existieran las señales y los números?"
+     ]
+    }
+   },
+   "audio": [
+    "easy",
+    "medium",
+    "hard"
+   ]
   },
   {
    "id": "2026-11-11-birthdays-1",
@@ -121,6 +281,46 @@
    "people": [
     "קרלוס פואנטס",
     "רוברט ראיין"
+   ],
+   "tr": {
+    "en": {
+     "title": "Born today, November 11: Carlos Fuentes and Robert Ryan",
+     "easy": "Carlos Fuentes was born on November 11, 1928.\nHe was born in Panama and was a Mexican writer.\nRobert Ryan was born on November 11, 1909.\nHe was born in Chicago and was a film actor.\nHe played in the movie \"Bad Day at Black Rock\".",
+     "medium": "On November 11, 1928, the writer Carlos Fuentes was born in Panama City, who was a Mexican writer, playwright, critic and diplomat. He became world famous thanks to experimental novels, including \"Aura\" and \"The Death of Artemio Cruz\". In 1987 he won the Cervantes Prize, the most important prize in Spanish language literature. Fuentes died in 2012.\n\nOn November 11, 1909, film actor Robert Ryan was born in Chicago. After the Second World War he became a respected character actor, and played among other things in the films \"Crossfire\" and \"Bad Day at Black Rock\". He died in 1973.",
+     "hard": "On November 11, 1928, Carlos Fuentes was born in Panama City, the capital of Panama. He was a Mexican novelist, short story writer, playwright, critic and diplomat, and became world famous for his experimental novels. Among his works: \"Aura\", \"The Death of Artemio Cruz\", \"Terra Nostra\", \"Where the Air Is Clear\" and \"The Crystal Frontier\". In 1987 he won the Cervantes Prize, which is considered the most important prize in Spanish-language literature. Fuentes died in 2012, at the age of 83.\n\nOn November 11, 1909, Robert Ryan, an American film actor, was born in Chicago, Illinois. After World War II he became a respected character actor, who often played tough men. He starred in The Woman on the Beach and Crossfire in 1947, The Set-Up in 1949, Bad Day at Black Rock in 1955, Billy Budd in 1962 and The Wild Bunch in 1969. Ryan died in 1973.\n\nAmong Fuentes' other books are \"Distant Relations\" and \"The Hydra Head\". Ryan also starred in Men in War in 1957 and Odds Against Tomorrow in 1959. Fuentes died in Mexico City and Ryan in New York. Both were born on the same day of the month, November 11.",
+     "questions": [
+      "Have you ever read a book by a writer outside of Israel? what?",
+      "Which old movie sticks in your memory the most?",
+      "Who was your favorite author or actor when you were young?"
+     ]
+    },
+    "ru": {
+     "title": "Сегодня, 11 ноября, родились: Карлос Фуэнтес и Роберт Райан.",
+     "easy": "Карлос Фуэнтес родился 11 ноября 1928 года.\nОн родился в Панаме и был мексиканским писателем.\nРоберт Райан родился 11 ноября 1909 года.\nОн родился в Чикаго и был киноактером.\nОн сыграл в фильме «Плохой день в Блэк-Роке».",
+     "medium": "11 ноября 1928 года в Панама-Сити родился писатель Карлос Фуэнтес, мексиканский писатель, драматург, критик и дипломат. Всемирную известность он получил благодаря экспериментальным романам, среди которых «Аура» и «Смерть Артемио Круса». В 1987 году он получил Премию Сервантеса, самую важную премию в области испаноязычной литературы. Фуэнтес умер в 2012 году.\n\n11 ноября 1909 года в Чикаго родился киноактер Роберт Райан. После Второй мировой войны он стал уважаемым характерным актером и сыграл, среди прочего, в фильмах «Перекрестный огонь» и «Плохой день в Блэк-Роке». Он умер в 1973 году.",
+     "hard": "11 ноября 1928 года Карлос Фуэнтес родился в Панама-Сити, столице Панамы. Он был мексиканским писателем, автором рассказов, драматургом, критиком и дипломатом, прославившимся на весь мир своими экспериментальными романами. Среди его работ: «Аура», «Смерть Артемио Круса», «Терра Ностра», «Там, где воздух чист» и «Хрустальный рубеж». В 1987 году он получил Премию Сервантеса, которая считается самой важной премией в испаноязычной литературе. Фуэнтес умер в 2012 году в возрасте 83 лет.\n\n11 ноября 1909 года в Чикаго, штат Иллинойс, родился Роберт Райан, американский киноактер. После Второй мировой войны он стал уважаемым характерным актером, часто игравшим крутых мужчин. Он снялся в фильмах «Женщина на пляже» и «Перекрестный огонь» в 1947 году, «Подстава» в 1949 году, «Плохой день в Блэк-Роке» в 1955 году, «Билли Бадд» в 1962 году и «Дикая банда» в 1969 году. Райан умер в 1973 году.\n\nСреди других книг Фуэнтеса — «Дальние отношения» и «Голова гидры». Райан также снялся в фильмах «Люди на войне» в 1957 году и «Шансы против завтрашнего дня» в 1959 году. Фуэнтес умер в Мехико, а Райан — в Нью-Йорке. Оба родились в один и тот же день месяца, 11 ноября.",
+     "questions": [
+      "Вы когда-нибудь читали книгу писателя за пределами Израиля? что?",
+      "Какой старый фильм запомнился вам больше всего?",
+      "Кто был вашим любимым писателем или актером в молодости?"
+     ]
+    },
+    "es": {
+     "title": "Nacidos hoy 11 de noviembre: Carlos Fuentes y Robert Ryan",
+     "easy": "Carlos Fuentes nació el 11 de noviembre de 1928.\nNació en Panamá y fue un escritor mexicano.\nRobert Ryan nació el 11 de noviembre de 1909.\nNació en Chicago y fue actor de cine.\nJugó en la película \"Bad Day at Black Rock\".",
+     "medium": "El 11 de noviembre de 1928 nació en la ciudad de Panamá el escritor Carlos Fuentes, quien fue un escritor, dramaturgo, crítico y diplomático mexicano. Se hizo mundialmente famoso gracias a novelas experimentales, entre ellas \"Aura\" y \"La muerte de Artemio Cruz\". En 1987 ganó el Premio Cervantes, el galardón más importante de la literatura en lengua española. Fuentes murió en 2012.\n\nEl 11 de noviembre de 1909 nació en Chicago el actor de cine Robert Ryan. Después de la Segunda Guerra Mundial se convirtió en un respetado actor de carácter y actuó, entre otras cosas, en las películas \"Crossfire\" y \"Bad Day at Black Rock\". Murió en 1973.",
+     "hard": "El 11 de noviembre de 1928 nació Carlos Fuentes en la Ciudad de Panamá, capital de Panamá. Fue un novelista, cuentista, dramaturgo, crítico y diplomático mexicano, que se hizo mundialmente famoso por sus novelas experimentales. Entre sus obras: \"Aura\", \"La muerte de Artemio Cruz\", \"Terra Nostra\", \"Donde el aire es claro\" y \"La frontera de cristal\". En 1987 ganó el Premio Cervantes, considerado el premio más importante de la literatura en lengua española. Fuentes murió en 2012, a la edad de 83 años.\n\nEl 11 de noviembre de 1909 nació Robert Ryan, actor de cine estadounidense, en Chicago, Illinois. Después de la Segunda Guerra Mundial se convirtió en un respetado actor de carácter, que a menudo interpretaba a hombres duros. Protagonizó La mujer en la playa y Crossfire en 1947, The Set-Up en 1949, Bad Day at Black Rock en 1955, Billy Budd en 1962 y The Wild Bunch en 1969. Ryan murió en 1973.\n\nEntre otros libros de Fuentes se encuentran \"Relaciones a distancia\" y \"La cabeza de hidra\". Ryan también protagonizó Men in War en 1957 y Odds Against Tomorrow en 1959. Fuentes murió en la Ciudad de México y Ryan en Nueva York. Ambos nacieron el mismo día del mes, 11 de noviembre.",
+     "questions": [
+      "¿Alguna vez has leído un libro de un escritor fuera de Israel? ¿qué?",
+      "¿Qué película antigua se te queda más en la memoria?",
+      "¿Quién era tu autor o actor favorito cuando eras joven?"
+     ]
+    }
+   },
+   "audio": [
+    "easy",
+    "medium",
+    "hard"
    ]
   },
   {
@@ -143,7 +343,47 @@
    ],
    "verified": true,
    "date": "2026-11-11",
-   "ts": 1794376800
+   "ts": 1794376800,
+   "tr": {
+    "en": {
+     "title": "November's shopping trap",
+     "easy": "In November there are many online deals.\nThey are called Black Friday and Singles Day.\nPromotions make us buy more.\nYou should make a list before buying.\nYou should also set a budget.",
+     "medium": "In November there are several promotional events: Black Friday, Cyber ​​Monday, Chinese Singles' Day and ShoppingIL in Israel. In an article on Ynet, Dr. Liraz Margalit, a behavioral researcher, explains that the sales create a feeling that \"everything is allowed\", and that a word like \"sale\" makes us think that a product is worth more. Tips for the consumer: write down a list before buying, set a budget, track the prices in advance, compare prices before purchasing and do not order more than $75 from abroad in one order, in order to avoid paying customs. Singles' Day started in the 1990s at a university in China, and in 2009 Alibaba turned it into a shopping festival.",
+     "hard": "In November there are several promotional events: Black Friday, Cyber ​​Monday, Chinese Singles' Day and ShoppingIL in Israel. According to an article published on ynet on November 8, many of us these days spend more than we planned.\n\nBlack Friday comes from Thanksgiving in the United States. Merchants were expecting more buyers, and the name was given, according to the article, by police officers in Florida because of the crowding. Singles' Day started in the 1990s at a university in China and was not related to shopping, and in 2009 Alibaba turned it into a shopping festival. ShoppingIL was launched in Israel in 2014 by Google.\n\nDr. Liraz Margalit, a behavioral researcher, explains that the promotions create a feeling that \"everything is allowed\" and lower the inhibitions, and that things we wouldn't normally want seem more valuable to us at the moment of the promotion. The tips of the consumer reporter: prepare a list and a fixed budget, track prices in advance and buy when the price is low, compare prices, and order from abroad for less than $75 per order to avoid customs. According to her, products can also satisfy psychological needs, such as a sign of identity, belonging to a group or social status. The article does not indicate which specific study is behind the things.",
+     "questions": [
+      "Have you ever bought something on sale and then regretted it? what was it",
+      "How would you shop in your youth, without internet?",
+      "What is your best tip to not spend too much?"
+     ]
+    },
+    "ru": {
+     "title": "Ноябрьская торговая ловушка",
+     "easy": "В ноябре много онлайн-предложений.\nИх называют Черная пятница и День холостяков.\nАкции заставляют нас покупать больше.\nПеред покупкой следует составить список.\nВам также следует установить бюджет.",
+     "medium": "В ноябре проходит несколько рекламных мероприятий: Черная пятница, Киберпонедельник, Китайский день холостяков и ShoppingIL в Израиле. В статье на Ynet доктор Лираз Маргалит, исследователь поведения, объясняет, что продажи создают ощущение, что «все разрешено», и что такое слово, как «распродажа», заставляет нас думать, что продукт стоит дороже. Советы потребителю: составьте список перед покупкой, установите бюджет, заранее отслеживайте цены, сравнивайте цены перед покупкой и не заказывайте из-за границы более 75 долларов за один заказ, чтобы не платить таможню. День холостяков начался в 1990-х годах в одном из университетов Китая, а в 2009 году Alibaba превратила его в фестиваль шоппинга.",
+     "hard": "В ноябре проходит несколько рекламных мероприятий: Черная пятница, Киберпонедельник, Китайский день холостяков и ShoppingIL в Израиле. Согласно статье, опубликованной в ynet 8 ноября, многие из нас в эти дни тратят больше, чем планировали.\n\nЧерная пятница приходится на День Благодарения в США. Торговцы ожидали большего количества покупателей, а название, согласно статье, дали полицейские Флориды из-за скопления людей. День холостяков начался в 1990-х годах в одном из университетов Китая и не был связан с шопингом, а в 2009 году Alibaba превратила его в фестиваль шоппинга. ShoppingIL был запущен в Израиле в 2014 году компанией Google.\n\nДоктор Лираз Маргалит, исследователь поведения, объясняет, что рекламные акции создают ощущение, что «все разрешено» и снижают сдерживающие факторы, и что вещи, которые мы обычно не хотели бы, кажутся нам более ценными в момент продвижения. Советы репортера о потребителях: подготовьте список и фиксированный бюджет, заранее отслеживайте цены и покупайте, когда цена низкая, сравнивайте цены и заказывайте из-за границы менее чем за 75 долларов за заказ, чтобы избежать таможни. По ее словам, продукты могут удовлетворять и психологические потребности, например, признак идентичности, принадлежности к группе или социального статуса. В статье не указано, какое именно исследование стоит за происходящим.",
+     "questions": [
+      "Вы когда-нибудь покупали что-то на распродаже, а потом сожалели об этом? что это было",
+      "Как бы вы делали покупки в юности без Интернета?",
+      "Какой ваш лучший совет, как не тратить слишком много?"
+     ]
+    },
+    "es": {
+     "title": "La trampa de las compras de noviembre",
+     "easy": "En noviembre hay muchas ofertas online.\nSe llaman Black Friday y Singles Day.\nLas promociones nos hacen comprar más.\nDeberías hacer una lista antes de comprar.\nTambién debes establecer un presupuesto.",
+     "medium": "En noviembre hay varios eventos promocionales: Black Friday, Cyber ​​​​Monday, Día de los Solteros Chinos y ShoppingIL en Israel. En un artículo en Ynet, la Dra. Liraz Margalit, investigadora del comportamiento, explica que las ventas crean la sensación de que \"todo está permitido\", y que una palabra como \"oferta\" nos hace pensar que un producto vale más. Consejos para el consumidor: hacer una lista antes de comprar, establecer un presupuesto, seguir los precios con anticipación, comparar precios antes de comprar y no pedir más de $75 al extranjero en un solo pedido, para evitar pagar aduanas. El Día de los Solteros comenzó en la década de 1990 en una universidad de China y en 2009 Alibaba lo convirtió en un festival de compras.",
+     "hard": "En noviembre hay varios eventos promocionales: Black Friday, Cyber ​​​​Monday, Día de los Solteros Chinos y ShoppingIL en Israel. Según un artículo publicado en ynet el 8 de noviembre, muchos de nosotros estos días gastamos más de lo planeado.\n\nEl Black Friday proviene del Día de Acción de Gracias en Estados Unidos. Los comerciantes esperaban más compradores y, según el artículo, los agentes de policía de Florida le pusieron el nombre debido a la aglomeración. El Día de los Solteros comenzó en la década de 1990 en una universidad de China y no estaba relacionado con las compras, y en 2009 Alibaba lo convirtió en un festival de compras. ShoppingIL fue lanzado en Israel en 2014 por Google.\n\nLa Dra. Liraz Margalit, investigadora del comportamiento, explica que las promociones crean una sensación de que \"todo está permitido\" y reducen las inhibiciones, y que cosas que normalmente no querríamos nos parecen más valiosas en el momento de la promoción. Los consejos del reportero del consumidor: preparar una lista y un presupuesto fijo, seguir los precios con antelación y comprar cuando el precio sea bajo, comparar precios y realizar pedidos desde el extranjero por menos de 75 dólares por pedido para evitar aduanas. Según ella, los productos también pueden satisfacer necesidades psicológicas, como un signo de identidad, pertenencia a un grupo o estatus social. El artículo no indica qué estudio específico está detrás de las cosas.",
+     "questions": [
+      "¿Alguna vez compraste algo en oferta y luego te arrepentiste? ¿Qué fue?",
+      "¿Cómo comprarías en tu juventud, sin internet?",
+      "¿Cuál es tu mejor consejo para no gastar demasiado?"
+     ]
+    }
+   },
+   "audio": [
+    "easy",
+    "medium",
+    "hard"
+   ]
   },
   {
    "id": "2026-11-11-nature-1",
@@ -165,7 +405,47 @@
    ],
    "verified": true,
    "date": "2026-11-11",
-   "ts": 1794376800
+   "ts": 1794376800,
+   "tr": {
+    "en": {
+     "title": "The current queue: a migratory bird that may disappear from Israel",
+     "easy": "The turnip is a bird that migrates every year.\nHe flew thousands of kilometers to Africa and back.\nIts number has decreased greatly in recent years.\nIt is hunted illegally in the Mediterranean Sea.\nIn Israel it is forbidden to hunt him.",
+     "medium": "The common pigeon is a migratory bird that flies thousands of kilometers every year, unlike the urban pigeon we are familiar with. His voice is mentioned in the Song of Songs. According to an article on Ynet, it may disappear from Israel: in a 2023 \"Nature Report\" survey, it was found that the density of queues at the survey sites decreased by 81 percent in ten years. The reasons are illegal hunting of millions of birds in the Mediterranean, climate change and loss of open spaces. In Israel, the hunting of the harrier was banned completely in 2020. In Israel, it nests in the north, in the valleys and in the south of the country, and has almost disappeared from the central region.",
+     "hard": "The common pigeon is a migratory bird that flies thousands of kilometers every year, unlike the urban pigeon we are familiar with. According to an article published on Ynet on November 7, in Israel it nests in the north, the southern lowlands, the northern Negev, the Jordan Valley and the northern Arava, and has almost disappeared from the central region. His voice is mentioned in the Song of Songs.\n\nIts global status is \"vulnerable\", and in Israel it is defined as \"close to endangered\" according to a 2017 assessment, which is expected to worsen. In a 2023 \"Nature Report\" survey, it was found that the density of queues at the survey sites decreased by 81 percent in ten years. Among the reasons for the decline: illegal hunting of millions of birds each year, mainly around the Mediterranean Sea, climate change in the stopover sites and in the Sahel region of Africa, and loss of open areas.\n\nIn a study led by Dr. Yoav Perlman, head of the Israel Center for Ornithology at the Society for the Protection of Nature, 12 birds were equipped with transmitters in the Spring Valley, and 7 of them reached Africa. One flew more than 1,000 km without stopping. Hunting in Israel was completely banned in 2020, and the ban was extended for another year by Environmental Protection Minister Idit Silman, based on the opinion of the Nature and Parks Authority. 255 responses from the public supported the extension, and a permanent legal framework is still being prepared.",
+     "questions": [
+      "Have you ever seen migrating birds or heard about them? where?",
+      "Which bird do you like to see in the garden or from the window?",
+      "What do you think can be done to protect endangered animals?"
+     ]
+    },
+    "ru": {
+     "title": "Текущая очередь: перелетная птица, которая может исчезнуть из Израиля",
+     "easy": "Репа — птица, которая мигрирует каждый год.\nОн пролетел тысячи километров в Африку и обратно.\nЗа последние годы его численность значительно сократилась.\nНа него незаконно охотятся в Средиземном море.\nВ Израиле на него запрещено охотиться.",
+     "medium": "Обыкновенный голубь – перелетная птица, которая ежегодно пролетает тысячи километров, в отличие от привычного нам городского голубя. Его голос упоминается в «Песне Песней». Согласно статье на Ynet, он может исчезнуть из Израиля: в опросе «Nature Report» 2023 года было установлено, что плотность очередей на объектах опроса за десять лет снизилась на 81 процент. Причины – незаконная охота на миллионы птиц в Средиземноморье, изменение климата и утрата открытых пространств. В Израиле охота на луня была полностью запрещена в 2020 году. В Израиле он гнездится на севере, в долинах и на юге страны, а в центральном регионе почти исчез.",
+     "hard": "Обыкновенный голубь – перелетная птица, которая ежегодно пролетает тысячи километров, в отличие от привычного нам городского голубя. Согласно статье, опубликованной на Ynet 7 ноября, в Израиле он гнездится на севере, южных низменностях, северном Негеве, долине реки Иордан и северной Араве, а в центральном регионе почти исчез. Его голос упоминается в «Песне Песней».\n\nЕго глобальный статус «уязвим», а в Израиле он определен как «находящийся на грани исчезновения» согласно оценке 2017 года, и ожидается, что ситуация ухудшится. В опросе Nature Report, проведенном в 2023 году, было обнаружено, что плотность очередей на объектах обследования снизилась на 81 процент за десять лет. Среди причин снижения: незаконная охота на миллионы птиц каждый год, в основном в районе Средиземного моря, изменение климата в местах остановок и в Сахельском регионе Африки, а также потеря открытых территорий.\n\nВ исследовании, проведенном доктором Йоавом Перлманом, главой Израильского центра орнитологии Общества защиты природы, 12 птиц были оснащены передатчиками в Весенней долине, и 7 из них достигли Африки. Один пролетел без остановки более 1000 км. Охота в Израиле была полностью запрещена в 2020 году, а министр охраны окружающей среды Идит Силман продлил этот запрет еще на год, основываясь на заключении Управления природы и парков. 255 откликов общественности поддержали продление, а постоянная правовая база все еще находится в стадии подготовки.",
+     "questions": [
+      "Вы когда-нибудь видели перелетных птиц или слышали о них? где?",
+      "Какую птицу вам нравится видеть в саду или из окна?",
+      "Как вы думаете, что можно сделать для защиты исчезающих животных?"
+     ]
+    },
+    "es": {
+     "title": "La cola actual: un ave migratoria que puede desaparecer de Israel",
+     "easy": "El nabo es un ave que migra cada año.\nVoló miles de kilómetros hasta África y regresó.\nSu número ha disminuido considerablemente en los últimos años.\nSe caza ilegalmente en el mar Mediterráneo.\nEn Israel está prohibido cazarlo.",
+     "medium": "La paloma común es un ave migratoria que recorre miles de kilómetros cada año, a diferencia de la paloma urbana que conocemos. Su voz se menciona en el Cantar de los Cantares. Según un artículo de Ynet, puede desaparecer de Israel: en una encuesta del \"Nature Report\" de 2023, se descubrió que la densidad de colas en los lugares de la encuesta disminuyó un 81 por ciento en diez años. Los motivos son la caza ilegal de millones de aves en el Mediterráneo, el cambio climático y la pérdida de espacios abiertos. En Israel, la caza del aguilucho se prohibió completamente en 2020. En Israel, anida en el norte, en los valles y en el sur del país, y casi ha desaparecido de la región central.",
+     "hard": "La paloma común es un ave migratoria que recorre miles de kilómetros cada año, a diferencia de la paloma urbana que conocemos. Según un artículo publicado en Ynet el 7 de noviembre, en Israel anida en el norte, las tierras bajas del sur, el norte del Néguev, el valle del Jordán y el norte de Aravá, y casi ha desaparecido de la región central. Su voz se menciona en el Cantar de los Cantares.\n\nSu estatus global es \"vulnerable\" y en Israel se define como \"casi en peligro\", según una evaluación de 2017, que se espera que empeore. En una encuesta del \"Nature Report\" de 2023, se encontró que la densidad de colas en los sitios de la encuesta disminuyó un 81 por ciento en diez años. Entre las razones de la disminución: la caza ilegal de millones de aves cada año, principalmente alrededor del mar Mediterráneo, el cambio climático en las zonas de escala y en la región africana del Sahel, y la pérdida de áreas abiertas.\n\nEn un estudio dirigido por el Dr. Yoav Perlman, director del Centro de Ornitología de Israel de la Sociedad para la Protección de la Naturaleza, se equiparon 12 aves con transmisores en Spring Valley y 7 de ellas llegaron a África. Uno voló más de 1.000 km sin parar. La caza en Israel fue completamente prohibida en 2020, y la ministra de Protección Ambiental, Idit Silman, extendió la prohibición por un año más, basándose en la opinión de la Autoridad de Naturaleza y Parques. 255 respuestas del público apoyaron la extensión y aún se está preparando un marco legal permanente.",
+     "questions": [
+      "¿Alguna vez has visto aves migratorias o has oído hablar de ellas? ¿dónde?",
+      "¿Qué pájaro te gusta ver en el jardín o desde la ventana?",
+      "¿Qué crees que se puede hacer para proteger a los animales en peligro de extinción?"
+     ]
+    }
+   },
+   "audio": [
+    "easy",
+    "medium",
+    "hard"
+   ]
   },
   {
    "id": "2026-11-11-transport-1",
@@ -187,7 +467,47 @@
    ],
    "verified": true,
    "date": "2026-11-11",
-   "ts": 1794376800
+   "ts": 1794376800,
+   "tr": {
+    "en": {
+     "title": "The fast lanes in Ayalon: what is already happening and what is planned",
+     "easy": "Ayalon has special bus lanes.\nThey opened in April.\nThe drivers park in large parking lots in Shafiim and Lishon.\nIn a few months, they will also be opened for private vehicles.\nThey will pay money for the trip.",
+     "medium": "In April, the first phase of the fast lanes opened in Ayalon: lanes for buses and free shuttles, and large parking lots in Shafiim and Rishon Lezion with about 10,500 free parking spaces. According to an article in Ynet from November 6, about 9,800 people use the Shafiim parking lot a day and about 4,400 in Rishon Lezion. The second phase is planned to start at the beginning of 2027. Then the lanes will also be opened to private cars for a fee, which will change according to the load, and if there are three passengers or more in the car the trip is free. The cameras have already been installed but are not working yet, and enforcement is done by police patrols. The estimated cost of the project is about NIS 8 billion.",
+     "hard": "In April, the first phase of the fast lanes opened in Ayalon: lanes for buses and free shuttles, and large parking lots in Shafiim and Rishon Lezion with about 10,500 free parking spaces. According to an article published in Ynet on November 6, about 9,800 people use the Shafim parking lot a day and about 4,400 in Rishon Lezion, which opened only a few weeks ago. The estimated cost of the project is about NIS 8 billion, and it unloads about 6,000 private vehicles a day from Ayalon.\n\nThe second phase is planned to start in early 2027, when the technology and infrastructure will be ready. Then the lanes will also be opened for private vehicles. The toll will be set for each section and will vary according to the load, from a few shekels during quiet hours to 107 shekels per section at the peak of the load. A vehicle with three or more passengers will travel for free, and the minimum travel speed set as a target is 70 km/h.\n\nThe cameras have already been installed but are not yet operational, and enforcement is now done by police patrols. Netevi Ayalon said enforcement will begin in the coming months using artificial intelligence-based cameras, and the police said they are examining the conditions for effective enforcement. Critics of the article claim that it is difficult to count passengers in the back seat and that the entrances may block bus lines from Rishon to Zion and Holon.",
+     "questions": [
+      "Have you ever traveled by bus or train for a long time? where?",
+      "What do you think: is it better to travel by private car or by public transport?",
+      "How would you get to faraway places when you were young?"
+     ]
+    },
+    "ru": {
+     "title": "Скоростные полосы в Аялоне: что уже происходит и что планируется",
+     "easy": "В Аялоне есть специальные полосы для автобусов.\nОни открылись в апреле.\nВодители паркуются на больших парковках в Шафииме и Лишоне.\nЧерез несколько месяцев их откроют и для частного транспорта.\nОни заплатят деньги за поездку.",
+     "medium": "В апреле в Аялоне открылась первая очередь скоростных полос: полосы для автобусов и бесплатных шаттлов, а также большие парковки в Шафииме и Ришон-ле-Ционе примерно на 10 500 бесплатных парковочных мест. Согласно статье в Ynet от 6 ноября, парковкой Шафиим пользуются около 9800 человек в день, а в Ришон-ле-Ционе - около 4400 человек. Второй этап планируется запустить в начале 2027 года. Тогда полосы откроют и для частных автомобилей за отдельную плату, которая будет меняться в зависимости от загрузки, а при наличии в машине трех и более пассажиров поездка будет бесплатной. Камеры уже установлены, но пока не работают, а контроль осуществляют полицейские патрули. Ориентировочная стоимость проекта составляет около 8 миллиардов шекелей.",
+     "hard": "В апреле в Аялоне открылась первая очередь скоростных полос: полосы для автобусов и бесплатных шаттлов, а также большие парковки в Шафииме и Ришон-ле-Ционе примерно на 10 500 бесплатных парковочных мест. Согласно статье, опубликованной в Ynet 6 ноября, парковкой «Шафим» пользуются около 9800 человек в день, а в Ришон-ле-Ционе, открывшемся всего несколько недель назад, — около 4400 человек. Ориентировочная стоимость проекта составляет около 8 миллиардов шекелей, и он выгружает около 6000 частных автомобилей в день из Аялона.\n\nВторой этап планируется начать в начале 2027 года, когда технологии и инфраструктура будут готовы. Затем полосы откроют и для личного транспорта. Плата за проезд будет установлена ​​для каждого участка и будет варьироваться в зависимости от нагрузки: от нескольких шекелей в тихие часы до 107 шекелей за участок в пик нагрузки. Транспортное средство с тремя и более пассажирами будет ездить бесплатно, а минимальная заданная скорость движения составляет 70 км/ч.\n\nКамеры уже установлены, но еще не работают, и теперь за соблюдением порядка следят полицейские патрули. Нетеви Аялон сообщила, что правоприменение начнется в ближайшие месяцы с использованием камер на базе искусственного интеллекта, а полиция заявила, что изучает условия для эффективного правоприменения. Критики статьи утверждают, что на заднем сиденье сложно посчитать пассажиров и что входы могут заблокировать автобусные маршруты, следующие из Ришона в Сион и Холон.",
+     "questions": [
+      "Вы когда-нибудь долгое время путешествовали на автобусе или поезде? где?",
+      "Как вы думаете: лучше путешествовать на личном автомобиле или на общественном транспорте?",
+      "Как бы вы добирались до далеких мест, когда были молоды?"
+     ]
+    },
+    "es": {
+     "title": "Las vías rápidas en Ayalón: lo que ya está pasando y lo que se planea",
+     "easy": "Ayalon tiene carriles especiales para autobuses.\nAbrieron en abril.\nLos conductores aparcan en grandes aparcamientos en Shafiim y Lishon.\nEn unos meses se abrirán también para vehículos privados.\nPagarán dinero por el viaje.",
+     "medium": "En abril se abrió la primera fase de las vías rápidas en Ayalon: carriles para autobuses y lanzaderas gratuitas, y grandes aparcamientos en Shafiim y Rishon Lezion con unas 10.500 plazas de aparcamiento gratuitas. Según un artículo de Ynet del 6 de noviembre, unas 9.800 personas utilizan el aparcamiento de Shafiim al día y unas 4.400 en Rishon Lezion. Está previsto que la segunda fase comience a principios de 2027. Luego se abrirán los carriles también a los coches privados pagando una tarifa, que variará según la carga, y si en el coche van tres pasajeros o más el viaje es gratuito. Las cámaras ya han sido instaladas pero aún no funcionan y el control lo realizan patrullas policiales. El coste estimado del proyecto es de unos 8.000 millones de NIS.",
+     "hard": "En abril se abrió la primera fase de las vías rápidas en Ayalon: carriles para autobuses y lanzaderas gratuitas, y grandes aparcamientos en Shafiim y Rishon Lezion con unas 10.500 plazas de aparcamiento gratuitas. Según un artículo publicado en Ynet el 6 de noviembre, unas 9.800 personas utilizan al día el aparcamiento de Shafim y unas 4.400 el de Rishon Lezion, que abrió hace sólo unas semanas. El coste estimado del proyecto es de unos 8.000 millones de NIS y descarga unos 6.000 vehículos privados al día desde Ayalon.\n\nEstá previsto que la segunda fase comience a principios de 2027, cuando la tecnología y la infraestructura estén listas. Luego se abrirán los carriles también para vehículos privados. El peaje se fijará para cada tramo y variará según la carga, desde unos pocos shéquels durante las horas de tranquilidad hasta 107 shéquels por tramo en el pico de carga. Un vehículo con tres o más pasajeros viajará gratis y la velocidad mínima de circulación fijada como objetivo es de 70 km/h.\n\nLas cámaras ya se han instalado pero aún no están operativas y ahora las patrullas policiales se encargan de hacer cumplir la ley. Netevi Ayalon dijo que la aplicación de la ley comenzará en los próximos meses utilizando cámaras basadas en inteligencia artificial, y la policía dijo que está examinando las condiciones para una aplicación efectiva. Los críticos del artículo afirman que es difícil contar a los pasajeros en el asiento trasero y que las entradas pueden bloquear las líneas de autobús de Rishon a Sion y Holon.",
+     "questions": [
+      "¿Alguna vez has viajado en autobús o en tren durante mucho tiempo? ¿dónde?",
+      "¿Qué opinas: es mejor viajar en coche particular o en transporte público?",
+      "¿Cómo llegabas a lugares lejanos cuando eras joven?"
+     ]
+    }
+   },
+   "audio": [
+    "easy",
+    "medium",
+    "hard"
+   ]
   },
   {
    "id": "2026-11-10-israel-1",
