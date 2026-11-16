@@ -389,7 +389,8 @@ function selectItems(){
 // ---- list
 function shownText(it){
   const body = it[state.level]||(state.level==="expert"?it.hard:"")||it.medium||it.easy||"";
-  return {title:it.title, body, questions:Array.isArray(it.questions)?it.questions:[], fallback: state.level==="expert"&&!it.expert};
+  const ql=it.qlevels&&it.qlevels[state.level], byLevel=Array.isArray(ql)&&ql.length>0;
+  return {title:it.title, body, questions: byLevel? ql : (Array.isArray(it.questions)?it.questions:[]), qDefault:!byLevel, fallback: state.level==="expert"&&!it.expert};
 }
 function visibleItems(){
   const sel = state.topics.size? state.items.filter(it=>state.topics.has(it.topic)) : [];
@@ -769,7 +770,7 @@ async function translateVisible(){
     const pre=(it.tr||{})[lang];
     if(pre && pre.title && (pre[state.level]||(state.level==="expert"&&pre.hard))){
       const b=pre[state.level]||pre.hard;
-      const qs=Array.isArray(pre.questions)&&pre.questions.length===sh.questions.length? pre.questions : [];
+      const qs=sh.qDefault&&Array.isArray(pre.questions)&&pre.questions.length===sh.questions.length? pre.questions : [];
       if(qs.length || !sh.questions.length) return {t:pre.title,b,qs};
       const qs2=[]; for(const q of sh.questions) qs2.push(await gtranslate(q,lang));
       return {t:pre.title,b,qs:qs2};
