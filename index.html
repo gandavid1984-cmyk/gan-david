@@ -175,12 +175,6 @@ font{background:transparent!important;box-shadow:none!important}
     <div class="row" style="margin-bottom:10px">
       <label for="rate" style="font-weight:700">🔊 מהירות הקראה:</label>
       <select id="rate"><option value="0.75">איטי</option><option value="0.9" selected>רגיל</option><option value="1.05">מהיר</option></select>
-      <button class="chip ghost" id="voiceHelp" type="button">? איך לשפר את הקול</button>
-    </div>
-    <div class="count" id="voiceNote" style="display:none;margin-bottom:10px"></div>
-    <div class="row">
-      <button class="btn primary" id="savePrefs">💾 שמור את ההעדפות שלי</button>
-      <span class="count" id="prefsNote"></span>
     </div>
   </section>
 
@@ -189,9 +183,9 @@ font{background:transparent!important;box-shadow:none!important}
     <div class="row" style="margin-bottom:12px">
       <label for="range" style="font-weight:700">תקופה:</label>
       <select id="range">
-        <option value="day">יום אחד</option>
+        <option value="day" selected>יום אחד</option>
         <option value="3">3 הימים האחרונים</option>
-        <option value="7" selected>שבוע אחורה</option>
+        <option value="7">שבוע אחורה</option>
         <option value="30">חודש אחורה</option>
       </select>
       <select id="date"></select>
@@ -219,9 +213,15 @@ font{background:transparent!important;box-shadow:none!important}
   <section class="card no-print tools" translate="no">
     <div class="count" id="count"></div>
     <div class="row">
+      <button class="btn primary" id="savePrefs">💾 שמור את ההעדפות שלי</button>
+      <span class="count" id="prefsNote"></span>
+    </div>
+    <div class="row">
       <button class="btn primary" id="lock">🔒 נעילה — רק הידיעות שנבחרו</button>
       <button class="btn primary" id="present">📺 מצב הצגה לקבוצה</button>
       <button class="btn primary" id="pdf">📄 הורדת PDF להדפסה (A4)</button>
+    </div>
+    <div class="row" id="pdfOpts" style="display:none;margin-top:10px">
       <label for="fontSize" style="font-weight:700">גודל כתב:</label>
       <select id="fontSize" title="אוטומטי: כל ידיעה נכנסת בעמוד אחד, בכתב הגדול ביותר שאפשר. גודל קבוע: בדיוק הגודל שנבחר, וידיעה ארוכה תימשך לעמוד נוסף">
         <option value="auto" selected>אוטומטי — עמוד אחד לכל ידיעה</option>
@@ -232,6 +232,7 @@ font{background:transparent!important;box-shadow:none!important}
         <option value="24">ענק (24)</option>
         <option value="28">ענק במיוחד (28)</option>
       </select>
+      <button class="btn primary" id="pdfGo">⬇ הורד עכשיו</button>
     </div>
   </section>
     <div id="pdfStage" style="position:absolute;left:-10000px;top:0;width:200mm;background:#fff;color:#000;direction:rtl"></div>
@@ -246,6 +247,7 @@ font{background:transparent!important;box-shadow:none!important}
       <button class="sbtn" id="showSpeak">🔊 הקרא</button>
       <button class="sbtn" id="showSmaller">א−</button>
       <button class="sbtn" id="showBigger">א+</button>
+      <select id="showFs" class="sbtn" title="גודל כתב"><option value="20">כתב קטן</option><option value="26">רגיל</option><option value="34">גדול</option><option value="44">גדול מאוד</option><option value="56">ענק</option><option value="72">ענק במיוחד</option></select>
     </div>
     <div class="show-body" id="showBody"></div>
     <div class="show-nav">
@@ -283,7 +285,7 @@ const TOPIC_EMOJI = Object.fromEntries(TOPICS.map(t=>[t[0],t[2]]));
 const LEVEL_NAME = {easy:"פישוט קל",medium:"פישוט בינוני",hard:"פישוט גבוה",expert:"טקסט רגיל"};
 const DATA_URL = "data/news.json";
 
-const state = {bold:true, level:"easy", topics:new Set(), date:null, dates:[], all:[], items:[], picked:new Set(), range:"7"};
+const state = {bold:true, level:"easy", topics:new Set(), date:null, dates:[], all:[], items:[], picked:new Set(), range:"day"};
 try{ const s=JSON.parse(localStorage.getItem("akt-prefs")||localStorage.getItem("akt-state")||"{}"); if(s.level) state.level=s.level; if(Array.isArray(s.topics)) state.topics=new Set(s.topics); if(s.fontSize) state.fontSize=String(s.fontSize); if(s.rate) state.rate=s.rate; }catch(e){}
 function persist(){ /* ההעדפות נשמרות רק בלחיצה על "שמור את ההעדפות שלי" */ }
 function savePrefs(){ try{ localStorage.setItem("akt-prefs",JSON.stringify({level:state.level,topics:[...state.topics],fontSize:$("#fontSize").value,rate:$("#rate").value})); return true; }catch(e){ return false; } }
@@ -429,7 +431,8 @@ function pickedItems(){ if(!state.picked.size){ visibleItems().forEach(it=>state
 
 // ---- PDF (A4, one item per page, page breaks between lines)
 function loadScript(src){ return new Promise((res,rej)=>{ if(document.querySelector(`script[src="${src}"]`)) return res(); const s=document.createElement("script"); s.src=src; s.onload=res; s.onerror=()=>rej(new Error("load "+src)); document.head.appendChild(s); }); }
-$("#pdf").onclick=async()=>{
+$("#pdf").onclick=()=>{ const o=$("#pdfOpts"); o.style.display = o.style.display==="none"? "flex" : "none"; };
+$("#pdfGo").onclick=async()=>{
   const btn=$("#pdf"); const items=pickedItems(); if(!items.length) return;
   btn.disabled=true; const old=btn.textContent; btn.textContent="מכין PDF…";
   try{
@@ -543,12 +546,6 @@ listEl.addEventListener("click",e=>{
 });
 function renderVoice(){ if(state.rate) $("#rate").value=state.rate; }
 $("#rate").addEventListener("change",()=>{ state.rate=$("#rate").value; if(player) player.playbackRate=Number(state.rate)||1; stopSpeak(); const sp=state.lang? null : "שלום, זאת המהירות שבחרת."; if(sp) speakText(sp,"__test",null,"he-IL"); });
-$("#voiceHelp").onclick=()=>{
-  const el=$("#voiceNote"); const open=el.style.display==="none";
-  const he=voicesFor("he-IL"), cur=SPEECH_LANG[state.lang||""]||"he-IL", vs=voicesFor(cur);
-  el.innerHTML = `בעברית, ידיעות מהשבוע האחרון מגיעות עם קול קריין מוכן (כפתור "▶ האזנה"). בשאר המקרים ההקראה נעשית בקול של הטלפון עצמו, בשפה שנבחרה למעלה. ${vs.length? `במכשיר הזה נמצאו ${vs.length} קולות לשפה הזאת${vs.some(v=>/premium|enhanced|משופר/i.test(v.name))?" (כולל קול משופר ⭐)":""}.` : "במכשיר הזה לא נמצא קול לשפה הזאת — צריך להתקין."}<br>לקול טוב יותר באייפון: הגדרות ← נגישות ← תוכן מדובר ← קולות ← עברית (או השפה הרצויה) ← להוריד את הגרסה "משופר" או "פרימיום". באנדרואיד: הגדרות ← ניהול כללי ← טקסט לדיבור ← התקנת נתוני קול. אחרי ההתקנה האתר בוחר לבד את הקול הטוב ביותר.`;
-  el.style.display = open? "" : "none";
-};
 window.addEventListener("pagehide",stopSpeak);
 
 // ---- presentation mode (one item, big text)
@@ -565,7 +562,7 @@ function renderShow(){
   const items=showItems(); if(!items.length){ closeShow(); return; }
   show.idx=Math.max(0,Math.min(show.idx,items.length-1));
   const it=items[show.idx], sh=displayedText(it);
-  document.documentElement.style.setProperty("--showfs",show.fs+"px");
+  document.documentElement.style.setProperty("--showfs",show.fs+"px"); { const sf=$("#showFs"); if(![...sf.options].some(o=>Number(o.value)===show.fs)){ const o=document.createElement("option"); o.value=show.fs; o.textContent="כתב "+show.fs; sf.appendChild(o);} sf.value=String(show.fs); }
   $("#showBody").dir = sh.lang==="he-IL"? "rtl":"ltr";
   $("#showPos").textContent=`${show.idx+1} / ${items.length}`;
   $("#showBody").innerHTML=`<span class="tag">${topicEmoji(it.topic)} ${esc(topicLabel(it.topic,it))}</span><h2>${esc(sh.title)}</h2>`+
@@ -577,6 +574,7 @@ $("#present").onclick=openShow; $("#showClose").onclick=closeShow;
 $("#showNext").onclick=()=>{ stopSpeak(); stopPlay(); show.idx++; show.q=false; renderShow(); };
 $("#showPrev").onclick=()=>{ stopSpeak(); stopPlay(); show.idx--; show.q=false; renderShow(); };
 $("#showQ").onclick=()=>{ show.q=!show.q; renderShow(); };
+$("#showFs").onchange=()=>{ show.fs=Number($("#showFs").value)||34; renderShow(); };
 $("#showBigger").onclick=()=>{ show.fs=Math.min(72,show.fs+4); renderShow(); };
 $("#showSmaller").onclick=()=>{ show.fs=Math.max(20,show.fs-4); renderShow(); };
 $("#showSpeak").onclick=()=>{ const it=showItems()[show.idx]; if(!it) return; const sh=displayedText(it);
