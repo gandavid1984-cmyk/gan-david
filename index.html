@@ -74,10 +74,11 @@ article.item{background:var(--card);border-radius:var(--radius);box-shadow:var(-
 article.item .meta{display:flex;gap:10px;align-items:center;flex-wrap:wrap;color:var(--muted);font-size:14px;margin-bottom:6px}
 article.item .tag{background:var(--accent-soft);color:var(--ink);border-radius:999px;padding:3px 12px;font-weight:700;font-size:14px}
 article.item h3{font-size:clamp(20px,3vw,26px);font-weight:800;margin:4px 0 10px;line-height:1.3}
-article.item .body{font-size:19px;line-height:1.85;white-space:pre-line}
-article.item .body.easy{font-size:21px;line-height:1.95}
-article.item .body.hard{font-size:18px;line-height:1.75}
-article.item .body.expert{font-size:17px;line-height:1.7}
+.chip.on{background:var(--accent);color:#fff;border-color:var(--accent)}
+article.item .body{font-size:calc(19px*var(--rf,1));line-height:1.85;white-space:pre-line}
+article.item .body.easy{font-size:calc(21px*var(--rf,1));line-height:1.95}
+article.item .body.hard{font-size:calc(18px*var(--rf,1));line-height:1.75}
+article.item .body.expert{font-size:calc(17px*var(--rf,1));line-height:1.7}
 details{margin-top:12px;border-top:1px solid var(--line);padding-top:10px}
 summary{cursor:pointer;font-weight:700;color:var(--accent);list-style:none;display:flex;align-items:center;gap:6px}
 summary::before{content:"▸";transition:.15s}
@@ -216,14 +217,19 @@ font{background:transparent!important;box-shadow:none!important}
       <button class="btn primary" id="savePrefs">💾 שמור את ההעדפות שלי</button>
       <span class="count" id="prefsNote"></span>
     </div>
+    <div class="row" style="margin-bottom:10px">
+      <label style="font-weight:700">👁 גודל כתב לקריאה מהמסך:</label>
+      <span id="readSizeChips" class="row"></span>
+    </div>
     <div class="row">
       <button class="btn primary" id="lock">🔒 נעילה — רק הידיעות שנבחרו</button>
       <button class="btn primary" id="present">📺 מצב הצגה לקבוצה</button>
       <button class="btn primary" id="pdf">📄 הורדת PDF להדפסה (A4)</button>
     </div>
     <div class="row" id="pdfOpts" style="display:none;margin-top:10px">
-      <label for="fontSize" style="font-weight:700">גודל כתב:</label>
-      <select id="fontSize" title="אוטומטי: כל ידיעה נכנסת בעמוד אחד, בכתב הגדול ביותר שאפשר. גודל קבוע: בדיוק הגודל שנבחר, וידיעה ארוכה תימשך לעמוד נוסף">
+      <label style="font-weight:700">גודל כתב להדפסה:</label>
+      <span id="pdfSizeChips" class="row"></span>
+      <select id="fontSize" style="display:none" title="אוטומטי: כל ידיעה נכנסת בעמוד אחד, בכתב הגדול ביותר שאפשר. גודל קבוע: בדיוק הגודל שנבחר, וידיעה ארוכה תימשך לעמוד נוסף">
         <option value="auto" selected>אוטומטי — עמוד אחד לכל ידיעה</option>
         <option value="12">קטן (12)</option>
         <option value="14">רגיל (14)</option>
@@ -286,9 +292,9 @@ const LEVEL_NAME = {easy:"פישוט קל",medium:"פישוט בינוני",hard
 const DATA_URL = "data/news.json";
 
 const state = {bold:true, level:"easy", topics:new Set(), date:null, dates:[], all:[], items:[], picked:new Set(), range:"day"};
-try{ const s=JSON.parse(localStorage.getItem("akt-prefs")||localStorage.getItem("akt-state")||"{}"); if(s.level) state.level=s.level; if(Array.isArray(s.topics)) state.topics=new Set(s.topics); if(s.fontSize) state.fontSize=String(s.fontSize); if(s.rate) state.rate=s.rate; }catch(e){}
+try{ const s=JSON.parse(localStorage.getItem("akt-prefs")||localStorage.getItem("akt-state")||"{}"); if(s.level) state.level=s.level; if(Array.isArray(s.topics)) state.topics=new Set(s.topics); if(s.fontSize) state.fontSize=String(s.fontSize); if(s.rate) state.rate=s.rate; if(s.rf) state.rf=String(s.rf); }catch(e){}
 function persist(){ /* ההעדפות נשמרות רק בלחיצה על "שמור את ההעדפות שלי" */ }
-function savePrefs(){ try{ localStorage.setItem("akt-prefs",JSON.stringify({level:state.level,topics:[...state.topics],fontSize:$("#fontSize").value,rate:$("#rate").value})); return true; }catch(e){ return false; } }
+function savePrefs(){ try{ localStorage.setItem("akt-prefs",JSON.stringify({level:state.level,topics:[...state.topics],fontSize:$("#fontSize").value,rate:$("#rate").value,rf:state.rf||"1"})); return true; }catch(e){ return false; } }
 function applyBold(){ document.body.classList.toggle("bold-text",state.bold); const c=document.getElementById("boldText"); if(c) c.checked=state.bold; }
 
 const $ = s=>document.querySelector(s);
@@ -431,7 +437,7 @@ function pickedItems(){ if(!state.picked.size){ visibleItems().forEach(it=>state
 
 // ---- PDF (A4, one item per page, page breaks between lines)
 function loadScript(src){ return new Promise((res,rej)=>{ if(document.querySelector(`script[src="${src}"]`)) return res(); const s=document.createElement("script"); s.src=src; s.onload=res; s.onerror=()=>rej(new Error("load "+src)); document.head.appendChild(s); }); }
-$("#pdf").onclick=()=>{ const o=$("#pdfOpts"); o.style.display = o.style.display==="none"? "flex" : "none"; };
+$("#pdf").onclick=()=>{ renderSizeChips(); const o=$("#pdfOpts"); o.style.display = o.style.display==="none"? "flex" : "none"; };
 $("#pdfGo").onclick=async()=>{
   const btn=$("#pdf"); const items=pickedItems(); if(!items.length) return;
   btn.disabled=true; const old=btn.textContent; btn.textContent="מכין PDF…";
@@ -622,6 +628,37 @@ function hebParts(d){
   }catch(e){ return null; }
 }
 function showParasha(p){ parashaInfo=p||null; showToday(); }
+
+let shabP=null;
+function solarEvent(y,m,d,lat,lon,zen,rising){
+  const R=Math.PI/180, N=Math.floor((Date.UTC(y,m,d)-Date.UTC(y,0,0))/864e5), lh=lon/15, t=N+((rising?6:18)-lh)/24, M=0.9856*t-3.289;
+  let L=M+1.916*Math.sin(M*R)+0.020*Math.sin(2*M*R)+282.634; L=(L%360+360)%360;
+  let RA=Math.atan(0.91764*Math.tan(L*R))/R; RA=(RA%360+360)%360; RA+=Math.floor(L/90)*90-Math.floor(RA/90)*90; RA/=15;
+  const sd=0.39782*Math.sin(L*R), cd=Math.cos(Math.asin(sd)), ch=(Math.cos(zen*R)-sd*Math.sin(lat*R))/(cd*Math.cos(lat*R));
+  if(ch>1||ch<-1) return null; let H=Math.acos(ch)/R; if(rising) H=360-H; H/=15;
+  const UT=(((H+RA-0.06571*t-6.622)-lh)%24+24)%24; return new Date(Date.UTC(y,m,d)+UT*3600e3);
+}
+const hhmm=dt=>new Intl.DateTimeFormat("he-IL",{hour:"2-digit",minute:"2-digit",hour12:false,timeZone:"Asia/Jerusalem"}).format(dt);
+function candleMinutes(lat,lon){ const near=(la,lo,km)=>Math.hypot((lat-la)*111,(lon-lo)*95)<km; return near(31.78,35.22,15)?40: near(32.82,34.99,15)?30: 20; }
+async function fillShabbat(){
+  const el=$("#shab"), p=shabP; if(!el||!p||!p.shabbat) return;
+  let pl=null; try{ pl=JSON.parse(localStorage.getItem("akt-place")||"null"); }catch(e){}
+  const lat=pl&&pl.lat!=null? pl.lat : 31.778, lon=pl&&pl.lat!=null? pl.lon : 35.235, name=pl&&pl.name? pl.name : "ירושלים";
+  const [y,m,d]=p.shabbat.split("-").map(Number), off=candleMinutes(lat,lon);
+  const fr=new Date(Date.UTC(y,m-1,d-1)), fy=fr.getUTCFullYear(), fm=fr.getUTCMonth(), fd=fr.getUTCDate();
+  let c=null,h=null,approx=false;
+  try{
+    const ctl=new AbortController(); setTimeout(()=>ctl.abort(),4000);
+    const r=await fetch(`https://www.hebcal.com/shabbat?cfg=json&latitude=${lat.toFixed(4)}&longitude=${lon.toFixed(4)}&tzid=Asia/Jerusalem&b=${off}&M=on&gy=${fy}&gm=${fm+1}&gd=${fd}`,{signal:ctl.signal});
+    if(r.ok){ const j=await r.json(); const cd=(j.items||[]).find(x=>x.category==="candles"), hv=(j.items||[]).find(x=>x.category==="havdalah");
+      if(cd&&hv&&String(cd.date).startsWith(p.shabbat.slice(0,8))&&String(hv.date).slice(0,10)===p.shabbat){ c=new Date(cd.date); h=new Date(hv.date); } }
+  }catch(e){}
+  if(!c||!h){
+    const ss=solarEvent(fy,fm,fd,lat,lon,90.833,false), nt=solarEvent(y,m-1,d,lat,lon,98.5,false);
+    if(!ss||!nt) return; c=new Date(ss.getTime()-off*60000); h=nt; approx=true;
+  }
+  el.innerHTML=`<span class="lbl">🕯️ כניסת שבת:</span> ${hhmm(c)} · <span class="lbl">יציאת שבת:</span> ${hhmm(h)} <span style="color:#777;font-size:.85em">(${esc(name)}${approx?", בקירוב":""})</span>`; el.style.display="";
+}
 function showToday(){
   const el=$("#today"); if(!el) return;
   const d=new Date(); const days=["ראשון","שני","שלישי","רביעי","חמישי","שישי","שבת"];
@@ -631,10 +668,10 @@ function showToday(){
     `<div><span class="lbl">תאריך לועזי:</span> ${d.getDate()} ב${months[d.getMonth()]}, שנת ${d.getFullYear()}</div>`];
   if(h) lines.push(`<div><span class="lbl">תאריך עברי:</span> ${esc(h.day)} ב${esc(h.month)}, שנת ${esc(h.year)}</div>`);
   const p=parashaInfo;
-  if(p&&p.name&&p.shabbat&&p.shabbat>=todayIso()){ const sd=new Date(p.shabbat+"T12:00:00"); lines.push(`<div><span class="lbl">📜 פרשת השבוע:</span> ${esc(p.name)} (שבת ${sd.getDate()}.${sd.getMonth()+1})</div>`); }
+  if(p&&p.name&&p.shabbat&&p.shabbat>=todayIso()){ const sd=new Date(p.shabbat+"T12:00:00"); lines.push(`<div><span class="lbl">📜 פרשת השבוע:</span> ${esc(p.name)} (שבת ${sd.getDate()}.${sd.getMonth()+1})</div>`,`<div id="shab" style="display:none"></div>`); }
   lines.push(`<div id="place" style="display:none"></div>`,`<div id="wx" style="display:none"></div>`);
   el.innerHTML=lines.join("");
-  showPlace();
+  showPlace(); shabP=(p&&p.shabbat&&p.shabbat>=todayIso())? p : null; fillShabbat();
 }
 function showPlace(){
   const el=$("#place"); if(!el||!navigator.geolocation) return;
@@ -648,12 +685,21 @@ function showPlace(){
       if(!r.ok) return;
       const j=await r.json(); const a=j.address||{};
       const name=a.city||a.town||a.village||a.municipality||a.county||"";
-      if(name){ set(name); try{ localStorage.setItem("akt-place",JSON.stringify({name,lat,lon,t:Date.now()})); }catch(e){} }
+      if(name){ set(name); try{ localStorage.setItem("akt-place",JSON.stringify({name,lat,lon,t:Date.now()})); }catch(e){} fillShabbat(); }
     }catch(e){}
   }, ()=>{}, {timeout:10000, maximumAge:3600000});
 }
+const PDF_SIZES=[["auto","אוטומטי — עמוד אחד לכל ידיעה"],["12","קטן"],["14","רגיל"],["17","גדול"],["20","גדול מאוד"],["24","ענק"],["28","ענק במיוחד"]];
+const READ_SIZES=[["0.85","קטן"],["1","רגיל"],["1.25","גדול"],["1.55","גדול מאוד"],["2","ענק"]];
+function renderSizeChips(){
+  const pc=$("#pdfSizeChips"); pc.innerHTML=PDF_SIZES.map(([v,l])=>`<button type="button" class="chip ${$("#fontSize").value===v?"on":""}" data-v="${v}">${l}</button>`).join("");
+  pc.onclick=e=>{ const b=e.target.closest("button[data-v]"); if(!b) return; $("#fontSize").value=b.dataset.v; renderSizeChips(); };
+  const rc=$("#readSizeChips"), cur=state.rf||"1"; document.documentElement.style.setProperty("--rf",cur);
+  rc.innerHTML=READ_SIZES.map(([v,l])=>`<button type="button" class="chip ${cur===v?"on":""}" data-v="${v}">${l}</button>`).join("");
+  rc.onclick=e=>{ const b=e.target.closest("button[data-v]"); if(!b) return; state.rf=b.dataset.v; renderSizeChips(); };
+}
 async function init(){
-  showToday(); applyBold(); loadLocalProfiles(); renderVoice(); renderLevel(); renderTopics(); renderList();
+  showToday(); applyBold(); loadLocalProfiles(); renderSizeChips(); renderVoice(); renderLevel(); renderTopics(); renderList();
   try{
     const r=await fetch(DATA_URL+"?t="+Date.now(),{cache:"no-store"});
     if(!r.ok) throw new Error("HTTP "+r.status);
