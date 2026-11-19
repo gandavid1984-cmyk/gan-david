@@ -47,6 +47,17 @@ def g_retry(text, lang):
             err = e
     raise err
 
+HEB = re.compile(r"[\u0590-\u05ff]")
+def heb_leak(src, out):
+    """התרגום עדיין בעברית (בחלקו הגדול) — כלומר לא תורגם באמת."""
+    if not HEB.search(src): return False
+    letters = re.findall(r"[A-Za-z\u0400-\u04ff\u0590-\u05ff]", out)
+    return bool(letters) and len(HEB.findall(out)) / len(letters) > 0.15
+
+def prep(text):
+    """ניסוחים שהמתרגם מתקשה בהם (למשל "נמקו" יוצא כ-Nemko)."""
+    return text.replace("נמקו", "הסבירו למה")
+
 def translate_one(text, lang):
     """קטע בודד; ארוך מדי — פסקה-פסקה."""
     if not text.strip(): return text
@@ -57,8 +68,13 @@ def translate_one(text, lang):
 def translate_batch(segs, lang):
     """segs: [(id, text)] -> {id: translated}. מאגד, מוודא סימונים, ובמקרה של אי-התאמה מפצל."""
     if len(segs) == 1:
-        i, t = segs[0]; return {i: translate_one(t, lang)}
-    joined = "\n".join(MARK.format(i) + "\n" + t for i, t in segs)
+        i, t = segs[0]
+        for _ in range(3):
+            out = translate_one(prep(t), lang)
+            if not heb_leak(t, out): return {i: out}
+            time.sleep(PAUSE * 2)
+        raise RuntimeError("התרגום חזר בעברית")
+    joined = "\n".join(MARK.format(i) + "\n" + prep(t) for i, t in segs)
     try:
         out = g_retry(joined, lang)
         ms = list(MARK_RE.finditer(out))
@@ -68,7 +84,7 @@ def translate_batch(segs, lang):
             for k, m in enumerate(ms):
                 end = ms[k + 1].start() if k + 1 < len(ms) else len(out)
                 res[ids[k]] = out[m.end():end].strip("\n").strip()
-            if all(res[i].strip() or not t.strip() for i, t in segs):
+            if all((res[i].strip() or not t.strip()) and not heb_leak(t, res[i]) for i, t in segs):
                 return res
         print(f"  אי-התאמה בסימונים ({len(segs)} קטעים) — מפצל")
     except Exception as e:
@@ -112,6 +128,10 @@ def main():
             if it.get("date", "") < keep_from:
                 it.pop("tr", None); continue
             cur = it.setdefault("tr", {}).setdefault(lang, {})
+            # תיקון תרגומים שנשמרו בעבר ולא תורגמו באמת (נשארו בעברית) או שהכילו "Nemko"
+            for k in ["title", *levels]:
+                if cur.get(k) and heb_leak(it.get(k, ""), cur[k]): cur.pop(k)
+            if cur.get("questions") and any("נמקו" in q for q in it.get("questions", [])): cur.pop("questions")
             for k in ["title", *levels]:
                 if it.get(k) and not cur.get(k):
                     segs.append((nid, it[k])); where[nid] = (it, k, None); nid += 1
