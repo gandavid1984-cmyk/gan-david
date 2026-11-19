@@ -1,0 +1,13 @@
+# בדיקה זמנית בלבד — תימחק אחרי שנחליט. לא נוגעת בידיעות.
+name: mt-test
+on: workflow_dispatch
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install -q torch --index-url https://download.pytorch.org/whl/cpu && pip install -q transformers sentencepiece sacremoses protobuf
+      - run: python3 tools/mt_test.py
