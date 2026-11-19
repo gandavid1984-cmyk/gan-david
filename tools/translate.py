@@ -138,6 +138,11 @@ def main():
             if it.get("questions") and not cur.get("questions"):
                 for qi, q in enumerate(it["questions"]):
                     segs.append((nid, q)); where[nid] = (it, "questions", qi); nid += 1
+            ql = it.get("qlevels") or {}
+            for lv in levels:
+                if ql.get(lv) and not (cur.get("qlevels") or {}).get(lv):
+                    for qi, q in enumerate(ql[lv]):
+                        segs.append((nid, q)); where[nid] = (it, "qlevels:" + lv, qi); nid += 1
         print(f"[{lang}] קטעים לתרגום: {len(segs)}")
         qtmp = {}
         for batch in make_batches(segs):
@@ -147,17 +152,22 @@ def main():
                 failed_total += len(batch); print(f"  נכשלה קבוצה: {type(e).__name__}: {e}"); continue
             for i, txt in res.items():
                 it, k, qi = where[i]
-                if k == "questions":
-                    qtmp.setdefault(id(it), {})[qi] = txt
+                if k == "questions" or k.startswith("qlevels:"):
+                    qtmp.setdefault((id(it), k), {})[qi] = txt
                 else:
                     it["tr"][lang][k] = txt
             json.dump(d, open(NEWS, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
         for it in d["items"]:
-            q = qtmp.get(id(it))
-            if q and it.get("questions") and len(q) == len(it["questions"]):
-                it["tr"][lang]["questions"] = [q[i] for i in range(len(it["questions"]))]
-            elif q:
-                failed_total += 1
+            for k in ["questions"] + ["qlevels:" + lv for lv in levels]:
+                q = qtmp.get((id(it), k))
+                if not q: continue
+                src = it.get("questions") if k == "questions" else (it.get("qlevels") or {}).get(k.split(":")[1])
+                if src and len(q) == len(src):
+                    lst = [q[i] for i in range(len(src))]
+                    if k == "questions": it["tr"][lang]["questions"] = lst
+                    else: it["tr"][lang].setdefault("qlevels", {})[k.split(":")[1]] = lst
+                else:
+                    failed_total += 1
         # ניקוי שפות שאינן ברשימה ותרגומים ריקים
         for it in d["items"]:
             tr = it.get("tr")

@@ -770,7 +770,9 @@ async function translateVisible(){
     const pre=(it.tr||{})[lang];
     if(pre && pre.title && (pre[state.level]||(state.level==="expert"&&pre.hard))){
       const b=pre[state.level]||pre.hard;
-      const qs=sh.qDefault&&Array.isArray(pre.questions)&&pre.questions.length===sh.questions.length? pre.questions : [];
+      let qs=[];
+      if(sh.qDefault){ if(Array.isArray(pre.questions)&&pre.questions.length===sh.questions.length) qs=pre.questions; }
+      else { const pl=pre.qlevels&&pre.qlevels[state.level]; if(Array.isArray(pl)&&pl.length===sh.questions.length) qs=pl; }
       if(qs.length || !sh.questions.length) return {t:pre.title,b,qs};
       const qs2=[]; for(const q of sh.questions) qs2.push(await gtranslate(q,lang));
       return {t:pre.title,b,qs:qs2};
