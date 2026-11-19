@@ -171,6 +171,7 @@ font{background:transparent!important;box-shadow:none!important}
         <option value="ru">русский — רוסית</option>
         <option value="es">español — ספרדית</option>
       </select>
+      <button id="trBtn" class="btn primary" style="font-size:19px;font-weight:800;padding:12px 24px;min-height:54px" hidden>🌐 תרגם עכשיו</button>
       <span class="count" id="langNote"></span>
     </div>
     <div class="row" style="margin-bottom:10px">
@@ -728,7 +729,10 @@ const LANG_NAME={en:"אנגלית",ru:"רוסית",es:"ספרדית",ka:"גאו�
 state.lang = (()=>{ try{ const l=localStorage.getItem("akt-lang")||""; return ["en","ru","es"].includes(l)? l : ""; }catch(e){ return ""; } })();
 const trCache = {};
 try{ Object.assign(trCache, JSON.parse(localStorage.getItem("akt-trcache")||"{}")); }catch(e){}
-function saveTrCache(){ try{ const keys=Object.keys(trCache); if(keys.length>600) keys.slice(0,keys.length-600).forEach(k=>delete trCache[k]); localStorage.setItem("akt-trcache",JSON.stringify(trCache)); }catch(e){} }
+let _trSaveT=0;
+function saveTrCacheNow(){ for(let tries=0;tries<8;tries++){ try{ localStorage.setItem("akt-trcache",JSON.stringify(trCache)); return; }catch(e){ const ks=Object.keys(trCache); if(!ks.length) return; ks.slice(0,Math.ceil(ks.length/3)).forEach(k=>delete trCache[k]); } } }
+function saveTrCache(){ clearTimeout(_trSaveT); _trSaveT=setTimeout(saveTrCacheNow,300); }
+window.addEventListener("pagehide",saveTrCacheNow);
 // בקשה אחת לשירות התרגום, עם מגבלת זמן (בטלפון הרשת איטית) ו-3 ניסיונות עם המתנה הולכת וגדלה (השירות חוסם זמנית כשיש הרבה בקשות בבת אחת)
 async function gtranslateOnce(text, lang){
   const ctrl=new AbortController(); const timer=setTimeout(()=>ctrl.abort(),20000);
@@ -746,85 +750,103 @@ async function gtranslate(text, lang){
   if(text.length>1500 && text.includes("\n")){
     const parts=text.split("\n"); const outs=[];
     for(const p of parts){ outs.push(p.trim()? await gtranslate(p,lang) : ""); }
-    const joined=outs.join("\n"); trCache[key]=joined; return joined;
+    const joined=outs.join("\n"); trCache[key]=joined; saveTrCache(); return joined;
   }
   let lastErr;
   for(let attempt=0; attempt<3; attempt++){
-    try{ const out=await gtranslateOnce(text,lang); trCache[key]=out; return out; }
+    try{ const out=await gtranslateOnce(text,lang); trCache[key]=out; saveTrCache(); return out; }
     catch(e){ lastErr=e; await new Promise(r=>setTimeout(r, 800*Math.pow(2,attempt))); }
   }
   throw lastErr;
 }
-let trRun=0;
+let trRun=0, trBusy=false;
+function _apply(art,res,sh,lang){
+  const {t,b,qs}=res;
+  const h3=art.querySelector("h3"), body=art.querySelector(".body"), lis=art.querySelectorAll("ol.q li");
+  if(h3){ h3.textContent=t; h3.dir="ltr"; h3.style.textAlign="left"; }
+  if(body){ body.textContent=b; body.dir="ltr"; body.style.textAlign="left"; }
+  lis.forEach((li,i)=>{ if(qs[i]){ li.textContent=qs[i]; li.dir="ltr"; li.style.textAlign="left"; } });
+  art.dataset.translated=lang;
+  if(!art.querySelector(".orig-note")){ const d=document.createElement("details"); d.className="orig-note"; d.innerHTML=`<summary translate="no">המקור בעברית</summary><div class="body ${state.level}" dir="rtl" style="font-size:16px;line-height:1.7;color:var(--muted)">${esc(sh.body)}</div>`; const q=art.querySelector("details"); art.insertBefore(d, q||null); }
+}
+// תרגום שכבר קיים (מוכן מראש מ-news.json, או שמור במכשיר) — בלי רשת
+function localResult(it,lang){
+  const sh=shownText(it); const pre=(it.tr||{})[lang];
+  if(pre && pre.title && pre[state.level]!==undefined || (pre&&pre.title&&state.level==="expert"&&pre.hard)){
+    const b=pre[state.level]||pre.hard; let qs=[];
+    if(sh.qDefault){ if(Array.isArray(pre.questions)&&pre.questions.length===sh.questions.length) qs=pre.questions; }
+    else { const pl=pre.qlevels&&pre.qlevels[state.level]; if(Array.isArray(pl)&&pl.length===sh.questions.length) qs=pl; }
+    if(b && (qs.length||!sh.questions.length)) return {t:pre.title,b,qs};
+  }
+  const k=x=>trCache[lang+"|"+x];
+  const t=k(sh.title), b=k(sh.body); if(!t||!b) return null;
+  const qs=[]; for(const q of sh.questions){ const v=k(q); if(!v) return null; qs.push(v); }
+  return {t,b,qs};
+}
+function pendingArts(lang){
+  const arts=[...document.querySelectorAll("article.item")], pend=[];
+  for(const art of arts){
+    if(art.dataset.translated===lang) continue;
+    const it=state.items.find(x=>x.id===art.dataset.id); if(!it) continue;
+    const r=localResult(it,lang);
+    if(r){ _apply(art,r,shownText(it),lang); } else pend.push(art);
+  }
+  return {total:arts.length,pend};
+}
+function updateTrUI(msg){
+  const lang=state.lang, btn=$("#trBtn"), note=$("#langNote");
+  if(!lang){ btn.hidden=true; note.textContent=""; return; }
+  const {total,pend}=pendingArts(lang);
+  if(trBusy) return;
+  if(pend.length){
+    btn.hidden=false; btn.disabled=false;
+    btn.textContent=`🌐 תרגם עכשיו ל${LANG_NAME[lang]} (${pend.length} ידיעות)`;
+    note.textContent=msg||`${total-pend.length} מתוך ${total} ידיעות כבר מתורגמות. לחצי על הכפתור לתרגום השאר — מה שכבר תורגם נשמר.`;
+  } else {
+    btn.hidden=true;
+    note.textContent=total? `כל הידיעות מוצגות ב${LANG_NAME[lang]} — תרגום אוטומטי של Google. לחזרה לעברית: "עברית (המקור)".` : "";
+  }
+}
 async function translateVisible(){
-  const lang=state.lang; if(!lang) return;
-  const run=++trRun; const note=$("#langNote");
-  const arts=[...document.querySelectorAll("article.item")]; let done=0, failed=0;
-  note.textContent=`מתרגם ל${LANG_NAME[lang]}… 0 מתוך ${arts.length}`;
-  const failedArts=[];
-  const translateOne=async(art)=>{
-    const id=art.dataset.id; const it=state.items.find(x=>x.id===id); if(!it) return false;
-    if(art.dataset.translated===lang) return true;
+  const lang=state.lang; if(!lang||trBusy) return;
+  const run=++trRun; trBusy=true; const note=$("#langNote"), btn=$("#trBtn");
+  const {pend}=pendingArts(lang);
+  btn.disabled=true; let done=0, failed=0;
+  const upd=()=>{ btn.textContent=`⏳ מתרגם… ${done+failed} מתוך ${pend.length}`; note.textContent="אפשר להמשיך לגלול; מה שכבר תורגם נשמר גם אם תצאי מהדף."; };
+  upd();
+  const one=async(art)=>{
+    const it=state.items.find(x=>x.id===art.dataset.id); if(!it) return;
     const sh=shownText(it);
-    // תרגום מוכן מראש (נשמר ב-news.json על ידי GitHub Actions) — בלי רשת
-    const pre=(it.tr||{})[lang];
-    if(pre && pre.title && (pre[state.level]||(state.level==="expert"&&pre.hard))){
-      const b=pre[state.level]||pre.hard;
-      let qs=[];
-      if(sh.qDefault){ if(Array.isArray(pre.questions)&&pre.questions.length===sh.questions.length) qs=pre.questions; }
-      else { const pl=pre.qlevels&&pre.qlevels[state.level]; if(Array.isArray(pl)&&pl.length===sh.questions.length) qs=pl; }
-      if(qs.length || !sh.questions.length) return {t:pre.title,b,qs};
-      const qs2=[]; for(const q of sh.questions) qs2.push(await gtranslate(q,lang));
-      return {t:pre.title,b,qs:qs2};
-    }
-    // בקשות בזו אחר זו (לא כולן בבת אחת) — יציב יותר בטלפון וברשת סלולרית
     const t=await gtranslate(sh.title,lang); const b=await gtranslate(sh.body,lang);
     const qs=[]; for(const q of sh.questions) qs.push(await gtranslate(q,lang));
-    return {t,b,qs};
-  };
-  for(const art of arts){
     if(run!==trRun) return;
-    const id=art.dataset.id; const it=state.items.find(x=>x.id===id); if(!it) continue;
-    const sh=shownText(it);
-    try{
-      const res=await translateOne(art); if(res===true){ done++; continue; }
-      const {t,b,qs}=res;
-      if(run!==trRun) return;
-      const h3=art.querySelector("h3"), body=art.querySelector(".body"), lis=art.querySelectorAll("ol.q li");
-      if(h3){ h3.textContent=t; h3.dir="ltr"; h3.style.textAlign="left"; }
-      if(body){ body.textContent=b; body.dir="ltr"; body.style.textAlign="left"; }
-      lis.forEach((li,i)=>{ if(qs[i]){ li.textContent=qs[i]; li.dir="ltr"; li.style.textAlign="left"; } });
-      art.dataset.translated=lang;
-      const orig=art.querySelector(".orig-note"); if(!orig){ const d=document.createElement("details"); d.className="orig-note"; d.innerHTML=`<summary translate="no">המקור בעברית</summary><div class="body ${state.level}" dir="rtl" style="font-size:16px;line-height:1.7;color:var(--muted)">${esc(sh.body)}</div>`; const q=art.querySelector("details"); art.insertBefore(d, q||null); }
-      done++;
-    }catch(e){ failed++; failedArts.push(art); }
-    note.textContent=`מתרגם ל${LANG_NAME[lang]}… ${done+failed} מתוך ${arts.length}`;
-    saveTrCache();
+    _apply(art,{t,b,qs},sh,lang);
+  };
+  for(const art of pend){
+    if(run!==trRun) break;
+    try{ await one(art); done++; }catch(e){ failed++; }
+    upd();
   }
-  // ידיעות שנכשלו — ניסיון נוסף אוטומטי אחרי הפסקה קצרה (בלי שהמשתמש יצטרך ללחוץ)
-  if(failedArts.length && run===trRun){
-    note.textContent=`${failed} ידיעות לא תורגמו — מנסה שוב…`;
-    await new Promise(r=>setTimeout(r,3000));
-    for(const art of failedArts){
-      if(run!==trRun) return;
-      try{
-        const res=await translateOne(art); if(!res||res===true) continue;
-        const {t,b,qs}=res;
-        const h3=art.querySelector("h3"), body=art.querySelector(".body"), lis=art.querySelectorAll("ol.q li");
-        if(h3){ h3.textContent=t; h3.dir="ltr"; h3.style.textAlign="left"; }
-        if(body){ body.textContent=b; body.dir="ltr"; body.style.textAlign="left"; }
-        lis.forEach((li,i)=>{ if(qs[i]){ li.textContent=qs[i]; li.dir="ltr"; li.style.textAlign="left"; } });
-        art.dataset.translated=lang; done++; failed--;
-      }catch(e){}
+  // ניסיון נוסף למה שנכשל, אחרי הפסקה קצרה
+  if(failed && run===trRun){
+    await new Promise(r=>setTimeout(r,4000));
+    for(const art of pend){
+      if(run!==trRun) break;
+      if(art.dataset.translated===lang) continue;
+      try{ await one(art); failed--; done++; }catch(e){}
+      upd();
     }
   }
-  saveTrCache();
-  note.textContent = failed? `${done} ידיעות תורגמו ל${LANG_NAME[lang]}; ${failed} לא הצליחו (שירות התרגום של Google לא ענה). אפשר לבחור שוב את השפה כדי לנסות שוב.` : `הידיעות מוצגות ב${LANG_NAME[lang]} — תרגום אוטומטי של Google. לחזרה לעברית: "עברית (המקור)".`;
+  saveTrCacheNow(); trBusy=false;
+  const left=pendingArts(lang).pend.length;
+  if(left) updateTrUI(`${done} ידיעות תורגמו; ${left} לא הצליחו (שירות התרגום של Google לא ענה). לחצי שוב על הכפתור — ימשיך מאיפה שעצר.`);
+  else updateTrUI();
 }
 $("#lang").value=state.lang;
-$("#lang").addEventListener("change",()=>{ stopSpeak(); state.lang=$("#lang").value; try{ localStorage.setItem("akt-lang",state.lang); }catch(e){} renderList(); if(state.lang) translateVisible(); else $("#langNote").textContent=""; });
-// re-translate whenever the list is re-rendered
-const _renderList=renderList; renderList=function(){ _renderList(); if(state.lang) translateVisible(); };
+$("#lang").addEventListener("change",()=>{ stopSpeak(); trRun++; trBusy=false; state.lang=$("#lang").value; try{ localStorage.setItem("akt-lang",state.lang); }catch(e){} renderList(); });
+$("#trBtn").addEventListener("click",()=>{ translateVisible(); });
+// בכל רענון של הרשימה: מציגים מיד את מה שכבר מתורגם (בלי רשת), והכפתור מציע לתרגם את השאר
+const _renderList=renderList; renderList=function(){ _renderList(); trRun++; trBusy=false; updateTrUI(); };
 if("serviceWorker" in navigator && location.protocol==="https:" ){ window.addEventListener("load",()=>navigator.serviceWorker.register("sw.js").catch(()=>{})); }
 </script>
 </body>
