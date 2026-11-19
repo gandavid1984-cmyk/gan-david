@@ -27,7 +27,9 @@ jobs:
       - name: Prune (30 days)
         run: python3 tools/prune.py 30
       - name: Translate (en/ru/es, easy/medium/hard)
-        run: python3 tools/translate.py --days 30 --langs en,ru,es --levels easy,medium,hard || true
+        id: translate
+        continue-on-error: true
+        run: python3 tools/translate.py --days 30 --langs en,ru,es --levels easy,medium,hard
       - name: Audio (Edge TTS, easy/medium/hard)
         run: python3 tools/make_audio.py --days 30 --levels easy,medium,hard --concurrency 3 || true
       - name: Commit & push
@@ -39,3 +41,8 @@ jobs:
           git commit -m "עיבוד אוטומטי: תרגום ושמע [skip ci]"
           git pull --rebase -q origin main || true
           git push origin HEAD:main
+      - name: Fail loudly if translation failed
+        if: steps.translate.outcome == 'failure'
+        run: |
+          echo "::error::התרגום נכשל (ייתכן חסימה של שירות התרגום). הידיעות והשמע נשמרו, אבל חסרים תרגומים."
+          exit 1
