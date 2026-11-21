@@ -148,7 +148,7 @@ def gem_request(model, prompt):
         try:
             req = urllib.request.Request(GURL.format(model), data=body,
                                          headers={"x-goog-api-key": KEY, "Content-Type": "application/json"})
-            with urllib.request.urlopen(req, timeout=120) as r:
+            with urllib.request.urlopen(req, timeout=90) as r:
                 j = json.loads(r.read().decode("utf-8"))
             out = j["candidates"][0]["content"]["parts"][0]["text"]
             time.sleep(GPAUSE)
@@ -274,11 +274,13 @@ def gem_probe(model):
 def choose_models(pinned, want=2):
     """מודלים קבועים שעוברים בדיקה בפועל; אם פחות מ-want — משלימים מהרשימה של Google (יציבים בלבד, החדש ראשון)
     ומדפיסים אזהרה. כך מודל שהוסר לא עוצר את התרגום, ואנחנו יודעים שהמודל התחלף."""
-    good = []
+    good, status = [], {}
     for m in pinned:
         st = gem_probe(m); time.sleep(2)
         print(f"  מודל {m}: {st}")
+        status[m] = st
         if st != "dead": good.append(m)
+    good.sort(key=lambda m: status[m] != "ok")      # מודל תקין לפני מודל עמוס (503) — זמינות לפני העדפה
     if len(good) >= want: return good
     try:
         names = gem_list()
@@ -290,8 +292,10 @@ def choose_models(pinned, want=2):
         if len(good) >= want: break
         st = gem_probe(m); time.sleep(2)
         print(f"  מודל חלופי {m}: {st}")
+        status[m] = st
         if st != "dead": good.append(m)
-    if good != list(pinned):
+    good.sort(key=lambda m: status[m] != "ok")
+    if sorted(good) != sorted(pinned):
         print(f"::warning::המודלים הקבועים ({', '.join(pinned)}) לא כולם זמינים — משתמש ב: {', '.join(good) or 'אין'}. כדאי לעדכן את GEMINI_MODELS ולבדוק את איכות התרגום.")
     return good
 
