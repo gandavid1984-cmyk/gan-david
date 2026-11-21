@@ -118,6 +118,7 @@ STYLE = {
 }
 STATS = {"gemini": 0, "google": 0}
 GEM_DEAD = [False]           # מפתח לא תקין/אין הרשאה/עומס מתמשך — לא ממשיכים לנסות
+MODEL_BAD = {}               # מודל -> כמה פעמים נכשל אחרי כל הניסיונות החוזרים; אחרי 2 מדלגים עליו (אם יש מודל אחר)
 GEM_FAILS = [0]              # בקשות רצופות שנכשלו אחרי כל הניסיונות החוזרים
 MAX_FAILS = 3
 
@@ -151,7 +152,7 @@ def gem_request(model, prompt):
                 j = json.loads(r.read().decode("utf-8"))
             out = j["candidates"][0]["content"]["parts"][0]["text"]
             time.sleep(GPAUSE)
-            GEM_FAILS[0] = 0
+            GEM_FAILS[0] = 0; MODEL_BAD[model] = 0
             return out
         except urllib.error.HTTPError as e:
             msg = e.read()[:200]
@@ -167,7 +168,7 @@ def gem_request(model, prompt):
         except Exception as e:
             print(f"  Gemini {model}: {type(e).__name__}: {e} (ניסיון חוזר)")
             last = e
-    GEM_FAILS[0] += 1
+    GEM_FAILS[0] += 1; MODEL_BAD[model] = MODEL_BAD.get(model, 0) + 1
     if GEM_FAILS[0] >= MAX_FAILS:
         raise GemFatal(f"{MAX_FAILS} בקשות רצופות נכשלו (עומס/מכסה) — מפסיק להשתמש ב-Gemini בריצה הזו")
     raise last
@@ -213,6 +214,8 @@ def gem_try(segs, lang):
         "\nReturn ONLY a JSON object with exactly the same keys as the input; each value is the translation of the value with that key.\n\n"
         "Input:\n" + json.dumps({str(i): t for i, t in segs}, ensure_ascii=False))
     for model in MODELS:
+        if MODEL_BAD.get(model, 0) >= 2 and len(MODELS) > 1:
+            continue
         try:
             raw = gem_request(model, prompt)
         except GemFatal:
