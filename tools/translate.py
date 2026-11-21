@@ -27,6 +27,7 @@ MAXCH = 3500      # תווים מקסימליים בבקשה אחת
 MAXSEG = 40       # קטעים מקסימליים בבקשה אחת
 PAUSE = 3.0       # המתנה בין בקשות (שניות)
 WAITS = [10, 40, 120, 240]   # המתנה בין ניסיונות חוזרים
+DEADLINE = [float("inf")]   # תקרת זמן גלובלית (נקבעת ב-main) — מונעת המתנות ארוכות אחרי שנגמר הזמן
 MARK = "[[#{}#]]"
 MARK_RE = re.compile(r"\[\s*\[\s*#\s*(\d+)\s*#\s*\]\s*\]")
 
@@ -44,6 +45,7 @@ def g_post(text, lang):
 def g_retry(text, lang):
     err = None
     for w in [0] + WAITS:
+        if time.time() > DEADLINE[0]: raise TimeoutError("נגמרה תקרת הזמן")
         if w: time.sleep(w)
         try:
             out = g_post(text, lang); time.sleep(PAUSE); return out
@@ -111,7 +113,9 @@ STYLE = {
     "es": "Questions to the readers address a group: use «ustedes» forms (for example «Cuéntennos», «Expliquen su respuesta»).",
 }
 STATS = {"gemini": 0, "google": 0}
-GEM_DEAD = [False]           # מפתח לא תקין/אין הרשאה — לא ממשיכים לנסות
+GEM_DEAD = [False]           # מפתח לא תקין/אין הרשאה/עומס מתמשך — לא ממשיכים לנסות
+GEM_FAILS = [0]              # בקשות רצופות שנכשלו אחרי כל הניסיונות החוזרים
+MAX_FAILS = 3
 
 class GemFatal(Exception):
     pass
@@ -134,6 +138,7 @@ def gem_request(model, prompt):
     body = json.dumps({"contents": [{"parts": [{"text": prompt}]}], "generationConfig": gc}).encode()
     last = None
     for w in [0] + GWAITS:
+        if time.time() > DEADLINE[0]: raise TimeoutError("נגמרה תקרת הזמן")
         if w: time.sleep(w)
         try:
             req = urllib.request.Request(GURL.format(model), data=body,
@@ -142,6 +147,7 @@ def gem_request(model, prompt):
                 j = json.loads(r.read().decode("utf-8"))
             out = j["candidates"][0]["content"]["parts"][0]["text"]
             time.sleep(GPAUSE)
+            GEM_FAILS[0] = 0
             return out
         except urllib.error.HTTPError as e:
             msg = e.read()[:200]
@@ -154,6 +160,9 @@ def gem_request(model, prompt):
         except Exception as e:
             print(f"  Gemini {model}: {type(e).__name__}: {e} (ניסיון חוזר)")
             last = e
+    GEM_FAILS[0] += 1
+    if GEM_FAILS[0] >= MAX_FAILS:
+        raise GemFatal(f"{MAX_FAILS} בקשות רצופות נכשלו (עומס/מכסה) — מפסיק להשתמש ב-Gemini בריצה הזו")
     raise last
 
 NUM_RE = re.compile(r"\d[\d,.]*")
@@ -241,6 +250,8 @@ def main():
     ap.add_argument("--days", type=int, default=30)
     ap.add_argument("--langs", default="en,ru,es")
     ap.add_argument("--levels", default="easy,medium,hard")
+    ap.add_argument("--budget-min", type=float, default=float(os.environ.get("TRANSLATE_BUDGET_MIN", "50")),
+                    help="תקרת זמן בדקות: אחריה עוצרים, שומרים מה שתורגם ומסיימים בקוד שגיאה (כדי שה-commit ירוץ)")
     a = ap.parse_args()
     langs = [l for l in a.langs.split(",") if l]
     levels = [l for l in a.levels.split(",") if l]
@@ -257,7 +268,11 @@ def main():
         print("מנוע ראשי: Gemini, מודלים:", ", ".join(MODELS))
 
     failed_total = 0
+    deadline = time.time() + a.budget_min * 60
+    DEADLINE[0] = deadline
+    stopped = False
     for lang in langs:
+        if stopped: break
         # אוספים את כל מה שחסר בשפה הזו
         segs, where, nid = [], {}, 0
         for it in d["items"]:
@@ -281,7 +296,14 @@ def main():
                         segs.append((nid, q)); where[nid] = (it, "qlevels:" + lv, qi); nid += 1
         print(f"[{lang}] קטעים לתרגום: {len(segs)}")
         qtmp = {}
-        for batch in make_batches(segs):
+        batches = make_batches(segs)
+        for bn, batch in enumerate(batches, 1):
+            if time.time() > deadline:
+                stopped = True
+                failed_total += sum(len(b) for b in batches[bn - 1:])
+                print(f"  ::warning::נגמרה תקרת הזמן ({a.budget_min:g} דקות) — עוצר ושומר מה שתורגם; השאר ייתורגם בריצה הבאה")
+                break
+            print(f"  [{lang}] קבוצה {bn}/{len(batches)} ({len(batch)} קטעים) · {int(time.time() - deadline + a.budget_min * 60)} שנ' מתחילת הריצה", flush=True)
             try:
                 res = translate_batch(batch, lang)
             except Exception as e:

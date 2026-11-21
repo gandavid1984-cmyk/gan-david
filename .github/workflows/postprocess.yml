@@ -32,6 +32,7 @@ jobs:
         run: python3 tools/translate.py --days 30 --langs en,ru,es --levels easy,medium,hard
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          PYTHONUNBUFFERED: "1"
       - name: Audio (Edge TTS, easy/medium/hard)
         run: python3 tools/make_audio.py --days 30 --levels easy,medium,hard --concurrency 3 || true
       - name: Commit & push
