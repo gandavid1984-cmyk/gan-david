@@ -1,17 +1,21 @@
 #!/usr/bin/env python3
-"""תרגום מוכן מראש לידיעות של "עיתון גן דוד" — בלי מודל שפה, בלי טוקנים.
+"""תרגום מוכן מראש לידיעות של "עיתון גן דוד" — ל-en/ru/es.
 
 שימוש:  python3 tools/translate.py [--days 30] [--langs en,ru,es] [--levels easy,medium,hard]
 
 - קורא את data/news.json, ולכל ידיעה מ-N הימים האחרונים שחסר לה תרגום לשפה — מתרגם
-  כותרת, הרמות המבוקשות ושלוש השאלות דרך שירות התרגום החינמי של Google (אותו שירות
-  שהאתר משתמש בו בדף), ושומר בידיעה: "tr": {"en": {"title", "easy", "medium", "hard", "questions"}, ...}.
-- מה שכבר מתורגם לא נשלח שוב. אם השירות לא עונה — מדלגים ומנסים בריצה הבאה.
-- השירות אינו רשמי ועלול להיחסם (429). לכן הקטעים מאוגדים לקבוצות של עד ~3500 תווים (בקשת POST אחת לקבוצה,
-  במקום בקשה לכל כותרת/רמה/שאלה), עם סימוני הפרדה שנבדקים אחרי התרגום, המתנה בין בקשות וניסיונות חוזרים.
+  כותרת, הרמות המבוקשות ושלוש השאלות (וגם שאלות לפי רמה), ושומר בידיעה:
+  "tr": {"en": {"title", "easy", "medium", "hard", "questions", "qlevels"}, ...}.
+- מה שכבר מתורגם לא נשלח שוב.
+- מנוע ראשי: Gemini API (הרמה החינמית), כשקיים הסוד GEMINI_API_KEY. המודל קבוע (GEMINI_MODELS, ברירת מחדל
+  gemini-2.5-flash ואחריו gemini-2.5-flash-lite) — לא "latest", כדי שלא יתחלף בלי שנדע. הבקשה כוללת רשימת שמות
+  מ-tools/glossary.json (רק מונחים שמופיעים בקבוצה). כל תרגום נבדק: לא חזר בעברית, כל המספרים מהמקור נשמרו,
+  כל המפתחות חזרו. תרגום שנכשל בבדיקה — הקבוצה מפוצלת ומנוסה שוב.
+- גיבוי: שירות התרגום החינמי של Google (לא רשמי; עלול להיחסם). משמש רק לקטע ש-Gemini לא הצליח בו, או לכל הריצה
+  אם אין מפתח. בסוף הריצה מודפס כמה קטעים תורגמו בכל מנוע, ואם היה גיבוי של Google — אזהרה ב-GitHub.
 - אם נשאר משהו שלא תורגם — הסקריפט מסיים בקוד שגיאה, וההרצה ב-GitHub מסומנת ככשלון (ולא נבלעת בשקט).
 """
-import json, os, re, sys, time, argparse, datetime, urllib.parse, urllib.request
+import json, os, re, sys, time, argparse, datetime, urllib.parse, urllib.request, urllib.error
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 NEWS = os.path.join(ROOT, "data", "news.json")
@@ -65,7 +69,7 @@ def translate_one(text, lang):
         return "\n".join(translate_one(p, lang) if p.strip() else "" for p in text.split("\n"))
     return g_retry(text, lang)
 
-def translate_batch(segs, lang):
+def google_batch(segs, lang):
     """segs: [(id, text)] -> {id: translated}. מאגד, מוודא סימונים, ובמקרה של אי-התאמה מפצל."""
     if len(segs) == 1:
         i, t = segs[0]
@@ -90,9 +94,137 @@ def translate_batch(segs, lang):
     except Exception as e:
         print(f"  כשל בקבוצה של {len(segs)} קטעים: {type(e).__name__}: {e} — מפצל")
     mid = len(segs) // 2
-    res = translate_batch(segs[:mid], lang)
-    res.update(translate_batch(segs[mid:], lang))
+    res = google_batch(segs[:mid], lang)
+    res.update(google_batch(segs[mid:], lang))
     return res
+
+# ───────────────────────── Gemini (מנוע ראשי) ─────────────────────────
+KEY = os.environ.get("GEMINI_API_KEY", "").strip()
+MODELS = [m.strip() for m in os.environ.get("GEMINI_MODELS", "gemini-2.5-flash,gemini-2.5-flash-lite").split(",") if m.strip()]
+GURL = "https://generativelanguage.googleapis.com/v1beta/models/{}:generateContent"
+GPAUSE = 6.0                 # המתנה בין בקשות (הרמה החינמית מוגבלת בקצב)
+GWAITS = [20, 60, 120]       # המתנה בין ניסיונות חוזרים בשגיאת עומס (429/5xx)
+LANGN = {"en": "English", "ru": "Russian", "es": "Spanish"}
+STYLE = {
+    "en": "",
+    "ru": "Questions to the readers address a group: use the polite plural «вы» forms.",
+    "es": "Questions to the readers address a group: use «ustedes» forms (for example «Cuéntennos», «Expliquen su respuesta»).",
+}
+STATS = {"gemini": 0, "google": 0}
+GEM_DEAD = [False]           # מפתח לא תקין/אין הרשאה — לא ממשיכים לנסות
+
+class GemFatal(Exception):
+    pass
+
+def load_glossary():
+    try:
+        return json.load(open(os.path.join(ROOT, "tools", "glossary.json"), encoding="utf-8"))
+    except Exception:
+        return {}
+GLOSSARY = load_glossary()
+
+def glossary_for(segs, lang):
+    text = " ".join(t for _, t in segs)
+    return {k: v[lang] for k, v in GLOSSARY.items() if not k.startswith("_") and k in text and v.get(lang)}
+
+def gem_request(model, prompt):
+    gc = {"temperature": 0.2, "responseMimeType": "application/json", "maxOutputTokens": 8192}
+    if "2.5-flash" in model and "lite" not in model:
+        gc["thinkingConfig"] = {"thinkingBudget": 0}      # בלי "חשיבה" — מקצר ומוזיל
+    body = json.dumps({"contents": [{"parts": [{"text": prompt}]}], "generationConfig": gc}).encode()
+    last = None
+    for w in [0] + GWAITS:
+        if w: time.sleep(w)
+        try:
+            req = urllib.request.Request(GURL.format(model), data=body,
+                                         headers={"x-goog-api-key": KEY, "Content-Type": "application/json"})
+            with urllib.request.urlopen(req, timeout=120) as r:
+                j = json.loads(r.read().decode("utf-8"))
+            out = j["candidates"][0]["content"]["parts"][0]["text"]
+            time.sleep(GPAUSE)
+            return out
+        except urllib.error.HTTPError as e:
+            msg = e.read()[:200]
+            if e.code in (400, 401, 403):
+                raise GemFatal(f"HTTP {e.code}: {msg!r}")
+            if e.code not in (429, 500, 502, 503, 504):
+                raise RuntimeError(f"HTTP {e.code}: {msg!r}")
+            print(f"  Gemini {model}: HTTP {e.code} (ניסיון חוזר)")
+            last = e
+        except Exception as e:
+            print(f"  Gemini {model}: {type(e).__name__}: {e} (ניסיון חוזר)")
+            last = e
+    raise last
+
+NUM_RE = re.compile(r"\d[\d,.]*")
+def nums(text):
+    return [re.sub(r"[,.]", "", n) for n in NUM_RE.findall(text)]
+
+def gem_validate(raw, segs):
+    """מחזיר {id: תרגום} או None אם משהו לא תקין."""
+    try:
+        d = json.loads(re.sub(r"^```(?:json)?\s*|\s*```$", "", raw.strip()))
+    except Exception:
+        print("  Gemini: תשובה שאינה JSON — מפצל"); return None
+    if not isinstance(d, dict): print("  Gemini: מבנה לא צפוי — מפצל"); return None
+    res = {}
+    for i, t in segs:
+        out = d.get(str(i))
+        if not isinstance(out, str) or (t.strip() and not out.strip()):
+            print(f"  Gemini: חסר תרגום לקטע {i} — מפצל"); return None
+        if heb_leak(t, out):
+            print(f"  Gemini: קטע {i} חזר בעברית — מפצל"); return None
+        out_nums = nums(out)
+        if any(n not in out_nums for n in nums(t)):
+            print(f"  Gemini: מספר מהמקור חסר בקטע {i} — מפצל"); return None
+        res[i] = out.strip()
+    return res
+
+def gem_try(segs, lang):
+    """מנסה את המודלים לפי הסדר (רק בשגיאת בקשה עוברים למודל הבא). מחזיר dict או None."""
+    gl = glossary_for(segs, lang)
+    gtxt = ("\nGlossary (Hebrew = %s) — use exactly these forms:\n" % LANGN[lang] +
+            "\n".join(f"- {k} = {v}" for k, v in gl.items())) if gl else ""
+    prompt = (
+        f"You translate short Hebrew texts from a simplified news site for elderly readers in Israeli nursing homes into {LANGN[lang]}.\n"
+        "Rules:\n"
+        "- Simple, warm, natural language, at the same register as the source.\n"
+        "- Keep every fact, number, date and name exactly as in the source. Do not add, omit, explain or soften anything.\n"
+        f"- Use the standard {LANGN[lang]} spelling of Israeli names, parties, places, teams and institutions, and the same spelling for the same name everywhere.\n"
+        "- Translate everything fully; never leave Hebrew words in the output.\n"
+        + (STYLE[lang] + "\n" if STYLE[lang] else "")
+        + gtxt +
+        "\nReturn ONLY a JSON object with exactly the same keys as the input; each value is the translation of the value with that key.\n\n"
+        "Input:\n" + json.dumps({str(i): t for i, t in segs}, ensure_ascii=False))
+    for model in MODELS:
+        try:
+            raw = gem_request(model, prompt)
+        except GemFatal:
+            raise
+        except Exception as e:
+            print(f"  Gemini {model} נכשל ({type(e).__name__}) — עובר למודל הבא")
+            continue
+        return gem_validate(raw, segs)
+    return None
+
+def translate_batch(segs, lang):
+    """Gemini; קבוצה שנכשלה בבדיקה מפוצלת; קטע בודד שנכשל, או Gemini לא זמין — Google."""
+    if KEY and not GEM_DEAD[0]:
+        try:
+            res = gem_try(segs, lang)
+        except GemFatal as e:
+            GEM_DEAD[0] = True
+            print(f"  ::warning::Gemini לא זמין ({e}) — ממשיך עם Google")
+            res = None
+        if res is not None:
+            STATS["gemini"] += len(segs); return res
+        if len(segs) > 1 and not GEM_DEAD[0]:
+            mid = len(segs) // 2
+            out = translate_batch(segs[:mid], lang)
+            out.update(translate_batch(segs[mid:], lang))
+            return out
+    STATS["google"] += len(segs)
+    return google_batch(segs, lang)
 
 def make_batches(segs):
     batches, cur, n = [], [], 0
@@ -115,10 +247,14 @@ def main():
 
     d = json.load(open(NEWS, encoding="utf-8"))
     keep_from = (datetime.date.today() - datetime.timedelta(days=a.days - 1)).isoformat()
-    try:
-        g_retry("בדיקה", "en")
-    except Exception as e:
-        print(f"שירות התרגום אינו נגיש ({type(e).__name__}: {e}) — לא שונה דבר."); return 3
+    if not KEY:
+        print("אין GEMINI_API_KEY — מתרגם עם Google בלבד.")
+        try:
+            g_retry("בדיקה", "en")
+        except Exception as e:
+            print(f"שירות התרגום אינו נגיש ({type(e).__name__}: {e}) — לא שונה דבר."); return 3
+    else:
+        print("מנוע ראשי: Gemini, מודלים:", ", ".join(MODELS))
 
     failed_total = 0
     for lang in langs:
@@ -176,6 +312,9 @@ def main():
                 if l not in langs or not tr[l]: tr.pop(l)
             if not tr: it.pop("tr", None)
         json.dump(d, open(NEWS, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    print(f"תורגמו עם Gemini: {STATS['gemini']} קטעים · עם Google (גיבוי): {STATS['google']} קטעים")
+    if KEY and STATS["google"]:
+        print("::warning::חלק מהקטעים תורגמו עם Google כגיבוי — כדאי לבדוק את הלוג של Gemini")
     print(f"נכשלו: {failed_total}")
     return 0 if failed_total == 0 else 1
 

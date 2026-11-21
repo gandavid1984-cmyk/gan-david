@@ -1,0 +1,19 @@
+{
+  "_הערה": "רשימת שמות קבועה לתרגום (Gemini). אפשר להוסיף שורות: מפתח בעברית כפי שמופיע בטקסט, וערך לכל שפה. נשלחת רק כשהמונח מופיע בקבוצה.",
+  "מתן כהנא": {"en": "Matan Kahana", "ru": "Матан Кахана", "es": "Matan Kahana"},
+  "גדי איזנקוט": {"en": "Gadi Eisenkot", "ru": "Гади Айзенкот", "es": "Gadi Eisenkot"},
+  "מפלגת ישר": {"en": "the Yashar party", "ru": "партия «Яшар»", "es": "el partido Yashar"},
+  "אמיר אוחנה": {"en": "Amir Ohana", "ru": "Амир Охана", "es": "Amir Ohana"},
+  "אופיר כץ": {"en": "Ofir Katz", "ru": "Офир Кац", "es": "Ofir Katz"},
+  "יאיר לפיד": {"en": "Yair Lapid", "ru": "Яир Лапид", "es": "Yair Lapid"},
+  "בנימין נתניהו": {"en": "Benjamin Netanyahu", "ru": "Биньямин Нетаньяху", "es": "Benjamín Netanyahu"},
+  "ליכוד": {"en": "Likud", "ru": "«Ликуד»", "es": "Likud"},
+  "כנסת": {"en": "Knesset", "ru": "Кнессет", "es": "Knéset"},
+  "מכבי חיפה": {"en": "Maccabi Haifa", "ru": "«Маккаби» (Хайфа)", "es": "Maccabi Haifa"},
+  "בני סכנין": {"en": "Bnei Sakhnin", "ru": "«Бней-Сахнин»", "es": "Bnei Sakhnin"},
+  "רן בן שמעון": {"en": "Ran Ben Shimon", "ru": "Ран Бен Шимон", "es": "Ran Ben Shimon"},
+  "מרקו רוביו": {"en": "Marco Rubio", "ru": "Марко Рубио", "es": "Marco Rubio"},
+  "שי ג'ינפינג": {"en": "Xi Jinping", "ru": "Си Цзиньпин", "es": "Xi Jinping"},
+  "ולדימיר פוטין": {"en": "Vladimir Putin", "ru": "Владимир Путин", "es": "Vladímir Putin"},
+  "דונלד טראמפ": {"en": "Donald Trump", "ru": "Дональд Трамп", "es": "Donald Trump"}
+}

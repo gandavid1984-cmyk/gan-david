@@ -1,5 +1,5 @@
 # עיתון גן דוד — עיבוד אוטומטי אחרי כל עדכון ידיעות (בלי Claude, בלי טוקנים):
-# ניקוי 30 יום, תרגום מוכן מראש (en/ru/es), קול קריין (Edge TTS), ו-commit חזרה.
+# ניקוי 30 יום, תרגום מוכן מראש (en/ru/es, Gemini ובגיבוי Google), קול קריין (Edge TTS), ו-commit חזרה.
 name: postprocess
 on:
   push:
@@ -30,6 +30,8 @@ jobs:
         id: translate
         continue-on-error: true
         run: python3 tools/translate.py --days 30 --langs en,ru,es --levels easy,medium,hard
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
       - name: Audio (Edge TTS, easy/medium/hard)
         run: python3 tools/make_audio.py --days 30 --levels easy,medium,hard --concurrency 3 || true
       - name: Commit & push
