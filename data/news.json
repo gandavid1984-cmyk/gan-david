@@ -106,7 +106,7 @@
      "questions": [
       "Вы были когда-нибудь свидетелями примирения между соседями или членами семьи? Расскажите.",
       "Что, по вашему мнению, помогает двум сторонам в конфликте заключить мир? Обоснуйте.",
-      "Как можно предотвратить ссоры между соседями и семьями?"
+      "Как можно предотвратить ссоры между соседями и между семьями?"
      ]
     },
     "es": {
@@ -134,9 +134,26 @@
      "questions": [
       "¿Alguna vez fueron testigos de una reconciliación entre vecinos o familiares? Cuéntennos.",
       "¿Qué creen que ayuda a dos partes en un conflicto a hacer la paz? Expliquen su respuesta.",
-      "¿Cómo se puede prevenir peleas entre vecinos y familias?"
+      "¿Cómo se pueden prevenir las peleas entre vecinos y entre familias?"
      ]
     }
+   },
+   "audioTr": {
+    "en": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "ru": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "es": [
+     "easy",
+     "medium",
+     "hard"
+    ]
    }
   },
   {
@@ -192,11 +209,6 @@
      "easy": "At the World Taekwondo Championships there were medals for Israel.\nThe championships were held in South Korea.\nAsaf Yasur won a silver medal.\nAdnan Milad also won silver.\nThey lost only in the final match.\nThis is a great achievement for Israel.",
      "medium": "At the World Para Taekwondo Championships, held in Muju, South Korea, two Israelis won a silver medal. Asaf Yasur, in the up to 58 kg weight class, lost in the final to Sabir Zeynalov of Azerbaijan. Adnan Milad, in the up to 63 kg weight class, lost 0:2 in the final to Mahmut Bozteke of Turkey. This is Milad's first medal at the World Championships, and he is the second Israeli to win it. Yasur has previously won world championships and also a Paralympic gold medal in Paris 2024. Adnan Jarouchi also competed in the national team, making his first appearance at the World Championships, and lost his first match.",
      "hard": "At the World Para Taekwondo Championship, held in Muju, South Korea, two Israelis won a silver medal, on November 20 and November 21, 2026.\n\nAsef Yasur, in the up to 58 kg weight category, reached the final after a win over local fighter Lee Pyeongang in the semifinal, at the end of a close struggle. In the final, he lost to Sabir Zeynalov from Azerbaijan, who was ranked second in the competition, by 2:1 in rounds. Yasur has been ranked first in the world for already more than three years, previously won world championships in the years 2021 and 2023, and a gold medal at the Paralympic Games in Paris in 2024.\n\nAdnan Milad, in the up to 63 kg weight category, won on the way to the final against Amin Aliyev from Azerbaijan 0:2, against Kodratjon Haydarov from Uzbekistan 2:1 and against Ayoub Adouich from Morocco 2:1. In the final, he lost 0:2 to Mahmut Bozteke from Turkey, the champion of Paris and the world's top-ranked fighter. This is Milad's first medal at the world championship, and he is the second Israeli to achieve such an achievement after Yasur. The national coach is Yechiam Sharabi. Yasur is also the reigning European champion. Also competing in the team was Adnan Jroushi, in the up to 70 kg weight category, who lost in his first match to a fighter from Mongolia. Omer Bar-El, in the over 80 kg weight category, was supposed to step onto the mat on Sunday.",
-     "questions": [
-      "Have you ever engaged in sports? In which sport and for how long?",
-      "What do you think gives an athlete the strength to persevere? Explain.",
-      "Which Israeli athlete do you remember, and why?"
-     ],
      "qlevels": {
       "easy": [
        "Was the championship held in South Korea?",
@@ -213,7 +225,12 @@
        "In which year and in which city did Yasur win Paralympic gold?",
        "Who is the national coach of the team?"
       ]
-     }
+     },
+     "questions": [
+      "Have you ever engaged in sports? In which discipline and for how long?",
+      "What do you think gives an athlete the strength to persevere? Explain.",
+      "Which Israeli athlete do you remember, and why?"
+     ]
     },
     "ru": {
      "title": "Две серебряные медали у Израиля на чемпионате мира по паралимпийскому тхэквондо",
@@ -239,7 +256,7 @@
      },
      "questions": [
       "Вы занимались когда-нибудь спортом? Каким видом и как долго?",
-      "Что, по вашему мнению, дает спортсмену силы упорствовать? Обоснуйте.",
+      "Что, по вашему мнению, дает спортсмену силы продолжать? Обоснуйте.",
       "Какой израильский спортсмен вам запомнился и почему?"
      ]
     },
@@ -266,11 +283,28 @@
       ]
      },
      "questions": [
-      "¿Alguna vez practicaron deporte? ¿En qué disciplina y cuánto tiempo?",
+      "¿Practicaron alguna vez deporte? ¿En qué disciplina y cuánto tiempo?",
       "¿Qué creen que le da a un deportista la fuerza para perseverar? Expliquen su respuesta.",
       "¿Qué deportista israelí recuerdan y por qué?"
      ]
     }
+   },
+   "audioTr": {
+    "en": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "ru": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "es": [
+     "easy",
+     "medium",
+     "hard"
+    ]
    }
   },
   {
@@ -401,6 +435,23 @@
       ]
      }
     }
+   },
+   "audioTr": {
+    "en": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "ru": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "es": [
+     "easy",
+     "medium",
+     "hard"
+    ]
    }
   },
   {
@@ -470,7 +521,7 @@
       ]
      },
      "questions": [
-      "Which season of the year is your favorite? Tell us.",
+      "Which season of the year is your favorite? Tell us about it.",
       "Do you think it is too hot for the season? Explain.",
       "What do you like to do on a pleasant day at the end of November?"
      ]
@@ -499,7 +550,7 @@
      },
      "questions": [
       "Какое время года вы любите? Расскажите.",
-      "По вашему мнению, стоит ли слишком жаркая погода для этого сезона? Обоснуйте.",
+      "По вашему мнению, сейчас слишком жарко для этого сезона? Обоснуйте.",
       "Что вы любите делать в приятный день в конце ноября?"
      ]
     },
@@ -526,11 +577,28 @@
       ]
      },
      "questions": [
-      "¿Cuál estación del año es su favorita? Cuéntennos.",
+      "¿Cuál es su estación del año favorita? Cuéntennos.",
       "¿Creen que hace demasiado calor para la temporada? Expliquen su respuesta.",
       "¿Qué les gusta hacer en un día agradable a finales de noviembre?"
      ]
     }
+   },
+   "audioTr": {
+    "en": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "ru": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "es": [
+     "easy",
+     "medium",
+     "hard"
+    ]
    }
   },
   {
@@ -600,9 +668,9 @@
       ]
      },
      "questions": [
-      "Do you remember who was the Speaker of the Knesset when you were young?",
+      "Do you remember who served as the Speaker of the Knesset when you were young?",
       "In your opinion, what should the role of the Speaker of the Knesset be? Explain.",
-      "What would you like to ask him if you met him?"
+      "What would you like to ask him if you were to meet him?"
      ]
     },
     "ru": {
@@ -629,7 +697,7 @@
      },
      "questions": [
       "Вы помните, кто был председателем Кнессета, когда вы были молоды?",
-      "По вашему мнению, какова должна быть роль председателя Кнессета? Обоснуйте.",
+      "Каким, по вашему мнению, должно быть роли председателя Кнессета? Обоснуйте.",
       "Что бы вы хотели спросить у него, если бы встретили его?"
      ]
     },
@@ -657,10 +725,27 @@
      },
      "questions": [
       "¿Recuerdan quién era el presidente de la Knéset cuando eran jóvenes?",
-      "¿En su opinión, cuál debe ser el papel del presidente de la Knéset? Expliquen su respuesta.",
-      "¿Qué le gustaría preguntar si lo conocieran?"
+      "En su opinión, ¿cuál debe ser el papel del presidente de la Knéset? Expliquen su respuesta.",
+      "¿Qué les gustaría preguntarle si lo conocieran?"
      ]
     }
+   },
+   "audioTr": {
+    "en": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "ru": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "es": [
+     "easy",
+     "medium",
+     "hard"
+    ]
    }
   },
   {
@@ -730,8 +815,8 @@
       ]
      },
      "questions": [
-      "Do you tend to follow Knesset news?",
-      "How do you think one can converse respectfully when there is a disagreement? Explain.",
+      "Do you make a habit of following Knesset news?",
+      "How do you think it is possible to converse respectfully when there is a disagreement? Explain.",
       "Which politician's speech has stayed in your memory?"
      ]
     },
@@ -758,8 +843,8 @@
       ]
      },
      "questions": [
-      "Вы следите за новостями Кнессета?",
-      "Как, по вашему мнению, можно разговаривать с уважением, когда есть разногласия? Обоснуйте.",
+      "Вы привыкли следить за новостями Кнессета?",
+      "Как вы думаете, как можно разговаривать с уважением, когда есть разногласия? Обоснуйте.",
       "Какая речь политика осталась у вас в памяти?"
      ]
     },
@@ -791,6 +876,23 @@
       "¿Qué discurso de un político les ha quedado en la memoria?"
      ]
     }
+   },
+   "audioTr": {
+    "en": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "ru": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "es": [
+     "easy",
+     "medium",
+     "hard"
+    ]
    }
   },
   {
@@ -862,7 +964,7 @@
      "questions": [
       "Have you ever visited a distant country? What do you remember from there?",
       "What do you think is important when leaders meet? Explain.",
-      "Which visit of a foreign leader to the country do you remember?"
+      "Which visit by a foreign leader to the country do you remember?"
      ]
     },
     "ru": {
@@ -889,7 +991,7 @@
      },
      "questions": [
       "Вы бывали когда-нибудь в далекой стране? Что вам оттуда запомнилось?",
-      "Что, по вашему мнению, важно, когда встречаются лидеры? Обоснуйте.",
+      "Что, по вашему мнению, важно, когда лидеры встречаются? Обоснуйте.",
       "Какой визит иностранного лидера в страну вам запомнился?"
      ]
     },
@@ -916,11 +1018,28 @@
       ]
      },
      "questions": [
-      "¿Alguna vez visitaron un país lejano? ¿Qué recuerdan de allí?",
-      "¿Qué consideran importante cuando los líderes se reúnen? Expliquen su respuesta.",
+      "¿Alguna vez visitaron un país lejanos? ¿Qué recuerdan de allí?",
+      "¿Qué creen que es importante cuando los líderes se reúnen? Expliquen su respuesta.",
       "¿Qué visita de un líder extranjero al país recuerdan?"
      ]
     }
+   },
+   "audioTr": {
+    "en": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "ru": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "es": [
+     "easy",
+     "medium",
+     "hard"
+    ]
    }
   },
   {
@@ -1051,6 +1170,23 @@
       ]
      }
     }
+   },
+   "audioTr": {
+    "en": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "ru": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "es": [
+     "easy",
+     "medium",
+     "hard"
+    ]
    }
   },
   {
@@ -1120,9 +1256,9 @@
       ]
      },
      "questions": [
-      "Do you support a football team? Which one?",
+      "Do you support a soccer team? Which one?",
       "What do you think a good coach needs in order to succeed? Explain.",
-      "Which football match do you especially remember?"
+      "Which soccer match do you remember particularly well?"
      ]
     },
     "ru": {
@@ -1181,6 +1317,23 @@
       "¿Qué partido de fútbol recuerdan especialmente?"
      ]
     }
+   },
+   "audioTr": {
+    "en": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "ru": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "es": [
+     "easy",
+     "medium",
+     "hard"
+    ]
    }
   },
   {
@@ -1250,8 +1403,8 @@
       ]
      },
      "questions": [
-      "Do you make sure to have routine health check-ups? Tell us.",
-      "What do you think is important in order to encourage people to get checked? Explain.",
+      "Do you make sure to undergo routine health check-ups? Tell us about it.",
+      "What do you think is important in order to encourage people to get tested? Explain.",
       "Which medical advancement impressed you in your lifetime?"
      ]
     },
@@ -1278,7 +1431,7 @@
       ]
      },
      "questions": [
-      "Вы следите за плановыми медицинскими проверками? Расскажите.",
+      "Вы следите за регулярными медицинскими проверками? Расскажите.",
       "Что, по вашему мнению, важно, чтобы поощрять людей проходить проверки? Обоснуйте.",
       "Какой прогресс в медицине впечатлил вас в вашей жизни?"
      ]
@@ -1307,10 +1460,26 @@
      },
      "questions": [
       "¿Se cuidan de hacer revisiones médicas rutinarias? Cuéntennos.",
-      "¿Qué consideran importante para animar a la gente a hacerse revisiones? Expliquen su respuesta.",
+      "¿Qué creen que es importante para animar a la gente a hacerse revisiones? Expliquen su respuesta.",
       "¿Qué avance en la medicina les impresionó en su vida?"
      ]
     }
+   },
+   "audioTr": {
+    "en": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "ru": [
+     "easy",
+     "medium"
+    ],
+    "es": [
+     "easy",
+     "medium",
+     "hard"
+    ]
    }
   },
   {
@@ -1384,7 +1553,7 @@
       ]
      },
      "questions": [
-      "Have you ever encountered a malfunction in an app or on the phone? What did you do?",
+      "Have you ever encountered a malfunction in an app or on your phone? What did you do?",
       "What do you think is important to do when an app stops working? Explain.",
       "Which digital service do you use the most?"
      ]
@@ -1412,7 +1581,7 @@
       ]
      },
      "questions": [
-      "Вы сталкивались когда-нибудь со сбоем в приложении или в телефоне? Что вы сделали?",
+      "Вы сталкивались когда-нибудь с неполадкой в приложении или в телефоне? Что вы сделали?",
       "Что, по вашему мнению, важно делать, когда приложение перестает работать? Обоснуйте.",
       "Каким цифровым сервисом вы пользуетесь больше всего?"
      ]
@@ -1440,11 +1609,28 @@
       ]
      },
      "questions": [
-      "¿Alguna vez se encontraron con un fallo en una aplicación o en el teléfono? ¿Qué hicieron?",
+      "¿Se han encontrado alguna vez con un fallo en una aplicación o en el teléfono? ¿Qué hicieron?",
       "¿Qué creen que es importante hacer cuando una aplicación deja de funcionar? Expliquen su respuesta.",
       "¿Qué servicio digital usan más?"
      ]
     }
+   },
+   "audioTr": {
+    "en": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "ru": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "es": [
+     "easy",
+     "medium",
+     "hard"
+    ]
    }
   },
   {
@@ -1515,7 +1701,7 @@
      },
      "questions": [
       "Which historical or sporting event do you remember from your days?",
-      "What do you think makes a speech memorable for years? Explain.",
+      "What do you think makes a speech memorable for years to come? Explain.",
       "Who was your favorite athlete in your youth?"
      ]
     },
@@ -1542,7 +1728,7 @@
       ]
      },
      "questions": [
-      "Какое историческое или спортивное событие вы помните из своих дней?",
+      "Какое историческое или спортивное событие вы помните со своих дней?",
       "Что, по вашему мнению, делает речь запоминающейся на долгие годы? Обоснуйте.",
       "Кто был вашим любимым спортсменом в молодости?"
      ]
@@ -1575,6 +1761,23 @@
       "¿Quién era su deportista favorito en su juventud?"
      ]
     }
+   },
+   "audioTr": {
+    "en": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "ru": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "es": [
+     "easy",
+     "medium",
+     "hard"
+    ]
    }
   },
   {
@@ -1649,9 +1852,9 @@
       ]
      },
      "questions": [
-      "Which strategy game do you like, chess, backgammon or another?",
+      "What strategy game do you like, chess, backgammon, or another?",
       "Do you remember how you received news from the world in your youth?",
-      "What do you think it takes to establish something completely new? Explain."
+      "What do you think is needed to build something completely new? Explain."
      ]
     },
     "ru": {
@@ -1677,7 +1880,7 @@
       ]
      },
      "questions": [
-      "Какую игру на мышление вы любите — шахматы, нарды или другую?",
+      "Какую игру на мышление вы любите: шахматы, нарды или другую?",
       "Вы помните, как в молодости получали новости из мира?",
       "Что, по вашему мнению, нужно, чтобы создать что-то совершенно новое? Обоснуйте."
      ]
@@ -1706,10 +1909,27 @@
      },
      "questions": [
       "¿Qué juego de estrategia les gusta, ajedrez, backgammon u otro?",
-      "¿Recuerdan cómo recibían noticias del mundo en su juventud?",
-      "¿Qué se necesita para crear algo completamente nuevo? Expliquen su respuesta."
+      "¿Recuerdan cómo recibían las noticias del mundo en su juventud?",
+      "¿Qué creen que se necesita para fundar algo completamente nuevo? Expliquen su respuesta."
      ]
     }
+   },
+   "audioTr": {
+    "en": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "ru": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "es": [
+     "easy",
+     "medium",
+     "hard"
+    ]
    }
   },
   {
@@ -1836,10 +2056,27 @@
      },
      "questions": [
       "¿Alguna vez volaron en un vuelo que se retrasó? Cuéntennos cómo fue.",
-      "¿Qué creen que es importante hacer para que el equipo viejo no se estropee? Expliquen su respuesta.",
+      "¿Qué creen que es importante hacer para que los equipos viejos no se estropeen? Expliquen su respuesta.",
       "¿Qué medio de transporte les gusta más y por qué?"
      ]
     }
+   },
+   "audioTr": {
+    "en": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "ru": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "es": [
+     "easy",
+     "medium",
+     "hard"
+    ]
    }
   },
   {
@@ -1913,7 +2150,7 @@
       ]
      },
      "questions": [
-      "Have you ever visited the Knesset, or seen it on television? Tell us.",
+      "Have you ever visited the Knesset, or seen it on television? Tell us about it.",
       "What do you think is important for the Speaker of the Knesset to have? Explain.",
       "Which important vote do you remember from the past?"
      ]
@@ -1942,7 +2179,7 @@
      },
      "questions": [
       "Вы бывали когда-нибудь в Кнессете или видели его по телевизору? Расскажите.",
-      "Что, по вашему мнению, должно быть у председателя Кнессета? Обоснуйте.",
+      "Что, по вашему мнению, важно иметь председателю Кнессета? Обоснуйте.",
       "Какое важное голосование вам запомнилось из прошлого?"
      ]
     },
@@ -1974,6 +2211,23 @@
       "¿Qué votación importante recuerdan del pasado?"
      ]
     }
+   },
+   "audioTr": {
+    "en": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "ru": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "es": [
+     "easy",
+     "medium",
+     "hard"
+    ]
    }
   },
   {
@@ -2045,7 +2299,7 @@
      "questions": [
       "What kind of weather do you like the most, and why?",
       "What do you remember from the first rain of winter when you were young?",
-      "What do you think should be worn on such a day? Explain."
+      "What do you think is best to wear on such a day? Explain."
      ]
     },
     "ru": {
@@ -2073,7 +2327,7 @@
      "questions": [
       "Какую погоду вы больше всего любите и почему?",
       "Что вы помните о первом зимнем дожде, когда вы были молоды?",
-      "Что, по вашему мнению, стоит надеть в такой день? Объясните."
+      "Что, по вашему мнению, стоит надеть в такой день? Обоснуйте."
      ]
     },
     "es": {
@@ -2099,11 +2353,28 @@
       ]
      },
      "questions": [
-      "¿Qué clima les gusta más y por qué?",
+      "¿Qué tiempo les gusta más y por qué?",
       "¿Qué recuerdan de la primera lluvia del invierno cuando eran jóvenes?",
       "¿Qué creen que vale la pena vestir en un día así? Expliquen su respuesta."
      ]
     }
+   },
+   "audioTr": {
+    "en": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "ru": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "es": [
+     "easy",
+     "medium",
+     "hard"
+    ]
    }
   },
   {
@@ -2174,7 +2445,7 @@
      },
      "questions": [
       "Have you ever traveled by train? Where and when?",
-      "What do you remember from a train ride in your childhood?",
+      "What do you remember about train travel in your childhood?",
       "What do you think is an advantage of a train over a bus? Explain."
      ]
     },
@@ -2203,7 +2474,7 @@
      "questions": [
       "Вы когда-нибудь ездили на поезде? Куда и когда?",
       "Что вы помните о поездке на поезде в вашем детстве?",
-      "В чем, по вашему мнению, преимущество поезда перед автобусом? Объясните."
+      "Каково, по вашему мнению, преимущество поезда перед автобусом? Обоснуйте."
      ]
     },
     "es": {
@@ -2234,6 +2505,23 @@
       "¿Cuál creen que es la ventaja de un tren sobre un autobús? Expliquen su respuesta."
      ]
     }
+   },
+   "audioTr": {
+    "en": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "ru": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "es": [
+     "easy",
+     "medium",
+     "hard"
+    ]
    }
   },
   {
@@ -2304,7 +2592,7 @@
      },
      "questions": [
       "What big movie do you remember from your youth, and where did you see it?",
-      "What do you remember about cinema in your childhood?",
+      "What do you remember about the cinema in your childhood?",
       "What do you think makes a movie famous for years? Explain."
      ]
     },
@@ -2331,9 +2619,9 @@
       ]
      },
      "questions": [
-      "Какой великий фильм вы помните с молодости и где вы его видели?",
+      "Какой великий фильм вы помните из молодости и где вы его видели?",
       "Что вы помните о кино в вашем детстве?",
-      "Что, по вашему мнению, делает фильм знаменитым на протяжении многих лет? Объясните."
+      "Что, по вашему мнению, делает фильм знаменитым на долгие годы? Обоснуйте."
      ]
     },
     "es": {
@@ -2364,6 +2652,22 @@
       "¿Qué creen que hace que una película sea famosa a lo largo de los años? Expliquen su respuesta."
      ]
     }
+   },
+   "audioTr": {
+    "en": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "ru": [
+     "easy",
+     "hard"
+    ],
+    "es": [
+     "easy",
+     "medium",
+     "hard"
+    ]
    }
   },
   {
@@ -2498,6 +2802,23 @@
       ]
      }
     }
+   },
+   "audioTr": {
+    "en": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "ru": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "es": [
+     "easy",
+     "medium",
+     "hard"
+    ]
    }
   },
   {
@@ -2569,7 +2890,7 @@
      "questions": [
       "Have you ever gone on a trip or camping? Tell us how it was.",
       "What do you think is important to take with us on a trip in nature? Explain.",
-      "What memory do you have of a trip with family or friends?"
+      "What memory do you have from a trip with family or friends?"
      ]
     },
     "ru": {
@@ -2595,9 +2916,9 @@
       ]
      },
      "questions": [
-      "Вы когда-нибудь ездили на экскурсию или в кемпинг? Расскажите, как это было.",
-      "Что, по вашему мнению, важно взять с собой на прогулку на природу? Объясните.",
-      "Какое у вас есть воспоминание о поездке с семьей или друзьями?"
+      "Вы когда-нибудь отправлялись в поход или на кемпинг? Расскажите, как это было.",
+      "Что, по вашему мнению, важно взять с собой в поездку на природу? Обоснуйте.",
+      "Какое у вас воспоминание о поездке с семьей или друзьями?"
      ]
     },
     "es": {
@@ -2623,11 +2944,28 @@
       ]
      },
      "questions": [
-      "¿Han salido alguna vez de excursión o de campamento? Cuéntennos cómo fue.",
-      "¿Qué creen que es importante llevar con nosotros a una excursión por la naturaleza? Expliquen su respuesta.",
+      "¿Han salido alguna vez de excursión o de campamento? Cuéntennos cómo estuvo.",
+      "¿Qué creen que es importante llevar con nosotros a una excursión en la naturaleza? Expliquen su respuesta.",
       "¿Qué recuerdo tienen de un viaje con la familia o los amigos?"
      ]
     }
+   },
+   "audioTr": {
+    "en": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "ru": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "es": [
+     "easy",
+     "medium",
+     "hard"
+    ]
    }
   },
   {
@@ -2698,8 +3036,8 @@
      },
      "questions": [
       "Do you follow legal news? What do you like to read in the newspaper?",
-      "What memory do you have of visiting a court or from an old law newspaper?",
-      "In your opinion, why is it important for all sides to present their position in court? Explain."
+      "What memory do you have of visiting a court or an old legal newspaper?",
+      "In your opinion, why is it important for all parties to present their position in court? Explain."
      ]
     },
     "ru": {
@@ -2726,8 +3064,8 @@
      },
      "questions": [
       "Вы следите за судебными новостями? Что вы любите читать в газете?",
-      "Какое у вас есть воспоминание о посещении суда или о старой юридической газете?",
-      "Как вы думаете, почему важно, чтобы все стороны изложили свою позицию в суде? Объясните."
+      "Какое у вас воспоминание о посещении суда или о старой судебной газете?",
+      "Как вы думаете, почему важно, чтобы все стороны представили свою позицию в суде? Обоснуйте."
      ]
     },
     "es": {
@@ -2758,6 +3096,23 @@
       "En su opinión, ¿por qué es importante que todas las partes presenten su postura en el tribunal? Expliquen su respuesta."
      ]
     }
+   },
+   "audioTr": {
+    "en": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "ru": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "es": [
+     "easy",
+     "medium",
+     "hard"
+    ]
    }
   },
   {
@@ -2832,8 +3187,8 @@
      },
      "questions": [
       "How do you feel when you have to wait a long time for a doctor's appointment? Tell us.",
-      "What memory do you have of a hospital or a health maintenance organization in your youth?",
-      "In your opinion, what is important for a manager of a public body to know? Explain."
+      "What memory do you have of a hospital or a health clinic in your youth?",
+      "In your opinion, what is important for the manager of a public body to know? Explain."
      ]
     },
     "ru": {
@@ -2860,8 +3215,8 @@
      },
      "questions": [
       "Что вы чувствуете, когда приходится долго ждать приема у врача? Расскажите.",
-      "Какое у вас есть воспоминание о больнице или больничной кассе в вашей молодости?",
-      "Как вы думаете, что важно знать руководителю общественного органа? Объясните."
+      "Какое у вас воспоминание о больнице или поликлинике в вашей молодости?",
+      "Как вы думаете, что важно знать руководителю общественного органа? Обоснуйте."
      ]
     },
     "es": {
@@ -2888,10 +3243,27 @@
      },
      "questions": [
       "¿Cómo se sienten cuando hay que esperar mucho tiempo para una cita médica? Cuéntennos.",
-      "¿Qué recuerdo tienen de un hospital o de una clínica médica en su juventud?",
+      "¿Qué recuerdo tienen de un hospital o de una caja de salud en su juventud?",
       "En su opinión, ¿qué es importante que sepa el director de un organismo público? Expliquen su respuesta."
      ]
     }
+   },
+   "audioTr": {
+    "en": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "ru": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "es": [
+     "easy",
+     "medium",
+     "hard"
+    ]
    }
   },
   {
@@ -3022,6 +3394,22 @@
       ]
      }
     }
+   },
+   "audioTr": {
+    "en": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "ru": [
+     "medium",
+     "hard"
+    ],
+    "es": [
+     "easy",
+     "medium",
+     "hard"
+    ]
    }
   },
   {
@@ -3100,7 +3488,7 @@
      },
      "questions": [
       "What historical event do you remember from your childhood? Tell us.",
-      "Would you want to fly into space or sail in a large canal? Why?",
+      "Would you want to fly into space or sail through a large canal? Why?",
       "In your opinion, which invention changed daily life the most? Explain."
      ]
     },
@@ -3129,7 +3517,7 @@
      "questions": [
       "Какое историческое событие вы помните из своего детства? Расскажите.",
       "Хотели бы вы полететь в космос или поплавать по большому каналу? Почему?",
-      "Какое изобретение, по вашему мнению, больше всего изменило повседневную жизнь? Объясните."
+      "Какое изобретение, по вашему мнению, больше всего изменило повседневную жизнь? Обоснуйте."
      ]
     },
     "es": {
@@ -3155,11 +3543,28 @@
       ]
      },
      "questions": [
-      "¿Qué acontecimiento histórico recuerdan de su infancia? Cuéntennos.",
-      "¿Les gustaría volar al espacio o navegar por un gran canal? ¿Por qué?",
+      "¿Qué evento histórico recuerdan de su infancia? Cuéntennos.",
+      "¿Les gustaría volar al espacio o navegar por un canal grande? ¿Por qué?",
       "En su opinión, ¿qué invento cambió más la vida cotidiana? Expliquen su respuesta."
      ]
     }
+   },
+   "audioTr": {
+    "en": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "ru": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "es": [
+     "easy",
+     "medium",
+     "hard"
+    ]
    }
   },
   {
@@ -3239,7 +3644,7 @@
      "questions": [
       "What movie or director did you love in your youth?",
       "Did you ever have a motorcycle, scooter, or bicycle? Tell us.",
-      "In your opinion, what causes a person to start their own company? Explain."
+      "In your opinion, what causes a person to establish their own company? Explain."
      ]
     },
     "ru": {
@@ -3267,7 +3672,7 @@
      "questions": [
       "Какой фильм или какого режиссера вы любили в молодости?",
       "Были ли у вас когда-нибудь мотоцикл, скутер или велосипед? Расскажите.",
-      "Что, по вашему мнению, заставляет человека создать собственную компанию? Объясните."
+      "Что, по вашему мнению, побуждает человека основать собственную компанию? Обоснуйте."
      ]
     },
     "es": {
@@ -3295,9 +3700,26 @@
      "questions": [
       "¿Qué película o director les gustaba en su juventud?",
       "¿Tuvieron alguna vez una motocicleta, un motocarro o una bicicleta? Cuéntennos.",
-      "En su opinión, ¿qué lleva a una persona a fundar su propia empresa? Expliquen su respuesta."
+      "En su opinión, ¿qué hace que una persona funde su propia empresa? Expliquen su respuesta."
      ]
     }
+   },
+   "audioTr": {
+    "en": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "ru": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "es": [
+     "easy",
+     "medium",
+     "hard"
+    ]
    }
   },
   {
@@ -3367,7 +3789,7 @@
       ]
      },
      "questions": [
-      "What book did you particularly love in your life? Tell us about it.",
+      "Which book did you particularly love in your life? Tell us about it.",
       "What memory do you have of a library or a bookstore?",
       "In your opinion, what makes a good book stay in the heart for many years? Explain."
      ]
@@ -3396,8 +3818,8 @@
      },
      "questions": [
       "Какую книгу вы особенно любили в своей жизни? Расскажите о ней.",
-      "Какое у вас есть воспоминание о библиотеке или книжном магазине?",
-      "Что, по вашему мнению, заставляет хорошую книгу оставаться в сердце долгие годы? Объясните."
+      "Какое у вас воспоминание о библиотеке или книжном магазине?",
+      "Что, по вашему мнению, заставляет хорошую книгу оставаться в сердце долгие годы? Обоснуйте."
      ]
     },
     "es": {
@@ -3428,6 +3850,23 @@
       "En su opinión, ¿qué hace que un buen libro permanezca en el corazón durante muchos años? Expliquen su respuesta."
      ]
     }
+   },
+   "audioTr": {
+    "en": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "ru": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "es": [
+     "easy",
+     "medium",
+     "hard"
+    ]
    }
   },
   {
@@ -3558,6 +3997,23 @@
       ]
      }
     }
+   },
+   "audioTr": {
+    "en": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "ru": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "es": [
+     "easy",
+     "medium",
+     "hard"
+    ]
    }
   },
   {
@@ -3688,6 +4144,22 @@
       ]
      }
     }
+   },
+   "audioTr": {
+    "en": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "ru": [
+     "easy",
+     "medium"
+    ],
+    "es": [
+     "easy",
+     "medium",
+     "hard"
+    ]
    }
   },
   {
@@ -3818,6 +4290,23 @@
       ]
      }
     }
+   },
+   "audioTr": {
+    "en": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "ru": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "es": [
+     "easy",
+     "medium",
+     "hard"
+    ]
    }
   },
   {
@@ -3953,6 +4442,23 @@
       ]
      }
     }
+   },
+   "audioTr": {
+    "en": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "ru": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "es": [
+     "easy",
+     "medium",
+     "hard"
+    ]
    }
   },
   {
@@ -4083,6 +4589,23 @@
       ]
      }
     }
+   },
+   "audioTr": {
+    "en": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "ru": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "es": [
+     "easy",
+     "medium",
+     "hard"
+    ]
    }
   },
   {
@@ -4213,6 +4736,22 @@
       ]
      }
     }
+   },
+   "audioTr": {
+    "en": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "ru": [
+     "easy",
+     "hard"
+    ],
+    "es": [
+     "easy",
+     "medium",
+     "hard"
+    ]
    }
   },
   {
@@ -4343,6 +4882,23 @@
       ]
      }
     }
+   },
+   "audioTr": {
+    "en": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "ru": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "es": [
+     "easy",
+     "medium",
+     "hard"
+    ]
    }
   },
   {
@@ -4409,6 +4965,22 @@
       "¿Qué le preguntaría a un nuevo primer ministro si lo conociera?"
      ]
     }
+   },
+   "audioTr": {
+    "en": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "ru": [
+     "easy",
+     "medium"
+    ],
+    "es": [
+     "easy",
+     "medium",
+     "hard"
+    ]
    }
   },
   {
@@ -4471,6 +5043,23 @@
       "¿Por qué es importante tener una fecha límite en procesos importantes?"
      ]
     }
+   },
+   "audioTr": {
+    "en": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "ru": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "es": [
+     "easy",
+     "medium",
+     "hard"
+    ]
    }
   },
   {
@@ -4537,6 +5126,23 @@
       "En su opinión, ¿cómo se puede facilitar que los jóvenes encuentren un apartamento?"
      ]
     }
+   },
+   "audioTr": {
+    "en": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "ru": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "es": [
+     "easy",
+     "medium",
+     "hard"
+    ]
    }
   },
   {
@@ -4604,6 +5210,22 @@
       "¿Qué crees que dice la historia sobre la paciencia?"
      ]
     }
+   },
+   "audioTr": {
+    "en": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "ru": [
+     "easy",
+     "medium"
+    ],
+    "es": [
+     "easy",
+     "medium",
+     "hard"
+    ]
    }
   },
   {
@@ -4666,7 +5288,23 @@
     "easy",
     "medium",
     "hard"
-   ]
+   ],
+   "audioTr": {
+    "en": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "ru": [
+     "easy",
+     "hard"
+    ],
+    "es": [
+     "easy",
+     "medium",
+     "hard"
+    ]
+   }
   },
   {
    "id": "2026-11-13-israel-2",
@@ -4728,7 +5366,24 @@
     "easy",
     "medium",
     "hard"
-   ]
+   ],
+   "audioTr": {
+    "en": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "ru": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "es": [
+     "easy",
+     "medium",
+     "hard"
+    ]
+   }
   },
   {
    "id": "2026-11-13-world-1",
@@ -4790,7 +5445,24 @@
     "easy",
     "medium",
     "hard"
-   ]
+   ],
+   "audioTr": {
+    "en": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "ru": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "es": [
+     "easy",
+     "medium",
+     "hard"
+    ]
+   }
   },
   {
    "id": "2026-11-13-weather-1",
@@ -4856,7 +5528,24 @@
     "easy",
     "medium",
     "hard"
-   ]
+   ],
+   "audioTr": {
+    "en": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "ru": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "es": [
+     "easy",
+     "medium",
+     "hard"
+    ]
+   }
   },
   {
    "id": "2026-11-13-onthisday-1",
@@ -4922,7 +5611,24 @@
     "easy",
     "medium",
     "hard"
-   ]
+   ],
+   "audioTr": {
+    "en": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "ru": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "es": [
+     "easy",
+     "medium",
+     "hard"
+    ]
+   }
   },
   {
    "id": "2026-11-13-birthdays-1",
@@ -4993,7 +5699,24 @@
     "easy",
     "medium",
     "hard"
-   ]
+   ],
+   "audioTr": {
+    "en": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "ru": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "es": [
+     "easy",
+     "medium",
+     "hard"
+    ]
+   }
   },
   {
    "id": "2026-11-12-israel-1",
@@ -5059,7 +5782,24 @@
     "easy",
     "medium",
     "hard"
-   ]
+   ],
+   "audioTr": {
+    "en": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "ru": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "es": [
+     "easy",
+     "medium",
+     "hard"
+    ]
+   }
   },
   {
    "id": "2026-11-12-israel-2",
@@ -5121,7 +5861,24 @@
     "easy",
     "medium",
     "hard"
-   ]
+   ],
+   "audioTr": {
+    "en": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "ru": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "es": [
+     "easy",
+     "medium",
+     "hard"
+    ]
+   }
   },
   {
    "id": "2026-11-12-world-1",
@@ -5183,7 +5940,22 @@
     "easy",
     "medium",
     "hard"
-   ]
+   ],
+   "audioTr": {
+    "en": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "ru": [
+     "hard"
+    ],
+    "es": [
+     "easy",
+     "medium",
+     "hard"
+    ]
+   }
   },
   {
    "id": "2026-11-12-weather-1",
@@ -5249,7 +6021,23 @@
     "easy",
     "medium",
     "hard"
-   ]
+   ],
+   "audioTr": {
+    "en": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "ru": [
+     "medium",
+     "hard"
+    ],
+    "es": [
+     "easy",
+     "medium",
+     "hard"
+    ]
+   }
   },
   {
    "id": "2026-11-12-onthisday-1",
@@ -5311,7 +6099,24 @@
     "easy",
     "medium",
     "hard"
-   ]
+   ],
+   "audioTr": {
+    "en": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "ru": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "es": [
+     "easy",
+     "medium",
+     "hard"
+    ]
+   }
   },
   {
    "id": "2026-11-12-birthdays-1",
@@ -5381,7 +6186,24 @@
     "easy",
     "medium",
     "hard"
-   ]
+   ],
+   "audioTr": {
+    "en": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "ru": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "es": [
+     "easy",
+     "medium",
+     "hard"
+    ]
+   }
   },
   {
    "id": "2026-11-12-health-1",
@@ -5443,7 +6265,24 @@
     "easy",
     "medium",
     "hard"
-   ]
+   ],
+   "audioTr": {
+    "en": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "ru": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "es": [
+     "easy",
+     "medium",
+     "hard"
+    ]
+   }
   },
   {
    "id": "2026-11-12-science-1",
@@ -5505,7 +6344,18 @@
     "easy",
     "medium",
     "hard"
-   ]
+   ],
+   "audioTr": {
+    "en": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "ru": [
+     "easy",
+     "medium"
+    ]
+   }
   },
   {
    "id": "2026-11-12-sport-1",
