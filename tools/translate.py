@@ -42,15 +42,19 @@ def g_post(text, lang):
         raise RuntimeError("empty")
     return out
 
+GOOG_FAILS = [0]
 def g_retry(text, lang):
+    if GOOG_FAILS[0] >= 2:
+        raise RuntimeError("Google חסום (429) — לא מנסה שוב בריצה הזו")
     err = None
     for w in [0] + WAITS:
         if time.time() > DEADLINE[0]: raise TimeoutError("נגמרה תקרת הזמן")
         if w: time.sleep(w)
         try:
-            out = g_post(text, lang); time.sleep(PAUSE); return out
+            out = g_post(text, lang); time.sleep(PAUSE); GOOG_FAILS[0] = 0; return out
         except Exception as e:
             err = e
+    GOOG_FAILS[0] += 1
     raise err
 
 HEB = re.compile(r"[\u0590-\u05ff]")
@@ -154,6 +158,9 @@ def gem_request(model, prompt):
             if e.code in (400, 401, 403):
                 raise GemFatal(f"HTTP {e.code}: {msg!r}")
             if e.code not in (429, 500, 502, 503, 504):
+                GEM_FAILS[0] += 1
+                if GEM_FAILS[0] >= MAX_FAILS * len(MODELS):
+                    raise GemFatal(f"HTTP {e.code} חוזר שוב ושוב: {msg!r} — מפסיק להשתמש ב-Gemini בריצה הזו")
                 raise RuntimeError(f"HTTP {e.code}: {msg!r}")
             print(f"  Gemini {model}: HTTP {e.code} (ניסיון חוזר)")
             last = e
@@ -211,7 +218,7 @@ def gem_try(segs, lang):
         except GemFatal:
             raise
         except Exception as e:
-            print(f"  Gemini {model} נכשל ({type(e).__name__}) — עובר למודל הבא")
+            print(f"  Gemini {model} נכשל ({type(e).__name__}: {str(e)[:300]}) — עובר למודל הבא")
             continue
         return gem_validate(raw, segs)
     return None
@@ -235,6 +242,26 @@ def translate_batch(segs, lang):
     STATS["google"] += len(segs)
     return google_batch(segs, lang)
 
+def gemini_check():
+    """בדיקה מהירה: בקשת תרגום קטנה לכל מודל; מדפיסה קוד שגיאה והודעה (בלי המפתח)."""
+    if not KEY:
+        print("אין GEMINI_API_KEY"); return 2
+    bad = 0
+    for model in MODELS:
+        body = json.dumps({"contents": [{"parts": [{"text": 'Translate to English, return JSON {"t": "..."}: שלום, מה שלומכם היום?'}]}],
+                           "generationConfig": {"temperature": 0.2, "responseMimeType": "application/json", "maxOutputTokens": 200}}).encode()
+        try:
+            req = urllib.request.Request(GURL.format(model), data=body, headers={"x-goog-api-key": KEY, "Content-Type": "application/json"})
+            with urllib.request.urlopen(req, timeout=60) as r:
+                j = json.loads(r.read().decode("utf-8"))
+            print(f"{model}: OK — {j['candidates'][0]['content']['parts'][0]['text'][:120]!r}")
+        except urllib.error.HTTPError as e:
+            bad += 1; print(f"{model}: HTTP {e.code} — {e.read()[:500]!r}")
+        except Exception as e:
+            bad += 1; print(f"{model}: {type(e).__name__}: {e}")
+        time.sleep(3)
+    return 1 if bad else 0
+
 def make_batches(segs):
     batches, cur, n = [], [], 0
     for s in segs:
@@ -252,7 +279,10 @@ def main():
     ap.add_argument("--levels", default="easy,medium,hard")
     ap.add_argument("--budget-min", type=float, default=float(os.environ.get("TRANSLATE_BUDGET_MIN", "50")),
                     help="תקרת זמן בדקות: אחריה עוצרים, שומרים מה שתורגם ומסיימים בקוד שגיאה (כדי שה-commit ירוץ)")
+    ap.add_argument("--check", action="store_true", help="בדיקת חיבור ל-Gemini בלבד (בקשה קטנה לכל מודל), בלי לגעת בידיעות")
     a = ap.parse_args()
+    if a.check:
+        return gemini_check()
     langs = [l for l in a.langs.split(",") if l]
     levels = [l for l in a.levels.split(",") if l]
 
