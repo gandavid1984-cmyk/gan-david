@@ -245,6 +245,56 @@ def translate_batch(segs, lang):
     STATS["google"] += len(segs)
     return google_batch(segs, lang)
 
+def gem_list():
+    """רשימת המודלים שהמפתח רואה (שם בלבד). הרשימה לא מבטיחה שהמודל עובד — לכן בודקים בפועל."""
+    req = urllib.request.Request("https://generativelanguage.googleapis.com/v1beta/models?pageSize=200", headers={"x-goog-api-key": KEY})
+    with urllib.request.urlopen(req, timeout=60) as r:
+        j = json.loads(r.read().decode("utf-8"))
+    return [m["name"].split("/")[-1] for m in j.get("models", []) if "generateContent" in m.get("supportedGenerationMethods", [])]
+
+STABLE = re.compile(r"^gemini-(\d+(?:\.\d+)?)-flash(-lite)?$")   # יציבים בלבד: בלי preview/image/tts/latest
+
+def gem_probe(model):
+    """בקשה אמיתית וקטנה. מחזיר 'ok' | 'busy' (503/429 — קיים אבל עמוס) | 'dead' (404/לא זמין)."""
+    body = json.dumps({"contents": [{"parts": [{"text": 'Translate to English, return JSON {"t": "..."}: שלום'}]}],
+                       "generationConfig": {"temperature": 0.2, "responseMimeType": "application/json", "maxOutputTokens": 100}}).encode()
+    try:
+        req = urllib.request.Request(GURL.format(model), data=body, headers={"x-goog-api-key": KEY, "Content-Type": "application/json"})
+        with urllib.request.urlopen(req, timeout=60) as r:
+            json.loads(r.read().decode("utf-8"))
+        return "ok"
+    except urllib.error.HTTPError as e:
+        if e.code in (429, 500, 502, 503, 504): return "busy"
+        print(f"  בדיקת {model}: HTTP {e.code} — {e.read()[:250]!r}")
+        return "dead"
+    except Exception as e:
+        print(f"  בדיקת {model}: {type(e).__name__}: {e}")
+        return "busy"
+
+def choose_models(pinned, want=2):
+    """מודלים קבועים שעוברים בדיקה בפועל; אם פחות מ-want — משלימים מהרשימה של Google (יציבים בלבד, החדש ראשון)
+    ומדפיסים אזהרה. כך מודל שהוסר לא עוצר את התרגום, ואנחנו יודעים שהמודל התחלף."""
+    good = []
+    for m in pinned:
+        st = gem_probe(m); time.sleep(2)
+        print(f"  מודל {m}: {st}")
+        if st != "dead": good.append(m)
+    if len(good) >= want: return good
+    try:
+        names = gem_list()
+    except Exception as e:
+        print(f"  לא הצלחתי לקבל את רשימת המודלים ({type(e).__name__}: {e})"); return good
+    cands = sorted({n for n in names if STABLE.match(n) and n not in pinned},
+                   key=lambda n: (-float(STABLE.match(n).group(1)), bool(STABLE.match(n).group(2))))
+    for m in cands:
+        if len(good) >= want: break
+        st = gem_probe(m); time.sleep(2)
+        print(f"  מודל חלופי {m}: {st}")
+        if st != "dead": good.append(m)
+    if good != list(pinned):
+        print(f"::warning::המודלים הקבועים ({', '.join(pinned)}) לא כולם זמינים — משתמש ב: {', '.join(good) or 'אין'}. כדאי לעדכן את GEMINI_MODELS ולבדוק את איכות התרגום.")
+    return good
+
 def gemini_check():
     """בדיקה מהירה: בקשת תרגום קטנה לכל מודל; מדפיסה קוד שגיאה והודעה (בלי המפתח)."""
     if not KEY:
@@ -263,6 +313,7 @@ def gemini_check():
         except Exception as e:
             bad += 1; print(f"{model}: {type(e).__name__}: {e}")
         time.sleep(3)
+    print("בחירת מודלים בפועל:", choose_models(list(MODELS)))
     return 1 if bad else 0
 
 def make_batches(segs):
@@ -298,7 +349,12 @@ def main():
         except Exception as e:
             print(f"שירות התרגום אינו נגיש ({type(e).__name__}: {e}) — לא שונה דבר."); return 3
     else:
-        print("מנוע ראשי: Gemini, מודלים:", ", ".join(MODELS))
+        MODELS[:] = choose_models(MODELS)
+        if not MODELS:
+            GEM_DEAD[0] = True
+            print("::warning::אין מודל Gemini זמין — מתרגם עם Google בלבד")
+        else:
+            print("מנוע ראשי: Gemini, מודלים:", ", ".join(MODELS))
 
     failed_total = 0
     deadline = time.time() + a.budget_min * 60
