@@ -15,7 +15,7 @@ jobs:
   build:
     if: "!contains(github.event.head_commit.message, '[skip ci]')"
     runs-on: ubuntu-latest
-    timeout-minutes: 90
+    timeout-minutes: 120
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -34,7 +34,7 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           PYTHONUNBUFFERED: "1"
       - name: Audio (Edge TTS, easy/medium/hard)
-        run: python3 tools/make_audio.py --days 30 --levels easy,medium,hard --concurrency 3 || true
+        run: python3 tools/make_audio.py --days 30 --levels easy,medium,hard --langs he,en,ru,es --concurrency 3 --budget-min 45 || true
       - name: Commit & push
         run: |
           git config user.name "gan-david bot"

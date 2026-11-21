@@ -5,17 +5,22 @@
 
 - קורא את data/news.json, מפיק לכל ידיעה מ-N הימים האחרונים קובץ MP3 לכל רמה
   (audio/<id>-<level>.mp3) אם עדיין אינו קיים, ומוחק קבצים של ידיעות ישנות יותר.
-- מעדכן בכל ידיעה שדה "audio": רשימת הרמות שיש להן קובץ.
+- מעדכן בכל ידיעה שדה "audio": רשימת הרמות שיש להן קובץ בעברית.
+- --langs he,en,ru,es: לכל שפה מלבד עברית מפיק שמע מהתרגום השמור (tr) לקובץ audio/<id>-<level>-<lang>.mp3 ומעדכן
+  שדה "audioTr": {"en": [רמות], ...}. הקול לכל שפה ב-VOICES; קול שאינו קיים בשירות — מדלגים על השפה ומדפיסים אזהרה.
+- --budget-min: תקרת זמן; אחריה לא מתחילים קבצים חדשים (מה שנשאר יופק בריצה הבאה). הכי חדש קודם.
 - מילון הגייה לשמות: tools/tts_lexicon.json (מילה -> צורה מנוקדת); מוחלים לפני ההפקה.
 - דורש: pip install edge-tts ; ffmpeg (לדחיסה). אם ffmpeg חסר — נשמר הקובץ המקורי.
 - השירות: Microsoft Edge TTS (speech.platform.bing.com). אם אינו נגיש — הסקריפט מדווח ויוצא בלי לשנות דבר.
 """
-import asyncio, json, os, sys, glob, datetime, shutil, subprocess, argparse
+import asyncio, json, os, re, sys, time, glob, datetime, shutil, subprocess, argparse
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 NEWS = os.path.join(ROOT, "data", "news.json")
 AUDIO = os.path.join(ROOT, "audio")
-VOICE = "he-IL-HilaNeural"
+VOICES = {"he": "he-IL-HilaNeural", "en": "en-US-JennyNeural", "ru": "ru-RU-SvetlanaNeural", "es": "es-ES-ElviraNeural"}
+VOICE = VOICES["he"]
+NAME_RE = re.compile(r"^(?P<id>.+)-(?P<lv>easy|medium|hard|expert)(?:-(?P<lang>en|ru|es))?$")
 LEVELS = ["easy", "medium", "hard", "expert"]
 DEFAULT_LEVELS = ["easy", "medium", "hard"]
 
@@ -45,14 +50,21 @@ def apply_lexicon(text):
         text = re.sub(pat, lambda m, v=v: PREFIXES.get(m.group(1), m.group(1)) + v, text)
     return text
 
-def tts_text(item, level):
-    body = (item.get(level) or "").replace("\n\n", "\n").replace("\n", ". ").replace("..", ".")
-    return apply_lexicon(f"{item.get('title','')}. {body}")
+def audio_path(iid, lv, lang):
+    return os.path.join(AUDIO, f"{iid}-{lv}.mp3" if lang == "he" else f"{iid}-{lv}-{lang}.mp3")
 
-async def synth(text, out_path, proxy):
+def tts_text(item, level, lang="he"):
+    if lang == "he":
+        body = (item.get(level) or "").replace("\n\n", "\n").replace("\n", ". ").replace("..", ".")
+        return apply_lexicon(f"{item.get('title','')}. {body}")
+    tr = (item.get("tr") or {}).get(lang) or {}
+    title, body = tr.get("title") or "", (tr.get(level) or "").replace("\n\n", "\n").replace("\n", ". ").replace("..", ".")
+    return f"{title}. {body}" if title and body else ""
+
+async def synth(text, out_path, proxy, voice=VOICE):
     import edge_tts
     tmp = out_path + ".tmp.mp3"
-    comm = edge_tts.Communicate(text, VOICE, rate="-5%", proxy=proxy)
+    comm = edge_tts.Communicate(text, voice, rate="-5%", proxy=proxy)
     await comm.save(tmp)
     if os.path.getsize(tmp) < 1000:
         os.remove(tmp); raise RuntimeError("empty audio")
@@ -66,9 +78,12 @@ async def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--days", type=int, default=7)
     ap.add_argument("--levels", default=",".join(DEFAULT_LEVELS))
+    ap.add_argument("--langs", default="he")
     ap.add_argument("--concurrency", type=int, default=3)
+    ap.add_argument("--budget-min", type=float, default=60.0)
     a = ap.parse_args()
     levels = [l for l in a.levels.split(",") if l in LEVELS]
+    langs = [l for l in a.langs.split(",") if l in VOICES]
     proxy = os.environ.get("HTTPS_PROXY") or os.environ.get("https_proxy")
     try:
         import edge_tts  # noqa
@@ -87,45 +102,67 @@ async def main():
     except Exception as e:
         print(f"שירות הקול אינו נגיש ({type(e).__name__}: {e}) — לא נוצרו קבצים."); return 3
 
+    # קולות לפי שפה: מוודאים שהקול קיים בשירות
+    try:
+        have_voices = {v["ShortName"] for v in await edge_tts.list_voices()}
+    except Exception as e:
+        print(f"לא הצלחתי לקבל את רשימת הקולות ({type(e).__name__}: {e}) — ממשיך בלי בדיקה"); have_voices = None
+    for l in list(langs):
+        if have_voices is not None and VOICES[l] not in have_voices:
+            print(f"::warning::הקול {VOICES[l]} ({l}) אינו קיים בשירות — מדלג על השפה"); langs.remove(l)
+    print("שפות להפקה:", ", ".join(f"{l} ({VOICES[l]})" for l in langs))
+
     items = [it for it in d["items"] if it.get("date", "") >= keep_from]
     todo = []
-    for it in items:
-        for lv in levels:
-            path = os.path.join(AUDIO, f"{it['id']}-{lv}.mp3")
-            if not os.path.exists(path) and it.get(lv):
-                todo.append((it, lv, path))
-    print(f"ידיעות בטווח: {len(items)} | קבצים להפקה: {len(todo)}")
+    for it in sorted(items, key=lambda x: str(x.get("date", "")), reverse=True):     # הכי חדש קודם
+        for lang in langs:
+            for lv in levels:
+                path = audio_path(it["id"], lv, lang)
+                if os.path.exists(path): continue
+                text = tts_text(it, lv, lang)
+                if text.strip(". "): todo.append((it, lv, lang, path, text))
+    print(f"ידיעות בטווח: {len(items)} | קבצים להפקה: {len(todo)}", flush=True)
 
+    deadline = time.time() + a.budget_min * 60
     sem = asyncio.Semaphore(a.concurrency)
-    ok = fail = 0
-    async def one(it, lv, path):
-        nonlocal ok, fail
+    ok = fail = skipped = 0
+    async def one(it, lv, lang, path, text):
+        nonlocal ok, fail, skipped
         async with sem:
+            if time.time() > deadline: skipped += 1; return
+            err = None
             for attempt in range(3):
                 try:
-                    await synth(tts_text(it, lv), path, proxy); ok += 1; return
+                    await synth(text, path, proxy, VOICES[lang]); ok += 1
+                    if ok % 50 == 0: print(f"  הופקו {ok} קבצים...", flush=True)
+                    return
                 except Exception as e:
                     err = e; await asyncio.sleep(2 + attempt * 3)
             fail += 1; print(f"נכשל: {os.path.basename(path)} — {type(err).__name__}: {err}")
     await asyncio.gather(*(one(*t) for t in todo))
+    if skipped:
+        print(f"::warning::נגמרה תקרת הזמן ({a.budget_min:g} דקות): {skipped} קבצים נשארו — יופקו בריצה הבאה (הכי חדשים כבר הופקו)")
 
     # מחיקת קבצים ישנים / יתומים
     keep_ids = {it["id"] for it in items}
     removed = 0
     for f in glob.glob(os.path.join(AUDIO, "*.mp3")):
-        base = os.path.basename(f)[:-4]
-        iid = base.rsplit("-", 1)[0]
-        if iid not in keep_ids:
+        m = NAME_RE.match(os.path.basename(f)[:-4])
+        if not m or m.group("id") not in keep_ids:
             os.remove(f); removed += 1
 
-    # עדכון שדה audio
+    # עדכון שדות audio (עברית) ו-audioTr (שפות אחרות)
     for it in d["items"]:
-        have = [lv for lv in LEVELS if os.path.exists(os.path.join(AUDIO, f"{it['id']}-{lv}.mp3"))]
+        have = [lv for lv in LEVELS if os.path.exists(audio_path(it["id"], lv, "he"))]
         if have: it["audio"] = have
         else: it.pop("audio", None)
+        atr = {l: [lv for lv in LEVELS if os.path.exists(audio_path(it["id"], lv, l))] for l in ("en", "ru", "es")}
+        atr = {l: v for l, v in atr.items() if v}
+        if atr: it["audioTr"] = atr
+        else: it.pop("audioTr", None)
     json.dump(d, open(NEWS, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     total = sum(os.path.getsize(f) for f in glob.glob(os.path.join(AUDIO, "*.mp3")))
-    print(f"הופקו: {ok} | נכשלו: {fail} | נמחקו ישנים: {removed} | גודל תיקיית audio: {total/1e6:.1f}MB")
+    print(f"הופקו: {ok} | נכשלו: {fail} | נותרו לריצה הבאה: {skipped} | נמחקו ישנים: {removed} | גודל תיקיית audio: {total/1e6:.1f}MB")
     return 0 if fail == 0 else 1
 
 if __name__ == "__main__":

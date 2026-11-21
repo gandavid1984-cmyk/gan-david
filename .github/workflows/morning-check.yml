@@ -1,0 +1,44 @@
+# בדיקת בוקר: אם משהו חסר באתר (ידיעות היום / תרגומים / הקלטות) או שריצת העיבוד האחרונה נכשלה —
+# נפתח Issue במאגר. בעלת המאגר מקבלת על כך מייל והתראה באפליקציית GitHub.
+# רץ 06:00 ו-07:30 שעון ישראל (בקיץ ובחורף); אפשר גם להריץ ידנית.
+name: morning-check
+on:
+  schedule:
+    - cron: "0 4 * * *"    # 06:00 קיץ / 05:00 חורף (שעון ישראל)
+    - cron: "30 5 * * *"   # 07:30 קיץ / 06:30 חורף (שעון ישראל)
+  workflow_dispatch:
+    inputs:
+      force_issue:
+        description: "פתח Issue בדיקה גם אם הכול תקין (לבדיקת ההתראה)"
+        type: boolean
+        default: false
+permissions:
+  contents: read
+  issues: write
+  actions: read
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check
+        id: check
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+          SITE_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}
+        run: python3 tools/morning_check.py
+      - name: Open issue on problems
+        if: steps.check.outcome == 'failure' || inputs.force_issue == true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          [ -f morning_report.md ] || echo "- בדיקת התראה ידנית: הכול תקין, זה רק מבחן." > morning_report.md
+          TITLE="⚠️ עיתון גן דוד — בעיה בבוקר $(TZ=Asia/Jerusalem date +%d.%m.%Y)"
+          # לא פותחים כפילות: אם כבר יש Issue פתוח באותו יום — מוסיפים לו הערה
+          N=$(gh issue list --state open --search "in:title \"$TITLE\"" --json number --jq '.[0].number // empty')
+          BODY="$(cat morning_report.md)
+
+          הרצה: $GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID"
+          if [ -n "$N" ]; then gh issue comment "$N" --body "$BODY"; else gh issue create --title "$TITLE" --body "$BODY"; fi

@@ -393,6 +393,13 @@ function shownText(it){
   const ql=it.qlevels&&it.qlevels[state.level], byLevel=Array.isArray(ql)&&ql.length>0;
   return {title:it.title, body, questions: byLevel? ql : (Array.isArray(it.questions)?it.questions:[]), qDefault:!byLevel, fallback: state.level==="expert"&&!it.expert};
 }
+// קובץ שמע מוכן לידיעה בשפה וברמה הנוכחיות (עברית: audio/<id>-<level>.mp3; תרגום: audio/<id>-<level>-<lang>.mp3); "" אם אין
+function audioSrcFor(it){
+  const lv=state.level;
+  if(!state.lang) return (Array.isArray(it.audio)&&it.audio.includes(lv)) ? `audio/${it.id}-${lv}.mp3` : "";
+  const a=it.audioTr&&it.audioTr[state.lang];
+  return (Array.isArray(a)&&a.includes(lv)) ? `audio/${it.id}-${lv}-${state.lang}.mp3` : "";
+}
 function visibleItems(){
   const sel = state.topics.size? state.items.filter(it=>state.topics.has(it.topic)) : [];
   const order = Object.fromEntries(TOPICS.map((t,i)=>[t[0],i]));
@@ -421,8 +428,8 @@ let renderList=function(){
       ${it._old?`<div class="oldnote" translate="no">כתבה זו נכתבה ב${heDate(it.date)}. אין כתבה חדשה בנושא הזה להיום.</div>`:""}
       <h3>${esc(shown.title)}</h3>
       <div class="body ${state.level}">${esc(shown.body)}</div>
-      ${(!state.lang && Array.isArray(it.audio) && it.audio.includes(state.level))
-        ? `<button class="speak no-print" data-play="${esc(it.id)}" data-src="audio/${esc(it.id)}-${state.level}.mp3" translate="no">▶ האזנה</button>`
+      ${audioSrcFor(it)
+        ? `<button class="speak no-print" data-play="${esc(it.id)}" data-src="${esc(audioSrcFor(it))}" translate="no">▶ האזנה</button>`
         : `<button class="speak no-print" data-speak="${esc(it.id)}" translate="no">🔊 הקרא</button>`}
       ${shown.questions.length?`<details><summary translate="no">שאלות לשיחה עם הקבוצה</summary><ol class="q">${shown.questions.map(q=>`<li>${esc(q)}</li>`).join("")}</ol></details>`:""}
       ${Array.isArray(it.people)&&it.people.length?`<div class="people no-print" translate="no"><span>לכל אדם — תמונות ומידע בעברית (נפתח בחלון חדש):</span>${it.people.map(p=>`<span class="pgrp"><a class="pbtn" href="https://www.google.com/search?tbm=isch&q=${encodeURIComponent(p)}" target="_blank" rel="noopener">🖼️ ${esc(p)}</a><a class="pbtn wiki" href="https://he.wikipedia.org/wiki/Special:Search?search=${encodeURIComponent(p)}&go=Go" target="_blank" rel="noopener">📖 ויקיפדיה</a></span>`).join("")}</div>`:""}
@@ -586,7 +593,7 @@ $("#showFs").onchange=()=>{ show.fs=Number($("#showFs").value)||34; renderShow()
 $("#showBigger").onclick=()=>{ show.fs=Math.min(72,show.fs+4); renderShow(); };
 $("#showSmaller").onclick=()=>{ show.fs=Math.max(20,show.fs-4); renderShow(); };
 $("#showSpeak").onclick=()=>{ const it=showItems()[show.idx]; if(!it) return; const sh=displayedText(it);
-  if(!show.q && !state.lang && Array.isArray(it.audio) && it.audio.includes(state.level)){ playAudio(`audio/${it.id}-${state.level}.mp3`, "show:"+it.id, $("#showSpeak")); return; } speakText(show.q? sh.questions.join(". ") : `${sh.title}. ${sh.body}`, "show:"+it.id+(show.q?":q":""), $("#showSpeak"), sh.lang); };
+  { const asrc=audioSrcFor(it); if(!show.q && asrc){ playAudio(asrc, "show:"+it.id, $("#showSpeak")); return; } } speakText(show.q? sh.questions.join(". ") : `${sh.title}. ${sh.body}`, "show:"+it.id+(show.q?":q":""), $("#showSpeak"), sh.lang); };
 document.addEventListener("keydown",e=>{ if($("#show").hidden) return; if(e.key==="Escape") closeShow(); if(e.key==="ArrowLeft") $("#showNext").click(); if(e.key==="ArrowRight") $("#showPrev").click(); });
 
 // ---- back to top + lock mode
