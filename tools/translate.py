@@ -8,7 +8,7 @@
   "tr": {"en": {"title", "easy", "medium", "hard", "questions", "qlevels"}, ...}.
 - מה שכבר מתורגם לא נשלח שוב.
 - מנוע ראשי: Gemini API (הרמה החינמית), כשקיים הסוד GEMINI_API_KEY. המודל קבוע (GEMINI_MODELS, ברירת מחדל
-  gemini-2.5-flash ואחריו gemini-2.5-flash-lite) — לא "latest", כדי שלא יתחלף בלי שנדע. הבקשה כוללת רשימת שמות
+  gemini-3.8-flash ואחריו gemini-3.5-flash-lite) — לא "latest", כדי שלא יתחלף בלי שנדע. הבקשה כוללת רשימת שמות
   מ-tools/glossary.json (רק מונחים שמופיעים בקבוצה). כל תרגום נבדק: לא חזר בעברית, כל המספרים מהמקור נשמרו,
   כל המפתחות חזרו. תרגום שנכשל בבדיקה — הקבוצה מפוצלת ומנוסה שוב.
 - גיבוי: שירות התרגום החינמי של Google (לא רשמי; עלול להיחסם). משמש רק לקטע ש-Gemini לא הצליח בו, או לכל הריצה
@@ -106,7 +106,7 @@ def google_batch(segs, lang):
 
 # ───────────────────────── Gemini (מנוע ראשי) ─────────────────────────
 KEY = os.environ.get("GEMINI_API_KEY", "").strip()
-MODELS = [m.strip() for m in os.environ.get("GEMINI_MODELS", "gemini-2.5-flash,gemini-2.5-flash-lite").split(",") if m.strip()]
+MODELS = [m.strip() for m in os.environ.get("GEMINI_MODELS", "gemini-3.8-flash,gemini-3.5-flash-lite").split(",") if m.strip()]
 GURL = "https://generativelanguage.googleapis.com/v1beta/models/{}:generateContent"
 GPAUSE = 6.0                 # המתנה בין בקשות (הרמה החינמית מוגבלת בקצב)
 GWAITS = [20, 60, 120]       # המתנה בין ניסיונות חוזרים בשגיאת עומס (429/5xx)
