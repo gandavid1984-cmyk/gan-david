@@ -209,6 +209,7 @@ def gem_try(segs, lang):
         "- Keep every fact, number, date and name exactly as in the source. Do not add, omit, explain or soften anything.\n"
         f"- Use the standard {LANGN[lang]} spelling of Israeli names, parties, places, teams and institutions, and the same spelling for the same name everywhere.\n"
         "- Translate everything fully; never leave Hebrew words in the output.\n"
+        "- Write every number as digits exactly as in the source (scores, ages, years, times, percentages); never spell a number out and never drop one.\n"
         + (STYLE[lang] + "\n" if STYLE[lang] else "")
         + gtxt +
         "\nReturn ONLY a JSON object with exactly the same keys as the input; each value is the translation of the value with that key.\n\n"
@@ -242,8 +243,13 @@ def translate_batch(segs, lang):
             out = translate_batch(segs[:mid], lang)
             out.update(translate_batch(segs[mid:], lang))
             return out
+    try:
+        res = google_batch(segs, lang)
+    except Exception as e:
+        print(f"  לא תורגמו {len(segs)} קטעים (Gemini וגם Google נכשלו): {type(e).__name__}: {e}")
+        return {}                      # רק הקטעים האלה נשארים לריצה הבאה; מה שתורגם קודם בקבוצה נשמר
     STATS["google"] += len(segs)
-    return google_batch(segs, lang)
+    return res
 
 def gem_list():
     """רשימת המודלים שהמפתח רואה (שם בלבד). הרשימה לא מבטיחה שהמודל עובד — לכן בודקים בפועל."""
@@ -401,6 +407,7 @@ def main():
                 res = translate_batch(batch, lang)
             except Exception as e:
                 failed_total += len(batch); print(f"  נכשלה קבוצה: {type(e).__name__}: {e}"); continue
+            failed_total += len(batch) - len(res)
             for i, txt in res.items():
                 it, k, qi = where[i]
                 if k == "questions" or k.startswith("qlevels:"):
