@@ -1,11 +1,11 @@
 # בדיקת בוקר: אם משהו חסר באתר (ידיעות היום / תרגומים / הקלטות) או שריצת העיבוד האחרונה נכשלה —
 # נפתח Issue במאגר. בעלת המאגר מקבלת על כך מייל והתראה באפליקציית GitHub.
-# רץ 06:00 ו-07:30 שעון ישראל (בקיץ ובחורף); אפשר גם להריץ ידנית.
+# רץ ב-04:00 שעון ישראל (בקיץ ובחורף — שתי שעות UTC, ושלב ראשון מדלג על זו שאינה 04:00); אפשר גם להריץ ידנית.
 name: morning-check
 on:
   schedule:
-    - cron: "0 4 * * *"    # 06:00 קיץ / 05:00 חורף (שעון ישראל)
-    - cron: "30 5 * * *"   # 07:30 קיץ / 06:30 חורף (שעון ישראל)
+    - cron: "0 1 * * *"    # 04:00 בשעון קיץ
+    - cron: "0 2 * * *"    # 04:00 בשעון חורף
   workflow_dispatch:
     inputs:
       force_issue:
@@ -21,16 +21,23 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
+      - name: Only at 04:00 Israel time
+        id: gate
+        run: |
+          H=$(TZ=Asia/Jerusalem date +%H)
+          if [ "${{ github.event_name }}" = "schedule" ] && [ "$H" != "04" ]; then echo "go=false" >> "$GITHUB_OUTPUT"; else echo "go=true" >> "$GITHUB_OUTPUT"; fi
       - uses: actions/checkout@v4
+        if: steps.gate.outputs.go == 'true'
       - name: Check
         id: check
+        if: steps.gate.outputs.go == 'true'
         continue-on-error: true
         env:
           GH_TOKEN: ${{ github.token }}
           SITE_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}
         run: python3 tools/morning_check.py
       - name: Open issue on problems
-        if: steps.check.outcome == 'failure' || inputs.force_issue == true
+        if: steps.gate.outputs.go == 'true' && (steps.check.outcome == 'failure' || inputs.force_issue == true)
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
