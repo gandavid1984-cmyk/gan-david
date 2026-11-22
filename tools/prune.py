@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-"""שמירה של 30 יום בלבד ב-data/news.json (ידיעות ישנות יותר נמחקות). שמע יתום נמחק על ידי make_audio.py."""
+"""שמירה של 7 ימים בלבד ב-data/news.json (ידיעות ישנות יותר נמחקות). שמע יתום נמחק על ידי make_audio.py."""
 import json, os, sys, datetime
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 NEWS = os.path.join(ROOT, "data", "news.json")
-days = int(sys.argv[1]) if len(sys.argv) > 1 else 30
+days = int(sys.argv[1]) if len(sys.argv) > 1 else 7
 d = json.load(open(NEWS, encoding="utf-8"))
 keep_from = (datetime.date.today() - datetime.timedelta(days=days - 1)).isoformat()
 before = len(d["items"])

@@ -1,5 +1,5 @@
 # עיתון גן דוד — עיבוד אוטומטי אחרי כל עדכון ידיעות (בלי Claude, בלי טוקנים):
-# ניקוי 30 יום, תרגום מוכן מראש (en/ru/es, Gemini ובגיבוי Google), קול קריין (Edge TTS), ו-commit חזרה.
+# ניקוי 7 ימים, תרגום מוכן מראש (en/ru/es, Gemini ובגיבוי Google), קול קריין (Edge TTS), ו-commit חזרה.
 name: postprocess
 on:
   push:
@@ -24,12 +24,12 @@ jobs:
         run: |
           sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg >/dev/null
           pip install -q edge-tts
-      - name: Prune (30 days)
-        run: python3 tools/prune.py 30
+      - name: Prune (7 days)
+        run: python3 tools/prune.py 7
       - name: Translate (en/ru/es, easy/medium/hard)
         id: translate
         continue-on-error: true
-        run: python3 tools/translate.py --days 30 --langs en,ru,es --levels easy,medium,hard
+        run: python3 tools/translate.py --days 7 --langs en,ru,es --levels easy,medium,hard
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           PYTHONUNBUFFERED: "1"
