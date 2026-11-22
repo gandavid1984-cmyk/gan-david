@@ -42,7 +42,115 @@
    ],
    "verified": true,
    "date": "2026-11-23",
-   "ts": 1795474200
+   "ts": 1795474200,
+   "tr": {
+    "en": {
+     "title": "The contacts between Likud and \"Yashar!\": Second meeting, and the next round on Monday",
+     "easy": "Representatives of Likud and representatives of the \"Yashar!\" party met.\nThis is their second meeting.\nThey are talking about establishing a joint government.\nThe meeting was good, but the parties also attacked each other in the media.\nThe next meeting is expected on Monday.",
+     "medium": "Representatives of Likud and representatives of the \"Yashar!\" party headed by Gadi Eisenkot met for the second time, to discuss establishing a unity government. According to the report, the meeting was better than the first one, but ended with mutual attacks in保 the media. The next round of talks is expected on Monday, November 23. In the first meeting they discussed a commission of inquiry into the events of October 7, the draft law, and the judicial reform, and the parties report that agreements can be reached on these issues. Likud reported that Prime Minister Netanyahu will continue to serve in the immediate term, and that there is no willingness to compromise on the rotation order. From Eisenkot's side it was reported that he must serve four years as prime minister, and that currently there is no willingness to talk about rotation.",
+     "hard": "The negotiation representatives of Likud and of the \"Yashar!\" party, headed by Gadi Eisenkot, met on Sunday, November 22, for the second time, to discuss the possibility of establishing a unity government. According to an article on the \"Israel Hayom\" website, the meeting was defined as better than the first one, but ended with mutual attacks in the media. The next round of talks is expected on Monday, November 23. In the first meeting they discussed a commission of inquiry into the events of October 7, the draft law, and the judicial reform, and the parties report that these are issues on which agreements can be reached. According to the article, Likud's position is that Netanyahu will continue to serve as prime minister in the immediate term, and that there is no willingness to compromise on the rotation order. Eisenkot's position is that he must serve four years as prime minister, and that currently there is no willingness to talk about rotation. Likud demands that representatives of Shas and United Torah Judaism participate in the room where decisions on the draft outline will be made, and Eisenkot's representatives refuse this at the moment. Over the weekend, representatives of \"Yashar!\" held talks with representatives of the ultra-Orthodox parties: according to the article there is some progress, but the agreement is far, especially vis-à-vis Shas, which is still not ready to conduct direct negotiations. Representatives of \"Beyahad\" headed by Naftali Bennett did not attend the last talk, and Bennett believes these issues will not constitute an obstacle.",
+     "questions": [
+      "Do you remember a period when different parties sat together in the same government? Tell what you remember.",
+      "In your opinion, what is important for people with different opinions to succeed in working together? Explain.",
+      "How would you describe to the grandchildren what a government is and what it does?"
+     ],
+     "qlevels": {
+      "easy": [
+       "Is this the second meeting between the parties?",
+       "Is the next meeting expected on Monday or on Tuesday?",
+       "Are the parties talking about establishing a joint government?"
+      ],
+      "medium": [
+       "Who heads the \"Yashar!\" party?",
+       "When is the next round of talks expected?",
+       "What three issues were discussed in the first meeting?"
+      ],
+      "hard": [
+       "What is Likud's position regarding Netanyahu and the rotation?",
+       "What did Eisenkot say about the duration of his term as prime minister?",
+       "What does Likud demand regarding the representatives of Shas and United Torah Judaism, and what is the response of Eisenkot's representatives?"
+      ]
+     }
+    },
+    "ru": {
+     "title": "Контакты между «Ликудом» и партией «Яшар!»: вторая встреча, а следующий раунд — в понедельник",
+     "easy": "Представители «Ликуда» и представители партии «Яшар!» встретились.\nЭто их вторая встреча.\nОни говорят о создании совместного правительства.\nВстреча была хорошей, но стороны также нападали друг на друга в средствах массовой информации.\nСледующая встреча ожидается в понедельник.",
+     "medium": "Представители «Ликуда» и представители партии «Яшар!» во главе с Гади Айзенкотом встретились во второй раз, чтобы обсудить создание правительства национального единства. Согласно сообщению, встреча была лучше первой, но завершилась взаимными нападками в средствах массовой информации. Следующий раунд переговоров ожидается в понедельник, 23 ноября. На первой встрече обсуждались следственная комиссия по событиям 7 октября, закон о призыве и судебная реформа, и стороны сообщают, что по этим вопросам можно достичь договоренностей. «Ликуд» сообщил, что премьер-министр Нетаниягу продолжит занимать должность в ближайшей перспективе, и что готовности к компромиссу в вопросе ротации нет. Со стороны Айзенкота было передано, что он должен занимать должность премьер-министра четыре года, и что в настоящее время нет готовности говорить о ротации.",
+     "hard": "Представители на переговорах от «Ликуда» и от партии «Яшар!», во главе с Гади Айзенкотом, встретились в воскресенье, 22 ноября, во второй раз, чтобы обсудить возможность создания правительства национального единства. Согласно статье на сайте «Исраэль ха-йом», встреча была охарактеризована как более хорошая, чем первая, но завершилась взаимными нападками в средствах массовой информации. Следующий раунд переговоров ожидается в понедельник, 23 ноября. На первой встрече обсуждались следственная комиссия по событиям 7 октября, закон о призыве и судебная реформа, и стороны сообщают, что это вопросы, по которым можно достичь договоренностей. Согласно статье, позиция «Ликуда» заключается в том, что Нетаниягу продолжит занимать должность премьер-министра в ближайшей перспективе, и что нет готовности к компромиссу в порядке ротации. Позиция Айзенкота заключается в том, что он должен занимать должность премьер-министра четыре года, и что в настоящее время нет готовности говорить о ротации. «Ликуд» требует, чтобы представители ШАС и «Яадут ха-Тора» участвовали в комнате, где будут приниматься решения по модели призыва, а представители Айзенкота пока отказываются от этого. В конце недели представители «Яшар!» провели переговоры с представителями ультраортодоксальных партий: согласно статье, имеется определенный прогресс, но до соглашения еще далеко, в особенности с ШАС, которая все еще не готова вести прямые переговоры. Представители «Бихад» во главе с Нафтали Беннетом не присутствовали на последней беседе, и Беннет считает, что эти вопросы не станут препятствием.",
+     "questions": [
+      "Помните ли вы период, когда разные партии заседали вместе в одном правительстве? Расскажите, что вам запомнилось.",
+      "По вашему мнению, что важно для того, чтобы люди с разными мнениями преуспели в совместной работе? Обоснуйте.",
+      "Как бы вы описали внукам, что такое правительство и что оно делает?"
+     ],
+     "qlevels": {
+      "easy": [
+       "Является ли это второй встречей между сторонами?",
+       "Ожидается ли следующая встреча в понедельник или во вторник?",
+       "Говорят ли стороны о создании совместного правительства?"
+      ],
+      "medium": [
+       "Кто стоит во главе партии «Яшар!»?",
+       "Когда ожидается следующий раунд переговоров?",
+       "Какие три вопроса обсуждались на первой встрече?"
+      ],
+      "hard": [
+       "Какова позиция «Ликуда» относительно Нетаниягу и ротации?",
+       "Что сказал Айзенкот о продолжительности своего пребывания в должности премьер-министра?",
+       "Что требует «Ликуд» в отношении представителей ШАС и «Яадут ха-Тора», и какова реакция представителей Айзенкота?"
+      ]
+     }
+    },
+    "es": {
+     "title": "Los contactos entre el Likud y el partido «¡Directo!»: segunda reunión, y la próxima ronda el lunes",
+     "easy": "Los representantes del Likud y los representantes del partido «¡Directo!» se reunieron.\nEsta es la segunda reunión entre ellos.\nEstán hablando sobre el establecimiento de un gobierno conjunto.\nLa reunión fue buena, pero las partes también se atacaron mutuamente en los medios de comunicación.\nLa próxima reunión está prevista para el lunes.",
+     "medium": "Los representantes del Likud y los representantes del partido «¡Directo!» encabezado por Gadi Eisenkot se reunieron por segunda vez para debatir el establecimiento de un gobierno de unidad. Según el informe, la reunión fue mejor que la primera, pero terminó con ataques mutuos en los medios de comunicación. La próxima ronda de conversaciones está prevista para el lunes, 23 de noviembre. En la primera reunión debatieron sobre una comisión de investigación para los sucesos del 7 de octubre, la ley de reclutamiento y la reforma judicial, y las partes comunican que es posible llegar a acuerdos sobre estos temas. El Likud comunicó que el primer ministro Netanyahu continuará en el cargo a corto plazo y que no hay disposición a comprometerse en el orden de la rotación. Por parte de Eisenkot se comunicó que él debe servir cuatro años como primer ministro y que por el momento no hay disposición a hablar de rotación.",
+     "hard": "Los representantes de las negociaciones del Likud y del partido «¡Directo!», encabezado por Gadi Eisenkot, se reunieron el domingo, 22 de noviembre, por segunda vez, para debatir la posibilidad de formar un gobierno de unidad. Según un artículo en el sitio web «Israel Hayom», la reunión fue definida como mejor que la primera, pero terminó con ataques mutuos en los medios de comunicación. La próxima ronda de conversaciones está prevista para el lunes, 23 de noviembre. En la primera reunión debatieron sobre una comisión de investigación para los sucesos del 7 de octubre, la ley de reclutamiento y la reforma judicial, y las partes comunican que estos son temas en los que es posible llegar a acuerdos. Según el artículo, la postura del Likud es que Netanyahu continuará ejerciendo como primer ministro a corto plazo y que no hay disposición a comprometerse en el orden de la rotación. La postura de Eisenkot es que él debe servir cuatro años como primer ministro y que por el momento no hay disposición a hablar de rotación. El Likud exige que los representantes de Shas y Judaísmo Unificado de la Torá participen en la sala donde se tomarán las decisiones sobre el esquema de reclutamiento, y los representantes de Eisenkot se niegan a ello por el momento. Al final de la semana, los representantes de «¡Directo!» mantuvieron conversaciones con los representantes de los partidos ultraortodoxos: según el artículo hay cierto avance, pero el acuerdo está lejos, principalmente frente a Shas, que todavía no está dispuesta a mantener negociaciones directas. Los representantes de «Juntos» encabezados por Naftali Bennett no estuvieron presentes en la última conversación, y Bennett opina que estos temas no constituirán un obstáculo.",
+     "questions": [
+      "¿Recuerdan ustedes una época en la que diferentes partidos se sentaban juntos en el mismo gobierno? Cuéntennos qué recuerdan.",
+      "En opinión de ustedes, ¿qué es importante para que personas con diferentes opiniones logren trabajar juntas? Justifiquen su respuesta.",
+      "¿Cómo le describirían ustedes a los nietos qué es un gobierno y qué hace?"
+     ],
+     "qlevels": {
+      "easy": [
+       "¿Es esta la segunda reunión entre las partes?",
+       "¿Está prevista la próxima reunión el lunes o el martes?",
+       "¿Están hablando las partes sobre el establecimiento de un gobierno conjunto?"
+      ],
+      "medium": [
+       "¿Quién encabeza el partido «¡Directo!»?",
+       "¿Cuándo está prevista la próxima ronda de conversaciones?",
+       "¿Sobre qué tres temas debatieron en la primera reunión?"
+      ],
+      "hard": [
+       "¿Cuál es la postura del Likud respecto a Netanyahu y a la rotación?",
+       "¿Qué dijo Eisenkot sobre la duración de su mandato como primer ministro?",
+       "¿Qué exige el Likud en relación con los representantes de Shas y Judaísmo Unificado de la Torá, y cuál es la respuesta de los representantes de Eisenkot?"
+      ]
+     }
+    }
+   },
+   "audio": [
+    "easy",
+    "medium",
+    "hard"
+   ],
+   "audioTr": {
+    "en": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "ru": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "es": [
+     "easy",
+     "medium",
+     "hard"
+    ]
+   }
   },
   {
    "id": "2026-11-23-world-1",
@@ -81,7 +189,115 @@
    ],
    "verified": true,
    "date": "2026-11-23",
-   "ts": 1795474200
+   "ts": 1795474200,
+   "tr": {
+    "en": {
+     "title": "Storm in South Korea: Cheating with the help of artificial intelligence in the big exam",
+     "easy": "In South Korea, a big exam was held.\nThis is a university entrance exam.\nAbout half a million students took it.\nDuring the exam, alerts rang on all phones.\nThe alerts helped locate some of the suspected cheating cases.\nThe Minister of Education resigned on Sunday.",
+     "medium": "In South Korea, a storm developed after suspicions of cheating with the help of artificial intelligence in the national university entrance exam. About half a million students took the exam on Thursday. During the exam, the authorities sent three emergency alerts to phones across the country, and even phones on silent rang. The students arrived with pencils only, and items of clothing were checked. The government announced that it will double the number of proctors in the halls. In the exam, 111 cases of suspected use of forbidden devices were detected, and about half of them were identified with the help of the alerts. On Sunday, Minister of Education Choi Kyu-jin resigned, and President Lee Jae-myung accepted the resignation.",
+     "hard": "In South Korea, a storm erupted following suspicions of cheating with the help of artificial intelligence in the national university entrance exam. According to the ynet report, about half a million students took the exam on Thursday, and it lasted about eight to nine hours. During the exam, the authorities sent three emergency alerts to phones across the country, between eight in the morning and three in the afternoon, and phones on silent rang as well. The students arrived with pencils only, clothing buttons were covered with stickers, and proctors checked glasses, watches, and collars. In the exam, 111 cases of suspected use of forbidden devices were detected, and about half of them were identified with the help of the alerts. The storm intensified after a 34-year-old man, Han Won-seok, who came in first place in the national certified public accountant licensing exam, admitted that he cheated using a tiny camera and artificial intelligence. On Sunday, Minister of Education, Choi Kyu-jin, resigned, and President Lee Jae-myung accepted the resignation about an hour after it was submitted. The government offered a reward of at least 75 thousand dollars to anyone who provides information on cheating. The president promised to examine ways to deal with cheating in the age of artificial intelligence, and the main opposition party demanded a thorough investigation into the conduct of the Ministry of Education. Decisions on sanctions are expected before the publication of the results, on December 11.",
+     "questions": [
+      "Do you remember an important exam you took in your life? How did you feel?",
+      "What is your opinion: how can fairness be maintained in exams? Explain.",
+      "How do you think technology is changing studies and exams nowadays?"
+     ],
+     "qlevels": {
+      "easy": [
+       "Did about half a million students take the exam?",
+       "Did the Minister of Education resign on Sunday or on Monday?",
+       "Were alerts sent to phones during the exam?"
+      ],
+      "medium": [
+       "In which country was the exam held?",
+       "How many emergency alerts did the authorities send?",
+       "Who resigned on Sunday?"
+      ],
+      "hard": [
+       "How many cases of suspected use of forbidden devices were detected in the exam, and how many of them were identified with the help of the alerts?",
+       "What did the government offer to anyone who provides information on cheating?",
+       "When is the publication of the exam results expected?"
+      ]
+     }
+    },
+    "ru": {
+     "title": "Буря в Южной Корее: списывание с помощью искусственного интеллекта на важном экзамене",
+     "easy": "В Южной Корее прошел важный экзамен.\nЭто экзамен для поступления в университет.\nОколо полумиллиона учеников сдали его.\nВо время экзамена прозвенели оповещения на всех телефонах.\nОповещения помогли обнаружить часть случаев подозрения на списывание.\nМинистр образования подал в отставку в воскресенье.",
+     "medium": "В Южной Корее разразилась буря после подозрений в списывании с помощью искусственного интеллекта на общегосударственном экзамене для поступления в университеты. Около полумиллиона учеников пришли на экзамен в четверг. Во время экзамена власти разослали три экстренных оповещения на телефоны по всей стране, и даже телефоны на беззвучном режиме звонили. Ученики пришли только с карандашами, а предметы одежды проверялись. Правительство сообщило, что удвоит количество наблюдателей в залах. На экзамене было выявлено 111 случаев подозрения в использовании запрещенных устройств, и около половины из них были опознаны с помощью оповещений. В воскресенье министр образования Чхве Гю Джин подал в отставку, и президент Ли Чжэ Мюн принял отставку.",
+     "hard": "В Южной Корее разгорелся скандал после подозрений в списывании с помощью искусственного интеллекта на общенациональном экзамене для поступления в университеты. Согласно сообщению на ynet, около полумиллиона учеников сдавали экзамен в четверг, и он длился около восьми-девяти часов. Во время экзамена властями были отправлены три экстренных оповещения на телефоны по всей стране, между восемью утра и тремя часами дня, и звонили даже телефоны, стоявшие на беззвучном режиме. Ученики пришли только с карандашами, пуговицы на одежде были заклеены наклейками, а наблюдатели проверяли очки, часы и воротники. На экзамене было выявлено 111 случаев подозрения в использовании запрещенных устройств, и примерно половина из них была обнаружена с помощью оповещений. Скандал усилился после того, как 34-летний человек, Хан Вон Сок, занявший первое место на национальном квалификационном экзамене по бухучету, признался, что мошенничал с помощью миниатюрной камеры и искусственного интеллекта. В воскресенье подал в отставку министр образования Чхве Гю Чжин, и президент Ли Чジェ Мён принял отставку примерно через час после ее подачи. Правительство предложило вознаграждение в размере не менее 75 тысяч долларов тому, кто передаст информацию о мошенничестве. Президент пообещал рассмотреть способы борьбы сA списыванием в эпоху искусственного интеллекта, а главная оппозиционная партия потребовала всестороннего расследования действий министерства образования. Решения о санкциях ожидаются до публикации результатов, 11 декабря.",
+     "questions": [
+      "Помните ли вы важный экзамен, который вы сдавали в своей жизни? Что вы чувствовали?",
+      "Что вы думаете: как можно сохранять честность на экзаменах? Обоснуйте.",
+      "Как, по вашему мнению, технологии меняют учебу и экзамены в наши дни?"
+     ],
+     "qlevels": {
+      "easy": [
+       "Сдавали ли экзамен около полумиллиона учеников?",
+       "Министр образования подал в отставку в воскресенье или в понедельник?",
+       "Отправлялись ли оповещения на телефоны во время экзамена?"
+      ],
+      "medium": [
+       "В какой стране проводился экзамен?",
+       "Сколько экстренных оповещений отправили власти?",
+       "Кто подал в отставку в воскресенье?"
+      ],
+      "hard": [
+       "Сколько случаев подозрения в использовании запрещенных устройств было выявлено на экзамене и сколько из них было обнаружено с помощью оповещений?",
+       "Что предложило правительство тому, кто передаст информацию о мошенничестве?",
+       "Когда ожидается публикация результатов экзамена?"
+      ]
+     }
+    },
+    "es": {
+     "title": "Tormenta en Corea del Sur: plagio con ayuda de inteligencia artificial en el gran examen",
+     "easy": "En Corea del Sur se celebró un gran examen.\nEste es un examen para el ingreso a la universidad.\nAlrededor de medio millón de alumnos se presentaron a él.\nDurante el examen sonaron alertas en todos los teléfonos.\nLas alertas ayudaron a localizar algunos de los casos de sospecha de plagio.\nEl ministro de Educación dimitió el domingo.",
+     "medium": "En Corea del Sur se desarrolló una tormenta tras sospechas de plagio con la ayuda de inteligencia artificial en el examen nacional de ingreso a las universidades. Alrededor de medio millón de alumnos se presentaron al examen el jueves. Durante el examen, las autoridades enviaron tres alertas de emergencia a los teléfonos en todo el país, y también los teléfonos en silencio sonaron. Los alumnos llegaron únicamente con lápices y se revisaron las prendas de ropa. El gobierno anunció que duplicará el número de supervisores en las salas. En el examen se detectaron 111 casos de sospecha de uso de dispositivos prohibidos, y aproximadamente la mitad de ellos fueron identificados con la ayuda de las alertas. El domingo dimitió el ministro de Educación, Choi Kyu-jin, y el presidente Lee Jae-myung aceptó la dimisión.",
+     "hard": "En Corea del Sur se desarrolló una tormenta tras sospechas de copia con ayuda de inteligencia artificial en el examen nacional de ingreso a las universidades. Según el reporte en ynet, cerca de medio millón de alumnos se presentaron al examen el jueves, y este duró unas ocho a nueve horas. Durante el examen, las autoridades enviaron tres alertas de emergencia a los teléfonos en todo el país, entre las ocho de la mañana y las tres de la tarde, y también sonaron teléfonos en silencio. Los alumnos llegaron solo con lápices, los botones de la ropa fueron cubiertos con calcomanías, y los supervisores revisaron anteojos, relojes y cuellos. En el examen se detectaron 111 casos de sospecha de uso de dispositivos prohibidos, y cerca de la mitad de ellos fueron identificados con la ayuda de las alertas. La tormenta arreció después de que una persona de 34 años, Han Won-seok, que llegó al primer lugar en el examen de certificación nacional de contaduría pública, admitió que hizo trampa mediante una cámara diminuta e inteligencia artificial. El domingo renunció el ministro de Educación, Choi Kyu-jin, y el presidente Lee Jae-myung aceptó la renuncia una hora después de haber sido presentada. El gobierno ofreció una recompensa de al menos 75 mil dólares a quien entregue información sobre trampa. El presidente prometió examinar maneras de lidiar con las copias en la era de la inteligencia artificial, y el partido de oposición principal exigió una investigación exhaustiva de la conducta del ministerio de Educación. Las decisiones sobre sanciones se esperan antes de la publicación de los resultados, el 11 de diciembre.",
+     "questions": [
+      "¿Recuerdan algún examen importante que hayan aprobado en sus vidas? ¿Cómo se sintieron?",
+      "¿Qué opinan: cómo se puede mantener la honestidad en los exámenes? Justifiquen.",
+      "¿Cómo creen que la tecnología está cambiando los estudios y los exámenes en nuestros días?"
+     ],
+     "qlevels": {
+      "easy": [
+       "¿Se presentaron al examen cerca de medio millón de alumnos?",
+       "¿El ministro de Educación renunció el domingo o el lunes?",
+       "¿Se enviaron alertas a los teléfonos durante el examen?"
+      ],
+      "medium": [
+       "¿En qué país se celebró el examen?",
+       "¿Cuántas alertas de emergencia enviaron las autoridades?",
+       "¿Quién renunció el domingo?"
+      ],
+      "hard": [
+       "¿Cuántos casos de sospecha de uso de dispositivos prohibidos se detectaron en el examen, y cuántos de ellos fueron identificados con la ayuda de las alertas?",
+       "¿Qué ofreció el gobierno a quien entregue información sobre trampa?",
+       "¿Cuándo está prevista la publicación de los resultados del examen?"
+      ]
+     }
+    }
+   },
+   "audio": [
+    "easy",
+    "medium",
+    "hard"
+   ],
+   "audioTr": {
+    "en": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "ru": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "es": [
+     "easy",
+     "medium",
+     "hard"
+    ]
+   }
   },
   {
    "id": "2026-11-23-weather-1",
@@ -120,7 +336,115 @@
    ],
    "verified": true,
    "date": "2026-11-23",
-   "ts": 1795474200
+   "ts": 1795474200,
+   "tr": {
+    "en": {
+     "title": "The weather this week: a drop in temperatures, and in the middle of the week drizzle in the north and along the coast",
+     "easy": "This week the heat is dropping slightly.\nOn Monday it will be a bit cooler.\nOn Tuesday temperatures will be normal for the season.\nOn Wednesday light rain is possible in the north.\nLight rain is possible on the coast as well.\nIt is worthwhile to take a thin coat.",
+     "medium": "According to a forecast by ynet, in the coming days temperatures continue to drop. On Sunday they were still a bit higher than usual for the season, mainly in the mountains, and it was partly cloudy. On Monday, today, another slight drop is expected. On Tuesday temperatures will be normal for the season in most areas. On Wednesday another slight drop is expected, mainly in the mountains and inland, and drizzles to light local rains are possible in the north and along the coastal plain. It is worthwhile to take a thin coat, and check the forecast before going out for a trip. Winds were not mentioned in the forecast.",
+     "hard": "According to a forecast by the ynet website from Sunday, November 22, temperatures in the country continue to drop in the coming days. On Sunday they were still a bit higher than usual for the season, mainly in the mountains, and it was partly cloudy, with a drizzle to light local rain mainly in the north. On Monday, today, another slight drop in temperatures is expected. On Tuesday, according to the forecast, the heat levels will be normal for the season in most areas. On Wednesday another slight drop is expected, mainly in the mountains and inland, and drizzles to light local rains are possible in the north and along the coastal plain. Winds were not mentioned in the forecast. The end of November is usually a time when the rainy season begins, and it is worthwhile to prepare for changes in clothing: a thin coat, and on days when a drizzle is expected also an umbrella. This is a gradual change: the drop is spread over several days and does not arrive all at once. It is important to remember that a forecast for several days ahead is liable to change, and therefore it is worthwhile to follow it. As always, it is worthwhile to check the updated forecast on the Meteorological Service website or on news websites before setting out on the road. Note: The recommendations regarding clothing are general advice and are not part of the forecast itself.",
+     "questions": [
+      "What did the winter you remember from childhood look like? Tell.",
+      "What is your opinion: what weather is most pleasant for you and why?",
+      "What do you like to do on rainy days?"
+     ],
+     "qlevels": {
+      "easy": [
+       "Are temperatures on Tuesday normal for the season?",
+       "Is light rain possible on Wednesday?",
+       "Will today be a bit cooler than yesterday?"
+      ],
+      "medium": [
+       "What is expected on Tuesday?",
+       "In which areas might there be light rain on Wednesday?",
+       "On which day are temperatures expected to be normal for the season?"
+      ],
+      "hard": [
+       "What was the temperature situation on Sunday, and mainly in which areas?",
+       "What is expected on Wednesday and in which areas?",
+       "Were winds mentioned in the forecast?"
+      ]
+     }
+    },
+    "ru": {
+     "title": "Погода на этой неделе: понижение температуры, а в середине недели — морось на севере и побережье",
+     "easy": "На этой неделе жара немного спадает.\nВ понедельник будет чуть прохладнее.\nВо вторник температура будет обычной для сезона.\nВ среду возможен небольшой дождь на севере.\nВозможен небольшой дождь и на побережье.\nСтоит взять тонкую куртку.",
+     "medium": "Согласно прогнозу ynet, в ближайшие дни температуры продолжают снижаться. В воскресенье они все еще были немного выше нормы для сезона, главным образом в горах, и была переменная облачность. В понедельник, сегодня, ожидается еще одно небольшое понижение. Во вторник температуры будут обычными для сезона в большинстве регионов. В среду ожидается еще одно небольшое понижение, главным образом в горах и во внутренних районах страны, и на севере и вдоль прибрежной равнины возможны морось или слабые местные дожди. Стоит взять тонкую куртку и проверить прогноз перед выходом на прогулку. В прогнозе не упоминались ветры.",
+     "hard": "Согласно прогнозу сайта ynet от воскресенья, 22 ноября, температуры в стране продолжают снижаться в ближайшие дни. В воскресенье они все еще были немного выше нормы для сезона, главным образом в горах, и была переменная облачность, с моросью или слабым местным дождем главным образом на севере. В понедельник, сегодня, ожидается еще одно небольшое понижение температуры. Во вторник, согласно прогнозу, значения тепла будут обычными для сезона в большинстве регионов. В среду ожидается снова небольшое понижение, главным образом в горах и во внутренних районах страны, и на севере и вдоль прибрежной равнины возможны морось или слабые местные дожди. В прогнозе не упоминались ветры. Конец ноября — это обычно время, когда начинается сезон дождей, и стоит подготовиться к изменениям в одежде: тонкая куртка, а в дни, когда ожидается морось, также зонт. Это постепенное изменение: понижение растягивается на несколько дней и не наступает разом. Важно помнить, что прогноз на несколько дней вперед может измениться, поэтому за ним стоит следить. Как всегда, стоит проверить обновленный прогноз на сайте Метеорологической службы или на новостных сайтах перед выходом в путь. Примечание: рекомендации по поводу одежды являются общим советом и не входят в состав самого прогноза.",
+     "questions": [
+      "Каким выглядит зима, которую вы помните из детства? Расскажите.",
+      "Что вы думаете: какая погода для вас самая приятная и почему?",
+      "Что вы любите делать в дождливые дни?"
+     ],
+     "qlevels": {
+      "easy": [
+       "Будет ли во вторник температура обычной для сезона?",
+       "Возможен ли в среду небольшой дождь?",
+       "Будет ли сегодня немного прохладнее, чем вчера?"
+      ],
+      "medium": [
+       "Что ожидается во вторник?",
+       "В каких районах возможен небольшой дождь в среду?",
+       "В какой день ожидается, что температуры будут обычными для сезона?"
+      ],
+      "hard": [
+       "Какая была ситуация с температурами в воскресенье и в каких районах главным образом?",
+       "Что ожидается в среду и в каких районах?",
+       "Упоминался ли ветер в прогнозе?"
+      ]
+     }
+    },
+    "es": {
+     "title": "El tiempo esta semana: descenso en las temperaturas, y a mediados de semana llovizna en el norte y en la costa",
+     "easy": "Esta semana el calor baja un poco.\nEl lunes estará un poco más fresco.\nEl martes las temperaturas serán normales para la temporada.\nEl miércoles es posible lluvia ligera en el norte.\nEs posible lluvia ligera también en la costa.\nConviene llevar un abrigo delgado.",
+     "medium": "Según un pronóstico de ynet, en los próximos días las temperaturas continúan bajando. El domingo todavía eran un poco más altas de lo habitual para la temporada, principalmente en las montañas, y estuvo parcialmente nublado. El lunes, hoy, se espera un ligero descenso adicional. El martes las temperaturas serán normales para la temporada en la mayoría de las zonas. El miércoles se espera un ligero descenso adicional, principalmente en las montañas y en el interior del país, y serán posibles lloviznas hasta lluvias locales ligeras en el norte y a lo largo de la planicie costera. Conviene llevar un abrigo delgado, y revisar el pronóstico antes de salir de excursión. En el pronóstico no se señalaron vientos.",
+     "hard": "Según un pronóstico del sitio ynet del domingo 22 de noviembre, las temperaturas en el país continúan bajando en los próximos días. El domingo todavía eran un poco más altas de lo habitual para la temporada, principalmente en las montañas, y estuvo parcialmente nublado, con llovizna hasta lluvia local ligera principalmente en el norte. El lunes, hoy, se espera un ligero descenso adicional en las temperaturas. El martes, según el pronóstico, los grados de calor serán normales para la temporada en la mayoría de las zonas. El miércoles se espera nuevamente un ligero descenso, principalmente en las montañas y en el interior del país, y serán posibles lloviznas hasta lluvias locales ligeras en el norte y a lo largo de la planicie costera. En el pronóstico no se señalaron vientos. El final de noviembre es por lo general un tiempo en el que comienza la temporada de lluvias, y conviene prepararse para los cambios en la vestimenta: un abrigo delgado, y en los días en que se espera llovizna también un paraguas. Este es un cambio gradual: el descenso se extiende a lo largo de varios días y no llega de golpe. Es importante recordar que el pronóstico para varios días hacia adelante puede cambiar, por lo que conviene seguirlo. Como siempre, conviene revisar el pronóstico actualizado en el sitio del Servicio Meteorológico o en los sitios de noticias antes de salir en camino. Nota: Las recomendaciones respecto a la vestimenta son un consejo general y no son parte del pronóstico en sí.",
+     "questions": [
+      "¿Cómo es el invierno que recuerdan de la infancia? Cuéntennos.",
+      "¿Qué opinan: qué clima les resulta más agradable y por qué?",
+      "¿Qué les gusta hacer en los días lluviosos?"
+     ],
+     "qlevels": {
+      "easy": [
+       "¿El martes las temperaturas son normales para la temporada?",
+       "¿El miércoles es posible lluvia ligera?",
+       "¿Hoy estará un poco más fresco que ayer?"
+      ],
+      "medium": [
+       "¿Qué se espera para el martes?",
+       "¿En qué zonas es posible una lluvia ligera el miércoles?",
+       "¿En qué día se espera que las temperaturas sean normales para la temporada?"
+      ],
+      "hard": [
+       "¿Cómo estuvo la situación de las temperaturas el domingo y principalmente en qué zonas?",
+       "¿Qué se espera para el miércoles y en qué zonas?",
+       "¿Se mencionaron vientos en el pronóstico?"
+      ]
+     }
+    }
+   },
+   "audio": [
+    "easy",
+    "medium",
+    "hard"
+   ],
+   "audioTr": {
+    "en": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "ru": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "es": [
+     "easy",
+     "medium",
+     "hard"
+    ]
+   }
   },
   {
    "id": "2026-11-22-israel-1",
@@ -212,9 +536,9 @@
       ]
      },
      "questions": [
-      "Вы летали когда-нибудь в Соединенные Штаты или за границу? Расскажите, как это было.",
-      "Каково, по вашему мнению, преимущество сотрудничества двух авиакомпаний? Обоснуйте.",
-      "В какой пункт назначения в мире вы хотели бы полететь, если бы могли выбирать?"
+      "Вы когда-нибудь летали в Соединенные Штаты или за границу? Расскажите, как это было.",
+      "Каково, по вашему мнению, преимущество того, что две авиакомпании сотрудничают? Обоснуйте.",
+      "В какое направление в мире вы хотели бы полететь, если бы могли выбрать?"
      ]
     },
     "es": {
@@ -240,9 +564,9 @@
       ]
      },
      "questions": [
-      "¿Han volado alguna vez a Estados Unidos o al extranjero? Cuéntennos cómo fue.",
+      "¿Alguna vez volaron a Estados Unidos o al extranjero? Cuéntennos cómo fue.",
       "¿Cuál creen que es la ventaja de que dos aerolíneas cooperen? Expliquen su respuesta.",
-      "¿A qué destino del mundo les gustaría volar si pudieran elegir?"
+      "¿A qué destino en el mundo les gustaría volar si pudieran elegir?"
      ]
     }
    },
@@ -359,9 +683,9 @@
       ]
      },
      "questions": [
-      "Вы покупали когда-нибудь товар и замечали в нем проблему? Расскажите, что произошло.",
-      "Почему, по вашему мнению, важно, чтобы компании быстро объявляли отзыв продукции? Обоснуйте.",
-      "Что вы проверяете на упаковке перед покупкой продукта питания?"
+      "Вы когда-нибудь покупали товар и замечали, что в нем есть проблема? Расскажите, что произошло.",
+      "Почему, по вашему мнению, важно, чтобы компании быстро объявляли от отзыве продукции? Обоснуйте.",
+      "Что вы проверяете на упаковке перед покупкой пищевого продукта?"
      ]
     },
     "es": {
@@ -387,9 +711,9 @@
       ]
      },
      "questions": [
-      "¿Han comprado alguna vez un producto y se han dado cuenta de que tiene un problema? Cuéntennos qué pasó.",
-      "¿Por qué creen que es importante que las empresas emitan una retirada de productos rápidamente? Expliquen su respuesta.",
-      "¿Qué revisan en el envase antes de comprar un producto alimenticio?"
+      "¿Alguna vez compraron un producto y notaron que tenía un problema? Cuéntennos qué pasó.",
+      "¿Por qué creen que es importante que las empresas publiquen un retiro del mercado rápidamente? Expliquen su respuesta.",
+      "¿Qué revisan en el empaque antes de comprar un producto alimenticio?"
      ]
     }
    },
@@ -479,8 +803,8 @@
      },
      "questions": [
       "Would you dare to ride in such an air taxi? Explain.",
-      "How do you think cities will change in the future due to new transportation?",
-      "What is the most special trip you have taken in your life?"
+      "How do you think cities will change in the future because of new transportation?",
+      "What is the most special trip you took in your life?"
      ]
     },
     "ru": {
@@ -506,8 +830,8 @@
       ]
      },
      "questions": [
-      "Вы бы осмелились проехать на таком воздушном такси? Обоснуйте.",
-      "Как, по вашему мнению, изменятся города в будущем из-за нового транспорта?",
+      "Рискнули бы вы проехаться в таком аэротакси? Обоснуйте.",
+      "Как, по вашему мнению, города изменятся в будущем из-за нового транспорта?",
       "Какая поездка была самой особенной в вашей жизни?"
      ]
     },
@@ -536,7 +860,7 @@
      "questions": [
       "¿Se atreverían a viajar en un taxi aéreo así? Expliquen su respuesta.",
       "¿Cómo creen que cambiarán las ciudades en el futuro debido al nuevo transporte?",
-      "¿Cuál es el viaje más especial que han hecho en sus vidas?"
+      "¿Cuál es el viaje más especial que hicieron en sus vidas?"
      ]
     }
    },
@@ -654,7 +978,7 @@
      },
      "questions": [
       "Какая осенняя погода вам нравится? Расскажите.",
-      "Почему, по вашему мнению, важно проверять прогноз погоды перед выходом из дома? Обоснуйте.",
+      "Почему, по вашему мнению, важно проверять прогноз перед выходом из дома? Обоснуйте.",
       "Какую одежду вы носите в такой осенний день?"
      ]
     },
@@ -682,7 +1006,7 @@
      },
      "questions": [
       "¿Cómo les gusta el clima en otoño? Cuéntennos.",
-      "¿Por qué creen que es importante consultar el pronóstico antes de salir de casa? Expliquen su respuesta.",
+      "¿Por qué creen que es importante revisar el pronóstico antes de salir de casa? Expliquen su respuesta.",
       "¿Qué ropa se ponen en un día otoñal así?"
      ]
     }
@@ -772,9 +1096,9 @@
       ]
      },
      "questions": [
-      "What is your favorite sufganiya? Tell us which filling you like.",
+      "What is your favorite sufganiyah? Tell us which filling you like.",
       "Why do you think sufganiyot prices vary so much from store to store? Explain.",
-      "How did you celebrate Hanukkah when you were young?"
+      "How would you celebrate Hanukkah when you were young?"
      ]
     },
     "ru": {
@@ -801,8 +1125,8 @@
      },
      "questions": [
       "Какая ваша любимая пончик-суфгания? Расскажите, какую начинку вы любите.",
-      "Почему, по вашему мнению, цены на суфганиот так сильно различаются в разных магазинах? Обоснуйте.",
-      "Как вы праздновали Хануку, когда были молоды?"
+      "Почему, по вашему мнению, цены на пончики-суфганиот так сильно отличаются от магазина к магазину? Обоснуйте.",
+      "Как вы праздновали Хануку, когда были молодыми?"
      ]
     },
     "es": {
@@ -828,9 +1152,9 @@
       ]
      },
      "questions": [
-      "¿Cuál es su sufganiá favorita? Cuéntennos qué relleno les gusta.",
-      "¿Por qué creen que los precios de las sufganiot varían tanto de una tienda a otra? Expliquen su respuesta.",
-      "¿Cómo celebraban Janucá cuando eran jóvenes?"
+      "¿Cuál es su sufganiyá favorita? Cuéntennos qué relleno les gusta.",
+      "¿Por qué creen que los precios de las sufganiot son tan diferentes entre una tienda y otra? Expliquen su respuesta.",
+      "¿Cómo celebrarían Janucá cuando eran jóvenes?"
      ]
     }
    },
@@ -923,8 +1247,8 @@
       ]
      },
      "questions": [
-      "Do you like traveling in nature? Tell us about a place you loved.",
-      "What do you think can be done so that a trip is pleasant even when there are many people? Explain.",
+      "Do you like to travel in nature? Tell us about a place you loved.",
+      "What do you think can be done so that the trip is pleasant even when there are many people? Explain.",
       "Which place in the country would you like to visit again?"
      ]
     },
@@ -952,7 +1276,7 @@
      },
      "questions": [
       "Вы любите путешествовать на природе? Расскажите о месте, которое вам понравилось.",
-      "Что, по вашему мнению, можно сделать, чтобы поездка была приятной даже при большом скоплении людей? Обоснуйте.",
+      "Что, по вашему мнению, можно сделать, чтобы прогулка была приятной даже тогда, когда много людей? Обоснуйте.",
       "Какое место в стране вы хотели бы посетить снова?"
      ]
     },
@@ -979,8 +1303,8 @@
       ]
      },
      "questions": [
-      "¿Les gusta pasear por la naturaleza? Cuéntennos sobre un lugar que les haya gustado.",
-      "¿Qué creen que se puede hacer para que el paseo sea agradable incluso cuando hay mucha gente? Expliquen su respuesta.",
+      "¿Les gusta viajar por la naturaleza? Cuéntennos sobre un lugar que les haya gustado.",
+      "¿Qué creen que se puede hacer para que el viaje sea agradable también cuando hay mucha gente? Expliquen su respuesta.",
       "¿Qué lugar del país les gustaría visitar de nuevo?"
      ]
     }
@@ -1070,8 +1394,8 @@
       ]
      },
      "questions": [
-      "How did you celebrate Hanukkah when you were children? Tell us about a beloved memory.",
-      "Which Hanukkah food do you like the most: a sufganiya or a leviva? Explain.",
+      "How did you celebrate Hanukkah when you were children? Tell us about a favorite memory.",
+      "Which Hanukkah food do you like the most: a sufganiyah or a levibah? Explain.",
       "What is the meaning of light and candles in your eyes?"
      ]
     },
@@ -1099,7 +1423,7 @@
      },
      "questions": [
       "Как вы праздновали Хануку, когда были детьми? Расскажите о любимом воспоминании.",
-      "какое ханукальное блюдо вы любите больше всего: суфганию или латке? Обоснуйте.",
+      "Какое ханукальное блюдо вы любите больше всего: суфганию или латке? Обоснуйте.",
       "Каково значение света и свечей по вашему мнению?"
      ]
     },
@@ -1126,9 +1450,9 @@
       ]
      },
      "questions": [
-      "¿Cómo celebraban Janucá cuando eran niños? Cuéntennos sobre un recuerdo querido.",
-      "¿Qué comida de Janucá les gusta más: la sufganiá o la levibá? Expliquen su respuesta.",
-      "¿Cuál es el significado de la luz y de las velas en su opinión?"
+      "¿Cómo celebraron Janucá cuando eran niños? Cuéntennos sobre un recuerdo querido.",
+      "¿Qué comida de Janucá les gusta más: sufganiyá o levivá? Expliquen su respuesta.",
+      "¿Cuál es el significado de la luz y de las velas según ustedes?"
      ]
     }
    },
@@ -1217,9 +1541,9 @@
       ]
      },
      "questions": [
-      "Have you ever visited Morocco or met someone who comes from there? Tell us.",
+      "Have you ever visited Morocco or known someone who comes from there? Tell us.",
       "What do you think is important to check before buying a flight ticket? Explain.",
-      "What do you like most to see or eat when traveling abroad?"
+      "What do you like to see or eat the most when traveling abroad?"
      ]
     },
     "ru": {
@@ -1245,9 +1569,9 @@
       ]
      },
      "questions": [
-      "Вы бывали когда-нибудь в Марокко или знали кого-то оттуда? Расскажите.",
+      "Вы когда-нибудь бывали в Марокко или знали кого-то, кто родом оттуда? Расскажите.",
       "Что, по вашему мнению, важно проверить перед покупкой авиабилета? Обоснуйте.",
-      "Что вы больше всего любите видеть или есть во время путешествий за границей?"
+      "Что вы больше всего любите видеть или есть, когда путешествуете за границей?"
      ]
     },
     "es": {
@@ -1273,7 +1597,7 @@
       ]
      },
      "questions": [
-      "¿Han visitado alguna vez Marruecos o han conocido a alguien que sea de allí? Cuéntennos.",
+      "¿Alguna vez visitaron Marruecos o conocieron a alguien que sea de allí? Cuéntennos.",
       "¿Qué creen que es importante revisar antes de comprar un billete de avión? Expliquen su respuesta.",
       "¿Qué es lo que más les gusta ver o comer cuando viajan al extranjero?"
      ]
@@ -1373,9 +1697,9 @@
       ]
      },
      "questions": [
-      "Have you ever witnessed a reconciliation between neighbors or family members? Tell us.",
+      "Have you ever witnessed reconciliation between neighbors or family members? Tell us.",
       "What do you think helps two sides in a conflict make peace? Explain.",
-      "How can fights between neighbors and families be prevented?"
+      "How can arguments between neighbors and between families be prevented?"
      ]
     },
     "ru": {
@@ -1401,8 +1725,8 @@
       ]
      },
      "questions": [
-      "Вы были когда-нибудь свидетелем примирения между соседями или членами семьи? Расскажите.",
-      "Что, по вашему мнению, помогает двум сторонам конфликта заключить мир? Обоснуйте.",
+      "Вы когда-нибудь были свидетелями примирения между соседями или членами семьи? Расскажите.",
+      "Что, по вашему мнению, помогает двум сторонам в конфликте заключить мир? Обоснуйте.",
       "Как можно предотвратить ссоры между соседями и семьями?"
      ]
     },
@@ -1429,9 +1753,9 @@
       ]
      },
      "questions": [
-      "¿Han sido testigos alguna vez de una reconciliación entre vecinos o familiares? Cuéntennos.",
-      "¿Qué creen que ayuda a dos partes en un conflicto a hacer la paz? Expliquen su respuesta.",
-      "¿Cómo se pueden prevenir las peleas entre vecinos y entre familias?"
+      "¿Alguna vez fueron testigos de una reconciliación entre vecinos o familiares? Cuéntennos.",
+      "¿Qué creen que ayuda a dos partes en un conflicto a hacer las paces? Expliquen su respuesta.",
+      "¿Cómo se puede prevenir peleas entre vecinos y entre familias?"
      ]
     }
    },
@@ -1524,7 +1848,7 @@
       ]
      },
      "questions": [
-      "Have you ever engaged in sports? In which branch and for how long?",
+      "Have you ever engaged in sports? In which sport and for how long?",
       "What do you think gives an athlete the strength to persevere? Explain.",
       "Which Israeli athlete do you remember, and why?"
      ]
@@ -1552,8 +1876,8 @@
       ]
      },
      "questions": [
-      "Вы занимались когда-нибудь спортом? Каким видом и как долго?",
-      "Что, по вашему мнению, дает спортсмену силы продолжать? Обоснуйте.",
+      "Вы когда-нибудь занимались спортом? В каком виде спорта и как долго?",
+      "Что, по вашему мнению, дает спортсмену силы упорствовать? Обоснуйте.",
       "Какой израильский спортсмен вам запомнился и почему?"
      ]
     },
@@ -1580,7 +1904,7 @@
       ]
      },
      "questions": [
-      "¿Han practicado algún deporte alguna vez? ¿En qué disciplina y cuánto tiempo?",
+      "¿Alguna vez practicaron deporte? ¿En qué disciplina y durante cuánto tiempo?",
       "¿Qué creen que le da a un deportista la fuerza para perseverar? Expliquen su respuesta.",
       "¿Qué deportista israelí recuerdan y por qué?"
      ]
@@ -1874,7 +2198,7 @@
       ]
      },
      "questions": [
-      "¿Cuál es su estación del año favorita? Cuéntennos.",
+      "¿Qué estación del año les gusta? Cuéntennos.",
       "¿Creen que hace demasiado calor para la temporada? Expliquen su respuesta.",
       "¿Qué les gusta hacer en un día agradable a finales de noviembre?"
      ]
@@ -1993,9 +2317,9 @@
       ]
      },
      "questions": [
-      "Вы помните, кто был председателем Кнессета, когда вы были молоды?",
-      "По вашему мнению, какова должна быть роль председателя Кнессета? Обоснуйте.",
-      "Что бы вы хотели спросить у него, если бы встретили его?"
+      "Помните ли вы, кто был председателем Кнессета, когда вы были молоды?",
+      "Как вы думаете, какой должна быть роль председателя Кнессета? Обоснуйте.",
+      "Что бы вы хотели у него спросить, если бы встретили его?"
      ]
     },
     "es": {
@@ -2023,7 +2347,7 @@
      "questions": [
       "¿Recuerdan quién era el presidente de la Knéset cuando eran jóvenes?",
       "En su opinión, ¿cuál debe ser el papel del presidente de la Knéset? Expliquen su respuesta.",
-      "¿Qué les gustaría preguntarle si lo conocieran?"
+      "¿Qué les gustaría preguntarle si lo hubieran conocido?"
      ]
     }
    },
@@ -2112,9 +2436,9 @@
       ]
      },
      "questions": [
-      "Do you make a habit of following Knesset news?",
+      "Do you make a point of following Knesset news?",
       "How do you think it is possible to converse with respect when there is a disagreement? Explain.",
-      "Which politician's speech has stayed in your memory?"
+      "Which politician's speech remains in your memory?"
      ]
     },
     "ru": {
@@ -2140,9 +2464,9 @@
       ]
      },
      "questions": [
-      "Вы следите за новостями Кнессета?",
-      "Как вы думаете, как можно разговаривать с уважением при наличии разногласий? Обоснуйте.",
-      "Какая речь политика осталась у вас в памяти?"
+      "Следите ли вы обычно за новостями Кнессета?",
+      "Как вы думаете, как можно разговаривать с уважением, когда есть разногласия? Обоснуйте.",
+      "Какая речь политика запомнилась вам?"
      ]
     },
     "es": {
@@ -2170,7 +2494,7 @@
      "questions": [
       "¿Suelen seguir las noticias de la Knéset?",
       "¿Cómo creen que se puede hablar con respeto cuando hay un desacuerdo? Expliquen su respuesta.",
-      "¿Qué discurso de un político se les ha quedado grabado en la memoria?"
+      "¿Qué discurso de un político recuerdan?"
      ]
     }
    },
@@ -2260,8 +2584,8 @@
      },
      "questions": [
       "Have you ever visited a distant country? What do you remember from there?",
-      "What do you think is important when leaders meet? Explain.",
-      "Which visit by a foreign leader to the country do you remember?"
+      "What in your opinion is important when leaders meet? Explain.",
+      "Which visit of a foreign leader to the country do you remember?"
      ]
     },
     "ru": {
@@ -2287,9 +2611,9 @@
       ]
      },
      "questions": [
-      "Вы бывали когда-нибудь в далекой стране? Что вам оттуда запомнилось?",
+      "Бывали ли вы когда-нибудь в далекой стране? Что вам оттуда запомнилось?",
       "Что, по вашему мнению, важно, когда лидеры встречаются? Обоснуйте.",
-      "Какой визит иностранного лидера в страну вам запомнился?"
+      "Какой визит зарубежного лидера в страну вам запомнился?"
      ]
     },
     "es": {
@@ -2316,7 +2640,7 @@
      },
      "questions": [
       "¿Han visitado alguna vez un país lejano? ¿Qué recuerdan de allí?",
-      "¿Qué creen que es importante cuando los líderes se encuentran? Justifiquen.",
+      "¿Qué creen que es importante cuando los líderes se reúnen? Expliquen su respuesta.",
       "¿Qué visita de un líder extranjero al país recuerdan?"
      ]
     }
@@ -2554,8 +2878,8 @@
      },
      "questions": [
       "Do you support a football team? Which one?",
-      "What do you think a good coach needs in order to succeed? Explain.",
-      "Which football match do you remember in particular?"
+      "What in your opinion does a good coach need in order to succeed? Explain.",
+      "Which football match do you remember especially?"
      ]
     },
     "ru": {
@@ -2582,7 +2906,7 @@
      },
      "questions": [
       "Болеете ли вы за какую-нибудь футбольную команду? Какую?",
-      "Что, по вашему мнению, нужно хорошему тренеру, чтобы преуспеть? Обоснуйте.",
+      "Что, по вашему мнению, нужно хорошему тренеру для успеха? Обоснуйте.",
       "Какой футбольный матч запомнился вам особенно?"
      ]
     },
@@ -2609,8 +2933,8 @@
       ]
      },
      "questions": [
-      "¿Son simpatizantes de algún equipo de fútbol? ¿Cuál?",
-      "¿Qué creen que necesita un buen entrenador para tener éxito? Justifiquen.",
+      "¿Son aficionados a algún equipo de fútbol? ¿Cuál?",
+      "¿Qué creen que necesita un buen entrenador para tener éxito? Expliquen su respuesta.",
       "¿Qué partido de fútbol recuerdan especialmente?"
      ]
     }
@@ -2700,9 +3024,9 @@
       ]
      },
      "questions": [
-      "Do you make sure to have routine health check-ups? Tell us about it.",
-      "What do you think is important in order to encourage people to get checked? Explain.",
-      "Which medical advancement impressed you in your life?"
+      "Do you make sure to undergo routine health check-ups? Tell about it.",
+      "What in your opinion is important in order to encourage people to get checked? Explain.",
+      "Which advancement in medicine impressed you in your life?"
      ]
     },
     "ru": {
@@ -2728,8 +3052,8 @@
       ]
      },
      "questions": [
-      "Соблюдаете ли вы режим регулярных медицинских проверок? Расскажите.",
-      "Что, по вашему мнению, важно, чтобы побудить людей проверяться? Обоснуйте.",
+      "Соблюдаете ли вы плановые медицинские проверки? Расскажите.",
+      "Что, по вашему мнению, важно, чтобы поощрять людей проходить обследования? Обоснуйте.",
       "Какой прогресс в медицине впечатлил вас в вашей жизни?"
      ]
     },
@@ -2756,9 +3080,9 @@
       ]
      },
      "questions": [
-      "¿Se cuidan de hacer chequeos médicos rutinarios? Cuéntennos.",
-      "¿Qué creen que es importante para animar a la gente a hacerse chequeos? Justifiquen.",
-      "¿Qué avance en la medicina les impresionó en sus vidas?"
+      "¿Se cuidan de hacer revisiones médicas rutinarias? Cuéntennos.",
+      "¿Qué creen que es importante para animar a la gente a hacerse revisiones? Expliquen su respuesta.",
+      "¿Qué avance en la medicina les impresionó en su vida?"
      ]
     }
    },
@@ -2851,8 +3175,8 @@
       ]
      },
      "questions": [
-      "Have you ever encountered a glitch in an app or on your phone? What did you do?",
-      "What do you think is important to do when an app stops working? Explain.",
+      "Have you ever encountered a malfunction in an application or on the phone? What did you do?",
+      "What in your opinion is important to do when an application stops working? Explain.",
       "Which digital service do you use the most?"
      ]
     },
@@ -2879,7 +3203,7 @@
       ]
      },
      "questions": [
-      "Сталкивались ли вы когда-нибудь с неполадкой в приложении или в телефоне? Что вы сделали?",
+      "Сталкивались ли вы когда-нибудь с неполадкой в приложении или телефоне? Что вы сделали?",
       "Что, по вашему мнению, важно делать, когда приложение перестает работать? Обоснуйте.",
       "Каким цифровым сервисом вы пользуетесь больше всего?"
      ]
@@ -2908,7 +3232,7 @@
      },
      "questions": [
       "¿Se han encontrado alguna vez con un fallo en una aplicación o en el teléfono? ¿Qué hicieron?",
-      "¿Qué creen que es importante hacer cuando una aplicación deja de funcionar? Justifiquen.",
+      "¿Qué creen que es importante hacer cuando una aplicación deja de funcionar? Expliquen su respuesta.",
       "¿Qué servicio digital usan más?"
      ]
     }
@@ -2999,7 +3323,7 @@
      },
      "questions": [
       "Which historical or sporting event do you remember from your days?",
-      "What do you think makes a speech memorable for years to come? Explain.",
+      "What in your opinion makes a speech memorable over years? Explain.",
       "Who was your favorite athlete in your youth?"
      ]
     },
@@ -3026,8 +3350,8 @@
       ]
      },
      "questions": [
-      "Какое историческое или спортивное событие вы помните со времен своей юности?",
-      "Что, по вашему мнению, делает речь запоминающейся на долгие годы? Обоснуйте.",
+      "Какое историческое или спортивное событие вы помните из своих дней?",
+      "Что, по вашему мнению, делает речь памятной на долгие годы? Обоснуйте.",
       "Кто был вашим любимым спортсменом в молодости?"
      ]
     },
@@ -3054,8 +3378,8 @@
       ]
      },
      "questions": [
-      "¿Qué evento histórico o deportivo recuerdan de sus días?",
-      "¿Qué creen que hace que un discurso sea recordado a lo largo de los años? Justifiquen.",
+      "¿Qué acontecimiento histórico o deportivo recuerdan de sus días?",
+      "¿Qué creen que hace que un discurso sea recordado a lo largo de los años? Expliquen su respuesta.",
       "¿Quién era su deportista favorito en su juventud?"
      ]
     }
@@ -3150,9 +3474,9 @@
       ]
      },
      "questions": [
-      "What strategy game do you like, chess, backgammon or another?",
+      "Which strategy game do you like, chess, backgammon or another?",
       "Do you remember how you received news from the world in your youth?",
-      "What do you think is needed to establish something completely new? Explain."
+      "What in your opinion is needed in order to establish something completely new? Explain."
      ]
     },
     "ru": {
@@ -3179,7 +3503,7 @@
      },
      "questions": [
       "Какую логическую игру вы любите: шахматы, нарды или другую?",
-      "Помните ли вы, как в молодости получали новости из мира?",
+      "Помните ли вы, как в молодости вы получали мировые новости?",
       "Что, по вашему мнению, нужно, чтобы создать что-то совершенно новое? Обоснуйте."
      ]
     },
@@ -3206,9 +3530,9 @@
       ]
      },
      "questions": [
-      "¿Qué juego de ingenio les gusta, ajedrez, backgammon u otro?",
+      "¿Qué juego de estrategia les gusta, ajedrez, backgammon u otro?",
       "¿Recuerdan cómo recibían noticias del mundo en su juventud?",
-      "¿Qué creen que hace falta para crear algo completamente nuevo? Justifiquen."
+      "¿Qué creen que se necesita para crear algo completamente nuevo? Expliquen su respuesta."
      ]
     }
    },
@@ -3297,8 +3621,8 @@
       ]
      },
      "questions": [
-      "Have you ever flown on a flight that was delayed? Tell us how it was.",
-      "What do you think is important to do so that old equipment does not break down? Explain.",
+      "Have you ever flown on a flight that was delayed? Tell how it was.",
+      "What in your opinion is important to do so that old equipment does not break down? Explain.",
       "Which means of transportation do you like the most, and why?"
      ]
     },
@@ -3354,7 +3678,7 @@
      },
      "questions": [
       "¿Han volado alguna vez en un vuelo que se retrasó? Cuéntennos cómo fue.",
-      "¿Qué creen que es importante hacer para que el equipo viejo no se estropee? Justifiquen.",
+      "¿Qué creen que es importante hacer para que el equipo viejo no se estropee? Expliquen su respuesta.",
       "¿Qué medio de transporte les gusta más y por qué?"
      ]
     }
@@ -3448,8 +3772,8 @@
       ]
      },
      "questions": [
-      "Have you ever visited the Knesset, or seen it on television? Tell us about it.",
-      "What do you think is important for the Speaker of the Knesset to have? Explain.",
+      "Have you ever visited the Knesset, or seen it on television? Tell about it.",
+      "What in your opinion is important for the Speaker of the Knesset to have? Explain.",
       "Which important vote do you remember from the past?"
      ]
     },
@@ -3477,7 +3801,7 @@
      },
      "questions": [
       "Бывали ли вы когда-нибудь в Кнессете или видели его по телевизору? Расскажите.",
-      "Что, по вашему мнению, важно иметь председателю Кнессета? Обоснуйте.",
+      "Что, по вашему мнению, должно быть у председателя Кнессета? Обоснуйте.",
       "Какое важное голосование вам запомнилось из прошлого?"
      ]
     },
@@ -3504,8 +3828,8 @@
       ]
      },
      "questions": [
-      "¿Han visitado alguna vez la Knéset o la han visto en la televisión? Cuéntennos.",
-      "¿Qué creen que es importante que tenga el presidente de la Knéset? Justifiquen.",
+      "¿Han visitado alguna vez la Knéset o la han visto por televisión? Cuéntennos.",
+      "¿Qué creen que es importante que tenga el presidente de la Knéset? Expliquen su respuesta.",
       "¿Qué votación importante recuerdan del pasado?"
      ]
     }
@@ -3595,9 +3919,9 @@
       ]
      },
      "questions": [
-      "What weather do you like the most, and why?",
+      "Which weather do you like the most, and why?",
       "What do you remember from the first rain of winter when you were young?",
-      "What do you think is worthwhile to wear on such a day? Explain."
+      "What in your opinion is worthwhile to wear on such a day? Explain."
      ]
     },
     "ru": {
@@ -3651,9 +3975,9 @@
       ]
      },
      "questions": [
-      "¿Qué clima les gusta más y por qué?",
+      "¿Qué tiempo les gusta más y por qué?",
       "¿Qué recuerdan de la primera lluvia del invierno cuando eran jóvenes?",
-      "¿Qué creen que conviene ponerse en un día así? Justifiquen."
+      "¿Qué creen que conviene ponerse en un día así? Expliquen su respuesta."
      ]
     }
    },
@@ -3743,8 +4067,8 @@
      },
      "questions": [
       "Have you ever traveled by train? Where to and when?",
-      "What do you remember from a train ride in your childhood?",
-      "What do you think is an advantage of a train over a bus? Explain."
+      "What do you remember from a train journey in your childhood?",
+      "What in your opinion is an advantage of a train over a bus? Explain."
      ]
     },
     "ru": {
@@ -3771,7 +4095,7 @@
      },
      "questions": [
       "Ездили ли вы когда-нибудь на поезде? Куда и когда?",
-      "Что вы помните о поездке на поезде в вашем детстве?",
+      "Что вы помните о поездке на поезде в своем детстве?",
       "В чем, по вашему мнению, преимущество поезда перед автобусом? Обоснуйте."
      ]
     },
@@ -3800,7 +4124,7 @@
      "questions": [
       "¿Han viajado alguna vez en tren? ¿A dónde y cuándo?",
       "¿Qué recuerdan de un viaje en tren en su infancia?",
-      "¿Qué creen que es una ventaja del tren sobre el autobús? Justifiquen."
+      "¿Qué creen que es una ventaja del tren sobre el autobús? Expliquen su respuesta."
      ]
     }
    },
@@ -3889,9 +4213,9 @@
       ]
      },
      "questions": [
-      "Which big movie do you remember from your youth, and where did you see it?",
+      "Which great movie do you remember from your youth, and where did you see it?",
       "What do you remember from the cinema in your childhood?",
-      "What do you think makes a movie famous for years to come? Explain."
+      "What in your opinion makes a movie famous over years? Explain."
      ]
     },
     "ru": {
@@ -3918,7 +4242,7 @@
      },
      "questions": [
       "Какой великий фильм вы помните с молодости и где вы его видели?",
-      "Что вы помните о кино в вашем детстве?",
+      "Что вы помните о кино в своем детстве?",
       "Что, по вашему мнению, делает фильм знаменитым на долгие годы? Обоснуйте."
      ]
     },
@@ -3947,7 +4271,7 @@
      "questions": [
       "¿Qué gran película recuerdan de su juventud y dónde la vieron?",
       "¿Qué recuerdan del cine en su infancia?",
-      "¿Qué creen que hace que una película sea famosa a lo largo de los años? Justifiquen."
+      "¿Qué creen que hace que una película sea famosa a lo largo de los años? Expliquen su respuesta."
      ]
     }
    },
@@ -4187,9 +4511,9 @@
       ]
      },
      "questions": [
-      "Have you ever gone on a trip or camping? Tell us how it was.",
-      "What do you think is important to take with us on a trip in nature? Explain.",
-      "What memory do you have from a trip with family or friends?"
+      "Have you ever gone on a trip or camping? Tell how it was.",
+      "What do you think is important to take with us on a trip into nature? Explain.",
+      "What memory do you have of a trip with family or friends?"
      ]
     },
     "ru": {
@@ -4215,9 +4539,9 @@
       ]
      },
      "questions": [
-      "Отправлялись ли вы когда-нибудь в поход или на кемпинг? Расскажите, как это было.",
-      "Что, по вашему мнению, важно брать с собой в поход на природу? Обоснуйте.",
-      "Какое воспоминание у вас есть о поездке с семьей или друзьями?"
+      "Отправлялись ли вы когда-нибудь в поездку или на кемпинг? Расскажите, как это было.",
+      "Что, по вашему мнению, важно взять с собой на прогулку на природу? Обоснуйте.",
+      "Какое у вас есть воспоминание о поездке с семьей или друзьями?"
      ]
     },
     "es": {
@@ -4243,8 +4567,8 @@
       ]
      },
      "questions": [
-      "¿Han salido alguna vez de excursión o de campamento? Cuéntennos cómo fue.",
-      "¿Qué creen que es importante llevar con nosotros a una excursión por la naturaleza? Justifiquen.",
+      "¿Han salido alguna vez de excursión o de camping? Cuéntennos cómo fue.",
+      "¿Qué creen que es importante llevar con nosotros a un viaje a la naturaleza? Expliquen su respuesta.",
       "¿Qué recuerdo tienen de un viaje con la familia o los amigos?"
      ]
     }
@@ -4335,8 +4659,8 @@
      },
      "questions": [
       "Do you follow legal news? What do you like to read in the newspaper?",
-      "What memory do you have from visiting a court or from an old legal newspaper?",
-      "In your opinion, why is it important for all sides to present their position in court? Explain."
+      "What memory do you have of visiting a court or from an old law newspaper?",
+      "In your opinion, why is it important that all sides present their position in court? Explain."
      ]
     },
     "ru": {
@@ -4362,9 +4686,9 @@
       ]
      },
      "questions": [
-      "Следите ли вы за новостями судебной системы? Что вы любите читать в газете?",
-      "Какое воспоминание у вас есть о посещении суда или о старой судебной газете?",
-      "По вашему мнению, почему важно, чтобы все стороны представили свою позицию в суде? Обоснуйте."
+      "Следите ли вы за судебными новостями? Что вы любите читать в газете?",
+      "Какое у вас есть воспоминание о посещении суда или о старой судебной газете?",
+      "Как вы думаете, почему важно, чтобы все стороны изложили свою позицию в суде? Обоснуйте."
      ]
     },
     "es": {
@@ -4391,8 +4715,8 @@
      },
      "questions": [
       "¿Siguen las noticias judiciales? ¿Qué les gusta leer en el periódico?",
-      "¿Qué recuerdo tienen de una visita a un tribunal o de un periódico jurídico viejo?",
-      "En su opinión, ¿por qué es importante que todas las partes expongan su postura en el tribunal? Justifiquen."
+      "¿Qué recuerdo tienen de una visita a un tribunal o de un periódico judicial antiguo?",
+      "En su opinión, ¿por qué es importante que todas las partes expongan su postura en el tribunal? Expliquen su respuesta."
      ]
     }
    },
@@ -4485,9 +4809,9 @@
       ]
      },
      "questions": [
-      "How do you feel when you have to wait a long time for a doctor's appointment? Tell us about it.",
-      "What memory do you have from a hospital or from a health maintenance organization clinic in your youth?",
-      "In your opinion, what is important for the director of a public body to know? Explain."
+      "How do you feel when you have to wait a long time for a doctor's appointment? Tell us.",
+      "What memory do you have of a hospital or a health maintenance organization in your youth?",
+      "In your opinion, what is important for the head of a public body to know? Explain."
      ]
     },
     "ru": {
@@ -4514,8 +4838,8 @@
      },
      "questions": [
       "Что вы чувствуете, когда приходится долго ждать очереди к врачу? Расскажите.",
-      "Какое воспоминание у вас есть о больнице или поликлинике в вашей молодости?",
-      "По вашему мнению, что важно знать руководителю общественного органа? Обоснуйте."
+      "Какое у вас есть воспоминание о больнице или поликлинике в вашей молодости?",
+      "Как вы думаете, что важно знать руководителю общественного органа? Обоснуйте."
      ]
     },
     "es": {
@@ -4541,8 +4865,8 @@
       ]
      },
      "questions": [
-      "¿Cómo se sienten cuando hay que esperar mucho tiempo para una cita médica? Cuéntennos.",
-      "¿Qué recuerdo tienen de un hospital o de un centro de salud en su juventud?",
+      "¿Cómo se sienten cuando hay que esperar mucho tiempo para una cita con el médico? Cuéntennos.",
+      "¿Qué recuerdo tienen de un hospital o de una caja de salud en su juventud?",
       "En su opinión, ¿qué es importante que sepa el director de un organismo público? Expliquen su respuesta."
      ]
     }
@@ -4787,8 +5111,8 @@
       ]
      },
      "questions": [
-      "What historical event do you remember from your childhood? Tell about it.",
-      "Would you like to fly into space or sail in a large canal? Why?",
+      "What historical event do you remember from your childhood? Tell us.",
+      "Would you want to fly into space or sail through a large canal? Why?",
       "In your opinion, which invention changed daily life the most? Explain."
      ]
     },
@@ -4817,7 +5141,7 @@
      "questions": [
       "Какое историческое событие вы помните из своего детства? Расскажите.",
       "Хотели бы вы полететь в космос или поплавать по большому каналу? Почему?",
-      "По вашему мнению, какое изобретение больше всего изменило повседневную жизнь? Обоснуйте."
+      "Как вы думаете, какое изобретение больше всего изменило повседневную жизнь? Обоснуйте."
      ]
     },
     "es": {
@@ -4943,7 +5267,7 @@
      },
      "questions": [
       "Which movie or director did you love in your youth?",
-      "Did you ever have a motorcycle, scooter or bicycle? Tell about it.",
+      "Did you ever have a motorcycle, scooter or bicycle? Tell us.",
       "In your opinion, what causes a person to start their own company? Explain."
      ]
     },
@@ -4972,7 +5296,7 @@
      "questions": [
       "Какой фильм или какого режиссера вы любили в молодости?",
       "Был ли у вас когда-нибудь мотоцикл, скутер или велосипед? Расскажите.",
-      "По вашему мнению, что побуждает человека основать собственную компанию? Обоснуйте."
+      "Как вы думаете, что заставляет человека создать собственную компанию? Обоснуйте."
      ]
     },
     "es": {
@@ -4999,7 +5323,7 @@
      },
      "questions": [
       "¿Qué película o director les gustaba en su juventud?",
-      "¿Tuvieron alguna vez una motocicleta, un motocarro o una bicicleta? Cuéntennos.",
+      "¿Tuvieron alguna vez una motocicleta, un ciclomotor o una bicicleta? Cuéntennos.",
       "En su opinión, ¿qué lleva a una persona a fundar su propia empresa? Expliquen su respuesta."
      ]
     }
@@ -5089,7 +5413,7 @@
       ]
      },
      "questions": [
-      "Which book did you particularly love in your life? Tell about it.",
+      "Which book did you particularly love in your life? Tell us about it.",
       "What memory do you have of a library or a bookstore?",
       "In your opinion, what makes a good book stay in the heart for many years? Explain."
      ]
@@ -5118,8 +5442,8 @@
      },
      "questions": [
       "Какую книгу вы особенно любили в своей жизни? Расскажите о ней.",
-      "Какое воспоминание связано у вас с библиотекой или книжным магазином?",
-      "По вашему мнению, что заставляет хорошую книгу оставаться в сердце долгие годы? Обоснуйте."
+      "Какое у вас есть воспоминание о библиотеке или книжном магазине?",
+      "Как вы думаете, что заставляет хорошую книгу оставаться в сердце на многие годы? Обоснуйте."
      ]
     },
     "es": {
