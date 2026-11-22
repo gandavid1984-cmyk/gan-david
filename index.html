@@ -650,6 +650,7 @@ const hhmm=dt=>new Intl.DateTimeFormat("he-IL",{hour:"2-digit",minute:"2-digit",
 function candleMinutes(lat,lon){ const near=(la,lo,km)=>Math.hypot((lat-la)*111,(lon-lo)*95)<km; return near(31.78,35.22,15)?40: near(32.82,34.99,15)?30: 20; }
 async function fillShabbat(){
   const el=$("#shab"), p=shabP; if(!el||!p||!p.shabbat) return;
+  const onFriday=new Date().getDay()===5;   // זמני כניסה/יציאת שבת מוצגים רק ביום שישי; שם הפרשה מתמלא תמיד
   let pl=null; try{ pl=JSON.parse(localStorage.getItem("akt-place")||"null"); }catch(e){}
   const lat=pl&&pl.lat!=null? pl.lat : 31.778, lon=pl&&pl.lat!=null? pl.lon : 35.235, name=pl&&pl.name? pl.name : "ירושלים";
   const [y,m,d]=p.shabbat.split("-").map(Number), off=candleMinutes(lat,lon);
@@ -663,10 +664,12 @@ async function fillShabbat(){
       if(cd&&hv&&String(cd.date).startsWith(p.shabbat.slice(0,8))&&String(hv.date).slice(0,10)===p.shabbat){ c=new Date(cd.date); h=new Date(hv.date); } }
   }catch(e){}
   { const pn=$("#parashaName"); if(pn&&pn.textContent==="…") pn.textContent="לא הצלחתי לטעון את שם הפרשה"; }
+  if(!onFriday) return;
   if(!c||!h){
     const ss=solarEvent(fy,fm,fd,lat,lon,90.833,false), nt=solarEvent(y,m-1,d,lat,lon,98.5,false);
     if(!ss||!nt) return; c=new Date(ss.getTime()-off*60000); h=nt; approx=true;
   }
+  if(!onFriday) return;
   el.innerHTML=`<span class="lbl">🕯️ כניסת שבת:</span> ${hhmm(c)} · <span class="lbl">יציאת שבת:</span> ${hhmm(h)} <span style="color:#777;font-size:.85em">(${esc(name)}${approx?", בקירוב":""})</span>`; el.style.display="";
 }
 function showToday(){
