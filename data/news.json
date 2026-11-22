@@ -49,11 +49,6 @@
      "easy": "Israir company signed a new agreement.\nThe agreement is with American Airlines.\nThis is an American airline.\nThe agreement concerns flights between Israel and the United States.\nAmerican Airlines plans to return to Tel Aviv in 2027.",
      "medium": "The Israeli airline Israir signed a cooperation agreement with the American airline American Airlines. The purpose of the agreement is to improve flight options between Israel and the United States. The partnership will develop in stages, and will give advantages to passengers even before American Airlines returns to fly to Tel Aviv, as it plans to do in 2027. In the first stage, Israir will put its code on American's direct flights between Tel Aviv and John F. Kennedy Airport in New York. Such cooperation between airlines is intended to make it easier for passengers to reach more destinations.",
      "hard": "The Israeli airline Israir signed an agreement to establish a new commercial partnership with the American airline American Airlines. According to the report on ynet, the purpose of the partnership is to improve flight options between Israel and the United States. The partnership will develop in stages, and will give advantages to customers even before the planned return of American Airlines to Tel Aviv, which is expected in 2027. In the first stage, Israir is expected to place its code on American's direct flights between John F. Kennedy Airport in New York and Tel Aviv. Code-sharing means that the same flight is also sold under the name of the second company. In addition, the two companies will work to implement an interline type agreement, which will grant Israir customers access to American's destination network across the United States, Canada, Latin America and the Caribbean, starting from New York. Prices and exact dates for launching the stages were not detailed in the article. The article is short, and prices, the number of flights or exact dates for launching each stage were not detailed in it. Many airlines in the world cooperate this way, in order to offer passengers more destinations without every airline flying everywhere. For Israeli passengers, such cooperation can make planning a long trip in the United States or Canada easier, because it is possible to reach additional destinations via one airport. This is a general assessment and not a detail from the article.",
-     "questions": [
-      "Have you ever flown to the United States or abroad? Tell us how it was.",
-      "In your opinion, what is the advantage of two airlines cooperating? Explain.",
-      "To which destination in the world would you like to fly if you could choose?"
-     ],
      "qlevels": {
       "easy": [
        "Did Israir sign an agreement with American Airlines?",
@@ -70,18 +65,18 @@
        "To which areas in the world will Israir passengers be able to get according to the interline agreement?",
        "From which airport will the route to these destinations start?"
       ]
-     }
+     },
+     "questions": [
+      "Have you ever flown to the United States or abroad? Tell us how it was.",
+      "In your opinion, what is the advantage of two airlines cooperating? Explain.",
+      "Which destination in the world would you like to fly to if you could choose?"
+     ]
     },
     "ru": {
      "title": "Исраэйр и Американ Эйрлайнс подписали соглашение о сотрудничестве",
      "easy": "Компания Исраэйр подписала новое соглашение.\nСоглашение заключено с Американ Эйрлайнс.\nЭто американская авиакомпания.\nСоглашение касается полетов между Израилем и Соединенными Штатами.\nАмерикан Эйрлайнс планирует вернуться в Тель-Авив в 2027 году.",
      "medium": "Израильская авиакомпания Исраэйр подписала соглашение о сотрудничестве с американской авиакомпанией Американ Эйрлайнс. Цель соглашения — улучшить возможности полетов между Израилем и Соединенными Штатами. Партнерство будет развиваться поэтапно и предоставит преимущества пассажирам еще до того, как Американ Эйрлайнс вернется к полетам в Тель-Авив, как она планирует сделать в 2027 году. На первом этапе Исраэйр добавит свой код на прямые рейсы Американ между Тель-Авивом и аэропортом имени Джона Кеннеди в Нью-Йорке. Такое сотрудничество между авиакомпаниями призвано облегчить пассажирам возможность добраться до большего числа пунктов назначения.",
      "hard": "Израильская авиакомпания Исраэйр подписала соглашение о создании нового коммерческого партнерства с американской авиакомпанией Американ Эйрлайнс. Согласно сообщению на ynet, цель партнерства — улучшить возможности полетов между Израилем и Соединенными Штатами. Партнерство будет развиваться поэтапно и предоставит преимущества клиентам еще до запланированного возвращения Американ Эйрлайнс в Тель-Авив, которое ожидается в 2027 году. На первом этапе Исраэйр планирует разместить свой код на прямых рейсах Американ между аэропортом имени Джона Кеннеди в Нью-Йорке и Тель-Авивом. Совмещение кодов означает, что один и тот же рейс продается также под именем второй компании. Кроме того, обе компании будут работать над внедрением интерлайн-соглашения, которое предоставит клиентам Исраэйр доступ к сети направлений Американ по всему миру в Соединенных Штатах, Канаде, Латинской Америке и Карибском бассейне, начиная с Нью-Йорка. В статье не указаны цены и точные сроки запуска этапов. Статья короткая, и в ней не указаны цены, количество рейсов или точные сроки запуска каждого этапа. Многие авиакомпании в мире сотрудничают подобным образом, чтобы предлагать пассажирам больше направлений без того, чтобы каждая компания летала везде. Для израильских пассажиров такое сотрудничество может облегчить планирование длительной поездки в Соединенные Штаты или Канаду, так как можно добраться до дополнительных пунктов назначения через один порт. Это общая оценка, а не деталь из статьи.",
-     "questions": [
-      "Вы когда-нибудь летали в Соединенные Штаты или за границу? Расскажите, как все прошло.",
-      "Каковы, по вашему мнению, преимущества сотрудничества двух авиакомпаний? Обоснуйте.",
-      "В какой пункт назначения в мире вы хотели бы полететь, если бы могли выбирать?"
-     ],
      "qlevels": {
       "easy": [
        "Подписала ли Исраэйр соглашение с Американ Эйрлайнс?",
@@ -98,18 +93,18 @@
        "В какие регионы мира пассажиры Исраэйр смогут добираться согласно интерлайн-соглашению?",
        "Из какого аэропорта начнется маршрут в эти пункты назначения?"
       ]
-     }
+     },
+     "questions": [
+      "Вы летали когда-нибудь в Соединенные Штаты или за границу? Расскажите, как это было.",
+      "Как вы думаете, в чем преимущество того, что две авиакомпании сотрудничают? Обоснуйте.",
+      "В какое направление в мире вы хотели бы полететь, если бы могли выбирать?"
+     ]
     },
     "es": {
      "title": "Israir y American Airlines firmaron un acuerdo de cooperación",
      "easy": "La compañía Israir firmó un nuevo acuerdo.\nEl acuerdo es con American Airlines.\nEsta es una aerolínea estadounidense.\nEl acuerdo se refiere a los vuelos entre Israel y Estados Unidos.\nAmerican Airlines planea regresar a Tel Aviv en 2027.",
      "medium": "La aerolínea israelí Israir firmó un acuerdo de cooperación con la aerolínea estadounidense American Airlines. El objetivo del acuerdo es mejorar las opciones para volar entre Israel y Estados Unidos. La asociación se desarrollará por etapas y dará ventajas a los pasajeros incluso antes de que American Airlines regrese a volar a Tel Aviv, tal como planea hacerlo en 2027. En la primera etapa, Israir incluirá su código en los vuelos directos de American entre Tel Aviv y el Aeropuerto John F. Kennedy en Nueva York. Una cooperación de este tipo entre aerolíneas tiene como destino facilitar a los pasajeros llegar a más destinos.",
      "hard": "La aerolínea israelí Israir firmó un acuerdo para establecer una nueva asociación comercial con la aerolínea estadounidense American Airlines. Según el reporte en ynet, el objetivo de la asociación es mejorar las opciones para volar entre Israel y Estados Unidos. La asociación se desarrollará por etapas y dará ventajas a los clientes incluso antes del regreso planeado de American Airlines a Tel Aviv, el cual se espera en 2027. En la primera etapa, se espera que Israir coloque su código en los vuelos directos de American entre el Aeropuerto John F. Kennedy en Nueva York y Tel Aviv. Compartir código significa que el mismo vuelo también se vende bajo el nombre de la segunda compañía. Además, ambas compañías trabajarán para implementar un acuerdo de tipo interlineal, que otorgará a los clientes de Israir acceso a la red de destinos de American en todo Estados Unidos, Canadá, América Latina y el Caribe, a partir de Nueva York. En la nota no se detallaron precios ni fechas exactas para el lanzamiento de las etapas. La nota es corta y en ella no se detallaron precios, el número de vuelos o fechas exactas para el lanzamiento de cada etapa. Muchas aerolíneas en el mundo cooperan de esta manera para ofrecer a los pasajeros más destinos sin que cada compañía vuele a todas partes. Para los pasajeros israelíes, una cooperación de este tipo puede facilitar la planificación de un viaje largo en Estados Unidos o Canadá, porque es posible llegar a destinos adicionales a través de un solo puerto. Esta es una estimación general y no un detalle de la nota.",
-     "questions": [
-      "¿Alguna vez ustedes volaron a Estados Unidos o al extranjero? Cuenten cómo fue.",
-      "¿Cuál creen ustedes que es la ventaja de que dos aerolíneas cooperen? Expliquen.",
-      "¿A qué destino en el mundo les gustaría volar a ustedes si pudieran elegir?"
-     ],
      "qlevels": {
       "easy": [
        "¿Israir firmó un acuerdo con American Airlines?",
@@ -126,7 +121,12 @@
        "¿A qué regiones del mundo podrán llegar los pasajeros de Israir según el acuerdo interlineal?",
        "¿Desde qué aeropuerto comenzará la ruta hacia estos destinos?"
       ]
-     }
+     },
+     "questions": [
+      "¿Han volado alguna vez a Estados Unidos o al extranjero? Cuéntennos cómo fue.",
+      "¿Cuál creen que es la ventaja de que dos aerolíneas cooperen? Expliquen su respuesta.",
+      "¿A qué destino del mundo les gustaría volar si pudieran elegir?"
+     ]
     }
    },
    "audio": [
@@ -196,11 +196,6 @@
      "easy": "The Ministry of Health published an important announcement.\nThis concerns a jar of cucumbers in brine.\nThe manufacturer is Kevutzat Yavne.\nA consumer found a small metal object inside it.\nWhoever bought the product – should not eat it.",
      "medium": "The Ministry of Health announced a recall, meaning the return of a product from the stores, for the product \"Cucumbers in Brine\" by Kevutzat Yavne Food Products. The reason: a consumer complained that they found a foreign metal body in one product. The company calls to return the product. This is \"Cucumbers in Brine 7-9 large\", production code 26-142, produced between 11:00 and 13:00. Whoever purchased the product is requested not to eat it, and to contact the company's customer service. It is worth checking the code on the packaging. It is recommended to also ask family members and neighbors if they bought the product. This is how one can avoid a risk to health and teeth.",
      "hard": "The Ministry of Health announced a recall, meaning a call to return a product, for the \"Cucumbers in Salt\" product by the Kvutzat Yavne Food Products group. According to the article on ynet, the announcement was published following a consumer complaint, who found a foreign metal object in a single product. The article does not detail what the foreign object was. The company is calling to return the product, out of commitment to consumer safety. Product details: \"Cucumbers in Salt, 7-9 large\", barcode 7290002057352, production code 26-142, and production hours 11:00 to 13:00. The product is best before month 5 in the year 2029. Whoever purchased the product is asked not to consume it, and to contact the company's customer service by email at olivemaz@kv-yavne.co.il. The article did not detail the supermarket chains where the product was sold. The article noted that the recall was made following a complaint about a single product, and the quantity of products sold was not detailed. When a recall is published, it is important to check the code on the packaging and compare it to the published details, because sometimes the problem concerns only a single batch. Whoever found the product at home should act according to the published guidelines. The Ministry of Health publishes recall notices on its website, and it is possible to check there later as well.",
-     "questions": [
-      "Have you ever bought a product and noticed there is a problem with it? Tell what happened.",
-      "Why do you think it is important that companies publish a recall quickly? Explain.",
-      "What do you check on the packaging before you buy a food product?"
-     ],
      "qlevels": {
       "easy": [
        "Is Kvutzat Yavne the manufacturer of the product?",
@@ -217,18 +212,18 @@
        "Until when is the product best for use?",
        "What are those who purchased the product asked to do?"
       ]
-     }
+     },
+     "questions": [
+      "Have you ever bought a product and noticed that there was a problem with it? Tell us what happened.",
+      "Why do you think it is important for companies to issue a recall quickly? Explain.",
+      "What do you check on the packaging before buying a food product?"
+     ]
     },
     "ru": {
      "title": "Министерство здравоохранения: от отзыв «соленых огурцов» группы Явне",
      "easy": "Министерство здравоохранения опубликовало важное сообщение.\nРечь идет о банке соленых огурцов.\nПроизводитель — группа Явне.\nПотребитель нашел в ней небольшой металлический предмет.\nТот, кто купил этот продукт, пусть не ест его.",
      "medium": "Министерство здравоохранения объявило об отзыве, то есть возврате продукта из магазинов, продукта «соленые огурцы» пищевой группы Явне. Причина: потребитель пожаловался, что нашел инородное металлическое тело в одном продукте. Компания призывает вернуть продукт. Речь идет о продукте «соленые огурцы 7-9 большие», код производства 26-142, произведенном в часы с 11:00 до 13:00. Тот, кто приобрел продукт, просит не есть его и обратиться в службу поддержки клиентов компании. Стоит проверить код на упаковке. Рекомендуется также спросить членов семьи и соседей, не покупали ли они этот продукт. Так можно избежать риска для здоровья и зубов.",
      "hard": "Министерство здравоохранения объявило об отзыве, то есть призыве вернуть продукт, на продукт «Соленые огурцы» группы компаний «Квуцат Явне моцрей мазон». Согласно статье на ynet, объявление было опубликовано после жалобы потребителя, который нашел в отдельном продукте инородное металлическое тело. В статье не уточняется, каким было инородное тело. Компания призывает вернуть продукт из соображений заботы о безопасности потребителей. Детали продукта: «Соленые огурцы, 7-9 крупные», штрихкод 7290002057352, код производства 26-142, и часы производства с 11:00 до 13:00. Продукт годен к употреблению до 5 месяца 2029 года. Тех, кто приобрел продукт, просят не употреблять его в пищу и обратиться в службу поддержки клиентов компании по электронной почте olivemaz@kv-yavne.co.il. В статье не были перечислены торговые сети, в которых продавался продукт. В статье отмечалось, что отзыв производится в связи с жалобой на отдельный продукт, и не было указано количество проданных продуктов. Когда публикуется отзыв, важно проверить код на упаковке и сравнить его с опубликованными данными, так как иногда проблема касается только одной партии. Тем, кто нашел продукт дома, стоит действовать в соответствии с опубликованными инструкциями. Министерство здравоохранения публикует сообщения об отзыве на своем сайте, и там можно будет проверить это и в дальнейшем.",
-     "questions": [
-      "Покупали ли вы когда-нибудь продукт и замечали ли, что с ним что-то не так? Расскажите, что произошло.",
-      "Почему, по вашему мнению, компаниям важно быстро объявлять об отзыве? Обоснуйте.",
-      "Что вы проверяете на упаковке перед тем, как купить пищевой продукт?"
-     ],
      "qlevels": {
       "easy": [
        "Является ли «Квуцат Явне» производителем продукта?",
@@ -245,18 +240,18 @@
        "До какого времени продукт годен к употреблению?",
        "Что просят сделать тех, кто приобрел продукт?"
       ]
-     }
+     },
+     "questions": [
+      "Вы покупали когда-нибудь товар и замечали, что в нем есть проблема? Расскажите, что произошло.",
+      "Почему, по вашему мнению, важно, чтобы компании быстро объявляли рекол? Обоснуйте.",
+      "Что вы проверяете на упаковке перед тем, как купить продукт питания?"
+     ]
     },
     "es": {
      "title": "Ministerio de Salud: retirada del mercado de \"pepinos en salmuera\" del grupo Yavne",
      "easy": "El Ministerio de Salud publicó un aviso importante.\nSe trata de un frasco de pepinos en salmuera.\nEl fabricante es el grupo Yavne.\nUn consumidor encontró dentro un pequeño objeto de metal.\nQuien haya comprado el producto, que no lo coma.",
      "medium": "El Ministerio de Salud anunció una retirada del mercado, es decir, la devolución de un producto de las tiendas, para el producto \"pepinos en salmuera\" de Grupo Yavne Productos Alimenticios. La razón: un consumidor se quejó de haber encontrado un cuerpo extraño de metal en un producto. La compañía llama a devolver el producto. Se trata de \"pepinos en salmuera 7-9 grandes\", código de producción 26-142, que fue fabricado entre las 11:00 y las 13:00. Se le pide a quien haya adquirido el producto que no lo coma y que se comunique con el servicio al cliente de la compañía. Conviene revisar el código en el empaque. Se recomienda preguntar también a los familiares y vecinos si compraron el producto. Así es posible evitar un riesgo para la salud y los dientes.",
      "hard": "El Ministerio de Salud anunció un retiro, es decir, un llamado a devolver un producto, para el producto \"Pepinos en salmuera\" de Kvutzat Yavne Food Products. Según el artículo en ynet, el anuncio se publicó a raíz de la queja de un consumidor que encontró un cuerpo extraño de metal en un producto individual. El artículo no detalla cuál era el cuerpo extraño. La empresa llama a devolver el producto, debido a su compromiso con la seguridad de los consumidores. Detalles del producto: \"Pepinos en salmuera, 7-9 grande\", código de barras 7290002057352, código de producción 26-142, y horas de producción de 11:00 a 13:00. El producto es preferible para su uso hasta el mes 5 del año 2029. Se le pide a quien haya adquirido el producto que no lo consuma y que se comunique con el servicio de atención al cliente de la empresa por correo electrónico a olivemaz@kv-yavne.co.il. En el artículo no se detallaron las cadenas de marketing en las que se vendió el producto. En el artículo se señaló que el retiro se realizó a raíz de una queja sobre un producto individual, y no se detalló la cantidad de productos vendidos. Cuando se publica un retiro, es importante verificar el código en el empaque y compararlo con los detalles publicados, porque a veces el problema afecta solo a un lote. A quien haya encontrado el producto en casa le conviene actuar según las instrucciones publicadas. El Ministerio de Salud publica anuncios de retiro en su sitio web, y es posible verificar allí también más adelante.",
-     "questions": [
-      "¿Alguna vez compraron un producto y notaron que tenía un problema? Cuéntennos qué pasó.",
-      "¿Por qué creen que es importante que las empresas publiquen un retiro rápidamente? Expliquen su respuesta.",
-      "¿Qué revisan en el empaque antes de comprar un producto alimenticio?"
-     ],
      "qlevels": {
       "easy": [
        "¿Es Kvutzat Yavne la fabricante del producto?",
@@ -273,7 +268,12 @@
        "¿Hasta cuándo es preferible el uso del producto?",
        "¿Qué se les pide hacer a quienes compraron el producto?"
       ]
-     }
+     },
+     "questions": [
+      "¿Han comprado alguna vez un producto y se han dado cuenta de que tiene un problema? Cuéntennos qué pasó.",
+      "¿Por qué creen que es importante que las empresas anuncien un retiro del mercado rápidamente? Expliquen su respuesta.",
+      "¿Qué revisan en el envase antes de comprar un producto alimenticio?"
+     ]
     }
    },
    "audio": [
@@ -343,11 +343,6 @@
      "easy": "In Dubai, a new station was established.\nThis is a station for air taxis.\nThese taxis are small electric planes.\nThe trip from the marina to the airport will last less than 10 minutes.\nBy car, the trip takes 35 minutes.",
      "medium": "In the city of Dubai in the United Arab Emirates, a station for air taxis was established, and it is the first of its kind. The company Skyports, which operates take-off and landing stations, received official approval to operate it in the marina area. The taxis are small electric planes that take off and land vertically, like a helicopter. Joby company will operate the flights. The trip from the marina to Dubai International Airport is expected to last less than 10 minutes, instead of 35 minutes by car. Commercial activity will begin only after all approvals are received. The article does not state a price or a date. The idea is to save time traveling in a city crowded with roads.",
      "hard": "In Dubai in the United Arab Emirates, the first air taxi station was established, as reported on ynet following the official UAE news agency. Skyports company, which specializes in the establishment and operation of vertical take-off and landing stations, received official approval to operate the station in the marina area. The station will operate opposite a main station that will be established near the international airport, and later stations are planned in the city center and the Palm Jumeirah island. Joby company will operate the flights in electric aircraft for vertical take-off and landing, without pollutant emissions, with low noise and at a speed of up to about 320 km/h. The trip between the two stations is planned to take less than 10 minutes, compared to 35 minutes by car. The station was built for about 84 thousand passengers a year. In February 2026, Uber company announced it will launch a service in Dubai called \"Uber Air\". Commercial activity will begin only after receiving all approvals, and the article does not state a price or a date. Joby company's test flights in Dubai have been taking place since June 2025, and in November 2025 the first flight between two points in the Emirates was completed. Ahmed Bahrozyan, a senior official at the Roads and Transport Authority in Dubai, said that the new site integrates with public transportation and provides seamless connectivity between key destinations. The station is planned for up to about 21 thousand landings a year.",
-     "questions": [
-      "Would you dare to ride in such an air taxi? Explain.",
-      "How do you think cities will change in the future due to new transportation?",
-      "What is the most special trip you have traveled on in your life?"
-     ],
      "qlevels": {
       "easy": [
        "Is the new station located in Dubai?",
@@ -364,18 +359,18 @@
        "How many passengers per year is the station built for?",
        "In which month did Uber announce the \"Uber Air\" service?"
       ]
-     }
+     },
+     "questions": [
+      "Would you dare to ride in an air taxi like this? Explain.",
+      "How do you think cities will change in the future because of new transportation?",
+      "What is the most special trip you have ever taken in your life?"
+     ]
     },
     "ru": {
      "title": "В Дубае создана первая станция воздушных такси",
      "easy": "В Дубае создана новая станция.\nЭто станция для воздушных такси.\nЭти такси — маленькие электрические самолеты.\nПоездка от Марины до аэропорта займет меньше 10 минут.\nНа автомобиле поездка занимает 35 минут.",
      "medium": "В городе Дубай в Объединенных Арабских Эмиратах была создана станция для воздушных такси, и она стала первой в своем роде. Компания Skyports, которая управляет станциями взлета и посадки, получила официальное разрешение на ее эксплуатацию в районе Марина. Такси представляют собой небольшие электрические самолеты, которые взлетают и садятся вертикально, как вертолет. Полеты будет выполнять компания Joby. Поездка от Марины до Международного аэропорта Дубая, как ожидается, займет менее 10 минут вместо 35 минут на автомобиле. Коммерческая деятельность начнется только после того, как будут получены все разрешения. В статье не указываются цена или сроки. Идея заключается в том, чтобы сэкономить время в поездке по городу с перегруженными дорогами.",
      "hard": "В Дубае в Объединенных Арабских Эмиратах была создана первая станция воздушных такси, как сообщалось на ynet со ссылкой на официальное информационное агентство Эмиратов. Компания Skyports, специализирующаяся на создании и эксплуатации станций для вертикальных взлета и посадки, получила официальное разрешение на эксплуатацию станции в районе Марина. Стация будет работать напротив главной станции, которая будет создана рядом с Международным аэропортом, а в дальнейшем планируются станции в центре города и на острове Палм-Джумейра. Компания Joby будет выполнять полеты на воздушных судах с электрическим вертикальным взлетом и посадкой, без выбросов загрязняющих веществ, с низким уровнем шума и со скоростью до примерно 320 км/ч. Поездка между двумя станциями запланирована длительностью менее 10 минут по сравнению с 35 минутами на машине. Станция построена примерно для 84 тысяч пассажиров в год. В феврале 2026 года компания Uber объявила, что запустит в Дубае услугу под названием «Убер Эйр». Коммерческая деятельность начнется только после получения всех разрешений, и в статье не указаны цена или дата. Испытательные полеты компании Joby в Дубае проводятся с июня 2025 года, а в ноябре 2025 года был завершен первый полет между двумя точками в Эмиратах. Ахмед Бахрузян, высокопоставленный сотрудник Управления дорог и транспорта в Дубае, сказал, что новый объект интегрируется с общественным транспортом и обеспечивает бесшовную связь между ключевыми пунктами назначения. Станция рассчитана на количество до примерно 21 тысячи посадок в год.",
-     "questions": [
-      "Осмелились ли бы вы проехать на таком воздушном такси? Обоснуйте.",
-      "Как, по вашему мнению, изменятся города в будущем из-за нового транспорта?",
-      "Какая поездка была самой необычной в вашей жизни?"
-     ],
      "qlevels": {
       "easy": [
        "Находится ли новая станция в Дубае?",
@@ -392,18 +387,18 @@
        "На какое количество пассажиров в год рассчитана станция?",
        "В каком месяце компания Uber объявила об услуге «Убер Эйр»?"
       ]
-     }
+     },
+     "questions": [
+      "Вы бы осмелились проехать в таком аэротакси? Обоснуйте.",
+      "Как, по вашему мнению, изменятся города в будущем из-за нового транспорта?",
+      "Какая поездка была самой особенной, в которой вы ездили в своей жизни?"
+     ]
     },
     "es": {
      "title": "Se estableció en Dubái la primera estación de taxis aéreos",
      "easy": "Se estableció una nueva estación en Dubái.\nEsta es una estación para taxis aéreos.\nEstos taxis son pequeños aviones eléctricos.\nEl viaje desde la marina hasta el aeropuerto durará menos de 10 minutos.\nEn vehículo, el viaje toma 35 minutos.",
      "medium": "En la ciudad de Dubái, en los Emiratos Árabes Unidos, se estableció una estación de taxis aéreos, y es la primera de su tipo. La empresa Skyports, que opera estaciones de despegue y aterrizaje, recibió aprobación oficial para operarla en la zona de la marina. Los taxis son pequeños aviones eléctricos que despegan y aterrizan verticalmente, como un helicóptero. La empresa Joby operará los vuelos. Se espera que el viaje desde la marina hasta el Aeropuerto Internacional de Dubái dure menos de 10 minutos, en lugar de 35 minutos en vehículo. La actividad comercial comenzará solo después de que se obtengan todas las aprobaciones. El artículo no menciona precio ni fecha. La idea es ahorrar tiempo en un viaje en una ciudad congestionada de tráfico.",
      "hard": "En Dubái, en los Emiratos Árabes Unidos, se estableció la primera estación de taxis aéreos, según se informó en ynet a raíz de la agencia de noticias oficial de los Emiratos. La empresa Skyports, especializada en la creación y operación de estaciones de despegue y aterrizaje verticales, recibió la aprobación oficial para operar la estación en la zona de la marina. La estación operará frente a una estación principal que se establecerá cerca del aeropuerto internacional, y más adelante se planean estaciones en el centro de la ciudad y en la isla Palm Jumeirah. La empresa Joby operará los vuelos en aeronaves eléctricas de despegue y aterrizaje vertical, sin emisiones contaminantes, con bajo ruido y a una velocidad de hasta unos 320 km/h. El viaje entre las dos estaciones está planeado para tomar menos de 10 minutos, en comparación con 35 minutos en vehículo. La estación fue construida para unos 84 mil pasajeros al año. En febrero de 2026, la empresa Uber anunció que lanzaría en Dubái un servicio llamado \"Uber Air\". La actividad comercial comenzará solo después de recibir todas las aprobaciones, y el artículo no menciona precio ni fecha. Los vuelos de prueba de la empresa Joby en Dubái se llevan a cabo desde junio de 2025, y en noviembre de 2025 se completó el primer vuelo entre dos puntos en los Emiratos. Ahmed Bahrozyan, un alto cargo de la Autoridad de Carreteras y Transportes en Dubái, dijo que el nuevo sitio se integra con el transporte público y proporciona una conectividad fluida entre destinos principales. La estación está planeada para hasta unos 21 mil aterrizajes al año.",
-     "questions": [
-      "¿Se atreverían a viajar en un taxi aéreo así? Expliquen su respuesta.",
-      "¿Cómo creen que cambiarán las ciudades en el futuro debido al nuevo transporte?",
-      "¿Cuál ha sido el viaje más especial en el que han viajado en sus vidas?"
-     ],
      "qlevels": {
       "easy": [
        "¿Está la nueva estación en Dubái?",
@@ -420,7 +415,12 @@
        "¿Para cuántos pasajeros al año está construida la estación?",
        "¿En qué mes anunció Uber el servicio \"Uber Air\"?"
       ]
-     }
+     },
+     "questions": [
+      "¿Se atreverían a viajar en un taxi aéreo así? Expliquen su respuesta.",
+      "¿Cómo creen que cambiarán las ciudades en el futuro debido al nuevo transporte?",
+      "¿Cuál es el viaje más especial que han hecho en sus vidas?"
+     ]
     }
    },
    "audio": [
@@ -490,11 +490,6 @@
      "easy": "On Sunday it is partly cloudy.\nStill warmer than usual for the season.\nIn the north, a light drizzle is possible.\nOn Tuesday it will start to get a bit cooler.\nIn Jerusalem, temperatures are 15 to 22 degrees.",
      "medium": "In recent days it has been warmer in Israel than usual for November. On Sunday, partly cloudy weather is expected. Temperatures will drop slightly, but will remain higher than usual for the season. In the north of the country, a light drizzle is possible. On Monday, no major change is expected, and on Tuesday a slight drop in temperatures will begin. On Saturday in Jerusalem, temperature ranges of 15 to 22 degrees were measured, in Tel Aviv 15 to 24, and in Haifa 18 to 23. Eilat was the warmest, 20 to 31 degrees. It is advisable to dress in layers: relatively cool in the morning, and pleasant at noon.",
      "hard": "According to the ynet forecast from Saturday, temperatures in the country are higher than usual for the season in most areas. On Saturday it was partly cloudy to cloudy, and at night partly cloudy. On Sunday, partly cloudy weather is expected. Temperatures will drop slightly, but will remain higher than usual, and a light drizzle is expected, mainly in the north of the country. On Monday, no significant change is expected, and on Tuesday another slight drop will begin. Temperature ranges reported for Saturday: in Jerusalem 15 to 22 degrees, in Tel Aviv 15 to 24, in Haifa 18 to 23, in Safed 15 to 21, in Tiberias 17 to 26, in Be'er Sheva 14 to 26, in Mitzpe Ramon 16 to 26, and in Eilat 20 to 31. The article did not include warnings or information about the state of the sea. Anyone going out for a trip should take water, a hat, and an extra layer of clothing for the evening. In November, temperatures are usually lower, and therefore the days this year are relatively pleasant and warm. However, at the beginning of next week a slight cooling and drizzles are expected, so it is advisable to follow the forecast updates before heading out. Anyone traveling or heading north can prepare for a light drizzle.",
-     "questions": [
-      "How do you like the weather in the fall? Tell us.",
-      "Why do you think it is important to check the forecast before leaving the house? Explain.",
-      "What clothes do you wear on such a fall day?"
-     ],
      "qlevels": {
       "easy": [
        "Is partly cloudy weather expected on Sunday?",
@@ -511,18 +506,18 @@
        "What is the temperature range in Be'er Sheva?",
        "What did not appear in the article regarding the sea?"
       ]
-     }
+     },
+     "questions": [
+      "How do you like the weather in the fall? Tell us.",
+      "Why do you think it is important to check the forecast before leaving home? Explain.",
+      "What clothes do you wear on an autumn day like this?"
+     ]
     },
     "ru": {
      "title": "Погода: теплее обычного для этого сезона, а в начале недели немного прохладнее",
      "easy": "В воскресенье переменная облачность.\nВсе еще теплее обычного для этого сезона.\nНа севере возможен небольшой моросящий дождь.\nВо вторник начнет немного холодать.\nВ Иерусалим температура от 15 до 22 градусов.",
      "medium": "В последние дни в стране теплее, чем обычно в ноябре. В воскресенье ожидается переменная облачность. Температура немного понизится, но останется выше обычной для этого сезона. На севере страны возможен небольшой моросящий дождь. В понедельник больших изменений не ожидается, а во вторник начнется небольшое понижение температуры. В субботу в Иерусалим были зафиксированы температурные диапазоны от 15 до 22 градусов, в Тель-Авив от 15 до 24, а в Хайфа от 18 до 23. Эйлат был самым жарким местом, от 20 до 31 градуса. Стоит одеваться слоями: утром относительно прохладно, а днем приятно.",
      "hard": "Согласно прогнозу ynet от субботы, температура в стране выше обычной для этого сезона в большинстве регионов. В субботу была переменная облачность или облачно, а ночью переменная облачность. В воскресенье ожидается переменная облачность. Температура немного снизится, но останется выше обычной, и ожидается небольшой моросящий дождь, в основном на севере страны. В понедельник значительных изменений не ожидается, а во вторник начнется еще одно небольшое понижение. Температурные диапазоны, переданные на субботу: в Иерусалим 15 до 22 градусов, в Тель-Авив 15 до 24, в Хайфа 18 до 23, в Цфат 15 до 21, в Тверия 17 до 26, в Беэр-Шева 14 до 26, в Мицпе-Рамон 16 до 26, и в Эйлат 20 до 31. В статье не было предупреждений и информации о состоянии моря. Тому, кто отправляется на прогулку, стоит взять воду, головной убор и дополнительный слой одежды на вечер. В ноябре температура обычно ниже, поэтому дни в этом году относительно приятные и теплая. Тем не менее, в начале следующей недели ожидается небольшое похолодание и моросящие дожди, поэтому стоит следить за обновлениями прогноза перед выходом в путь. Тот, кто путешествует или едет на север, может подготовиться к небольшому моросящему дождю.",
-     "questions": [
-      "Какая погода вам нравится осенью? Расскажите.",
-      "Почему, по вашему мнению, важно проверять прогноз погоды перед выходом из дома? Обоснуйте.",
-      "Какую одежду вы носите в такой осенний день?"
-     ],
      "qlevels": {
       "easy": [
        "Ожидается ли в воскресенье переменная облачность?",
@@ -539,18 +534,18 @@
        "Каков температурный диапазон в Беэр-Шева?",
        "Что не было указано в статье касательно моря?"
       ]
-     }
+     },
+     "questions": [
+      "Какая погода осенью вам нравится? Расскажите.",
+      "Почему, по вашему мнению, важно проверять прогноз погоды перед выходом из дома? Обоснуйте.",
+      "Какую одежду вы носите в такой осенний день?"
+     ]
     },
     "es": {
      "title": "El tiempo: más caluroso de lo habitual para la temporada, y a principios de semana un poco más fresco",
      "easy": "El domingo estará parcialmente nublado.\nTodavía más caluroso de lo habitual para la temporada.\nEn el norte es posible una ligera llovizna.\nEl martes empezará a refrescar un poco.\nEn Jerusalén las temperaturas son de 15 a 22 grados.",
      "medium": "En los últimos días ha hecho más calor en el país de lo habitual para noviembre. El domingo se espera un tiempo parcialmente nublado. Las temperaturas bajarán un poco, pero se mantendrán más altas de lo habitual para la temporada. En el norte del país es posible una ligera llovizna. El lunes no se espera un cambio grande, y el martes comenzará una ligera bajada en las temperaturas. El sábado en Jerusalén se midieron rangos de temperatura de 15 a 22 grados, en Tel Aviv de 15 a 24, y en Haifa de 18 a 23. Eilat fue la más calurosa, de 20 a 31 grados. Conviene vestirse en capas: por la mañana relativamente fresco, y al mediodía agradable.",
      "hard": "Según el pronóstico de ynet del sábado, las temperaturas en el país son más altas de lo habitual para la temporada en la mayoría de las áreas. El sábado estuvo parcialmente nublado a nublado, y por la noche parcialmente nublado. El domingo se espera un tiempo parcialmente nublado. Las temperaturas bajarán un poco, pero se mantendrán más altas de lo habitual, y se espera una ligera llovizna, principalmente en el norte del país. El lunes no se espera un cambio significativo, y el martes comenzará otra ligera bajada adicional. Los rangos de temperatura informados para el sábado: en Jerusalén 15 a 22 grados, en Tel Aviv 15 a 24, en Haifa 18 a 23, en Safed 15 a 21, en Tiberíades 17 a 26, en Beerseba 14 a 26, en Mitzpe Ramón 16 a 26, y en Eilat 20 a 31. El artículo no incluyó advertencias ni información sobre el estado del mar. Quien salga a pasear conviene que lleve agua, sombrero y una capa de ropa adicional para la noche. En noviembre las temperaturas suelen ser más bajas, y por eso los días este año son relativamente agradables y calurosos. Sin embargo, a principios de la próxima semana se espera un ligero enfriamiento y lloviznas, por lo que conviene seguir las actualizaciones del pronóstico antes de salir en camino. Quien pasee o viaje al norte puede prepararse para una ligera llovizna.",
-     "questions": [
-      "¿Cómo les gusta el tiempo en otoño? Cuéntennos.",
-      "¿Por qué creen que es importante revisar el pronóstico antes de salir de casa? Expliquen su respuesta.",
-      "¿Qué ropa se ponen en un día otoñal así?"
-     ],
      "qlevels": {
       "easy": [
        "¿Se espera un tiempo parcialmente nublado el domingo?",
@@ -567,7 +562,12 @@
        "¿Cuál es el rango de temperaturas en Beerseba?",
        "¿Qué no apareció en el artículo respecto al mar?"
       ]
-     }
+     },
+     "questions": [
+      "¿Cómo les gusta el clima en otoño? Cuéntennos.",
+      "¿Por qué creen que es importante consultar el pronóstico antes de salir de casa? Expliquen su respuesta.",
+      "¿Qué ropa se ponen en un día otoñal así?"
+     ]
     }
    },
    "audio": [
@@ -637,11 +637,6 @@
      "easy": "Hanukkah is approaching and the sufganiyot are already in the stores.\nAt Shufersal Deal, 4 sufganiyot cost 10 shekels.\nRoladin did not raise prices this year.\nA sufganiyah with jam costs 8 shekels there.\nAt Mimi and Nonu, the sufganiyot became more expensive.",
      "medium": "Hanukkah is on the way, and stores are already selling sufganiyot. ynet checked the prices. At Shufersal Deal, they sell 4 sufganiyot for 10 shekels. At Rami Levy, in some branches, a sufganiyah costs 2 shekels. The Roladin chain did not raise prices this year: a plain sufganiyah costs 7 shekels, and a sufganiyah with jam costs 8 shekels. In contrast, at Mimi and Nonu, a jam sufganiyah costs 9 shekels, one shekel more than last year. For special sufganiyot and gluten-free sufganiyot, the price increase is larger. It is advisable to compare prices before buying, because the differences between the stores are large, and also to check the size of the sufganiyah.",
      "hard": "ynet checked how much sufganiyot will cost in Hanukkah 2026. In the supermarket chains, prices are low: at Shufersal Deal 4 sufganiyot for 10 NIS, and at Rami Levy, in some branches, a large or mini sufganiya for 2 NIS. Roladin chain, which is most identified with sufganiyot, did not raise prices this year. A plain sufganiya there costs 7 NIS, jam or dulce de leche 8 NIS, and special sufganiyot 16 to 18 NIS. The popping candy sufganiya went up in price from 16 to 18 NIS. At Mimi & Nunou, whose collection goes on sale from November 25, a jam sufganiya costs 9 NIS, one shekel more than last year. Sophisticated sufganiyot cost 15 NIS there, compared to 13 last year, and gluten-free sufganiyot 14 to 19 NIS. The article noted price increases of 12.5 to 26 percent in the special sufganiyot. At Biscotti and Miki Shemo a classic jam sufganiya did not increase in price. The article was published on November 10. Bakeries also appear in the article: at Maafe Neeman a strawberry jam sufganiya costs 6 NIS, at Boutique Central 7 NIS, and at Miki Shemo a jam sufganiya costs 7 NIS and dulce de leche 8 NIS. Roladin is expected to launch a special patisserie sufganiya soon. Since the prices were checked about two weeks ago, it is worth checking up-to-date prices at the store.",
-     "questions": [
-      "What is your favorite sufganiya? Tell us which filling you like.",
-      "Why do you think sufganiyot prices vary so much from store to store? Explain.",
-      "How would you celebrate Hanukkah when you were young?"
-     ],
      "qlevels": {
       "easy": [
        "Did Roladin not raise prices this year?",
@@ -658,18 +653,18 @@
        "How much does the popping candy sufganiya cost at Roladin, and by how much did it increase in price?",
        "What is the range of price increases for the special sufganiyot according to the article?"
       ]
-     }
+     },
+     "questions": [
+      "What is your favorite doughnut? Tell us which filling you like.",
+      "Why do you think doughnut prices are so different from store to store? Explain.",
+      "How did you celebrate Hanukkah when you were young?"
+     ]
     },
     "ru": {
      "title": "Пончики 2026: сколько придется заплатить в Хануку?",
      "easy": "Ханука приближается, и пончики уже в магазинах.\nВ Шуферсаль Диль 4 пончика стоят 10 шекелей.\nВ Ролдин цены в этом году не поднимали.\nПончик с повидлом стоит там 8 шекелей.\nУ Мими и Ноно пончики подорожали.",
      "medium": "Ханука в пути, и в магазинах уже продают пончики. ynet проверил цены. В Шуферсаль Диль продают 4 пончика за 10 шекелей. В Рами Леви в некоторых филиалах пончик стоит 2 шекеля. Сеть Ролдин не поднимала цены в этом году: пустой пончик стоит 7 шекелей, а пончик с повидлом 8 шекелей. С другой стороны, у Мими и Ноно пончик с повидлом стоит 9 шекелей, на шекель больше, чем в прошлом году. На специальные пончики и пончики без глютена подорожание больше. Стоит сравнить цены перед покупкой, так как разница между магазинами велика, а также проверить размер пончика.",
      "hard": "ynet проверил, сколько будут стоить пончики-суфганиот на Хануку 2026. В торговых сетях цены низкие: в «Шуферсаль Дил» 4 пончика стоят 10 шекелей, а в «Рами Леви», в некоторых филиалах, большой пончик или мини стоит 2 шекеля. Сеть «Ролдин», которая больше всего ассоциируется с пончиками, не поднимала цены в этом году. Пустой пончик у них стоит 7 шекелей, с джемом или вареной сгущенкой — 8 шекелей, а особые пончики — от 16 до 18 шекелей. Пончик с взрывающейся карамелью подорожал с 16 до 18 шекелей. У Мими и Вононо, чья коллекция продается с 25 ноября, пончик с джемом стоит 9 шекелей, на шекель дороже, чем в прошлом году. Сложные пончики стоят там 15 шекелей по сравнению с 13 в прошлом году, а пончики без глютена — от 14 до 19 шекелей. В статье отмечается подорожание особых пончиков на 12.5–26 процентов. В «Бискоти» и у Мики Шмо классический пончик с джемом не подорожал. Статья была опубликована 10 ноября. В статье также упоминаются пекарни: в «Маафе Наэман» пончик с клубничным джемом стоит 6 шекелей, в «Бутик Сентраль» — 7 шекелей, а у Мики Шмо пончик с джемом стоит 7 шекелей и с вареной сгущенкой — 8 шекелей. Ожидается, что «Ролдин» скоро выпустит особый пончик патиссье. Поскольку цены проверялись около двух недель назад, стоит уточнить актуальные цены в магазине.",
-     "questions": [
-      "Какая суфгания ваша любимая? Расскажите, какую начинку вы любите.",
-      "Почему, по вашему мнению, цены на суфганиот так сильно различаются от магазина к магазину? Обоснуйте.",
-      "Как вы праздновали Хануку, когда были молодыми?"
-     ],
      "qlevels": {
       "easy": [
        "Правда ли, что в «Ролдин» не поднимали цены в этом году?",
@@ -686,18 +681,18 @@
        "Сколько стоит пончик с взрывающейся карамелью в «Ролдин» и насколько он подорожал?",
        "Каков диапазон подорожания особых пончиков согласно статье?"
       ]
-     }
+     },
+     "questions": [
+      "Какая пончик у вас любимый? Расскажите, какую начинку вы любите.",
+      "Почему, по вашему мнению, цены на пончики так сильно отличаются от магазина к магазину? Обоснуйте.",
+      "Как вы праздновали Хануку, когда были молоды?"
+     ]
     },
     "es": {
      "title": "Sufganiot 2026: ¿Cuánto se pagará en Hanukkah?",
      "easy": "Hanukkah se acerca y las sufganiot ya están en las tiendas.\nEn Shufersal Deal 4 sufganiot cuestan 10 shéquels.\nEn Roladin no subieron los precios este año.\nUna sufganিয়a con mermelada cuesta allí 8 shéquels.\nEn Mimi ve-Nonu las sufganiot subieron de precio.",
      "medium": "Hanukkah está en camino, y en las tiendas ya se venden sufganiot. ynet revisó los precios. En Shufersal Deal venden 4 sufganiot por 10 shéquels. En Rami Levy, en algunas de las sucursales, una sufganiya cuesta 2 shéquels. La cadena Roladin no subió los precios este año: una sufganiya vacía cuesta 7 shéquels, y una sufganiya con mermelada 8 shéquels. En cambio, en Mimi ve-Nonu una sufganiya de mermelada cuesta 9 shéquels, un shéquel más que el año pasado. En las sufganiot especiales y en las sufganiot sin gluten el encarecimiento es mayor. Conviene comparar precios antes de la compra, porque las diferencias entre las tiendas son grandes, y también revisar cuál es el tamaño de la sufganiya.",
      "hard": "ynet analizó cuánto costarán los sufganiot en Janucá 2026. En las cadenas de supermercados los precios son bajos: en Shufersal Deal 4 sufganiot por 10 shéquels, y en Rami Levy, en algunas de las sucursales, un sufganá grande o mini por 2 shéquels. La cadena Roladin, la más identificada con los sufganiot, no subió los precios este año. Un sufganá vacío en su local cuesta 7 shéquels, de mermelada o dulce de leche 8 shéquels, y los sufganiot especiales de 16 a 18 shéquels. El sufganá de caramelos saltarines subió de 16 a 18 shéquels. En Mimi and Nono, cuya colección se vende desde el 25 de noviembre, un sufganá de mermelada cuesta 9 shéquels, un shékel más que el año pasado. Los sufganiot sofisticados cuestan allí 15 shéquels, en comparación con 13 el año pasado, y los sufganiot sin gluten de 14 a 19 shéquels. En el artículo se señalaron aumentos de precios de 12.5 a 26 por ciento en los sufganiot especiales. En Biscotti y Miki Shemo un sufganá clásico de mermelada no subió de precio. El artículo fue publicado el 10 de noviembre. En el artículo también aparecen panaderías: en Maafya Neeman un sufganá de mermelada de fresa cuesta 6 shéquels, en Boutique Central 7 shéquels, y en Miki Shemo un sufganá de mermelada cuesta 7 shéquels y de dulce de leche 8 shéquels. Se espera que Roladin lance pronto un sufganá especial de pastelería. Dado que los precios fueron revisados hace unas dos semanas, conviene verificar los precios actualizados en la tienda.",
-     "questions": [
-      "¿Cuál es su sufganá favorito? Cuéntennos qué relleno les gusta.",
-      "¿Por qué creen que los precios de los sufganiot varían tanto de una tienda a otra? Expliquen su respuesta.",
-      "¿Cómo celebraban Janucá cuando eran jóvenes?"
-     ],
      "qlevels": {
       "easy": [
        "¿En Roladin no subieron los precios este año?",
@@ -714,7 +709,12 @@
        "¿Cuánto cuesta el sufganá de caramelos saltarines en Roladin, y cuánto subió?",
        "¿Cuál es el rango de aumentos en los sufganiot especiales según el artículo?"
       ]
-     }
+     },
+     "questions": [
+      "¿Cuál es su sufgania favorita? Cuéntennos qué relleno les gusta.",
+      "¿Por qué creen que los precios de las sufganiot varían tanto de una tienda a otra? Expliquen su respuesta.",
+      "¿Cómo celebraban Janucá cuando eran jóvenes?"
+     ]
     }
    },
    "audio": [
@@ -788,11 +788,6 @@
      "easy": "On Saturday many people traveled at Ein Hemed Park.\nThe park is located near Jerusalem.\nThe Nature and Parks Authority announced a crowd.\nThe parking lot at the site was full.\nIt was only possible to enter on foot.",
      "medium": "On Saturday morning, the Nature and Parks Authority announced a crowd of travelers at Ein Hemed National Park, a beloved nature site near Jerusalem. The parking lot at the site filled up, and entry to the park was made possible only on foot. The weather in the country was warmer than usual for the season, and therefore many people went out to travel. Anyone planning a trip this weekend should check before leaving on the Nature and Parks Authority website if there is a crowd, and come early in the morning. It is worthwhile to bring water, a hat and comfortable shoes. In such popular places it is worthwhile to plan the trip in advance and check announcements before leaving.",
      "hard": "The Nature and Parks Authority reported on Saturday, November 21, that there is a crowd of travelers at Ein Hemed National Park. According to the article on ynet, the parking lot at the site is completely full, and entry to the park will be made possible on a walking basis only. The article did not detail hours, the extent of the crowd or additional instructions. That same weekend, the weather in the country was partly cloudy and warmer than usual for the season, according to the ynet forecast, and such weather invites going out into nature. Ein Hemed Park is located near Jerusalem and is one of the nature sites that many travelers tend to visit on weekends. General advice for anyone planning a trip: it is worthwhile to check on the Nature and Parks Authority website if there is a crowd before going out, arrive early in the morning, and bring water, a hat and comfortable shoes. A trip to a less crowded site can be more pleasant. The Nature and Parks Authority publishes such announcements so that travelers will plan their route and not arrive in vain. When the parking lot is full and entry is on foot only, one must walk an extra distance, and therefore it is worthwhile to adapt shoes and equipment. It is also possible to choose an alternative, less crowded site in the same area, or go out during early hours or in the middle of the week. These are general tips and not part of the article.",
-     "questions": [
-      "Do you like to travel in nature? Tell about a place you loved.",
-      "What do you think can be done so that the trip will be pleasant even when there are many people? Explain.",
-      "Which place in the country would you like to visit again?"
-     ],
      "qlevels": {
       "easy": [
        "Is the park located near Jerusalem?",
@@ -809,18 +804,18 @@
        "What was not detailed in the article about the crowding?",
        "What was the weather like that weekend?"
       ]
-     }
+     },
+     "questions": [
+      "Do you like to go on trips in nature? Tell us about a place you loved.",
+      "What do you think can be done so that the trip is pleasant even when there are many people? Explain.",
+      "Which place in Israel would you like to visit again?"
+     ]
     },
     "ru": {
      "title": "Наплыв отдыхающих в национальном парке Эйн-Хэмед",
      "easy": "В субботу много людей гуляло в парке Эйн-Хэмед.\nПарк находится возле Иерусалима.\nУправление природы и парков сообщило о загруженности.\nСтоянка на объекте была заполнена.\nВойти можно было только пешком.",
      "medium": "В субботу утром Управление природы и парков сообщило о наплыве отдыхающих в национальном парке Эйн-Хэмед, любимом уголке природы возле Иерусалима. Парковка на объекте заполнилась, и вход в парк был возможен только пешком. Погода в стране была теплее обычного для этого сезона, и поэтому множество людей отправились на природу. Тем, кто планирует поездку на выходные, стоит перед выходом проверить на сайте Управления природы и парков, нет ли перегруженности, и приехать рано утром. Стоит взять воду, головной убор и удобную обувь. В таких популярных местах стоит спланировать поездку заранее и проверить объявления перед выходом.",
      "hard": "Управление природы и парков сообщило в субботу, 21 ноября, что в национальном парке Эйн-Хэмед наблюдается большой наплыв отдыхающих. Согласно статье на ynet, парковка на объекте заполнена полностью, а вход в парк возможен только пешком. В статье не уточнялись часы, масштаб загруженности или дополнительные указания. В те выходные в стране стояла погода с переменной облачностью и теплее обычного для сезона, согласно прогнозу ynet, а такая погода располагает к выезду на природу. Парк Эйн-Хэмед находится возле Иерусалима и является одним из природных мест, которые многие отдыхающие привыкли посещать по выходным. Общий совет для тех, кто планирует поездку: стоит проверить на сайте Управления природы и парков, есть ли перегруженность, перед тем как отправляться, приехать рано утром и взять воду, головной убор и удобную обувь. Прогулка в менее загруженном месте может быть более приятной. Управление природы и парков публикует подобные объявления для того, чтобы отдыхающие спланировали маршрут и не приезжали напрасно. Когда парковка заполнена и вход только пешком, приходится идти дополнительное расстояние, поэтому стоит подобрать обувь и снаряжение. Можно также выбрать альтернативный, менее загруженный объект в том же районе или выехать в ранние часы либо среди недели. Это общие советы, а не часть статьи.",
-     "questions": [
-      "Любите ли вы путешествовать на природе? Расскажите о месте, которое вам понравилось.",
-      "Что, по вашему мнению, можно сделать, чтобы поездка была приятной даже тогда, когда много людей? Обоснуйте.",
-      "Какое место в стране вы хотели бы посетить снова?"
-     ],
      "qlevels": {
       "easy": [
        "Находится ли парк возле Иерусалима?",
@@ -837,18 +832,18 @@
        "Что не было подробно описано в статье о нагрузке?",
        "Какая погода была в те выходные?"
       ]
-     }
+     },
+     "questions": [
+      "Вы любите путешествовать на природе? Расскажите о месте, которое вам понравилось.",
+      "Что, по вашему мнению, можно сделать, чтобы поездка была приятной даже тогда, когда много людей? Обоснуйте.",
+      "Какое место в стране вы хотели бы посетить снова?"
+     ]
     },
     "es": {
      "title": "Afluencia de excursionistas en el parque nacional Ein Hemed",
      "easy": "El sábado excursionó mucha gente en el parque Ein Hemed.\nEl parque está ubicado cerca de Jerusalén.\nLa Autoridad de la Naturaleza y los Parques informó sobre una gran afluencia.\nEl estacionamiento en el sitio estaba lleno.\nSe podía entrar solo a pie.",
      "medium": "El sábado por la mañana, la Autoridad de la Naturaleza y los Parques informó sobre una gran afluencia de excursionistas en el parque nacional Ein Hemed, un sitio natural muy querido cerca de Jerusalén. El estacionamiento en el sitio se llenó, y el ingreso al parque solo fue posible a pie. El clima en el país estuvo más cálido de lo habitual para la temporada, y por eso mucha gente salió a pasear. Quien planee una excursión para el fin de semana, conviene que verifique antes de salir en el sitio web de la Autoridad de la Naturaleza y los Parques si hay congestión, y que llegue temprano por la mañana. Conviene traer agua, sombrero y zapatos cómodos. En lugares populares como este, conviene planificar la excursión con anticipación y revisar los avisos antes de salir.",
      "hard": "La Autoridad de la Naturaleza y los Parques informó el sábado 21 de noviembre que hay una gran afluencia de excursionistas en el parque nacional Ein Hemed. Según el artículo en ynet, el estacionamiento en el sitio está completamente ocupado, y el ingreso al parque será posible únicamente a pie. En el artículo no se detallaron los horarios, la magnitud de la congestión ni instrucciones adicionales. Ese mismo fin de semana hubo en el país un clima parcialmente nublado y más cálido de lo habitual para la temporada, según el pronóstico de ynet, y un clima así invita a salir a la naturaleza. El parque Ein Hemed está ubicado cerca de Jerusalén y es uno de los sitios naturales que muchos excursionistas suelen visitar los fines de semana. Un consejo general para quien planea una excursión: conviene revisar en el sitio web de la Autoridad de la Naturaleza y los Parques si hay aglomeración antes de salir, llegar temprano por la mañana y traer agua, sombrero y zapatos cómodos. Una excursión en un sitio menos congestionado puede ser más agradable. La Autoridad de la Naturaleza y los Parques publica este tipo de avisos para que los excursionistas planifiquen el trayecto y no lleguen en vano. Cuando el estacionamiento está lleno y la entrada es solo a pie, hay que caminar una distancia adicional, por lo que conviene adaptar el calzado y el equipo. También se puede elegir un sitio alternativo menos concurrido en la misma zona, o salir en horarios tempranos o a mitad de semana. Estos son consejos generales y no forman parte del artículo.",
-     "questions": [
-      "¿Les gusta pasear por la naturaleza? Cuéntennos sobre un lugar que les haya gustado.",
-      "¿Qué creen que se puede hacer para que la excursión sea agradable incluso cuando hay mucha gente? Expliquen su respuesta.",
-      "¿Qué lugar del país les gustaría visitar de nuevo?"
-     ],
      "qlevels": {
       "easy": [
        "¿El parque está ubicado cerca de Jerusalén?",
@@ -865,7 +860,12 @@
        "¿Qué no se detalló en el artículo sobre la congestión?",
        "¿Qué tiempo hacía en ese fin de semana?"
       ]
-     }
+     },
+     "questions": [
+      "¿Les gusta pasear por la naturaleza? Cuéntennos sobre un lugar que les haya gustado.",
+      "¿Qué creen que se puede hacer para que el paseo sea agradable incluso cuando hay mucha gente? Expliquen su respuesta.",
+      "¿Qué lugar del país les gustaría visitar de nuevo?"
+     ]
     }
    },
    "audio": [
@@ -935,11 +935,6 @@
      "easy": "Hanukkah begins on Friday, December 4.\nWe light one candle on the first evening.\nEvery evening we add another candle.\nOn the eighth night we light eight candles.\nWe eat sufganiyot and latkes.",
      "medium": "Hanukkah this year begins on Friday evening, December 4, 2026, which is Kislev 25, and continues until Saturday night, December 12. We light one candle on the first evening, and every evening we add another candle, up to eight candles. The additional candle, the shamash, is used to light the others. The holiday was established in memory of the victory of the Hasmoneans over the Greeks, the dedication of the Holy Temple, and the miracle of the oil flask. It is customary to eat latkes and sufganiyot, which are fried in oil, in memory of the miracle. The children play with a dreidel, and the Hanukkah vacation in schools is from December 6 to December 12.",
      "hard": "According to the holiday guide on ynet, Hanukkah 5787 begins on Friday evening, December 4, 2026, which is Kislev 25, and continues until Saturday night, December 12, which is Tevet 2. We light one candle on the first day, and every day we add another candle up to eight, from right to left, starting with the new candle. An additional candle, the shamash, is used for lighting. The candles are placed in a place where they can be seen from the outside, at the entrance or in the window, and they are left burning for at least half an hour. On Friday we light before Shabbat enters, and on Saturday night after Havdalah. The holiday was established in memory of the victory of the Hasmoneans in the revolt against the Greeks, the purification of the Holy Temple, and the miracle of the oil flask, in which oil that was enough for one day burned for eight days. There are no mitzvah foods on Hanukkah, but it is customary to eat latkes and sufganiyot, and some have the custom to also eat dairy foods. The children receive Hanukkah gelt and play with a dreidel. The school vacation is from Sunday, December 6 to December 12, and studies resume on December 13. According to the article, the dreidel letters nun-gimel-hei-shin were interpreted as \"A great miracle happened there\", and in the Land of Israel the last letter was changed to pei, \"A great miracle happened here\". Hanukkah gelt is an old custom, probably related to donations to educational institutions.",
-     "questions": [
-      "How did you celebrate Hanukkah when you were children? Tell about a beloved memory.",
-      "Which Hanukkah food do you like the most: a sufganiyah or a latke? Explain.",
-      "What is the meaning of light and candles in your eyes?"
-     ],
      "qlevels": {
       "easy": [
        "Does Hanukkah begin on a Friday evening?",
@@ -956,18 +951,18 @@
        "What happened in the miracle of the oil flask?",
        "When is the school vacation on Hanukkah?"
       ]
-     }
+     },
+     "questions": [
+      "How did you celebrate Hanukkah when you were children? Tell us about a favorite memory.",
+      "Which Hanukkah food do you like best: a doughnut or a latke? Explain.",
+      "What is the meaning of light and candles to you?"
+     ]
     },
     "ru": {
      "title": "Ханука 2026: когда зажигают свечи и что делают в праздник",
      "easy": "Ханука начинается в пятницу, 4 декабря.\nВ первый вечер зажигают одну свечу.\nКаждый вечер добавляют еще одну свечу.\nВ восьмую ночь зажигают восемь свечей.\nЕдят пончики и оладьи.",
      "medium": "Ханука в этом году начинается в пятницу вечером, 4 декабря 2026 года, что соответствует 25 кислева, и продолжается до исхода субботы, 12 декабря. Зажигают одну свечу в первый вечер, и каждый вечер добавляют еще одну свечу, до восьми свечей. Дополнительная свеча, шамаш, служит для зажигания остальных. Праздник был установлен в память о победе Хасмонаев над греками, освящении Храма и чуде кувшина с маслом. Принято есть оладьи и пончики, которые жарят в масле, в память о чуде. Дети играют в волчок, а ханукальные каникулы в школах длятся с 6 по 12 декабря.",
      "hard": "Согласно путеводителю по праздникам на ynet, Ханука 5787 года начинается в пятницу вечером, 4 декабря 2026 года, что соответствует 25 кислева, и продолжается до исхода субботы 12 декабря, что соответствует 2 тевета. Зажигают одну свечу в первый день, и каждый день добавляют еще одну свечу до восьми, справа налево, начиная с новой свечи. Еще одна свеча, шамаш, используется для зажигания. Свечи ставят на видном снаружи месте, у входа или на окне, и оставляют их гореть по меньшей мере полчаса. В пятницу зажигают до наступления субботы, а в исход субботы после авдалы. Праздник установлен в память о победе Хасмонаев в восстании против греков, очищении Храма и чуде кувшина с маслом, в котором масло, рассчитанное на один день, горело восемь дней. В Хануку нет обязательных праздничных блюд, но принято есть оладьи и пончики, а некоторые также имеют обычай есть молочные блюда. Дети получают ханукальные деньги и играют в волчок. Школьные каникулы длятся с воскресенья 6 декабря по 12 декабря, а учеба возобновляется 13 декабря. Согласно статье, буквы волчка н-г-ה-ש расшифровывались как «великое чудо было там», а в Эрец-Исраэль последняя буква была заменена на פ, «великое чудо было здесь». Ханукальные деньги — это старинный обычай, который, по-видимому, связан с пожертвованиями учебным заведениям.",
-     "questions": [
-      "Как вы праздновали Хануку, когда были детьми? Расскажите о любимом воспоминании.",
-      "Какое ханукальное блюдо вы любите больше всего: пончик или оладью? Обоснуйте.",
-      "Каково значение света и свечей по вашему мнению?"
-     ],
      "qlevels": {
       "easy": [
        "Начинается ли Ханука в пятницу вечером?",
@@ -984,18 +979,18 @@
        "Что произошло в чудо с кувшином масла?",
        "Когда школьные каникулы на Хануку?"
       ]
-     }
+     },
+     "questions": [
+      "Как вы праздновали Хануку, когда были детьми? Расскажите о любимом воспоминании.",
+      "Какое ханукальное блюдо вы любите больше всего: пончик или латке? Обоснуйте.",
+      "Каково значение света и свечей по вашему мнению?"
+     ]
     },
     "es": {
      "title": "Janucá 2026: cuándo se encienden las velas y qué se hace en la fiesta",
      "easy": "Janucá comienza el viernes 4 de diciembre.\nSe enciende una vela en la primera noche.\nCada noche se añade otra vela.\nEn la noche octava se encienden ocho velas.\nSe comen sufganiot y latkes.",
      "medium": "Janucá este año comienza el viernes por la noche, el 4 de diciembre de 2026, que es el 25 de Kislev, y dura hasta el término del shabat, el 12 de diciembre. Se enciende una vela en la primera noche, y cada noche se añade otra vela, hasta ocho velas. La vela adicional, el shamash, sirve para encender las demás. La festividad se fijó en memoria de la victoria de los asmoneos sobre los griegos, la inauguración del Templo y el milagro de la jarra de aceite. Es costumbre comer latkes y sufganiot, que se fríen en aceite, en memoria del milagro. Los niños juegan con la sevivón, y las vacaciones de Janucá en las escuelas son del 6 al 12 de diciembre.",
      "hard": "Según la guía de la festividad en ynet, Janucá 5787 comienza el viernes por la noche, el 4 de diciembre de 2026, que es el 25 de Kislev, y dura hasta el término del shabat del 12 de diciembre, que es el 2 de Tevet. Se enciende una vela en el primer día, y cada día se añade otra vela hasta ocho, de derecha a izquierda, empezando por la vela nueva. Una vela adicional, el shamash, sirve para el encendido. Las velas se colocan en un lugar donde se vean desde afuera, en la entrada o en la ventana, y se dejan encendidas al menos media hora. En viernes se enciende antes de la entrada del shabat, y al término del shabat después de la havdalá. La festividad se fijó en memoria de la victoria de los asmoneos en la revuelta contra los griegos, la purificación del Templo y el milagro de la jarra de aceite, en el cual el aceite que alcanzaba para un día ardió ocho días. No hay alimentos de mitzvá en Janucá, pero es costumbre comer latkes y sufganiot, y hay quienes también acostumbran comer alimentos lácteos. Los niños reciben dinero de Janucá y juegan con la sevivón. Las vacaciones de las escuelas son desde el domingo 6 de diciembre hasta el 12 de diciembre, y las clases se reanudan el 13 de diciembre. Según el artículo, las letras de la sevivón nun-guimel-hei-shin se interpretaron como «un gran milagro ocurrió allí», y en la Tierra de Israel la última letra se cambió por pe, «un gran milagro ocurrió aquí». El dinero de Janucá es una costumbre antigua, relacionada probablemente con donaciones a instituciones educativas.",
-     "questions": [
-      "¿Cómo celebraban Janucá cuando eran niños? Cuéntennos sobre un recuerdo querido.",
-      "¿Qué comida de Janucá les gusta más: sufganiot o latkes? Expliquen su respuesta.",
-      "¿Qué significado tienen la luz y las velas para ustedes?"
-     ],
      "qlevels": {
       "easy": [
        "¿Comienza Janucá el viernes por la noche?",
@@ -1012,7 +1007,12 @@
        "¿Qué pasó en el milagro de la jarra de aceite?",
        "¿Cuándo son las vacaciones de las escuelas en Janucá?"
       ]
-     }
+     },
+     "questions": [
+      "¿Cómo celebraban Janucá cuando eran niños? Cuéntennos sobre un recuerdo querido.",
+      "¿Qué comida de Janucá les gusta más: la sufgania o la levivá? Expliquen su respuesta.",
+      "¿Qué significado tienen la luz y las velas para ustedes?"
+     ]
     }
    },
    "audio": [
@@ -1082,11 +1082,6 @@
      "easy": "Arkia airline will return to fly to Marrakech.\nMarrakech is a city in Morocco.\nThe flights will begin on January 4, 2027.\nThere will be two flights a week.\nThe flights are on Mondays and Wednesdays.",
      "medium": "The Israeli airline Arkia announced that it will renew flights to the city of Marrakech in Morocco. The flights will begin on January 4, 2027, subject to receiving all the required approvals. They will be operated twice a week, on Mondays and Wednesdays. The flights are already open for booking on the company's website and at travel agents. A one-way flight ticket price will start at 299 dollars. Arkia is an Israeli airline. Marrakech is a large city in Morocco, known for its markets and its colors. It is worthwhile to book early, and check what is included in the price, because the article did not detail what is included in it. Passengers can book a place right now.",
      "hard": "The Israeli airline Israir announced the resumption of flights to the city of Marrakech in Morocco. According to the company's announcement, published on ynet on November 20, the flights will begin on January 4, 2027. The resumption will take place after the company receives all the approvals required to renew the operation of the air route. The flights will operate twice a week, on Mondays and Wednesdays. They are already open for sale on the company's website and at authorized agents. The price of a one-way flight ticket will start at 299 dollars. Marrakech is one of the largest cities in Morocco, known for its markets and food. The article did not detail additional destinations, nor did it state what type of aircraft will be flown. These are all the details published in the announcement. The return ticket price, flight hours, or aircraft type were not detailed. Anyone planning a winter vacation can compare prices before deciding, and also check entry requirements, such as passport validity, before the flight. These are general tips and not part of the article. Israir announced this itself. The flights will operate on two fixed days every week, and the published price is a starting price, so it is possible that on other dates the ticket will cost more. It is worth comparing before buying.",
-     "questions": [
-      "Have you ever visited Morocco or known someone who comes from there? Tell us.",
-      "In your opinion, what is important to check before buying a flight ticket? Explain.",
-      "What do you like most to see or eat when traveling abroad?"
-     ],
      "qlevels": {
       "easy": [
        "Will Israir resume flights to Marrakech?",
@@ -1103,18 +1098,18 @@
        "Where is it possible to book the flights?",
        "Which company announced the resumption?"
       ]
-     }
+     },
+     "questions": [
+      "Have you ever visited Morocco or known someone who comes from there? Tell us.",
+      "What do you think is important to check before buying a plane ticket? Explain.",
+      "What do you like to see or eat most when traveling abroad?"
+     ]
     },
     "ru": {
      "title": "Аркиа возобновит полеты в Марракеш в Марокко в январе",
      "easy": "Компания Аркиа вернется к полетам в Марракеш.\nМарракеш — это город в Марокко.\nПолеты начнутся 4 января 2027 года.\nБудет два рейса в неделю.\nПолеты по понедельникам и средам.",
      "medium": "Израильская авиакомпания Аркиа объявила, что возобновит полеты в город Марракеш в Марокко. Полеты начнутся 4 января 2027 года при условии получения всех необходимых разрешений. Они будут выполняться два раза в неделю, по понедельникам и средам. Билеты на рейсы уже открыты для заказа на сайте компании и у туристических агентов. Цена билета в один конец начнется от 299 долларов. Аркиа — израильская авиакомпания. Марракеш — большой город в Марокко, известный своими рынками и красками. Стоит заказывать заранее и проверить, что входит в стоимость, так как в статье не уточняется, что именно в нее входит. Пассажиры могут забронировать места уже сейчас.",
      "hard": "Израильская авиакомпания Аркиа объявила о возобновлении полетов в город Марракеш в Марокко. Согласно сообщению компании, опубликованному на ynet 20 ноября, полеты начнутся 4 января 2027. Возобновление произойдет после того, как компания получит все необходимые разрешения на возобновление работы воздушной линии. Полеты будут выполняться два раза в неделю, по понедельникам и средам. Они уже открыты для продажи на сайте компании и у авторизованных агентов. Цена авиабилета в одну сторону начнется с 299 долларов. Марракеш является одним из крупнейших городов в Марокко, известен своими рынками и едой. В статье не были детализированы дополнительные направления и не было указано, на каком типе самолета будут летать. Это все подробности, опубликованные в сообщении. Не были детализированы цена в обратную сторону, часы полета или тип самолета. Тот, кто планирует отпуск зимой, может сравнить цену перед тем, как принять решение, а также проверить требования для въезда, такие как срок действия паспорта, перед полетом. Это общие советы и не часть статьи. Аркиа объявила об этом сама. Полеты будут выполняться в два фиксированных дня каждую неделю, и опубликованная цена является начальной ценой, поэтому возможно, что в другие даты билет будет стоить дороже. Стоит сравнить перед покупкой.",
-     "questions": [
-      "Вы бывали когда-нибудь в Марокко или знали кого-то, кто родом оттуда? Расскажите.",
-      "Что, по вашему мнению, важно проверить перед покупкой авиабилета? Обоснуйте.",
-      "Что вы больше всего любите видеть или есть, когда путешествуете за границей?"
-     ],
      "qlevels": {
       "easy": [
        "Возобновит ли Аркиа полеты в Марракеш?",
@@ -1131,18 +1126,18 @@
        "Где можно заказать полеты?",
        "Какая компания объявила о возобновлении?"
       ]
-     }
+     },
+     "questions": [
+      "Вы бывали когда-нибудь в Марокко или знали кого-то, кто оттуда родом? Расскажите.",
+      "Что, по вашему мнению, важно проверить перед покупкой авиабилета? Обоснуйте.",
+      "Что вы больше всего любите видеть или есть, когда путешествуете за границей?"
+     ]
     },
     "es": {
      "title": "Arkia reanudará los vuelos a Marrakech en Marruecos en enero",
      "easy": "La compañía Arkia volverá a volar a Marrakech.\nMarrakech es una ciudad en Marruecos.\nLos vuelos comenzarán el 4 de enero de 2027.\nHabrá dos vuelos por semana.\nLos vuelos serán los lunes y los miércoles.",
      "medium": "La aerolínea israelí Arkia anunció que reanudará los vuelos a la ciudad de Marrakech en Marruecos. Los vuelos comenzarán el 4 de enero de 2027, sujeto a la obtención de todas las aprobaciones requeridas. Se operarán dos veces por semana, los lunes y los miércoles. Los vuelos ya están abiertos para reserva en el sitio web de la compañía y en las agencias de viajes. El precio de un billete de avión de ida comenzará en 299 dólares. Arkia es una aerolínea israelí. Marrakech es una ciudad grande en Marruecos, conocida por sus mercados y sus colores. Conviene reservar temprano, y comprobar qué está incluido en el precio, porque en el artículo no se detalló qué está incluido en él. Los pasajeros pueden reservar lugar desde ahora.",
      "hard": "La compañía aérea israelí Arkia anunció la renovación de los vuelos a la ciudad de Marrakech en Marruecos. Según el anuncio de la compañía, publicado en ynet el 20 de noviembre, los vuelos comenzarán el 4 de enero de 2027. La renovación se llevará a cabo después de que la compañía reciba todas las aprobaciones necesarias para renovar la actividad de la línea aérea. Los vuelos operarán dos veces por semana, los lunes y los miércoles. Ya están abiertos para la venta en el sitio web de la compañía y en los agentes autorizados. El precio de un billete de avión de ida comenzará en 299 dólares. Marrakech es una de las ciudades más grandes de Marruecos, conocida por sus mercados y su comida. En el artículo no se detallaron destinos adicionales, ni se indicó en qué tipo de avión se volará. Estos son todos los detalles publicados en el anuncio. No se detallaron el precio para el trayecto de vuelta, las horas de vuelo o el tipo de avión. Quien planee unas vacaciones en invierno puede comparar el precio antes de decidir, y comprobar también los requisitos de entrada, como la validez del pasaporte, antes del vuelo. Estos son consejos generales y no parte del artículo. Arkia lo anunció por sí misma. Los vuelos se operarán en dos días fijos cada semana, y el precio publicado es un precio inicial, por lo que es posible que en otras fechas el billete cueste más. Conviene comparar antes de comprar.",
-     "questions": [
-      "¿Alguna vez visitaron Marruecos o conocieron a alguien que venga de allí? Cuéntennos.",
-      "¿Qué consideran que es importante comprobar antes de comprar un billete de avión? Expliquen su respuesta.",
-      "¿Qué es lo que más les gusta ver o comer cuando viajan al extranjero?"
-     ],
      "qlevels": {
       "easy": [
        "¿Arkia renovará los vuelos a Marrakech?",
@@ -1159,7 +1154,12 @@
        "¿Dónde se pueden reservar los vuelos?",
        "¿Qué compañía anunció la renovación?"
       ]
-     }
+     },
+     "questions": [
+      "¿Han visitado alguna vez Marruecos o han conocido a alguien que sea de allí? Cuéntennos.",
+      "¿Qué creen que es importante revisar antes de comprar un billete de avión? Expliquen su respuesta.",
+      "¿Qué es lo que más les gusta ver o comer cuando viajan al extranjero?"
+     ]
     }
    },
    "audio": [
@@ -1257,8 +1257,8 @@
      },
      "questions": [
       "Have you ever witnessed a reconciliation between neighbors or family members? Tell us.",
-      "In your opinion, what helps two parties in a conflict make peace? Explain.",
-      "How is it possible to prevent fights between neighbors and between families?"
+      "What do you think helps two sides in a conflict make peace? Explain.",
+      "How can arguments between neighbors and between families be prevented?"
      ]
     },
     "ru": {
@@ -1286,7 +1286,7 @@
      "questions": [
       "Были ли вы когда-нибудь свидетелями примирения между соседями или членами семьи? Расскажите.",
       "Что, по вашему мнению, помогает двум сторонам в конфликте заключить мир? Обоснуйте.",
-      "Как можно предотвратить ссоры между соседями и между семьями?"
+      "Как можно предотвратить ссоры между соседями и семьями?"
      ]
     },
     "es": {
@@ -1312,8 +1312,8 @@
       ]
      },
      "questions": [
-      "¿Alguna vez fueron testigos de una reconciliación entre vecinos o miembros de familia? Cuéntennos.",
-      "¿Qué creen que ayuda a dos partes en un conflicto a hacer las paces? Expliquen su respuesta.",
+      "¿Han presenciado alguna vez una reconciliación entre vecinos o familiares? Cuéntennos.",
+      "¿Qué creen que ayuda a dos partes en un conflicto a hacer la paz? Expliquen su respuesta.",
       "¿Cómo se pueden prevenir las peleas entre vecinos y entre familias?"
      ]
     }
@@ -1407,8 +1407,8 @@
       ]
      },
      "questions": [
-      "Have you ever engaged in sports? In which branch and for how long?",
-      "In your opinion, what gives an athlete the strength to persevere? Explain.",
+      "Have you ever engaged in sports? In which sport and for how long?",
+      "What do you think gives an athlete the strength to persevere? Explain.",
       "Which Israeli athlete do you remember, and why?"
      ]
     },
@@ -1435,9 +1435,9 @@
       ]
      },
      "questions": [
-      "Занимались ли вы когда-нибудь спортом? В каком виде и как долго?",
-      "Что, по вашему мнению, дает спортсмену силы упорствовать? Обоснуйте.",
-      "Какой израильский спортсмен вам запомнился и почему?"
+      "Вы занимались когда-нибудь спортом? В каком виде и как долго?",
+      "Что, по вашему мнению, дает спортсмену силы продолжать? Обоснуйте.",
+      "Какой израильский спортсмен вам запомнился, и почему?"
      ]
     },
     "es": {
@@ -1463,7 +1463,7 @@
       ]
      },
      "questions": [
-      "¿Practicaron alguna vez deporte? ¿En qué disciplina y cuánto tiempo?",
+      "¿Han practicado deporte alguna vez? ¿En qué disciplina y cuánto tiempo?",
       "¿Qué creen que le da a un deportista la fuerza para perseverar? Expliquen su respuesta.",
       "¿Qué deportista israelí recuerdan y por qué?"
      ]
@@ -1702,7 +1702,7 @@
      },
      "questions": [
       "Which season of the year is your favorite? Tell us.",
-      "In your opinion, is it too hot for the season? Explain.",
+      "Do you think it is too hot for the season? Explain.",
       "What do you like to do on a pleasant day at the end of November?"
      ]
     },
@@ -1730,7 +1730,7 @@
      },
      "questions": [
       "Какое время года вам любимо? Расскажите.",
-      "Считаете ли вы, что слишком жарко для этого сезона? Обоснуйте.",
+      "Как вы думаете, слишком ли жарко для этого сезона? Обоснуйте.",
       "Что вы любите делать в приятный день в конце ноября?"
      ]
     },
@@ -1849,8 +1849,8 @@
      },
      "questions": [
       "Do you remember who was the Speaker of the Knesset when you were young?",
-      "In your opinion, what should be the role of the Speaker of the Knesset? Explain.",
-      "What would you like to ask him if you met him?"
+      "In your opinion, what should the role of the Speaker of the Knesset be? Explain.",
+      "What would you want to ask him if you met him?"
      ]
     },
     "ru": {
@@ -1876,8 +1876,8 @@
       ]
      },
      "questions": [
-      "Помните ли вы, кто был председателем Кнессета, когда вы были молоды?",
-      "По вашему мнению, какой должна быть роль председателя Кнессета? Обоснуйте.",
+      "Вы помните, кто был председателем Кнессета, когда вы были молоды?",
+      "По вашему мнению, какова должна быть роль председателя Кнессета? Обоснуйте.",
       "Что вы хотели бы спросить у него, если бы встретили его?"
      ]
     },
@@ -1906,7 +1906,7 @@
      "questions": [
       "¿Recuerdan quién era el presidente de la Knéset cuando eran jóvenes?",
       "En su opinión, ¿cuál debe ser el papel del presidente de la Knéset? Expliquen su respuesta.",
-      "¿Qué les gustaría preguntarle si lo hubieran conocido?"
+      "¿Qué les gustaría preguntarle si lo conocieran?"
      ]
     }
    },
@@ -1995,9 +1995,9 @@
       ]
      },
      "questions": [
-      "Do you make a habit of following Knesset news?",
-      "How do you think it is possible to converse respectfully when there is a disagreement? Explain.",
-      "Which politician's speech remains in your memory?"
+      "Do you usually follow the Knesset news?",
+      "How do you think people can speak respectfully when there is a disagreement? Explain.",
+      "Which speech by a politician has stayed in your memory?"
      ]
     },
     "ru": {
@@ -2023,7 +2023,7 @@
       ]
      },
      "questions": [
-      "Привыкли ли вы следить за новостями Кнессета?",
+      "Вы следите обычно за новостями Кнессета?",
       "Как вы думаете, как можно разговаривать с уважением, когда есть разногласия? Обоснуйте.",
       "Какая речь политика осталась у вас в памяти?"
      ]
@@ -2052,7 +2052,7 @@
      },
      "questions": [
       "¿Suelen seguir las noticias de la Knéset?",
-      "¿Cómo creen que se puede conversar con respeto cuando hay un desacuerdo? Expliquen su respuesta.",
+      "¿Cómo piensan que se puede hablar con respeto cuando hay un desacuerdo? Expliquen su respuesta.",
       "¿Qué discurso de un político se les ha quedado grabado en la memoria?"
      ]
     }
@@ -2144,7 +2144,7 @@
      "questions": [
       "Have you ever visited a distant country? What do you remember from there?",
       "In your opinion, what is important when leaders meet? Explain.",
-      "Which visit of a foreign leader to the country do you remember?"
+      "Which visit by a foreign leader to Israel do you remember?"
      ]
     },
     "ru": {
@@ -2170,7 +2170,7 @@
       ]
      },
      "questions": [
-      "Бывали ли вы когда-нибудь в далекой стране? Что вам оттуда запомнилось?",
+      "Вы бывали когда-нибудь в далекой стране? Что вам оттуда запомнилось?",
       "Что, по вашему мнению, важно, когда лидеры встречаются? Обоснуйте.",
       "Какой визит иностранного лидера в страну вам запомнился?"
      ]
@@ -2198,8 +2198,8 @@
       ]
      },
      "questions": [
-      "¿Alguna vez visitaron un país lejano? ¿Qué recuerdan de allí?",
-      "¿Qué creen que es importante cuando los líderes se reúnen? Expliquen su respuesta.",
+      "¿Han visitado alguna vez un país lejano? ¿Qué recuerdan de allí?",
+      "¿Qué creen que es importante cuando los líderes se encuentran? Justifiquen.",
       "¿Qué visita de un líder extranjero al país recuerdan?"
      ]
     }
@@ -2436,9 +2436,9 @@
       ]
      },
      "questions": [
-      "Do you support a football team? Which one?",
-      "In your opinion, what does a good coach need in order to succeed? Explain.",
-      "Which football match do you remember particularly?"
+      "Do you support a soccer team? Which one?",
+      "In your opinion, what does a good coach need to succeed? Explain.",
+      "Which soccer match do you remember especially well?"
      ]
     },
     "ru": {
@@ -2464,9 +2464,9 @@
       ]
      },
      "questions": [
-      "Болеете ли вы за футбольную команду? Какую?",
+      "Болеете ли вы за какую-нибудь футбольную команду? Какую?",
       "Что, по вашему мнению, нужно хорошему тренеру для успеха? Обоснуйте.",
-      "Какой футбольный матч запомнился вам особенно?"
+      "Какой футбольный матч вам особенно запомнился?"
      ]
     },
     "es": {
@@ -2492,8 +2492,8 @@
       ]
      },
      "questions": [
-      "¿Son aficionados a un equipo de fútbol? ¿A cuál?",
-      "¿Qué necesita un buen entrenador para tener éxito, en su opinión? Expliquen su respuesta.",
+      "¿Son simpatizantes de algún equipo de fútbol? ¿Cuál?",
+      "¿Qué creen que necesita un buen entrenador para triunfar? Justifiquen.",
       "¿Qué partido de fútbol recuerdan especialmente?"
      ]
     }
@@ -2583,9 +2583,9 @@
       ]
      },
      "questions": [
-      "Do you make sure to have routine health check-ups? Tell us.",
-      "In your opinion, what is important in order to encourage people to get checked? Explain.",
-      "Which medical advancement impressed you in your life?"
+      "Do you make sure to go for routine health checkups? Tell us.",
+      "In your opinion, what is important to encourage people to get checked? Explain.",
+      "Which advancement in medicine has impressed you in your lifetime?"
      ]
     },
     "ru": {
@@ -2611,8 +2611,8 @@
       ]
      },
      "questions": [
-      "Соблюдаете ли вы плановые проверки здоровья? Расскажите.",
-      "Что, по вашему мнению, важно, чтобы поощрять людей проверяться? Обоснуйте.",
+      "Следите ли вы за регулярными медицинскими проверками? Расскажите.",
+      "Что, по вашему мнению, важно, чтобы поощрять людей проходить проверки? Обоснуйте.",
       "Какой прогресс в медицине впечатлил вас в вашей жизни?"
      ]
     },
@@ -2639,8 +2639,8 @@
       ]
      },
      "questions": [
-      "¿Se aseguran de hacer revisiones médicas rutinarias? Cuéntennos.",
-      "¿Qué creen que es importante para animar a la gente a hacerse revisiones? Expliquen su respuesta.",
+      "¿Se cuidan de hacer revisiones médicas de rutina? Cuéntennos.",
+      "¿Qué creen que es importante para animar a la gente a hacerse revisiones? Justifiquen.",
       "¿Qué avance en la medicina les impresionó en su vida?"
      ]
     }
@@ -2734,7 +2734,7 @@
       ]
      },
      "questions": [
-      "Have you ever encountered a malfunction in an app or on the phone? What did you do?",
+      "Have you ever experienced a glitch in an app or on the phone? What did you do?",
       "In your opinion, what is important to do when an app stops working? Explain.",
       "Which digital service do you use the most?"
      ]
@@ -2762,7 +2762,7 @@
       ]
      },
      "questions": [
-      "Сталкивались ли вы когда-нибудь со сбоем в приложении или в телефоне? Что вы сделали?",
+      "Сталкивались ли вы когда-нибудь с неполадкой в приложении или телефоне? Что вы сделали?",
       "Что, по вашему мнению, важно делать, когда приложение перестает работать? Обоснуйте.",
       "Каким цифровым сервисом вы пользуетесь больше всего?"
      ]
@@ -2790,9 +2790,9 @@
       ]
      },
      "questions": [
-      "¿Se han encontrado alguna vez con un fallo en una aplicación o en el teléfono? ¿Qué hicieron?",
-      "¿Qué creen que es importante hacer cuando una aplicación deja de funcionar? Expliquen su respuesta.",
-      "¿Qué servicio digital utilizan más?"
+      "¿Alguna vez se toparon con un fallo en una aplicación o en el teléfono? ¿Qué hicieron?",
+      "¿Qué creen que es importante hacer cuando una aplicación deja de funcionar? Justifiquen.",
+      "¿Qué servicio digital usan más?"
      ]
     }
    },
@@ -2881,9 +2881,9 @@
       ]
      },
      "questions": [
-      "What historical or sporting event do you remember from your days?",
-      "What in your opinion makes a speech memorable over the years? Explain.",
-      "Who was your favorite athlete in your youth?"
+      "Which historical or sporting event do you remember from your lifetime?",
+      "In your opinion, what makes a speech memorable for years to come? Explain.",
+      "Who was your favorite athlete when you were young?"
      ]
     },
     "ru": {
@@ -2910,7 +2910,7 @@
      },
      "questions": [
       "Какое историческое или спортивное событие вы помните из своих дней?",
-      "Что, по вашему мнению, делает выступление запоминающимся на долгие годы? Обоснуйте.",
+      "Что, по вашему мнению, делает речь запоминающейся на долгие годы? Обоснуйте.",
       "Кто был вашим любимым спортсменом в молодости?"
      ]
     },
@@ -2938,7 +2938,7 @@
      },
      "questions": [
       "¿Qué evento histórico o deportivo recuerdan de sus días?",
-      "¿Qué creen que hace que un discurso sea recordado a lo largo de los años? Expliquen su respuesta.",
+      "¿Qué creen que hace que un discurso sea recordado a lo largo de los años? Justifiquen.",
       "¿Quién era su deportista favorito en su juventud?"
      ]
     }
@@ -3033,9 +3033,9 @@
       ]
      },
      "questions": [
-      "Which strategy game do you like, chess, backgammon or another?",
-      "Do you remember how you received news from the world in your youth?",
-      "What in your opinion is needed to establish something completely new? Explain."
+      "Which mind game do you like: chess, backgammon, or another?",
+      "Do you remember how you used to get news from around the world when you were young?",
+      "In your opinion, what does it take to establish something completely new? Explain."
      ]
     },
     "ru": {
@@ -3089,9 +3089,9 @@
       ]
      },
      "questions": [
-      "¿Qué juego de ingenio les gusta, ajedrez, backgammon u otro?",
-      "¿Recuerdan cómo recibían noticias del mundo en su juventud?",
-      "¿Qué creen que se necesita para fundar algo completamente nuevo? Expliquen su respuesta."
+      "¿Qué juego de estrategia les gusta, ajedrez, backgammon u otro?",
+      "¿Recuerdan cómo recibían las noticias del mundo en su juventud?",
+      "¿Qué creen que hace falta para crear algo completamente nuevo? Justifiquen."
      ]
     }
    },
@@ -3180,8 +3180,8 @@
       ]
      },
      "questions": [
-      "Have you ever flown on a flight that was delayed? Tell how it was.",
-      "What in your opinion is important to do so that old equipment does not break down? Explain.",
+      "Have you ever been on a flight that was delayed? Tell us how it was.",
+      "In your opinion, what is important to do so that old equipment does not break down? Explain.",
       "Which means of transportation do you like the most, and why?"
      ]
     },
@@ -3236,8 +3236,8 @@
       ]
      },
      "questions": [
-      "¿Alguna vez volaron en un vuelo que se retrasó? Cuenten cómo fue.",
-      "¿Qué creen que es importante hacer para que el equipo viejo no se descomponga? Expliquen su respuesta.",
+      "¿Alguna vez volaron en un vuelo que se retrasó? Cuéntennos cómo fue.",
+      "¿Qué creen que es importante hacer para que el equipo viejo no se estropee? Justifiquen.",
       "¿Qué medio de transporte les gusta más y por qué?"
      ]
     }
@@ -3331,8 +3331,8 @@
       ]
      },
      "questions": [
-      "Have you ever visited the Knesset, or seen it on television? Tell.",
-      "What in your opinion is important for the Speaker of the Knesset to have? Explain.",
+      "Have you ever visited the Knesset, or seen it on television? Tell us.",
+      "In your opinion, what is important for the Speaker of the Knesset to have? Explain.",
       "Which important vote do you remember from the past?"
      ]
     },
@@ -3387,8 +3387,8 @@
       ]
      },
      "questions": [
-      "¿Alguna vez visitaron la Knéset o la vieron en la televisión? Cuenten.",
-      "¿Qué creen que es importante que tenga el presidente de la Knéset? Expliquen su respuesta.",
+      "¿Alguna vez visitaron la Knéset o la vieron en la televisión? Cuéntennos.",
+      "¿Qué creen que es importante que tenga el presidente de la Knéset? Justifiquen.",
       "¿Qué votación importante recuerdan del pasado?"
      ]
     }
@@ -3478,9 +3478,9 @@
       ]
      },
      "questions": [
-      "What weather do you like the most, and why?",
+      "What kind of weather do you like best, and why?",
       "What do you remember from the first rain of winter when you were young?",
-      "What in your opinion is worthwhile to wear on such a day? Explain."
+      "In your opinion, what is best to wear on such a day? Explain."
      ]
     },
     "ru": {
@@ -3536,7 +3536,7 @@
      "questions": [
       "¿Qué clima les gusta más y por qué?",
       "¿Qué recuerdan de la primera lluvia del invierno cuando eran jóvenes?",
-      "¿Qué creen que conviene vestir en un día así? Expliquen su respuesta."
+      "¿Qué creen que conviene ponerse en un día así? Justifiquen."
      ]
     }
    },
@@ -3625,9 +3625,9 @@
       ]
      },
      "questions": [
-      "Have you ever traveled by train? Where and when?",
-      "What do you remember from a train ride in your childhood?",
-      "What in your opinion is an advantage of a train over a bus? Explain."
+      "Have you ever ridden a train? Where to and when?",
+      "What do you remember from riding a train in your childhood?",
+      "In your opinion, what is an advantage of a train over a bus? Explain."
      ]
     },
     "ru": {
@@ -3683,7 +3683,7 @@
      "questions": [
       "¿Alguna vez viajaron en tren? ¿A dónde y cuándo?",
       "¿Qué recuerdan de un viaje en tren en su infancia?",
-      "¿Qué creen que es una ventaja del tren sobre un autobús? Expliquen su respuesta."
+      "¿Qué creen que es una ventaja del tren frente al autobús? Justifiquen."
      ]
     }
    },
@@ -3772,9 +3772,9 @@
       ]
      },
      "questions": [
-      "What big movie do you remember from your youth, and where did you see it?",
+      "Which great movie do you remember from your youth, and where did you see it?",
       "What do you remember from the cinema in your childhood?",
-      "What in your opinion makes a movie famous over the years? Explain."
+      "In your opinion, what makes a movie famous for years to come? Explain."
      ]
     },
     "ru": {
@@ -3830,7 +3830,7 @@
      "questions": [
       "¿Qué gran película recuerdan de su juventud y dónde la vieron?",
       "¿Qué recuerdan del cine en su infancia?",
-      "¿Qué creen que hace que una película sea famosa a lo largo de los años? Expliquen su respuesta."
+      "¿Qué creen que hace que una película sea famosa a lo largo de los años? Justifiquen."
      ]
     }
    },
@@ -4070,8 +4070,8 @@
       ]
      },
      "questions": [
-      "Have you ever gone on a trip or camping? Tell how it was.",
-      "What in your opinion is important to take with us to a trip in nature? Explain.",
+      "Have you ever gone on a trip or camping? Tell us how it was.",
+      "In your opinion, what is important to take with us on a trip in nature? Explain.",
       "What memory do you have from a trip with family or friends?"
      ]
     },
@@ -4098,9 +4098,9 @@
       ]
      },
      "questions": [
-      "Отправлялись ли вы когда-нибудь в поездку или на кемпинг? Расскажите, как это было.",
+      "Выходили ли вы когда-нибудь на прогулку или в поход с ночевкой? Расскажите, как это было.",
       "Что, по вашему мнению, важно взять с собой в поездку на природу? Обоснуйте.",
-      "Какое у вас есть воспоминание о поездке с семьей или друзьями?"
+      "Какое воспоминание у вас есть о поездке с семьей или друзьями?"
      ]
     },
     "es": {
@@ -4126,8 +4126,8 @@
       ]
      },
      "questions": [
-      "¿Alguna vez salieron de excursión o de campamento? Cuenten cómo fue.",
-      "¿Qué creen que es importante llevar con nosotros a una excursión a la naturaleza? Expliquen su respuesta.",
+      "¿Alguna vez salieron de excursión o de campamento? Cuéntennos cómo fue.",
+      "¿Qué creen que es importante llevar con nosotros a una excursión a la naturaleza? Justifiquen.",
       "¿Qué recuerdo tienen de una excursión con la familia o los amigos?"
      ]
     }
@@ -4218,7 +4218,7 @@
      },
      "questions": [
       "Do you follow legal news? What do you like to read in the newspaper?",
-      "What memory do you have from a visit to a courthouse or an old legal newspaper?",
+      "What memory do you have from a visit to court or from an old legal newspaper?",
       "In your opinion, why is it important that all sides present their position in court? Explain."
      ]
     },
@@ -4245,9 +4245,9 @@
       ]
      },
      "questions": [
-      "Следите ли вы за судебными новостями? Что вы любите читать в газете?",
-      "Какое у вас есть воспоминание о посещении суда или о старой судебной газете?",
-      "Как вы думаете, почему важно, чтобы все стороны представили свою позицию в суде? Обоснуйте."
+      "Следите ли вы за новостями судебной системы? Что вы любите читать в газете?",
+      "Какое воспоминание у вас есть о посещении суда или о старой юридической газете?",
+      "По вашему мнению, почему важно, чтобы все стороны изложили свою позицию в суде? Обоснуйте."
      ]
     },
     "es": {
@@ -4274,8 +4274,8 @@
      },
      "questions": [
       "¿Siguen las noticias judiciales? ¿Qué les gusta leer en el periódico?",
-      "¿Qué recuerdo tienen de una visita a un tribunal o de un periódico jurídico antiguo?",
-      "En su opinión, ¿por qué es importante que todas las partes presenten su postura en el tribunal? Expliquen su respuesta."
+      "¿Qué recuerdo tienen de una visita a un tribunal o de un periódico judicial viejo?",
+      "En su opinión, ¿por qué es importante que todas las partes expongan su postura en el tribunal? Justifiquen."
      ]
     }
    },
@@ -4368,9 +4368,9 @@
       ]
      },
      "questions": [
-      "How do you feel when you have to wait a long time for a doctor's appointment? Tell.",
-      "What memory do you have from a hospital or a health fund clinic in your youth?",
-      "In your opinion, what is important for a manager of a public body to know? Explain."
+      "How do you feel when you have to wait a long time for a doctor's appointment? Tell us.",
+      "What memory do you have from a hospital or a health clinic in your youth?",
+      "In your opinion, what is important for the head of a public body to know? Explain."
      ]
     },
     "ru": {
@@ -4397,8 +4397,8 @@
      },
      "questions": [
       "Что вы чувствуете, когда приходится долго ждать очереди к врачу? Расскажите.",
-      "Какое у вас есть воспоминание о больнице или поликлинике в вашей молодости?",
-      "Как вы думаете, что должен знать руководитель общественного органа? Обоснуйте."
+      "Какое воспоминание у вас есть о больнице или поликлинике в вашей молодости?",
+      "По вашему мнению, что важно знать руководителю общественного органа? Обоснуйте."
      ]
     },
     "es": {
@@ -4424,9 +4424,9 @@
       ]
      },
      "questions": [
-      "¿Cómo se sienten cuando hay que esperar mucho tiempo para una cita médica? Cuenten.",
+      "¿Cómo se sienten cuando hay que esperar mucho tiempo para una cita médica? Cuéntennos.",
       "¿Qué recuerdo tienen de un hospital o de una caja de salud en su juventud?",
-      "En su opinión, ¿qué es importante que sepa el director de un organismo público? Expliquen su respuesta."
+      "En su opinión, ¿qué es importante que sepa el director de un organismo público? Justifiquen su respuesta."
      ]
     }
    },
@@ -4670,8 +4670,8 @@
       ]
      },
      "questions": [
-      "What historical event do you remember from your childhood? Tell.",
-      "Would you want to fly into space or sail in a large canal? Why?",
+      "What historical event do you remember from your childhood? Tell about it.",
+      "Would you like to fly into space or sail through a large canal? Why?",
       "In your opinion, which invention changed daily life the most? Explain."
      ]
     },
@@ -4700,7 +4700,7 @@
      "questions": [
       "Какое историческое событие вы помните из своего детства? Расскажите.",
       "Хотели бы вы полететь в космос или поплавать по большому каналу? Почему?",
-      "Как вы думаете, какое изобретение изменило повседневную жизнь больше всего? Обоснуйте."
+      "По вашему мнению, какое изобретение больше всего изменило повседневную жизнь? Обоснуйте."
      ]
     },
     "es": {
@@ -4726,9 +4726,9 @@
       ]
      },
      "questions": [
-      "¿Qué evento histórico recuerdan de su infancia? Cuenten.",
+      "Qué acontecimiento histórico recuerdan de su infancia? Cuéntennos.",
       "¿Les gustaría volar al espacio o navegar por un gran canal? ¿Por qué?",
-      "En su opinión, ¿qué invento cambió más la vida diaria? Expliquen su respuesta."
+      "En su opinión, ¿qué invento cambió más la vida cotidiana? Justifiquen su respuesta."
      ]
     }
    },
@@ -4825,9 +4825,9 @@
       ]
      },
      "questions": [
-      "What movie or director did you love in your youth?",
-      "Did you ever have a motorcycle, scooter or bicycle? Tell.",
-      "In your opinion, what causes a person to establish their own company? Explain."
+      "Which movie or director did you love in your youth?",
+      "Did you ever have a motorcycle, a scooter, or a bicycle? Tell about it.",
+      "In your opinion, what makes a person start their own company? Explain."
      ]
     },
     "ru": {
@@ -4853,9 +4853,9 @@
       ]
      },
      "questions": [
-      "Какой фильм или режиссер вам нравились в молодости?",
-      "Были ли у вас когда-нибудь мотоцикл, скутер или велосипед? Расскажите.",
-      "Как вы думаете, что заставляет человека основать собственную компанию? Обоснуйте."
+      "Какой фильм или какого режиссера вы любили в молодости?",
+      "Был ли у вас когда-нибудь мотоцикл, скутер или велосипед? Расскажите.",
+      "По вашему мнению, что заставляет человека создать собственную компанию? Обоснуйте."
      ]
     },
     "es": {
@@ -4882,8 +4882,8 @@
      },
      "questions": [
       "¿Qué película o director les gustaba en su juventud?",
-      "¿Tuvieron alguna vez una motocicleta, un motocarro o una bicicleta? Cuenten.",
-      "En su opinión, ¿qué hace que una persona funde su propia empresa? Expliquen su respuesta."
+      "¿Tuvieron alguna vez una motocicleta, un motocarro o una bicicleta? Cuéntennos.",
+      "En su opinión, ¿qué hace que una persona funde su propia empresa? Justifiquen su respuesta."
      ]
     }
    },
@@ -4972,7 +4972,7 @@
       ]
      },
      "questions": [
-      "What book did you particularly love in your life? Tell about it.",
+      "Which book did you particularly love in your life? Tell about it.",
       "What memory do you have from a library or a bookstore?",
       "In your opinion, what makes a good book stay in the heart for many years? Explain."
      ]
@@ -5000,9 +5000,9 @@
       ]
      },
      "questions": [
-      "Какая книга вам особенно понравилась в жизни? Расскажите о ней.",
-      "Какое у вас есть воспоминание о библиотеке или книжном магазине?",
-      "Как вы думаете, что заставляет хорошую книгу оставаться в сердце долгие годы? Обоснуйте."
+      "Какую книгу вы особенно любили в своей жизни? Расскажите о ней.",
+      "Какое воспоминание у вас связано с библиотекой или книжным магазином?",
+      "По вашему мнению, что заставляет хорошую книгу оставаться в сердце долгие годы? Обоснуйте."
      ]
     },
     "es": {
@@ -5028,9 +5028,9 @@
       ]
      },
      "questions": [
-      "¿Qué libro les gustó especialmente en su vida? Cuenten sobre él.",
+      "¿Qué libro les gustó especialmente en su vida? Cuéntennos sobre él.",
       "¿Qué recuerdo tienen de una biblioteca o de una librería?",
-      "En su opinión, ¿qué hace que un buen libro permanezca en el corazón durante muchos años? Expliquen su respuesta."
+      "En su opinión, ¿qué hace que un buen libro permanezca en el corazón durante muchos años? Justifiquen su respuesta."
      ]
     }
    },
@@ -6111,11 +6111,6 @@
    "verified": true,
    "date": "2026-11-15",
    "ts": 1794696568,
-   "audio": [
-    "easy",
-    "medium",
-    "hard"
-   ],
    "tr": {
     "en": {
      "title": "Eisenkot holds the mandate: what happened in the first week",
@@ -6150,23 +6145,6 @@
       "¿Qué le preguntaría a un nuevo primer ministro si lo conociera?"
      ]
     }
-   },
-   "audioTr": {
-    "en": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "ru": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "es": [
-     "easy",
-     "medium",
-     "hard"
-    ]
    }
   },
   {
@@ -6190,11 +6168,6 @@
    "verified": true,
    "date": "2026-11-15",
    "ts": 1794696568,
-   "audio": [
-    "easy",
-    "medium",
-    "hard"
-   ],
    "tr": {
     "en": {
      "title": "What happens if Eisenkot doesn't succeed? The stages of forming the government",
@@ -6229,23 +6202,6 @@
       "¿Por qué es importante tener una fecha límite en procesos importantes?"
      ]
     }
-   },
-   "audioTr": {
-    "en": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "ru": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "es": [
-     "easy",
-     "medium",
-     "hard"
-    ]
    }
   },
   {
@@ -6273,11 +6229,6 @@
    "verified": true,
    "date": "2026-11-15",
    "ts": 1794696568,
-   "audio": [
-    "easy",
-    "medium",
-    "hard"
-   ],
    "tr": {
     "en": {
      "title": "In two weeks: early elections in Spain",
@@ -6312,23 +6263,6 @@
       "En su opinión, ¿cómo se puede facilitar que los jóvenes encuentren un apartamento?"
      ]
     }
-   },
-   "audioTr": {
-    "en": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "ru": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "es": [
-     "easy",
-     "medium",
-     "hard"
-    ]
    }
   },
   {
@@ -6357,11 +6291,6 @@
    "date": "2026-11-15",
    "ts": 1794696568,
    "shabbat": "2026-11-21",
-   "audio": [
-    "easy",
-    "medium",
-    "hard"
-   ],
    "tr": {
     "en": {
      "title": "The week's parshah, and it came out: The dream of the ladder, Rachel and Leah",
@@ -6396,23 +6325,6 @@
       "¿Qué crees que dice la historia sobre la paciencia?"
      ]
     }
-   },
-   "audioTr": {
-    "en": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "ru": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "es": [
-     "easy",
-     "medium",
-     "hard"
-    ]
    }
   },
   {
@@ -6470,28 +6382,6 @@
       "¿Cómo se toman decisiones cuando hay opiniones diferentes en el grupo?"
      ]
     }
-   },
-   "audio": [
-    "easy",
-    "medium",
-    "hard"
-   ],
-   "audioTr": {
-    "en": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "ru": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "es": [
-     "easy",
-     "medium",
-     "hard"
-    ]
    }
   },
   {
@@ -6549,28 +6439,6 @@
       "¿Qué comida o plato de la casa de tus padres o abuelos recuerdas?"
      ]
     }
-   },
-   "audio": [
-    "easy",
-    "medium",
-    "hard"
-   ],
-   "audioTr": {
-    "en": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "ru": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "es": [
-     "easy",
-     "medium",
-     "hard"
-    ]
    }
   },
   {
@@ -6628,28 +6496,6 @@
       "¿Dónde vivía cuando era joven y cómo encontró un apartamento?"
      ]
     }
-   },
-   "audio": [
-    "easy",
-    "medium",
-    "hard"
-   ],
-   "audioTr": {
-    "en": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "ru": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "es": [
-     "easy",
-     "medium",
-     "hard"
-    ]
    }
   },
   {
@@ -6711,28 +6557,6 @@
       "¿Qué te gusta hacer afuera cuando hace buen día?"
      ]
     }
-   },
-   "audio": [
-    "easy",
-    "medium",
-    "hard"
-   ],
-   "audioTr": {
-    "en": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "ru": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "es": [
-     "easy",
-     "medium",
-     "hard"
-    ]
    }
   },
   {
@@ -6794,28 +6618,6 @@
       "¿Qué recuerdas de las películas que viste cuando eras joven?"
      ]
     }
-   },
-   "audio": [
-    "easy",
-    "medium",
-    "hard"
-   ],
-   "audioTr": {
-    "en": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "ru": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "es": [
-     "easy",
-     "medium",
-     "hard"
-    ]
    }
   },
   {
@@ -6882,28 +6684,6 @@
       "¿Qué recipiente de la casa recuerdas con cariño, como un plato o una jarra?"
      ]
     }
-   },
-   "audio": [
-    "easy",
-    "medium",
-    "hard"
-   ],
-   "audioTr": {
-    "en": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "ru": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "es": [
-     "easy",
-     "medium",
-     "hard"
-    ]
    }
   },
   {
@@ -6965,28 +6745,6 @@
       "¿Cómo te sientes cuando todos aplauden a una persona?"
      ]
     }
-   },
-   "audio": [
-    "easy",
-    "medium",
-    "hard"
-   ],
-   "audioTr": {
-    "en": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "ru": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "es": [
-     "easy",
-     "medium",
-     "hard"
-    ]
    }
   },
   {
@@ -7044,28 +6802,6 @@
       "¿Cómo te preparas para el tema que vas a votar?"
      ]
     }
-   },
-   "audio": [
-    "easy",
-    "medium",
-    "hard"
-   ],
-   "audioTr": {
-    "en": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "ru": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "es": [
-     "easy",
-     "medium",
-     "hard"
-    ]
    }
   },
   {
@@ -7123,28 +6859,6 @@
       "¿Qué ciudad del mundo te gustaría visitar y por qué?"
      ]
     }
-   },
-   "audio": [
-    "easy",
-    "medium",
-    "hard"
-   ],
-   "audioTr": {
-    "en": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "ru": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "es": [
-     "easy",
-     "medium",
-     "hard"
-    ]
    }
   },
   {
@@ -7206,28 +6920,6 @@
       "¿Recuerda algún invierno particularmente frío del pasado?"
      ]
     }
-   },
-   "audio": [
-    "easy",
-    "medium",
-    "hard"
-   ],
-   "audioTr": {
-    "en": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "ru": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "es": [
-     "easy",
-     "medium",
-     "hard"
-    ]
    }
   },
   {
@@ -7285,28 +6977,6 @@
       "¿Qué nuevo invento te sorprendió más en tu vida?"
      ]
     }
-   },
-   "audio": [
-    "easy",
-    "medium",
-    "hard"
-   ],
-   "audioTr": {
-    "en": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "ru": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "es": [
-     "easy",
-     "medium",
-     "hard"
-    ]
    }
   },
   {
@@ -7372,28 +7042,6 @@
       "¿Recuerdas la boda de la princesa Grace?"
      ]
     }
-   },
-   "audio": [
-    "easy",
-    "medium",
-    "hard"
-   ],
-   "audioTr": {
-    "en": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "ru": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "es": [
-     "easy",
-     "medium",
-     "hard"
-    ]
    }
   },
   {
@@ -7451,28 +7099,6 @@
       "¿Qué te ayuda a recordar cosas importantes?"
      ]
     }
-   },
-   "audio": [
-    "easy",
-    "medium",
-    "hard"
-   ],
-   "audioTr": {
-    "en": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "ru": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "es": [
-     "easy",
-     "medium",
-     "hard"
-    ]
    }
   },
   {
@@ -7530,28 +7156,6 @@
       "¿Qué historia te gustaría transmitir a tus nietos?"
      ]
     }
-   },
-   "audio": [
-    "easy",
-    "medium",
-    "hard"
-   ],
-   "audioTr": {
-    "en": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "ru": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "es": [
-     "easy",
-     "medium",
-     "hard"
-    ]
    }
   },
   {
@@ -7609,28 +7213,6 @@
       "¿Qué es más importante en un equipo: el ataque o la defensa?"
      ]
     }
-   },
-   "audio": [
-    "easy",
-    "medium",
-    "hard"
-   ],
-   "audioTr": {
-    "en": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "ru": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "es": [
-     "easy",
-     "medium",
-     "hard"
-    ]
    }
   },
   {
@@ -7688,28 +7270,6 @@
       "¿Qué opinas de las conversaciones y compromisos entre personas que piensan diferente?"
      ]
     }
-   },
-   "audio": [
-    "easy",
-    "medium",
-    "hard"
-   ],
-   "audioTr": {
-    "en": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "ru": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "es": [
-     "easy",
-     "medium",
-     "hard"
-    ]
    }
   },
   {
@@ -7767,28 +7327,6 @@
       "¿Qué crees que es importante para que más mujeres ocupen puestos de liderazgo?"
      ]
     }
-   },
-   "audio": [
-    "easy",
-    "medium",
-    "hard"
-   ],
-   "audioTr": {
-    "en": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "ru": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "es": [
-     "easy",
-     "medium",
-     "hard"
-    ]
    }
   },
   {
@@ -7846,28 +7384,6 @@
       "¿Qué comida haces cuando hace frío afuera?"
      ]
     }
-   },
-   "audio": [
-    "easy",
-    "medium",
-    "hard"
-   ],
-   "audioTr": {
-    "en": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "ru": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "es": [
-     "easy",
-     "medium",
-     "hard"
-    ]
    }
   },
   {
@@ -7925,28 +7441,6 @@
       "¿Cómo encontrarías el camino antes de que existieran las señales y los números?"
      ]
     }
-   },
-   "audio": [
-    "easy",
-    "medium",
-    "hard"
-   ],
-   "audioTr": {
-    "en": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "ru": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "es": [
-     "easy",
-     "medium",
-     "hard"
-    ]
    }
   },
   {
@@ -8012,28 +7506,6 @@
       "¿Quién era tu autor o actor favorito cuando eras joven?"
      ]
     }
-   },
-   "audio": [
-    "easy",
-    "medium",
-    "hard"
-   ],
-   "audioTr": {
-    "en": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "ru": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "es": [
-     "easy",
-     "medium",
-     "hard"
-    ]
    }
   },
   {
@@ -8091,28 +7563,6 @@
       "¿Cuál es tu mejor consejo para no gastar demasiado?"
      ]
     }
-   },
-   "audio": [
-    "easy",
-    "medium",
-    "hard"
-   ],
-   "audioTr": {
-    "en": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "ru": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "es": [
-     "easy",
-     "medium",
-     "hard"
-    ]
    }
   },
   {
@@ -8170,28 +7620,6 @@
       "¿Qué crees que se puede hacer para proteger a los animales en peligro de extinción?"
      ]
     }
-   },
-   "audio": [
-    "easy",
-    "medium",
-    "hard"
-   ],
-   "audioTr": {
-    "en": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "ru": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "es": [
-     "easy",
-     "medium",
-     "hard"
-    ]
    }
   },
   {
@@ -8249,28 +7677,6 @@
       "¿Cómo llegabas a lugares lejanos cuando eras joven?"
      ]
     }
-   },
-   "audio": [
-    "easy",
-    "medium",
-    "hard"
-   ],
-   "audioTr": {
-    "en": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "ru": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "es": [
-     "easy",
-     "medium",
-     "hard"
-    ]
    }
   },
   {
@@ -8328,28 +7734,6 @@
       "¿Quién te ayudó una vez sin preguntar y cómo te sentiste?"
      ]
     }
-   },
-   "audio": [
-    "easy",
-    "medium",
-    "hard"
-   ],
-   "audioTr": {
-    "en": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "ru": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "es": [
-     "easy",
-     "medium",
-     "hard"
-    ]
    }
   },
   {
@@ -8411,28 +7795,6 @@
       "¿Qué olor o sonido de la lluvia te recuerda más a tu infancia?"
      ]
     }
-   },
-   "audio": [
-    "easy",
-    "medium",
-    "hard"
-   ],
-   "audioTr": {
-    "en": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "ru": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "es": [
-     "easy",
-     "medium",
-     "hard"
-    ]
    }
   },
   {
@@ -8490,28 +7852,6 @@
       "¿Qué crees que tiene de emocionante el descubrimiento de un mundo nuevo tan lejano?"
      ]
     }
-   },
-   "audio": [
-    "easy",
-    "medium",
-    "hard"
-   ],
-   "audioTr": {
-    "en": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "ru": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "es": [
-     "easy",
-     "medium",
-     "hard"
-    ]
    }
   },
   {
@@ -8573,28 +7913,6 @@
       "¿Cómo te parece un buen día de invierno?"
      ]
     }
-   },
-   "audio": [
-    "easy",
-    "medium",
-    "hard"
-   ],
-   "audioTr": {
-    "en": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "ru": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "es": [
-     "easy",
-     "medium",
-     "hard"
-    ]
    }
   },
   {
@@ -8652,28 +7970,6 @@
       "¿Alguna vez has tenido un pájaro o una mascota que hayas tenido?"
      ]
     }
-   },
-   "audio": [
-    "easy",
-    "medium",
-    "hard"
-   ],
-   "audioTr": {
-    "en": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "ru": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "es": [
-     "easy",
-     "medium",
-     "hard"
-    ]
    }
   },
   {
@@ -8731,28 +8027,6 @@
       "¿Qué mes del año es tu favorito y por qué?"
      ]
     }
-   },
-   "audio": [
-    "easy",
-    "medium",
-    "hard"
-   ],
-   "audioTr": {
-    "en": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "ru": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "es": [
-     "easy",
-     "medium",
-     "hard"
-    ]
    }
   },
   {
@@ -8811,28 +8085,6 @@
       "¿Qué piensas: cómo sabes cuándo debes seguir adelante?"
      ]
     }
-   },
-   "audio": [
-    "easy",
-    "medium",
-    "hard"
-   ],
-   "audioTr": {
-    "en": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "ru": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "es": [
-     "easy",
-     "medium",
-     "hard"
-    ]
    }
   },
   {
@@ -8893,28 +8145,6 @@
       "¿Qué actor o actriz era tu favorito cuando eras joven?"
      ]
     }
-   },
-   "audio": [
-    "easy",
-    "medium",
-    "hard"
-   ],
-   "audioTr": {
-    "en": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "ru": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "es": [
-     "easy",
-     "medium",
-     "hard"
-    ]
    }
   },
   {
@@ -8951,11 +8181,6 @@
    "verified": true,
    "date": "2026-11-04",
    "ts": 1762221600,
-   "audio": [
-    "easy",
-    "medium",
-    "hard"
-   ],
    "tr": {
     "en": {
      "title": "Today the consultations begin at the President's House for the formation of the government",
@@ -8990,23 +8215,6 @@
       "¿Qué cualidades cree que son importantes para quienes reciben la tarea de formar un gobierno?"
      ]
     }
-   },
-   "audioTr": {
-    "en": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "ru": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "es": [
-     "easy",
-     "medium",
-     "hard"
-    ]
    }
   },
   {
@@ -9039,11 +8247,6 @@
    "verified": true,
    "date": "2026-11-04",
    "ts": 1762221600,
-   "audio": [
-    "easy",
-    "medium",
-    "hard"
-   ],
    "tr": {
     "en": {
      "title": "A 17-year-old boy found a 3,300-year-old Egyptian amulet in Tel Gezer",
@@ -9078,23 +8281,6 @@
       "¿Cómo te sentirías si tuvieras en tu mano un objeto de 3.300 años de antigüedad?"
      ]
     }
-   },
-   "audioTr": {
-    "en": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "ru": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "es": [
-     "easy",
-     "medium",
-     "hard"
-    ]
    }
   },
   {
@@ -9119,11 +8305,6 @@
    "verified": true,
    "date": "2026-11-04",
    "ts": 1762221600,
-   "audio": [
-    "easy",
-    "medium",
-    "hard"
-   ],
    "tr": {
     "en": {
      "title": "Honorary doctorate to Rachel Shapira and Enrico Macias",
@@ -9158,23 +8339,6 @@
       "Si pudieras darle un título honorífico a un artista israelí, ¿a quién se lo darías y por qué?"
      ]
     }
-   },
-   "audioTr": {
-    "en": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "ru": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "es": [
-     "easy",
-     "medium",
-     "hard"
-    ]
    }
   },
   {
@@ -9203,11 +8367,6 @@
    "verified": true,
    "date": "2026-11-04",
    "ts": 1762221600,
-   "audio": [
-    "easy",
-    "medium",
-    "hard"
-   ],
    "tr": {
     "en": {
      "title": "After the heat: the temperatures drop, and rain at the weekend",
@@ -9242,23 +8401,6 @@
       "¿Qué prefieres: un día cálido y luminoso o un día fresco y lluvioso? ¿por qué?"
      ]
     }
-   },
-   "audioTr": {
-    "en": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "ru": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "es": [
-     "easy",
-     "medium",
-     "hard"
-    ]
    }
   },
   {
@@ -9287,11 +8429,6 @@
    "verified": true,
    "date": "2026-11-04",
    "ts": 1762221600,
-   "audio": [
-    "easy",
-    "medium",
-    "hard"
-   ],
    "tr": {
     "en": {
      "title": "Next Monday we celebrate the holiday of the mosque",
@@ -9326,23 +8463,6 @@
       "¿Qué opinas de una festividad centrada en la renovación del pacto y un nuevo comienzo? ¿Qué te gustaría empezar de nuevo?"
      ]
     }
-   },
-   "audioTr": {
-    "en": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "ru": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "es": [
-     "easy",
-     "medium",
-     "hard"
-    ]
    }
   },
   {
@@ -9371,11 +8491,6 @@
    "verified": true,
    "date": "2026-11-04",
    "ts": 1762221600,
-   "audio": [
-    "easy",
-    "medium",
-    "hard"
-   ],
    "tr": {
     "en": {
      "title": "Parshat of the week, Sarah's life: Rebekah's test at the well, and what kindness teaches us",
@@ -9410,23 +8525,6 @@
       "¿Recuerdas un pequeño acto de bondad que un extraño hizo una vez por ti y que permanece contigo hasta el día de hoy?"
      ]
     }
-   },
-   "audioTr": {
-    "en": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "ru": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "es": [
-     "easy",
-     "medium",
-     "hard"
-    ]
    }
   },
   {
@@ -9451,11 +8549,6 @@
    "verified": true,
    "date": "2026-11-04",
    "ts": 1762221600,
-   "audio": [
-    "easy",
-    "medium",
-    "hard"
-   ],
    "tr": {
     "en": {
      "title": "Teva presented a higher than expected profit in the third quarter and raised the forecast for the entire year",
@@ -9490,23 +8583,6 @@
       "¿Qué cree que es más importante en una empresa farmacéutica: el beneficio para los inversores o el precio de los medicamentos para el público?"
      ]
     }
-   },
-   "audioTr": {
-    "en": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "ru": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "es": [
-     "easy",
-     "medium",
-     "hard"
-    ]
    }
   },
   {
@@ -9535,11 +8611,6 @@
    "verified": true,
    "date": "2026-11-04",
    "ts": 1762221600,
-   "audio": [
-    "easy",
-    "medium",
-    "hard"
-   ],
    "tr": {
     "en": {
      "title": "Israel Railways adds 140,000 seats per day and direct lines from the coast to Israel and Jerusalem",
@@ -9574,23 +8645,6 @@
       "¿A qué lugares de Israel le gustaría tener un tren directo?"
      ]
     }
-   },
-   "audioTr": {
-    "en": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "ru": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "es": [
-     "easy",
-     "medium",
-     "hard"
-    ]
    }
   },
   {
@@ -9615,11 +8669,6 @@
    "verified": true,
    "date": "2026-11-04",
    "ts": 1762221600,
-   "audio": [
-    "easy",
-    "medium",
-    "hard"
-   ],
    "tr": {
     "en": {
      "title": "New health report: fewer Israelis smoke, and a record proportion of diabetes patients are balanced",
@@ -9654,23 +8703,6 @@
       "¿Qué crees que ayuda a mantener una buena salud en la vejez: la comida, los paseos, la compañía u otra cosa?"
      ]
     }
-   },
-   "audioTr": {
-    "en": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "ru": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "es": [
-     "easy",
-     "medium",
-     "hard"
-    ]
    }
   },
   {
@@ -9695,11 +8727,6 @@
    "verified": true,
    "date": "2026-11-04",
    "ts": 1762221600,
-   "audio": [
-    "easy",
-    "medium",
-    "hard"
-   ],
    "tr": {
     "en": {
      "title": "NASA recommends: what to see in the sky in November - a supermoon, a meteor shower and Mars next to Jupiter",
@@ -9734,23 +8761,6 @@
       "¿Qué te gustaría preguntarle a un astronauta o científico espacial si lo conocieras?"
      ]
     }
-   },
-   "audioTr": {
-    "en": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "ru": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "es": [
-     "easy",
-     "medium",
-     "hard"
-    ]
    }
   },
   {
@@ -9775,11 +8785,6 @@
    "verified": true,
    "date": "2026-11-04",
    "ts": 1762221600,
-   "audio": [
-    "easy",
-    "medium",
-    "hard"
-   ],
    "tr": {
     "en": {
      "title": "Researchers in China have developed solar panels that generate electricity underwater",
@@ -9814,23 +8819,6 @@
       "¿Qué inventos has visto durante tu vida que te hayan sorprendido especialmente?"
      ]
     }
-   },
-   "audioTr": {
-    "en": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "ru": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "es": [
-     "easy",
-     "medium",
-     "hard"
-    ]
    }
   },
   {
@@ -9855,11 +8843,6 @@
    "verified": true,
    "date": "2026-11-04",
    "ts": 1762221600,
-   "audio": [
-    "easy",
-    "medium",
-    "hard"
-   ],
    "tr": {
     "en": {
      "title": "30 medals for the Israeli team at the European Ninja Championship in the Czech Republic",
@@ -9894,23 +8877,6 @@
       "¿Tiene nietos o bisnietos que practican deporte? ¿qué?"
      ]
     }
-   },
-   "audioTr": {
-    "en": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "ru": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "es": [
-     "easy",
-     "medium",
-     "hard"
-    ]
    }
   },
   {
@@ -9939,11 +8905,6 @@
    "verified": true,
    "date": "2026-11-04",
    "ts": 1762221600,
-   "audio": [
-    "easy",
-    "medium",
-    "hard"
-   ],
    "tr": {
     "en": {
      "title": "After more than 20 years: the series \"In Treatment\" returns to the screen with a new season",
@@ -9978,23 +8939,6 @@
       "¿Qué opinas del regreso de series antiguas después de muchos años? ¿Una buena idea o es mejor dejar el recuerdo?"
      ]
     }
-   },
-   "audioTr": {
-    "en": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "ru": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "es": [
-     "easy",
-     "medium",
-     "hard"
-    ]
    }
   },
   {
@@ -10023,11 +8967,6 @@
    "verified": true,
    "date": "2026-11-04",
    "ts": 1762221600,
-   "audio": [
-    "easy",
-    "medium",
-    "hard"
-   ],
    "tr": {
     "en": {
      "title": "Harbingers of the rain: the yellow and autumn flowers bloom before winter",
@@ -10062,23 +9001,6 @@
       "¿Qué opinas: por qué es importante no recoger flores silvestres?"
      ]
     }
-   },
-   "audioTr": {
-    "en": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "ru": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "es": [
-     "easy",
-     "medium",
-     "hard"
-    ]
    }
   },
   {
@@ -10111,11 +9033,6 @@
    "verified": true,
    "date": "2026-11-04",
    "ts": 1762221600,
-   "audio": [
-    "easy",
-    "medium",
-    "hard"
-   ],
    "tr": {
     "en": {
      "title": "Today in history, November 4: the first sign of the tomb of Tut Ankh Amon",
@@ -10150,23 +9067,6 @@
       "¿Qué opinas: los tesoros antiguos deberían dejarse donde fueron encontrados o exhibirse en un museo?"
      ]
     }
-   },
-   "audioTr": {
-    "en": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "ru": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "es": [
-     "easy",
-     "medium",
-     "hard"
-    ]
    }
   },
   {
@@ -10204,11 +9104,6 @@
    "verified": true,
    "date": "2026-11-04",
    "ts": 1762221600,
-   "audio": [
-    "easy",
-    "medium",
-    "hard"
-   ],
    "tr": {
     "en": {
      "title": "Born today, November 4: Walter Cronkite, Art Carney and Will Rogers",
@@ -10243,23 +9138,6 @@
       "¿Cuál de los tres te parece más interesante y con quién te gustaría sentarte a conversar?"
      ]
     }
-   },
-   "audioTr": {
-    "en": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "ru": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "es": [
-     "easy",
-     "medium",
-     "hard"
-    ]
    }
   },
   {
@@ -10296,11 +9174,6 @@
    "verified": true,
    "date": "2026-11-03",
    "ts": 1793679678,
-   "audio": [
-    "easy",
-    "medium",
-    "hard"
-   ],
    "tr": {
     "en": {
      "title": "Tomorrow, the consultations begin at the President's residence for the formation of the government, and they will be broadcast live",
@@ -10335,23 +9208,6 @@
       "¿Qué le gustaría que se formara el nuevo gobierno y qué es lo primero que le gustaría que abordara?"
      ]
     }
-   },
-   "audioTr": {
-    "en": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "ru": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "es": [
-     "easy",
-     "medium",
-     "hard"
-    ]
    }
   },
   {
@@ -10376,11 +9232,6 @@
    "verified": true,
    "date": "2026-11-03",
    "ts": 1793679678,
-   "audio": [
-    "easy",
-    "medium",
-    "hard"
-   ],
    "tr": {
     "en": {
      "title": "After six years of shortness of breath: a 15-year-old boy from Jerusalem is able to breathe again thanks to a rare surgery at Shaare Zedek",
@@ -10415,23 +9266,6 @@
       "El padre dijo que el equipo le dio a su hijo \"una nueva vida\". ¿Cuándo sentiste que habías tenido un nuevo comienzo en la vida?"
      ]
     }
-   },
-   "audioTr": {
-    "en": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "ru": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "es": [
-     "easy",
-     "medium",
-     "hard"
-    ]
    }
   },
   {
@@ -10460,11 +9294,6 @@
    "verified": true,
    "date": "2026-11-03",
    "ts": 1793679678,
-   "audio": [
-    "easy",
-    "medium",
-    "hard"
-   ],
    "tr": {
     "en": {
      "title": "Good news for train passengers: from November 14 direct trains from Netanya, Hadera and Beit Yehoshua to Israel and Jerusalem, 24 hours a day",
@@ -10499,23 +9328,6 @@
       "Si pudieras tomar un tren directo a cualquier lugar de Israel hoy en día, ¿adónde irías y a quién visitarías?"
      ]
     }
-   },
-   "audioTr": {
-    "en": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "ru": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "es": [
-     "easy",
-     "medium",
-     "hard"
-    ]
    }
   },
   {
@@ -10552,11 +9364,6 @@
    "verified": true,
    "date": "2026-11-03",
    "ts": 1793679678,
-   "audio": [
-    "easy",
-    "medium",
-    "hard"
-   ],
    "tr": {
     "en": {
      "title": "The heat is over: today the temperatures drop to normal, and local rain is expected on Thursday",
@@ -10591,23 +9398,6 @@
       "¿Qué olor o sonido te recuerda la primera lluvia del año?"
      ]
     }
-   },
-   "audioTr": {
-    "en": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "ru": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "es": [
-     "easy",
-     "medium",
-     "hard"
-    ]
    }
   },
   {
@@ -10640,11 +9430,6 @@
    "verified": true,
    "date": "2026-11-03",
    "ts": 1793679678,
-   "audio": [
-    "easy",
-    "medium",
-    "hard"
-   ],
    "tr": {
     "en": {
      "title": "After the floods: the Negev lily blooms in the prairie, and you can see it on the path of the lilies",
@@ -10679,23 +9464,6 @@
       "¿Qué te parece la idea de hacer un viaje en busca de flores el fin de semana? ¿Adónde te gustaría ir?"
      ]
     }
-   },
-   "audioTr": {
-    "en": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "ru": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "es": [
-     "easy",
-     "medium",
-     "hard"
-    ]
    }
   },
   {
@@ -10724,11 +9492,6 @@
    "verified": true,
    "date": "2026-11-03",
    "ts": 1793679678,
-   "audio": [
-    "easy",
-    "medium",
-    "hard"
-   ],
    "tr": {
     "en": {
      "title": "Parshat of the week, Chai Sarah: the girl who also watered the camels, and a match born near the well",
@@ -10763,23 +9526,6 @@
       "¿Cómo se conocieron tus padres o cómo conociste tú a tu cónyuge? ¿Quién es tu \"amigo\" entre ustedes?"
      ]
     }
-   },
-   "audioTr": {
-    "en": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "ru": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "es": [
-     "easy",
-     "medium",
-     "hard"
-    ]
    }
   },
   {
@@ -10812,11 +9558,6 @@
    "verified": true,
    "date": "2026-11-03",
    "ts": 1793679678,
-   "audio": [
-    "easy",
-    "medium",
-    "hard"
-   ],
    "tr": {
     "en": {
      "title": "Today in history, November 3: \"The Wizard of Oz\" premiered on television, and a spacecraft set off for Venus and Mercury",
@@ -10851,23 +9592,6 @@
       "¿Qué recuerdas del entusiasmo que rodeaba al espacio en los años sesenta y setenta?"
      ]
     }
-   },
-   "audioTr": {
-    "en": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "ru": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "es": [
-     "easy",
-     "medium",
-     "hard"
-    ]
    }
   },
   {
@@ -10922,11 +9646,6 @@
    "verified": true,
    "date": "2026-11-03",
    "ts": 1793679678,
-   "audio": [
-    "easy",
-    "medium",
-    "hard"
-   ],
    "tr": {
     "en": {
      "title": "Born today, November 3: Charles Brunson, Monica Vitti, Gerd Muller and Andre Melro",
@@ -10961,23 +9680,6 @@
       "¿Recuerdas algún gran partido de fútbol que viste por televisión en los años setenta?"
      ]
     }
-   },
-   "audioTr": {
-    "en": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "ru": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "es": [
-     "easy",
-     "medium",
-     "hard"
-    ]
    }
   },
   {
@@ -11006,11 +9708,6 @@
    "verified": true,
    "date": "2026-11-03",
    "ts": 1793679678,
-   "audio": [
-    "easy",
-    "medium",
-    "hard"
-   ],
    "tr": {
     "en": {
      "title": "After almost eight months in space: the French astronaut Sophie Edno returned to Paris",
@@ -11045,23 +9742,6 @@
       "¿Qué crees que es lo más difícil después de regresar a casa después de mucho tiempo lejos de la familia?"
      ]
     }
-   },
-   "audioTr": {
-    "en": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "ru": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "es": [
-     "easy",
-     "medium",
-     "hard"
-    ]
    }
   },
   {
@@ -11094,11 +9774,6 @@
    "verified": true,
    "date": "2026-11-03",
    "ts": 1793679678,
-   "audio": [
-    "easy",
-    "medium",
-    "hard"
-   ],
    "tr": {
     "en": {
      "title": "The Israeli advertising company Prion is sold to an Indian company for 420 million dollars",
@@ -11133,23 +9808,6 @@
       "¿Alguna vez ha comprado o heredado acciones? ¿Qué aprendiste de la experiencia?"
      ]
     }
-   },
-   "audioTr": {
-    "en": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "ru": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "es": [
-     "easy",
-     "medium",
-     "hard"
-    ]
    }
   },
   {
@@ -11178,11 +9836,6 @@
    "verified": true,
    "date": "2026-11-03",
    "ts": 1793679678,
-   "audio": [
-    "easy",
-    "medium",
-    "hard"
-   ],
    "tr": {
     "en": {
      "title": "New agreement with the bus companies: payment according to the number of passengers, not only according to kilometers",
@@ -11217,23 +9870,6 @@
       "¿Tiene algún recuerdo de un viaje especial en autobús, por ejemplo un viaje largo o su primer viaje a la gran ciudad?"
      ]
     }
-   },
-   "audioTr": {
-    "en": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "ru": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "es": [
-     "easy",
-     "medium",
-     "hard"
-    ]
    }
   },
   {
@@ -11258,11 +9894,6 @@
    "verified": true,
    "date": "2026-11-03",
    "ts": 1793679678,
-   "audio": [
-    "easy",
-    "medium",
-    "hard"
-   ],
    "tr": {
     "en": {
      "title": "New study: two tomatoes a day may help the liver",
@@ -11297,23 +9928,6 @@
       "¿Existe algún alimento sencillo que creas que ha sido bueno para tu salud a lo largo de los años?"
      ]
     }
-   },
-   "audioTr": {
-    "en": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "ru": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "es": [
-     "easy",
-     "medium",
-     "hard"
-    ]
    }
   },
   {
@@ -11342,11 +9956,6 @@
    "verified": true,
    "date": "2026-11-03",
    "ts": 1793679678,
-   "audio": [
-    "easy",
-    "medium",
-    "hard"
-   ],
    "tr": {
     "en": {
      "title": "The Hubble telescope discovered: the small galaxies have lost most of their oxygen",
@@ -11381,23 +9990,6 @@
       "¿Qué te gustaría saber sobre el universo, si pudieras hacerle alguna pregunta a un científico?"
      ]
     }
-   },
-   "audioTr": {
-    "en": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "ru": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "es": [
-     "easy",
-     "medium",
-     "hard"
-    ]
    }
   },
   {
@@ -11434,11 +10026,6 @@
    "verified": true,
    "date": "2026-11-03",
    "ts": 1793679678,
-   "audio": [
-    "easy",
-    "medium",
-    "hard"
-   ],
    "tr": {
     "en": {
      "title": "Hapoel Tel Aviv beat Maccabi Haifa 2:1 in Bloomfield",
@@ -11473,23 +10060,6 @@
       "¿Qué opinas de la rivalidad entre Hapoel y Maccabi: una buena parte del juego o algo que levanta demasiado el ánimo?"
      ]
     }
-   },
-   "audioTr": {
-    "en": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "ru": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "es": [
-     "easy",
-     "medium",
-     "hard"
-    ]
    }
   },
   {
@@ -11514,11 +10084,6 @@
    "verified": true,
    "date": "2026-11-03",
    "ts": 1793679678,
-   "audio": [
-    "easy",
-    "medium",
-    "hard"
-   ],
    "tr": {
     "en": {
      "title": "\"Bria Li Galil\": a festival of yoga, trips and shows in the Western Galilee for only 10 shekels",
@@ -11553,23 +10118,6 @@
       "¿Has probado alguna vez el yoga o la meditación? ¿Qué opinas de estos métodos para relajar el cuerpo y la mente?"
      ]
     }
-   },
-   "audioTr": {
-    "en": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "ru": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "es": [
-     "easy",
-     "medium",
-     "hard"
-    ]
    }
   },
   {
@@ -11602,11 +10150,6 @@
    "verified": true,
    "date": "2026-11-03",
    "ts": 1793679678,
-   "audio": [
-    "easy",
-    "medium",
-    "hard"
-   ],
    "tr": {
     "en": {
      "title": "New restaurants are opening across the country, and the market is filling up with fall fruits and vegetables",
@@ -11641,23 +10184,6 @@
       "¿Qué restaurante o cafetería te gustó especialmente en el pasado? ¿Qué comiste allí y con quién?"
      ]
     }
-   },
-   "audioTr": {
-    "en": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "ru": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "es": [
-     "easy",
-     "medium",
-     "hard"
-    ]
    }
   },
   {
@@ -11686,11 +10212,6 @@
    "verified": true,
    "date": "2026-11-03",
    "ts": 1793679678,
-   "audio": [
-    "easy",
-    "medium",
-    "hard"
-   ],
    "tr": {
     "en": {
      "title": "Stone by stone: researchers from the University of Haifa deciphered how the ancient tribe in the Negev was built",
@@ -11725,23 +10246,6 @@
       "¿Qué opinas de que las computadoras y los drones ayuden a los arqueólogos? ¿Está la tecnología cambiando la forma en que aprendemos sobre el pasado?"
      ]
     }
-   },
-   "audioTr": {
-    "en": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "ru": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "es": [
-     "easy",
-     "medium",
-     "hard"
-    ]
    }
   },
   {
@@ -11774,11 +10278,6 @@
    "verified": true,
    "date": "2026-11-02",
    "ts": 1793589087,
-   "audio": [
-    "easy",
-    "medium",
-    "hard"
-   ],
    "tr": {
     "en": {
      "title": "Bennett announced: the \"Together\" faction will recommend Eisenkot to the president; The consultations at the President's House will begin on Wednesday",
@@ -11813,17 +10312,6 @@
       "La nueva Knesset tiene 47 nuevos miembros. ¿Qué consejo le darías a alguien que comienza un nuevo rol público?"
      ]
     }
-   },
-   "audioTr": {
-    "en": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "ru": [
-     "easy",
-     "medium"
-    ]
    }
   },
   {
@@ -11856,11 +10344,6 @@
    "verified": true,
    "date": "2026-11-02",
    "ts": 1793589087,
-   "audio": [
-    "easy",
-    "medium",
-    "hard"
-   ],
    "tr": {
     "en": {
      "title": "A 3,200-year-old citadel from the days of the judges has been reopened to hikers in Gobrin Forest",
@@ -11931,11 +10414,6 @@
    "verified": true,
    "date": "2026-11-02",
    "ts": 1793589087,
-   "audio": [
-    "easy",
-    "medium",
-    "hard"
-   ],
    "tr": {
     "en": {
      "title": "Tel Aviv basketball derby: Hapoel defeated Maccabi 87:105, Micich scored 31 points",
@@ -12014,11 +10492,6 @@
    "verified": true,
    "date": "2026-11-02",
    "ts": 1793589087,
-   "audio": [
-    "easy",
-    "medium",
-    "hard"
-   ],
    "tr": {
     "en": {
      "title": "Today is hot and humid, tomorrow will cool down: the weather forecast for the week",
@@ -12093,11 +10566,6 @@
    "verified": true,
    "date": "2026-11-02",
    "ts": 1793589087,
-   "audio": [
-    "easy",
-    "medium",
-    "hard"
-   ],
    "tr": {
     "en": {
      "title": "The cranes have returned to the sick reed, and the yellow flowers are blooming in the fields",
@@ -12160,11 +10628,6 @@
    "verified": true,
    "date": "2026-11-02",
    "ts": 1793589087,
-   "audio": [
-    "easy",
-    "medium",
-    "hard"
-   ],
    "tr": {
     "en": {
      "title": "Next week: the holiday of the Sigid, the holiday of Ethiopian Jews, will be on Monday November 9",
@@ -12231,11 +10694,6 @@
    "verified": true,
    "date": "2026-11-02",
    "ts": 1793589087,
-   "audio": [
-    "easy",
-    "medium",
-    "hard"
-   ],
    "tr": {
     "en": {
      "title": "90 years ago today: The BBC launched the world's first regular television service",
@@ -12320,11 +10778,6 @@
    "verified": true,
    "date": "2026-11-02",
    "ts": 1793589087,
-   "audio": [
-    "easy",
-    "medium",
-    "hard"
-   ],
    "tr": {
     "en": {
      "title": "Born today, November 2: Israel Gurion from \"The Uncles\", actor Burt Lancaster, tennis player Ken Roswell and poet Odyssas Alitis",
@@ -12387,11 +10840,6 @@
    "verified": true,
    "date": "2026-11-02",
    "ts": 1793589087,
-   "audio": [
-    "easy",
-    "medium",
-    "hard"
-   ],
    "tr": {
     "en": {
      "title": "The price of fuel decreased by 42 agorats: a liter of 95 gasoline costs NIS 7.35 from today",
@@ -12462,11 +10910,6 @@
    "verified": true,
    "date": "2026-11-02",
    "ts": 1793589087,
-   "audio": [
-    "easy",
-    "medium",
-    "hard"
-   ],
    "tr": {
     "en": {
      "title": "The month of promotions begins, the persimmon is at its peak, and next week is the holiday of the Zigd",
@@ -12525,11 +10968,6 @@
    "verified": true,
    "date": "2026-11-02",
    "ts": 1793589087,
-   "audio": [
-    "easy",
-    "medium",
-    "hard"
-   ],
    "tr": {
     "en": {
      "title": "Major study: Eating at night is associated with a higher risk of fatty liver",
@@ -12600,11 +11038,6 @@
    "verified": true,
    "date": "2026-11-02",
    "ts": 1793589087,
-   "audio": [
-    "easy",
-    "medium",
-    "hard"
-   ],
    "tr": {
     "en": {
      "title": "Survey: Seventy percent of parents send a child to class, and most of them feel it in their pocket",
@@ -12675,11 +11108,6 @@
    "verified": true,
    "date": "2026-11-02",
    "ts": 1793589087,
-   "audio": [
-    "easy",
-    "medium",
-    "hard"
-   ],
    "tr": {
     "en": {
      "title": "A weekend of medals for Israeli judo: silver for Raz Hershko and two young European champions",
@@ -12738,11 +11166,6 @@
    "verified": true,
    "date": "2026-11-02",
    "ts": 1793589087,
-   "audio": [
-    "easy",
-    "medium",
-    "hard"
-   ],
    "tr": {
     "en": {
      "title": "Israel Railways: changes in train traffic this coming weekend due to works in the Tel Aviv area",
@@ -12801,11 +11224,6 @@
    "verified": true,
    "date": "2026-11-02",
    "ts": 1793589087,
-   "audio": [
-    "easy",
-    "medium",
-    "hard"
-   ],
    "tr": {
     "en": {
      "title": "60 thousand runners in the New York Marathon: victory for a Swede in the first marathon run in his life",
@@ -12867,11 +11285,6 @@
    "date": "2026-11-01",
    "ts": 1793525453,
    "id": "2026-11-01-israel-1",
-   "audio": [
-    "easy",
-    "medium",
-    "hard"
-   ],
    "tr": {
     "en": {
      "title": "We switched to winter time - what does that mean?",
@@ -12933,11 +11346,6 @@
    "date": "2026-11-01",
    "ts": 1793525453,
    "id": "2026-11-01-nature-1",
-   "audio": [
-    "easy",
-    "medium",
-    "hard"
-   ],
    "tr": {
     "en": {
      "title": "Discovery: Trees have \"muscles\" that help them straighten",
@@ -13003,11 +11411,6 @@
    "date": "2026-11-01",
    "ts": 1793525453,
    "id": "2026-11-01-politics-1",
-   "audio": [
-    "easy",
-    "medium",
-    "hard"
-   ],
    "tr": {
     "en": {
      "title": "The Knesset elections: the turnout was the highest since 1999",
@@ -13069,11 +11472,6 @@
    "date": "2026-11-01",
    "ts": 1793525453,
    "id": "2026-11-01-science-1",
-   "audio": [
-    "easy",
-    "medium",
-    "hard"
-   ],
    "tr": {
     "en": {
      "title": "Star Beetlejuice is back after \"fading out\"",
@@ -13131,11 +11529,6 @@
    "date": "2026-11-01",
    "ts": 1793525453,
    "id": "2026-11-01-sport-1",
-   "audio": [
-    "easy",
-    "medium",
-    "hard"
-   ],
    "tr": {
     "en": {
      "title": "Hapoel Tel Aviv won the Toto Cup after 14 years without a title",
@@ -13193,11 +11586,6 @@
    "date": "2026-11-01",
    "ts": 1793525453,
    "id": "2026-11-01-tech-1",
-   "audio": [
-    "easy",
-    "medium",
-    "hard"
-   ],
    "tr": {
     "en": {
      "title": "Apple's first foldable phone has arrived in Israel",
@@ -13259,11 +11647,6 @@
    "date": "2026-11-01",
    "ts": 1793525453,
    "id": "2026-11-01-weather-1",
-   "audio": [
-    "easy",
-    "medium",
-    "hard"
-   ],
    "tr": {
     "en": {
      "title": "November has started, but the rain hasn't come yet",
@@ -13321,11 +11704,6 @@
    "date": "2026-11-01",
    "ts": 1793525453,
    "id": "2026-11-01-world-1",
-   "audio": [
-    "easy",
-    "medium",
-    "hard"
-   ],
    "tr": {
     "en": {
      "title": "London: The famous shopping street Oxford Street is closed to cars",
