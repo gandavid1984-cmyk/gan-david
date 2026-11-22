@@ -658,9 +658,11 @@ async function fillShabbat(){
   try{
     const ctl=new AbortController(); setTimeout(()=>ctl.abort(),4000);
     const r=await fetch(`https://www.hebcal.com/shabbat?cfg=json&latitude=${lat.toFixed(4)}&longitude=${lon.toFixed(4)}&tzid=Asia/Jerusalem&b=${off}&M=on&gy=${fy}&gm=${fm+1}&gd=${fd}`,{signal:ctl.signal});
-    if(r.ok){ const j=await r.json(); const cd=(j.items||[]).find(x=>x.category==="candles"), hv=(j.items||[]).find(x=>x.category==="havdalah");
+    if(r.ok){ const j=await r.json(); { const pa=(j.items||[]).find(x=>x.category==="parashat"&&String(x.date).slice(0,10)===p.shabbat); const pn=$("#parashaName"); if(pn&&!p.name){ pn.textContent = pa&&pa.hebrew? String(pa.hebrew).replace(/^פרשת\s*/,"") : "אין פרשה בשבת זו"; } }
+      const cd=(j.items||[]).find(x=>x.category==="candles"), hv=(j.items||[]).find(x=>x.category==="havdalah");
       if(cd&&hv&&String(cd.date).startsWith(p.shabbat.slice(0,8))&&String(hv.date).slice(0,10)===p.shabbat){ c=new Date(cd.date); h=new Date(hv.date); } }
   }catch(e){}
+  { const pn=$("#parashaName"); if(pn&&pn.textContent==="…") pn.textContent="לא הצלחתי לטעון את שם הפרשה"; }
   if(!c||!h){
     const ss=solarEvent(fy,fm,fd,lat,lon,90.833,false), nt=solarEvent(y,m-1,d,lat,lon,98.5,false);
     if(!ss||!nt) return; c=new Date(ss.getTime()-off*60000); h=nt; approx=true;
@@ -675,11 +677,15 @@ function showToday(){
   const lines=[`<div class="big">היום יום ${days[d.getDay()]}</div>`,
     `<div><span class="lbl">תאריך לועזי:</span> ${d.getDate()} ב${months[d.getMonth()]}, שנת ${d.getFullYear()}</div>`];
   if(h) lines.push(`<div><span class="lbl">תאריך עברי:</span> ${esc(h.day)} ב${esc(h.month)}, שנת ${esc(h.year)}</div>`);
-  const p=parashaInfo;
-  if(p&&p.name&&p.shabbat&&p.shabbat>=todayIso()){ const sd=new Date(p.shabbat+"T12:00:00"); lines.push(`<div><span class="lbl">📜 פרשת השבוע:</span> ${esc(p.name)} (שבת ${sd.getDate()}.${sd.getMonth()+1})</div>`,`<div id="shab" style="display:none"></div>`); }
+  // פרשת השבוע וכניסת/יציאת שבת מוצגות תמיד, לשבת הקרובה (היום, אם היום שבת). אם בנתונים אין פרשה מעודכנת לשבת הזאת — השם נשלף מ-Hebcal.
+  const nd=new Date(); nd.setDate(nd.getDate()+((6-nd.getDay())+7)%7);
+  const nextShab=nd.getFullYear()+"-"+String(nd.getMonth()+1).padStart(2,"0")+"-"+String(nd.getDate()).padStart(2,"0");
+  const p0=parashaInfo, p=(p0&&p0.name&&p0.shabbat===nextShab)? p0 : {name:"",shabbat:nextShab};
+  const sd=new Date(nextShab+"T12:00:00");
+  lines.push(`<div><span class="lbl">📜 פרשת השבוע:</span> <span id="parashaName">${p.name?esc(p.name):"…"}</span> (שבת ${sd.getDate()}.${sd.getMonth()+1})</div>`,`<div id="shab" style="display:none"></div>`);
   lines.push(`<div id="place" style="display:none"></div>`,`<div id="wx" style="display:none"></div>`);
   el.innerHTML=lines.join("");
-  showPlace(); shabP=(p&&p.shabbat&&p.shabbat>=todayIso())? p : null; fillShabbat();
+  showPlace(); shabP=p; fillShabbat();
 }
 function showPlace(){
   const el=$("#place"); if(!el||!navigator.geolocation) return;
