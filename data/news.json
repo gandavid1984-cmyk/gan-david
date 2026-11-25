@@ -42,7 +42,115 @@
    ],
    "verified": true,
    "date": "2026-11-26",
-   "ts": 1795646965
+   "ts": 1795646965,
+   "tr": {
+    "en": {
+     "title": "Recall for sardines: Arsenic was found in them",
+     "easy": "The Ministry of Health announced a recall.\nA recall is the return of a product from stores.\nThese are canned sardines.\nIn a test, high arsenic was found in them.\nIt is worth checking the cans at home.",
+     "medium": "The Ministry of Health announced a recall, meaning the return of products from stores, for sardine products from a company that imports them to Israel. The reason: in a quality test by the manufacturer itself, a high amount of arsenic was found in them, a substance that is not good for health. The recall includes three products: sardines in sunflower oil, sardines in tomato sauce, and sardines in sunflower oil with chili. Anyone who bought such sardines should check the cans, the product weight, and the expiration date printed on them at home. The recall is intended to protect the public, and anyone who wants more details can contact the Ministry of Health.",
+     "hard": "The Ministry of Health published a notice about a recall, meaning the return from the shelves, of sardine products by the company \"Universal N.H.H. Import and Marketing Ltd.\". According to the notice, the manufacturer's own quality control found high levels of arsenic in the sardines. The recall applies to three products. The first is sardines in sunflower oil weighing 124 grams, whose expiration date is 23 September 2028. The second is sardines in tomato sauce weighing 125 grams, and its expiration date is 24 September 2028. The third is sardines in sunflower oil with chili weighing 124 grams, also with an expiration date of 24 September 2028. The notice also detailed the barcodes of the products, and they are printed on the packages. Anyone who has such cans at home can compare the weight, expiration date, and barcode on the package to the published details, and check if their product is included in the recall. The notice was published on Tuesday, 24 November. A recall is a step in which a product is removed from the shelves so that it does not reach consumers, and it is important to check the packages in the cupboard and pantry. Anyone who is not sure if their product is included in the recall can ask the pharmacist or contact the Ministry of Health.",
+     "questions": [
+      "Do you eat sardines or canned fish in your home? In which dishes are they used?",
+      "Do you make a habit of reading the labels on packages and checking the expiration date? Tell us.",
+      "Do you think it is important for companies to announce a recall when a problem is found in a product? Explain why."
+     ],
+     "qlevels": {
+      "easy": [
+       "Did the Ministry of Health announce a recall?",
+       "Are these sardines?",
+       "Was arsenic found in the test?"
+      ],
+      "medium": [
+       "Which company imports the sardines?",
+       "What was found in the sardines in the manufacturer's quality test?",
+       "How many products are included in the recall?"
+      ],
+      "hard": [
+       "What is the expiration date of the sardines in tomato sauce?",
+       "What is the weight of the sardines in sunflower oil with chili?",
+       "Who found the arsenic, according to the notice?"
+      ]
+     }
+    },
+    "ru": {
+     "title": "Отзыв сардин: в них обнаружен мышьяк",
+     "easy": "Министерство здравоохранения объявило об отзыве.\nОтзыв — это возврат товара из магазинов.\nРечь идет о сардинах в консервных банках.\nВ ходе проверки в них было обнаружено большое количество мышьяка.\nСтоит проверить банки дома.",
+     "medium": "Министерство здравоохранения объявило об отзыве, то есть возврате товаров из магазинов, сардин компании, которая импортирует их в Израиль. Причина: в ходе проверки качества самим производителем в них было обнаружено большое количество мышьяка, вещества, которое вредно для здоровья. Отзыв включает три продукта: сардины в подсолнечном масле, сардины в томатном соусе и сардины в подсолнечном масле с чили. Тот, кто купил такие сардины, может проверить дома банки, вес продукта и напечатанный на них срок годности. Отзыв призван защитить общественность, а тот, кто хочет получить дополнительную информацию, может обратиться в Министерство здравоохранения.",
+     "hard": "Министерство здравоохранения опубликовало сообщение об отзыве, то есть возврате с полок магазинов, сардин компании «Универсель Н.Х.А. Явуа ве-Шивук бе-ам». Согласно сообщению, контроль качества самого производителя обнаружил в сардинах высокий уровень мышьяка. Отзыв распространяется на три продукта. Первый — сардины в подсолнечном масле весом 124 грамма, срок годности которых 23 сентября 2028. Второй — сардины в томатном соусе весом 125 граммов, и их срок годности 24 сентября 2028. Третий — сардины в подсолнечном масле с чили весом 124 грамма, также со сроком годности 24 сентября 2028. В сообщении также были подробно указаны штрихкоды продуктов, и они напечатаны на упаковках. Тот, у кого дома есть такие банки, может сравнить вес, срок годности и штрихкод на упаковке с опубликованными данными и проверить, подпадает ли его продукт под отзыв. Сообщение было опубликовано во вторник, 24 ноября. Отзыв — это мера, при которой продукт изымается с полок, чтобы он не дошел до потребителей, и важно проверить упаковки в шкафу и в кладовой. Тот, кто не уверен, подпадает ли его продукт под отзыв, может спросить фармацевта или обратиться в Министерство здравоохранения.",
+     "questions": [
+      "Едят ли в вашем доме сардины или консервированную рыбу? В каких блюдах их используют?",
+      "Привыкли ли вы читать этикетки на упаковках и проверять срок годности? Расскажите.",
+      "Считаете ли вы важным, чтобы компании объявляли об отзыве, когда в продукте обнаруживается проблема? Объясните почему."
+     ],
+     "qlevels": {
+      "easy": [
+       "Объявило ли Министерство здравоохранения об отзыве?",
+       "Речь идет о сардинах?",
+       "Обнаружен ли в ходе проверки мышьяк?"
+      ],
+      "medium": [
+       "Какая компания импортирует сардины?",
+       "Что было обнаружено в сардинах при проверке качества производителем?",
+       "Сколько продуктов подпадает под отзыв?"
+      ],
+      "hard": [
+       "Каков срок годности сардин в томатном соусе?",
+       "Каков вес сардин в подсолнечном масле с чили?",
+       "Кто нашел мышьяк, согласно сообщению?"
+      ]
+     }
+    },
+    "es": {
+     "title": "Retirada de sardinas: se encontró arsénico en ellas",
+     "easy": "El Ministerio de Salud anunció una retirada.\nRetirada es la devolución de un producto de las tiendas.\nSe trata de sardinas en latas de conserva.\nEn un análisis se encontró en ellas una alta cantidad de arsénico.\nConviene revisar las latas en casa.",
+     "medium": "El Ministerio de Salud anunció una retirada, es decir, la devolución de productos de las tiendas, de productos de sardinas de una empresa que los importa a Israel. El motivo: en una prueba de calidad del propio fabricante se encontró en ellos una alta cantidad de arsénico, una sustancia que no es buena para la salud. La retirada incluye tres productos: sardinas en aceite de girasol, sardinas en salsa de tomate y sardinas en aceite de girasol con chile. Quien haya comprado este tipo de sardinas debe revisar en casa las latas, el peso del producto y la fecha de caducidad impresa en ellas. La retirada tiene como objetivo proteger al público, y quien quiera más detalles puede dirigirse al Ministerio de Salud.",
+     "hard": "El Ministerio de Salud publicó un aviso sobre una retirada, es decir, la retirada de los estantes, de productos de sardinas de la empresa \"Universal N.H.H. Import and Marketing Ltd.\". Según el aviso, el control de calidad del propio fabricante encontró en las sardinas altos niveles de arsénico. La retirada se aplica a tres productos. El primero son sardinas en aceite de girasol con un peso de 124 gramos, cuya fecha de caducidad es el 23 de septiembre de 2028. El segundo son sardinas en salsa de tomate con un peso de 125 gramos, y su fecha de caducidad es el 24 de septiembre de 2028. El tercero son sardinas en aceite de girasol con chile con un peso de 124 gramos, también con una fecha de caducidad del 24 de septiembre de 2028. En el aviso también se detallaron los códigos de barras de los productos, y están impresos en los envases. Quien tenga en casa latas de este tipo puede comparar el peso, la fecha de caducidad y el código de barras del envase con los detalles publicados, y comprobar si su producto está incluido en la retirada. El aviso se publicó el martes 24 de noviembre. Una retirada es una medida en la que se saca un producto de los estantes para que no llegue a los consumidores, y es importante revisar los envases en el armario y en la despensa. Quien no esté seguro de si su producto está incluido en la retirada puede preguntar al farmacéutico o dirigirse al Ministerio de Salud.",
+     "questions": [
+      "¿Comen sardinas o pescado en conserva en su casa? ¿En qué platos los usan?",
+      "¿Tienen la costumbre de leer las etiquetas de los envases y comprobar la fecha de caducidad? Cuéntennos.",
+      "¿Les parece importante que las empresas publiquen una retirada cuando se encuentra un problema en un producto? Expliquen por qué."
+     ],
+     "qlevels": {
+      "easy": [
+       "¿Anunció el Ministerio de Salud una retirada?",
+       "¿Se trata de sardinas?",
+       "¿Se encontró arsénico en el análisis?"
+      ],
+      "medium": [
+       "¿Qué empresa importa las sardinas?",
+       "¿Qué se encontró en las sardinas en el análisis de calidad del fabricante?",
+       "¿Cuántos productos se incluyen en la retirada?"
+      ],
+      "hard": [
+       "¿Cuál es la fecha de caducidad de las sardinas en salsa de tomate?",
+       "¿Cuál es el peso de las sardinas en aceite de girasol con chile?",
+       "¿Quién encontró el arsénico, según el aviso?"
+      ]
+     }
+    }
+   },
+   "audio": [
+    "easy",
+    "medium",
+    "hard"
+   ],
+   "audioTr": {
+    "en": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "ru": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "es": [
+     "easy",
+     "medium",
+     "hard"
+    ]
+   }
   },
   {
    "id": "2026-11-26-israel-2",
@@ -85,7 +193,115 @@
    ],
    "verified": true,
    "date": "2026-11-26",
-   "ts": 1795646965
+   "ts": 1795646965,
+   "tr": {
+    "en": {
+     "title": "A Knesset committee approved for first reading the cancellation of the Communications Law",
+     "easy": "A committee in the Knesset held a vote.\nIt discussed the cancellation of the Communications Law.\nThe law was proposed by Minister Karhi.\nIn the committee there were 7 in favor and 6 against.\nThe proposal passed to a first reading.",
+     "medium": "On Wednesday morning, a special committee convened in the Knesset to discuss the proposal to cancel the Communications Law of Minister of Communications Shlomo Karhi, which is also called the Broadcasting Law. In the vote, 7 Knesset members supported the cancellation of the law, and 6 opposed. Thus, the proposal was approved for a first reading, which is the first stage on the path of a law in the Knesset plenum. A sharp argument took place during the discussion. Minister Karhi accused the Knesset's legal counsel of political harm, and he was expelled from the meeting after 3 calls to order. Coalition Knesset members also criticized the decision of the Knesset Speaker to send the plenum to a recess.",
+     "hard": "On Wednesday, November 25, the special committee of the Knesset approved for a first reading the proposal to cancel the broadcasting law, also called the communications law of Communications Minister Shlomo Karhi. Seven Knesset members supported the vote, and six opposed it. The Knesset approved the law last July, before its dispersal, and last week the proposal to cancel it passed a preliminary reading. According to the article, the law was intended to allow the establishment of new news channels with almost no regulation, and it cancels the separation between channel owners and news companies. In September of last year, the Attorney General, Gali Baharav-Miara, warned that the proposal creates a risk to a free press. In the stormy discussion, Minister Karhi accused the Knesset's legal counsel of political bias, and he was removed after three calls to order. The Knesset Speaker sent the plenum to a recess to allow the vote in the committee, because according to the regulations it is forbidden to hold votes in the committee and the plenum at the same time. Knesset members Simcha Rothman and Ofir Katz from the coalition criticized the move. The article deals with the legislative process only, and the proposal has not yet been finally approved. In order for it to become a law, it must pass more readings in the Knesset plenum.",
+     "questions": [
+      "Do you follow the news from the Knesset? What interests you more?",
+      "How would you describe a good argument compared to an argument that is heating up? Tell about an incident you remember.",
+      "What do you think about the fact that laws change when the government changes? Explain."
+     ],
+     "qlevels": {
+      "easy": [
+       "Did the committee approve the proposal?",
+       "Was the law proposed by Minister Karhi?",
+       "Were there seven in favor in the committee?"
+      ],
+      "medium": [
+       "Which committee approved the proposal and on what day?",
+       "How many Knesset members supported and how many opposed?",
+       "What happened to Minister Karhi in the discussion?"
+      ],
+      "hard": [
+       "To which legislative stage was the proposal approved?",
+       "When was the original law approved in the Knesset?",
+       "Why was it impossible to vote in the committee and the plenum at the same time?"
+      ]
+     }
+    },
+    "ru": {
+     "title": "Комиссия в Кнессете утвердила к первому чтению отмену закона о связи",
+     "easy": "Комиссия в Кнессете провела голосование.\nОна обсудила отмену закона о связи.\nЗакон был предложен министром Кархи.\nВ комиссии было семь за и шесть против.\nПредложение перешло к первому чтению.",
+     "medium": "В среду утром в Кнессете собралась специальная комиссия, которая обсудила предложение отменить закон о связи министра связи Шломо Кархи, который также называется законом о вещании. При голосовании семь депутатов Кнессета поддержали отмену закона, а шесть выступили против. Тем самым предложение было утверждено к первому чтению, которое является первым этапом на пути прохождения закона на пленарном заседании Кнессета. На обсуждении разгорелся острый спор. Министр Кархи обвинил юридическую службу Кнессета в политическом ущербе, и он был удален с заседания после трех призывов к порядку. Депутаты Кнессета от коалиции также подвергли критике решение спикера Кнессета отправить пленум на перерыв.",
+     "hard": "В среду, 25 ноября, специальная комиссия Кнессета утвердила в первом чтении предложение об отмене закона о трансляциях, также называемого законом о связи министра связи Шломо Караи. За голосовали семь депутатов Кнессета, а шесть возражали. Закон был утвержден Кнессетом в июле прошлого года, перед его роспуском, а на прошлой неделе предложение об его отмене прошло предварительное чтение. Согласно статье, закон призван разрешить создание новых новостных каналов практически без регулирования и отменяет разделение между владельцами каналов и новостными компаниями. В сентябре прошлого года юридический советник правительства Гали Бахарав-Миара предупредила, что предложение создает риск для свободной прессы. На бурных дебатах министр Караи обвинил юридическую службу Кнессета в политическом ущербе, и он был удален после трех замечаний к порядку. Председатель Кнессета объявил перерыв в пленуме, чтобы позволить провести голосование в комиссии, так как согласно регламенту запрещено проводить голосования в комиссии и на пленуме одновременно. Депутаты Кнессета Симха Ротман и Офир Кац из коалиции критиковали этот шаг. Статья касается исключительно законодательной процедуры, и предложение еще не утверждено окончательно. Чтобы оно стало законом, ему предстоит пройти еще чтения на пленуме Кнессета.",
+     "questions": [
+      "Следите ли вы за новостями из Кнессета? Что вас интересует больше?",
+      "Как бы вы описали хороший спор по сравнению со спором, который накаляется? Расскажите о случае, который вам запомнился.",
+      "Что вы думаете о том, что законы меняются при смене правительства? Объясните."
+     ],
+     "qlevels": {
+      "easy": [
+       "Утвердила ли комиссия предложение?",
+       "Был ли закон предложен министром Караи?",
+       "Было ли в комиссии семь голосов за?"
+      ],
+      "medium": [
+       "Какая комиссия утвердила предложение и в какой день?",
+       "Сколько депутатов Кнессета поддержали и сколько возражали?",
+       "Что произошло с министром Караи на дебатах?"
+      ],
+      "hard": [
+       "Для какого этапа законодательного процесса было утверждено предложение?",
+       "Когда был утвержден первоначальный закон в Кнессете?",
+       "Почему нельзя было голосовать в комиссии и на пленуме одновременно?"
+      ]
+     }
+    },
+    "es": {
+     "title": "Una comisión de la Knéset aprobó para su primera lectura la anulación de la ley de comunicación",
+     "easy": "Una comisión de la Knéset celebró una votación.\nDebatió la anulación de la ley de comunicación.\nLa ley fue propuesta por el ministro Karhi.\nEn la comisión hubo siete a favor y seis en contra.\nLa propuesta pasó a primera lectura.",
+     "medium": "El miércoles por la mañana se reunió en la Knéset una comisión especial que debatió la propuesta de anular la ley de comunicación del ministro de Comunicaciones Shlomo Karhi, llamada también la ley de transmisiones. En la votación, siete miembros de la Knéset apoyaron la anulación de la ley, y seis se opusieron. Con esto se aprobó la propuesta para su primera lectura, que es la primera etapa en el camino de una ley en el pleno de la Knéset. En el debate se produjo una fuerte discusión. El ministro Karhi acusó al asesoramiento jurídico de la Knéset de perjuicio político, y fue expulsado de la sesión tras tres llamadas al orden. Miembros de la Knéset de la coalición también criticaron la decisión del presidente de la Knéset de enviar el pleno a un receso.",
+     "hard": "El miércoles 25 de noviembre, la comisión especial de la Knéset aprobó en primera lectura la propuesta para anular la ley de transmisiones, también llamada ley de comunicaciones del ministro de Comunicaciones Shlomo Karhi. En la votación apoyaron siete diputados y seis se opusieron. La ley fue aprobada por la Knéset el pasado mes de julio, antes de su disolución, y la semana pasada la propuesta para anularla pasó en lectura preliminar. Según el reportaje, la ley pretende permitir el establecimiento de nuevos canales de noticias casi sin regulación, y anula la separación entre los propietarios de canales y las empresas de noticias. En septiembre del año pasado, la fiscal general del Gobierno, Gali Baharav-Miara, advirtió que la propuesta genera un riesgo para la libertad de prensa. En el tempestuoso debate, el ministro Karhi acusó a la asesoría jurídica de la Knéset de perjuicio político, y fue expulsado tras tres llamadas al orden. El presidente de la Knéset ordenó un receso en el pleno para permitir la votación en la comisión, ya que según el reglamento está prohibido realizar votaciones en la comisión y en el pleno al mismo tiempo. Los diputados Simcha Rothman y Ofir Katz de la coalición criticaron la medida. El reportaje trata únicamente sobre el procedimiento legislativo, y la propuesta todavía no ha sido aprobada definitivamente. Para que se convierta en ley debe pasar más lecturas en el pleno de la Knéset.",
+     "questions": [
+      "¿Siguen ustedes las noticias de la Knéset? ¿Qué les interesa más?",
+      "¿Cómo describirían ustedes un buen debate en comparación con uno que se va calentando? Cuéntennos sobre un caso que recuerden.",
+      "¿Qué opinan ustedes de que las leyes cambien cuando cambia el Gobierno? Expliquen."
+     ],
+     "qlevels": {
+      "easy": [
+       "¿Aprobó la comisión la propuesta?",
+       "¿Fue la ley propuesta por el ministro Karhi?",
+       "¿Había siete a favor en la comisión?"
+      ],
+      "medium": [
+       "¿Qué comisión aprobó la propuesta y en qué día?",
+       "¿Cuántos diputados apoyaron y cuántos se opusieron?",
+       "¿Qué le pasó al ministro Karhi en el debate?"
+      ],
+      "hard": [
+       "¿A qué etapa de la legislación se aprobó la propuesta?",
+       "¿Cuándo se aprobó la ley original en la Knéset?",
+       "¿Por qué no se podía votar en la comisión y en el pleno al mismo tiempo?"
+      ]
+     }
+    }
+   },
+   "audio": [
+    "easy",
+    "medium",
+    "hard"
+   ],
+   "audioTr": {
+    "en": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "ru": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "es": [
+     "easy",
+     "medium",
+     "hard"
+    ]
+   }
   },
   {
    "id": "2026-11-26-world-1",
@@ -124,7 +340,115 @@
    ],
    "verified": true,
    "date": "2026-11-26",
-   "ts": 1795646965
+   "ts": 1795646965,
+   "tr": {
+    "en": {
+     "title": "South Korea: Phone alerts against cheating in the big exam",
+     "easy": "In South Korea there is a huge exam.\nAbout half a million students took it.\nThere was a fear they would cheat using artificial intelligence.\nTherefore, an alert was sent to all phones.\nAfter that, the Minister of Education resigned.",
+     "medium": "In South Korea, a large nationwide university entrance exam called \"Suneung\" took place on Thursday last week. About half a million students took it. Before that, it was discovered that an examinee in another exam cheated using a tiny camera and artificial intelligence. Therefore, the number of proctors was doubled and students were allowed to arrive only with pencils. In addition, three alerts were sent to all phones in the country to discover hidden devices. During the exam, 111 suspicions of rule violations were recorded. On Sunday, the Minister of Education of South Korea resigned. The government offered a cash reward to anyone who provides information on cheating.",
+     "hard": "In South Korea, on Thursday, November 19, the nationwide university entrance exam, \"Suneung\", took place, lasting about eight to nine hours. About half a million students took it. A few days earlier, a 34-year-old man, who reached first place in a certified public accounting exam, admitted that he hid a tiny camera on his body, filmed the questions, and transferred them to artificial intelligence. Following this, the authorities doubled the number of proctors, blocked public Wi-Fi networks near the exam locations, and permitted students to arrive only with pencils. Students in clothes with buttons were asked to cover them with stickers. On the exam day, three alerts were sent to all phones between 8:00 and 15:00, to expose smuggled devices. This is the first time the national alert system was used for such a purpose. According to the Ministry of Education, 111 suspicions of rule violations were recorded, and almost half of them were discovered thanks to the alerts. On Sunday, November 22, the Minister of Education, Choi Kyu-jin, resigned and said he takes responsibility. The results will be published on December 11. The government offered a reward of at least 75 thousand dollars to anyone who provides information on cheating, and in addition is promoting a proposal to extend the suspension period from exams for users of artificial intelligence to ten years.",
+     "questions": [
+      "Do your students or your grandchildren take big exams? How do they prepare?",
+      "Do you think it is possible to monitor exams without disturbing students? Explain.",
+      "How were you tested in your time, at school or in the army? Tell."
+     ],
+     "qlevels": {
+      "easy": [
+       "Did the exam take place in South Korea?",
+       "Did about half a million students take it?",
+       "Did the Minister of Education resign?"
+      ],
+      "medium": [
+       "How many students took the exam?",
+       "What were the students allowed to bring with them to the exam?",
+       "How many alerts were sent to phones?"
+      ],
+      "hard": [
+       "How many suspicions of rule violations were recorded in the exam?",
+       "What is the name of the Minister of Education who resigned?",
+       "When will the results be published?"
+      ]
+     }
+    },
+    "ru": {
+     "title": "Южная Корея: сирены в телефонах против списывания на важном экзамене",
+     "easy": "В Южной Корее проходит огромный экзамен.\nК нему приступили примерно полмиллиона учеников.\nОпасались, что будут списывать с помощью искусственного интеллекта.\nПоэтому разослали предупреждение на все телефоны.\nПосле этого министр образования подал в отставку.",
+     "medium": "В Южной Корее в четверг на прошлой неделе состоялся большой общенациональный экзамен для поступления в университеты, который называется \"Су능\". К нему приступили около полумиллиона учеников. Перед этим обнаружилось, что сдававший другой экзамен списал с помощью крошечной камеры и искусственного интеллекта. Поэтому число наблюдателей удвоили, а ученикам разрешили приходить только с карандашами. Кроме того, на все телефоны в стране были отправлены три предупреждения для обнаружения скрытых устройств. Во время экзамена было зафиксировано 111 подозрений в нарушении правил. В воскресенье министр образования Южной Кореи подал в отставку. Правительство предложило денежную премию тому, кто предоставит информацию о мошенничестве.",
+     "hard": "В Южной Корее в четверг, 19 ноября, состоялся общенациональный экзамен для поступления в университеты, \"Су능\", который длится около восьми-девяти часов. К нему приступили около полумиллиона учеников. За несколько дней до этого 34-летний человек, занявший первое место на экзамене на получение сертификата бухгалтера, признался, что скрыл на своем теле крошечную камеру, сфотографировал вопросы и передал их искусственному интеллекту. Вследствие этого власти удвоили число наблюдателей, заблокировали общественные беспроводные сети интернета возле мест проведения экзаменов и разрешили ученикам приходить только с карандашами. Учеников в одежде с пуговицами попросили закрыть их наклейками. В день экзамена на все телефоны были отправлены три предупреждения в период с 8:00 до 15:00, чтобы выявить пронесенные устройства. Это первый случай, когда национальная система оповещения использовалась для такой цели. По данным министерства образования, было зафиксировано 111 подозрений в нарушении правил, и почти половина из них была обнаружена благодаря оповещениям. В воскресенье, 22 ноября, министр образования Чхве Гю Джин подал в отставку, заявив, что берет на себя ответственность. Результаты будут опубликованы 11 декабря. Правительство предложило премию в размере по меньшей мере 75 тысяч долларов тому, кто предоставит информацию о мошенничестве, а кроме того, продвигает предложение о продлении срока отстранения от экзаменов для пользователей искусственного интеллекта до десяти лет.",
+     "questions": [
+      "Сдают ли ваши дети или ваши внуки большие экзамены? Как они готовятся?",
+      "Можно ли, по вашему мнению, проверять экзамены, не мешая ученикам? Объясните.",
+      "Как вы сдавали экзамены в ваше время, в школе или в армии? Расскажите."
+     ],
+     "qlevels": {
+      "easy": [
+       "Проходил ли экзамен в Южной Корее?",
+       "Приступили ли к нему около полумиллиона учеников?",
+       "Ушел ли министр образования в отставку?"
+      ],
+      "medium": [
+       "Сколько учеников пришли на экзамен?",
+       "Что разрешили ученикам взять с собой на экзамен?",
+       "Сколько оповещений было отправлено на телефоны?"
+      ],
+      "hard": [
+       "Сколько подозрений на нарушение правил было зафиксировано на экзамене?",
+       "Как звали министра образования, который ушел в отставку?",
+       "Когда будут опубликованы результаты?"
+      ]
+     }
+    },
+    "es": {
+     "title": "Corea del Sur: alertas en los teléfonos contra las trampas en el gran examen",
+     "easy": "En Corea del Sur hay un examen enorme.\nCasi medio millón de alumnos se presentaron a él.\nTemían que copiaran con la ayuda de inteligencia artificial.\nPor eso enviaron una advertencia a todos los teléfonos.\nDespués de eso, el ministro de Educación dimitió.",
+     "medium": "En Corea del Sur se celebró el jueves de la semana pasada un gran examen nacional de acceso a las universidades, llamado \"Suneung\". A él se presentaron casi medio millón de alumnos. Antes de eso se descubrió que un examinando en otra prueba copió con la ayuda de una cámara diminuta e inteligencia artificial. Por ello se duplicó el número de vigilantes y a los alumnos se les permitió llegar solo con lápices. Además se enviaron tres alertas a todos los teléfonos del país para detectar aparatos ocultos. Durante el examen se registraron 111 sospechas de infracción de las normas. El domingo dimitió el ministro de Educación de Corea del Sur. El Gobierno ofreció un premio en dinero a quien entregara información sobre trampas.",
+     "hard": "En Corea del Sur se celebró el jueves 19 de noviembre el examen nacional de acceso a las universidades, \"Suneung\", que dura entre ocho y nueve horas. A él se presentaron casi medio millón de alumnos. Unos días antes, un hombre de 34 años, que había llegado al primer puesto en un examen de certificación en contabilidad, admitió que había ocultado en su cuerpo una cámara diminuta, fotografió las preguntas y las transmitió a la inteligencia artificial. A raíz de ello, las autoridades duplicaron el número de vigilantes, bloquearon redes de internet inalámbrico público cerca de los lugares de examen, y permitieron a los alumnos llegar solo con lápices. A los alumnos con ropa con botones se les pidió que los cubrieran con pegatinas. El día del examen se enviaron tres alertas a todos los teléfonos entre las 8:00 y las 15:00, para exponer aparatos introducidos de contrabando. Esta es la primera vez que se utiliza el sistema de alertas nacionales para un propósito así. Según el Ministerio de Educación se registraron 111 sospechas de infracción de las normas, y casi la mitad de ellas se descubrieron gracias a las alertas. El domingo 22 de noviembre dimitió el ministro de Educación, Choi Kyu-jin, y dijo que asume la responsabilidad. Los resultados se publicarán el 11 de diciembre. El Gobierno ofreció un premio de al menos 75 mil dólares a quien entregue información sobre trampas, y además promueven una propuesta para ampliar el período de expulsión de exámenes para los usuarios de inteligencia artificial a diez años.",
+     "questions": [
+      "¿Se examinan sus alumnos o sus nietos en grandes exámenes? ¿Cómo se preparan?",
+      "¿Creen ustedes que se pueden revisar exámenes sin molestar a los alumnos? Expliquen.",
+      "¿Cómo se examinaban ustedes en su época, en la escuela o en el ejército? Cuéntennos."
+     ],
+     "qlevels": {
+      "easy": [
+       "¿Se celebró el examen en Corea del Sur?",
+       "¿Se presentaron a él casi medio millón de alumnos?",
+       "¿Dimitió el ministro de Educación?"
+      ],
+      "medium": [
+       "¿Cuántos alumnos se presentaron al examen?",
+       "¿Qué se les permitió a los alumnos traer consigo al examen?",
+       "¿Cuántas alertas se enviaron a los teléfonos?"
+      ],
+      "hard": [
+       "¿Cuántas sospechas de violación de las normas se registraron en el examen?",
+       "¿Cómo se llama el ministro de Educación que dimitió?",
+       "¿Cuándo se publicarán los resultados?"
+      ]
+     }
+    }
+   },
+   "audio": [
+    "easy",
+    "medium",
+    "hard"
+   ],
+   "audioTr": {
+    "en": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "ru": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "es": [
+     "easy",
+     "medium",
+     "hard"
+    ]
+   }
   },
   {
    "id": "2026-11-26-weather-1",
@@ -163,7 +487,115 @@
    ],
    "verified": true,
    "date": "2026-11-26",
-   "ts": 1795646965
+   "ts": 1795646965,
+   "tr": {
+    "en": {
+     "title": "Weather: Fine weekend, and next week winter returns",
+     "easy": "Over the weekend the weather will be fine.\nAt the beginning of next week rain will start.\nWinter is expected to return.\nIt will be colder.\nIt is worthwhile to prepare a coat and an umbrella.",
+     "medium": "According to the Meteorological Service, over the weekend the weather will be fine. At the beginning of next week winter is expected to return, apparently in a general way and for a prolonged period. The director of the service, Dr. Amir Givati, said that the rain will start falling on Monday, probably in the south, and that there is a possibility of floods. From Tuesday a winter system is expected with low temperatures and widespread rains in the north and in the center. The forecast for the middle of next week is not yet clear, and there could be changes in it. It is worthwhile to prepare a coat and an umbrella, and to drive carefully on the rainy day. Over the weekend it is worthwhile to take advantage of the pleasant days for a short trip or a walk.",
+     "hard": "According to the forecast published by the Meteorological Service this week, the weather over the weekend, on Friday and Saturday, is expected to be fine. At the beginning of next week, according to the forecast, winter is returning, apparently in a general way and for a prolonged period. The director of the Meteorological Service, Dr. Amir Givati, said that the rain will start falling on Monday, probably in the south of the country, and that there is a possibility of floods. Afterwards, from Tuesday, a winter system with low temperatures and widespread rains in the north and in the center is expected to affect the country. Descriptions only were published in the forecast, without numbers of temperatures. The middle of next week is currently outside the forecast range, and changes can occur. Whoever is planning to go out of the house in the coming days can take advantage of the pleasant weekend, and prepare a coat and an umbrella ahead of the rain. On rainy days it is worthwhile to drive carefully and avoid crossing streams and wadis. The change from the pleasant days to winter can be sharp, and therefore it is worthwhile to prepare already over the weekend: to check that there are warm coats and umbrellas at home, and to make sure that the heating is functioning properly. Whoever hits the road on rainy days needs to plan a longer travel time than usual, and to update themselves with the forecast again on Sunday. It is also important to maintain the heating of the house and warm drinking.",
+     "questions": [
+      "How do you like the weather in winter? What do you do at home on a rainy day?",
+      "What do you remember from heavy rain or from a flood in past years?",
+      "What clothes and foods remind you of winter?"
+     ],
+     "qlevels": {
+      "easy": [
+       "Will the weather be nice over the weekend?",
+       "Is winter expected to return?",
+       "Will the rain start on Monday?"
+      ],
+      "medium": [
+       "Who said the rain will start on Monday?",
+       "In which area will the rain probably start?",
+       "From which day is a winter system expected?"
+      ],
+      "hard": [
+       "What is the name of the director of the Meteorological Service?",
+       "In which areas are widespread rains expected from Tuesday?",
+       "Which part of next week is still unclear in the forecast?"
+      ]
+     }
+    },
+    "ru": {
+     "title": "Погода: прекрасные выходные, а на следующей неделе возвращается зима",
+     "easy": "В выходные будет прекрасная погода.\nВ начале следующей недели начнется дождь.\nОжидается возвращение зимы.\nСтанет холоднее.\nСтоит подготовить пальто и зонт.",
+     "medium": "По данным метеорологической службы, в выходные дни будет прекрасная погода. В начале следующей недели зима, как ожидается, вернется, судя по всему, в целом и надолго. Директор службы, доктор Амир Гивати, сообщил, что дождь начнет идти в понедельник, вероятнее всего на юге, и существует вероятность наводнений. Со вторника ожидается зимняя система с низкими температурами и обильными осадками на севере и в центре. Прогноз на середину следующей недели пока не ясен, и в нем возможны изменения. Стоит приготовить пальто и зонт, а в дождливый день вести машину осторожно. В выходные стоит воспользоваться приятными днями для короткой поездки или прогулки.",
+     "hard": "Согласно прогнозу, опубликованному метеорологической службой на этой неделе, погода в выходные дни, в пятницу и субботу, ожидается прекрасной. В начале следующей недели, согласно прогнозу, зима возвращается, судя по всему, в целом и надолго. Директор метеорологической службы, доктор Амир Гивати, сообщил, что дождь начнет идти в понедельник, вероятнее всего на юге страны, и существует вероятность наводнений. В дальнейшем, начиная со вторника, на страну начнет влиять зимняя система с низкими температурами и обильными осадками на севере и в центре. В прогнозе были опубликованы только описания, без цифр температур. Середина следующей недели в настоящее время находится вне диапазона прогноза, и возможны изменения. Тот, кто планирует выход из дома в ближайшие дни, может воспользоваться приятными выходными и приготовить пальто и зонт к дождю. В дождливые дни стоит ездить осторожно и избегать пересечения ручьев и вади. Переход от приятных дней к зиме может быть резким, поэтому стоит подготовиться уже в выходные: проверить, есть ли дома теплая одежда и зонты, и убедиться, что отопление исправно. Тот, кто отправляется в путь в дождливые дни, должен запланировать время в пути дольше обычного и снова следить за прогнозом в воскресенье. Также важно поддерживать отопление дома и пить горячие напитки.",
+     "questions": [
+      "Как вы любите погоду зимой? Что вы делаете дома в дождливый день?",
+      "Что вы помните из сильных дождей или наводнений прошлых лет?",
+      "Какие одежда и еда напоминают вам о зиме?"
+     ],
+     "qlevels": {
+      "easy": [
+       "Будет ли в выходные дни прекрасная погода?",
+       "Ожидается ли возвращение зимы?",
+       "Начнется ли дождь в понедельник?"
+      ],
+      "medium": [
+       "Кто сказал, что дождь начнется в понедельник?",
+       "В каком районе начнется дождь, судя по всему?",
+       "С какого дня ожидается зимняя система?"
+      ],
+      "hard": [
+       "Как зовут директора метеорологической службы?",
+       "В каких районах ожидаются обильные осадки со вторника?",
+       "Какая часть следующей недели еще не ясна в прогнозе?"
+      ]
+     }
+    },
+    "es": {
+     "title": "El tiempo: fin de semana agradable, y la próxima semana vuelve el invierno",
+     "easy": "El fin de semana habrá buen tiempo.\nAl principio de la próxima semana empezará a llover.\nSe espera que vuelva el invierno.\nHará más frío.\nConviene preparar abrigo y paraguas.",
+     "medium": "Según el Servicio Meteorológico, el fin de semana habrá buen tiempo. Al principio de la próxima semana se espera que vuelva el invierno, al parecer de forma general y por un tiempo prolongado. El director del servicio, el Dr. Amir Givati, dijo que la lluvia empezará a caer el lunes, probablemente en el sur, y que existe la posibilidad de inundaciones. A partir del martes se espera un sistema invernal con bajas temperaturas y lluvias extensas en el norte y en el centro. El pronóstico para mediados de la próxima semana aún no está claro y puede haber cambios en él. Conviene preparar abrigo y paraguas, y conducir con cuidado el día de lluvia. El fin de semana conviene aprovechar los días agradables para un pequeño paseo o una caminata.",
+     "hard": "Según el pronóstico publicado por el Servicio Meteorológico esta semana, el tiempo del fin de semana, el viernes y el sábado, se espera que sea agradable. Al principio de la próxima semana, según el pronóstico, vuelve el invierno, al parecer de forma general y por un tiempo prolongado. El director del Servicio Meteorológico, el Dr. Amir Givati, dijo que la lluvia empezará a caer el lunes, probablemente en el sur del país, y que existe la posibilidad de inundaciones. Más adelante, a partir del martes, se espera que afecte al país un sistema invernal con bajas temperaturas y lluvias extensas en el norte y en el centro. En el pronóstico se publicaron solo descripciones, sin números de temperaturas. Mediados de la próxima semana se encuentra actualmente fuera del alcance del pronóstico y puede haber cambios. Quien planee salir de casa en los próximos días puede aprovechar el fin de semana agradable y preparar abrigo y paraguas de cara a la lluvia. En los días lluviosos conviene conducir con cuidado y evitar cruzar arroyos y uadis. El cambio de los días agradables al invierno puede ser brusco, por lo que conviene prepararse ya el fin de semana: comprobar que hay en casa abrigos de abrigo y paraguas, y verificar que la calefacción funciona bien. Quien se ponga en camino en los días de lluvia debe planificar un tiempo de viaje más largo de lo habitual y actualizarse con el pronóstico de nuevo el domingo. También es importante mantener la calefacción de la casa y bebidas calientes.",
+     "questions": [
+      "¿Cómo les gusta a ustedes el tiempo en invierno? ¿Qué hacen en casa en un día lluvioso?",
+      "¿Qué recuerdan ustedes de una gran lluvia o de una inundación en años anteriores?",
+      "¿Qué prendas y comidas les recuerdan a ustedes el invierno?"
+     ],
+     "qlevels": {
+      "easy": [
+       "¿Habrá buen tiempo el fin de semana?",
+       "¿Se espera que vuelva el invierno?",
+       "¿Empezará la lluvia el lunes?"
+      ],
+      "medium": [
+       "¿Quién dijo que la lluvia empezará el lunes?",
+       "¿En qué zona empezará la lluvia, probablemente?",
+       "¿A partir de qué día se espera un sistema invernal?"
+      ],
+      "hard": [
+       "¿Cómo se llama el director del Servicio Meteorológico?",
+       "¿En qué zonas se esperan lluvias extensas a partir del martes?",
+       "¿Qué parte de la próxima semana aún no está clara en el pronóstico?"
+      ]
+     }
+    }
+   },
+   "audio": [
+    "easy",
+    "medium",
+    "hard"
+   ],
+   "audioTr": {
+    "en": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "ru": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "es": [
+     "easy",
+     "medium",
+     "hard"
+    ]
+   }
   },
   {
    "id": "2026-11-26-tech-1",
@@ -202,7 +634,115 @@
    ],
    "verified": true,
    "date": "2026-11-26",
-   "ts": 1795646965
+   "ts": 1795646965,
+   "tr": {
+    "en": {
+     "title": "A station for flying taxis is opening in Dubai",
+     "easy": "An air taxi station has been established in Dubai.\nThe taxis are electric and take off vertically.\nIt will be possible to book using the Uber app.\nThe ride will take less than ten minutes.\nBy car it takes thirty-five minutes.",
+     "medium": "The first air taxi station, called a vertiport, has been established in Dubai. The station is located in the Dubai Marina and will connect it to a main station near the international airport. The vehicles are electric, take off and land vertically, and reach speeds of up to about 320 km/h. The ride is supposed to take less than ten minutes, compared to about 35 minutes by car. It will be possible to book a flight through the Uber app, and the service will be called \"Uber Air\". The launch date for the flights has not yet been published. Additional stations are planned later in downtown Dubai and on the Palm Jumeirah. The company that will operate the flights is Joby Aviation, and it has been conducting test flights in Dubai since June 2025.",
+     "hard": "According to ynet, the first air taxi station in Dubai, called a vertiport, meaning a station for vertical takeoff and landing, has been established. The station will operate in the Dubai Marina and connect it to a main station near the Dubai International Airport. Skyports received approval to operate the station, and Joby Aviation will operate the flights in electric aircraft that take off and land vertically. The Civil Aviation Authority approved commercial operation, and according to the article, this is the world's first regular air taxi route between two stations. The vehicles reach speeds of up to about 320 km/h, and the transit between the two stations takes less than ten minutes, compared to about 35 minutes by car. It will be possible to book a flight using the Uber app, and the service will be called \"Uber Air\". The station is planned for a capacity of about 84 thousand passengers a year. Additional stations are planned later in downtown Dubai and on the Palm Jumeirah. The date for the start of flights has not been published, and activity will begin after all operational approvals are received. The vehicles are defined as having zero polluting emissions and low noise levels. Joby has been performing manned test flights in Dubai since June 2025, and in November 2025 completed a first flight between two points in the United Arab Emirates.",
+     "questions": [
+      "Would you dare to fly in a flying taxi? Why or why not?",
+      "What did your travels look like in the past, by bus, train, or flight? Tell us.",
+      "What new invention in transportation would you like to see in Israel?"
+     ],
+     "qlevels": {
+      "easy": [
+       "Was an air taxi station established?",
+       "Are the taxis electric?",
+       "Will it be possible to book using the Uber app?"
+      ],
+      "medium": [
+       "In which city was the station established?",
+       "How long does the trip between the two stations take?",
+       "How will they book the flight?"
+      ],
+      "hard": [
+       "What is the maximum speed of the vehicles?",
+       "Who will operate the flights?",
+       "How many passengers a year is the station planned to accommodate?"
+      ]
+     }
+    },
+    "ru": {
+     "title": "В Дубае открывается станция для летающих такси",
+     "easy": "В Дубае создана станция воздушных такси.\nТакси электрические и поднимаются вертикально.\nМожно будет заказать через приложение Uber.\nПоездка займет меньше десяти минут.\nНа автомобиле она занимает тридцать пять минут.",
+     "medium": "В Дубае создана первая станция воздушных такси, которая называется вертипорт. Станция находится в районе Дубай Марина и соединит его с главной станцией возле международного аэропорта. Аппараты электрические, взлетают и садятся вертикально, и развивают скорость до примерно 320 км/ч. Поездка должна занять меньше десяти минут по сравнению с примерно 35 минутами на машине. Заказать полет можно будет через приложение Uber, и услуга будет называться «Убер Эйр». Дата начала полетов еще не опубликована. В дальнейшем планируются дополнительные станции в центре Дубая и на Пальме Джумейра. Компанией, которая будет осуществлять полеты, является Joby Aviation, и она выполняет испытательные полеты в Дубае с июня 2025 года.",
+     "hard": "По данным ynet, в Дубае создана первая станция воздушных такси, называемая вертипорт, то есть станция для вертикальных взлета и посадки. Станция будет действовать в Дубай Марина и соединит ее с главной станцией рядом с международным аэропортом Дубая. Компания Skyports получила разрешение на эксплуатацию станции, а компания Joby Aviation будет выполнять полеты на электрических летательных аппаратах с вертикальными взлетом и посадкой. Управление гражданской авиации утвердило коммерческую эксплуатацию, и, согласно статье, это первый в мире постоянный маршрут воздушного такси между двумя станциями. Аппараты развивают скорость до примерно 320 км/ч, а поездка между двумя станциями занимает менее десяти минут по сравнению с примерно 35 минутами на автомобиле. Заказать полет можно будет через приложение Uber, и услуга будет называться «Убер Эйр». Станция рассчитана на пропускную способность около 84 тысяч пассажиров в год. В дальнейшем планируются дополнительные станции в центре Дубая и на Пальме Джумейра. Дата начала полетов не опубликована, и деятельность начнется после получения всех эксплуатационных разрешений. Аппараты характеризуются как имеющие нулевые загрязняющие выбросы и низкий уровень шума. Joby выполняет пилотируемые испытательные полеты в Дубае с июня 2025 года, а в ноябре 2025 года завершила первый полет между двумя точками в Объединенных Арабских Эмиратах.",
+     "questions": [
+      "Осмелились ли бы вы полететь на летающем такси? Почему да или нет?",
+      "Как выглядели ваши поездки в прошлом: на автобусе, на поезде или на самолете? Расскажите.",
+      "Какое новое изобретение в сфере транспорта вы хотели бы увидеть в Израиле?"
+     ],
+     "qlevels": {
+      "easy": [
+       "Была ли создана станция для воздушных такси?",
+       "Электрические ли такси?",
+       "Можно ли будет заказать через приложение Uber?"
+      ],
+      "medium": [
+       "В каком городе была создана станция?",
+       "Сколько времени длится поездка между двумя станциями?",
+       "Как будут заказывать полет?"
+      ],
+      "hard": [
+       "Какова максимальная скорость аппаратов?",
+       "Кто будет выполнять полеты?",
+       "Сколько пассажиров в год станция планирует принимать?"
+      ]
+     }
+    },
+    "es": {
+     "title": "En Dubái se abre una estación para taxis voladores",
+     "easy": "En Dubái se estableció una estación para taxis aéreos.\nLos taxis son eléctricos y ascienden verticalmente.\nSe podrá pedir en la aplicación de Uber.\nEl trayecto tomará menos de diez minutos.\nEn vehículo toma treinta y cinco minutos.",
+     "medium": "En Dubái se estableció la primera estación para taxis aéreos, que se llama vertipuerto. La estación está en el puerto deportivo de Dubái y la conectará con una estación principal junto al aeropuerto internacional. Los vehículos son eléctricos, despegan y aterrizan verticalmente, y alcanzan una velocidad de hasta unos 320 km/h. El trayecto debe tomar menos de diez minutos, en comparación con unos 35 minutos en vehículo. Se podrá pedir un vuelo en la aplicación de Uber, y el servicio se llamará \"Uber Air\". La fecha de inicio de los vuelos aún no ha sido publicada. Más adelante se planean estaciones adicionales en el centro de Dubái y en Palm Jumeirah. La empresa que operará los vuelos es Joby Aviation, y realiza vuelos de prueba en Dubái desde junio de 2025.",
+     "hard": "Según ynet, en Dubái se estableció la primera estación de taxis aéreos, llamada vertipuerto, es decir, una estación para despegue y aterrizaje vertical. La estación funcionará en el puerto deportivo de Dubái y conectará este con una estación principal cerca del Aeropuerto Internacional de Dubái. La empresa Skyports recibió la autorización para operar la estación, y la empresa Joby Aviation operará los vuelos en aeronaves eléctricas que despegan y aterrizan de forma vertical. La Autoridad de Aviación Civil aprobó la operación comercial, y según el artículo esta es la primera ruta fija del mundo para taxis aéreos entre dos estaciones. Los vehículos alcanzan una velocidad de hasta unos 320 km/h, y el trayecto entre ambas estaciones toma menos de diez minutos, en comparación con unos 35 minutos en automóvil. Se podrá reservar un vuelo en la aplicación de Uber, y el servicio se llamará \"Uber Air\". La estación está diseñada para una capacidad de unos 84 mil pasajeros al año. Más adelante se planean estaciones adicionales en el centro de Dubái y en Palm Jumeirah. La fecha de inicio de los vuelos no fue publicada, y la actividad comenzará después de que se obtengan todas las aprobaciones operativas. Los vehículos se definen como de cero emisiones contaminantes y con bajos niveles de ruido. Joby realiza vuelos de prueba tripulados en Dubái desde junio de 2025, y en noviembre de 2025 completó un primer vuelo entre dos puntos en los Emiratos Árabes Unidos.",
+     "questions": [
+      "¿Se atreverían ustedes a volar en un taxi volador? ¿Por qué sí o por qué no?",
+      "¿Cómo eran los viajes de ustedes en el pasado, en autobús, en tren o en avión? Cuéntennos.",
+      "¿Qué nuevo invento en el transporte les gustaría a ustedes ver en Israel?"
+     ],
+     "qlevels": {
+      "easy": [
+       "¿Se estableció una estación para taxis aéreos?",
+       "¿Son eléctricos los taxis?",
+       "¿Se podrá reservar en la aplicación de Uber?"
+      ],
+      "medium": [
+       "¿En qué ciudad se estableció la estación?",
+       "¿Cuánto tiempo dura el viaje entre ambas estaciones?",
+       "¿Cómo se reservará el vuelo?"
+      ],
+      "hard": [
+       "¿Cuál es la velocidad máxima de los vehículos?",
+       "¿Quién operará los vuelos?",
+       "¿Cuántos pasajeros al año se planea que reciba la estación?"
+      ]
+     }
+    }
+   },
+   "audio": [
+    "easy",
+    "medium",
+    "hard"
+   ],
+   "audioTr": {
+    "en": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "ru": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "es": [
+     "easy",
+     "medium",
+     "hard"
+    ]
+   }
   },
   {
    "id": "2026-11-26-sport-1",
@@ -241,7 +781,115 @@
    ],
    "verified": true,
    "date": "2026-11-26",
-   "ts": 1795646965
+   "ts": 1795646965,
+   "tr": {
+    "en": {
+     "title": "Deni Avdija scored 31 points against Philadelphia",
+     "easy": "Deni Avdija played in the NBA league.\nHe scored 31 points.\nHis team, Portland, won.\nIt won against Philadelphia.\nLeBron James also played in the game.",
+     "medium": "Deni Avdija, the Israeli basketball player for Portland, scored 31 points in a win against Philadelphia in the NBA league. The final score was 128 to 111. Avdija scored 25 points already in the first half. He also scored five three-pointers, and in addition gave seven assists to his teammates. LeBron James played on the Philadelphia team, and he scored 23 points. Avdija scored the most points on the Portland team in the game. This is an impressive performance, and only three points less than his points record this season, which stands at 34 points.",
+     "hard": "The Portland Trail Blazers won away against the Philadelphia 76ers 128:111 in the NBA league, and Israeli player Deni Avdija was the team's leading scorer with 31 points. At the end of the first half the score was a tie, 69:69, and Avdija had already accumulated 25 points in this half. In total he scored 12 out of 19 shots from the field, and five three-pointers out of nine attempts. He also added seven assists and three rebounds. His points record this season is 34, and it was set early in November against Phoenix. According to the article, this is Portland's 11th win this season. On Philadelphia's side LeBron James scored 23 points and Tyrese Maxey scored 22. Donovan Clingan from the Portland lineup finished the game with 15 points and 18 rebounds. The win came after a loss to the New York Knicks in Portland's previous game. Scoot Henderson scored 17 points. The 76ers, who had won five games in a row before that, lost this time. About 80 percent of Avdija's points came in the first half. He turned the ball over five times and stole one ball. Portland's next game is against San Antonio.",
+     "questions": [
+      "Do you like to watch sports? In which sport and which team?",
+      "Do you remember an Israeli athlete who succeeded abroad? Tell us about it.",
+      "What in your opinion helps an athlete continue to train and succeed?"
+     ],
+     "qlevels": {
+      "easy": [
+       "Did Deni Avdija score 31 points?",
+       "Did Portland win?",
+       "Did LeBron James play in the game?"
+      ],
+      "medium": [
+       "Against which team did Avdija play?",
+       "What was the final score?",
+       "How many points did Avdija score in the first half?"
+      ],
+      "hard": [
+       "How many three-pointers did Avdija score out of how many attempts?",
+       "What is Avdija's points record this season and against which team was it set?",
+       "How many points did LeBron James score?"
+      ]
+     }
+    },
+    "ru": {
+     "title": "Дени Авдия набрал 31 очко против Филадельфии",
+     "easy": "Дени Авдия играл в лиге НБА.\nОн набрал 31 очко.\nЕго команда, Портленд, выиграла.\nОна победил Филадельфию.\nЛеброн Джеймс тоже играл в матче.",
+     "medium": "Дени Авдия, израильский баскетболист Портленда, набрал 31 очко в победном матче против Филадельфии в лиге НБА. Окончательный счет составил 128 против 111. Авдия набрал 25 очков уже в первой половине. Он также забил пять трехочковых и, кроме того, отдал семь результативных передач своим партнерам по команде. За команду Филадельфии играл Леброн Джеймс, и он набрал 23 очка. Авдия набрал больше всех очков в команде Портленда в матче. Это впечатляющее выступление, всего на три очка меньше его личного рекорда результативности в этом сезоне, который составляет 34 очка.",
+     "hard": "Портленд Трейл Блейзерс победил на выезде Филадельфию Севенти Сиксерс со счетом 128:111 в лиге НБА, и израильский игрок Дени Авдия был главным бомбардиром команды с 31 очком. По окончании первой половины счет был ничейным, 69:69, и Авдия уже набрал 25 очков за эту половину. В общей сложности он забил 12 из 19 бросков с игры и пять трехочковых из девяти попыток. Он также добавил семь передач и три подбора. Его рекорд по очкам в этом сезоне составляет 34, и он был установлен в начале ноября против Финикса. Согласно статье, это 11-я победа Портленда в сезоне. На стороне Филадельфии Леброн Джеймс набрал 23 очка, а Тайриз Макси набрал 22. Донован Клинген из состава Портленда завершил матч с 15 очками и 18 подборами. Победа последовала за поражением от Нью-Йорк Никс в предыдущем матче Портленда. Скут Хендерсон набрал 17 очков. Сиксерс, выигравшие пять матчей подряд до этого, на этот раз проиграли. Около 80 процентов очков Авдии пришлись на первую половину. Он потерял мяч пять раз и перехватил один мяч. Следующий матч Портленда — против Сан-Антонио.",
+     "questions": [
+      "Любите ли вы смотреть спорт? В каком виде спорта и какую команду?",
+      "Помните ли вы израильского спортсмена, который преуспел за рубежом? Расскажите об этом.",
+      "Что, по вашему мнению, помогает спортсмену продолжать тренироваться и преуспевать?"
+     ],
+     "qlevels": {
+      "easy": [
+       "Набрал ли Дени Авдия 31 очко?",
+       "Победил ли Портленд?",
+       "Играл ли Леброн Джеймс в матче?"
+      ],
+      "medium": [
+       "Против какой команды играл Авдия?",
+       "Каким был окончательный счет?",
+       "Сколько очков набрал Авдия в первой половине?"
+      ],
+      "hard": [
+       "Сколько трехочковых забил Авдия из скольких попыток?",
+       "Каков рекорд очков Авдии в этом сезоне и против какой команды он был установлен?",
+       "Сколько очков набрал Леброн Джеймс?"
+      ]
+     }
+    },
+    "es": {
+     "title": "Deni Avdija anotó 31 puntos frente a Filadelfia",
+     "easy": "Deni Avdija jugó en la liga de la NBA.\nÉl anotó 31 puntos.\nSu equipo, Portland, ganó.\nEllos le ganaron a Filadelfia.\nTambién LeBron James jugó en el partido.",
+     "medium": "Deni Avdija, el jugador de baloncesto israelí de Portland, anotó 31 puntos en la victoria sobre Filadelfia en la liga de la NBA. El resultado final fue de 128 frente a 111. Avdija anotó 25 puntos ya en la primera mitad. Él anotó también cinco triples, y además dio siete asistencias a sus compañeros. En el equipo de Filadelfia jugó LeBron James, y él anotó 23 puntos. Avdija anotó la mayor cantidad de puntos en el equipo de Portland en el partido. Esta es una actuación impresionante, y tan solo tres puntos menos que su récord de puntos de esta temporada, que se sitúa en 34 puntos.",
+     "hard": "Portland Trail Blazers le ganó como visitante a Philadelphia 76ers por 128:111 en la liga de la NBA, y el jugador israelí Deni Avdija fue el máximo anotador del equipo con 31 puntos. Al finalizar la primera mitad el resultado era de empate, 69:69, y Avdija ya había acumulado 25 puntos en esta mitad. En total anotó 12 de 19 tiros de campo, y cinco triples de nueve intentos. Él también sumó siete asistencias y tres rebotes. Su récord de puntos esta temporada es 34, y fue establecido a principios de noviembre frente a Phoenix. Según el artículo, esta es la victoria número 11 de Portland esta temporada. Del lado de Filadelfia, LeBron James anotó 23 puntos y Tyrese Maxey anotó 22. Donovan Clingan de la plantilla de Portland terminó el partido con 15 puntos y 18 rebotes. La victoria llegó tras una derrota ante los New York Knicks en el partido anterior de Portland. Scoot Henderson anotó 17 puntos. Los 76ers, que habían ganado cinco partidos seguidos antes de eso, perdieron esta vez. Cerca del 80 por ciento de los puntos de Avdija llegaron en la primera mitad. Él perdió el balón cinco veces y robó un balón. El siguiente partido de Portland es contra San Antonio.",
+     "questions": [
+      "¿Les gusta a ustedes ver deportes? ¿En qué disciplina y qué equipo?",
+      "¿Recuerdan ustedes a algún deportista israelí que haya tenido éxito en el extranjero? Cuéntennos sobre ello.",
+      "¿Qué creen ustedes que le ayuda a un deportista a seguir entrenando y teniendo éxito?"
+     ],
+     "qlevels": {
+      "easy": [
+       "¿Anotó Deni Avdija 31 puntos?",
+       "¿Ganó Portland?",
+       "¿Jugó LeBron James en el partido?"
+      ],
+      "medium": [
+       "¿Contra qué equipo jugó Avdija?",
+       "¿Cuál fue el resultado final?",
+       "¿Cuántos puntos anotó Avdija en la primera mitad?"
+      ],
+      "hard": [
+       "¿Cuántos triples anotó Avdija de cuántos intentos?",
+       "¿Cuál es el récord de puntos de Avdija esta temporada y contra qué equipo se estableció?",
+       "¿Cuántos puntos anotó LeBron James?"
+      ]
+     }
+    }
+   },
+   "audio": [
+    "easy",
+    "medium",
+    "hard"
+   ],
+   "audioTr": {
+    "en": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "ru": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "es": [
+     "easy",
+     "medium",
+     "hard"
+    ]
+   }
   },
   {
    "id": "2026-11-26-birthdays-1",
@@ -283,7 +931,115 @@
    "ts": 1795646965,
    "people": [
     "צ'ארלס שולץ"
-   ]
+   ],
+   "tr": {
+    "en": {
+     "title": "Born on November 26: Charles Schulz, creator of \"Peanuts\"",
+     "easy": "Charles Schulz was born in 1922.\nHe was born in the United States.\nHe was a famous comic strip artist.\nThe name of the comic strip is Peanuts.\nThe comic strip features Snoopy the dog.",
+     "medium": "Charles Schulz was born on November 26, 1922 in the city of Minneapolis in the state of Minnesota, in the United States. His father was a barber. Schulz served in the army between 1943 and 1945, and afterwards worked as a drawing instructor and as a cartoonist. In 1950 he began publishing the comic strip Peanuts, which featured small children and Snoopy the dog. Among its characters: Charlie Brown, Sally, Lucy, Linus who drags a blanket with him, and Schroeder who loves to play Beethoven on a toy piano. The comic strip became one of the most successful in the United States in the second half of the twentieth century. The comic strip was adapted for television and the stage. Schulz passed away in the year 2000.",
+     "hard": "Charles Schulz was born on November 26, 1922 in Minneapolis, Minnesota, in the United States. His father was a barber, and after finishing high school in 1940 he studied drawing at a correspondence training school. Between 1943 and 1945 he served in the army. Afterwards he worked as an instructor at a drawing school, and later drawing cartoons for newspapers and for the Saturday Evening Post magazine. In 1950 he began publishing the comic strip initially called \"Li'l Folks\", and later Peanuts, about a group of small children. His characters became famous: Charlie Brown, the sensitive and shy average person. Snoopy, a beagle dog with dreams of glory. Sally, Charlie's little sister. Lucy, the strict character. Linus, her brother, who drags a security blanket everywhere. And Schroeder, who loves to play Beethoven on a toy piano. The comic strip was adapted for television and the stage, and in 2015 an animated film based on it was released. Schulz passed away in the year 2000, at the age of 77. Schulz also wrote the scripts for two full-length animated films, and in 1980 participated in writing the book \"Charlie Brown, Snoopy and Me\". In 1999 he announced his retirement, and passed away in his sleep the night before the publication of his final strip. Snoopy is considered one of the most beloved characters in comics.",
+     "questions": [
+      "Did you know Snoopy or Charlie Brown? Where did you meet them?",
+      "Did you read comics in your childhood? Which ones do you remember?",
+      "Which comic book character most reminds you of someone in the family?"
+     ],
+     "qlevels": {
+      "easy": [
+       "Was Schulz born in the United States?",
+       "Is he a comic book artist?",
+       "Is there a dog named Snoopy in the comics?"
+      ],
+      "medium": [
+       "In what year was Schulz born?",
+       "What is his famous comic strip called?",
+       "What does Schroeder love to play?"
+      ],
+      "hard": [
+       "In what city was Schulz born?",
+       "In what years did Schulz serve in the army?",
+       "In what year was the animated film about his comics released?"
+      ]
+     }
+    },
+    "ru": {
+     "title": "Родились 26 ноября: Чарльз Шульц, создатель комикса «Мелюзга» (Peanuts)",
+     "easy": "Чарльз Шульц родился в 1922 году.\nОн родился в Соединенных Штатах.\nОн был известным художником комиксов.\nКомикс называется Peanuts.\nВ комиксе есть собака Снупи.",
+     "medium": "Чарльз Шульц родился 26 ноября 1922 года в городе Миннеаполис в штате Миннесота, в Соединенных Штатах. Его отец был парикмахером. Шульц служил в армии с 1943 по 1945 год, а затем работал преподавателем рисования и карикатуристом. В 1950 году он начал публиковать серию комиксов Peanuts, в которой участвуют маленькие дети и собака Снупи. Среди ее персонажей: Чарли Браун, Салли, Люси, Линус, который таскает за собой одеяло, и Шредер, который любит играть Бетховена на игрушечном пианино. Комикс стал одним из самых успешных в Соединенных Штатах во второй половине двадцатого века. Комикс был адаптирован для телевидения и сцены. Шульц скончался в 2000 году.",
+     "hard": "Чарльз Шульц родился 26 ноября 1922 года в Миннеаполисе, штата Миннесота, в Соединенных Штатах. Его отец был парикмахером, а после окончания школы в 1940 году он изучал рисование в школе заочного обучения. С 1943 по 1945 год служил в армии. После этого он работал преподавателем в школе рисования, а затем рисовал карикатуры для газет и журнала Saturday Evening Post. В 1950 году он начал публиковать серию комиксов, которая сначала называлась «Li'l Folks», а позже Peanuts, о группе маленьких детей. Его персонажи стали знаменитыми: Чарли Браун, чувствительный и застенчивый обычный человек. Снупи, пес породы бигль, у которого есть мечты о славе. Салли, младшая сестра Чарли. Люси, строгий персонаж. Линус, ее брат, который повсюду таскает за собой защитное одеяло. И Шредер, который любит играть Бетховена на игрушечном пианино. Комикс был адаптирован для телевидения и сцены, а в 2015 году вышел анимационный фильм на его основе. Шульц скончался в 2000 году, в возрасте 77 лет. Шульц также написал сценарии для двух полнометражных анимационных фильмов, а в 1980 году участвовал в написании книги «Charlie Brown, Snoopy and Me». В 1999 году он объявил о выходе на пенсию и скончался во сне за ночь до публикации своего последнего выпуска. Снупи считается одним из самых любимых персонажей в комиксах.",
+     "questions": [
+      "Вы были знакомы со Снупи или Чарли Брауном? Где вы с ними встречались?",
+      "Читали ли вы комиксы в детстве? Какие из них вам запомнились?",
+      "Какой персонаж из комиксов больше всего напоминает вам кого-то из семьи?"
+     ],
+     "qlevels": {
+      "easy": [
+       "Родился ли Шульц в Соединенных Штатах?",
+       "Был ли он художником комиксов?",
+       "Есть ли в комиксе собака по имени Снупи?"
+      ],
+      "medium": [
+       "В каком году родился Шульц?",
+       "Как называется его знаменитая серия комиксов?",
+       "Что любит играть Шредер?"
+      ],
+      "hard": [
+       "В каком городе родился Шульц?",
+       "В какие годы Шульц служил в армии?",
+       "В каком году вышел анимационный фильм по его комиксу?"
+      ]
+     }
+    },
+    "es": {
+     "title": "Nacidos el 26 de noviembre: Charles Schulz, creador de «Peanuts» (Carlitos y Snoopy)",
+     "easy": "Charles Schulz nació en el año 1922.\nNació en Estados Unidos.\nFue un dibujante de historietas famoso.\nEl nombre de la historieta es Peanuts.\nEn la historieta está el perro Snoopy.",
+     "medium": "Charles Schulz nació el 26 de noviembre de 1922 en la ciudad de Minneapolis, en el estado de Minnesota, en Estados Unidos. Su padre era barbero. Schulz sirvió en el ejército entre 1943 y 1945, y después trabajó como instructor de dibujo y como caricaturista. En el año 1950 comenzó a publicar la tira cómica Peanuts, en la que aparecen niños pequeños y el perro Snoopy. Entre los personajes de la misma están: Charlie Brown, Sally, Lucy, Linus, que arrastra consigo una mantita, y Schroeder, al que le gusta tocar a Beethoven en un piano de juguete. La historieta se convirtió en una de las más exitosas en Estados Unidos en la segunda mitad del siglo XX. La historieta fue adaptada a la televisión y a los escenarios. Schulz falleció en el año 2000.",
+     "hard": "Charles Schulz nació el 26 de noviembre de 1922 en Minneapolis, Minnesota, en Estados Unidos. Su padre era barbero, y tras terminar la secundaria en 1940 estudió dibujo en una escuela de formación por correspondencia. Entre 1943 y 1945 sirvió en el ejército. Después trabajó como instructor en una escuela de dibujo, y más adelante dibujando caricaturas para periódicos y para la revista Saturday Evening Post. En el año 1950 comenzó a publicar la tira cómica llamada al principio «Li'l Folks», y más tarde Peanuts, sobre un grupo de niños pequeños. Sus personajes se volvieron famosos: Charlie Brown, el hombre corriente sensible y tímido. Snoopy, un perro beagle con sueños de gloria. Sally, la hermana pequeña de Charlie. Lucy, el personaje estricto. Linus, su hermano, que arrastra una manta de seguridad a todas partes. Y Schroeder, al que le gusta tocar a Beethoven en un piano de juguete. La historieta fue adaptada a la televisión y a los escenarios, y en 2015 se estrenó una película de animación basada en ella. Schulz falleció en el año 2000, a la edad de 77 años. Schulz también escribió los guiones para dos películas de animación de largometraje, y en 1980 participó en la redacción del libro «Charlie Brown, Snoopy and Me». En el año 1999 anunció su retirada, y falleció mientras dormía la noche antes de la publicación de su última tira. Snoopy es considerado uno de los personajes más queridos en las historietas.",
+     "questions": [
+      "¿Conocían a Snoopy o a Charlie Brown? ¿Dónde los conocieron?",
+      "¿Leían historietas en su infancia? ¿Cuál recuerdan?",
+      "¿Qué personaje de la historieta les recuerda más a alguien de la familia?"
+     ],
+     "qlevels": {
+      "easy": [
+       "¿Nació Schulz en Estados Unidos?",
+       "¿Fue dibujante de historietas?",
+       "¿Hay en la historieta un perro llamado Snoopy?"
+      ],
+      "medium": [
+       "¿En qué año nació Schulz?",
+       "¿Cómo se llama su famosa tira cómica?",
+       "¿Qué le gusta tocar a Schroeder?"
+      ],
+      "hard": [
+       "¿En qué ciudad nació Schulz?",
+       "¿En qué años sirvió Schulz en el ejército?",
+       "¿En qué año se estrenó la película de animación sobre su historieta?"
+      ]
+     }
+    }
+   },
+   "audio": [
+    "easy",
+    "medium",
+    "hard"
+   ],
+   "audioTr": {
+    "en": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "ru": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "es": [
+     "easy",
+     "medium",
+     "hard"
+    ]
+   }
   },
   {
    "id": "2026-11-25-israel-1",
@@ -2272,8 +3028,8 @@
      },
      "questions": [
       "Do you remember a period when different parties sat together in the same government? Tell what you remember.",
-      "In your opinion, what is important so that people with different opinions succeed in working together? Explain.",
-      "How would you describe to grandchildren what a government is and what it does?"
+      "In your opinion, what is important for people with different opinions to succeed in working together? Explain.",
+      "How would you describe to your grandchildren what a government is and what it does?"
      ]
     },
     "ru": {
@@ -2300,7 +3056,7 @@
      },
      "questions": [
       "Помните ли вы период, когда разные партии заседали вместе в одном правительстве? Расскажите, что вам запомнилось.",
-      "Как по-вашему, что важно для того, чтобы люди с разными мнениями смогли работать вместе? Обоснуйте.",
+      "По вашему мнению, что важно для того, чтобы люди с разными мнениями смогли успешно работать вместе? Обоснуйте.",
       "Как бы вы описали внукам, что такое правительство и что оно делает?"
      ]
     },
@@ -2327,9 +3083,9 @@
       ]
      },
      "questions": [
-      "¿Recuerdan una época en la que diferentes partidos estuvieron juntos en el mismo gobierno? Cuéntennos qué recuerdan.",
-      "En su opinión, ¿qué es importante para que personas con diferentes opiniones logren trabajar juntas? Expliquen su respuesta.",
-      "¿Cómo les describirían a sus nietos qué es un gobierno y qué hace?"
+      "¿Recuerdan una época en la que diferentes partidos estuvieron sentados juntos en el mismo gobierno? Cuéntennos qué recuerdan.",
+      "En opinión de ustedes, ¿qué es importante para que personas con diferentes opiniones logren trabajar juntas? Justifiquen su respuesta.",
+      "¿Cómo le describirían a sus nietos qué es un gobierno y qué hace?"
      ]
     }
    },
@@ -2418,9 +3174,9 @@
       ]
      },
      "questions": [
-      "Do you remember an important exam you passed in your life? How did you feel?",
-      "What do you think: how is it possible to maintain fairness in exams? Explain.",
-      "How in your opinion is technology changing studies and exams nowadays?"
+      "Do you remember an important exam you took in your life? How did you feel?",
+      "What is your opinion: how can fairness be maintained in exams? Explain.",
+      "How do you think technology is changing studies and exams nowadays?"
      ]
     },
     "ru": {
@@ -2448,7 +3204,7 @@
      "questions": [
       "Помните ли вы важный экзамен, который вы сдали в своей жизни? Что вы чувствовали?",
       "Что вы думаете: как можно сохранять честность на экзаменах? Обоснуйте.",
-      "Как по-вашему, как технологии меняют учебу и экзамены в наши дни?"
+      "Как, по вашему мнению, технологии меняют учебу и экзамены в наши дни?"
      ]
     },
     "es": {
@@ -2474,8 +3230,8 @@
       ]
      },
      "questions": [
-      "¿Recuerdan algún examen importante que hayan rendido en su vida? ¿Cómo se sintieron?",
-      "¿Qué opinan: cómo se puede mantener la honestidad en los exámenes? Expliquen su respuesta.",
+      "¿Recuerdan algún examen importante que hayan aprobado en su vida? ¿Cómo se sintieron?",
+      "¿Qué opinan: cómo se puede mantener la honestidad en los exámenes? Justifiquen su respuesta.",
       "¿Cómo creen que la tecnología está cambiando los estudios y los exámenes hoy en día?"
      ]
     }
@@ -2712,9 +3468,9 @@
       ]
      },
      "questions": [
-      "Did you ever fly to the United States or abroad? Tell how it was.",
-      "What in your opinion is the advantage in two airlines cooperating? Explain.",
-      "To which destination in the world would you want to fly if you could choose?"
+      "Have you ever flown to the United States or abroad? Tell how it was.",
+      "What do you think is the advantage of two airlines cooperating? Explain.",
+      "To which destination in the world would you like to fly if you could choose?"
      ]
     },
     "ru": {
@@ -2741,8 +3497,8 @@
      },
      "questions": [
       "Летали ли вы когда-нибудь в Соединенные Штаты или за границу? Расскажите, как это было.",
-      "Каково, по вашему мнению, преимущество того, что две авиакомпании сотрудничают? Обоснуйте.",
-      "В какое направление в мире вы бы хотели полететь, если бы могли выбрать?"
+      "В чем, по вашему мнению, преимущество сотрудничества двух авиакомпаний? Обоснуйте.",
+      "В какое направление в мире вы бы хотели полететь, если бы могли выбирать?"
      ]
     },
     "es": {
@@ -2768,9 +3524,9 @@
       ]
      },
      "questions": [
-      "¿Alguna vez volaron a Estados Unidos o al extranjero? Cuéntennos cómo fue.",
-      "¿Cuál creen que es la ventaja de que dos aerolíneas cooperen? Expliquen su respuesta.",
-      "¿A qué destino en el mundo les gustaría volar si pudieran elegir?"
+      "¿Han volado alguna vez a Estados Unidos o al extranjero? Cuéntennos cómo fue.",
+      "En opinión de ustedes, ¿cuál es la ventaja de que dos aerolíneas cooperen? Justifiquen su respuesta.",
+      "¿A qué destino del mundo les gustaría volar si pudieran elegir?"
      ]
     }
    },
@@ -2859,8 +3615,8 @@
       ]
      },
      "questions": [
-      "Did you ever buy a product and notice there was a problem with it? Tell what happened.",
-      "Why in your opinion is it important that companies publish a recall quickly? Explain.",
+      "Have you ever bought a product and noticed there was a problem with it? Tell what happened.",
+      "Why do you think it is important for companies to issue a recall quickly? Explain.",
       "What do you check on the packaging before you buy a food product?"
      ]
     },
@@ -2887,9 +3643,9 @@
       ]
      },
      "questions": [
-      "Покупали ли вы когда-нибудь товар и замечали ли, что в нем есть проблема? Расскажите, что произошло.",
-      "Почему, по вашему мнению, важно, чтобы компании быстро объявляли от отзыве продукции? Обоснуйте.",
-      "Что вы проверяете на упаковке перед тем, как купить продукт питания?"
+      "Покупали ли вы когда-нибудь товар и замечали, что с ним что-то не так? Расскажите, что произошло.",
+      "Почему, по вашему мнению, важно, чтобы компании быстро объявляли от отзыв продукции? Обоснуйте.",
+      "Что вы проверяете на упаковке перед покупкой пищевого продукта?"
      ]
     },
     "es": {
@@ -2915,9 +3671,9 @@
       ]
      },
      "questions": [
-      "¿Alguna vez compraron un producto y notaron que tenía un problema? Cuéntennos qué pasó.",
-      "¿Por qué creen que es importante que las empresas publiquen un retiro del mercado rápidamente? Expliquen su respuesta.",
-      "¿Qué revisan en el envase antes de comprar un producto alimenticio?"
+      "¿Han comprado alguna vez un producto y se han dado cuenta de que tiene un problema? Cuéntennos qué pasó.",
+      "¿Por qué creen que es importante que las empresas publiquen un retiro del mercado rápidamente? Justifiquen su respuesta.",
+      "¿Qué comprueban en el envase antes de comprar un producto alimenticio?"
      ]
     }
    },
@@ -3007,8 +3763,8 @@
      },
      "questions": [
       "Would you dare to ride in such an air taxi? Explain.",
-      "How in your opinion will cities change in the future because of new transportation?",
-      "What is the most special trip you traveled on in your life?"
+      "How do you think cities will change in the future because of new transportation?",
+      "What is the most special journey you traveled on in your life?"
      ]
     },
     "ru": {
@@ -3034,9 +3790,9 @@
       ]
      },
      "questions": [
-      "Осмелились ли вы бы проехать в таком воздушном такси? Обоснуйте.",
-      "Как по-вашему, как изменятся города в будущем из-за нового транспорта?",
-      "Какая поездка была самой особенной из тех, в которых вы ездили в вашей жизни?"
+      "Рискнули бы вы проехать в таком воздушном такси? Обоснуйте.",
+      "Как, по вашему мнению, изменятся города в будущем из-за нового транспорта?",
+      "Какая поездка в вашей жизни была самой особенной?"
      ]
     },
     "es": {
@@ -3062,9 +3818,9 @@
       ]
      },
      "questions": [
-      "¿Se atreverían a viajar en un taxi aéreo así? Expliquen su respuesta.",
+      "¿Se atreverían a viajar en un taxi aéreo así? Justifiquen su respuesta.",
       "¿Cómo creen que cambiarán las ciudades en el futuro debido al nuevo transporte?",
-      "¿Cuál es el viaje más especial que hicieron en su vida?"
+      "¿Cuál es el viaje más especial que han hecho en su vida?"
      ]
     }
    },
@@ -3154,7 +3910,7 @@
      },
      "questions": [
       "How do you like the weather in autumn? Tell.",
-      "Why in your opinion is it important to check a forecast before going out of the house? Explain.",
+      "Why do you think it is important to check the forecast before leaving the house? Explain.",
       "What clothes do you wear on such an autumn day?"
      ]
     },
@@ -3181,8 +3937,8 @@
       ]
      },
      "questions": [
-      "Какую погоду осенью вы любите? Расскажите.",
-      "Почему, по вашему мнению, важно проверять прогноз погоды перед тем, как выйти из дома? Обоснуйте.",
+      "Какая осенняя погода вам нравится? Расскажите.",
+      "Почему, по вашему мнению, важно проверять прогноз погоды перед выходом из дома? Обоснуйте.",
       "Какую одежду вы носите в такой осенний день?"
      ]
     },
@@ -3210,7 +3966,7 @@
      },
      "questions": [
       "¿Cómo les gusta el clima en otoño? Cuéntennos.",
-      "¿Por qué creen que es importante revisar el pronóstico antes de salir de casa? Expliquen su respuesta.",
+      "¿Por qué creen que es importante consultar el pronóstico antes de salir de casa? Justifiquen su respuesta.",
       "¿Qué ropa se ponen en un día otoñal así?"
      ]
     }
@@ -3301,7 +4057,7 @@
      },
      "questions": [
       "What is your favorite sufganiyah? Tell what filling you like.",
-      "Why in your opinion are sufganiyot prices so different between one store and another? Explain.",
+      "Why do you think sufganiyot prices vary so much from store to store? Explain.",
       "How would you celebrate Hanukkah when you were young?"
      ]
     },
@@ -3329,8 +4085,8 @@
      },
      "questions": [
       "Какая пончик ваш любимый? Расскажите, какую начинку вы любите.",
-      "Почему, по вашему мнению, цены на пончики так сильно отличаются от магазина к магазину? Обоснуйте.",
-      "Как вы праздновали Хануку, когда были молодыми?"
+      "Почему, по вашему мнению, цены на пончики так сильно различаются в разных магазинах? Обоснуйте.",
+      "Как вы праздновали Хануку, когда были молоды?"
      ]
     },
     "es": {
@@ -3356,8 +4112,8 @@
       ]
      },
      "questions": [
-      "¿Cuál es su sufganió favorita? Cuéntennos qué relleno les gusta.",
-      "¿Por qué creen que los precios de las sufganiot varían tanto de una tienda a otra? Expliquen su respuesta.",
+      "¿Cuál es su sufganiyá favorita? Cuéntennos qué relleno les gusta.",
+      "¿Por qué creen que los precios de los sufganiot son tan diferentes de una tienda a otra? Expliquen su respuesta.",
       "¿Cómo celebraban Janucá cuando eran jóvenes?"
      ]
     }
@@ -3452,8 +4208,8 @@
      },
      "questions": [
       "Do you like to travel in nature? Tell about a place you loved.",
-      "What in your opinion can be done so that the trip will be pleasant even when there are many people? Explain.",
-      "Which place in the country would you want to visit again?"
+      "What do you think can be done so that a trip is pleasant even when there are many people? Explain.",
+      "Which place in the country would you like to visit again?"
      ]
     },
     "ru": {
@@ -3479,9 +4235,9 @@
       ]
      },
      "questions": [
-      "Любите ли вы гулять на природе? Расскажите о месте, которое вам понравилось.",
+      "Любите ли вы путешествовать на природе? Расскажите о месте, которое вам понравилось.",
       "Что, по вашему мнению, можно сделать, чтобы прогулка была приятной даже тогда, когда много людей? Обоснуйте.",
-      "Какое место в стране вы бы хотели посетить снова?"
+      "Какое место в стране вы хотели бы посетить снова?"
      ]
     },
     "es": {
@@ -3598,9 +4354,9 @@
       ]
      },
      "questions": [
-      "How did you celebrate Hanukkah when you were children? Tell about a loved memory.",
-      "Which Hanukkah food do you like most: a sufganiyah or a latke? Explain.",
-      "What is the meaning of light and of candles in your eyes?"
+      "How did you celebrate Hanukkah when you were children? Tell about a favorite memory.",
+      "Which Hanukkah food do you like best: a sufganiyah or a levibah? Explain.",
+      "What is the meaning of light and candles in your eyes?"
      ]
     },
     "ru": {
@@ -3627,7 +4383,7 @@
      },
      "questions": [
       "Как вы праздновали Хануку, когда были детьми? Расскажите о любимом воспоминании.",
-      "Какое ханукальное блюдо вы любите больше всего: пончик или оладью? Обоснуйте.",
+      "Какое ханукальное блюдо вы любите больше всего: пончик или драник? Обоснуйте.",
       "Каково значение света и свечей по вашему мнению?"
      ]
     },
@@ -3655,8 +4411,8 @@
      },
      "questions": [
       "¿Cómo celebraban Janucá cuando eran niños? Cuéntennos sobre un recuerdo querido.",
-      "¿Qué comida de Janucá les gusta más: la sufganió o la levivá? Expliquen su respuesta.",
-      "¿Qué significado tienen la luz y las velas desde su punto de vista?"
+      "¿Qué plato de Janucá les gusta más: sufganiyá o latke? Expliquen su respuesta.",
+      "¿Cuál es el significado de la luz y de las velas según ustedes?"
      ]
     }
    },
@@ -3745,9 +4501,9 @@
       ]
      },
      "questions": [
-      "Have you ever visited Morocco or known someone who comes from there? Tell us.",
+      "Have you ever visited Morocco or known someone who comes from there? Tell.",
       "What do you think is important to check before buying a flight ticket? Explain.",
-      "What do you most love to see or eat when traveling abroad?"
+      "What do you like most to see or eat when traveling abroad?"
      ]
     },
     "ru": {
@@ -3773,9 +4529,9 @@
       ]
      },
      "questions": [
-      "Вы бывали когда-нибудь в Марокко или знали кого-то, кто оттуда родом? Расскажите.",
-      "Как вы думаете, что важно проверить перед покупкой авиабилета? Обоснуйте.",
-      "Что вы больше всего любите смотреть или есть, когда путешествуете за границей?"
+      "Бывали ли вы когда-нибудь в Марокко или знали кого-то, кто оттуда родом? Расскажите.",
+      "Что, по вашему мнению, важно проверить перед покупкой авиабилета? Обоснуйте.",
+      "Что вы больше всего любите видеть или есть во время путешествий за границей?"
      ]
     },
     "es": {
@@ -3801,7 +4557,7 @@
       ]
      },
      "questions": [
-      "¿Alguna vez visitaron Marruecos o conocieron a alguien que sea de allí? Cuéntennos.",
+      "¿Alguna vez visitaron Marruecos o conocieron a alguien que venga de allí? Cuéntennos.",
       "¿Qué creen que es importante revisar antes de comprar un billete de avión? Expliquen su respuesta.",
       "¿Qué es lo que más les gusta ver o comer cuando viajan al extranjero?"
      ]
@@ -3901,9 +4657,9 @@
       ]
      },
      "questions": [
-      "Have you ever witnessed a reconciliation between neighbors or family members? Tell us.",
+      "Have you ever witnessed a reconciliation between neighbors or family members? Tell.",
       "What do you think helps two sides in a conflict make peace? Explain.",
-      "How can fights between neighbors and families be prevented?"
+      "How can quarrels between neighbors and families be prevented?"
      ]
     },
     "ru": {
@@ -3930,8 +4686,8 @@
      },
      "questions": [
       "Бывали ли вы когда-нибудь свидетелями примирения между соседями или членами семьи? Расскажите.",
-      "Что, по вашему мнению, помогает двум сторонам в конфликте заключить мир? Обоснуйте.",
-      "Как можно предотвратить ссоры между соседями и семьями?"
+      "Что, по вашему мнению, помогает двум сторонам конфликта заключить мир? Обоснуйте.",
+      "Как можно предотвратить ссоры между соседями и между семьями?"
      ]
     },
     "es": {
@@ -3958,8 +4714,8 @@
      },
      "questions": [
       "¿Alguna vez fueron testigos de una reconciliación entre vecinos o familiares? Cuéntennos.",
-      "¿Qué creen que ayuda a dos partes en un conflicto a hacer las paces? Expliquen su respuesta.",
-      "¿Cómo se puede prevenir peleas entre vecinos y familias?"
+      "¿Qué creen que ayuda a dos partes en un conflicto a hacer la paz? Expliquen su respuesta.",
+      "¿Cómo se puede prevenir peleas entre vecinos y entre familias?"
      ]
     }
    },
@@ -4052,7 +4808,7 @@
       ]
      },
      "questions": [
-      "Have you ever engaged in sports? In which branch and for how long?",
+      "Have you ever engaged in sports? In which branch and how long?",
       "What do you think gives an athlete the strength to persevere? Explain.",
       "Which Israeli athlete do you remember, and why?"
      ]
@@ -4108,7 +4864,7 @@
       ]
      },
      "questions": [
-      "¿Alguna vez practicaron deporte? ¿En qué disciplina y durante cuánto tiempo?",
+      "¿Alguna vez practicaron deporte? ¿En qué disciplina y cuánto tiempo?",
       "¿Qué creen que le da a un deportista la fuerza para perseverar? Expliquen su respuesta.",
       "¿Qué deportista israelí recuerdan y por qué?"
      ]
@@ -4346,7 +5102,7 @@
       ]
      },
      "questions": [
-      "Which season of the year is your favorite? Tell us.",
+      "Which season of the year is your favorite? Tell.",
       "Do you think it is too hot for the season? Explain.",
       "What do you like to do on a pleasant day at the end of November?"
      ]
@@ -4375,7 +5131,7 @@
      },
      "questions": [
       "Какое время года вы любите? Расскажите.",
-      "Как вы считаете, не слишком ли жарко для этого сезона? Обоснуйте.",
+      "Считаете ли вы, что для этого сезона слишком жарко? Обоснуйте.",
       "Что вы любите делать в приятный день в конце ноября?"
      ]
     },
@@ -4402,7 +5158,7 @@
       ]
      },
      "questions": [
-      "¿Qué estación del año es su favorita? Cuéntennos.",
+      "¿Qué estación del año les gusta? Cuéntennos.",
       "¿Creen que hace demasiado calor para la temporada? Expliquen su respuesta.",
       "¿Qué les gusta hacer en un día agradable a finales de noviembre?"
      ]
@@ -4522,8 +5278,8 @@
      },
      "questions": [
       "Помните ли вы, кто был председателем Кнессета, когда вы были молоды?",
-      "Каковы, по вашему мнению, должны быть обязанности председателя Кнессета? Обоснуйте.",
-      "Что бы вы хотели спросить у него, если бы встретили его?"
+      "Какова, по вашему мнению, должна быть роль председателя Кнессета? Обоснуйте.",
+      "О чем бы вы хотели спросить его, если бы встретили?"
      ]
     },
     "es": {
@@ -4641,7 +5397,7 @@
      },
      "questions": [
       "Do you make a habit of following Knesset news?",
-      "How do you think it is possible to converse respectfully when there is a disagreement? Explain.",
+      "How do you think it is possible to converse respectfully when there is a dispute? Explain.",
       "Which politician's speech has stayed in your memory?"
      ]
     },
@@ -4668,8 +5424,8 @@
       ]
      },
      "questions": [
-      "Следите ли вы обычно за новостями Кнессета?",
-      "Как, по вашему мнению, можно уважительно беседовать при наличии разногласий? Обоснуйте.",
+      "Обыкновенно ли вы следите за новостями Кнессета?",
+      "Как вы думаете, как можно разговаривать с уважением при наличии разногласий? Обоснуйте.",
       "Какая речь политика осталась у вас в памяти?"
      ]
     },
@@ -4696,9 +5452,9 @@
       ]
      },
      "questions": [
-      "¿Siguen habitualmente las noticias de la Knéset?",
-      "¿Cómo piensan que se puede hablar con respeto cuando hay un desacuerdo? Expliquen su respuesta.",
-      "¿Qué discurso de un político se les ha quedado grabado en la memoria?"
+      "¿Suelen seguir las noticias de la Knéset?",
+      "¿Cómo piensan que se puede conversar con respeto cuando hay un desacuerdo? Expliquen su respuesta.",
+      "¿Qué discurso de un político se les quedó grabado en la memoria?"
      ]
     }
    },
@@ -5083,7 +5839,7 @@
      "questions": [
       "Do you support a football team? Which one?",
       "What do you think a good coach needs in order to succeed? Explain.",
-      "Which football match do you remember particularly well?"
+      "Which football match do you remember particularly?"
      ]
     },
     "ru": {
@@ -5109,9 +5865,9 @@
       ]
      },
      "questions": [
-      "Болельщик ли вы какой-нибудь футбольной команды? Какой?",
+      "Болеете ли вы за футбольную команду? Какую?",
       "Что, по вашему мнению, нужно хорошему тренеру для успеха? Обоснуйте.",
-      "Какой футбольный матч вам особенно запомнился?"
+      "Какой футбольный матч запомнился вам особенно?"
      ]
     },
     "es": {
@@ -5138,7 +5894,7 @@
      },
      "questions": [
       "¿Son simpatizantes de algún equipo de fútbol? ¿De cuál?",
-      "¿Qué creen que necesita un buen entrenador para tener éxito? Expliquen su respuesta.",
+      "¿Qué necesita un buen entrenador para tener éxito según ustedes? Expliquen su respuesta.",
       "¿Qué partido de fútbol recuerdan especialmente?"
      ]
     }
@@ -5228,9 +5984,9 @@
       ]
      },
      "questions": [
-      "Do you make sure to have routine health check-ups? Tell us.",
-      "What do you think is important in order to encourage people to get tested? Explain.",
-      "Which medical advancement impressed you in your life?"
+      "Do you keep up with routine health check-ups? Tell.",
+      "What do you think is important in order to encourage people to get checked? Explain.",
+      "What medical advancement impressed you in your life?"
      ]
     },
     "ru": {
@@ -5257,8 +6013,8 @@
      },
      "questions": [
       "Соблюдаете ли вы плановые медицинские осмотры? Расскажите.",
-      "Что, по вашему мнению, важно, чтобы побудить людей проверяться? Обоснуйте.",
-      "Какой прогресс в медицине впечатлил вас в вашей жизни?"
+      "Что, по вашему мнению, важно, чтобы поощрять людей проходить обследования? Обоснуйте.",
+      "Какой прогресс в медицине впечатлил вас за вашу жизнь?"
      ]
     },
     "es": {
@@ -5379,8 +6135,8 @@
       ]
      },
      "questions": [
-      "Have you ever encountered a malfunction in an application or on the phone? What did you do?",
-      "What do you think is important to do when an application stops working? Explain.",
+      "Have you ever encountered a glitch in an app or on the phone? What did you do?",
+      "What do you think is important to do when an app stops working? Explain.",
       "Which digital service do you use the most?"
      ]
     },
@@ -5407,9 +6163,9 @@
       ]
      },
      "questions": [
-      "Сталкивались ли вы когда-нибудь со сбоем в приложении или в телефоне? Что вы сделали?",
-      "Что, по вашему мнению, важно сделать, когда приложение перестает работать? Обоснуйте.",
-      "Каким цифровым сервисом вы пользуетесь чаще всего?"
+      "Сталкивались ли вы когда-нибудь со сбоем в приложении или телефоне? Что вы сделали?",
+      "Что, по вашему мнению, важно делать, когда приложение перестает работать? Обоснуйте.",
+      "Каким цифровым сервисом вы пользуетесь больше всего?"
      ]
     },
     "es": {
@@ -5526,8 +6282,8 @@
       ]
      },
      "questions": [
-      "What historical or sporting event do you remember from your days?",
-      "What do you think makes a speech memorable for years to come? Explain.",
+      "Which historical or sporting event do you remember from your days?",
+      "What do you think makes a speech memorable over the years? Explain.",
       "Who was your favorite athlete in your youth?"
      ]
     },
@@ -5555,7 +6311,7 @@
      },
      "questions": [
       "Какое историческое или спортивное событие вы помните из своих дней?",
-      "Что, по вашему мнению, делает речь памятной на долгие годы? Обоснуйте.",
+      "Что, по вашему мнению, делает речь запоминающейся на долгие годы? Обоснуйте.",
       "Кто был вашим любимым спортсменом в молодости?"
      ]
     },
@@ -5678,9 +6434,9 @@
       ]
      },
      "questions": [
-      "Which thinking game do you like, chess, backgammon or another?",
+      "Which strategy game do you like, chess, backgammon or another?",
       "Do you remember how you received news from the world in your youth?",
-      "What do you think is needed to establish something completely new? Explain."
+      "What in your opinion is needed to establish something completely new? Explain."
      ]
     },
     "ru": {
@@ -5706,7 +6462,7 @@
       ]
      },
      "questions": [
-      "Какую игру на мышление вы любите: шахматы, нарды или другую?",
+      "какую игру на мышление вы любите — шахматы, нарды или другую?",
       "Помните ли вы, как в молодости получали новости из мира?",
       "Что, по вашему мнению, нужно, чтобы создать что-то совершенно новое? Обоснуйте."
      ]
@@ -5738,896 +6494,6 @@
       "¿Recuerdan cómo recibían noticias del mundo en su juventud?",
       "¿Qué creen que se necesita para crear algo completamente nuevo? Expliquen su respuesta."
      ]
-    }
-   },
-   "audioTr": {
-    "en": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "ru": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "es": [
-     "easy",
-     "medium",
-     "hard"
-    ]
-   }
-  },
-  {
-   "id": "2026-11-18-world-1",
-   "topic": "world",
-   "title": "ארצות הברית: תקלה במערכת הבקרה עצרה את ההמראות",
-   "easy": "בסוף השבוע שעבר הייתה תקלה גדולה בארצות הברית.\nרשות התעופה עצרה את כל ההמראות.\nהעצירה נמשכה יותר מארבע שעות.\nאלפי טיסות בוטלו.\nהשר אמר שהמערכות ישנות מאוד.\nבהמשך התקלה נפתרה.",
-   "medium": "בסוף השבוע שעבר הייתה בארצות הברית תקלה גדולה במערכות הבקרה של התעופה. רשות התעופה הפדרלית הורתה לעצור את כל ההמראות במדינה, ומטוסים שכבר היו באוויר המשיכו לנחות. העצירה נמשכה יותר מארבע שעות. לפי אתר מעקב הטיסות Flightradar24, יותר מ-6,600 טיסות בוטלו וכ-8,600 התעכבו. שר התחבורה, שון דאפי, הסביר שציוד התקשורת ישן מאוד, ושנתונים רבים מדי הציפו אותו. מארקוויין מולין, השר לביטחון המולדת, אמר שאין ראיות למתקפת סייבר. המרחב האווירי נפתח מחדש בלילה שבין שישי לשבת.",
-   "hard": "בסוף השבוע שעבר הייתה בארצות הברית תקלה שלא נראתה כמוה מאז 2001. מרכזי בקרת הטיסה דיווחו על חוסר יציבות במערכות המכ\"ם והתקשורת, ורשות התעופה הפדרלית הורתה לעצור את כל ההמראות במדינה. העצירה נמשכה יותר מארבע שעות, והתקלה השפיעה על כל 22 מרכזי הבקרה האזוריים. לפי Flightradar24, יותר מ-6,600 טיסות בוטלו וכ-8,600 התעכבו. לפחות 827 מטוסים שהיו בדרכם לארצות הברית הוסטו: 670 חזרו לנמל המוצא ו-157 נחתו בנמל אחר. שר התחבורה, שון דאפי, אמר שהמתגים והנתבים של מערכת התקשורת ישנים מאוד, הוצפו בנתונים והעבירו מידע לא עקבי, ולכן כיבו את המערכת. השר לביטחון המולדת, מארקוויין מולין, אמר שאין ראיות למתקפת סייבר ושהתקלה נראית מכנית, אך החקירה נמשכת. גם טיסות מישראל לארצות הברית נעצרו. ההשבתה הארצית הקודמת הייתה בינואר 2023 ונמשכה פחות משעתיים. לפי רויטרס, חברות התעופה האמריקניות לא יחויבו לפצות נוסעים שנתקעו, כי התקלה אינה באחריותן. דאפי כינה את המצב \"מצב חירום\" וביקש תקציב גדול יותר לשדרוג המערכות. לפי ההערכות, חזרה מלאה לשגרה עשויה להימשך ימים.",
-   "questions": [
-    "האם טסתם פעם בטיסה שהתעכבה? ספרו איך היה.",
-    "מה לדעתכם חשוב לעשות כדי שציוד ישן לא יתקלקל? נמקו.",
-    "איזה אמצעי תחבורה אתם הכי אוהבים, ולמה?"
-   ],
-   "sources": [
-    {
-     "title": "ynet: כאוס אווירי שלא נראה בארה\"ב מ-2001: איך קרסה המערכת, והאם התקלה תחזור (14.11.2026)",
-     "url": "https://www.ynet.co.il/news/article/hkiotysazg"
-    }
-   ],
-   "verified": true,
-   "date": "2026-11-18",
-   "ts": 1794956133,
-   "qlevels": {
-    "easy": [
-     "האם רשות התעופה עצרה את ההמראות?",
-     "האם העצירה נמשכה יותר מארבע שעות?",
-     "המערכות ישנות או חדשות?"
-    ],
-    "medium": [
-     "איזו רשות הורתה לעצור את ההמראות?",
-     "כמה זמן נמשכה העצירה?",
-     "מי הוא שר התחבורה שהסביר את התקלה?"
-    ],
-    "hard": [
-     "כמה מרכזי בקרה אזוריים הושפעו מהתקלה?",
-     "לפחות כמה מטוסים הוסטו, וכמה מהם חזרו לנמל המוצא?",
-     "מתי הייתה ההשבתה הארצית הקודמת, וכמה זמן נמשכה?"
-    ]
-   },
-   "audio": [
-    "easy",
-    "medium",
-    "hard"
-   ],
-   "tr": {
-    "en": {
-     "title": "United States: A malfunction in the control system stopped the takeoffs",
-     "easy": "Last weekend there was a big glitch in the United States.\nThe aviation authority stopped all takeoffs.\nThe stop lasted more than four hours.\nThousands of flights were cancelled.\nThe minister said that the systems are very old.\nLater the problem was solved.",
-     "medium": "At the end of last week in the United States there was a major malfunction in the control systems of the aviation. The Federal Aviation Authority ordered a halt to all takeoffs in the country, and planes already in the air continued to land. The stop lasted more than four hours. According to flight tracking website Flightradar24, more than 6,600 flights were canceled and about 8,600 were delayed. Transport Minister Sean Duffy explained that the communications equipment was very old, and too many annuals had overwhelmed it. Markwain Mullin, the secretary of homeland security, said there was no evidence of a cyber attack. The airspace reopened on the night between Friday and Saturday.",
-     "hard": "At the end of last week, the United States had an outage not seen since 2001. Flight control centers reported instability in radar and communications systems, and the Federal Aviation Administration ordered the halt of all takeoffs in the country. The shutdown lasted more than four hours, and the outage affected all 22 regional control centers. According to Flightradar24, more than 6,600 flights were canceled and about 8,600 were delayed. At least 827 planes on their way to the United States were diverted: 670 returned to the port of origin, and 157 landed at another port. Transportation Secretary Sean Duffy said that the switches and routers of the communication system were flooded with data and therefore turned off the system From Israel to the United States, the previous shutdown was in January 2023 and lasted less than two hours. According to Reuters, the American airlines will not be obliged to compensate the stranded passengers. Duffy called the situation an \"emergency situation\".",
-     "qlevels": {
-      "easy": [
-       "Did the aviation authority stop the takeoffs?",
-       "Did the stop last more than four hours?",
-       "Are the systems old or new?"
-      ],
-      "medium": [
-       "Which authority ordered to stop the take-offs?",
-       "How long did the stop last?",
-       "Who is the Minister of Transportation who explained the problem?"
-      ],
-      "hard": [
-       "How many regional control centers were affected by the fault?",
-       "At least how many planes were diverted, and how many of them returned to the port of origin?",
-       "When was the last national shutdown, and how long did it last?"
-      ]
-     },
-     "questions": [
-      "Have you ever flown on a delayed flight? Tell us how it was.",
-      "What do you think is important to do so that old equipment does not break down? Explain.",
-      "Which means of transportation do you like the most, and why?"
-     ]
-    },
-    "ru": {
-     "title": "США: Неисправность в системе управления остановила взлет",
-     "easy": "В минувшие выходные в США произошел большой сбой.\nАвиационные власти прекратили все взлеты.\nСтоянка длилась более четырех часов.\nБыли отменены тысячи рейсов.\nМинистр сказал, что системы очень старые.\nПозже проблема была решена.",
-     "medium": "В конце прошлой недели в США произошел крупный сбой в системах управления авиацией. Федеральное управление гражданской авиации приказало остановить все взлеты в стране, и самолеты, уже находившиеся в воздухе, продолжили приземляться. Стоянка длилась более четырех часов. По данным сайта отслеживания полетов Flightradar24, более 6600 рейсов были отменены и около 8600 задержаны. Министр транспорта Шон Даффи объяснил, что оборудование связи очень старое и слишком много ежегодников вышло из строя. Марквейн Маллин, министр внутренней безопасности, заявил, что доказательств кибератаки нет. Воздушное пространство вновь открылось в ночь с пятницы на субботу.",
-     "hard": "В конце прошлой недели в США произошел сбой, не наблюдавшийся с 2001 года. Центры управления полетами сообщили о нестабильности работы радаров и систем связи, а Федеральное управление гражданской авиации распорядилось остановить все взлеты в стране. Останов длился более четырех часов, отключение затронуло все 22 региональных центра управления. По данным Flightradar24, более 6600 рейсов были отменены и около 8600 задержаны. По меньшей мере 827 самолетов, направлявшихся в США, были перенаправлены: 670 вернулись в порт отправления, а 157 приземлились в другом порту. Министр транспорта Шон Даффи заявил, что коммутаторы и маршрутизаторы системы связи были переполнены данными, и поэтому отключили систему. От Израиля до США предыдущее отключение было в январе 2023 года и длилось менее двух часов. По данным Reuters, американские авиакомпании не будут обязаны выплачивать компенсацию застрявшим пассажирам. Даффи назвал ситуацию «чрезвычайной ситуацией».",
-     "qlevels": {
-      "easy": [
-       "Остановило ли управление гражданской авиации вылеты?",
-       "Длилась ли остановка более четырех часов?",
-       "Системы старые или новые?"
-      ],
-      "medium": [
-       "Какое ведомство распорядилось остановить вылеты?",
-       "Сколько времени продолжалась остановка?",
-       "Кто министр транспорта, объяснивший неполадку?"
-      ],
-      "hard": [
-       "Сколько региональных центров управления затронула неполадка?",
-       "По меньшей мере сколько самолетов было перенаправлено и сколько из них вернулось в порт отправления?",
-       "Когда было предыдущее общенациональное отключение и сколько времени оно продолжалось?"
-      ]
-     },
-     "questions": [
-      "Летали ли вы когда-нибудь рейсом, который задержался? Расскажите, как это было.",
-      "Что, по вашему мнению, важно делать, чтобы старое оборудование не ломалось? Обоснуйте.",
-      "Какое средство передвижения вы любите больше всего и почему?"
-     ]
-    },
-    "es": {
-     "title": "Estados Unidos: Un mal funcionamiento en el sistema de control detuvo los despegues",
-     "easy": "El fin de semana pasado hubo un gran problema en los Estados Unidos.\nLa autoridad aeronáutica detuvo todos los despegues.\nLa parada duró más de cuatro horas.\nMiles de vuelos fueron cancelados.\nEl ministro dijo que los sistemas son muy antiguos.\nPosteriormente se solucionó el problema.",
-     "medium": "A finales de la semana pasada en Estados Unidos se produjo un importante fallo en los sistemas de control de la aviación. La Autoridad Federal de Aviación ordenó detener todos los despegues en el país y los aviones que ya estaban en el aire continuaron aterrizando. La parada duró más de cuatro horas. Según el sitio web de seguimiento de vuelos Flightradar24, más de 6.600 vuelos fueron cancelados y unos 8.600 sufrieron retrasos. El ministro de Transporte, Sean Duffy, explicó que el equipo de comunicaciones era muy antiguo y que demasiadas anuales lo habían abrumado. Markwain Mullin, secretario de Seguridad Nacional, dijo que no había evidencia de un ciberataque. El espacio aéreo se reabrió la noche del viernes al sábado.",
-     "hard": "A finales de la semana pasada, Estados Unidos sufrió una interrupción no vista desde 2001. Los centros de control de vuelo informaron de inestabilidad en los sistemas de radar y comunicaciones, y la Administración Federal de Aviación ordenó la suspensión de todos los despegues en el país. El cierre duró más de cuatro horas y afectó a los 22 centros de control regionales. Según Flightradar24, más de 6.600 vuelos fueron cancelados y unos 8.600 sufrieron retrasos. Al menos 827 aviones que se dirigían a Estados Unidos fueron desviados: 670 regresaron al puerto de origen y 157 aterrizaron en otro puerto. El secretario de Transporte, Sean Duffy, dijo que los conmutadores y enrutadores del sistema de comunicación se inundaron de datos y por eso apagaron el sistema. Desde Israel a Estados Unidos, el cierre anterior fue en enero de 2023 y duró menos de dos horas. Según Reuters, las aerolíneas estadounidenses no estarán obligadas a compensar a los pasajeros varados. Duffy calificó la situación de \"situación de emergencia\".",
-     "qlevels": {
-      "easy": [
-       "¿Detuvo la autoridad aeronáutica los despegues?",
-       "¿Duró la detención más de cuatro horas?",
-       "¿Los sistemas son viejos o nuevos?"
-      ],
-      "medium": [
-       "¿Qué autoridad ordenó detener los despegues?",
-       "¿Cuánto tiempo duró la detención?",
-       "¿Quién es el ministro de Transporte que explicó la avería?"
-      ],
-      "hard": [
-       "¿Cuántos centros de control regional se vieron afectados por la avería?",
-       "¿Al menos cuántos aviones fueron desviados y cuántos de ellos regresaron al puerto de origen?",
-       "¿Cuándo fue la paralización nacional anterior y cuánto tiempo duró?"
-      ]
-     },
-     "questions": [
-      "¿Alguna vez volaron en un vuelo que se retrasó? Cuéntennos cómo fue.",
-      "¿Qué creen que es importante hacer para que los equipos viejos no se estropeen? Expliquen su respuesta.",
-      "¿Qué medio de transporte les gusta más y por qué?"
-     ]
-    }
-   },
-   "audioTr": {
-    "en": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "ru": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "es": [
-     "easy",
-     "medium",
-     "hard"
-    ]
-   }
-  },
-  {
-   "id": "2026-11-18-israel-1",
-   "topic": "israel",
-   "title": "הכנסת בחרה ביושב ראש חדש: מתן כהנא",
-   "easy": "ביום שלישי הייתה הצבעה בכנסת.\nבחרו יושב ראש חדש לכנסת.\nמתן כהנא נבחר לתפקיד.\n66 חברי כנסת הצביעו בעדו.\nהיושב ראש הקודם הוא אמיר אוחנה.\nאוחנה אמר שיכבד את רצון הרוב.",
-   "medium": "ביום שלישי, 17 בנובמבר 2026, בחרה מליאת הכנסת ביושב ראש חדש: ח\"כ מתן כהנא. לפי ynet, 66 חברי כנסת הצביעו בעדו. יושב ראש הכנסת מנהל את דיוני המליאה. ההצבעה התקיימה לבקשת 67 חברי כנסת מגוש השינוי, שביקשו להחליף את היושב ראש הקודם, אמיר אוחנה. אוחנה אמר שהוא מתנגד לכוונות הקואליציה המתגבשת, אך הוסיף שיכבד את רצון רוב חברי הכנסת. לפי הדיווח, מטרת הגוש היא לנהל את הכנסת ולקדם חקיקה. הכתבה פורסמה באתר ynet.",
-   "hard": "ביום שלישי, 17 בנובמבר 2026, בחרה מליאת הכנסת ביושב ראש חדש לכנסת ה-26: ח\"כ מתן כהנא. לפי ynet, 66 חברי כנסת הצביעו בעדו. יושב ראש הכנסת מנהל את דיוני המליאה. ההצבעה התקיימה לבקשת 67 חברי כנסת מגוש השינוי, שביקשו להחליף את היושב ראש הקודם, אמיר אוחנה. הבקשה הוגשה מחוץ למועד השבעת הממשלה, ולכן הייתה חריגה. אוחנה הודיע בשבוע שעבר שההצבעה תתקיים ביום שלישי בשעה 16:00, אחרי דיון במליאה. לדבריו, הוא מתנגד לכוונות הקואליציה המתגבשת, משום שלדעתו המהלך נועד לקדם חקיקה שתחזק את היועצת המשפטית לממשלה, אך הוא יכבד את רצון רוב חברי הכנסת. לפי הדיווח, מטרת הגוש היא להחליף את אוחנה כדי לנהל את הכנסת ולקדם חקיקה. בכתבה מוזכר גם פסק דין של בג\"ץ משנת 2020 בעניין יולי אדלשטיין, שקבע שכאשר 61 חברי כנסת דורשים הצבעה על יושב ראש חדש, יש לקיים אותה מיד, לפני הקמת הממשלה. לפי כתבה מ-10 בנובמבר, גדי איזנקוט הודיע לראשי גוש השינוי שיושב ראש הכנסת הבא יהיה מתן כהנא מסיעתו, לפחות בזמן המגעים להקמת ממשלה.",
-   "questions": [
-    "האם ביקרתם פעם בכנסת, או ראיתם אותה בטלוויזיה? ספרו.",
-    "מה לדעתכם חשוב שיהיה ליושב ראש הכנסת? נמקו.",
-    "איזו הצבעה חשובה זכורה לכם מהעבר?"
-   ],
-   "sources": [
-    {
-     "title": "ynet: מתן כהנא נבחר לתפקיד יו\"ר הכנסת (17.11.2026)",
-     "url": "https://www.ynet.co.il/news/article/hyz2rvqrzg"
-    },
-    {
-     "title": "ynet: יחכה עד הרגע האחרון: אוחנה הודיע - ההצבעה על החלפתו תתקיים בשבוע הבא (10.11.2026)",
-     "url": "https://www.ynet.co.il/news/article/r1hqcplrfg"
-    }
-   ],
-   "verified": true,
-   "date": "2026-11-18",
-   "ts": 1794956133,
-   "qlevels": {
-    "easy": [
-     "האם מתן כהנא נבחר ליושב ראש הכנסת?",
-     "האם 66 חברי כנסת הצביעו בעדו?",
-     "היושב ראש הקודם הוא אמיר אוחנה או מתן כהנא?"
-    ],
-    "medium": [
-     "איזה תפקיד קיבל מתן כהנא?",
-     "כמה חברי כנסת הצביעו בעדו?",
-     "מי היה היושב ראש הקודם?"
-    ],
-    "hard": [
-     "כמה חברי כנסת ביקשו לקיים את ההצבעה?",
-     "באיזו שעה נקבעה ההצבעה?",
-     "מה קבע פסק הדין של בג\"ץ משנת 2020 בעניין אדלשטיין?"
-    ]
-   },
-   "audio": [
-    "easy",
-    "medium",
-    "hard"
-   ],
-   "tr": {
-    "en": {
-     "title": "The Knesset elected a new chairman: Matan Kahana",
-     "easy": "On Tuesday there was a vote in the Knesset.\nElect a new speaker for the Knesset.\nMatan Kahana was elected to the position.\n66 Knesset members voted for him.\nThe previous chairman is Amir Ohana.\nOhana said he would respect the will of the majority.",
-     "medium": "On Tuesday, November 17, 2026, the Knesset plenum elected a new speaker: MK Matan Kahana. According to Ynet, 66 Knesset members voted for him. The Speaker of the Knesset presides over the plenary debates. The vote was held at the request of 67 Knesset members from the Change Bloc, who wanted to replace the previous chairman, Amir Ohana. Ohana said he opposes the intentions of the emerging coalition, but added that he would respect the will of the majority of Knesset members. According to the report, the goal of the bloc is to manage the Knesset and promote legislation. The article was published on the Ynet website.",
-     "hard": "On Tuesday, November 17, 2026, the Knesset plenum elected a new speaker for the 26th Knesset: MK Matan Kahana. According to Ynet, 66 members of the Knesset voted for him. The speaker of the Knesset presides over the deliberations of the plenary. The vote was held at the request of 67 members of the Knesset from the Change Bloc, who sought to replace the previous speaker, Amir Ohana. The request was submitted outside of the prime minister's swearing-in date, and was therefore unusual. Ohana announced this week that the vote will take place on Tuesday at 16:00. According to him, he opposes the intentions of the forming coalition, because in his opinion the move is intended to strengthen the legal adviser to the government, but he will respect the will of the majority of the Knesset members. According to the report, the goal of the bloc is to manage the Knesset and to promote legislation Edelstein, who stated that when 61 members of the Knesset demand a vote on a new speaker, it must be held immediately, before the formation of the government. According to an article from November 10, Gadi Eisenkot informed the leaders of the Change Bloc that the next speaker of the Knesset will be Matan Kahane from his party, at least during the talks to form a government.",
-     "qlevels": {
-      "easy": [
-       "Has Matan Kahana been elected Speaker of the Knesset?",
-       "Did 66 Knesset members vote for him?",
-       "Is the previous chairman Amir Ohana or Matan Kahana?"
-      ],
-      "medium": [
-       "What role did Matan Kahana get?",
-       "How many Knesset members voted for him?",
-       "Who was the previous chairman?"
-      ],
-      "hard": [
-       "How many Knesset members asked to hold the vote?",
-       "What time was the vote scheduled?",
-       "What did the 2020 High Court ruling in the Edelstein matter state?"
-      ]
-     },
-     "questions": [
-      "Have you ever visited the Knesset, or seen it on television? Tell us.",
-      "What in your opinion is important for the Speaker of the Knesset to have? Explain.",
-      "Which important vote do you remember from the past?"
-     ]
-    },
-    "ru": {
-     "title": "Кнессет избрал нового председателя: Матана Кахана.",
-     "easy": "Во вторник состоялось голосование в Кнессете.\nВыбрать нового спикера Кнессета.\nНа эту должность был избран Матан Кахана.\nЗа него проголосовали 66 депутатов Кнессета.\nПредыдущий председатель - Амир Охана.\nОана заявил, что будет уважать волю большинства.",
-     "medium": "Во вторник, 17 ноября 2026 года, пленум Кнессета избрал нового спикера: депутата Кнессета Матана Кахана. По данным Ynet, за него проголосовали 66 депутатов Кнессета. Спикер Кнессета председательствует на пленарных дебатах. Голосование было проведено по просьбе 67 депутатов Кнессета от Блока перемен, которые хотели сменить предыдущего председателя Амира Охану. Оана заявил, что выступает против намерений формирующейся коалиции, но добавил, что будет уважать волю большинства членов Кнессета. Согласно отчету, целью блока является управление Кнессетом и продвижение законодательства. Статья опубликована на сайте Ynet.",
-     "hard": "Во вторник, 17 ноября 2026 года, пленум Кнессета избрал нового спикера Кнессета 26-го созыва: депутата Кнессета Матана Кахана. По данным Ynet, за него проголосовали 66 депутатов Кнессета. Спикер Кнессета председательствует на пленарных заседаниях. Голосование было проведено по просьбе 67 членов Кнессета от Блока перемен, которые стремились заменить предыдущего спикера Амира Охану. Запрос был подан вне даты приведения премьер-министра к присяге и поэтому был необычным. Оана объявил на этой неделе, что голосование состоится во вторник в 16:00. По его словам, он выступает против намерений формирующейся коалиции, поскольку, по его мнению, этот шаг призван усилить юрисконсульта правительства, но он будет уважать волю большинства членов Кнессета. Согласно сообщению, целью блока является управление Кнессетом и продвижение законодательства Эдельштейн, заявивший, что когда 61 член Кнессета требует голосования по новому спикеру, оно должно быть проведено немедленно, до формирования правительства. Согласно статье от 10 ноября, Гади Айзенкот сообщил лидерам Блока перемен, что следующим спикером Кнессета будет Матан Кахане от его партии, по крайней мере, на время переговоров по формированию правительства.",
-     "qlevels": {
-      "easy": [
-       "Был ли Матан Кахана избран председателем Кнессета?",
-       "Проголосовали ли за него 66 депутатов Кнессета?",
-       "Предыдущий председатель — Амир Охана или Матан Кахана?"
-      ],
-      "medium": [
-       "Какую должность получил Матан Кахана?",
-       "Сколько депутатов Кнессета проголосовали за него?",
-       "Кто был предыдущим председателем?"
-      ],
-      "hard": [
-       "Сколько депутатов Кнессета потребовали проведения голосования?",
-       "На какое время было назначено голосование?",
-       "Что постановило решение БАГАЦа 2020 года по делу Эдельштейна?"
-      ]
-     },
-     "questions": [
-      "Бывали ли вы когда-нибудь в Кнессете или видели его по телевизору? Расскажите.",
-      "Что, по вашему мнению, важно для председателя Кнессета? Обоснуйте.",
-      "Какое важное голосование вам запомнилось из прошлого?"
-     ]
-    },
-    "es": {
-     "title": "La Knesset eligió un nuevo presidente: Matan Kahana",
-     "easy": "El martes hubo una votación en la Knesset.\nElija un nuevo presidente de la Knesset.\nMatan Kahana fue elegido para el cargo.\n66 miembros de la Knesset votaron por él.\nEl presidente anterior es Amir Ohana.\nOhana dijo que respetaría la voluntad de la mayoría.",
-     "medium": "El martes 17 de noviembre de 2026, el pleno de la Knesset eligió un nuevo presidente: el diputado Matan Kahana. Según Ynet, 66 miembros de la Knesset votaron por él. El presidente de la Knesset preside los debates plenarios. La votación se celebró a petición de 67 miembros del Knesset del Bloque del Cambio, que querían sustituir al anterior presidente, Amir Ohana. Ohana dijo que se opone a las intenciones de la coalición emergente, pero añadió que respetaría la voluntad de la mayoría de los miembros de la Knesset. Según el informe, el objetivo del bloque es gestionar la Knesset y promover la legislación. El artículo fue publicado en el sitio web de Ynet.",
-     "hard": "El martes 17 de noviembre de 2026, el pleno de la Knesset eligió un nuevo presidente para la 26ª Knesset: el diputado Matan Kahana. Según Ynet, 66 miembros de la Knesset votaron por él. El presidente de la Knesset preside las deliberaciones del plenario. La votación se celebró a petición de 67 miembros de la Knesset del Bloque del Cambio, que buscaban sustituir al anterior presidente, Amir Ohana. La solicitud se presentó fuera de la fecha de juramento del primer ministro y, por tanto, era inusual. Ohana anunció esta semana que la votación tendrá lugar el martes a las 16:00 horas. Según él, se opone a las intenciones de la coalición que se está formando, porque, en su opinión, la medida pretende reforzar al asesor jurídico del gobierno, pero respetará la voluntad de la mayoría de los miembros del Knesset. Según el informe, el objetivo del bloque es gestionar la Knesset y promover la legislación. Edelstein, quien afirmó que cuando 61 miembros de la Knesset exigen una votación sobre un nuevo presidente, ésta debe realizarse inmediatamente, antes de la formación del gobierno. Según un artículo del 10 de noviembre, Gadi Eisenkot informó a los líderes del Bloque del Cambio que el próximo presidente de la Knesset será Matan Kahane, de su partido, al menos durante las conversaciones para formar gobierno.",
-     "qlevels": {
-      "easy": [
-       "¿Fue elegido Matan Kahana como presidente de la Knéset?",
-       "¿Votaron 66 miembros de la Knéset a su favor?",
-       "¿El presidente anterior es Amir Ohana o Matan Kahana?"
-      ],
-      "medium": [
-       "¿Qué cargo recibió Matan Kahana?",
-       "¿Cuántos miembros de la Knéset votaron a su favor?",
-       "¿Quién fue el presidente anterior?"
-      ],
-      "hard": [
-       "¿Cuántos miembros de la Knéset pidieron llevar a cabo la votación?",
-       "¿A qué hora se fijó la votación?",
-       "¿Qué determinó la sentencia del Tribunal Supremo de 2020 sobre Edelstein?"
-      ]
-     },
-     "questions": [
-      "¿Alguna vez visitaron la Knéset o la vieron por televisión? Cuéntennos.",
-      "¿Qué creen ustedes que es importante que tenga el presidente de la Knéset? Expliquen su respuesta.",
-      "¿Qué votación importante recuerdan del pasado?"
-     ]
-    }
-   },
-   "audioTr": {
-    "en": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "ru": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "es": [
-     "easy",
-     "medium",
-     "hard"
-    ]
-   }
-  },
-  {
-   "id": "2026-11-18-weather-1",
-   "topic": "weather",
-   "title": "מזג האוויר: טפטוף בחוף, וביום שישי חם מהרגיל",
-   "easy": "היום יהיה מעונן בחלק מהארץ.\nבבוקר ייתכן טפטוף בחוף.\nהטמפרטורות לא ישתנו.\nמחר יהיה קצת יותר חם.\nביום שישי יהיה חם מהרגיל.\nכדאי לקחת מעיל בבוקר.",
-   "medium": "היום, יום רביעי, צפוי בבוקר טפטוף עד גשם קל במקומות לאורך החוף. הטמפרטורות דומות לאלה של אתמול: לפי התחזית, בתל אביב 17 עד 23 מעלות, בירושלים 12 עד 19, בחיפה 18 עד 22 ובבאר שבע 12 עד 23. מחר, יום חמישי, תהיה עלייה קלה בטמפרטורות, אך הן עדיין יהיו רגילות לעונה ברוב האזורים. ביום שישי ההתחממות תימשך, והמזג יהיה חם מהרגיל לעונה. בבוקר כדאי לצאת עם שכבת לבוש נוספת, ובצהריים אפשר להסיר אותה.",
-   "hard": "לפי תחזית שפורסמה ב-17 בנובמבר, היום, יום רביעי, צפוי בבוקר טפטוף עד גשם מקומי קל לאורך מישור החוף, והטמפרטורות ללא שינוי ניכר לעומת יום שלישי. ביום שלישי נחזו הטמפרטורות הבאות: בתל אביב 17 עד 23 מעלות, בירושלים 12 עד 19, בחיפה 18 עד 22, בבאר שבע 12 עד 23, בצפת 13 עד 18, בטבריה 17 עד 22 ובאילת 19 עד 27. מחר, יום חמישי, תהיה עלייה קלה בטמפרטורות, אך הן עדיין יהיו רגילות לעונה ברוב האזורים. ביום שישי ההתחממות תימשך, והמזג יהיה חם מהרגיל לעונה. בתקופה זו של השנה הימים נעימים, אך הבקרים והלילות קרירים יותר, ולכן כדאי להתלבש בשכבות: לצאת בבוקר עם מעיל קל, ולהסיר אותו כשהשמש מתחממת. במצפה רמון נחזו 13 עד 21 מעלות, בעין גדי 19 עד 25, באשדוד 16 עד 23 ובבית שאן 17 עד 24. ככל שמתרחקים מהחוף לכיוון הדרום והבקעה, נעשה חם יותר, ובהרים קר יותר. אין צורך לדאוג, ובכל זאת כדאי לקחת מטרייה קטנה אם יוצאים בבוקר לאורך החוף.",
-   "questions": [
-    "איזה מזג אוויר אתם הכי אוהבים, ולמה?",
-    "מה אתם זוכרים מהגשם הראשון של החורף כשהייתם צעירים?",
-    "מה לדעתכם כדאי ללבוש ביום כזה? נמקו."
-   ],
-   "sources": [
-    {
-     "title": "ynet: התחזית: ירידה קלה בטמפרטורות, ייתכן גשם מקומי בצפון ובחוף (17.11.2026)",
-     "url": "https://www.ynet.co.il/news/article/08haicva3"
-    }
-   ],
-   "verified": true,
-   "date": "2026-11-18",
-   "ts": 1794956133,
-   "qlevels": {
-    "easy": [
-     "האם ייתכן טפטוף בחוף בבוקר?",
-     "האם ביום שישי יהיה חם מהרגיל?",
-     "מחר יהיה קצת יותר חם או קצת יותר קר?"
-    ],
-    "medium": [
-     "מתי צפוי טפטוף לאורך החוף?",
-     "מהי התחזית לתל אביב?",
-     "איזה מזג אוויר צפוי ביום שישי?"
-    ],
-    "hard": [
-     "מהי הטמפרטורה שנחזתה לאילת ביום שלישי, מ-ועד?",
-     "כמה מעלות נחזו בירושלים ביום שלישי, מ-ועד?",
-     "איך הטמפרטורות ביום חמישי לעומת יום רביעי?"
-    ]
-   },
-   "audio": [
-    "easy",
-    "medium",
-    "hard"
-   ],
-   "tr": {
-    "en": {
-     "title": "The weather: drizzling on the beach, and on Friday it's hotter than usual",
-     "easy": "Today will be cloudy in some parts of the country.\nIn the morning it may drizzle on the beach.\nThe temperatures will not change.\nTomorrow will be a little warmer.\nFriday will be hotter than usual.\nYou should take a coat in the morning.",
-     "medium": "Today, Wednesday, drizzle to light rain is expected in the morning in places along the coast. The temperatures are similar to those of yesterday: according to the forecast, in Tel Aviv 17 to 23 degrees, in Jerusalem 12 to 19, in Haifa 18 to 22 and Beer Sheva 12 to 23. Tomorrow, Thursday, there will be a slight increase in temperatures, but they will still be normal for the season in most areas. On Friday, the warming will continue, and the weather will be warmer than usual for the season. In the morning you should go out with an extra layer of clothing, and in the afternoon you can remove it.",
-     "hard": "According to a forecast published on November 17, today, Wednesday, drizzle to light localized rain is expected in the morning along the coastal plain, and the temperatures will remain unchanged compared to Tuesday. On Tuesday, the following temperatures were predicted: in Tel Aviv 17 to 23 degrees, in Jerusalem 12 to 19, in Haifa 18 to 22, in Beer Sheva 12 to 23, in Safed 13 to 18, in Tiberias 17 to 22 and in Eilat 19 to 27. Tomorrow, Thursday, there will be a slight increase in temperatures, but they will still be normal for the season in most areas. On Friday, the warming will continue, and the weather will be warmer than usual for the season. At this time of the year the days are pleasant, but the mornings and nights are cooler, so you should dress in layers: go out in the morning with a light coat, and take it off when the sun warms up. In Mitzpe Ramon, 13 to 21 degrees were predicted, in Ein Gedi 19 to 25, in Ashdod 16 to 23 and Beit Shan 17 to 24. The farther you go from the coast towards the south and the valley, the hotter it gets, and the colder in the mountains. There's no need to worry, but still you should take a small umbrella if you go out in the morning along the beach.",
-     "qlevels": {
-      "easy": [
-       "Is it possible to drizzle on the beach in the morning?",
-       "Will it be hotter than usual on Friday?",
-       "Will tomorrow be a little warmer or a little colder?"
-      ],
-      "medium": [
-       "When is a drizzle expected along the coast?",
-       "What is the forecast for Tel Aviv?",
-       "What weather is expected on Friday?"
-      ],
-      "hard": [
-       "What is the temperature forecasted for Eilat on Tuesday, from-to?",
-       "How many degrees were forecasted in Jerusalem on Tuesday, from-to?",
-       "How are the temperatures on Thursday compared to Wednesday?"
-      ]
-     },
-     "questions": [
-      "Which weather do you like the most, and why?",
-      "What do you remember from the first rain of winter when you were young?",
-      "What in your opinion is worthwhile to wear on such a day? Explain."
-     ]
-    },
-    "ru": {
-     "title": "Погода: на пляже моросит дождь, а в пятницу жарче обычного",
-     "easy": "Сегодня в некоторых частях страны будет облачно.\nУтром на пляже может моросить дождь.\nТемпературы не изменятся.\nЗавтра будет немного теплее.\nПятница будет жарче обычного.\nТебе следует взять пальто утром.",
-     "medium": "Сегодня, в среду, утром местами вдоль побережья ожидается мелкий дождь. Температура аналогична вчерашней: по прогнозу, в Тель-Авиве от 17 до 23 градусов, в Иерусалиме от 12 до 19, в Хайфе от 18 до 22 и в Беэр-Шеве от 12 до 23. Завтра, в четверг, ожидается небольшое повышение температуры, но в большинстве районов она все равно будет нормальной для сезона. В пятницу потепление продолжится, и погода будет теплее обычного для сезона. Утром на улицу следует выйти с дополнительным слоем одежды, а днем ​​его можно снять.",
-     "hard": "Согласно прогнозу, опубликованному 17 ноября, сегодня, в среду, утром на прибрежной равнине ожидается морось или небольшой локальный дождь, а температура по сравнению со вторником останется неизменной. Во вторник прогнозировались следующие температуры: в Тель-Авиве от 17 до 23 градусов, в Иерусалиме от 12 до 19, в Хайфе с 18 до 22, в Беэр-Шеве с 12 до 23, в Цфате с 13 до 18, в Тверии с 17 до 22 и в Эйлате с 19 до 27. Завтра, в четверг, ожидается небольшое повышение температуры, но она все равно будет нормальной для сезон в большинстве регионов. В пятницу потепление продолжится, и погода будет теплее обычного для сезона. В это время года дни приятные, но по утрам и ночам прохладнее, поэтому одеваться следует многослойно: утром выйдите на улицу в легком пальто и снимите его, когда пригреет солнце. В Мицпе-Рамоне прогнозировались температуры от 13 до 21 градуса, в Эйн-Геди от 19 до 25, в Ашдоде от 16 до 23 и Бейт-Шане от 17 до 24. Чем дальше от побережья в сторону юга и долины, тем жарче становится, а в горах холоднее. Не стоит волноваться, но все же вам следует взять с собой небольшой зонтик, если вы пойдете утром по пляжу.",
-     "qlevels": {
-      "easy": [
-       "Возможен ли моросящий дождь на побережье утром?",
-       "Будет ли в пятницу теплее, чем обычно?",
-       "Завтра будет немного теплее или немного холоднее?"
-      ],
-      "medium": [
-       "Когда ожидается моросящий дождь вдоль побережья?",
-       "Каков прогноз для Тель-Авива?",
-       "Какой погоды ожидать в пятницу?"
-      ],
-      "hard": [
-       "Какая температура прогнозировалась для Эйлата во вторник от Метеорологической службы?",
-       "Сколько градусов прогнозировалось в Иерусалиме во вторник от Метеорологической службы?",
-       "Каковы температуры в четверг по сравнению с средой?"
-      ]
-     },
-     "questions": [
-      "Какую погоду вы любите больше всего и почему?",
-      "Что вы помните о первом зимнем дожде, когда вы были молоды?",
-      "Что, по вашему мнению, стоит надеть в такой день? Обоснуйте."
-     ]
-    },
-    "es": {
-     "title": "El tiempo: llovizna en la playa y el viernes hace más calor de lo habitual",
-     "easy": "Hoy estará nublado en algunas partes del país.\nPor la mañana puede lloviznar en la playa.\nLas temperaturas no cambiarán.\nMañana hará un poco más de calor.\nEl viernes hará más calor de lo habitual.\nDeberías llevar un abrigo por la mañana.",
-     "medium": "Para hoy miércoles se esperan lloviznas o lluvias ligeras por la mañana en algunas zonas de la costa. Las temperaturas son similares a las de ayer: según las previsiones, en Tel Aviv de 17 a 23 grados, en Jerusalén de 12 a 19 grados, en Haifa de 18 a 22 grados y en Beer Sheva de 12 a 23 grados. Mañana jueves habrá un ligero aumento de las temperaturas, pero seguirán siendo normales para la temporada en la mayoría de las zonas. El viernes el calentamiento continuará y el clima será más cálido de lo habitual para la temporada. Por la mañana deberás salir con una capa extra de ropa, y por la tarde podrás quitártela.",
-     "hard": "Según pronóstico publicado el 17 de noviembre, hoy miércoles se esperan lloviznas a lluvias localizadas débiles por la mañana a lo largo de la llanura costera, y las temperaturas se mantendrán sin cambios respecto al martes. El martes se pronosticaban las siguientes temperaturas: en Tel Aviv de 17 a 23 grados, en Jerusalén de 12 a 19, en Haifa de 18 a 22, en Beer Sheva de 12 a 23, en Safed de 13 a 18, en Tiberíades de 17 a 22 y en Eilat de 19 a 27. Mañana jueves habrá un ligero aumento de las temperaturas, pero seguirán siendo normales para la temporada en la mayoría de las zonas. El viernes el calentamiento continuará y el clima será más cálido de lo habitual para la temporada. En esta época del año los días son agradables, pero las mañanas y las noches son más frescas, por lo que conviene vestirse en capas: salir por la mañana con un abrigo ligero y quitárselo cuando el sol calienta. En Mitzpe Ramon se pronosticaron de 13 a 21 grados, en Ein Gedi de 19 a 25, en Ashdod de 16 a 23 y en Beit Shan de 17 a 24. Cuanto más te alejas de la costa hacia el sur y el valle, más calor hace y más frío en las montañas. No hay de qué preocuparse, pero aun así conviene llevar una sombrilla pequeña si sales por la mañana a la playa.",
-     "qlevels": {
-      "easy": [
-       "¿Es posible que haya llovizna en la costa por la mañana?",
-       "¿El viernes hará más calor de lo habitual?",
-       "¿Mañana hará un poco más de calor o un poco más de frío?"
-      ],
-      "medium": [
-       "¿Cuándo se prevé llovizna a lo largo de la costa?",
-       "¿Cuál es el pronóstico para Tel Aviv?",
-       "¿Qué tiempo se espera para el viernes?"
-      ],
-      "hard": [
-       "¿Cuál es la temperatura pronosticada para Eilat el martes, según el servicio meteorológico?",
-       "¿Cuántos grados se pronosticaron en Jerusalén el martes, según el servicio meteorológico?",
-       "¿Cómo son las temperaturas el jueves en comparación con el miércoles?"
-      ]
-     },
-     "questions": [
-      "¿Qué tipo de clima les gusta más y por qué?",
-      "¿Qué recuerdan de la primera lluvia del invierno cuando eran jóvenes?",
-      "¿Qué creen ustedes que vale la pena ponerse en un día así? Expliquen su respuesta."
-     ]
-    }
-   },
-   "audioTr": {
-    "en": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "ru": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "es": [
-     "easy",
-     "medium",
-     "hard"
-    ]
-   }
-  },
-  {
-   "id": "2026-11-18-transport-1",
-   "topic": "transport",
-   "title": "הרכבת: לוח זמנים חדש מ-14 בנובמבר",
-   "easy": "לרכבת ישראל יש לוח זמנים חדש.\nהוא התחיל ב-14 בנובמבר.\nהקו מירושלים הוארך עד נתניה ובית יהושע.\nנוסעים משם מגיעים לנתב\"ג ללא החלפה.\nבקו החוף נוספו קרונות.\nיש יותר רכבות בשעות השפל.",
-   "medium": "ב-14 בנובמבר נכנס לתוקף לוח זמנים חדש ברכבת ישראל. קו ירושלים יצחק נבון–תל אביב–הרצליה הוארך, והוא מגיע עכשיו גם לתחנות חדרה מערב, נתניה ובית יהושע. נוסעים מהתחנות האלה יכולים להגיע לשדה התעופה בן גוריון ברכבת ישירה, בלי להחליף. בשעות השפל, כלומר שעות שבהן יש פחות נוסעים, תוגברה תדירות הרכבות. בקו החוף נוספו קרונות ומקומות ישיבה. בקו באר שבע–כרמיאל נקבע שהרכבת לא תעצור עוד בתחנת חדרה מערב. הכתבה פורסמה באתר ynet, והיא מתארת את השינויים.",
-   "hard": "ב-14 בנובמבר נכנס לתוקף לוח זמנים חדש ברכבת ישראל, לפי ynet. קו ירושלים יצחק נבון–תל אביב–הרצליה הוארך, והוא מגיע עכשיו גם לתחנות חדרה מערב, נתניה ובית יהושע. נוסעים מהתחנות האלה יכולים להגיע לשדה התעופה בן גוריון ברכבת ישירה, בלי להחליף. בשעות השפל, כלומר שעות שבהן יש פחות נוסעים, תוגברה תדירות הרכבות, כך שיהיו יותר רכבות ביום. בקו החוף נוספו קרונות ומקומות ישיבה. בקו באר שבע–כרמיאל נקבע שהרכבת לא תעצור עוד בתחנת חדרה מערב. בכתבה נכתב גם שבקווים שונים ברחבי הארץ צפויות התאמות נוספות. מי שנוסע ברכבת כדאי שיבדוק את שעות היציאה העדכניות לפני הנסיעה, כי הזמנים השתנו בכמה קווים. בעבר הגיע הקו עד הרצליה בלבד. המשמעות היא שנוסעים מחדרה, מנתניה ומבית יהושע, שרצו להגיע לנתב\"ג, לא יצטרכו עוד להחליף רכבת בדרך. מנגד, נוסעים שהשתמשו בתחנת חדרה מערב בקו באר שבע–כרמיאל יצטרכו להתאים את הנסיעה לקו אחר. הרכבת היא אחד מאמצעי התחבורה הציבורית הנוחים בישראל, ונוסעים רבים משתמשים בה בדרכם לעבודה ולביקורי משפחה.",
-   "questions": [
-    "האם נסעתם פעם ברכבת? לאן ומתי?",
-    "מה אתם זוכרים מנסיעה ברכבת בילדותכם?",
-    "מה לדעתכם יתרון של רכבת על פני אוטובוס? נמקו."
-   ],
-   "sources": [
-    {
-     "title": "ynet: הלו\"ז החדש ברכבת: קו ישיר מחדרה לנתב\"ג, ביטול תחנות בקו ב\"ש-כרמיאל (2.11.2026)",
-     "url": "https://www.ynet.co.il/news/article/hyspntrpfx"
-    }
-   ],
-   "verified": true,
-   "date": "2026-11-18",
-   "ts": 1794956133,
-   "qlevels": {
-    "easy": [
-     "האם התחיל לוח זמנים חדש ב-14 בנובמבר?",
-     "האם נוספו קרונות בקו החוף?",
-     "האם יש יותר רכבות בשעות השפל?"
-    ],
-    "medium": [
-     "מתי נכנס לתוקף לוח הזמנים החדש?",
-     "לאילו תחנות הוארך הקו מירושלים?",
-     "לאן אפשר להגיע ברכבת ישירה מהתחנות האלה?"
-    ],
-    "hard": [
-     "אילו תחנות נוספו לקו ירושלים יצחק נבון–תל אביב–הרצליה?",
-     "באיזו תחנה לא תעצור עוד רכבת באר שבע–כרמיאל?",
-     "באיזה קו נוספו קרונות ומקומות ישיבה?"
-    ]
-   },
-   "audio": [
-    "easy",
-    "medium",
-    "hard"
-   ],
-   "tr": {
-    "en": {
-     "title": "The train: new schedule from November 14",
-     "easy": "Israel Railways has a new schedule.\nHe started on November 14th.\nThe line from Jerusalem was extended to Netanya and Beit Yehoshua.\nPassengers from there arrive at the airport without changing.\nCarriages were added to the coastline.\nThere are more trains during off-peak hours.",
-     "medium": "On November 14, a new Israel Railways schedule came into effect. The Jerusalem Yitzhak Navon-Tel Aviv-Herzliya line has been extended, and it now also reaches Hadera West, Netanya and Beit Yehoshua stations. Passengers from these stations can reach Ben Gurion Airport by direct train, without changing. During off-peak hours, i.e. hours when there are fewer passengers, the frequency of trains will be increased. Carriages and seats were added along the coastline. On the Beer Sheva-Karmiel line, it was determined that the train will no longer stop at the Hadera West station. The article was published on the ynet website, and it describes the changes.",
-     "hard": "On November 14, a new Israel Railways schedule went into effect, according to Ynet. The Jerusalem Yitzhak Navon-Tel Aviv-Herzliya line has been extended, and it now also reaches Hadera West, Netanya and Beit Yehoshua stations. Passengers from these stations can reach Ben Gurion Airport by direct train, without changing. During off-peak hours, i.e. hours when there are fewer passengers, the frequency of trains will be increased, so that there will be more trains per day. Carriages and seats were added along the coastline. On the Beer Sheva-Karmiel line, it was determined that the train will no longer stop at the Hadera West station. The article also states that additional adjustments are expected on various lines across the country. Those who travel by train should check the latest departure times before traveling, because the times have changed on several lines. In the past, the line only reached Herzliya. This means that passengers from Hadera, Netanya and Beit Yehoshua, who wanted to get to Israel, will no longer have to change trains on the way. On the other hand, passengers who used the Hadera West station on the Beer Sheva-Karmiel line will have to adjust their trip to another line. The train is one of the most convenient means of public transportation in Israel, and many passengers use it on their way to work and to visit family.",
-     "qlevels": {
-      "easy": [
-       "Did a new schedule start on November 14?",
-       "Were cars added to the coastal line?",
-       "Are there more trains during off-peak hours?"
-      ],
-      "medium": [
-       "When did the new schedule come into effect?",
-       "To which stations was the line from Jerusalem extended?",
-       "Where can one reach by direct train from these stations?"
-      ],
-      "hard": [
-       "Which stations were added to the Jerusalem Yitzhak Navon–Tel Aviv–Herzliya line?",
-       "At which station will the Beersheba–Carmiel train no longer stop?",
-       "On which line were cars and seats added?"
-      ]
-     },
-     "questions": [
-      "Have you ever traveled by train? Where and when?",
-      "What do you remember from a train journey in your childhood?",
-      "What in your opinion is an advantage of a train over a bus? Explain."
-     ]
-    },
-    "ru": {
-     "title": "Поезд: новое расписание с 14 ноября",
-     "easy": "У Израильских железных дорог новое расписание.\nОн стартовал 14 ноября.\nЛиния из Иерусалима была продлена до Нетании и Бейт-Иегошуа.\nПассажиры оттуда прибывают в аэропорт без пересадки.\nК береговой линии добавились повозки.\nВ непиковые часы поездов больше.",
-     "medium": "14 ноября вступило в силу новое расписание Израильских железных дорог. Линия Иерусалим Ицхак Навон-Тель-Авив-Герцлия была продлена, и теперь она также достигает станций Хадера-Вест, Нетании и Бейт-Иегошуа. Пассажиры этих станций могут добраться до аэропорта Бен-Гурион на прямом поезде без пересадки. В непиковые часы, то есть в часы, когда пассажиров меньше, частота движения поездов будет увеличена. Вдоль береговой линии были добавлены коляски и сиденья. На линии Беэр-Шева-Кармиэль решено, что поезд больше не будет останавливаться на станции Хадера-Вест. Статья опубликована на сайте ynet, и в ней описаны изменения.",
-     "hard": "По данным Ynet, 14 ноября вступило в силу новое расписание Израильских железных дорог. Линия Иерусалим Ицхак Навон-Тель-Авив-Герцлия была продлена, и теперь она также достигает станций Хадера-Вест, Нетании и Бейт-Иегошуа. Пассажиры этих станций могут добраться до аэропорта Бен-Гурион на прямом поезде без пересадки. В непиковые часы, то есть в часы, когда пассажиров меньше, частота движения поездов будет увеличена, чтобы поездов в день было больше. Вдоль береговой линии были добавлены коляски и сиденья. На линии Беэр-Шева-Кармиэль решено, что поезд больше не будет останавливаться на станции Хадера-Вест. В статье также говорится, что по стране ожидаются дополнительные корректировки по различным направлениям. Тем, кто путешествует поездом, следует перед поездкой проверить последнее время отправления, поскольку на нескольких линиях время изменилось. Раньше линия доходила только до Герцлии. Это значит, что пассажирам из Хадеры, Нетании и Бейт-Йеошуа, желающим попасть в Израиль, больше не придется делать пересадку в пути. С другой стороны, пассажирам, воспользовавшимся станцией Хадера Вест на линии Беэр-Шева-Кармиэль, придется перестроиться на другую линию. Поезд — один из самых удобных видов общественного транспорта в Израиле, и многие пассажиры используют его по дороге на работу и в гости к семье.",
-     "qlevels": {
-      "easy": [
-       "Начало ли действовать новое расписание 14 ноября?",
-       "Были ли добавлены вагоны на прибрежной линии?",
-       "Стало ли больше поездов в часы наименьшей нагрузки?"
-      ],
-      "medium": [
-       "Когда вступило в силу новое расписание?",
-       "До каких станций была продлена линия из Иерусалима?",
-       "Куда можно доехать на прямом поезде с этих станций?"
-      ],
-      "hard": [
-       "Какие станции были добавлены на линию Иерусалим Ицхак Навон – Тель-Авив – Герцлия?",
-       "На какой станции больше не будет останавливаться поезд Беэр-Шева – Кармиэль?",
-       "На какой линии были добавлены вагоны и сидячие места?"
-      ]
-     },
-     "questions": [
-      "Вы когда-нибудь ездили на поезде? Куда и когда?",
-      "Что вы помните о поездке на поезде в вашем детстве?",
-      "Каково, по вашему мнению, преимущество поезда перед автобусом? Обоснуйте."
-     ]
-    },
-    "es": {
-     "title": "El tren: nuevo horario a partir del 14 de noviembre",
-     "easy": "Israel Railways tiene un nuevo horario.\nComenzó el 14 de noviembre.\nLa línea desde Jerusalén se extendió hasta Netanya y Beit Yehoshua.\nLos pasajeros desde allí llegan al aeropuerto sin hacer transbordo.\nSe agregaron carruajes a la costa.\nHay más trenes durante las horas de menor actividad.",
-     "medium": "El 14 de noviembre entró en vigor un nuevo horario de Ferrocarriles de Israel. La línea Jerusalén Yitzhak Navon-Tel Aviv-Herzliya se ha ampliado y ahora llega también a las estaciones de Hadera West, Netanya y Beit Yehoshua. Los pasajeros desde estas estaciones pueden llegar al aeropuerto Ben Gurion en tren directo, sin hacer transbordo. Durante las horas valle, es decir, las horas en las que hay menos pasajeros, se aumentará la frecuencia de los trenes. Se agregaron carruajes y asientos a lo largo de la costa. En la línea Beer Sheva-Karmiel, se determinó que el tren ya no parará en la estación Hadera West. El artículo fue publicado en el sitio web de ynet y describe los cambios.",
-     "hard": "El 14 de noviembre entró en vigor un nuevo horario de Ferrocarriles de Israel, según Ynet. La línea Jerusalén Yitzhak Navon-Tel Aviv-Herzliya se ha ampliado y ahora llega también a las estaciones de Hadera West, Netanya y Beit Yehoshua. Los pasajeros desde estas estaciones pueden llegar al aeropuerto Ben Gurion en tren directo, sin hacer transbordo. Durante las horas valle, es decir, las horas en las que hay menos pasajeros, se aumentará la frecuencia de los trenes, de modo que habrá más trenes por día. Se agregaron carruajes y asientos a lo largo de la costa. En la línea Beer Sheva-Karmiel, se determinó que el tren ya no parará en la estación Hadera West. El artículo también señala que se esperan ajustes adicionales en varias líneas en todo el país. Quienes viajan en tren deben consultar los últimos horarios de salida antes de viajar, ya que los horarios han cambiado en varias líneas. En el pasado, la línea sólo llegaba a Herzliya. Esto significa que los pasajeros de Hadera, Netanya y Beit Yehoshua que querían llegar a Israel ya no tendrán que cambiar de tren en el camino. Por otro lado, los pasajeros que utilizaron la estación Hadera West de la línea Beer Sheva-Karmiel tendrán que adaptar su viaje a otra línea. El tren es uno de los medios de transporte público más convenientes en Israel y muchos pasajeros lo utilizan para ir al trabajo y visitar a sus familiares.",
-     "qlevels": {
-      "easy": [
-       "¿Comenzó un nuevo horario el 14 de noviembre?",
-       "¿Se agregaron vagones en la línea de la costa?",
-       "¿Hay más trenes en las horas de menor actividad?"
-      ],
-      "medium": [
-       "¿Cuándo entró en vigencia el nuevo horario?",
-       "¿A qué estaciones se extendió la línea desde Jerusalén?",
-       "¿A dónde se puede llegar en tren directo desde estas estaciones?"
-      ],
-      "hard": [
-       "¿Qué estaciones se agregaron a la línea Jerusalén Itzhak Navon–Tel Aviv–Herzliya?",
-       "¿En qué estación ya no se detendrá el tren de Beer Sheva a Karmiel?",
-       "¿En qué línea se agregaron vagones y asientos?"
-      ]
-     },
-     "questions": [
-      "¿Alguna vez viajaron en tren? ¿A dónde y cuándo?",
-      "¿Qué recuerdan de un viaje en tren en su infancia?",
-      "¿Cuál creen ustedes que es la ventaja de un tren sobre un autobús? Expliquen su respuesta."
-     ]
-    }
-   },
-   "audioTr": {
-    "en": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "ru": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "es": [
-     "easy",
-     "medium",
-     "hard"
-    ]
-   }
-  },
-  {
-   "id": "2026-11-18-onthisday-1",
-   "topic": "onthisday",
-   "title": "היום בהיסטוריה: לפני 67 שנה הוצג לראשונה הסרט \"בן-הור\"",
-   "easy": "ב-18 בנובמבר 1959 הוצג סרט חדש בניו יורק.\nשמו \"בן-הור\".\nזה היה סרט גדול ומפורסם.\nהוא זכה ב-11 פרסי אוסקר.\nזה היה שיא בזמנו.\nהסרט מוכר גם היום.",
-   "medium": "ב-18 בנובמבר 1959, לפני 67 שנה, הוצג לראשונה הסרט האמריקני \"בן-הור\". הסרט, בכיכובו של צ'רלטון הסטון, זכה בהמשך ב-11 פרסי אוסקר, שיא חסר תקדים באותה תקופה. אוסקר הוא הפרס החשוב ביותר בעולם הקולנוע. יום זה מסמן אירוע נוסף: ב-18 בנובמבר 1905 נבחר הנסיך קרל מדנמרק למלך נורווגיה, והוא בחר לעצמו את השם הקון השביעי. כך נכנס אל ספרי ההיסטוריה גם מלך חדש לארץ הפיורדים. שני האירועים קרו באותו תאריך, בהפרש של יותר מחמישים שנה.",
-   "hard": "ב-18 בנובמבר 1959, לפני 67 שנה, הוצג לראשונה בעולם הסרט האמריקני \"בן-הור\". הסרט, בבימויו של וויליאם ויילר ובכיכובו של צ'רלטון הסטון, זכה בהמשך ב-11 פרסי אוסקר, שיא חסר תקדים באותה תקופה. אוסקר הוא הפרס החשוב ביותר בעולם הקולנוע, והסרט נחשב עד היום לאחד הסרטים הגדולים שנעשו בהוליווד. בן-הור הוא דמות בדיונית: יהודי מירושלים בימי הרומאים, וסיפורו מבוסס על ספר שנכתב במאה ה-19. באותו תאריך נרשם בהיסטוריה אירוע נוסף: ב-18 בנובמבר 1905 נבחר הנסיך קרל מדנמרק למלך נורווגיה, והוא בחר לעצמו את השם הקון השביעי. נורווגיה נפרדה זמן קצר קודם לכן מהאיחוד עם שוודיה, והמלך החדש נחשב לסמל של המדינה העצמאית. בריטניקה מציינת את שני האירועים ביום הזה. 67 שנה הן זמן רב, ובכל זאת אפשר לשער שחלק מהקוראים זוכרים את הסרט מהקולנוע בצעירותם. כדאי להזכיר שאוסקר מוענק מדי שנה בטקס מיוחד בארצות הברית, והזוכים נבחרים על ידי אנשי מקצוע בתחום הקולנוע. הבחירה של המלך בנורווגיה נעשתה בפרלמנט של המדינה, בשנת 1905.",
-   "questions": [
-    "איזה סרט גדול אתם זוכרים מהצעירות, ואיפה ראיתם אותו?",
-    "מה אתם זוכרים מקולנוע בילדותכם?",
-    "מה לדעתכם הופך סרט למפורסם לאורך שנים? נמקו."
-   ],
-   "sources": [
-    {
-     "title": "בריטניקה (באנגלית): On This Day – What Happened on November 18",
-     "url": "https://www.britannica.com/on-this-day/November-18"
-    }
-   ],
-   "verified": true,
-   "date": "2026-11-18",
-   "ts": 1794956133,
-   "qlevels": {
-    "easy": [
-     "האם \"בן-הור\" זכה ב-11 פרסי אוסקר?",
-     "האם הסרט הוצג לראשונה ב-1959?",
-     "הסרט הוצג לראשונה בניו יורק או בפריז?"
-    ],
-    "medium": [
-     "באיזו שנה הוצג לראשונה הסרט \"בן-הור\"?",
-     "מי כיכב בסרט?",
-     "כמה פרסי אוסקר הוא זכה?"
-    ],
-    "hard": [
-     "מי ביים את \"בן-הור\"?",
-     "איזה שם בחר הנסיך קרל מדנמרק כשנבחר למלך נורווגיה, ובאיזו שנה?",
-     "מי הוא בן-הור לפי הסיפור?"
-    ]
-   },
-   "audio": [
-    "easy",
-    "medium",
-    "hard"
-   ],
-   "tr": {
-    "en": {
-     "title": "Today in history: 67 years ago the film \"Ben-Hur\" was shown for the first time",
-     "easy": "On November 18, 1959, a new film was shown in New York.\nHis name is \"Ben-Hur\".\nIt was a big and famous movie.\nHe won 11 Academy Awards.\nIt was a record at the time.\nThe film is still known today.",
-     "medium": "On November 18, 1959, 67 years ago, the American film \"Ben-Hur\" was shown for the first time. The film, starring Charlton Heston, went on to win 11 Oscars, an unprecedented record at the time. Oscar is the most important award in the world of cinema. This day marks another event: on November 18, 1905, Prince Carl of Denmark was elected King of Norway, and he chose for himself the name of the Seventh King. This is how a new king entered the history books for the land of the Fjords. Both events happened on the same date, more than fifty years apart.",
-     "hard": "On November 18, 1959, 67 years ago, the American film \"Ben-Hur\" was shown for the first time in the world. The film, directed by William Wyler and starring Charlton Heston, went on to win 11 Oscars, an unprecedented record at the time. Oscar is the most important award in the world of cinema, and the film is still considered one of the greatest films made in Hollywood. Ben-Hur is a fictional character: a Jew from Jerusalem during the Roman times, and his story is based on a book written in the 19th century. On the same date, another event was recorded in history: on November 18, 1905, Prince Carl of Denmark was elected King of Norway, and he chose the name of the Seventh King. Norway had separated shortly before from the union with Sweden, and the new king was considered a symbol of the independent country. Britannica commemorates both events on this day. 67 years is a long time, yet it can be assumed that some readers remember the film from the cinema in their youth. It is worth mentioning that Oscar is awarded every year in a special ceremony in the United States, and the winners are chosen by film professionals. The choice of the king in Norway was made in the country's parliament, in 1905.",
-     "qlevels": {
-      "easy": [
-       "Did \"Ben-Hur\" win 11 Academy Awards?",
-       "Was the movie first shown in 1959?",
-       "Was the movie first shown in New York or in Paris?"
-      ],
-      "medium": [
-       "In what year was the movie \"Ben-Hur\" first shown?",
-       "Who starred in the movie?",
-       "How many Academy Awards did it win?"
-      ],
-      "hard": [
-       "Who directed \"Ben-Hur\"?",
-       "What name did Prince Carl of Denmark choose when he was elected King of Norway, and in what year?",
-       "Who is Ben-Hur according to the story?"
-      ]
-     },
-     "questions": [
-      "Which big movie do you remember from your youth, and where did you see it?",
-      "What do you remember from the cinema in your childhood?",
-      "What in your opinion makes a movie famous over the years? Explain."
-     ]
-    },
-    "ru": {
-     "title": "Этот день в истории: 67 лет назад впервые был показан фильм «Бен-Гур»",
-     "easy": "18 ноября 1959 года в Нью-Йорке был показан новый фильм.\nЕго зовут «Бен-Гур».\nЭто был большой и известный фильм.\nОн выиграл 11 премий Американской киноакадемии.\nНа тот момент это был рекорд.\nФильм известен и сегодня.",
-     "medium": "18 ноября 1959 года, 67 лет назад, впервые был показан американский фильм «Бен-Гур». Фильм с Чарлтоном Хестоном в главной роли получил 11 «Оскаров», что на тот момент было беспрецедентным рекордом. Оскар – самая главная награда в мире кино. Этот день знаменует собой еще одно событие: 18 ноября 1905 года принц Дании Карл был избран королем Норвегии, и он выбрал себе имя Седьмого короля. Так в учебники истории страны фьордов вошел новый король. Оба события произошли в один и тот же день, с разницей более чем в пятьдесят лет.",
-     "hard": "18 ноября 1959 года, 67 лет назад, впервые в мире был показан американский фильм «Бен-Гур». Фильм режиссера Уильяма Уайлера с Чарлтоном Хестоном в главной роли получил 11 «Оскаров», что на тот момент было беспрецедентным рекордом. «Оскар» — важнейшая награда в мире кино, а фильм до сих пор считается одним из величайших фильмов, снятых в Голливуде. Бен-Гур — вымышленный персонаж: еврей из Иерусалима времен Римской империи, его история основана на книге, написанной в 19 веке. В тот же день в истории зафиксировано еще одно событие: 18 ноября 1905 года принц Дании Карл был избран королем Норвегии, и он выбрал себе имя Седьмого короля. Норвегия незадолго до этого вышла из союза со Швецией, и новый король считался символом независимой страны. В этот день Британика отмечает оба события. 67 лет – это большой срок, но можно предположить, что некоторые читатели помнят фильм из кино в юности. Стоит отметить, что «Оскар» вручается каждый год на специальной церемонии в США, а победителей выбирают профессионалы кино. Выбор короля Норвегии был сделан в парламенте страны в 1905 году.",
-     "qlevels": {
-      "easy": [
-       "Получил ли «Бур-Хур» 11 премий «Оскар»?",
-       "Был ли фильм впервые показан в 1959 году?",
-       "Фильм был впервые показан в Нью-Йорке или в Париже?"
-      ],
-      "medium": [
-       "В каком году был впервые показан фильм «Бен-Гур»?",
-       "Кто исполнил главную роль в фильме?",
-       "Сколько премий «Оскар» он выиграл?"
-      ],
-      "hard": [
-       "Кто режиссировал «Бен-Гура»?",
-       "Какое имя выбрал принц Карл Датский, когда был избран королем Норвегии, и в каком году?",
-       "Кто такой Бен-Гур по сюжету?"
-      ]
-     },
-     "questions": [
-      "Какой большой фильм вы помните с юношества и где вы его видели?",
-      "Что вы помните о кино в вашем детстве?",
-      "Что, по вашему мнению, делает фильм знаменитым на протяжении многих лет? Обоснуйте."
-     ]
-    },
-    "es": {
-     "title": "Hoy en la historia: hace 67 años se proyectó por primera vez la película \"Ben-Hur\"",
-     "easy": "El 18 de noviembre de 1959 se proyectó una nueva película en Nueva York.\nSu nombre es \"Ben Hur\".\nFue una película grande y famosa.\nGanó 11 premios de la Academia.\nFue un récord en ese momento.\nLa película todavía se conoce hoy.",
-     "medium": "El 18 de noviembre de 1959, hace 67 años, se proyectó por primera vez la película estadounidense \"Ben-Hur\". La película, protagonizada por Charlton Heston, ganó 11 premios Oscar, un récord sin precedentes en ese momento. El Oscar es el premio más importante del mundo del cine. Este día marca otro acontecimiento: el 18 de noviembre de 1905, el príncipe Carlos de Dinamarca fue elegido rey de Noruega y eligió para sí el nombre de Séptimo Rey. Así entró en los libros de historia un nuevo rey de la tierra de los Fiordos. Ambos hechos sucedieron en la misma fecha, con más de cincuenta años de diferencia.",
-     "hard": "El 18 de noviembre de 1959, hace 67 años, se proyectó por primera vez en el mundo la película estadounidense \"Ben-Hur\". La película, dirigida por William Wyler y protagonizada por Charlton Heston, ganó 11 premios Oscar, un récord sin precedentes en ese momento. El Oscar es el premio más importante del mundo del cine y la película todavía se considera una de las mejores películas realizadas en Hollywood. Ben-Hur es un personaje ficticio: un judío de Jerusalén durante la época romana, y su historia está basada en un libro escrito en el siglo XIX. En la misma fecha, otro hecho quedó registrado en la historia: el 18 de noviembre de 1905, el príncipe Carlos de Dinamarca fue elegido rey de Noruega y eligió el nombre de Séptimo Rey. Noruega se había separado poco antes de la unión con Suecia, y el nuevo rey era considerado un símbolo del país independiente. La Britannica conmemora ambos eventos en este día. 67 años es mucho tiempo, pero se puede suponer que algunos lectores recuerdan la película del cine en su juventud. Cabe mencionar que el Oscar se entrega cada año en una ceremonia especial en Estados Unidos, y los ganadores son elegidos por profesionales del cine. La elección del rey de Noruega se hizo en el parlamento del país en 1905.",
-     "qlevels": {
-      "easy": [
-       "¿Ganó \"Ben-Hur\" 11 premios Óscar?",
-       "¿Se estrenó la película por primera vez en 1959?",
-       "¿La película se estrenó por primera vez en Nueva York o en París?"
-      ],
-      "medium": [
-       "¿En qué año se estrenó por primera vez la película \"Ben-Hur\"?",
-       "¿Quién protagonizó la película?",
-       "¿Cuántos premios Óscar ganó?"
-      ],
-      "hard": [
-       "¿Quién dirigió \"Ben-Hur\"?",
-       "¿Qué nombre eligió el príncipe Carlos de Dinamarca cuando fue elegido rey de Noruega, y en qué año?",
-       "¿Quién es Ben-Hur según la historia?"
-      ]
-     },
-     "questions": [
-      "¿Qué gran película recuerdan de su juventud y dónde la vieron?",
-      "¿Qué recuerdan del cine en su infancia?",
-      "¿Qué creen ustedes que hace que una película sea famosa a lo largo de los años? Expliquen su respuesta."
-     ]
-    }
-   },
-   "audioTr": {
-    "en": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "ru": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "es": [
-     "easy",
-     "medium",
-     "hard"
-    ]
-   }
-  },
-  {
-   "id": "2026-11-18-birthdays-1",
-   "topic": "birthdays",
-   "title": "נולדו היום, 18 בנובמבר: אלן שפרד ואמליטה גאלי-קורצ'י",
-   "easy": "היום נולדו שני אנשים מפורסמים.\nאלן שפרד נולד בארצות הברית.\nהוא היה אסטרונאוט.\nהוא היה האמריקני הראשון בחלל.\nאמליטה גאלי-קורצ'י נולדה במילאנו.\nהיא הייתה זמרת אופרה מפורסמת.",
-   "medium": "ב-18 בנובמבר נולדו שני אנשים מפורסמים. אלן שפרד נולד ב-1923 במדינת ניו המפשייר שבארצות הברית. הוא היה אסטרונאוט, ובשנת 1961 היה האמריקני הראשון בחלל. בשנת 1971 פיקד על המשימה אפולו 14 והלך על הירח. אמליטה גאלי-קורצ'י נולדה ב-1882 במילאנו שבאיטליה. היא הייתה סופרן, כלומר זמרת אופרה בעלת קול גבוה, ונחשבה לאחת הזמרות המפורסמות בתקופתה. שניהם נולדו באותו יום, אך בתחומים ובמאות שונות. הם נולדו בשתי יבשות שונות, ואחד מהם הגיע עד לחלל.",
-   "hard": "ב-18 בנובמבר נולדו שני אנשים מפורסמים, כל אחד בתחום אחר. אלן שפרד נולד ב-1923 במדינת ניו המפשייר שבארצות הברית. הוא היה טייס ואסטרונאוט. בשנת 1961, בימי המרוץ לחלל בין ארצות הברית לברית המועצות, היה האמריקני הראשון בחלל. טיסתו נמשכה כרבע שעה בלבד, אבל היא נחשבה לצעד גדול בתוכנית החלל האמריקנית. בשנת 1971 פיקד על המשימה אפולו 14, הלך על הירח, ואף הצליח להכות בכדור גולף על פני הירח. אמליטה גאלי-קורצ'י נולדה ב-1882 במילאנו שבאיטליה. היא הייתה סופרן, כלומר זמרת אופרה בעלת קול גבוה וצלול. היא נחשבה לאחת הזמרות המפורסמות בתקופתה. שני האישים מזכירים לנו שאפשר להגיע לפסגה בתחומים שונים מאוד: האחד בשמיים והשני על הבמה. היום אפשר להזכר בשניהם, כל אחד מהם בדרכו, ביום הולדתם. המשימה אפולו 14 נחתה על הירח בפברואר 1971. זמרות אופרה כמו גאלי-קורצ'י הופיעו בלי מיקרופון באולמות גדולים, ולכן נדרש להן קול חזק במיוחד. כך גם מי שלא מבין באופרה או בחלל יכול להתרשם מהישגיהם הגדולים.",
-   "questions": [
-    "איזה זמר או זמרת אהבתם בצעירותכם?",
-    "האם הייתם נוסעים לחלל אילו יכולתם? ספרו למה.",
-    "מה אתם זוכרים מההליכה הראשונה על הירח?"
-   ],
-   "sources": [
-    {
-     "title": "בריטניקה (באנגלית): On This Day – What Happened on November 18",
-     "url": "https://www.britannica.com/on-this-day/November-18"
-    }
-   ],
-   "verified": true,
-   "date": "2026-11-18",
-   "ts": 1794956133,
-   "qlevels": {
-    "easy": [
-     "האם אלן שפרד היה אסטרונאוט?",
-     "האם גאלי-קורצ'י הייתה זמרת אופרה?",
-     "גאלי-קורצ'י נולדה במילאנו או בפריז?"
-    ],
-    "medium": [
-     "באיזו שנה נולד אלן שפרד?",
-     "באיזו שנה היה האמריקני הראשון בחלל?",
-     "איפה נולדה אמליטה גאלי-קורצ'י?"
-    ],
-    "hard": [
-     "כמה זמן נמשכה טיסתו של שפרד לחלל ב-1961?",
-     "איזו משימה פיקד עליה שפרד ב-1971?",
-     "מהי סופרן, לפי הטקסט?"
-    ]
-   },
-   "people": [
-    "אלן שפרד",
-    "אמליטה גאלי-קורצ'י"
-   ],
-   "audio": [
-    "easy",
-    "medium",
-    "hard"
-   ],
-   "tr": {
-    "en": {
-     "title": "Born today, November 18: Alan Shepard and Amelita Galli-Corci",
-     "easy": "Two famous people were born today.\nAlan Shepherd was born in the United States.\nHe was an astronaut.\nHe was the first American in space.\nAmlita Galli-Corci was born in Milan.\nShe was a famous opera singer.",
-     "medium": "On November 18, two famous people were born. Alan Shepherd was born in 1923 in the state of New Hampshire in the United States. He was an astronaut, and in 1961 he was the first American in space. In 1971 he commanded the Apollo 14 mission and walked on the moon. Amelita Galli-Corci was born in 1882 in Milan, Italy. She was a soprano, meaning an opera singer with a high voice, and was considered one of the most famous singers of her time. Both were born on the same day, but in different fields and centuries. They were born on two different continents, and one of them reached space.",
-     "hard": "On November 18, two famous people were born, each in a different field. Alan Shepherd was born in 1923 in the state of New Hampshire in the United States. He was a pilot and an astronaut. In 1961, during the space race between the United States and the Soviet Union, he was the first American in space. His flight lasted only about fifteen minutes, but it was considered a big step in the American space program. In 1971 he commanded the Apollo 14 mission, walked on the moon, and even managed to hit a golf ball on the surface of the moon. Amelita Galli-Corci was born in 1882 in Milan, Italy. She was a soprano, meaning an opera singer with a high and clear voice. She was considered one of the most famous singers of her time. Both personalities remind us that it is possible to reach the top in very different fields: one in the sky and the other on stage. Today we can remember both of them, each of them in their own way, on their birthday. The Apollo 14 mission landed on the moon in February 1971. Opera singers like Galli-Corci performed without a microphone in large halls, so they needed a particularly strong voice. Thus even those who do not understand opera or space can be impressed by their great achievements.",
-     "questions": [
-      "Which singer did you like when you were young?",
-      "Would you go to space if you could? tell why",
-      "What do you remember about the first walk on the moon?"
-     ],
-     "qlevels": {
-      "easy": [
-       "Was Alan Shepard an astronaut?",
-       "Was Galli-Curci an opera singer?",
-       "Was Galli-Curci born in Milan or in Paris?"
-      ],
-      "medium": [
-       "In what year was Alan Shepard born?",
-       "In what year was the first American in space?",
-       "Where was Amelita Galli-Curci born?"
-      ],
-      "hard": [
-       "How long did Shepard's flight into space in 1961 last?",
-       "What mission did Shepard command in 1971?",
-       "What is a soprano, according to the text?"
-      ]
-     }
-    },
-    "ru": {
-     "title": "Сегодня, 18 ноября, родились: Алан Шепард и Амелита Галли-Корчи.",
-     "easy": "Сегодня родились два знаменитых человека.\nАлан Шеперд родился в США.\nОн был космонавтом.\nОн был первым американцем, побывавшим в космосе.\nАмлита Галли-Корчи родилась в Милане.\nОна была известной оперной певицей.",
-     "medium": "18 ноября родились два известных человека. Алан Шеперд родился в 1923 году в штате Нью-Гэмпшир в США. Он был астронавтом, а в 1961 году первым американцем, побывавшим в космосе. В 1971 году он командовал миссией «Аполлон-14» и побывал на Луне. Амелита Галли-Корчи родилась в 1882 году в Милане, Италия. Она была сопрано, то есть оперной певицей с высоким голосом, и считалась одной из самых известных певиц своего времени. Оба родились в один день, но в разных областях и веках. Они родились на двух разных континентах, и один из них достиг космоса.",
-     "hard": "18 ноября родились два известных человека, каждый в разной сфере. Алан Шеперд родился в 1923 году в штате Нью-Гэмпшир в США. Он был пилотом и космонавтом. В 1961 году во время космической гонки между Соединенными Штатами и Советским Союзом он был первым американцем, побывавшим в космосе. Его полет длился всего около пятнадцати минут, но считался большим шагом в американской космической программе. В 1971 году он командовал миссией «Аполлон-14», гулял по Луне и даже сумел ударить мячом для гольфа по поверхности Луны. Амелита Галли-Корчи родилась в 1882 году в Милане, Италия. Она была сопрано, то есть оперной певицей с высоким и чистым голосом. Ее считали одной из самых известных певиц своего времени. Обе личности напоминают нам, что достичь вершин можно в самых разных сферах: один в небе, другой на сцене. Сегодня мы можем вспомнить их обоих, каждого по-своему, в день их рождения. Миссия «Аполлон-14» приземлилась на Луну в феврале 1971 года. Оперные певцы, такие как Галли-Корчи, выступали без микрофона в больших залах, поэтому им нужен был особенно сильный голос. Таким образом, даже те, кто не разбирается в опере или космосе, могут быть впечатлены их великими достижениями.",
-     "questions": [
-      "Какой певец вам нравился в молодости?",
-      "Если бы у вас была возможность, вы бы отправились в космос? скажи почему",
-      "Что вы помните о первой прогулке по Луне?"
-     ],
-     "qlevels": {
-      "easy": [
-       "Был ли Алан Шепард астронавтом?",
-       "Была ли Галли-Курчи оперной певицей?",
-       "Галли-Курчи родилась в Милане или в Париже?"
-      ],
-      "medium": [
-       "В каком году родился Алан Шепард?",
-       "В каком году он стал первым американцем в космосе?",
-       "Где родилась Амелита Галли-Курчи?"
-      ],
-      "hard": [
-       "Сколько времени длился полет Шепарда в космос в 1961 году?",
-       "Какой миссией командовал Шепард в 1971 году?",
-       "Что такое сопрано, согласно тексту?"
-      ]
-     }
-    },
-    "es": {
-     "title": "Nacidos hoy, 18 de noviembre: Alan Shepard y Amelita Galli-Corci",
-     "easy": "Hoy nacieron dos personajes famosos.\nAlan Shepherd nació en Estados Unidos.\nEra un astronauta.\nFue el primer estadounidense en el espacio.\nAmlita Galli-Corci nació en Milán.\nElla era una famosa cantante de ópera.",
-     "medium": "El 18 de noviembre nacieron dos personajes ilustres. Alan Shepherd nació en 1923 en el estado de New Hampshire en Estados Unidos. Era astronauta y en 1961 fue el primer estadounidense en el espacio. En 1971 comandó la misión Apolo 14 y caminó sobre la luna. Amelita Galli-Corci nació en 1882 en Milán, Italia. Era soprano, es decir, cantante de ópera de voz aguda, y estaba considerada una de las cantantes más famosas de su tiempo. Ambos nacieron el mismo día, pero en campos y siglos diferentes. Nacieron en dos continentes diferentes y uno de ellos llegó al espacio.",
-     "hard": "El 18 de noviembre nacieron dos personajes famosos, cada uno en un ámbito diferente. Alan Shepherd nació en 1923 en el estado de New Hampshire en Estados Unidos. Fue piloto y astronauta. En 1961, durante la carrera espacial entre Estados Unidos y la Unión Soviética, fue el primer estadounidense en el espacio. Su vuelo duró sólo unos quince minutos, pero se consideró un gran paso en el programa espacial estadounidense. En 1971 comandó la misión Apolo 14, caminó sobre la luna e incluso logró golpear una pelota de golf en la superficie lunar. Amelita Galli-Corci nació en 1882 en Milán, Italia. Era soprano, es decir, cantante de ópera con una voz aguda y clara. Fue considerada una de las cantantes más famosas de su época. Ambas personalidades nos recuerdan que es posible llegar a lo más alto en ámbitos muy diferentes: uno en el cielo y otro en el escenario. Hoy podemos recordarlos a ambos, cada uno a su manera, en su cumpleaños. La misión Apolo 14 alunizó en febrero de 1971. Cantantes de ópera como Galli-Corci actuaban sin micrófono en grandes salas, por lo que necesitaban una voz especialmente fuerte. Así, incluso aquellos que no entienden la ópera o el espacio pueden quedar impresionados por sus grandes logros.",
-     "questions": [
-      "¿Qué cantante te gustaba cuando eras joven?",
-      "¿Irías al espacio si pudieras? di por qué",
-      "¿Qué recuerdas del primer paseo por la luna?"
-     ],
-     "qlevels": {
-      "easy": [
-       "¿Fue Alan Shepard astronauta?",
-       "¿Fue Galli-Curci una cantante de ópera?",
-       "¿Nació Galli-Curci en Milán o en París?"
-      ],
-      "medium": [
-       "¿En qué año nació Alan Shepard?",
-       "¿En qué año fue el estadounidense el primero en el espacio?",
-       "¿Dónde nació Amelita Galli-Curci?"
-      ],
-      "hard": [
-       "¿Cuánto tiempo duró el vuelo de Shepard al espacio en 1961?",
-       "¿Qué misión comandó Shepard en 1971?",
-       "¿Qué es una soprano, según el texto?"
-      ]
-     }
     }
    },
    "audioTr": {
