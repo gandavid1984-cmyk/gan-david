@@ -42,7 +42,115 @@
    ],
    "verified": true,
    "date": "2026-11-27",
-   "ts": 1795733116
+   "ts": 1795733116,
+   "tr": {
+    "en": {
+     "title": "The President of the State will grant the \"President's Medal\" to nine figures from the world",
+     "easy": "The President of the State announced a special medal.\nIts name is \"President's Medal\".\nIt will be given to nine figures from the world.\nThey contributed to the State of Israel and the Jewish people.\nThe ceremony will be held at the President's Residence.\nThe ceremony will be at the beginning of the year 2027.",
+     "medium": "President of the State Isaac Herzog announced that he will grant the \"President's Medal\" to nine figures from around the world. The medal is given for a contribution to the State of Israel and the Jewish people. The recipients operate in the fields of education, philanthropy (financial contribution for the public good), philosophy, international politics and Jewish leadership. They come from the United States, Canada, France, Germany, Britain, Romania and Italy. The official ceremony will be held at the President's Residence at the beginning of the year 2027. The item was published on November 25. The medal is a badge of honor on behalf of the President of the State to people who operate for Israel and for the Jewish people, in the country and around the world. The article did not detail a personal justification for each of the recipients.",
+     "hard": "President of the State Isaac Herzog announced on November 25, 2026 that he will grant the \"President's Medal\" to nine figures from around the world, for their contribution to the State of Israel and the Jewish people. The medal is a badge of honor on behalf of the President to people who operate for Israel and for the Jewish people, in the country and around the world. According to the publication, the recipients operate in the fields of education, philanthropy, philosophy, international politics and Jewish leadership, and they come from seven countries: the United States, Canada, France, Germany, Britain, Romania and Italy. Among the recipients are, according to the published list: Steny Hoyer, Mike Evans, Charles Bronfman, Bernard-Henri Lévy, Charlotte Knobloch, Gerald Ronson, Haim Saban, Silviu Wexler and Johanna Arbib Perugia. The official ceremony will be held at the President's Residence in Jerusalem at the beginning of the year 2027. The article did not detail a personal justification for each of the recipients, but rather the general justification of a contribution to Israel and the Jewish people. The article was published on the ynet website, and it was written by Itamar Eichner. The recipients come from seven different countries, and therefore these are people from different communities and worlds. The medal reflects recognition of activity for Israel and the Jewish people also outside its borders. Additional details about the activity of each of the recipients were not provided in the article. Whoever wants to learn more can follow the announcements of the President's Residence in the coming months, ahead of the ceremony.",
+     "questions": [
+      "What medal or prize did you get once, or give to someone?",
+      "What in your opinion does a person need to do in order for them to receive recognition? Tell why.",
+      "Who is a person who contributed to the people of Israel, in your opinion?"
+     ],
+     "qlevels": {
+      "easy": [
+       "Will the medal be given to nine figures?",
+       "Will the ceremony be held at the President's Residence?",
+       "Is the President of the State the one who announced the medal?"
+      ],
+      "medium": [
+       "Who announced the medal?",
+       "How many figures will receive it?",
+       "When will the ceremony be held?"
+      ],
+      "hard": [
+       "For what is the medal given, according to the article?",
+       "From which countries do the recipients come?",
+       "In which fields do the recipients operate?"
+      ]
+     }
+    },
+    "ru": {
+     "title": "Президент государства вручит «Президентский знак отличия» девяти деятелям из разных стран",
+     "easy": "Президент государства объявил об особом знаке отличия.\nОн называется «Президентский знак отличия».\nОн будет вручен девяти деятелям из разных стран.\nОни внесли вклад в Государство Израиль и еврейский народ.\nЦеремония пройдет в Резиденции президента.\nЦеремония состоится в начале 2027 года.",
+     "medium": "Президент государства Ицхак Герцог объявил, что вручит «Президентский знак отличия» девяти деятелям со всего мира. Знак отличия вручается за вклад в Государство Израиль и еврейский народ. Награжденные действуют в сферах образования, филантропии (денежных пожертвований на общественное благо), философии, международной политики и еврейского лидерства. Они родом из США, Канады, Франции, Германии, Великобритании, Румынии и Италии. Официальная церемония пройдет в Резиденции президента в начале 2027 года. Эта новость была опубликована 25 ноября. Знак отличия представляет собой почетную награду от имени президента государства людям, которые действуют на благо Израиля и еврейского народа, в стране и за рубежом. В заметке не приводилось личного обоснования для каждого из награжденных.",
+     "hard": "Президент государства Ицхак Герцог объявил 25 ноября 2026 года, что вручит «Президентский знак отличия» девяти деятелям со всего мира за их вклад в Государство Израиль и еврейский народ. Знак отличия представляет собой почетную награду от имени президента людям, которые действуют на благо Израиля и еврейского народа, в стране и за рубежом. Согласно публикации, награжденные действуют в сферах образования, филантропии, философии, международной политики и еврейского лидерства, и они родом из семи стран: США, Канады, Франции, Германии, Великобритании, Румынии и Италии. Среди награжденных, согласно опубликованному списку, значатся: Стени Хойер, Майк Эванс, Чарльз Бронфман, Бернар-Анри Леви, Шарлота Кноблох, Джеральд Ронсон, Хаим Сабан, Сильвиу Векслер и Йохана Арвив Перуджа. Официальная церемония пройдет в Резиденции президента в Иерусалиме в начале 2027 года. В заметке не приводилось личного обоснования для каждого из награжденных, а было указано общее обоснование в виде вклада в Израиль и еврейский народ. Заметка была опубликована на сайте ynet, ее автор — Итамар Айхнер. Награжденные приезжают из семи разных стран, поэтому речь идет о людях из разных общин и миров. Знак отличия отражает признание деятельности на благо Израиля и еврейского народа также за пределами его границ. Дополнительные сведения о деятельности каждого из награжденных в заметке не сообщались. Те, кто хочет узнать больше, могут следить за сообщениями Резиденции президента в ближайшие месяцы в преддверии церемонии.",
+     "questions": [
+      "Какой знак отличия или приз вы когда-либо получали или дарили кому-либо?",
+      "Что, по вашему мнению, должен сделать человек, чтобы его удостоили награды? Расскажите почему.",
+      "Кто, по вашему мнению, является человеком, внесшим вклад в еврейский народ?"
+     ],
+     "qlevels": {
+      "easy": [
+       "Будет ли знак отличия вручен девяти деятелям?",
+       "Будет ли церемония проводиться в Резиденции президента?",
+       "Именно президент ли государства объявил о знаке отличия?"
+      ],
+      "medium": [
+       "Кто объявил о знаке отличия?",
+       "Сколько деятелей получат его?",
+       "Когда пройдет церемония?"
+      ],
+      "hard": [
+       "За что вручается знак отличия, согласно заметке?",
+       "Из каких стран родом награжденные?",
+       "В каких сферах действуют награжденные?"
+      ]
+     }
+    },
+    "es": {
+     "title": "El presidente del Estado otorgará la \"Medalla del Presidente\" a nueve personalidades del mundo",
+     "easy": "El presidente del Estado anunció una medalla especial.\nSe llama \"Medalla del Presidente\".\nSerá entregada a nueve personalidades del mundo.\nEllos contribuyeron al Estado de Israel y al pueblo judío.\nLa ceremonia se llevará a cabo en la Residencia del Presidente.\nLa ceremonia será a principios del año 2027.",
+     "medium": "El presidente del Estado, Isaac Herzog, anunció que otorgará la \"Medalla del Presidente\" a nueve personalidades de todo el mundo. La medalla se otorga por la contribución al Estado de Israel y al pueblo judío. Los galardonados actúan en los campos de la educación, la filantropía (contribución financiera para el bien público), la filosofía, la política internacional y el liderazgo judío. Provienen de Estados Unidos, Canadá, Francia, Alemania, Gran Bretaña, Rumania e Italia. La ceremonia oficial se llevará a cabo en la Residencia del Presidente a principios del año 2027. La noticia fue publicada el 25 de noviembre. La medalla es un reconocimiento de parte del presidente del Estado a personas que actúan por el bien de Israel y del pueblo judío, en el país y en el mundo. En el artículo no se detalló un motivo personal para cada uno de los galardonados.",
+     "hard": "El presidente del Estado, Isaac Herzog, anunció el 25 de noviembre de 2026 que otorgará la \"Medalla del Presidente\" a nueve personalidades de todo el mundo, por su contribución al Estado de Israel y al pueblo judío. La medalla es un reconocimiento de parte del presidente a personas que actúan por el bien de Israel y del pueblo judío, en el país y en el mundo. Según la publicación, los galardonados actúan en los campos de la educación, la filantropía, la filosofía, la política internacional y el liderazgo judío, y provienen de siete países: Estados Unidos, Canadá, Francia, Alemania, Gran Bretaña, Rumania e Italia. Entre los galardonados se encuentran, según la lista publicada: Steny Hoyer, Mike Evans, Charles Bronfman, Bernard-Henri Lévy, Charlotte Knobloch, Gerald Ronson, Haim Saban, Silvio Wexler y Johanna Arbib Perugia. La ceremonia oficial se llevará a cabo en la Residencia del Presidente en Jerusalén a principios del año 2027. En el artículo no se detalló un motivo personal para cada uno de los galardonados, sino el motivo general de contribución a Israel y al pueblo judío. El artículo fue publicado en el sitio web ynet, y lo escribió Itamar Eichner. Los galardonados provienen de siete países diferentes, por lo que se trata de personas de diferentes comunidades y mundos. La medalla refleja el reconocimiento por la actividad en favor de Israel y del pueblo judío también fuera de sus fronteras. No se entregaron más detalles sobre la actividad de cada uno de los galardonados en el artículo. Quien quiera aprender más puede seguir los anuncios de la Residencia del Presidente en los próximos meses, de cara a la ceremonia.",
+     "questions": [
+      "¿Qué medalla o premio recibieron alguna vez, o le dieron a alguien?",
+      "¿Qué creen ustedes que debe hacer una persona para que la reciban para un reconocimiento? Cuéntennos por qué.",
+      "¿Quién es una persona que contribuyó al pueblo de Israel, según ustedes?"
+     ],
+     "qlevels": {
+      "easy": [
+       "¿La medalla será entregada a nueve personalidades?",
+       "¿La ceremonia se llevará a cabo en la Residencia del Presidente?",
+       "¿Es el presidente del Estado quien anunció la medalla?"
+      ],
+      "medium": [
+       "¿Quién anunció la medalla?",
+       "¿Cuántas personalidades la recibirán?",
+       "¿Cuándo se llevará a cabo la ceremonia?"
+      ],
+      "hard": [
+       "¿Por qué se otorga la medalla, según el artículo?",
+       "¿De qué países provienen los galardonados?",
+       "¿En qué campos actúan los galardonados?"
+      ]
+     }
+    }
+   },
+   "audio": [
+    "easy",
+    "medium",
+    "hard"
+   ],
+   "audioTr": {
+    "en": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "ru": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "es": [
+     "easy",
+     "medium",
+     "hard"
+    ]
+   }
   },
   {
    "id": "2026-11-27-israel-2",
@@ -81,7 +189,115 @@
    ],
    "verified": true,
    "date": "2026-11-27",
-   "ts": 1795733116
+   "ts": 1795733116,
+   "tr": {
+    "en": {
+     "title": "Tel Aviv: In January the dismantling of the western bridge at the Central Bus Station will begin",
+     "easy": "The Tel Aviv Municipality announced a change.\nIn January they will begin to dismantle a bridge.\nThis is the western bridge at the Central Bus Station.\nThe work will continue until April 2027.\nLater they will also dismantle additional bridges.\nThere will be temporary traffic blockages.",
+     "medium": "The Tel Aviv Municipality announced that in January the dismantling of the western arm of the bridges at the Central Bus Station will begin. According to the municipality, the works will continue from January to April 2027, and later the northern and southern arms will also be dismantled. The municipality stated that the bridges have become over the years an environmental and planning nuisance, among other things because of noise and air pollution. The work will include sawing, gradual dismantling and setting up temporary protections. The municipality also stated that during the works temporary traffic blockages are expected. In parallel, the replanning of HaHeres Street will be promoted, which is supposed to turn from an operational street into an urban street.",
+     "hard": "The Tel Aviv-Yafo Municipality announced on November 26, 2026, that in the month of January the dismantling of the western arm of the bridges at the Central Bus Station will begin. According to the municipality, the works to dismantle the western bridge will take place between January and April 2027, and later the northern and southern arms will also be dismantled, but dates for this were not provided. The municipality said that the bridges \"have over the years become an environmental and planning hazard\", among other things due to noise and air pollution. At the same time, the redesign of HaHeres Street will be promoted, which is supposed to turn from an operational street into an urban street, as part of the continuation of the HaKirya Boulevard. The work method includes sawing, gradual dismantling, the establishment of temporary protection systems and the use of heavy mechanical equipment. According to the municipality, temporary traffic blockades are expected during the works. Details on traffic routes and public transportation were not provided in the announcement. The news was published in the flash news section of the ynet website on November 26, 2026, and was written by Sivan Hilai. The report features only the municipality's position, and not responses from other parties, such as government ministries, residents or drivers. Also, the cost of the project and the exact number of bridges were not detailed. Anyone planning a trip in the area in the coming months should follow the municipality's announcements regarding traffic blockades.",
+     "questions": [
+      "Do you remember the Central Bus Station in Tel Aviv? What do you remember from it?",
+      "Do you think it is important to dismantle old buildings? Explain.",
+      "How did you used to travel on public transportation, and where to?"
+     ],
+     "qlevels": {
+      "easy": [
+       "Will the dismantling begin in January?",
+       "Is the bridge that will be dismantled the western one or the northern one?",
+       "Will there be temporary traffic blockades?"
+      ],
+      "medium": [
+       "Who announced the dismantling?",
+       "Which bridge will be dismantled first?",
+       "Until when will the works continue?"
+      ],
+      "hard": [
+       "What did the municipality say about the bridges?",
+       "Which arms will be dismantled later?",
+       "What will be redesigned at the same time, and what is supposed to happen to this street?"
+      ]
+     }
+    },
+    "ru": {
+     "title": "Тель-Авив: в январе начнется демонтаж западного моста на Центральной автостанции",
+     "easy": "Мэрия Тель-Авива объявила об изменении.\nВ январе начнется демонтаж моста.\nЭто западный мост на Центральной автостанции.\nРабота продлится до апреля 2027 года.\nВ дальнейшем демонтируют и другие мосты.\nБудут временные перекрытия движения.",
+     "medium": "Мэрия Тель-Авива объявила, что в январе начнется демонтаж западного ответвления мостов на Центральной автостанции. По данным мэрии, работы продлятся с января по апрель 2027 года, а в дальнейшем будут демонтированы также северное и южное ответвления. Мэрия сообщила, что с годами мосты превратились в экологическую и градостроительную проблему, в том числе из-за шума и загрязнения воздуха. Работа будет включать распиловку, поэтапный демонтаж и возведение временных защитных сооружений. Мэрия также сообщила, что во время работ ожидаются временные перекрытия движения. Параллельно будет продвигаться перепланировка улицы Ха-Хереш, которая должна превратиться из технической улицы в городскую.",
+     "hard": "Муниципалитет Тель-Авив-Яффо сообщил 26 ноября 2026 года, что в январе начнется демонтаж западной ветки мостов на Центральной станции. По данным муниципалитета, работы по демонтажу западного моста пройдут в период с января по апрель 2027 года, а в дальнейшем будут демонтированы также северная и южная ветки, однако сроки для этого не сообщались. В муниципалитете заявили, что мосты «за прошедшие годы превратились в экологическую и градостроительную помеху», в том числе из-за шума и загрязнения воздуха. Параллельно будет продвигаться перепланировка улицы Ха-Хереш, которая должна превратиться из технической улицы в городскую, как часть продолжения бульвара Ха-Кирия. Метод работы включает распиливание, постепенный демонтаж, возведение временных защитных сооружений и использование тяжелой механической техники. По сообщению муниципалитета, во время работ ожидаются временные перекрытия движения. Подробности о маршрутах движения и общественного транспорта в сообщении не приводились. Заметка была опубликована на странице срочных новостей сайта ynet 26 ноября 2026 года, ее автор — Сиван Хилай. В заметке приводится только позиция муниципалитета, а не мнения других сторон, таких как министерства правительства, жители или водители. Стоимость проекта и точное количество мостов также не детализировались. Те, кто планирует поездку в этот район в ближайшие месяцы, должны следить за сообщениями муниципалитета о перекрытиях движения.",
+     "questions": [
+      "Помните ли вы Центральную станцию в Тель-Авиве? Что вам из нее запомнилось?",
+      "Считаете ли вы важным демонтировать старые здания? Обоснуйте.",
+      "Как вы ездили раньше на общественном транспорте и куда?"
+     ],
+     "qlevels": {
+      "easy": [
+       "Начнется ли демонтаж в январе?",
+       "Мост, который будут демонтировать, — западный или северный?",
+       "Будут ли временные перекрытия движения?"
+      ],
+      "medium": [
+       "Кто объявил о демонтаже?",
+       "Какой мост демонтируют первым?",
+       "До какого времени продлятся работы?"
+      ],
+      "hard": [
+       "Что муниципалитет сказал о мостах?",
+       "Какие ветки будут демонтированы позднее?",
+       "Что будет перепланировано параллельно и что должно произойти с этой улицей?"
+      ]
+     }
+    },
+    "es": {
+     "title": "Tel Aviv: en enero comenzará el desmantelamiento del puente occidental en la Estación Central",
+     "easy": "La Municipalidad de Tel Aviv anunció un cambio.\nEn enero comenzarán a desmantelar un puente.\nEste es el puente occidental en la Estación Central.\nEl trabajo continuará hasta abril de 2027.\nMás adelante también desmantelarán puentes adicionales.\nHabrá cortes de tráfico temporales.",
+     "medium": "La Municipalidad de Tel Aviv anunció que en enero comenzará el desmantelamiento del brazo occidental de los puentes en la Estación Central. Según la municipalidad, las obras continuarán desde enero hasta abril de 2027, y más adelante también se desmantelarán los brazos norte y sur. La municipalidad informó que los puentes se convirtieron con los años en un perjuicio ambiental y de planificación, entre otras cosas debido al ruido y la contaminación del aire. El trabajo incluirá corte, desmantelamiento gradual y el establecimiento de protecciones temporales. La municipalidad también informó que durante los trabajos se esperan cortes de tráfico temporales. Al mismo tiempo, se promoverá una nueva planificación de la calle HaHeres, que se supone que pasará de ser una calle operativa a una calle urbana.",
+     "hard": "El Ayuntamiento de Tel Aviv-Yafo anunció el 26 de noviembre de 2026 que en el mes de enero comenzará el desmantelamiento del brazo occidental de los puentes en la Estación Central. Según el ayuntamiento, las obras para desmontar el puente occidental se llevarán a cabo entre enero y abril de 2027, y más adelante también se desmontarán los brazos norte y sur, pero no se dieron fechas para ello. En el ayuntamiento dijeron que los puentes \"se han convertido a lo largo de los años en una molestia ambiental y de planificación\", entre otras cosas debido al ruido y la contaminación del aire. En paralelo, se impulsará una nueva planificación de la calle HaHeres, que debe pasar de ser una calle operativa a una calle urbana, como parte de la continuación del bulevar HaKiriya. El método de trabajo incluye corte con sierra, desmantelamiento gradual, establecimiento de sistemas de protección temporales y uso de equipo mecánico pesado. Según el ayuntamiento, durante las obras se esperan cortes de tráfico temporales. En el anuncio no se dieron detalles sobre las rutas de tránsito y el transporte público. La noticia fue publicada en la página de noticias de última hora del sitio ynet el 26 de noviembre de 2026, y fue escrita por Sivan Hilai. En la noticia aparece únicamente la postura del ayuntamiento, y no reacciones de otras partes, como ministerios gubernamentales, residentes o conductores. Tampoco se detallaron el costo del proyecto ni el número exacto de puentes. Quien planee viajar por la zona en los próximos meses debe seguir los anuncios del ayuntamiento sobre los cortes de tráfico.",
+     "questions": [
+      "¿Recuerdan ustedes la Estación Central en Tel Aviv? ¿Qué recuerdan ustedes de ella?",
+      "¿Piensan ustedes que es importante desmontar edificios viejos? Expliquen su respuesta.",
+      "¿Cómo viajaban ustedes antes en transporte público, y a dónde?"
+     ],
+     "qlevels": {
+      "easy": [
+       "¿El desmantelamiento empezará en enero?",
+       "¿El puente que será desmontado es el occidental o el norte?",
+       "¿Habrá cortes de tráfico temporales?"
+      ],
+      "medium": [
+       "¿Quién anunció el desmantelamiento?",
+       "¿Qué puente será desmontado primero?",
+       "¿Hasta cuándo continuarán las obras?"
+      ],
+      "hard": [
+       "¿Qué dijo el ayuntamiento sobre los puentes?",
+       "¿Qué brazos serán desmontados más adelante?",
+       "¿Qué se planificará de nuevo en paralelo, y qué se supone que ocurra con esta calle?"
+      ]
+     }
+    }
+   },
+   "audio": [
+    "easy",
+    "medium",
+    "hard"
+   ],
+   "audioTr": {
+    "en": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "ru": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "es": [
+     "easy",
+     "medium",
+     "hard"
+    ]
+   }
   },
   {
    "id": "2026-11-27-world-1",
@@ -120,7 +336,115 @@
    ],
    "verified": true,
    "date": "2026-11-27",
-   "ts": 1795733116
+   "ts": 1795733116,
+   "tr": {
+    "en": {
+     "title": "An Alzheimer's patient disappeared from home and was found playing the piano, 160 km away",
+     "easy": "Frank, 78, lives in Maryland, in the United States.\nHe is an Alzheimer's patient.\nOne day he took his daughter's car.\nHe asked to get to his childhood home.\nHe was found in Philadelphia, next to a piano.\nThere he played on the grass.",
+     "medium": "Frank Grau, 78, from the town of Bowie in Maryland, has been sick with Alzheimer's for about six years. On Thursday he took his daughter's car, has not driven since the diagnosis, and drove to look for his childhood home in Norristown in Pennsylvania. He lost his way and was found in Philadelphia, more than 160 kilometers from his home. A man who returned to his home saw him, asked how he was, and found inside the car an invoice with a phone number on it. That is how he called the daughter. Frank sat down next to a piano that was left outside a neighbor's house, and played on it. His sister brought him back home that same evening.",
+     "hard": "Frank Grau, 78, from the town of Bowie in Maryland in the United States, has been sick with Alzheimer's for about six years. According to his daughter, Maggie Henkin, on Thursday last week she left the house for a few minutes, and when she returned discovered that her father and her car had disappeared, even though he had not driven since he was diagnosed. He asked to return to his childhood home in Norristown in Pennsylvania, but lost his way and arrived in northeast Philadelphia, more than 160 kilometers from home. The police opened searches, and helicopters assisted in them. Angelo Torres, 65, returned to his home, saw an elderly person and asked how he was. When he saw Maryland license plates, he searched in the car and found an invoice from a car dealership. Around 13:00 he called the number on it and the daughter answered. Meanwhile Frank sat down next to a piano that a neighbor left for disposal and played on it. According to the daughter, he has been playing for decades. Torres photographed him. In the evening his sister, from Norristown, brought him back home. According to the daughter, Frank does not always recognize his family members today and has difficulty writing his name. He did not remember what happened and was surprised to hear that he arrived in Philadelphia. In the video that Torres filmed, the photographer is heard saying to him: \"Bravo, Frank, bravo!\". The story was published in many media outlets in the United States.",
+     "questions": [
+      "Do you have a memory of a tune that you love? Which one?",
+      "What do you think about the fact that Frank's hands remembered how to play?",
+      "How can one help an elderly person who has lost their way?"
+     ],
+     "qlevels": {
+      "easy": [
+       "Is Frank 78?",
+       "Was Frank found in Philadelphia or in New York?",
+       "Did Frank play the piano?"
+      ],
+      "medium": [
+       "Who found Frank?",
+       "Which musical instrument did Frank play?",
+       "How long has he been sick with Alzheimer's?"
+      ],
+      "hard": [
+       "How did Angelo Torres manage to contact the daughter?",
+       "Where did Frank ask to go, and where did he actually arrive?",
+       "Who brought Frank home and at about what time?"
+      ]
+     }
+    },
+    "ru": {
+     "title": "Больной болезнью Альцгеймера пропал из дома и был найден играющим на пианино в 160 км оттуда",
+     "easy": "78-летний Франк живет в Мэриленде, в США.\nОн болен болезнью Альцгеймера.\nОднажды он взял машину своей дочери.\nОн попросил отвезти его в дом своего детства.\nОн был найден в Филадельфии, рядом с пианино.\nТам он играл на траве.",
+     "medium": "Франк Гру, 78 лет, из городка Боуи в Мэриленде, болеет болезнью Альцгеймера около шести лет. В четверг он взял машину своей дочери — с момента постановки диагноза он не водил — и поехал искать дом своего детства в Норристауне в Пенсильвании. Он сбился с пути и был найден в Филадельфии, более чем в 160 километрах от своего дома. Человек, вернувшийся домой, увидел его, поинтересовался его самочувствием и нашел внутри машины квитанцию с номером телефона. Так он позвонил дочке. Франк сел у пианино, оставленного возле соседнего дома, и сыграл на нем. Сестра вернула его домой тем же вечером.",
+     "hard": "Франк Гру, 78 лет, из городка Боуи в Мэриленде в США, болеет болезнью Альцгеймера около шести лет. По словам его дочери, Маги Хенкин, в четверг на прошлой неделе она вышла из дома на несколько минут и, вернувшись, обнаружила, что ее отец и ее машина исчезли, хотя он не водил машину с тех пор, как ему поставили диагноз. Он попросил вернуться в дом своего детства в Норристауне в Пенсильвании, но сбился с пути и добрался до северо-востока Филадельфии, более чем в 160 километрах от дома. Полиция начала поиски, и в них помогали вертолеты. Анджело Торрес, 65 лет, вернулся домой, увидел пожилого человека и поинтересовался его самочувствием. Увидев номерные знаки Мэриленда, он заглянул в машину и нашел квитанцию автосалона. Около 13:00 он позвонил по указанному на ней номеру, и дочь ответила. Тем временем Франк уселся за пианино, оставленное соседом для вывоза, и сыграл на нем. По словам дочери, он играет уже десятки лет. Торрес сфотографировал его. Вечером сестра из Норристауна вернула его домой. По словам дочери, Франк сегодня не всегда узнает членов своей семьи и с трудом пишет свое имя. Он не помнил, что произошло, и был удивлен, услышав, что добрался до Филадельфии. На видео, снятом Торресом, слышно, как фотограф говорит ему: «Браво, Франк, браво!». История была опубликована во многих средствах массовой информации в США.",
+     "questions": [
+      "Есть ли у вас в памяти мелодия, которую вы любите? Какая?",
+      "Что вы думаете о том, что руки Франка помнили, как играть?",
+      "Как можно помочь пожилому человеку, который потерял дорогу?"
+     ],
+     "qlevels": {
+      "easy": [
+       "Франку 78 лет?",
+       "Франк найден в Филадельфии или в Нью-Йорке?",
+       "Играл ли Франк на пианино?"
+      ],
+      "medium": [
+       "Кто нашел Франка?",
+       "На каком музыкальном инструменте играл Франк?",
+       "Как долго он болеет болезнью Альцгеймера?"
+      ],
+      "hard": [
+       "Как Анджело Торрес смог связаться с дочерью?",
+       "Куда просил отвезти его Франк и куда он попал на самом деле?",
+       "Кто вернул Франка домой и примерно в каком часу?"
+      ]
+     }
+    },
+    "es": {
+     "title": "Un enfermo de alzhéimer desapareció de su casa y fue encontrado tocando el piano, a 160 km de allí",
+     "easy": "Frank, de 78 años, vive en Maryland, en Estados Unidos.\nÉl está enfermo de alzhéimer.\nUn día tomó el auto de su hija.\nÉl pidió llegar a la casa de su infancia.\nFue encontrado en Filadelfia, junto a un piano.\nAllí tocó en el césped.",
+     "medium": "Frank Grow, de 78 años de la localidad de Bowie en Maryland, está enfermo de alzhéimer desde hace unos 6 años. El jueves tomó el automóvil de su hija, no había conducido desde el diagnóstico, y viajó a buscar la casa de su infancia en Norristown en Pensilvania. Se equivocó de camino y fue encontrado en Filadelfia, a más de 160 kilómetros de su casa. Una persona que regresó a su casa lo vio, le preguntó cómo estaba y encontró dentro del automóvil una factura en la que hay un número de teléfono. Así llamó a la hija. Frank se sentó junto a un piano que fue dejado fuera de la casa de un vecino, y tocó en él. Su hermana lo devolvió a la casa esa misma tarde.",
+     "hard": "Frank Grow, de 78 años de la localidad de Bowie en Maryland en Estados Unidos, está enfermo de alzhéimer desde hace unos 6 años. Según su hija, Meg Henkin, el jueves de la semana pasada ella salió de la casa por unos minutos, y al regresar descubrió que su padre y su automóvil habían desaparecido, a pesar de que no había conducido desde que fue diagnosticado. Él pidió regresar a la casa de su infancia en Norristown en Pensilvania, pero se equivocó de camino y llegó al noreste de Filadelfia, a más de 160 kilómetros de la casa. La policía inició búsquedas, y helicópteros ayudaron en ellas. Angelo Torres, de 65 años, regresó a su casa, vio a una persona mayor y le preguntó cómo estaba. Cuando vio matrículas de Maryland, buscó en el automóvil y encontró una factura de una agencia de automóviles. Alrededor de las 13:00 llamó al número que estaba en ella y la hija contestó. Mientras tanto Frank se sentó junto a un piano que un vecino dejó para desechar y tocó en él. Según la hija, él toca desde hace décadas. Torres lo fotografió. Por la noche su hermana, de Norristown, lo devolvió a la casa. Según la hija, Frank no siempre reconoce hoy a los miembros de su familia y le cuesta escribir su nombre. Él no recordaba lo que pasó y se sorprendió al escuchar que llegó a Filadelfia. En el video que fotografió Torres se escucha al fotógrafo decirle: \"¡Bravo, Frank, bravo!\". La historia fue publicada en muchos medios de comunicación en Estados Unidos.",
+     "questions": [
+      "¿Tienen ustedes el recuerdo de una melodía que les guste? ¿Cuál?",
+      "¿Qué piensan ustedes sobre el hecho de que las manos de Frank recordaran cómo tocar?",
+      "¿Cómo se puede ayudar a una persona mayor que perdió su camino?"
+     ],
+     "qlevels": {
+      "easy": [
+       "¿Frank tiene 78 años?",
+       "¿Frank fue encontrado en Filadelfia o en Nueva York?",
+       "¿Frank tocó el piano?"
+      ],
+      "medium": [
+       "¿Quién encontró a Frank?",
+       "¿Qué instrumento musical tocó Frank?",
+       "¿Cuánto tiempo está enfermo de alzhéimer?"
+      ],
+      "hard": [
+       "¿Cómo logró Angelo Torres ponerse en contacto con la hija?",
+       "¿A dónde pidió Frank llegar, y a dónde llegó realmente?",
+       "¿Quién devolvió a Frank a casa y a qué hora aproximadamente?"
+      ]
+     }
+    }
+   },
+   "audio": [
+    "easy",
+    "medium",
+    "hard"
+   ],
+   "audioTr": {
+    "en": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "ru": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "es": [
+     "easy",
+     "medium",
+     "hard"
+    ]
+   }
   },
   {
    "id": "2026-11-27-weather-1",
@@ -159,7 +483,115 @@
    ],
    "verified": true,
    "date": "2026-11-27",
-   "ts": 1795733116
+   "ts": 1795733116,
+   "tr": {
+    "en": {
+     "title": "The weather for the weekend: pleasant on Friday and Saturday, cooler on Sunday",
+     "easy": "In Jerusalem it will be pleasant over the weekend.\nOn Friday up to 23 degrees.\nOn Saturday up to 24 degrees.\nOn Sunday it will be cooler.\nOn Sunday up to 18 degrees.",
+     "medium": "According to the ynet website forecast for Jerusalem, the weekend will be pleasant. On Friday, November 27, the temperature will range between 14 and 23 degrees. On Saturday there will be a slight rise, between 13 and 24 degrees. On Sunday a drop in temperatures is expected, between 12 and 18 degrees. It is advisable to dress in layers: in the morning and evening it is cooler and at noon pleasant. The forecast is updated daily, so it is worthwhile to check it again before going out. On the forecast page no precipitation amount was given for Saturday and Sunday, so it is worthwhile to follow updates. Enjoy the day!",
+     "hard": "According to the ynet website forecast for Jerusalem, which was updated on November 27 2026, the weekend will be relatively pleasant for the season. On Friday the temperature in the city will range between 14 and 23 degrees. On Saturday a slight rise is expected, between 13 and 24 degrees. On Sunday a drop is expected, and between 12 and 18 degrees. On the forecast page no precipitation amount was given for Saturday and Sunday. The data refer to Jerusalem only, and in other cities, especially on the coast, the temperatures may be different. It is worthwhile to dress in clothes in layers, because in the morning and evening it is cooler than at noon, and to check the updated forecast before every exit from home. Jerusalem is located in the mountains, and therefore it is usually cooler there than in the coastal city. On such days it is worthwhile to go out for a short walk during the most pleasant hours, to drink water even when it is not hot, and to equip oneself with an additional clothing layer for the evening. Anyone planning a trip to the north or south needs to check the forecast of the destination itself. The forecast that was read is a three-day forecast, and therefore it is possible to prepare well for the weekend, but it is worthwhile to check again on Sunday toward the beginning of the week. Good luck and Shabbat shalom to all the instructors and participants.",
+     "questions": [
+      "What do you like to do on such a pleasant day?",
+      "How do you dress on a day when the morning is cool and midday is warm?",
+      "What weather do you like the most? And why?"
+     ],
+     "qlevels": {
+      "easy": [
+       "Will it be up to 24 degrees on Saturday?",
+       "Will it be cooler on Sunday?",
+       "On Friday will it be up to 23 degrees or up to 30?"
+      ],
+      "medium": [
+       "What is the maximum temperature on Saturday in Jerusalem?",
+       "When is a drop in temperatures expected?",
+       "Which website published the forecast?"
+      ],
+      "hard": [
+       "What is the temperature range on Friday?",
+       "What is the temperature range on Sunday?",
+       "Why is it worthwhile to dress in clothes in layers?"
+      ]
+     }
+    },
+    "ru": {
+     "title": "Погода на выходных: приятно в пятницу и субботу, прохладнее в воскресенье",
+     "easy": "В Иерусалиме в выходные будет приятно.\nВ пятницу до 23 градусов.\nВ субботу до 24 градусов.\nВ воскресенье будет прохладнее.\nВ воскресенье до 18 градусов.",
+     "medium": "Согласно прогнозу сайта ynet для Иерусалима, выходные будут приятными. В пятницу, 27 ноября, температура будет колебаться от 14 до 23 градусов. В субботу ожидается небольшое потепление, от 13 до 24 градусов. В воскресенье ожидается понижение температуры, от 12 до 18 градусов. Стоит одеваться слоями: утром и вечером прохладнее, а днем приятно. Прогноз обновляется ежедневно, поэтому стоит проверить его снова перед выходом. На странице прогноза не было сообщено количество осадков на субботу и воскресенье, поэтому стоит следить за обновлениями. Приятного вам дня!",
+     "hard": "Согласно прогнозу сайта ynet для Иерусалима, обновленному 27 ноября 2026 года, выходные будут относительно приятными для этого сезона. В пятницу температура в городе будет колебаться от 14 до 23 градусов. В субботу ожидается небольшое повышение, от 13 до 24 градусов. В воскресенье ожидается понижение, от 12 до 18 градусов. На странице прогноза не было сообщено количество осадков на субботу и воскресенье. Данные относятся только к Иерусалиму, а в других городах, и особенно на побережье, температуры могут отличаться. Стоит одеваться в одежду по слоям, так как утром и вечером прохладнее, чем днем, и проверять обновленный прогноз перед каждым выходом из дома. Иерусалим находится в горах, поэтому обычно там прохладнее, чем в прибрежном городе. В такие дни стоит выйти на короткую прогулку в самые приятные часы, пить воду, даже когда не жарко, и запастись дополнительным слоем одежды на вечер. Тот, кто планирует поездку на север или юг, должен проверить прогноз для самого места назначения. Прочитанный прогноз — это прогноз на три дня, поэтому можно хорошо подготовиться к выходным, но стоит проверить снова в воскресенье ближе к началу недели. Успехов и шабат шалом всем инструкторам и участникам.",
+     "questions": [
+      "Что вы любите делать в такой приятный день?",
+      "Как вы одеваетесь в день, когда утром прохладно, а днем тепло?",
+      "Какую погоду вы любите больше всего? И почему?"
+     ],
+     "qlevels": {
+      "easy": [
+       "Будет ли в субботу до 24 градусов?",
+       "Будет ли в воскресенье прохладнее?",
+       "В пятницу будет до 23 градусов или до 30?"
+      ],
+      "medium": [
+       "Какая максимальная температура в субботу в Иерусалиме?",
+       "Когда ожидается понижение температуры?",
+       "Какой сайт опубликовал прогноз?"
+      ],
+      "hard": [
+       "Каков диапазон температур в пятницу?",
+       "Каков диапазон температур в воскресенье?",
+       "Почему стоит одеваться в одежду по слоям?"
+      ]
+     }
+    },
+    "es": {
+     "title": "El tiempo el fin de semana: agradable el viernes y el sábado, más fresco el domingo",
+     "easy": "En Jerusalén estará agradable el fin de semana.\nEl viernes hasta 23 grados.\nEl sábado hasta 24 grados.\nEl domingo estará más fresco.\nEl domingo hasta 18 grados.",
+     "medium": "Según el pronóstico del sitio web ynet para Jerusalén, el fin de semana será agradable. El viernes, 27 de noviembre, la temperatura oscilará entre 14 y 23 grados. El sábado habrá un ligero aumento, entre 13 y 24 grados. El domingo se espera un descenso en las temperaturas, entre 12 y 18 grados. Conviene vestirse en capas: por la mañana y por la noche está más fresco y al mediodía agradable. El pronóstico se actualiza todos los días, por lo que conviene revisarlo nuevamente antes de salir. En la página del pronóstico no se indicó la cantidad de precipitaciones para el sábado y el domingo, por lo que conviene seguir las actualizaciones. ¡Disfruten del día!",
+     "hard": "Según el pronóstico del sitio web ynet para Jerusalén, actualizado el 27 de noviembre de 2026, el fin de semana será relativamente agradable para la temporada. El viernes la temperatura en la ciudad oscilará entre 14 y 23 grados. El sábado se espera un ligero aumento, entre 13 y 24 grados. El domingo se espera un descenso, y entre 12 y 18 grados. En la página del pronóstico no se indicó la cantidad de precipitaciones para el sábado y el domingo. Los datos se refieren únicamente a Jerusalén, y en otras ciudades, especialmente en la costa, las temperaturas pueden ser diferentes. Conviene vestirse con ropa en capas, porque por la mañana y por la noche está más fresco que al mediodía, y revisar el pronóstico actualizado antes de cada salida de casa. Jerusalén se encuentra en las montañas, por lo que por lo general hace más fresco allí que en la ciudad costera. En días como este conviene salir a dar un paseo corto en las horas más agradables, beber agua incluso cuando no hace calor, y llevar una capa de ropa adicional para la tarde-noche. Quien planee un viaje al norte o al sur debe consultar el pronóstico del destino en sí. El pronóstico que se leyó es un pronóstico para tres días, por lo que es posible prepararse bien para el fin de semana, pero conviene consultar de nuevo el domingo hacia el comienzo de la semana. ¡Mucho éxito y Shabat Shalom a todas las guías y los participantes!",
+     "questions": [
+      "¿Qué les gusta hacer a ustedes en un día agradable como este?",
+      "¿Cómo se visten ustedes en un día en que la mañana es fresca y el mediodía caluroso?",
+      "¿Qué tiempo es el que más les gusta a ustedes? ¿Y por qué?"
+     ],
+     "qlevels": {
+      "easy": [
+       "¿El sábado habrá hasta 24 grados?",
+       "¿El domingo estará más fresco?",
+       "¿El viernes habrá hasta 23 grados o hasta 30?"
+      ],
+      "medium": [
+       "¿Cuál es la temperatura máxima el sábado en Jerusalén?",
+       "¿Cuándo se espera un descenso en las temperaturas?",
+       "¿Qué sitio web publicó el pronóstico?"
+      ],
+      "hard": [
+       "¿Cuál es el rango de temperaturas el viernes?",
+       "¿Cuál es el rango de temperaturas el domingo?",
+       "¿Por qué conviene vestirse con ropa en capas?"
+      ]
+     }
+    }
+   },
+   "audio": [
+    "easy",
+    "medium",
+    "hard"
+   ],
+   "audioTr": {
+    "en": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "ru": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "es": [
+     "easy",
+     "medium",
+     "hard"
+    ]
+   }
   },
   {
    "id": "2026-11-27-birthdays-1",
@@ -201,7 +633,115 @@
    "ts": 1795733116,
    "people": [
     "חיים ויצמן"
-   ]
+   ],
+   "tr": {
+    "en": {
+     "title": "Born on this day: Chaim Weizmann, the first president of the State of Israel",
+     "easy": "Chaim Weizmann was born on November 27 1874.\nBorn in the village of Motol.\nMotol is located today in Belarus.\nHe was a scientist and chemist.\nHe was the first president of Israel.\nHe passed away in the year 1952.",
+     "medium": "Chaim Weizmann was born on November 27 1874 in the village of Motol, which was then in the Russian Empire and today in Belarus. He studied chemistry in Germany and Switzerland, received a doctorate at the University of Fribourg in the year 1900, and taught at the University of Manchester from 1904. In the year 1916 he developed a process for producing acetone from corn. He was among the leaders of the Zionist movement and acted toward the Balfour Declaration in the year 1917. In the year 1934 he founded the Sieff Institute in Rehovot, which is called today the Weizmann Institute. In the year 1949 he was elected as the first president of the State of Israel, and he passed away in Rehovot in the year 1952.",
+     "hard": "Chaim Weizmann was born on November 27, 1874 in the village of Motol, which was then in the Russian Empire and today is in Belarus. According to the Encyclopædia Britannica, he studied chemistry in Germany and Switzerland, received a doctoral degree from the University of Fribourg in 1900, taught at the University of Geneva, and from 1904 taught at the University of Manchester in Britain. In 1916 he developed a process for producing acetone from corn. Alongside science, he was one of the leaders of the Zionist movement: he was active in the contacts that led to the Balfour Declaration of November 1917, headed the World Zionist Organization from 1920, and in 1934 founded the Daniel Sieff Research Institute in Rehovot, which is called today the Weizmann Institute of Science. From September 1948 he headed the Provisional State Council, and in February 1949 he was elected as the first president of the State of Israel. He served in the position until his passing in Rehovot on November 9, 1952, at the age of 77. Weizmann was one of the few people who combined scientific work and political activity. According to Britannica, his greatest fame was in the political arena. In 2026 it will be 152 years since his birth. His doctorate in chemistry and his public roles are among the highlights of his life. He was born in a small village in Eastern Europe, and eventually reached the leadership of the young Jewish state, on a path that passed through laboratories, universities and political negotiations.",
+     "questions": [
+      "What do you remember about presidents of the State of Israel?",
+      "Have you ever visited Rehovot or the Weizmann Institute? What did you see?",
+      "Who is a person you appreciate for a combination of science and action?"
+     ],
+     "qlevels": {
+      "easy": [
+       "Was Weizmann born in 1874?",
+       "Is Motol located today in Belarus or in Poland?",
+       "Was Weizmann Israel's first president?"
+      ],
+      "medium": [
+       "In what year was Weizmann elected president?",
+       "What did he study at the university?",
+       "Where did Weizmann pass away?"
+      ],
+      "hard": [
+       "In what year did Weizmann receive a doctorate, and at which university?",
+       "What process did he develop in 1916?",
+       "Which institute did he found in 1934?"
+      ]
+     }
+    },
+    "ru": {
+     "title": "Родились в этот день: Хаим Вейцман, первый президент Государства Израиль",
+     "easy": "Хаим Вейцман родился 27 ноября 1874 года.\nРодился в деревне Мотоль.\nМотоль находится сегодня в Беларуси.\nОн был ученым и химиком.\nОн был первым президентом Израиля.\nОн скончался в 1952 году.",
+     "medium": "Хаим Вейцман родился 27 ноября 1874 года в деревне Мотоль, которая тогда находилась в Российской империи, а сегодня в Беларуси. Он изучал химию в Германии и Швейцарии, получил докторскую степень в Университете Фрибура в 1900 году и преподавал в Манчестерском университете с 1904 года. В 1916 году разработал процесс получения ацетона из кукурузы. Он был одним из лидеров сионистского движения и работал над Декларацией Бальфура в 1917 году. В 1934 году основал научно-исследовательский институт Зива в Реховоте, который сегодня называется Институт Вейцмана. В 1949 году был избран первым президентом Государства Израиль, и он скончался в Реховоте в 1952 году.",
+     "hard": "Хаим Вейцман родился 27 ноября 1874 года в деревне Мотоль, которая тогда находилась в Российской империи, а сегодня в Беларуси. Согласно Британской энциклопедии, он изучал химию в Германии и Швейцарии, получил степень доктора в Фрибурском университете в 1900 году, преподавал в Женевском университете, а с 1904 года преподавал в Манчестерском университете в Великобритании. В 1916 году он разработал процесс получения ацетона из кукурузы. Наряду с наукой он был одним из лидеров сионистского движения: вел переговоры, приведшие к Декларации Бальфура в ноябре 1917 года, возглавлял Всемирную сионистскую организацию с 1920 года, а в 1934 году основал в Реховоте Научно-исследовательский институт Зиф, который сегодня называется Научным институтом Вейцмана. С сентября 1948 года он возглавлял Временный государственный совет, а в феврале 1949 года был избран первым президентом Государства Израиль. Он занимал эту должность до своей кончины в Реховоте 9 ноября 1952 года в возрасте 77 лет. Вейцман был одним из немногих людей, совмещавших научную работу и политическую деятельность. Согласно Британской энциклопедии, его величайшая слава была на политической арене. В 2026 году исполнится 152 года со дня его рождения. Его докторская степень по химии и его общественные должности относятся к числу главных вех его жизни. Он родился в маленькой деревне в Восточной Европе и в конце концов возглавил молодое еврейское государство, пройдя путь через лаборатории, университеты и политические переговоры.",
+     "questions": [
+      "Что вы помните о президентах Государства Израиль?",
+      "Вы когда-нибудь бывали в Реховоте или в Институте Вейцмана? Что вы видели?",
+      "Какого человека вы цените за сочетание науки и созидания?"
+     ],
+     "qlevels": {
+      "easy": [
+       "Родился ли Вейцман в 1874 году?",
+       "Мотоль находится сегодня в Беларуси или в Польше?",
+       "Был ли Вейцман первым президентом Израиля?"
+      ],
+      "medium": [
+       "В каком году Вейцман был избран президентом?",
+       "Что он изучал в университете?",
+       "Где скончался Вейцман?"
+      ],
+      "hard": [
+       "В каком году Вейцман получил докторскую степень и в каком университете?",
+       "Какой процесс он разработал в 1916 году?",
+       "Какой институт был основан в 1934 году?"
+      ]
+     }
+    },
+    "es": {
+     "title": "Nacidos en este día: Jaim Weizmann, el primer presidente del Estado de Israel",
+     "easy": "Jaim Weizmann nació el 27 de noviembre de 1874.\nNació en la aldea de Motol.\nMotol se encuentra hoy en Bielorrusia.\nFue científico y químico.\nFue el primer presidente de Israel.\nFalleció en el año 1952.",
+     "medium": "Jaim Weizmann nació el 27 de noviembre de 1874 en la aldea de Motol, que entonces estaba en el Imperio ruso y hoy en Bielorrusia. Estudió química en Alemania y en Suiza, obtuvo un doctorado en la Universidad de Friburgo en el año 1900, y enseñó en la Universidad de Mánchester a partir de 1904. En 1916 desarrolló un proceso para la producción de acetona a partir de maíz. Fue uno de los líderes del movimiento sionista y trabajó hacia la Declaración Balfour en el año 1917. En 1934 fundó el Instituto Sieff en Rehovot, que hoy se llama Instituto Weizmann. En 1949 fue elegido primer presidente del Estado de Israel, y falleció en Rehovot en el año 1952.",
+     "hard": "Jaim Weizmann nació el 27 de noviembre de 1874 en el pueblo de Motol, que entonces estaba en el Imperio ruso y hoy en Bielorrusia. Según la Enciclopedia Británica, estudió química en Alemania y en Suiza, obtuvo un doctorado en la Universidad de Friburgo en el año 1900, enseñó en la Universidad de Ginebra, y a partir de 1904 enseñó en la Universidad de Mánchester en Gran Bretaña. En 1916 desarrolló un proceso para la producción de acetona a partir de maíz. Junto a la ciencia fue uno de los líderes del movimiento sionista: actuó en las gestiones que llevaron a la Declaración Balfour de noviembre de 1917, estuvo al frente de la Organización Sionista Mundial a partir de 1920, y en el año 1934 fundó el Instituto Sieff en Rehovot, que hoy se llama Instituto Weizmann de Ciencias. A partir de septiembre de 1948 estuvo al frente del Consejo de Estado Provisional, y en febrero de 1949 fue elegido como el primer presidente del Estado de Israel. Ocupó el cargo hasta su fallecimiento en Rehovot el 9 de noviembre de 1952, a la edad de 77. Weizmann fue una de las pocas personas que combinaron el trabajo científico y la actividad política. Según la Británica, su mayor gloria estuvo en la esfera política. En el año 2026 se cumplirán 152 años de su nacimiento. Su doctorado en química y sus cargos públicos se cuentan entre lo principal de su vida. Nació en un pequeño pueblo en el este de Europa, y llegó al fin a la cabeza del joven Estado judío, en un camino que pasó por laboratorios, universidades y negociaciones políticas.",
+     "questions": [
+      "¿Qué recuerdan ustedes sobre los presidentes del Estado de Israel?",
+      "¿Visitaron ustedes alguna vez Rehovot o el Instituto Weizmann? ¿Qué vieron?",
+      "¿Quién es una persona a la que ustedes aprecian por la combinación de ciencia y obra?"
+     ],
+     "qlevels": {
+      "easy": [
+       "¿Nació Weizmann en 1874?",
+       "¿Motol se encuentra hoy en Bielorrusia o en Polonia?",
+       "¿Fue Weizmann el primer presidente de Israel?"
+      ],
+      "medium": [
+       "¿En qué año fue elegido Weizmann como presidente?",
+       "¿Qué estudió él en la universidad?",
+       "¿Dónde falleció Weizmann?"
+      ],
+      "hard": [
+       "¿En qué año recibió Weizmann su doctorado, y en qué universidad?",
+       "¿Qué proceso desarrolló en el año 1916?",
+       "¿Qué instituto fundó en el año 1934?"
+      ]
+     }
+    }
+   },
+   "audio": [
+    "easy",
+    "medium",
+    "hard"
+   ],
+   "audioTr": {
+    "en": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "ru": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "es": [
+     "easy",
+     "medium",
+     "hard"
+    ]
+   }
   },
   {
    "id": "2026-11-27-history-1",
@@ -240,7 +780,115 @@
    ],
    "verified": true,
    "date": "2026-11-27",
-   "ts": 1795733116
+   "ts": 1795733116,
+   "tr": {
+    "en": {
+     "title": "In two days: 79 years since the UN resolution on the partition of the Land of Israel",
+     "easy": "On November 29, 1947, they voted at the UN.\nThey voted on the partition of the Land of Israel.\n33 countries were in favor.\n13 countries were against.\nIn Tel Aviv they celebrated in the streets.\nToday marks 79 years since that day.",
+     "medium": "On November 29, 1947, the United Nations Assembly approved the Partition Plan, Resolution 181, by a majority of 33 votes against 13. The resolution dealt with the division of the Land of Israel into two states, Jewish and Arab. The idea first came up for discussion in the 1930s, in the proposals of the Peel Commission. According to the resolution, the British mandate would end by May 1, 1948. In Tel Aviv, they danced and sang in the streets, and a journalist described it this way: the city \"was Victory Drunkenness\". On Sunday, November 29, 2026, it will be 79 years since the decision. The vote was held at the UN General Assembly.",
+     "hard": "On November 29, 1947, the 29th of November, the United Nations Assembly approved by a majority of 33 votes against 13 the partition plan, known as Resolution 181. The resolution dealt with the division of the Land of Israel into two states, Jewish and Arab, according to the distribution of the population in different places. The idea of ​​partition first came up for serious international discussion in the 1930s, in the recommendations of the Peel Commission. After World War II, when Britain decided to give up the mandate, the UN established a special committee, UNESCO, on the basis of whose recommendations the decision was made. According to the decision, the British mandate will end by May 1, 1948, and Britain will complete the withdrawal of its forces within another three months. Reporter David Giladi from \"Yediot Ahronoth\" described the celebrations in Tel Aviv: dancing, singing, raising flags and thousands going around in carts. This coming Sunday, November 29, 2026, it will be 79 years since the decision. The article was published on November 29, 2013, sixty-six years after the vote. According to the article, the celebrations in the Land of Israel did not last long. The journalist described that \"Tel Aviv did not let its eyes sleep\" that night, and thus one of the key days on the way to the establishment of the state was celebrated. This is a day etched in historical memory.",
+     "questions": [
+      "Where were you on the day the state was established, or what did they tell you about it?",
+      "What do you remember from big celebrations in the street?",
+      "What is important for the younger generation to know about that period, in your opinion? Explain."
+     ],
+     "qlevels": {
+      "easy": [
+       "Were 33 countries in favor of the decision?",
+       "Was the decision made in 1947 or in 1957?",
+       "Did they celebrate in the streets in Tel Aviv?"
+      ],
+      "medium": [
+       "Which body approved the decision?",
+       "How many countries were in favor and how many against?",
+       "Where did they celebrate, according to the article?"
+      ],
+      "hard": [
+       "What is the number of the resolution, and what did it determine?",
+       "Which committee was established by the UN before the resolution?",
+       "By when was the British Mandate supposed to end according to the resolution?"
+      ]
+     }
+    },
+    "ru": {
+     "title": "Через два дня: 79 лет со дня решения ООН о разделе Эрец-Исраэль",
+     "easy": "29 ноября 1947 года в ООН прошло голосование.\nОни голосовали за раздел Эрец-Исраэль.\n33 государства были за.\n13 государств были против.\nВ Тель-Авиве праздновали на улицах.\nСегодня отмечается 79 лет со дня того дня.",
+     "medium": "29 ноября 1947 года Генеральная Ассамблея ООН большинством в 33 голоса против 13 утвердила план раздела, резолюцию 181. Резолюция касалась раздела Эрец-Исраэль на два государства, еврейское и арабское. Эта идея впервые поднялась на обсуждение в 30-х годах в предложениях комиссии Пиля. Согласно резолюции, британский мандат завершился бы к 1 мая 1948 года. В Тель-Авиве танцевали и пели на улицах, а один журналист описал это так: город «был пьян от победы». В воскресенье, 29 ноября 2026 года, исполнится 79 лет со дня принятия резолюции. Голосование состоялось на Генеральной Ассамблее ООН.",
+     "hard": "29 ноября 1947 года, 29 кислева, Генеральная Ассамблея ООН большинством в 33 голоса против 13 утвердила план раздела, известный как резолюция 181. Резолюция касалась раздела Эрец-Исраэль на два государства, еврейское и арабское, в соответствии с распределением населения в разных местах. Идея раздела впервые поднялась для серьезного международного обсуждения в 30-х годах в рекомендациях комиссии Пиля. После Второй мировой войны, когда Великобритания решила отказаться от мандата, ООН создала специальную комиссию UNSCOP, на основе рекомендаций которой и было принято решение. Согласно резолюции, британский мандат должен был завершиться к 1 мая 1948 года, а Великобритания завершить вывод своих сил в течение трех дополнительных месяцев. Корреспондент Давид Гилади из «Едиот ахронот» описал празднования в Тель-Авиве: танцы, пение, поднятие флагов и тысячи людей, ходивших кругами. В ближайшее воскресенье, 29 ноября 2026 года, исполнится 79 лет со дня принятия резолюции. Статья была опубликована 29 ноября 2013 года, через шестьдесят шесть лет после голосования. Согласно статье, празднования в Эрец-Исраэль продолжались недолго. Журналист описал, что «Тель-Авив не сомкнул глаз» в ту ночь, и так праздновался один из главных дней на пути к созданию государства. Это день, который запечатлелся в исторической памяти.",
+     "questions": [
+      "Где вы были в день, когда было создано государство, или что вам о нем рассказывали?",
+      "Что вам запомнилось из больших празднований на улице?",
+      "Что, по вашему мнению, важно знать молодому поколению о той эпохе? Обоснуйте."
+     ],
+     "qlevels": {
+      "easy": [
+       "Было ли 33 государства за резолюцию?",
+       "Резолюция была принята в 1947 или в 1957 году?",
+       "Праздновали ли в Тель-Авиве на улицах?"
+      ],
+      "medium": [
+       "Какой орган утвердил резолюцию?",
+       "Сколько государств было за и сколько против?",
+       "Где праздновали, согласно репортажу?"
+      ],
+      "hard": [
+       "Каков номер резолюции и что в ней определялось?",
+       "Какая комиссия была создана ООН до принятия резолюции?",
+       "До какого момента должен был завершиться британский мандат согласно резолюции?"
+      ]
+     }
+    },
+    "es": {
+     "title": "En dos días: 79 años de la decisión de la ONU sobre la partición de la Tierra de Israel",
+     "easy": "El 29 de noviembre de 1947 votaron en la ONU.\nVotaron sobre la partición de la Tierra de Israel.\n33 países estuvieron a favor.\n13 países estuvieron en contra.\nEn Tel Aviv celebraron en las calles.\nHoy se conmemoran 79 años de aquel día.",
+     "medium": "El 29 de noviembre de 1947 aprobó la Asamblea de la ONU por una mayoría de 33 votos contra 13 el plan de partición, la resolución 181. La resolución trató sobre la partición de la Tierra de Israel en dos Estados, uno judío y uno árabe. La idea surgió por primera vez para debate en los años 30, en las propuestas de la comisión Peel. Según la resolución, el Mandato británico terminará antes del 1 de mayo de 1948. En Tel Aviv bailaron y cantaron en las calles, y un periodista lo describió así: la ciudad \"estaba ebria de victoria\". El domingo 29 de noviembre de 2026 se cumplirán 79 años de la resolución. La votación se llevó a cabo en la Asamblea General de la ONU.",
+     "hard": "El 29 de noviembre de 1947, Jet zei b'Noviembre, aprobó la Asamblea de la ONU por una mayoría de 33 votos contra 13 el plan de partición, conocido como la resolución 181. La resolución trató sobre la partición de la Tierra de Israel en dos Estados, uno judío y uno árabe, según la distribución de la población en distintos lugares. La idea de una partición surgió por primera vez para debate internacional serio en los años 30, en las recomendaciones de la comisión Peel. Después de la Segunda Guerra Mundial, cuando Gran Bretaña decidió renunciar al Mandato, la ONU estableció una comisión especial, UNSCOP, sobre cuya base de recomendaciones se adoptó la resolución. Según la resolución, el Mandato británico terminará antes del 1 de mayo de 1948, y Gran Bretaña completará la evacuación de sus fuerzas dentro de otros tres meses. El corresponsal David Giladi de \"Yedioth Ahronoth\" describió las celebraciones en Tel Aviv: bailes, cantos, izamiento de banderas y miles que rondaban en círculos. El próximo domingo, 29 de noviembre de 2026, se cumplirán 79 años de la resolución. El reportaje fue publicado el 29 de noviembre de 2013, sesenta y seis años después de la votación. Según el reportaje, las celebraciones en la Tierra de Israel no duraron mucho tiempo. El periodista describió que \"Tel Aviv no dio sueño a sus ojos\" en aquella noche, y así se celebró uno de los días centrales en el camino hacia el establecimiento del Estado. Este es un día que quedó grabado en la memoria histórica.",
+     "questions": [
+      "¿Dónde estuvieron ustedes en el día en que se estableció el Estado, o qué les contaron sobre él?",
+      "¿Qué recuerdan ustedes de grandes celebraciones en la calle?",
+      "¿Qué es importante que la joven generación sepa sobre aquella época, según la opinión de ustedes? Justifiquen."
+     ],
+     "qlevels": {
+      "easy": [
+       "¿Estuvieron 33 países a favor de la resolución?",
+       "¿Se adoptó la resolución en 1947 o en 1957?",
+       "¿Celebraron en Tel Aviv en las calles?"
+      ],
+      "medium": [
+       "¿Qué órgano aprobó la resolución?",
+       "¿Cuántos países estuvieron a favor y cuántos en contra?",
+       "¿Dónde celebraron, según el artículo?"
+      ],
+      "hard": [
+       "¿Cuál es el número de la resolución y qué estableció?",
+       "¿Qué comisión fue creada por la ONU antes de la resolución?",
+       "¿Hasta cuándo se suponía que terminaría el Mandato británico según la resolución?"
+      ]
+     }
+    }
+   },
+   "audio": [
+    "easy",
+    "medium",
+    "hard"
+   ],
+   "audioTr": {
+    "en": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "ru": [
+     "easy",
+     "medium",
+     "hard"
+    ],
+    "es": [
+     "easy",
+     "medium",
+     "hard"
+    ]
+   }
   },
   {
    "id": "2026-11-26-israel-1",
@@ -3265,7 +3913,7 @@
      },
      "questions": [
       "Do you remember a period when different parties sat together in the same government? Tell what you remember.",
-      "In your opinion, what is important for people with different opinions to succeed in working together? Explain.",
+      "In your opinion, what is important so that people with different opinions succeed in working together? Explain.",
       "How would you describe to your grandchildren what a government is and what it does?"
      ]
     },
@@ -3293,8 +3941,8 @@
      },
      "questions": [
       "Помните ли вы период, когда разные партии заседали вместе в одном правительстве? Расскажите, что вам запомнилось.",
-      "По вашему мнению, что важно для того, чтобы люди с разными мнениями смогли успешно работать вместе? Обоснуйте.",
-      "Как бы вы описали внукам, что такое правительство и что оно делает?"
+      "Как вы думаете, что важно для того, чтобы люди с разными взглядами смогли работать вместе? Обоснуйте.",
+      "Как бы вы описали внукам, что такое правительство и чем оно занимается?"
      ]
     },
     "es": {
@@ -3320,8 +3968,8 @@
       ]
      },
      "questions": [
-      "¿Recuerdan una época en la que diferentes partidos estuvieron sentados juntos en el mismo gobierno? Cuéntennos qué recuerdan.",
-      "En opinión de ustedes, ¿qué es importante para que personas con diferentes opiniones logren trabajar juntas? Justifiquen su respuesta.",
+      "¿Recuerdan una época en la que diferentes partidos sentaron juntos en el mismo gobierno? Cuéntennos qué recuerdan.",
+      "En su opinión, ¿qué es importante para que personas con diferentes opiniones logren trabajar juntas? Justifiquen.",
       "¿Cómo le describirían a sus nietos qué es un gobierno y qué hace?"
      ]
     }
@@ -3412,8 +4060,8 @@
      },
      "questions": [
       "Do you remember an important exam you took in your life? How did you feel?",
-      "What is your opinion: how can fairness be maintained in exams? Explain.",
-      "How do you think technology is changing studies and exams nowadays?"
+      "What is your opinion: how is it possible to maintain fairness in exams? Explain.",
+      "How in your opinion is technology changing studies and exams nowadays?"
      ]
     },
     "ru": {
@@ -3439,8 +4087,8 @@
       ]
      },
      "questions": [
-      "Помните ли вы важный экзамен, который вы сдали в своей жизни? Что вы чувствовали?",
-      "Что вы думаете: как можно сохранять честность на экзаменах? Обоснуйте.",
+      "Помните ли вы важный экзамен, который вы сдавали в своей жизни? Что вы чувствовали?",
+      "Каково ваше мнение: как можно сохранять честность на экзаменах? Обоснуйте.",
       "Как, по вашему мнению, технологии меняют учебу и экзамены в наши дни?"
      ]
     },
@@ -3467,8 +4115,8 @@
       ]
      },
      "questions": [
-      "¿Recuerdan algún examen importante que hayan aprobado en su vida? ¿Cómo se sintieron?",
-      "¿Qué opinan: cómo se puede mantener la honestidad en los exámenes? Justifiquen su respuesta.",
+      "¿Recuerdan un examen importante que pasaron en sus vidas? ¿Cómo se sintieron?",
+      "¿Qué opinan: cómo se puede mantener la justicia en los exámenes? Justifiquen.",
       "¿Cómo creen que la tecnología está cambiando los estudios y los exámenes hoy en día?"
      ]
     }
@@ -3705,9 +4353,9 @@
       ]
      },
      "questions": [
-      "Have you ever flown to the United States or abroad? Tell how it was.",
-      "What do you think is the advantage of two airlines cooperating? Explain.",
-      "To which destination in the world would you like to fly if you could choose?"
+      "Did you ever fly to the United States or abroad? Tell how it was.",
+      "What in your opinion is the advantage in two airlines cooperating? Explain.",
+      "To which destination in the world would you want to fly if you could choose?"
      ]
     },
     "ru": {
@@ -3761,9 +4409,9 @@
       ]
      },
      "questions": [
-      "¿Han volado alguna vez a Estados Unidos o al extranjero? Cuéntennos cómo fue.",
-      "En opinión de ustedes, ¿cuál es la ventaja de que dos aerolíneas cooperen? Justifiquen su respuesta.",
-      "¿A qué destino del mundo les gustaría volar si pudieran elegir?"
+      "¿Alguna vez volaron a Estados Unidos o al extranjero? Cuéntennos cómo fue.",
+      "¿Cuál creen que es la ventaja de que dos aerolíneas cooperen? Justifiquen.",
+      "¿A qué destino en el mundo les gustaría volar si pudieran elegir?"
      ]
     }
    },
@@ -3852,8 +4500,8 @@
       ]
      },
      "questions": [
-      "Have you ever bought a product and noticed there was a problem with it? Tell what happened.",
-      "Why do you think it is important for companies to issue a recall quickly? Explain.",
+      "Did you ever buy a product and notice there is a problem in it? Tell what happened.",
+      "Why in your opinion is it important that companies publish a recall quickly? Explain.",
       "What do you check on the packaging before you buy a food product?"
      ]
     },
@@ -3880,8 +4528,8 @@
       ]
      },
      "questions": [
-      "Покупали ли вы когда-нибудь товар и замечали, что с ним что-то не так? Расскажите, что произошло.",
-      "Почему, по вашему мнению, важно, чтобы компании быстро объявляли от отзыв продукции? Обоснуйте.",
+      "Покупали ли вы когда-нибудь товар и замечали в нем проблему? Расскажите, что произошло.",
+      "Почему, по вашему мнению, компаниям важно быстро объявлять от отзыве товара? Обоснуйте.",
       "Что вы проверяете на упаковке перед покупкой пищевого продукта?"
      ]
     },
@@ -3908,9 +4556,9 @@
       ]
      },
      "questions": [
-      "¿Han comprado alguna vez un producto y se han dado cuenta de que tiene un problema? Cuéntennos qué pasó.",
-      "¿Por qué creen que es importante que las empresas publiquen un retiro del mercado rápidamente? Justifiquen su respuesta.",
-      "¿Qué comprueban en el envase antes de comprar un producto alimenticio?"
+      "¿Alguna vez compraron un producto y notaron que tenía un problema? Cuéntennos qué pasó.",
+      "¿Por qué creen que es importante que las empresas publiquen un retiro del mercado rápido? Justifiquen.",
+      "¿Qué revisan en el envase antes de comprar un producto alimenticio?"
      ]
     }
    },
@@ -4000,8 +4648,8 @@
      },
      "questions": [
       "Would you dare to ride in such an air taxi? Explain.",
-      "How do you think cities will change in the future because of new transportation?",
-      "What is the most special journey you traveled on in your life?"
+      "How in your opinion will cities change in the future because of new transportation?",
+      "What is the most special trip you traveled on in your life?"
      ]
     },
     "ru": {
@@ -4027,9 +4675,9 @@
       ]
      },
      "questions": [
-      "Рискнули бы вы проехать в таком воздушном такси? Обоснуйте.",
+      "Осмелились ли вы бы проехаться на таком летающем такси? Обоснуйте.",
       "Как, по вашему мнению, изменятся города в будущем из-за нового транспорта?",
-      "Какая поездка в вашей жизни была самой особенной?"
+      "Какая поездка была самой особенной в вашей жизни?"
      ]
     },
     "es": {
@@ -4055,9 +4703,9 @@
       ]
      },
      "questions": [
-      "¿Se atreverían a viajar en un taxi aéreo así? Justifiquen su respuesta.",
+      "¿Se atreverían a viajar en un taxi aéreo así? Justifiquen.",
       "¿Cómo creen que cambiarán las ciudades en el futuro debido al nuevo transporte?",
-      "¿Cuál es el viaje más especial que han hecho en su vida?"
+      "¿Cuál es el viaje más especial en el que viajaron en sus vidas?"
      ]
     }
    },
@@ -4146,8 +4794,8 @@
       ]
      },
      "questions": [
-      "How do you like the weather in autumn? Tell.",
-      "Why do you think it is important to check the forecast before leaving the house? Explain.",
+      "How do you like the weather in the autumn? Tell.",
+      "Why in your opinion is it important to check a forecast before leaving the house? Explain.",
       "What clothes do you wear on such an autumn day?"
      ]
     },
@@ -4203,7 +4851,7 @@
      },
      "questions": [
       "¿Cómo les gusta el clima en otoño? Cuéntennos.",
-      "¿Por qué creen que es importante consultar el pronóstico antes de salir de casa? Justifiquen su respuesta.",
+      "¿Por qué creen que es importante revisar el pronóstico antes de salir de casa? Justifiquen.",
       "¿Qué ropa se ponen en un día otoñal así?"
      ]
     }
@@ -4293,8 +4941,8 @@
       ]
      },
      "questions": [
-      "What is your favorite sufganiyah? Tell what filling you like.",
-      "Why do you think sufganiyot prices vary so much from store to store? Explain.",
+      "What is your favorite sufganiya? Tell what filling you like.",
+      "Why in your opinion are sufganiyot prices so different between one store and another? Explain.",
       "How would you celebrate Hanukkah when you were young?"
      ]
     },
@@ -4321,8 +4969,8 @@
       ]
      },
      "questions": [
-      "Какая пончик ваш любимый? Расскажите, какую начинку вы любите.",
-      "Почему, по вашему мнению, цены на пончики так сильно различаются в разных магазинах? Обоснуйте.",
+      "Какой ваш любимый пончик? Расскажите, какую начинку вы любите.",
+      "Почему, по вашему мнению, цены на пончики так сильно отличаются от магазина к магазину? Обоснуйте.",
       "Как вы праздновали Хануку, когда были молоды?"
      ]
     },
@@ -4350,7 +4998,7 @@
      },
      "questions": [
       "¿Cuál es su sufganiyá favorita? Cuéntennos qué relleno les gusta.",
-      "¿Por qué creen que los precios de los sufganiot son tan diferentes de una tienda a otra? Expliquen su respuesta.",
+      "¿Por qué creen que los precios de las sufganiot son tan diferentes entre una tienda y otra? Justifiquen.",
       "¿Cómo celebraban Janucá cuando eran jóvenes?"
      ]
     }
@@ -4445,8 +5093,8 @@
      },
      "questions": [
       "Do you like to travel in nature? Tell about a place you loved.",
-      "What do you think can be done so that a trip is pleasant even when there are many people? Explain.",
-      "Which place in the country would you like to visit again?"
+      "What in your opinion can be done so that the trip will be pleasant even when there are many people? Explain.",
+      "Which place in the country would you want to visit again?"
      ]
     },
     "ru": {
@@ -4472,9 +5120,9 @@
       ]
      },
      "questions": [
-      "Любите ли вы путешествовать на природе? Расскажите о месте, которое вам понравилось.",
-      "Что, по вашему мнению, можно сделать, чтобы прогулка была приятной даже тогда, когда много людей? Обоснуйте.",
-      "Какое место в стране вы хотели бы посетить снова?"
+      "Любите ли вы гулять на природе? Расскажите о месте, которое вам понравилось.",
+      "Что, по вашему мнению, можно сделать, чтобы прогулка была приятной даже при большом скоплении людей? Обоснуйте.",
+      "Какое место в стране вы бы хотели посетить снова?"
      ]
     },
     "es": {
@@ -4500,8 +5148,8 @@
       ]
      },
      "questions": [
-      "¿Les gusta pasear por la naturaleza? Cuéntennos sobre un lugar que les haya gustado.",
-      "¿Qué creen que se puede hacer para que el paseo sea agradable incluso cuando hay mucha gente? Expliquen su respuesta.",
+      "¿Les gusta pasear por la naturaleza? Cuéntennos sobre un lugar que les gustó.",
+      "¿Qué creen que se puede hacer para que el paseo sea agradable también cuando hay mucha gente? Justifiquen.",
       "¿Qué lugar del país les gustaría visitar de nuevo?"
      ]
     }
@@ -4591,9 +5239,9 @@
       ]
      },
      "questions": [
-      "How did you celebrate Hanukkah when you were children? Tell about a favorite memory.",
-      "Which Hanukkah food do you like best: a sufganiyah or a levibah? Explain.",
-      "What is the meaning of light and candles in your eyes?"
+      "How did you celebrate Hanukkah when you were children? Tell about a beloved memory.",
+      "Which Hanukkah food do you like the most: a sufganiya or a leviva? Explain.",
+      "What is the meaning of light and of candles in your eyes?"
      ]
     },
     "ru": {
@@ -4619,8 +5267,8 @@
       ]
      },
      "questions": [
-      "Как вы праздновали Хануку, когда были детьми? Расскажите о любимом воспоминании.",
-      "Какое ханукальное блюдо вы любите больше всего: пончик или драник? Обоснуйте.",
+      "Как вы праздновали Хануку в детстве? Расскажите о любимом воспоминании.",
+      "Какое ханукальное блюдо вы любите больше всего: пончик или латке? Обоснуйте.",
       "Каково значение света и свечей по вашему мнению?"
      ]
     },
@@ -4648,8 +5296,8 @@
      },
      "questions": [
       "¿Cómo celebraban Janucá cuando eran niños? Cuéntennos sobre un recuerdo querido.",
-      "¿Qué plato de Janucá les gusta más: sufganiyá o latke? Expliquen su respuesta.",
-      "¿Cuál es el significado de la luz y de las velas según ustedes?"
+      "¿Qué comida de Janucá les gusta más: sufganiyá o levivá? Justifiquen.",
+      "¿Cuál es el significado de la luz y de las velas en su opinión?"
      ]
     }
    },
@@ -4739,8 +5387,8 @@
      },
      "questions": [
       "Have you ever visited Morocco or known someone who comes from there? Tell.",
-      "What do you think is important to check before buying a flight ticket? Explain.",
-      "What do you like most to see or eat when traveling abroad?"
+      "What in your opinion is important to check before buying a flight ticket? Explain.",
+      "What do you most like to see or eat when traveling abroad?"
      ]
     },
     "ru": {
@@ -4766,9 +5414,9 @@
       ]
      },
      "questions": [
-      "Бывали ли вы когда-нибудь в Марокко или знали кого-то, кто оттуда родом? Расскажите.",
+      "Бывали ли вы когда-нибудь в Марокко или знали кого-то оттуда? Расскажите.",
       "Что, по вашему мнению, важно проверить перед покупкой авиабилета? Обоснуйте.",
-      "Что вы больше всего любите видеть или есть во время путешествий за границей?"
+      "Что вы больше всего любите видеть или есть во время поездок за границу?"
      ]
     },
     "es": {
@@ -4794,8 +5442,8 @@
       ]
      },
      "questions": [
-      "¿Alguna vez visitaron Marruecos o conocieron a alguien que venga de allí? Cuéntennos.",
-      "¿Qué creen que es importante revisar antes de comprar un billete de avión? Expliquen su respuesta.",
+      "¿Alguna vez visitaron Marruecos o conocieron a alguien que viene de allí? Cuéntennos.",
+      "¿Qué creen que es importante revisar antes de comprar un boleto de avión? Justifiquen.",
       "¿Qué es lo que más les gusta ver o comer cuando viajan al extranjero?"
      ]
     }
@@ -4894,9 +5542,9 @@
       ]
      },
      "questions": [
-      "Have you ever witnessed a reconciliation between neighbors or family members? Tell.",
-      "What do you think helps two sides in a conflict make peace? Explain.",
-      "How can quarrels between neighbors and families be prevented?"
+      "Were you ever witness to a reconciliation between neighbors or family members? Tell.",
+      "What in your opinion helps two sides in a conflict to make peace? Explain.",
+      "How is it possible to prevent fights between neighbors and between families?"
      ]
     },
     "ru": {
@@ -4922,7 +5570,7 @@
       ]
      },
      "questions": [
-      "Бывали ли вы когда-нибудь свидетелями примирения между соседями или членами семьи? Расскажите.",
+      "Были ли вы когда-нибудь свидетелем примирения между соседями или членами семьи? Расскажите.",
       "Что, по вашему мнению, помогает двум сторонам конфликта заключить мир? Обоснуйте.",
       "Как можно предотвратить ссоры между соседями и между семьями?"
      ]
@@ -4950,9 +5598,9 @@
       ]
      },
      "questions": [
-      "¿Alguna vez fueron testigos de una reconciliación entre vecinos o familiares? Cuéntennos.",
-      "¿Qué creen que ayuda a dos partes en un conflicto a hacer la paz? Expliquen su respuesta.",
-      "¿Cómo se puede prevenir peleas entre vecinos y entre familias?"
+      "¿Alguna vez fueron testigos de una reconciliación entre vecinos o miembros de la familia? Cuéntennos.",
+      "¿Qué creen que ayuda a dos partes en un conflicto a hacer la paz? Justifiquen.",
+      "¿Cómo se pueden prevenir las peleas entre vecinos y entre familias?"
      ]
     }
    },
@@ -5045,8 +5693,8 @@
       ]
      },
      "questions": [
-      "Have you ever engaged in sports? In which branch and how long?",
-      "What do you think gives an athlete the strength to persevere? Explain.",
+      "Did you ever engage in sports? In which branch and how long?",
+      "What in your opinion gives an athlete strength to persevere? Explain.",
       "Which Israeli athlete do you remember, and why?"
      ]
     },
@@ -5073,7 +5721,7 @@
       ]
      },
      "questions": [
-      "Занимались ли вы когда-нибудь спортом? Каким видом и как долго?",
+      "Занимались ли вы когда-нибудь спортом? В каком виде спорта и как долго?",
       "Что, по вашему мнению, дает спортсмену силы упорствовать? Обоснуйте.",
       "Какой израильский спортсмен вам запомнился и почему?"
      ]
@@ -5102,7 +5750,7 @@
      },
      "questions": [
       "¿Alguna vez practicaron deporte? ¿En qué disciplina y cuánto tiempo?",
-      "¿Qué creen que le da a un deportista la fuerza para perseverar? Expliquen su respuesta.",
+      "¿Qué creen que le da a un deportista la fuerza para perseverar? Justifiquen.",
       "¿Qué deportista israelí recuerdan y por qué?"
      ]
     }
@@ -5339,7 +5987,7 @@
       ]
      },
      "questions": [
-      "Which season of the year is your favorite? Tell.",
+      "Which season of the year is your favorite? Tell us.",
       "Do you think it is too hot for the season? Explain.",
       "What do you like to do on a pleasant day at the end of November?"
      ]
@@ -5368,7 +6016,7 @@
      },
      "questions": [
       "Какое время года вы любите? Расскажите.",
-      "Считаете ли вы, что для этого сезона слишком жарко? Обоснуйте.",
+      "По вашему мнению, сейчас слишком жаркая погода для этого сезона? Объясните.",
       "Что вы любите делать в приятный день в конце ноября?"
      ]
     },
@@ -5395,1341 +6043,9 @@
       ]
      },
      "questions": [
-      "¿Qué estación del año les gusta? Cuéntennos.",
+      "¿Qué estación del año es su favorita? Cuéntennos.",
       "¿Creen que hace demasiado calor para la temporada? Expliquen su respuesta.",
       "¿Qué les gusta hacer en un día agradable a finales de noviembre?"
-     ]
-    }
-   },
-   "audioTr": {
-    "en": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "ru": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "es": [
-     "easy",
-     "medium",
-     "hard"
-    ]
-   }
-  },
-  {
-   "id": "2026-11-19-israel-1",
-   "topic": "israel",
-   "title": "מתן כהנא נבחר ליושב ראש הכנסת",
-   "easy": "הכנסת בחרה יושב ראש חדש.\nשמו מתן כהנא.\nהוא ממפלגה בשם ישר.\nהוא קיבל 66 קולות.\nאופיר כץ קיבל 52 קולות.\nאופיר כץ הוא מהליכוד.",
-   "medium": "בתחילת השבוע בחרה הכנסת ביושב ראש חדש: חבר הכנסת מתן כהנא ממפלגת ישר, בראשות גדי איזנקוט. כהנא קיבל 66 קולות. מועמד הליכוד, חבר הכנסת אופיר כץ, קיבל 52 קולות. היושב ראש הקודם היה אמיר אוחנה מהליכוד. לפי הדיווח, בין התומכים בכהנא היו חברי כנסת מהמפלגות הערביות, והמפלגות החרדיות הצביעו עם הגוש של בנימין נתניהו. בנאומו אמר כהנא שיפעל לשמירה על הממלכתיות, ושהכנסת תהיה בית לכל אזרחי המדינה. הבחירה נערכה בזמן שנמשכים המגעים להקמת ממשלה חדשה.",
-   "hard": "בתחילת השבוע, אחרי השעה 23:00, נערכה בכנסת הצבעה על בחירת יושב ראש חדש לכנסת. חבר הכנסת מתן כהנא ממפלגת ישר, בראשות גדי איזנקוט, נבחר ב-66 קולות. מועמד הליכוד, חבר הכנסת אופיר כץ, קיבל 52 קולות. היושב ראש הקודם היה אמיר אוחנה מהליכוד.\n\nלפי הדיווח, 66 התומכים בכהנא כללו 18 חברי כנסת מהמפלגות הערביות. חבר הכנסת יאסר חוג'יראת מרע\"מ היה הערבי היחיד שלא הצביע בעד כהנא, וגם לא תמך באופיר כץ. המפלגות החרדיות הצביעו עם הגוש של נתניהו.\n\nבנאומו אמר כהנא שיפעל לשמירה על הממלכתיות ולכיבוד מוסדות המדינה, ושהכנסת תציית לפסקי הדין של בית המשפט. הוא קרא לאיזנקוט להפוך כל אבן כדי להקים ממשלה שתאחד את הציבור, והביע תקווה שהממשלה הבאה תתקן את מערכת האיזונים והבלמים בין הרשויות, בהסכמה רחבה. הבחירה נערכה בזמן שנמשכים המגעים להקמת הממשלה.\n\nיושב ראש הכנסת מנהל את דיוני המליאה ושומר על הסדר בהם, והוא אחד התפקידים הבכירים במערכת הפוליטית בישראל. כהנא הוא חבר כנסת ממפלגת ישר, והכתבה אינה מפרטת פרטים ביוגרפיים נוספים עליו.",
-   "questions": [
-    "האם אתם זוכרים מי היה יושב ראש הכנסת כשהייתם צעירים?",
-    "לדעתכם, מה צריך להיות התפקיד של יושב ראש הכנסת? נמקו.",
-    "מה הייתם רוצים לשאול אותו אילו פגשתם אותו?"
-   ],
-   "sources": [
-    {
-     "title": "ynet, 17.11.2026: מתן כהנא נבחר ליו\"ר הכנסת: \"גדי, הפוך כל אבן להקים ממשלה שתאחד אותנו\"",
-     "url": "https://www.ynet.co.il/news/article/ryyt36kcmx"
-    }
-   ],
-   "verified": true,
-   "date": "2026-11-19",
-   "ts": 1795042039,
-   "qlevels": {
-    "easy": [
-     "האם מתן כהנא נבחר ליושב ראש הכנסת?",
-     "האם הוא קיבל 66 קולות או 52 קולות?",
-     "האם אופיר כץ הוא מהליכוד?"
-    ],
-    "medium": [
-     "כמה קולות קיבל מתן כהנא?",
-     "מי היה מועמד הליכוד?",
-     "מי היה היושב ראש הקודם?"
-    ],
-    "hard": [
-     "כמה חברי כנסת ערבים היו בין התומכים בכהנא, לפי הדיווח?",
-     "מי היה חבר הכנסת הערבי שלא הצביע בעד כהנא?",
-     "מה אמר כהנא על פסקי הדין של בית המשפט?"
-    ]
-   },
-   "audio": [
-    "easy",
-    "medium",
-    "hard"
-   ],
-   "tr": {
-    "en": {
-     "title": "Matan Kahana was elected Speaker of the Knesset",
-     "easy": "The Knesset elected a new chairman.\nHis name is Matan Kahana.\nHe is from a party called Ishar.\nHe received 66 votes.\nOfir Katz received 52 votes.\nOfir Katz is from Likud.",
-     "medium": "At the beginning of the week, the Knesset elected a new speaker: Member of the Knesset Matan Kahane from the Ishar party, led by Gadi Eisenkot. Kahana received 66 votes. The Likud candidate, MK Ofir Katz, received 52 votes. The previous chairman was Amir Ohana of the Likud. According to the report, among the supporters of Kahana were Knesset members from the Arab parties, and the ultra-orthodox parties voted with Benjamin Netanyahu's bloc. In his speech, Kahana said that he would work to preserve statehood, and that the Knesset would be a home for all citizens of the country. The election was held while the negotiations to form a new government continue.",
-     "hard": "At the beginning of the week, after 23:00, a vote was held in the Knesset on the election of a new speaker for the Knesset. Member of Knesset Matan Kahane from the Ishar party, led by Gadi Eisenkot, was elected with 66 votes. The Likud candidate, MK Ofir Katz, received 52 votes. The previous chairman was Amir Ohana of the Likud.\n\nAccording to the report, the 66 supporters of Kahana included 18 Knesset members from the Arab parties. Member of Knesset Yasser Hujirat of Ra'am was the only Arab who did not vote for Kahana, nor did he support Ofir Katz. The ultra-orthodox parties voted with Netanyahu's bloc.\n\nIn his speech, Kahana said that he would work to preserve statehood and respect state institutions, and that the Knesset would obey the court's rulings. He called on Eisenkot to turn over every stone in order to establish a government that would unite the public, and expressed hope that the next government would fix the system of checks and balances between the authorities, with broad agreement. The election was held while the negotiations for the formation of the government continue.\n\nThe Speaker of the Knesset presides over plenary debates and maintains order in them, and is one of the senior positions in the political system in Israel. Kahana is a member of the Knesset from the Ishar party, and the article does not specify additional biographical details about him.",
-     "qlevels": {
-      "easy": [
-       "Was Matan Kahana elected Speaker of the Knesset?",
-       "Did he receive 66 votes or 52 votes?",
-       "Is Ofir Katz from the Likud?"
-      ],
-      "medium": [
-       "How many votes did Matan Kahana receive?",
-       "Who was the Likud candidate?",
-       "Who was the previous Speaker?"
-      ],
-      "hard": [
-       "How many Arab Members of Knesset were among the supporters of Kahana, according to the report?",
-       "Who was the Arab Member of Knesset who did not vote in favor of Kahana?",
-       "What did Kahana say about the court's rulings?"
-      ]
-     },
-     "questions": [
-      "Do you remember who was the Speaker of the Knesset when you were young?",
-      "In your opinion, what should the role of the Speaker of the Knesset be? Explain.",
-      "What would you like to ask him if you met him?"
-     ]
-    },
-    "ru": {
-     "title": "Матан Кахана избрана спикером Кнессета",
-     "easy": "Кнессет избрал нового председателя.\nЕго зовут Матан Кахана.\nОн из партии под названием Ишар.\nОн получил 66 голосов.\nОфир Кац получил 52 голоса.\nОфир Кац из Ликуда.",
-     "medium": "В начале недели Кнессет избрал нового спикера: депутата Кнессета Матана Кахане от партии Ишар, возглавляемой Гади Айзенкотом. Кахана получил 66 голосов. Кандидат от «Ликуда», депутат Кнессета Офир Кац, получил 52 голоса. Предыдущим председателем был Амир Оана из Ликуда. Согласно сообщению, среди сторонников Каханы были депутаты Кнессета от арабских партий, а ультраортодоксальные партии проголосовали вместе с блоком Биньямина Нетаньяху. В своей речи Кахана заявил, что будет работать над сохранением государственности, и что Кнессет станет домом для всех граждан страны. Выборы состоялись, пока продолжаются переговоры о формировании нового правительства.",
-     "hard": "В начале недели после 23:00 в Кнессете состоялось голосование по выборам нового спикера Кнессета. Депутат Кнессета Матан Кахане от партии «Ишар», возглавляемой Гади Айзенкотом, был избран 66 голосами. Кандидат от «Ликуда», депутат Кнессета Офир Кац, получил 52 голоса. Предыдущим председателем был Амир Оана из Ликуда.\n\nСогласно отчету, среди 66 сторонников Каханы было 18 депутатов Кнессета от арабских партий. Член Кнессета Ясир Худжират из Раама был единственным арабом, который не голосовал за Кахану и не поддерживал Офира Каца. Ультраортодоксальные партии проголосовали вместе с блоком Нетаньяху.\n\nВ своей речи Кахана заявил, что будет работать над сохранением государственности и уважением государственных институтов, а также что Кнессет будет подчиняться решениям суда. Он призвал Айзенкота перевернуть все, чтобы создать правительство, которое объединило бы общественность, и выразил надежду, что следующее правительство наладит систему сдержек и противовесов между властями при широком согласии. Выборы состоялись, пока продолжаются переговоры о формировании правительства.\n\nСпикер Кнессета председательствует на пленарных дебатах и ​​поддерживает в них порядок, а также занимает одну из высших должностей в политической системе Израиля. Кахана является депутатом Кнессета от партии «Ишар», и в статье не приводятся дополнительные биографические данные о нем.",
-     "qlevels": {
-      "easy": [
-       "Был ли Матан Кахана избран председателем Кнессета?",
-       "Получил ли он 66 голосов или 52 голоса?",
-       "Офир Кац из партии «Ликуד»?"
-      ],
-      "medium": [
-       "Сколько голосов получил Матан Кахана?",
-       "Кто был кандидатом от партии «Ликуד»?",
-       "Кто был предыдущим председателем?"
-      ],
-      "hard": [
-       "Сколько арабских депутатов Кнессета были среди поддержавших Кахану, согласно сообщению?",
-       "Кто был тем арабским депутатом Кнессета, который не голосовал за Кахану?",
-       "Что сказал Кахана о судебных решениях суда?"
-      ]
-     },
-     "questions": [
-      "Помните ли вы, кто был председателем Кнессета, когда вы были молоды?",
-      "Какова, по вашему мнению, должна быть роль председателя Кнессета? Обоснуйте.",
-      "О чем бы вы хотели спросить его, если бы встретили?"
-     ]
-    },
-    "es": {
-     "title": "Matan Kahana fue elegido presidente de la Knesset",
-     "easy": "La Knesset eligió un nuevo presidente.\nSu nombre es Matan Kahana.\nEs de un partido llamado Ishar.\nRecibió 66 votos.\nOfir Katz recibió 52 votos.\nOfir Katz es del Likud.",
-     "medium": "A principios de semana, la Knesset eligió un nuevo presidente: el miembro de la Knesset Matan Kahane del partido Ishar, liderado por Gadi Eisenkot. Kahana recibió 66 votos. El candidato del Likud, el diputado Ofir Katz, recibió 52 votos. El presidente anterior fue Amir Ohana, del Likud. Según el informe, entre los partidarios de Kahana se encontraban miembros de la Knesset de los partidos árabes, y los partidos ultraortodoxos votaron con el bloque de Benjamin Netanyahu. En su discurso, Kahana dijo que trabajaría para preservar la condición de Estado y que la Knesset sería un hogar para todos los ciudadanos del país. La elección se celebró mientras continúan las negociaciones para formar un nuevo gobierno.",
-     "hard": "A principios de semana, después de las 23:00 horas, se celebró en la Knesset una votación para elegir un nuevo presidente de la Knesset. El miembro de la Knesset Matan Kahane del partido Ishar, liderado por Gadi Eisenkot, fue elegido con 66 votos. El candidato del Likud, el diputado Ofir Katz, recibió 52 votos. El presidente anterior fue Amir Ohana, del Likud.\n\nSegún el informe, entre los 66 partidarios de Kahana se encontraban 18 miembros de la Knesset de partidos árabes. El miembro de la Knesset Yasser Hujirat de Ra'am fue el único árabe que no votó por Kahana ni apoyó a Ofir Katz. Los partidos ultraortodoxos votaron con el bloque de Netanyahu.\n\nEn su discurso, Kahana dijo que trabajaría para preservar la condición de Estado y respetar las instituciones estatales, y que la Knesset obedecería los fallos del tribunal. Llamó a Eisenkot a remover todas las piedras para establecer un gobierno que uniera al público y expresó su esperanza de que el próximo gobierno arregle el sistema de controles y equilibrios entre las autoridades, con un amplio acuerdo. La elección se celebró mientras continúan las negociaciones para la formación del gobierno.\n\nEl presidente de la Knesset preside los debates plenarios y mantiene el orden en ellos, y es uno de los altos cargos del sistema político de Israel. Kahana es miembro de la Knesset por el partido Ishar y el artículo no especifica detalles biográficos adicionales sobre él.",
-     "qlevels": {
-      "easy": [
-       "¿Fue elegido Matan Kahana como presidente de la Knéset?",
-       "¿Recibió 66 votos o 52 votos?",
-       "¿Es Ofir Katz del Likud?"
-      ],
-      "medium": [
-       "¿Cuántos votos recibió Matan Kahana?",
-       "¿Quién fue el candidato del Likud?",
-       "¿Quién fue el presidente anterior?"
-      ],
-      "hard": [
-       "¿Cuántos diputados árabes estuvieron entre los partidarios de Kahana, según el informe?",
-       "¿Quién fue el diputado árabe que no votó a favor de Kahana?",
-       "¿Qué dijo Kahana sobre las sentencias del tribunal?"
-      ]
-     },
-     "questions": [
-      "¿Recuerdan quién era el presidente de la Knéset cuando eran jóvenes?",
-      "En su opinión, ¿cuál debe ser el papel del presidente de la Knéset? Expliquen su respuesta.",
-      "¿Qué les gustaría preguntarle si lo conocieran?"
-     ]
-    }
-   },
-   "audioTr": {
-    "en": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "ru": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "es": [
-     "easy",
-     "medium",
-     "hard"
-    ]
-   }
-  },
-  {
-   "id": "2026-11-19-israel-2",
-   "topic": "israel",
-   "title": "אחרי בחירת יושב ראש הכנסת: התגובות משני הגושים",
-   "easy": "הכנסת בחרה יושב ראש חדש.\nאחר כך הגיבו פוליטיקאים רבים.\nגדי איזנקוט אמר: פרק חדש מתחיל.\nבגוש נתניהו אמרו שזה פוגע בכנסת.\nכהנא קרא לאחדות בנאום שלו.",
-   "medium": "אחרי בחירת מתן כהנא ליושב ראש הכנסת הגיבו נציגים משני הגושים. גדי איזנקוט כתב: \"פרק חדש מתחיל\", והוסיף שהכנסת \"תחזור להיות של כל העם\". יאיר לפיד כתב שהוא \"גאה בו\", ושהבחירה \"היא מהלך חשוב בדרך לתיקון\". בגוש נתניהו אמרו שהמינוי פוגע בכבוד הכנסת, ושהוא נעשה בקולות של מפלגות שלדבריהם מתנגדות לקיום המדינה. בנימין נתניהו כתב שזו \"נקודת שפל בתולדות הכנסת\". בנאומו הראשון קרא כהנא לאחדות. הכתבה מציגה את עמדות שני הצדדים כפי שנמסרו.",
-   "hard": "אחרי בחירתו של מתן כהנא ליושב ראש הכנסת פרסמו נציגים משני הגושים תגובות, ואלה עיקרי הדברים, כפי שדווחו.\n\nבגוש השינוי: גדי איזנקוט כתב \"פרק חדש מתחיל\", והוסיף שהכנסת \"תחזור להיות של כל העם\". יאיר לפיד כתב שהוא \"גאה בו\", ושהבחירה \"היא מהלך חשוב בדרך לתיקון\". יאיר גולן כתב שהחלפת היושב ראש היא תחילת תיקון, ונעם תיבון אמר שהוא סומך על כהנא שיוביל את הכנסת \"בממלכתיות ובנחישות\".\n\nבגוש נתניהו: בנימין נתניהו, ראש ממשלת המעבר, כתב שזו \"נקודת שפל בתולדות הכנסת\". בצלאל סמוטריץ' והליכוד מסרו שהמינוי ייזכר \"לדיראון עולם\". בגוש אמרו, בין היתר, שהבחירה פוגעת בכבוד הכנסת ושהיא נשענת על קולות של מפלגות שלדבריהם מתנגדות לקיום המדינה.\n\nבנאומו הראשון קרא כהנא לאחדות. הבחירה נערכה במקביל למגעים להקמת ממשלה, שנמשכים.\n\nבתמצית: גוש השינוי רואה בבחירה צעד לתיקון ולאחדות, ומדגיש ממלכתיות ופיקוח אפקטיבי על הממשלה. גוש נתניהו רואה בה פגיעה בכבוד הכנסת, ומתנגד לתלות בקולות של מפלגות שלדבריו מתנגדות לקיום המדינה. איזנקוט הוסיף שיש לכבד את המיעוט גם אחרי קבלת החלטות.",
-   "questions": [
-    "האם אתם נוהגים לעקוב אחרי חדשות הכנסת?",
-    "איך אתם חושבים שאפשר לשוחח בכבוד כשיש מחלוקת? נמקו.",
-    "איזה נאום של פוליטיקאי נשאר לכם בזיכרון?"
-   ],
-   "sources": [
-    {
-     "title": "ynet, 17.11.2026: איזנקוט בירך על \"פרק חדש\", בגוש נתניהו תקפו: \"שפל\"",
-     "url": "https://www.ynet.co.il/news/article/r1etgh5azl"
-    }
-   ],
-   "verified": true,
-   "date": "2026-11-19",
-   "ts": 1795042039,
-   "qlevels": {
-    "easy": [
-     "האם איזנקוט אמר \"פרק חדש מתחיל\"?",
-     "האם הגיבו רק אנשי גוש אחד או אנשי שני הגושים?",
-     "האם כהנא קרא לאחדות בנאום שלו?"
-    ],
-    "medium": [
-     "מה כתב איזנקוט על הכנסת?",
-     "מה כתב נתניהו על הבחירה?",
-     "מה אמר כהנא בנאומו הראשון?"
-    ],
-    "hard": [
-     "איזה תואר מופיע בכתבה ליד שמו של נתניהו?",
-     "מי אמר שהוא סומך על כהנא שיוביל \"בממלכתיות ובנחישות\"?",
-     "מה מסרו סמוטריץ' והליכוד על המינוי?"
-    ]
-   },
-   "audio": [
-    "easy",
-    "medium",
-    "hard"
-   ],
-   "tr": {
-    "en": {
-     "title": "After the election of the Speaker of the Knesset: the reactions from the two blocs",
-     "easy": "The Knesset elected a new chairman.\nThen many politicians responded.\nGadi Eisenkot said: A new chapter begins.\nThe Netanyahu bloc said that it harms the Knesset.\nKahana called for unity in his speech.",
-     "medium": "After the election of Matan Kahane as Speaker of the Knesset, representatives from both blocs responded. Gadi Eisenkot wrote: \"A new chapter begins,\" and added that the Knesset \"will once again belong to the whole people.\" Yair Lapid wrote that he was \"proud of him\", and that the choice \"is an important step on the road to correction\". The Netanyahu bloc said that the appointment violates the honor of the Knesset, and that it was made with the votes of parties that they say oppose the existence of the state. Benjamin Netanyahu wrote that this is \"a low point in the history of the Knesset\". In his first speech Kahana called for unity. The article presents the positions of both sides as they were delivered.",
-     "hard": "After the election of Matan Kahane as Speaker of the Knesset, representatives from both blocs published responses, and these are the main points, as reported.\n\nIn the change block: Gadi Eisenkot wrote \"a new chapter is beginning\", and added that the Knesset \"will once again belong to the whole people\". Yair Lapid wrote that he was \"proud of him\", and that the choice \"is an important step on the road to correction\". Yair Golan wrote that the replacement of the Speaker is the beginning of a correction, and Noam Tivon said that he trusts Kahana to lead the Knesset \"with statesmanship and determination.\"\n\nIn the Netanyahu bloc: Binyamin Netanyahu, the prime minister of the transition government, wrote that this is \"a low point in the history of the Knesset.\" Bezalel Smotrich and the Likud stated that the appointment would be remembered \"for Diraon Olam\". The group said, among other things, that the election damages the honor of the Knesset and that it relies on the votes of parties that they say oppose the existence of the state.\n\nIn his first speech Kahana called for unity. The election was held at the same time as the talks to form a government, which continue.\n\nIn summary: the change bloc sees the election as a step for correction and unity, and emphasizes statesmanship and effective supervision of the government. The Netanyahu bloc sees it as an injury to the honor of the Knesset, and opposes depending on the votes of parties that it says oppose the existence of the state. Eisenkot added that the minority must be respected even after decisions have been made.",
-     "qlevels": {
-      "easy": [
-       "Did Eisenkot say \"A new chapter begins\"?",
-       "Did only people from one bloc react, or people from both blocs?",
-       "Did Kahana call for unity in his speech?"
-      ],
-      "medium": [
-       "What did Eizenkot write about the Knesset?",
-       "What did Netanyahu write about the choice?",
-       "What did Kahana say in his first speech?"
-      ],
-      "hard": [
-       "What title appears in the article next to Netanyahu's name?",
-       "Who said that he trusts Kahana to lead \"with statehood and determination\"?",
-       "What did Smotrich and Likud state about the appointment?"
-      ]
-     },
-     "questions": [
-      "Do you make a habit of following Knesset news?",
-      "How do you think it is possible to converse respectfully when there is a dispute? Explain.",
-      "Which politician's speech has stayed in your memory?"
-     ]
-    },
-    "ru": {
-     "title": "После выборов спикера Кнессета: реакция двух блоков",
-     "easy": "Кнессет избрал нового председателя.\nТогда многие политики отреагировали.\nГади Айзенкот сказал: Начинается новая глава.\nБлок Нетаньяху заявил, что это вредит Кнессету.\nВ своей речи Кахана призвал к единству.",
-     "medium": "После избрания Матана Кахане спикером Кнессета представители обоих блоков отреагировали. Гади Айзенкот написал: «Начинается новая глава», и добавил, что Кнессет «снова будет принадлежать всему народу». Яир Лапид написал, что «гордится им» и что этот выбор «является важным шагом на пути к исправлению». Блок Нетаньяху заявил, что это назначение нарушает честь Кнессета и что оно было произведено голосами партий, которые, по их словам, выступают против существования государства. Биньямин Нетаньяху написал, что это «низкая точка в истории Кнессета». В своей первой речи Кахана призвал к единству. В статье представлены позиции обеих сторон в том виде, в котором они были высказаны.",
-     "hard": "После избрания Матана Кахане спикером Кнессета представители обоих блоков опубликовали ответы, и это, как сообщается, основные тезисы.\n\nВ блоке изменений: Гади Айзенкот написал, что «начинается новая глава», и добавил, что Кнессет «снова будет принадлежать всему народу». Яир Лапид написал, что «гордится им» и что этот выбор «является важным шагом на пути к исправлению». Яир Голан написал, что замена спикера - это начало исправления, а Ноам Тивон заявил, что доверяет Кахане возглавить Кнессет \"с государственной мудростью и решимостью\".\n\nВ блоке Нетаньяху: Биньямин Нетаньяху, премьер-министр переходного правительства, написал, что это «низкая точка в истории Кнессета». Бецалель Смотрич и «Ликуд» заявили, что это назначение запомнится «Дираону Оламу». Группа заявила, среди прочего, что выборы наносят ущерб чести Кнессета и что они опираются на голоса партий, которые, по их словам, выступают против существования государства.\n\nВ своей первой речи Кахана призвал к единству. Выборы прошли одновременно с переговорами по формированию правительства, которые продолжаются.\n\nВкратце: блок перемен рассматривает выборы как шаг к исправлению и единству и подчеркивает государственную мудрость и эффективный надзор за правительством. Блок Нетаньяху рассматривает это как оскорбление чести Кнессета и выступает против в зависимости от голосов партий, которые, по его словам, выступают против существования государства. Айзенкот добавил, что меньшинство необходимо уважать даже после того, как решения приняты.",
-     "qlevels": {
-      "easy": [
-       "Сказал ли Айзенкот: «Начинается новая глава»?",
-       "Отреагировали ли только представители одного блока или представители обоих блоков?",
-       "Призывал ли Кахана к единству в своей речи?"
-      ],
-      "medium": [
-       "Что написал Айзенкот о Кнессете?",
-       "Что написал Нетаниягу о выборе?",
-       "Что сказал Кахана в своей первой речи?"
-      ],
-      "hard": [
-       "Какой титул упоминается в статье рядом с именем Нетаниягу?",
-       "Кто сказал, что доверяет Кахане вести за собой «государственным образом и решительно»?",
-       "Что сообщили Смотрич и «Ликуד» о назначении?"
-      ]
-     },
-     "questions": [
-      "Обыкновенно ли вы следите за новостями Кнессета?",
-      "Как вы думаете, как можно разговаривать с уважением при наличии разногласий? Обоснуйте.",
-      "Какая речь политика осталась у вас в памяти?"
-     ]
-    },
-    "es": {
-     "title": "Tras la elección del presidente de la Knesset: las reacciones de los dos bloques",
-     "easy": "La Knesset eligió un nuevo presidente.\nEntonces muchos políticos respondieron.\nGadi Eisenkot dijo: Comienza un nuevo capítulo.\nEl bloque de Netanyahu dijo que perjudica a la Knesset.\nKahana pidió unidad en su discurso.",
-     "medium": "Tras la elección de Matan Kahane como presidente de la Knesset, los representantes de ambos bloques respondieron. Gadi Eisenkot escribió: \"Comienza un nuevo capítulo\" y añadió que la Knesset \"pertenecerá una vez más a todo el pueblo\". Yair Lapid escribió que estaba \"orgulloso de él\" y que la elección \"es un paso importante en el camino hacia la corrección\". El bloque de Netanyahu dijo que el nombramiento viola el honor de la Knesset y que se realizó con los votos de partidos que, según dicen, se oponen a la existencia del Estado. Benjamín Netanyahu escribió que este es \"un punto bajo en la historia de la Knesset\". En su primer discurso, Kahana llamó a la unidad. El artículo presenta las posiciones de ambas partes tal como fueron expresadas.",
-     "hard": "Después de la elección de Matan Kahane como presidente de la Knesset, los representantes de ambos bloques publicaron respuestas, y estos son los puntos principales, como se informa.\n\nEn el bloque del cambio: Gadi Eisenkot escribió \"comienza un nuevo capítulo\" y añadió que la Knesset \"volverá a pertenecer a todo el pueblo\". Yair Lapid escribió que estaba \"orgulloso de él\" y que la elección \"es un paso importante en el camino hacia la corrección\". Yair Golan escribió que el reemplazo del Portavoz es el comienzo de una corrección, y Noam Tivon dijo que confía en Kahana para dirigir la Knesset \"con habilidad de estadista y determinación\".\n\nEn el bloque de Netanyahu: Binyamin Netanyahu, el primer ministro del gobierno de transición, escribió que este es \"un punto bajo en la historia de la Knesset\". Bezalel Smotrich y el Likud afirmaron que el nombramiento sería recordado \"por Diraon Olam\". El grupo dijo, entre otras cosas, que las elecciones dañan el honor de la Knesset y que dependen de los votos de partidos que, según dicen, se oponen a la existencia del Estado.\n\nEn su primer discurso, Kahana llamó a la unidad. Las elecciones se celebraron al mismo tiempo que las conversaciones para formar gobierno, que continúan.\n\nEn resumen: el bloque del cambio ve las elecciones como un paso hacia la corrección y la unidad, y enfatiza la habilidad de estadista y la supervisión efectiva del gobierno. El bloque de Netanyahu lo ve como un daño al honor de la Knesset y se opone a depender de los votos de los partidos que, según dice, se oponen a la existencia del Estado. Eisenkot añadió que la minoría debe ser respetada incluso después de que se hayan tomado decisiones.",
-     "qlevels": {
-      "easy": [
-       "¿Dijo Eisenkot «un nuevo capítulo comienza»?",
-       "¿Respondieron solo personas de un bloque o personas de ambos bloques?",
-       "¿Pidió Kahana unidad en su discurso?"
-      ],
-      "medium": [
-       "¿Qué escribió Eizenkot sobre la Knéset?",
-       "¿Qué escribió Netanyahu sobre la elección?",
-       "¿Qué dijo Kahana en su primer discurso?"
-      ],
-      "hard": [
-       "¿Qué título aparece en la noticia junto al nombre de Netanyahu?",
-       "¿Quién dijo que confía en que Kahana dirigirá \"con espíritu de Estado y con determinación\"?",
-       "¿Qué transmitieron Smotrich y el Likud sobre el nombramiento?"
-      ]
-     },
-     "questions": [
-      "¿Suelen seguir las noticias de la Knéset?",
-      "¿Cómo piensan que se puede conversar con respeto cuando hay un desacuerdo? Expliquen su respuesta.",
-      "¿Qué discurso de un político se les quedó grabado en la memoria?"
-     ]
-    }
-   },
-   "audioTr": {
-    "en": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "ru": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "es": [
-     "easy",
-     "medium",
-     "hard"
-    ]
-   }
-  },
-  {
-   "id": "2026-11-19-world-1",
-   "topic": "world",
-   "title": "טראמפ הגיע לסין לקראת פסגת שלושת המנהיגים",
-   "easy": "נשיא ארצות הברית הגיע לסין.\nשמו דונלד טראמפ.\nהוא נחת בעיר שנג'ן.\nנשיא סין חיכה לו במסלול.\nהם לחצו ידיים והתחבקו.\nהיום תתקיים פגישה של שלושה מנהיגים.",
-   "medium": "ביום רביעי נחת נשיא ארצות הברית, דונלד טראמפ, בעיר שנג'ן שבדרום סין, לקראת פסגה של שלושה מנהיגים: טראמפ, נשיא סין שי ג'ינפינג ונשיא רוסיה ולדימיר פוטין. שי הגיע בעצמו למסלול הנחיתה וחיבק את טראמפ, מחווה שהדיווח מתאר כנדירה. השניים צעדו יחד על שטיח אדום, ורקדנים הניפו את דגלי ארצות הברית וסין. הפסגה המשולשת אמורה להתקיים היום, חמישי, בשולי ועידת APEC. לפי הדיווח, זה המפגש המשולש הראשון של מנהיגי שלוש המעצמות הגרעיניות.",
-   "hard": "ביום רביעי, 18 בנובמבר, נחת נשיא ארצות הברית, דונלד טראמפ, בעיר שנג'ן שבדרום סין, במטוס \"אייר פורס 1\". הוא הגיע לקראת פסגה של שלושה מנהיגים, עם נשיא סין שי ג'ינפינג ונשיא רוסיה ולדימיר פוטין, שאמורה להתקיים היום, חמישי, בשולי ועידת APEC. לפי הדיווח, זה המפגש המשולש הראשון בין מנהיגי שלוש המעצמות הגרעיניות.\n\nשי הגיע בעצמו למסלול הנחיתה, ושני המנהיגים לחצו ידיים והתחבקו למרגלות המטוס. הם צעדו יחד על שטיח אדום, ורקדנים הניפו דגלים של ארצות הברית ושל סין. הדיווח מזכיר שכשטראמפ ביקר בבייג'ינג במאי, שי לא קיבל את פניו בעצמו ושלח את סגן הנשיא האן ג'נג.\n\nשי ופוטין נפגשו ביום רביעי בשנג'ן יותר משעתיים. טראמפ ופוטין לחצו ידיים סמוך לסעודת הקבלה של APEC, בפגישה הראשונה ביניהם פנים אל פנים מזה יותר משנה. על סדר היום, לפי הדיווח, צמצום מאגרי הנשק הגרעיני בעולם. הבית הלבן הנמיך ציפיות להסכם משמעותי כבר במפגש הראשון. הכתבה מציינת שטראמפ העלה אפשרות לפגישה עם מנהיג צפון קוריאה, אך לא נקבעה פגישה כזו.",
-   "questions": [
-    "האם ביקרתם פעם במדינה רחוקה? מה זכור לכם משם?",
-    "מה לדעתכם חשוב כשמנהיגים נפגשים? נמקו.",
-    "איזה ביקור של מנהיג זר בארץ זכור לכם?"
-   ],
-   "sources": [
-    {
-     "title": "ynet, 18.11.2026: שטיח אדום וחיבוק משי ג'ינפינג: קבלת פנים חריגה לטראמפ בסין לפני הפסגה עם פוטין",
-     "url": "https://www.ynet.co.il/news/article/b1cl01s0fg"
-    }
-   ],
-   "verified": true,
-   "date": "2026-11-19",
-   "ts": 1795042039,
-   "qlevels": {
-    "easy": [
-     "האם טראמפ נחת בסין?",
-     "האם הוא נחת בשנג'ן או בבייג'ינג?",
-     "האם נשיא סין חיכה לו במסלול?"
-    ],
-    "medium": [
-     "באיזו עיר נחת טראמפ?",
-     "מי הגיע לקבל את פניו במסלול הנחיתה?",
-     "איזה נשיא נוסף אמור להשתתף בפסגה?"
-    ],
-    "hard": [
-     "מי קיבל את פני טראמפ כשביקר בבייג'ינג במאי?",
-     "כמה זמן נפגשו שי ופוטין ביום רביעי?",
-     "באיזו ועידה מתקיימת הפסגה בשוליים?"
-    ]
-   },
-   "audio": [
-    "easy",
-    "medium",
-    "hard"
-   ],
-   "tr": {
-    "en": {
-     "title": "Trump arrived in China ahead of the summit of the three leaders",
-     "easy": "The President of the United States arrived in China.\nHis name is Donald Trump.\nHe landed in the city of Shenzhen.\nThe President of China was waiting for him on the runway.\nThey shook hands and hugged.\nToday there will be a meeting of three leaders.",
-     "medium": "On Wednesday, the President of the United States, Donald Trump, landed in the southern Chinese city of Shenzhen, ahead of a summit of three leaders: Trump, Chinese President Xi Jinping and Russian President Vladimir Putin. Xi arrived on the runway himself and hugged Trump, a gesture that the report describes as rare. The two walked together on a red carpet, and dancers waved the flags of the United States and China. The tripartite summit is scheduled to take place today, Thursday, on the sidelines of the APEC conference. According to the report, this is the first tripartite meeting of the leaders of the three nuclear powers.",
-     "hard": "On Wednesday, November 18, the President of the United States, Donald Trump, landed in the city of Shenzhen, in southern China, on Air Force One. He arrived for a summit of three leaders, with Chinese President Xi Jinping and Russian President Vladimir Putin, which should take place today, Thursday, on the sidelines of the APEC conference. According to the report, this is the first tripartite meeting between the leaders of the three nuclear powers.\n\nXi arrived on the runway himself, and the two leaders shook hands and hugged at the foot of the plane. They walked together on a red carpet, and dancers waved the flags of the United States and China. The report mentions that when Trump visited Beijing in May, Xi did not welcome him himself and sent Vice President Han Zheng.\n\nXi and Putin met on Wednesday in Shenzhen for more than two hours. Trump and Putin shook hands near the APEC reception dinner, in their first face-to-face meeting in more than a year. On the agenda, according to the report, is the reduction of the stockpiles of nuclear weapons in the world. The White House lowered expectations for a significant agreement in the first meeting. The article notes that Trump raised the possibility of a meeting with the North Korean leader, but no such meeting was scheduled.",
-     "qlevels": {
-      "easy": [
-       "Did Trump land in China?",
-       "Did he land in Shenzhen or in Beijing?",
-       "Did the president of China wait for him on the runway?"
-      ],
-      "medium": [
-       "In which city did Trump land?",
-       "Who came to greet him on the landing runway?",
-       "Which additional president is supposed to participate in the summit?"
-      ],
-      "hard": [
-       "Who welcomed Trump when he visited Beijing in May?",
-       "How long did Xi and Putin meet on Wednesday?",
-       "At which conference is the summit taking place on the sidelines?"
-      ]
-     },
-     "questions": [
-      "Have you ever visited a distant country? What do you remember from there?",
-      "What do you think is important when leaders meet? Explain.",
-      "Which visit of a foreign leader to the country do you remember?"
-     ]
-    },
-    "ru": {
-     "title": "Трамп прибыл в Китай накануне саммита трёх лидеров",
-     "easy": "Президент США прибыл в Китай.\nЕго зовут Дональд Трамп.\nОн приземлился в городе Шэньчжэнь.\nПрезидент Китая ждал его на взлетно-посадочной полосе.\nОни пожали друг другу руки и обнялись.\nСегодня состоится встреча трех лидеров.",
-     "medium": "В среду президент Соединенных Штатов Дональд Трамп приземлился в южном китайском городе Шэньчжэнь перед саммитом трех лидеров: Трампа, президента Китая Си Цзиньпина и президента России Владимира Путина. Си сам прибыл на взлетно-посадочную полосу и обнял Трампа - жест, который в докладе описывается как редкий. Они вместе прошли по красной дорожке, а танцоры размахивали флагами США и Китая. Трехсторонний саммит планируется провести сегодня, в четверг, на полях конференции АТЭС. Согласно сообщению, это первая трехсторонняя встреча лидеров трех ядерных держав.",
-     "hard": "В среду, 18 ноября, президент США Дональд Трамп приземлился в городе Шэньчжэнь на юге Китая на самолете Air Force One. Он прибыл на саммит трех лидеров, с президентом Китая Си Цзиньпином и президентом России Владимиром Путиным, который должен состояться сегодня, в четверг, на полях конференции АТЭС. Согласно сообщению, это первая трехсторонняя встреча лидеров трех ядерных держав.\n\nСи Цзиньпин сам прибыл на взлетно-посадочную полосу, и два лидера пожали друг другу руки и обнялись у подножия самолета. Они вместе прошли по красной дорожке, а танцоры размахивали флагами США и Китая. В докладе упоминается, что, когда Трамп посетил Пекин в мае, Си Цзиньпин не приветствовал его сам и послал вице-президента Хань Чжэна.\n\nСи Цзиньпин и Путин встретились в среду в Шэньчжэне более двух часов. Трамп и Путин пожали друг другу руки возле торжественного ужина АТЭС, это была их первая личная встреча за более чем год. На повестке дня, согласно докладу, стоит сокращение запасов ядерного оружия в мире. Белый дом снизил ожидания существенного соглашения на первой встрече. В статье отмечается, что Трамп поднял вопрос о возможности встречи с северокорейским лидером, однако такая встреча не была запланирована.",
-     "qlevels": {
-      "easy": [
-       "Трамп приземлился в Китае?",
-       "Он приземлился в Шэньчжэне или в Пекине?",
-       "Ждал ли его председатель КНР на взлетно-посадочной полосе?"
-      ],
-      "medium": [
-       "В каком городе приземлился Трамп?",
-       "Кто пришел встречать его на взлетно-посадочной полосе?",
-       "Какой еще президент должен принять участие в саммите?"
-      ],
-      "hard": [
-       "Кто встретил Трампа во время его визита в Пекин в мае?",
-       "Сколько времени Си и Путин встречались в среду?",
-       "На полях какой конференции проходит саммит?"
-      ]
-     },
-     "questions": [
-      "Бывали ли вы когда-нибудь в далекой стране? Что вам оттуда запомнилось?",
-      "Что, по вашему мнению, важно, когда лидеры встречаются? Обоснуйте.",
-      "Какой визит иностранного лидера в страну вам запомнился?"
-     ]
-    },
-    "es": {
-     "title": "Trump llegó a China antes de la cumbre de los tres líderes",
-     "easy": "El presidente de los Estados Unidos llegó a China.\nSu nombre es Donald Trump.\nAterrizó en la ciudad de Shenzhen.\nEl presidente de China lo esperaba en la pista.\nSe dieron la mano y se abrazaron.\nHoy habrá una reunión de tres líderes.",
-     "medium": "El miércoles, el presidente de Estados Unidos, Donald Trump, aterrizó en la ciudad de Shenzhen, en el sur de China, antes de una cumbre de tres líderes: Trump, el presidente chino Xi Jinping y el presidente ruso Vladimir Putin. Xi llegó él mismo a la pasarela y abrazó a Trump, un gesto que el informe describe como poco común. Los dos caminaron juntos sobre una alfombra roja y los bailarines ondearon banderas de Estados Unidos y China. La cumbre tripartita está prevista para hoy jueves, al margen de la conferencia APEC. Según el informe, se trata de la primera reunión tripartita de los líderes de las tres potencias nucleares.",
-     "hard": "El miércoles 18 de noviembre, el presidente de Estados Unidos, Donald Trump, aterrizó en la ciudad de Shenzhen, en el sur de China, en el Air Force One. Llegó para una cumbre de tres líderes, con el presidente chino Xi Jinping y el presidente ruso Vladimir Putin, que debería tener lugar hoy jueves, al margen de la conferencia APEC. Según el informe, esta es la primera reunión tripartita entre los líderes de las tres potencias nucleares.\n\nXi llegó él mismo a la pista y los dos líderes se dieron la mano y se abrazaron al pie del avión. Caminaron juntos sobre una alfombra roja y los bailarines ondearon banderas de Estados Unidos y China. El informe menciona que cuando Trump visitó Beijing en mayo, Xi no le dio la bienvenida y envió al vicepresidente Han Zheng.\n\nXi y Putin se reunieron el miércoles en Shenzhen durante más de dos horas. Trump y Putin se dieron la mano cerca de la cena de recepción de APEC, en su primer encuentro cara a cara en más de un año. En la agenda, según el informe, está la reducción de los arsenales de armas nucleares en el mundo. La Casa Blanca redujo las expectativas de un acuerdo significativo en la primera reunión. El artículo señala que Trump planteó la posibilidad de una reunión con el líder norcoreano, pero dicha reunión no estaba programada.",
-     "qlevels": {
-      "easy": [
-       "¿Aterrizó Trump en China?",
-       "¿Aterrizó en Shenzhen o en Pekín?",
-       "¿Lo esperaba el presidente de China en la pista?"
-      ],
-      "medium": [
-       "¿En qué ciudad aterrizó Trump?",
-       "¿Quién llegó para recibirlo en la pista de aterrizaje?",
-       "¿Qué otro presidente debe participar en la cumbre?"
-      ],
-      "hard": [
-       "¿Quién recibió a Trump cuando visitó Pekín en mayo?",
-       "¿Cuánto tiempo se reunieron Xi y Putin el miércoles?",
-       "¿En qué conferencia se lleva a cabo la cumbre al margen?"
-      ]
-     },
-     "questions": [
-      "¿Alguna vez visitaron un país lejano? ¿Qué recuerdan de allí?",
-      "¿Qué creen que es importante cuando los líderes se reúnen? Expliquen su respuesta.",
-      "¿Qué visita de un líder extranjero al país recuerdan?"
-     ]
-    }
-   },
-   "audioTr": {
-    "en": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "ru": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "es": [
-     "easy",
-     "medium",
-     "hard"
-    ]
-   }
-  },
-  {
-   "id": "2026-11-19-weather-1",
-   "topic": "weather",
-   "title": "מזג האוויר ליום חמישי: טפטוף בחוף, ושישי קצת חם",
-   "easy": "היום יום חמישי, 19 בנובמבר.\nבבוקר ייתכן טפטוף בחוף.\nבתל אביב 17 עד 23 מעלות.\nבירושלים 12 עד 19 מעלות.\nבאילת 19 עד 27 מעלות.\nבבוקר כדאי לקחת מעיל קל.",
-   "medium": "ביום חמישי, 19 בנובמבר, צפוי לפי אתר ynet טפטוף עד גשם מקומי בחוף, וייתכן טפטוף קל בבוקר. בתל אביב הטמפרטורות 17 עד 23 מעלות, בחיפה 17 עד 22, בירושלים 12 עד 19, בבאר שבע 13 עד 23 ובאילת 19 עד 27. הרוחות מדרום-מזרח עד דרום, במהירות של 10 עד 20 קמ\"ש. הגלים בים בגובה 40 עד 60 סנטימטרים, וטמפרטורת המים 24 מעלות. בימים שישי ושבת בתל אביב 15 עד 24 מעלות, ולקראת סוף השבוע הטמפרטורות עולות.",
-   "hard": "ביום חמישי, 19 בנובמבר, צפוי לפי תחזית אתר ynet טפטוף עד גשם מקומי בחוף, וייתכן טפטוף קל בבוקר. לפי נתוני האתר אין צפי לכמות גשם של ממש. באתר אין אזהרות מזג אוויר מיוחדות.\n\nהטמפרטורות הצפויות: בתל אביב 17 עד 23 מעלות, באשדוד 17 עד 23, בחיפה 17 עד 22, בטבריה 16 עד 24, בבית שאן 17 עד 26, בצפת 13 עד 18, בירושלים 12 עד 19, בבאר שבע 13 עד 23, במצפה רמון 13 עד 20, בעין גדי 15 עד 24 ובאילת 19 עד 27.\n\nהרוחות מדרום-מזרח עד דרום, במהירות של 10 עד 20 קמ\"ש. בים הגלים בגובה 40 עד 60 סנטימטרים, וטמפרטורת המים 24 מעלות. הלחות 65 אחוז. בתל אביב השמש זורחת ב-6:12 ושוקעת ב-16:39.\n\nבימים שישי ושבת בתל אביב הטמפרטורות יהיו 15 עד 24 מעלות. בכותרות האתר נאמר שלקראת סוף השבוע הטמפרטורות עולות. התחזית עודכנה באתר בליל רביעי, ולכן כדאי לבדוק עדכונים במהלך היום.\n\nהטווחים שצוינו הם הטמפרטורה הנמוכה והגבוהה ביותר הצפויות ביממה.",
-   "questions": [
-    "איזה מזג אוויר אתם אוהבים הכי הרבה? למה?",
-    "האם מזג האוויר משפיע על מצב הרוח שלכם? ספרו.",
-    "איזה מעיל או בגד חורפי אהוב עליכם?"
-   ],
-   "sources": [
-    {
-     "title": "ynet, 18.11.2026 (עודכן 23:58): תחזית מזג האוויר",
-     "url": "https://www.ynet.co.il/weather"
-    }
-   ],
-   "verified": true,
-   "date": "2026-11-19",
-   "ts": 1795042039,
-   "qlevels": {
-    "easy": [
-     "האם היום יום חמישי?",
-     "האם בבוקר ייתכן טפטוף בחוף?",
-     "האם באילת חם יותר או פחות מבירושלים?"
-    ],
-    "medium": [
-     "כמה מעלות צפויות בתל אביב?",
-     "כמה מעלות צפויות בירושלים?",
-     "מה צפוי בבוקר בחוף?"
-    ],
-    "hard": [
-     "מה גובה הגלים בים ומה טמפרטורת המים?",
-     "באיזו שעה שוקעת השמש בתל אביב?",
-     "מה התחזית לתל אביב בימים שישי ושבת?"
-    ]
-   },
-   "audio": [
-    "easy",
-    "medium",
-    "hard"
-   ],
-   "tr": {
-    "en": {
-     "title": "The weather for Thursday: drizzling at the beach, and Friday is a bit warm",
-     "easy": "Today is Thursday, November 19.\nIn the morning it may drizzle on the beach.\nIn Tel Aviv 17 to 23 degrees.\nIn Jerusalem 12 to 19 degrees.\nIn Eilat 19 to 27 degrees.\nIn the morning you should take a light coat.",
-     "medium": "On Thursday, November 19, according to the ynet website, drizzle to local rain is expected on the coast, and light drizzle is possible in the morning. In Tel Aviv the temperatures are 17 to 23 degrees, in Haifa 17 to 22, in Jerusalem 12 to 19, in Be'er Sheva 13 to 23 and in Eilat 19 to 27. The winds are from southeast to south, at a speed of 10 to 20 km/h. The waves in the sea are 40 to 60 centimeters high, and the water temperature is 24 degrees. On Fridays and Saturdays in Tel Aviv 15 to 24 degrees, and towards the end of the week the temperatures are rising.",
-     "hard": "On Thursday, November 19, according to the ynet website forecast, drizzle to local rain is expected on the coast, and light drizzle is possible in the morning. According to the website data, no actual amount of rain is expected. There are no special weather warnings on the site.\n\nThe expected temperatures: in Tel Aviv 17 to 23 degrees, in Ashdod 17 to 23, in Haifa 17 to 22, in Tiberias 16 to 24, in Beit Shan 17 to 26, in Safed 13 to 18, in Jerusalem 12 to 19, in Be'er Sheva 13 to 23, in Mitzpe Ramon 13 to 20, in Ein Gedi 15 to 24 and in Eilat 19 to 27.\n\nThe winds are from the southeast to the south, at a speed of 10 to 20 km/h. In the sea, the waves are 40 to 60 centimeters high, and the water temperature is 24 degrees. The humidity is 65 percent. In Tel Aviv the sun rises at 6:12 and sets at 16:39.\n\nOn Friday and Saturday in Tel Aviv the temperatures will be 15 to 24 degrees. In the headlines of the site it is said that towards the end of the week the temperatures are rising. The forecast was updated on the website on Wednesday night, so you should check for updates during the day.\n\nThe specified ranges are the lowest and highest temperature expected per day.",
-     "questions": [
-      "What weather do you like the most? why?",
-      "Does the weather affect your mood? his book",
-      "What is your favorite winter coat or garment?"
-     ],
-     "qlevels": {
-      "easy": [
-       "Is today Thursday?",
-       "Might there be a drizzle on the coast in the morning?",
-       "Is it warmer or cooler in Eilat than in Jerusalem?"
-      ],
-      "medium": [
-       "How many degrees are expected in Tel Aviv?",
-       "How many degrees are expected in Jerusalem?",
-       "What is expected in the morning on the coast?"
-      ],
-      "hard": [
-       "What is the wave height in the sea and what is the water temperature?",
-       "At what time does the sun set in Tel Aviv?",
-       "What is the forecast for Tel Aviv on Friday and Saturday?"
-      ]
-     }
-    },
-    "ru": {
-     "title": "Погода на четверг: на пляже моросит дождь, а в пятницу немного тепло.",
-     "easy": "Сегодня четверг, 19 ноября.\nУтром на пляже может моросить дождь.\nВ Тель-Авиве от 17 до 23 градусов.\nВ Иерусалиме от 12 до 19 градусов.\nВ Эйлате от 19 до 27 градусов.\nУтром следует взять легкое пальто.",
-     "medium": "В четверг, 19 ноября, как сообщает сайт ynet, на побережье ожидается мелкий дождь, утром возможен мелкий дождь. В Тель-Авиве температура от 17 до 23 градусов, в Хайфе от 17 до 22, в Иерусалиме от 12 до 19, в Беэр-Шеве от 13 до 23 и в Эйлате от 19 до 27. Ветер дует с юго-востока на юг, скорость 10-20 км/ч. Волны в море имеют высоту от 40 до 60 сантиметров, а температура воды 24 градуса. По пятницам и субботам в Тель-Авиве от 15 до 24 градусов, а ближе к концу недели температура повышается.",
-     "hard": "В четверг, 19 ноября, по прогнозу сайта ynet, на побережье ожидается морось до локального дождя, утром возможен мелкий дождь. По данным сайта, фактического количества осадков не ожидается. Специальных погодных предупреждений на сайте нет.\n\nОжидаемая температура: в Тель-Авиве от 17 до 23 градусов, в Ашдоде от 17 до 23, в Хайфе от 17 до 22, в Тверии от 16 до 24, в Бейт-Шане от 17 до 26, в Цфате от 13 до 18, в Иерусалиме от 12 до 19, в Беэр-Шеве от 13 до 23, в Мицпе-Рамоне от 13 до 20, в Эйн-Геди с 15 до 24 и в Эйлате с 19 до 27.\n\nВетер дует с юго-востока на юг, скорость от 10 до 20 км/ч. В море волны высотой от 40 до 60 сантиметров, а температура воды 24 градуса. Влажность 65 процентов. В Тель-Авиве солнце восходит в 6:12 и садится в 16:39.\n\nВ пятницу и субботу в Тель-Авиве температура будет от 15 до 24 градусов. В заголовках сайта говорится, что ближе к концу недели температура повысится. Прогноз обновился на сайте в среду вечером, поэтому следите за обновлениями в течение дня.\n\nУказанные диапазоны представляют собой самую низкую и самую высокую температуру, ожидаемую за день.",
-     "questions": [
-      "Какая погода тебе нравится больше всего? почему?",
-      "Влияет ли погода на ваше настроение? его книга",
-      "Какое ваше любимое зимнее пальто или предмет одежды?"
-     ],
-     "qlevels": {
-      "easy": [
-       "Сегодня четверг?",
-       "Возможен ли утром моросящий дождь на побережье?",
-       "В Эйлате теплее или прохладнее, чем в Иерусалиме?"
-      ],
-      "medium": [
-       "Сколько градусов ожидается в Тель-Авиве?",
-       "Сколько градусов ожидается в Иерусалиме?",
-       "Что ожидается утром на побережье?"
-      ],
-      "hard": [
-       "Какова высота волн на море и какова температура воды?",
-       "В какое время садится солнце в Тель-Авиве?",
-       "Каков прогноз погоды для Тель-Авива на пятницу и субботу?"
-      ]
-     }
-    },
-    "es": {
-     "title": "El tiempo para el jueves: llovizna en la playa y el viernes hace un poco de calor",
-     "easy": "Hoy es jueves 19 de noviembre.\nPor la mañana puede lloviznar en la playa.\nEn Tel Aviv de 17 a 23 grados.\nEn Jerusalén de 12 a 19 grados.\nEn Eilat de 19 a 27 grados.\nPor la mañana conviene llevar un abrigo ligero.",
-     "medium": "El jueves 19 de noviembre, según el sitio web ynet, se esperan lloviznas hasta lluvias locales en la costa, y es posible que llovizne ligeramente por la mañana. En Tel Aviv las temperaturas son de 17 a 23 grados, en Haifa de 17 a 22, en Jerusalén de 12 a 19, en Beer Sheva de 13 a 23 y en Eilat de 19 a 27. Los vientos soplan de sureste a sur, con una velocidad de 10 a 20 km/h. Las olas en el mar miden entre 40 y 60 centímetros de altura y la temperatura del agua es de 24 grados. Los viernes y sábados en Tel Aviv de 15 a 24 grados y hacia el final de la semana las temperaturas suben.",
-     "hard": "El jueves 19 de noviembre, según el pronóstico del sitio web ynet, se esperan lloviznas hasta lluvias locales en la costa, y es posible que llovizne ligeramente por la mañana. Según los datos del sitio web, no se esperan precipitaciones reales. No hay advertencias meteorológicas especiales en el sitio.\n\nLas temperaturas previstas: en Tel Aviv de 17 a 23 grados, en Ashdod de 17 a 23, en Haifa de 17 a 22, en Tiberíades de 16 a 24, en Beit Shan de 17 a 26, en Safed de 13 a 18, en Jerusalén de 12 a 19, en Be'er Sheva de 13 a 23, en Mitzpe Ramon de 13 a 20, en Ein Gedi del 15 al 24 y en Eilat del 19 al 27.\n\nLos vientos soplarán del sureste al sur, con velocidades de 10 a 20 km/h. En el mar, las olas miden entre 40 y 60 centímetros de altura y la temperatura del agua es de 24 grados. La humedad es del 65 por ciento. En Tel Aviv el sol sale a las 6:12 y se pone a las 16:39.\n\nEl viernes y sábado en Tel Aviv las temperaturas oscilarán entre 15 y 24 grados. En los titulares del sitio se dice que hacia el final de la semana las temperaturas están subiendo. El pronóstico se actualizó en el sitio web el miércoles por la noche, por lo que debe buscar actualizaciones durante el día.\n\nLos rangos especificados son la temperatura más baja y más alta esperada por día.",
-     "questions": [
-      "¿Qué clima te gusta más? ¿por qué?",
-      "¿El clima afecta tu estado de ánimo? su libro",
-      "¿Cuál es tu abrigo o prenda de invierno favorita?"
-     ],
-     "qlevels": {
-      "easy": [
-       "¿Hoy es jueves?",
-       "¿Es posible que por la mañana haya llovizna en la costa?",
-       "¿Hace más calor o menos calor en Eilat que en Jerusalén?"
-      ],
-      "medium": [
-       "¿Cuántos grados se esperan en Tel Aviv?",
-       "¿Cuántos grados se esperan en Jerusalén?",
-       "¿Qué se espera por la mañana en la costa?"
-      ],
-      "hard": [
-       "¿Cuál es la altura de las olas en el mar y cuál es la temperatura del agua?",
-       "¿A qué hora se pone el sol en Tel Aviv?",
-       "¿Cuál es el pronóstico para Tel Aviv los días viernes y sábado?"
-      ]
-     }
-    }
-   },
-   "audioTr": {
-    "en": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "ru": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "es": [
-     "easy",
-     "medium",
-     "hard"
-    ]
-   }
-  },
-  {
-   "id": "2026-11-19-sport-1",
-   "topic": "sport",
-   "title": "רן בן שמעון סיכם עקרונית לאמן את מכבי חיפה",
-   "easy": "רן בן שמעון הוא מאמן כדורגל.\nהוא היה מאמן נבחרת ישראל.\nהוא עזב את הנבחרת.\nעכשיו הוא סיכם עם מכבי חיפה.\nהחוזה הוא לעונה וחצי.\nהמשחק הראשון ביום ראשון.",
-   "medium": "רן בן שמעון, המאמן היוצא של נבחרת ישראל בכדורגל, סיכם עקרונית את תנאיו לאימון קבוצת מכבי חיפה. לפי הכתבה, החוזה הוא לעונה וחצי. אימון הבכורה שלו בקבוצה צפוי ביום ראשון, במשחק הליגה מול בני סכנין. על כוונתו של בן שמעון לעזוב את הנבחרת פורסם לראשונה באתר ynet, וכך גם על רצונה של חיפה להחתים אותו. הכתבה פורסמה ב-18 בנובמבר. אימון בכורה הוא האימון הראשון של מאמן חדש עם הקבוצה. זהו משחק ליגה.",
-   "hard": "ב-18 בנובמבר 2026 דיווח אתר ynet שרן בן שמעון, המאמן היוצא של נבחרת ישראל בכדורגל, סיכם עקרונית את תנאיו לאימון קבוצת מכבי חיפה. המשמעות של \"סיכום עקרוני\" היא שהצדדים הסכימו על העיקר, אך ייתכן שעוד לא נחתם חוזה סופי.\n\nלפי הכתבה, החוזה צפוי להיות לעונה וחצי. כלומר, בן שמעון אמור לאמן את הקבוצה עד אמצע העונה שאחרי העונה הנוכחית. אימון הבכורה שלו בחיפה צפוי להיערך ביום ראשון, לפני משחק הליגה הקרוב מול בני סכנין.\n\nבן שמעון עזב את תפקידו כמאמן הנבחרת. הכתבה אינה מפרטת מתי התפטר ומדוע. על כוונתו לעזוב פורסם לראשונה באתר ynet, וכך גם על רצונה של מכבי חיפה להחתים אותו.\n\nבעולם הכדורגל מאמן מוביל את האימונים ואת הרכב הקבוצה בכל משחק, ולכן אימון בכורה הוא יום חשוב לקבוצה ולאוהדיה. בקרוב נדע איך ייראה משחקה הראשון של חיפה בהדרכתו.\n\nמכבי חיפה היא קבוצה ותיקה בליגה הישראלית בכדורגל, ובני סכנין היא קבוצה אחרת בליגה זו. המשחק ביום ראשון הוא משחק ליגה.",
-   "questions": [
-    "האם אתם אוהדים קבוצת כדורגל? איזו?",
-    "מה לדעתכם צריך מאמן טוב כדי להצליח? נמקו.",
-    "איזה משחק כדורגל זכור לכם במיוחד?"
-   ],
-   "sources": [
-    {
-     "title": "ynet, 18.11.2026: לאחר ההתפטרות מנבחרת ישראל: רן בן שמעון סיכם את תנאיו במכבי חיפה",
-     "url": "https://www.ynet.co.il/news/article/b1k8sjsrge"
-    }
-   ],
-   "verified": true,
-   "date": "2026-11-19",
-   "ts": 1795042039,
-   "qlevels": {
-    "easy": [
-     "האם רן בן שמעון מאמן כדורגל?",
-     "האם הוא יאמן את מכבי חיפה או את מכבי תל אביב?",
-     "האם החוזה הוא לעונה וחצי?"
-    ],
-    "medium": [
-     "איזו קבוצה יאמן בן שמעון?",
-     "מול איזו קבוצה צפוי אימון הבכורה שלו?",
-     "באיזה יום צפוי אימון הבכורה?"
-    ],
-    "hard": [
-     "לכמה זמן החוזה, לפי הכתבה?",
-     "מה פירוש המילים \"סיכום עקרוני\", לפי הטקסט?",
-     "איזה פרט הכתבה אינה מפרטת על עזיבתו את הנבחרת?"
-    ]
-   },
-   "audio": [
-    "easy",
-    "medium",
-    "hard"
-   ],
-   "tr": {
-    "en": {
-     "title": "Ran Ben Shimon agreed in principle to coach Maccabi Haifa",
-     "easy": "Ran Ben Shimon is a soccer coach.\nHe was the coach of the Israeli national team.\nHe left the team.\nNow he agreed with Maccabi Haifa.\nThe contract is for a season and a half.\nFirst game on Sunday.",
-     "medium": "Ran Ben Shimon, the outgoing coach of the Israel national football team, basically summarized his conditions for coaching the Maccabi Haifa team. According to the article, the contract is for a season and a half. His first practice with the team is expected on Sunday, in the league game against Bnei Sakhnin. Ben Shimon's intention to leave the national team was published for the first time on the ynet website, as was Haifa's desire to sign him. The article was published on November 18. Debut training is the first training of a new coach with the team. This is a league game.",
-     "hard": "On November 18, 2026, the ynet website reported that Sharan Ben Shimon, the outgoing coach of the Israel national soccer team, had basically finalized his conditions for coaching the Maccabi Haifa team. \"Conclusion in principle\" means that the parties have agreed on the main thing, but a final contract may not have been signed yet.\n\nAccording to the article, the contract is expected to be for a season and a half. That is, Ben Shimon is supposed to coach the team until the middle of the season after the current season. His debut training session in Haifa is expected to be held on Sunday, before the upcoming league game against Bnei Sakhnin.\n\nBen Shimon left his position as the coach of the national team. The article does not specify when he resigned and why. His intention to leave was first published on the Ynet website, as was Maccabi Haifa's desire to sign him.\n\nIn the world of football, a coach leads the training and the composition of the team in every game, so debut training is an important day for the team and its fans. We will soon know what Haifa's first game will look like under his guidance.\n\nMaccabi Haifa is an old team in the Israeli soccer league, and Bnei Sakhnin is another team in this league. Sunday's game is a league game.",
-     "qlevels": {
-      "easy": [
-       "Is Ran Ben Shimon a football coach?",
-       "Will he coach Maccabi Haifa or Maccabi Tel Aviv?",
-       "Is the contract for a season and a half?"
-      ],
-      "medium": [
-       "Which team will Ben Shimon coach?",
-       "Against which team is his debut training session expected?",
-       "On which day is the debut training session expected?"
-      ],
-      "hard": [
-       "For how long is the contract, according to the article?",
-       "What do the words \"principle agreement\" mean, according to the text?",
-       "Which detail does the article not specify about his departure from the national team?"
-      ]
-     },
-     "questions": [
-      "Do you support a football team? Which one?",
-      "What do you think a good coach needs in order to succeed? Explain.",
-      "Which football match do you remember particularly?"
-     ]
-    },
-    "ru": {
-     "title": "Ран Бен Шимон в принципе согласился тренировать «Маккаби Хайфа»",
-     "easy": "Ран Бен Шимон — футбольный тренер.\nОн был тренером сборной Израиля.\nОн покинул команду.\nТеперь он договорился с «Маккаби Хайфа».\nКонтракт рассчитан на полтора сезона.\nПервая игра в воскресенье.",
-     "medium": "Ран Бен Шимон, уходящий тренер сборной Израиля по футболу, вкратце изложил свои условия тренерской работы в хайфской команде «Маккаби». Согласно статье, контракт рассчитан на полтора сезона. Его первая тренировка с командой ожидается в воскресенье, в матче чемпионата против «Бней Сахнина». Намерение Бена Шимона покинуть сборную впервые было опубликовано на сайте ynet, как и желание Хайфы подписать его. Статья опубликована 18 ноября. Дебютная тренировка – это первая тренировка нового тренера с командой. Это игра лиги.",
-     "hard": "18 ноября 2026 года сайт ynet сообщил, что Шаран Бен Шимон, уходящий тренер сборной Израиля по футболу, в основном окончательно определил свои условия для тренерской работы в хайфской команде «Маккаби». «Принципиальное заключение» означает, что стороны договорились о главном, но окончательный договор может еще не быть подписан.\n\nСогласно статье, контракт рассчитан на полтора сезона. То есть Бен Шимон должен тренировать команду до середины сезона после текущего. Ожидается, что его дебютная тренировка в Хайфе состоится в воскресенье перед предстоящей игрой чемпионата против «Бней Сахнина».\n\nБен Шимон покинул пост тренера национальной сборной. В статье не уточняется, когда он подал в отставку и почему. Его намерение уйти было впервые опубликовано на сайте Ynet, как и желание «Маккаби Хайфа» подписать его.\n\nВ мире футбола тренер руководит тренировкой и составом команды в каждой игре, поэтому дебютная тренировка – важный день для команды и ее болельщиков. Скоро мы узнаем, как будет выглядеть первая игра «Хайфы» под его руководством.\n\n«Маккаби Хайфа» — старая команда израильской футбольной лиги, а «Бней Сахнин» — еще одна команда этой лиги. Воскресная игра – игра лиги.",
-     "qlevels": {
-      "easy": [
-       "Ран Бен Шимон — футбольный тренер?",
-       "Он будет тренировать «Маккаби» (Хайфа) или «Маккаби» (Тель-Авив)?",
-       "Контракт заключен на полтора сезона?"
-      ],
-      "medium": [
-       "Какую команду будет тренировать Бен Шимон?",
-       "Против какой команды ожидается его дебютная тренировка?",
-       "В какой день ожидается дебютная тренировка?"
-      ],
-      "hard": [
-       "На какой срок заключен контракт, судя по статье?",
-       "Что означают слова «принципиальная договоренность», судя по тексту?",
-       "Какой деталь статья не уточняет о его уходе из сборной?"
-      ]
-     },
-     "questions": [
-      "Болеете ли вы за футбольную команду? Какую?",
-      "Что, по вашему мнению, нужно хорошему тренеру для успеха? Обоснуйте.",
-      "Какой футбольный матч запомнился вам особенно?"
-     ]
-    },
-    "es": {
-     "title": "Ran Ben Shimon aceptó en principio entrenar al Maccabi Haifa",
-     "easy": "Ran Ben Shimon es entrenador de fútbol.\nFue el entrenador de la selección israelí.\nDejó el equipo.\nAhora estuvo de acuerdo con el Maccabi Haifa.\nEl contrato es por temporada y media.\nPrimer partido el domingo.",
-     "medium": "Ran Ben Shimon, entrenador saliente de la selección de fútbol de Israel, resumió básicamente sus condiciones para entrenar al equipo Maccabi Haifa. Según el artículo, el contrato es por temporada y media. Su primer entrenamiento con el equipo está previsto para el domingo, en el partido de liga contra el Bnei Sakhnin. La intención de Ben Shimon de abandonar la selección nacional se publicó por primera vez en el sitio web ynet, al igual que el deseo de Haifa de ficharlo. El artículo fue publicado el 18 de noviembre. El entrenamiento de debut es el primer entrenamiento de un nuevo entrenador con el equipo. Este es un partido de liga.",
-     "hard": "El 18 de noviembre de 2026, el sitio web ynet informó que Sharan Ben Shimon, el entrenador saliente del equipo nacional de fútbol de Israel, básicamente había finalizado sus condiciones para entrenar al equipo Maccabi Haifa. \"Conclusión en principio\" significa que las partes han acordado lo principal, pero es posible que aún no se haya firmado un contrato final.\n\nSegún el artículo, se espera que el contrato sea por una temporada y media. Es decir, se supone que Ben Shimon entrenará al equipo hasta la mitad de la temporada después de la temporada actual. Se espera que su primer entrenamiento en Haifa tenga lugar el domingo, antes del próximo partido de liga contra el Bnei Sakhnin.\n\nBen Shimon dejó su puesto como entrenador de la selección nacional. El artículo no especifica cuándo renunció y por qué. Su intención de marcharse se publicó por primera vez en el sitio web Ynet, al igual que el deseo del Maccabi Haifa de ficharlo.\n\nEn el mundo del fútbol, ​​un entrenador lidera el entrenamiento y la composición del equipo en cada partido, por lo que el entrenamiento de debut es un día importante para el equipo y su afición. Pronto sabremos cómo será el primer partido de Haifa bajo su dirección.\n\nMaccabi Haifa es un antiguo equipo de la liga de fútbol israelí y Bnei Sakhnin es otro equipo de esta liga. El partido del domingo es de liga.",
-     "qlevels": {
-      "easy": [
-       "¿Es Ran Ben Shimon entrenador de fútbol?",
-       "¿Entrenará al Maccabi Haifa o al Maccabi Tel Aviv?",
-       "¿El contrato es por una temporada y media?"
-      ],
-      "medium": [
-       "¿A qué equipo entrenará Ben Shimon?",
-       "¿Contra qué equipo se espera su primer entrenamiento?",
-       "¿Qué día se espera el primer entrenamiento?"
-      ],
-      "hard": [
-       "¿Por cuánto tiempo es el contrato, según la noticia?",
-       "¿Qué significan las palabras \"acuerdo de principio\", según el texto?",
-       "¿Qué detalle no especifica el artículo sobre su salida de la selección?"
-      ]
-     },
-     "questions": [
-      "¿Son simpatizantes de algún equipo de fútbol? ¿De cuál?",
-      "¿Qué necesita un buen entrenador para tener éxito según ustedes? Expliquen su respuesta.",
-      "¿Qué partido de fútbol recuerdan especialmente?"
-     ]
-    }
-   },
-   "audioTr": {
-    "en": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "ru": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "es": [
-     "easy",
-     "medium",
-     "hard"
-    ]
-   }
-  },
-  {
-   "id": "2026-11-19-health-1",
-   "topic": "health",
-   "title": "בדיקת דם חדשה לזיהוי מוקדם של סרטן השד: מחקר ישראלי",
-   "easy": "חוקרים ישראלים פיתחו בדיקת דם חדשה.\nהיא נועדה לזהות סרטן שד מוקדם.\nהחוקרים ממכון ויצמן ומהאוניברסיטה העברית.\nהבדיקה זיהתה סרטן מוקדם בדיוק של 95 אחוז.\nהמחקר עוד לא הסתיים.\nממוגרפיה שגרתית מפחיתה את הסיכון.",
-   "medium": "חוקרים ממכון ויצמן למדע ומהאוניברסיטה העברית בירושלים פיתחו בדיקת דם לזיהוי סרטן שד בשלב מוקדם. המחקר פורסם ב-11 בנובמבר בכתב העת Nature. הבדיקה מחפשת בדם סימנים מיוחדים של DNA שנפלט מתאים. היא נבחנה בדגימות דם של 77 נשים עם סרטן שד ושל 30 נשים בריאות, ואחר כך במאגר של 188 חולות. לפי המחקר, היא זיהתה סרטן בשלב מוקדם, בגידול עד שני סנטימטרים, בדיוק של 95 אחוז. בנוסף הבחינה בדיוק של 81 אחוז בין חולות שחוו חזרה של המחלה לחולות שלא חוו.",
-   "hard": "ב-11 בנובמבר 2026 דיווח אתר ynet על מחקר ישראלי שפורסם בכתב העת Nature. פרופ' אפרת שמע ממכון ויצמן למדע ופרופ' גיא רון מהאוניברסיטה העברית בירושלים, בשיתוף המרכזים הרפואיים קפלן ושיבא, פיתחו בדיקת דם לזיהוי סרטן שד בשלב מוקדם ולהערכת הסיכון לחזרת המחלה אחרי טיפול.\n\nהחוקרים מיפו סימנים ב-DNA של גידולי שד אצל 12 נשים, ואז חיפשו את אותם סימנים בדם. את הבדיקה בחנו בדגימות דם של 77 נשים עם סרטן שד ושל 30 נשים בריאות, ובהמשך במאגר של 188 חולות.\n\nלפי המחקר, הבדיקה זיהתה סרטן בשלב מוקדם, בגידול עד שני סנטימטרים, בדיוק של 95 אחוז. היא גם הבחינה בדיוק של 81 אחוז בין חולות שחוו חזרה של המחלה לחולות שלא חוו, וזיהתה סיכון לחזרה גם אצל חולות שנחשבו בסיכון נמוך לפי המדדים המקובלים.\n\nהכתבה מציינת שממוגרפיה שגרתית מפחיתה ב-22 אחוז את הסיכון למות מהמחלה, אך בשד צפוף גידול עלול להיות מוסתר בצילום. לפי הכתבה, החוקרים מנסים כעת למצוא טיפולים שימנעו מתאי סרטן גמישות כזו. מדובר במחקר, ועדיין לא בבדיקה שגרתית.",
-   "questions": [
-    "האם אתם מקפידים על בדיקות בריאות שגרתיות? ספרו.",
-    "מה לדעתכם חשוב כדי לעודד אנשים להיבדק? נמקו.",
-    "איזו התקדמות ברפואה הרשימה אתכם בחיים שלכם?"
-   ],
-   "sources": [
-    {
-     "title": "ynet, 11.11.2026: מי בסיכון לחזרת סרטן השד? חוקרים ישראלים מצאו את הסימן בדם",
-     "url": "https://www.ynet.co.il/health/article/bksnnvlaze"
-    }
-   ],
-   "verified": true,
-   "date": "2026-11-19",
-   "ts": 1795042039,
-   "qlevels": {
-    "easy": [
-     "האם הבדיקה החדשה היא בדיקת דם?",
-     "האם החוקרים ממכון ויצמן או ממכון אחר?",
-     "האם הבדיקה כבר בשימוש שגרתי?"
-    ],
-    "medium": [
-     "באיזה כתב עת פורסם המחקר?",
-     "כמה נשים עם סרטן שד נבדקו בהתחלה?",
-     "עד איזה גודל של גידול זיהתה הבדיקה סרטן מוקדם?"
-    ],
-    "hard": [
-     "באיזה דיוק זיהתה הבדיקה סרטן בשלב מוקדם?",
-     "בכמה אחוזים ממוגרפיה שגרתית מפחיתה את הסיכון למות מהמחלה?",
-     "למה ממוגרפיה לפעמים לא מזהה גידול בשד צפוף?"
-    ]
-   },
-   "audio": [
-    "easy",
-    "medium",
-    "hard"
-   ],
-   "tr": {
-    "en": {
-     "title": "A new blood test for the early detection of breast cancer: an Israeli study",
-     "easy": "Israeli researchers have developed a new blood test.\nIt is designed to detect early breast cancer.\nThe researchers from the Weizmann Institute and the Hebrew University.\nThe test detected early cancer with 95 percent accuracy.\nThe research is not over yet.\nRoutine mammography reduces the risk.",
-     "medium": "Researchers from the Weizmann Institute of Science and the Hebrew University of Jerusalem have developed a blood test to detect breast cancer at an early stage. The study was published on November 11 in the journal Nature. The test looks for special signs of DNA emitted from cells in the blood. It was tested in blood samples of 77 women with breast cancer and 30 healthy women, and then in a pool of 188 patients. According to the study, she detected cancer at an early stage, in a tumor up to two centimeters, with 95 percent accuracy. In addition, the examination was 81 percent accurate between patients who experienced a recurrence of the disease and patients who did not.",
-     "hard": "On November 11, 2026, the ynet website reported on an Israeli study published in the journal Nature. Prof. Efrat Shema from the Weizmann Institute of Science and Prof. Guy Ron from the Hebrew University of Jerusalem, in collaboration with the Kaplan and Sheba Medical Centers, developed a blood test to detect breast cancer at an early stage and to assess the risk of the disease returning after treatment.\n\nThe researchers mapped markers in the DNA of breast tumors in 12 women, then looked for the same markers in the blood. The test was tested in blood samples of 77 women with breast cancer and 30 healthy women, and later in a pool of 188 patients.\n\nAccording to the study, the test detected cancer at an early stage, in a tumor up to two centimeters, with an accuracy of 95 percent. She also distinguished with an accuracy of 81 percent between patients who experienced a recurrence of the disease and patients who did not, and identified a risk of recurrence even in patients who were considered to be at low risk according to the accepted indicators.\n\nThe article states that a routine mammogram reduces the risk of dying from the disease by 22 percent, but in a dense breast a tumor may be hidden in the photo. According to the article, researchers are now trying to find treatments that will prevent cancer cells from such flexibility. This is a study, and not yet a routine test.",
-     "qlevels": {
-      "easy": [
-       "Is the new test a blood test?",
-       "Are the researchers from the Weizmann Institute or another institute?",
-       "Is the test already in routine use?"
-      ],
-      "medium": [
-       "In which journal was the study published?",
-       "How many women with breast cancer were initially screened?",
-       "To what size of a tumor did the test detect early cancer?"
-      ],
-      "hard": [
-       "How accurately did the test detect cancer at an early stage?",
-       "By what percentage does a routine mammogram reduce the risk of dying from the disease?",
-       "Why does a mammogram sometimes not detect a dense breast tumor?"
-      ]
-     },
-     "questions": [
-      "Do you keep up with routine health check-ups? Tell.",
-      "What do you think is important in order to encourage people to get checked? Explain.",
-      "What medical advancement impressed you in your life?"
-     ]
-    },
-    "ru": {
-     "title": "Новый анализ крови для раннего выявления рака молочной железы: израильское исследование",
-     "easy": "Израильские исследователи разработали новый анализ крови.\nОн предназначен для раннего выявления рака молочной железы.\nИсследователи из Института Вейцмана и Еврейского университета.\nТест обнаружил рак на ранней стадии с точностью 95 процентов.\nИсследование еще не закончено.\nРегулярная маммография снижает риск.",
-     "medium": "Исследователи из Института науки Вейцмана и Еврейского университета в Иерусалиме разработали анализ крови для выявления рака молочной железы на ранней стадии. Исследование было опубликовано 11 ноября в журнале Nature. Тест ищет особые признаки ДНК, выделяемой клетками крови. Он был протестирован на образцах крови 77 женщин с раком молочной железы и 30 здоровых женщин, а затем на группе из 188 пациентов. Согласно исследованию, она обнаружила рак на ранней стадии, при опухоли размером до двух сантиметров, с точностью 95 процентов. Кроме того, точность обследования составила 81 процент между пациентами, у которых наблюдался рецидив заболевания, и пациентами, у которых этого не произошло.",
-     "hard": "11 ноября 2026 года сайт ynet сообщил об израильском исследовании, опубликованном в журнале Nature. Профессор Эфрат Шема из Института науки Вейцмана и профессор Гай Рон из Еврейского университета в Иерусалиме в сотрудничестве с медицинскими центрами Каплан и Шиба разработали анализ крови для выявления рака молочной железы на ранней стадии и оценки риска возвращения заболевания после лечения.\n\nИсследователи картировали маркеры в ДНК опухолей молочной железы у 12 женщин, а затем искали те же маркеры в крови. Тест был протестирован на образцах крови 77 женщин с раком молочной железы и 30 здоровых женщин, а затем на группе из 188 пациентов.\n\nСогласно исследованию, тест выявил рак на ранней стадии, при опухоли размером до двух сантиметров, с точностью 95 процентов. Она также с точностью в 81 процент различала пациентов, у которых наблюдался рецидив заболевания, и пациентов, у которых его не было, и идентифицировала риск рецидива даже у пациентов, которые по принятым показателям считались группой низкого риска.\n\nВ статье говорится, что рутинная маммография снижает риск умереть от заболевания на 22 процента, однако в плотной груди на фото может скрываться опухоль. Согласно статье, исследователи сейчас пытаются найти методы лечения, которые предотвратят такую ​​гибкость раковых клеток. Это исследование, а не рутинный тест.",
-     "qlevels": {
-      "easy": [
-       "Является ли новый тест анализом крови?",
-       "Исследователи из Института Вейцмана или из другого института?",
-       "Используется ли тест уже в обычном порядке?"
-      ],
-      "medium": [
-       "В каком научном журнале было опубликовано исследование?",
-       "Сколько женщин с раком молочной железы было обследовано вначале?",
-       "Опухоль какого размера определил тест на ранней стадии рака?"
-      ],
-      "hard": [
-       "С какой точностью тест определил рак на ранней стадии?",
-       "На сколько процентов рутинная маммография снижает риск смерти от болезни?",
-       "Почему маммография иногда не распознает опухоль в плотной молочной железе?"
-      ]
-     },
-     "questions": [
-      "Соблюдаете ли вы плановые медицинские осмотры? Расскажите.",
-      "Что, по вашему мнению, важно, чтобы поощрять людей проходить обследования? Обоснуйте.",
-      "Какой прогресс в медицине впечатлил вас за вашу жизнь?"
-     ]
-    },
-    "es": {
-     "title": "Un nuevo análisis de sangre para la detección temprana del cáncer de mama: un estudio israelí",
-     "easy": "Investigadores israelíes han desarrollado un nuevo análisis de sangre.\nEstá diseñado para detectar el cáncer de mama en etapas tempranas.\nLos investigadores del Instituto Weizmann y la Universidad Hebrea.\nLa prueba detectó cáncer temprano con una precisión del 95 por ciento.\nLa investigación aún no ha terminado.\nLa mamografía de rutina reduce el riesgo.",
-     "medium": "Investigadores del Instituto Weizmann de Ciencias y de la Universidad Hebrea de Jerusalén han desarrollado un análisis de sangre para detectar el cáncer de mama en una etapa temprana. El estudio fue publicado el 11 de noviembre en la revista Nature. La prueba busca signos especiales de ADN emitido por las células de la sangre. Se probó en muestras de sangre de 77 mujeres con cáncer de mama y 30 mujeres sanas, y luego en un grupo de 188 pacientes. Según el estudio, detectó el cáncer en una etapa temprana, en un tumor de hasta dos centímetros, con una precisión del 95 por ciento. Además, el examen tuvo una precisión del 81 por ciento entre los pacientes que experimentaron una recurrencia de la enfermedad y los pacientes que no.",
-     "hard": "El 11 de noviembre de 2026, el sitio web ynet informó sobre un estudio israelí publicado en la revista Nature. El Prof. Efrat Shema del Instituto Weizmann de Ciencias y el Prof. Guy Ron de la Universidad Hebrea de Jerusalén, en colaboración con los Centros Médicos Kaplan y Sheba, desarrollaron un análisis de sangre para detectar el cáncer de mama en una etapa temprana y evaluar el riesgo de que la enfermedad regrese después del tratamiento.\n\nLos investigadores mapearon marcadores en el ADN de tumores de mama en 12 mujeres y luego buscaron los mismos marcadores en la sangre. La prueba se probó en muestras de sangre de 77 mujeres con cáncer de mama y 30 mujeres sanas, y posteriormente en un grupo de 188 pacientes.\n\nSegún el estudio, la prueba detecta el cáncer en una fase temprana, en un tumor de hasta dos centímetros, con una precisión del 95 por ciento. También distinguió con una precisión del 81 por ciento entre los pacientes que experimentaron una recurrencia de la enfermedad y los que no, e identificó el riesgo de recurrencia incluso en pacientes que se consideraban de bajo riesgo según los indicadores aceptados.\n\nEl artículo afirma que una mamografía de rutina reduce el riesgo de morir a causa de la enfermedad en un 22 por ciento, pero en una mama densa un tumor puede quedar oculto en la foto. Según el artículo, los investigadores ahora están tratando de encontrar tratamientos que impidan que las células cancerosas tengan tanta flexibilidad. Este es un estudio y aún no una prueba de rutina.",
-     "qlevels": {
-      "easy": [
-       "¿Es la nueva prueba un análisis de sangre?",
-       "¿Son los investigadores del Instituto Weizmann o de otro instituto?",
-       "¿Está la prueba ya en uso rutinario?"
-      ],
-      "medium": [
-       "¿En qué revista científica se publicó la investigación?",
-       "¿Cuántas mujeres con cáncer de mama fueron examinadas al principio?",
-       "¿Hasta qué tamaño de tumor detectó la prueba el cáncer de forma temprana?"
-      ],
-      "hard": [
-       "¿Con qué precisión detectó la prueba el cáncer en una fase temprana?",
-       "¿En qué porcentaje reduce la mamografía rutinaria el riesgo de morir por la enfermedad?",
-       "¿Por qué la mamografía a veces no detecta un tumor en una mama densa?"
-      ]
-     },
-     "questions": [
-      "¿Se cuidan de hacer revisiones médicas de rutina? Cuéntennos.",
-      "¿Qué creen que es importante para animar a la gente a hacerse revisiones? Expliquen su respuesta.",
-      "¿Qué avance en la medicina les impresionó en su vida?"
-     ]
-    }
-   },
-   "audioTr": {
-    "en": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "ru": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "es": [
-     "easy",
-     "medium",
-     "hard"
-    ]
-   }
-  },
-  {
-   "id": "2026-11-19-tech-1",
-   "topic": "tech",
-   "title": "תקלות בשירותי מיקרוסופט, אפל וגוגל: מה ידוע",
-   "easy": "בארצות הברית היו כמה תקלות.\nשירותים של מיקרוסופט נפגעו.\nגם אפל וגוגל דיווחו על שיבושים.\nמיקרוסופט אמרה שזו לא מתקפת סייבר.\nמזכיר המדינה אמר שאין חשד לסייבר.",
-   "medium": "בשבוע האחרון היו שיבושים בכמה שירותים טכנולוגיים גדולים. במיקרוסופט נפגעו אאוטלוק, Teams ו-Copilot במשך שעות ארוכות, לדברי החברה בגלל שינויים בהגדרות המערכות ולא בגלל מתקפת סייבר. בערב יום שלישי דווח על תקלות ב-iCloud, ב-App Store וב-Apple Music של אפל, ועל קשיים ב-Gmail של גוגל. גוגל לא אישרה תקלה נרחבת. ב-18 בנובמבר אמר מזכיר המדינה האמריקני, מרקו רוביו, שאין קשר בין התקלות ושאין חשד למתקפת סייבר. לדברי החברה, השירותים חזרו לפעולה בהדרגה.",
-   "hard": "בשבוע האחרון דווח על שורת שיבושים בשירותים טכנולוגיים גדולים בארצות הברית. במיקרוסופט נפגעו אאוטלוק, Teams, העוזר Copilot ושירותים נוספים של Microsoft 365 במשך שעות ארוכות. לדברי החברה, התקלה נגרמה משינויים בהגדרות המערכות שלה, והיא אינה מתקפת סייבר. השירותים חזרו לפעולה בהדרגה.\n\nבערב יום שלישי דווח על תקלות גם באפל: ב-iCloud, ב-App Store וב-Apple Music. משתמשים דיווחו על ניתוקים מהחשבון, על קושי להוריד אפליקציות ולבצע רכישות, ועל בעיות ב-Apple Pay. אפל אישרה תקלות בכמה משירותיה. בגוגל דיווחו משתמשים על קשיים בגישה ל-Gmail, ובאתר Downdetector נרשמו בארצות הברית יותר מ-2,800 תלונות. גוגל לא אישרה תקלה נרחבת.\n\nב-18 בנובמבר מסר מזכיר המדינה האמריקני, מרקו רוביו, שאין קשר בין שורת התקלות, שכללו גם השבתת טיסות, תקלות בבנקאות מקוונת ותקלה ברשת תקשורת מסווגת, ושאין חשד למתקפת סייבר. לפי ynet, אין בשלב זה ראיות לקשר בין התקלות בחברות השונות.\n\nמדובר בשורת אירועים בתוך שבוע אחד, ובינתיים לא הוצג הסבר אחד לכולם. אפל וגוגל לא מסרו בשלב זה את הסיבות לתקלות שדווחו אצלן.",
-   "questions": [
-    "האם נתקלתם פעם בתקלה באפליקציה או בטלפון? מה עשיתם?",
-    "מה לדעתכם חשוב לעשות כשאפליקציה מפסיקה לעבוד? נמקו.",
-    "באיזה שירות דיגיטלי אתם משתמשים הכי הרבה?"
-   ],
-   "sources": [
-    {
-     "title": "ynet, 17.11.2026: אחרי מיקרוסופט: תקלות נרחבות גם בשירותי אפל וגוגל",
-     "url": "https://www.ynet.co.il/digital/technews/article/sjtb007c0fl"
-    },
-    {
-     "title": "ynet (מקור: רויטרס), 18.11.2026: רוביו על שורת התקלות הטכנולוגיות בארה\"ב: אין חשד למתקפת סייבר",
-     "url": "https://www.ynet.co.il/news/article/rjsawtc0fx"
-    }
-   ],
-   "verified": true,
-   "date": "2026-11-19",
-   "ts": 1795042039,
-   "qlevels": {
-    "easy": [
-     "האם מיקרוסופט אמרה שזו מתקפת סייבר?",
-     "האם נפגעו שירותים של אפל וגוגל?",
-     "האם מזכיר המדינה אמר שאין חשד לסייבר?"
-    ],
-    "medium": [
-     "איזה שירותים של מיקרוסופט נפגעו?",
-     "מי הוא מרקו רוביו, לפי הטקסט?",
-     "מתי דווח על תקלות באפל?"
-    ],
-    "hard": [
-     "מה הסיבה לתקלה במיקרוסופט, לפי החברה?",
-     "כמה תלונות על Gmail נרשמו ב-Downdetector?",
-     "אילו תקלות נוספות הזכיר רוביו?"
-    ]
-   },
-   "audio": [
-    "easy",
-    "medium",
-    "hard"
-   ],
-   "tr": {
-    "en": {
-     "title": "Malfunctions in Microsoft, Apple and Google services: what is known",
-     "easy": "In the United States there have been some mishaps.\nMicrosoft services were compromised.\nApple and Google also reported disruptions.\nMicrosoft said it was not a cyber attack.\nThe Secretary of State said there is no suspicion of cyber.",
-     "medium": "In the last week there have been disruptions in several major technological services. At Microsoft, Outlook, Teams and Copilot were affected for many hours, according to the company due to changes in system settings and not because of a cyber attack. On Tuesday evening, there were reports of malfunctions in iCloud, Apple's App Store and Apple Music, and difficulties in Google's Gmail. Google has not confirmed a widespread glitch. On November 18, the US Secretary of State, Marco Rubio, said that there was no connection between the malfunctions and that there was no suspicion of a cyber attack. According to the company, services have gradually returned to operation.",
-     "hard": "In the last week, a series of disruptions in major technological services in the United States was reported. At Microsoft, Outlook, Teams, the Copilot assistant and other Microsoft 365 services were affected for many hours. According to the company, the malfunction was caused by changes in the settings of its systems, and it is not a cyber attack. The services gradually returned to operation.\n\nOn Tuesday evening, malfunctions were also reported at Apple: in iCloud, the App Store and Apple Music. Users reported disconnections from the account, difficulty downloading apps and making purchases, and problems with Apple Pay. Apple has confirmed glitches in some of its services. On Google, users reported difficulties in accessing Gmail, and on the website Downdetector more than 2,800 complaints were registered in the United States. Google has not confirmed a widespread glitch.\n\nOn November 18, the US Secretary of State, Marco Rubio, said that there was no connection between the series of failures, which also included the suspension of flights, failures in online banking and a failure in a classified communications network, and that there was no suspicion of a cyber attack. According to Ynet, at this stage there is no evidence of a connection between the malfunctions in the various companies.\n\nThis is a series of events within one week, and in the meantime no single explanation has been presented to all of them. Apple and Google have not given at this stage the reasons for the malfunctions reported by them.",
-     "qlevels": {
-      "easy": [
-       "Did Microsoft say it was a cyber attack?",
-       "Were Apple and Google services affected?",
-       "Did the Secretary of State say there is no cyber suspicion?"
-      ],
-      "medium": [
-       "Which Microsoft services were affected?",
-       "Who is Marco Rubio, according to the text?",
-       "When were faults reported to Apple?"
-      ],
-      "hard": [
-       "What is the cause of the malfunction at Microsoft, according to the company?",
-       "How many Gmail complaints have been registered on Downdetector?",
-       "What other faults did Rubio mention?"
-      ]
-     },
-     "questions": [
-      "Have you ever encountered a glitch in an app or on the phone? What did you do?",
-      "What do you think is important to do when an app stops working? Explain.",
-      "Which digital service do you use the most?"
-     ]
-    },
-    "ru": {
-     "title": "Сбои в сервисах Microsoft, Apple и Google: что известно",
-     "easy": "В Соединенных Штатах произошли некоторые неудачи.\nСлужбы Microsoft были скомпрометированы.\nApple и Google также сообщили о сбоях.\nMicrosoft заявила, что это не была кибератака.\nГоссекретарь заявил, что никаких подозрений в кибербезопасности нет.",
-     "medium": "На прошлой неделе произошли перебои в работе нескольких крупных технологических сервисов. По словам компании, в Microsoft Outlook, Teams и Copilot были затронуты в течение многих часов из-за изменений в настройках системы, а не из-за кибератаки. Вечером во вторник появились сообщения о сбоях в iCloud, Apple App Store и Apple Music, а также о трудностях в Google Gmail. Google не подтвердил широко распространенный сбой. 18 ноября госсекретарь США Марко Рубио заявил, что между неисправностями нет никакой связи и нет подозрений в кибератаке. По данным компании, сервисы постепенно вернулись к работе.",
-     "hard": "На прошлой неделе сообщалось о серии сбоев в работе основных технологических служб в США. В Microsoft Outlook, Teams, помощник Copilot и другие службы Microsoft 365 были затронуты в течение многих часов. По мнению компании, сбой вызван изменением настроек ее систем и не является кибератакой. Службы постепенно вернулись к работе.\n\nВечером во вторник о сбоях сообщили и в Apple: в iCloud, App Store и Apple Music. Пользователи сообщали об отключениях от учетной записи, трудностях с загрузкой приложений и совершением покупок, а также о проблемах с Apple Pay. Apple подтвердила сбои в работе некоторых своих сервисов. В Google пользователи сообщили о трудностях с доступом к Gmail, а на сайте Downdetector в США зарегистрировано более 2800 жалоб. Google не подтвердил широко распространенный сбой.\n\n18 ноября госсекретарь США Марко Рубио заявил, что нет никакой связи между серией сбоев, в которую также вошли приостановка полетов, сбои в онлайн-банкинге и сбой в секретной сети связи, и что нет никаких подозрений в кибератаке. По данным Ynet, на данном этапе нет доказательств связи между неисправностями в различных компаниях.\n\nЭто череда событий в течение одной недели, и при этом всем им так и не было дано единого объяснения. Apple и Google на данном этапе не объяснили причины сообщаемых ими неисправностей.",
-     "qlevels": {
-      "easy": [
-       "Заявила ли Microsoft, что это кибератака?",
-       "Были ли затронуты сервисы Apple и Google?",
-       "Сказал ли госсекретарь, что нет подозрений на кибератаку?"
-      ],
-      "medium": [
-       "Какие сервисы Microsoft пострадали?",
-       "Кто такой Марко Рубио, судя по тексту?",
-       "Когда сообщалось о сбоях у Apple?"
-      ],
-      "hard": [
-       "Какова причина сбоя в Microsoft, по версии компании?",
-       "Сколько жалоб на Gmail было зафиксировано на Downdetector?",
-       "Какие еще сбои упомянул Рубио?"
-      ]
-     },
-     "questions": [
-      "Сталкивались ли вы когда-нибудь со сбоем в приложении или телефоне? Что вы сделали?",
-      "Что, по вашему мнению, важно делать, когда приложение перестает работать? Обоснуйте.",
-      "Каким цифровым сервисом вы пользуетесь больше всего?"
-     ]
-    },
-    "es": {
-     "title": "Fallos en los servicios de Microsoft, Apple y Google: lo que se sabe",
-     "easy": "En Estados Unidos ha habido algunos percances.\nLos servicios de Microsoft se vieron comprometidos.\nApple y Google también informaron interrupciones.\nMicrosoft dijo que no se trataba de un ciberataque.\nEl Secretario de Estado dijo que no hay sospechas de ciberataque.",
-     "medium": "En la última semana se han producido interrupciones en varios servicios tecnológicos importantes. En Microsoft, Outlook, Teams y Copilot se vieron afectados durante muchas horas, según la compañía debido a cambios en la configuración del sistema y no a causa de un ciberataque. El martes por la noche, hubo informes de fallos en iCloud, App Store de Apple y Apple Music, y dificultades en Gmail de Google. Google no ha confirmado un fallo generalizado. El 18 de noviembre, el secretario de Estado estadounidense, Marco Rubio, afirmó que no había conexión entre los fallos y que no había sospechas de un ciberataque. Según la empresa, los servicios han vuelto a estar operativos paulatinamente.",
-     "hard": "En la última semana se reportaron una serie de disrupciones en importantes servicios tecnológicos en Estados Unidos. En Microsoft, Outlook, Teams, el asistente Copilot y otros servicios de Microsoft 365 se vieron afectados durante muchas horas. Según la empresa, el mal funcionamiento se debió a cambios en la configuración de sus sistemas y no se trata de un ciberataque. Los servicios volvieron a funcionar gradualmente.\n\nEl martes por la noche también se informaron fallos en Apple: en iCloud, App Store y Apple Music. Los usuarios informaron desconexiones de la cuenta, dificultades para descargar aplicaciones y realizar compras, y problemas con Apple Pay. Apple ha confirmado fallos en algunos de sus servicios. En Google, los usuarios reportaron dificultades para acceder a Gmail, y en el sitio web Downdetector se registraron más de 2.800 quejas en Estados Unidos. Google no ha confirmado un fallo generalizado.\n\nEl 18 de noviembre, el secretario de Estado estadounidense, Marco Rubio, afirmó que no había conexión entre la serie de fallos, que incluían también la suspensión de vuelos, fallos en la banca online y un fallo en una red de comunicaciones clasificadas, y que no había sospechas de un ciberataque. Según Ynet, por el momento no hay pruebas de una conexión entre los fallos de funcionamiento de las distintas empresas.\n\nSe trata de una serie de acontecimientos que se han producido en el transcurso de una semana y, hasta ahora, no se ha presentado ninguna explicación única para todos ellos. Apple y Google no han facilitado por el momento los motivos de los fallos de funcionamiento comunicados por ellos.",
-     "qlevels": {
-      "easy": [
-       "¿Dijo Microsoft que se trató de un ciberataque?",
-       "¿Se vieron afectados los servicios de Apple y Google?",
-       "¿Dijo el secretario de Estado que no hay sospecha de ciberataque?"
-      ],
-      "medium": [
-       "¿Qué servicios de Microsoft se vieron afectados?",
-       "¿Quién es Marco Rubio, según el texto?",
-       "¿Cuándo se informó sobre fallos en Apple?"
-      ],
-      "hard": [
-       "¿Cuál es la causa del fallo en Microsoft, según la empresa?",
-       "¿Cuántas quejas sobre Gmail se registraron en Downdetector?",
-       "¿Qué otros fallos mencionó Rubio?"
-      ]
-     },
-     "questions": [
-      "¿Alguna vez se encontraron con un fallo en una aplicación o en el teléfono? ¿Qué hicieron?",
-      "¿Qué creen que es importante hacer cuando una aplicación deja de funcionar? Expliquen su respuesta.",
-      "¿Qué servicio digital usan más?"
-     ]
-    }
-   },
-   "audioTr": {
-    "en": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "ru": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "es": [
-     "easy",
-     "medium",
-     "hard"
-    ]
-   }
-  },
-  {
-   "id": "2026-11-19-onthisday-1",
-   "topic": "onthisday",
-   "title": "היום בהיסטוריה, 19 בנובמבר: שער 1,000 של פלה, ונאום גטיסבורג",
-   "easy": "ב-19 בנובמבר קרו שני אירועים.\nב-1969 פלה כבש שער מספר 1,000.\nהוא שיחק בברזיל.\nב-1863 לינקולן נשא נאום בגטיסבורג.\nהנאום היה קצר מאוד.",
-   "medium": "ב-19 בנובמבר קרו שני אירועים מפורסמים. ב-1969, לפני 57 שנה, כבש הכדורגלן הברזילאי פלה את השער ה-1,000 בקריירה שלו, בפנדל, במשחק באצטדיון מרקאנה בריו דה ז'ניירו. ב-1863, לפני 163 שנה, נשא נשיא ארצות הברית אברהם לינקולן את נאום גטיסבורג בטקס חנוכת בית קברות לאומי בפנסילבניה, בזמן מלחמת האזרחים האמריקנית. הנאום היה קצר מאוד, אבל נחשב לאחד הנאומים המפורסמים בהיסטוריה האמריקנית. פלה נולד ב-1940, וזכה עם נבחרת ברזיל בשלוש אליפויות עולם.",
-   "hard": "ב-19 בנובמבר קרו שני אירועים שזכורים עד היום, אחד בספורט ואחד בהיסטוריה.\n\nב-1969, לפני 57 שנה, כבש הכדורגלן הברזילאי פלה את השער ה-1,000 בקריירה שלו. השער הובקע בפנדל, באצטדיון מרקאנה בריו דה ז'ניירו, כשפלה שיחק בקבוצת סנטוס. פלה, שנולד בברזיל ב-1940, זכה עם נבחרת ברזיל בשלוש אליפויות עולם, ונחשב לאחד הכדורגלנים הגדולים בהיסטוריה. מאות אלפי אוהדים ברחבי העולם חגגו את הרגע.\n\nב-1863, לפני 163 שנה, נשא נשיא ארצות הברית אברהם לינקולן את נאום גטיסבורג. הוא נשא אותו בטקס חנוכת בית קברות לאומי בפנסילבניה, בזמן מלחמת האזרחים האמריקנית, מלחמה פנימית בין צפון ארצות הברית לדרומה. הנאום היה קצר מאוד, אך נחשב לאחד הנאומים המפורסמים ביותר בהיסטוריה האמריקנית. עד היום לומדים אותו בבתי ספר ברחבי העולם, ומצטטים ממנו בטקסים ובנאומים.\n\nשני האירועים קרו באותו תאריך, אך בעולמות שונים מאוד: האחד על מגרש כדורגל והשני בטקס זיכרון. אפשר להיזכר בהם ביום הזה ולשוחח על מה שמזכיר לכל אחד מאיתנו כל אחד מהם. שניהם זכורים עד היום.",
-   "questions": [
-    "איזה אירוע היסטורי או ספורטיבי אתם זוכרים מימיכם?",
-    "מה לדעתכם הופך נאום לזכור לאורך שנים? נמקו.",
-    "מי היה הספורטאי האהוב עליכם בצעירותכם?"
-   ],
-   "sources": [
-    {
-     "title": "בריטניקה (באנגלית): On This Day – What Happened on November 19",
-     "url": "https://www.britannica.com/on-this-day/November-19"
-    }
-   ],
-   "verified": true,
-   "date": "2026-11-19",
-   "ts": 1795042039,
-   "qlevels": {
-    "easy": [
-     "האם פלה היה כדורגלן ברזילאי?",
-     "האם הנאום בגטיסבורג היה ארוך או קצר?",
-     "האם לינקולן היה נשיא ארצות הברית?"
-    ],
-    "medium": [
-     "מה כבש פלה ב-1969?",
-     "איפה שיחק פלה כשכבש את השער ה-1,000?",
-     "מי נשא את נאום גטיסבורג?"
-    ],
-    "hard": [
-     "כמה שנים עברו מאז השער ה-1,000 של פלה, לפי הטקסט?",
-     "בקבוצה איזו שיחק פלה בעת השער ה-1,000?",
-     "באיזו מלחמה התקיים הטקס בגטיסבורג?"
-    ]
-   },
-   "audio": [
-    "easy",
-    "medium",
-    "hard"
-   ],
-   "tr": {
-    "en": {
-     "title": "Today in History, November 19: Pele's 1,000th goal, and the Gettysburg Address",
-     "easy": "On November 19, two events happened.\nIn 1969 Pele scored goal number 1,000.\nHe played in Brazil.\nIn 1863 Lincoln gave a speech at Gettysburg.\nThe speech was very short.",
-     "medium": "On November 19, two famous events happened. In 1969, 57 years ago, the Brazilian footballer Pele scored the 1,000th goal of his career, with a penalty, in a match at the Marcana Stadium in Rio de Janeiro. In 1863, 163 years ago, United States President Abraham Lincoln delivered the Gettysburg Address at the dedication ceremony of a national cemetery in Pennsylvania, during the American Civil War. The speech was very short, but is considered one of the most famous speeches in American history. Pele was born in 1940, and won three world championships with the Brazilian team.",
-     "hard": "On November 19, two events happened that are remembered to this day, one in sports and one in history.\n\nIn 1969, 57 years ago, the Brazilian footballer Pele scored the 1,000th goal of his career. The goal was scored on a penalty kick, at the Marcana Stadium in Rio de Janeiro, when Pele played for the Santos team. Pele, who was born in Brazil in 1940, won three world championships with the Brazilian national team, and is considered one of the greatest footballers in history. Hundreds of thousands of fans around the world celebrated the moment.\n\nIn 1863, 163 years ago, US President Abraham Lincoln delivered the Gettysburg Address. He wore it at the dedication ceremony of a national cemetery in Pennsylvania, during the American Civil War, an internal war between the North of the United States and the South. The speech was very short, but is considered one of the most famous speeches in American history. To this day, it is studied in schools around the world, and quoted in ceremonies and speeches.\n\nBoth events happened on the same date, but in very different worlds: one on a soccer field and the other at a memorial service. We can remember them on this day and talk about what each of them reminds us of. Both are remembered to this day.",
-     "qlevels": {
-      "easy": [
-       "Was Pele a Brazilian footballer?",
-       "Was the Gettysburg Address long or short?",
-       "Was Lincoln President of the United States?"
-      ],
-      "medium": [
-       "What did Pele score in 1969?",
-       "Where was Pele playing when he scored the 1,000th goal?",
-       "Who delivered the Gettysburg Address?"
-      ],
-      "hard": [
-       "How many years have passed since Pele's 1,000th goal, according to the text?",
-       "Which team did Pele play for when he scored the 1,000th goal?",
-       "In what war was the ceremony at Gettysburg held?"
-      ]
-     },
-     "questions": [
-      "Which historical or sporting event do you remember from your days?",
-      "What do you think makes a speech memorable over the years? Explain.",
-      "Who was your favorite athlete in your youth?"
-     ]
-    },
-    "ru": {
-     "title": "Сегодня в истории, 19 ноября: тысячный гол Пеле и Геттисбергская речь",
-     "easy": "19 ноября произошли два события.\nВ 1969 году Пеле забил тысячный гол.\nОн играл в Бразилии.\nВ 1863 году Линкольн произнес речь в Геттисберге.\nРечь была очень короткой.",
-     "medium": "19 ноября произошли два знаменитых события. В 1969 году, 57 лет назад, бразильский футболист Пеле забил тысячный гол в своей карьере с пенальти в матче на стадионе «Маркана» в Рио-де-Жанейро. В 1863 году, 163 года назад, президент США Авраам Линкольн произнес Геттисбергскую речь на церемонии открытия национального кладбища в Пенсильвании во время Гражданской войны в США. Речь была очень короткой, но считается одной из самых известных речей в американской истории. Пеле родился в 1940 году и выиграл три чемпионата мира в составе сборной Бразилии.",
-     "hard": "19 ноября произошли два события, которые помнят и по сей день: одно в спорте, другое в истории.\n\nВ 1969 году, 57 лет назад, бразильский футболист Пеле забил тысячный гол в своей карьере. Гол был забит с пенальти на стадионе «Маркана» в Рио-де-Жанейро, когда Пеле играл за команду «Сантос». Пеле, родившийся в Бразилии в 1940 году, выиграл три чемпионата мира в составе сборной Бразилии и считается одним из величайших футболистов в истории. Сотни тысяч фанатов по всему миру отпраздновали этот момент.\n\nВ 1863 году, 163 года назад, президент США Авраам Линкольн выступил с Геттисбергской речью. Он носил его на церемонии открытия национального кладбища в Пенсильвании во время Гражданской войны в США, внутренней войны между Севером Соединенных Штатов и Югом. Речь была очень короткой, но считается одной из самых известных речей в американской истории. По сей день его изучают в школах по всему миру и цитируют в церемониях и выступлениях.\n\nОба события произошли в один и тот же день, но в совершенно разных мирах: одно на футбольном поле, а другое на поминальной службе. Мы можем вспомнить их в этот день и поговорить о том, что каждый из них нам напоминает. Оба помнят по сей день.",
-     "qlevels": {
-      "easy": [
-       "Был ли Пеле бразильским футболистом?",
-       "Была ли Геттисбергская речь длинной или короткой?",
-       "Был ли Линкольн президентом США?"
-      ],
-      "medium": [
-       "Что забил Пеле в 1969 году?",
-       "Где играл Пеле, когда забил 1000-й гол?",
-       "Кто произнес Геттисбергскую речь?"
-      ],
-      "hard": [
-       "Сколько лет прошло с момента 1000-го гола Пеле, судя по тексту?",
-       "В какой команде играл Пеле во время 1000-го гола?",
-       "В какой войне проходила церемония в Геттисберге?"
-      ]
-     },
-     "questions": [
-      "Какое историческое или спортивное событие вы помните из своих дней?",
-      "Что, по вашему мнению, делает речь запоминающейся на долгие годы? Обоснуйте.",
-      "Кто был вашим любимым спортсменом в молодости?"
-     ]
-    },
-    "es": {
-     "title": "Hoy en la historia, 19 de noviembre: el gol número 1.000 de Pelé y el discurso de Gettysburg",
-     "easy": "El 19 de noviembre sucedieron dos hechos.\nEn 1969 Pelé marcó el gol número 1.000.\nJugó en Brasil.\nEn 1863, Lincoln pronunció un discurso en Gettysburg.\nEl discurso fue muy breve.",
-     "medium": "El 19 de noviembre sucedieron dos hechos famosos. En 1969, hace 57 años, el futbolista brasileño Pelé marcó el gol número 1.000 de su carrera, de penalti, en un partido disputado en el Estadio Marcana de Río de Janeiro. En 1863, hace 163 años, el presidente de los Estados Unidos, Abraham Lincoln, pronunció el discurso de Gettysburg en la ceremonia de inauguración de un cementerio nacional en Pensilvania, durante la Guerra Civil estadounidense. El discurso fue muy breve, pero está considerado uno de los discursos más famosos de la historia de Estados Unidos. Pelé nació en 1940 y ganó tres campeonatos mundiales con la selección brasileña.",
-     "hard": "El 19 de noviembre sucedieron dos hechos que se recuerdan hasta el día de hoy, uno deportivo y otro histórico.\n\nEn 1969, hace 57 años, el futbolista brasileño Pelé marcó el gol número 1.000 de su carrera. El gol se marcó de penal, en el estadio Marcana de Río de Janeiro, cuando Pelé jugaba en el Santos. Pelé, que nació en Brasil en 1940, ganó tres campeonatos mundiales con la selección brasileña y es considerado uno de los mejores futbolistas de la historia. Cientos de miles de fans en todo el mundo celebraron el momento.\n\nEn 1863, hace 163 años, el presidente estadounidense Abraham Lincoln pronunció el discurso de Gettysburg. Lo usó en la ceremonia de inauguración de un cementerio nacional en Pensilvania, durante la Guerra Civil estadounidense, una guerra interna entre el Norte y el Sur de Estados Unidos. El discurso fue muy breve, pero está considerado uno de los discursos más famosos de la historia de Estados Unidos. Hasta el día de hoy, se estudia en escuelas de todo el mundo y se cita en ceremonias y discursos.\n\nAmbos hechos ocurrieron en la misma fecha, pero en mundos muy diferentes: uno en una cancha de fútbol y el otro en un funeral. Podemos recordarlos en este día y hablar de lo que nos recuerda cada uno de ellos. Ambos son recordados hasta el día de hoy.",
-     "qlevels": {
-      "easy": [
-       "¿Era Pelé un futbolista brasileño?",
-       "¿Fue largo o corto el discurso de Gettysburg?",
-       "¿Fue Lincoln presidente de Estados Unidos?"
-      ],
-      "medium": [
-       "¿Qué marcó Pelé en 1969?",
-       "¿Dónde jugaba Pelé cuando marcó el gol número 1.000?",
-       "¿Quién pronunció el discurso de Gettysburg?"
-      ],
-      "hard": [
-       "¿Cuántos años han pasado desde el gol número 1.000 de Pelé, según el texto?",
-       "¿En qué equipo jugaba Pelé en el momento del gol número 1.000?",
-       "¿En qué guerra tuvo lugar la ceremonia en Gettysburg?"
-      ]
-     },
-     "questions": [
-      "¿Qué evento histórico o deportivo recuerdan de sus días?",
-      "¿Qué creen que hace que un discurso sea recordado a lo largo de los años? Expliquen su respuesta.",
-      "¿Quién era su deportista favorito en su juventud?"
-     ]
-    }
-   },
-   "audioTr": {
-    "en": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "ru": [
-     "easy",
-     "medium",
-     "hard"
-    ],
-    "es": [
-     "easy",
-     "medium",
-     "hard"
-    ]
-   }
-  },
-  {
-   "id": "2026-11-19-birthdays-1",
-   "topic": "birthdays",
-   "title": "נולדו היום, 19 בנובמבר: קפבלנקה, אינדירה גנדי וטד טרנר",
-   "easy": "היום נולדו שלושה אנשים מפורסמים.\nקפבלנקה היה אלוף העולם בשחמט.\nאינדירה גנדי הייתה ראש ממשלת הודו.\nטד טרנר הקים את רשת CNN.\nהם נולדו בימים שונים של השנה.",
-   "medium": "ב-19 בנובמבר נולדו שלושה אנשים מפורסמים. חוסה ראול קפבלנקה נולד ב-1888 בהוואנה שבקובה, והיה אלוף העולם בשחמט משנת 1921 עד 1927. אינדירה גנדי נולדה ב-1917 באלהבאד שבהודו, בתם של ג'והרלאל נהרו, וכיהנה כראש ממשלת הודו, האישה הראשונה בתפקיד. טד טרנר נולד ב-1938 בסינסינטי שבארצות הברית, והקים ב-1980 את רשת CNN, ערוץ החדשות הראשון ששידר 24 שעות ביממה. שלושתם נולדו באותו יום בשנה, אך במדינות ובשנים שונות. בריטניקה מונה אותם בין הנולדים בתאריך זה.",
-   "hard": "ב-19 בנובמבר נולדו שלושה אנשים מפורסמים, כל אחד בתחום אחר.\n\nחוסה ראול קפבלנקה נולד ב-1888 בהוואנה שבקובה. הוא היה אלוף העולם בשחמט משנת 1921 עד 1927, ונודע בסגנון משחק ברור ופשוט.\n\nאינדירה גנדי נולדה ב-1917 באלהבאד שבהודו, בתו של ג'והרלאל נהרו, ראש הממשלה הראשון של הודו העצמאית. היא כיהנה כראש ממשלת הודו בשנים 1966 עד 1977 ושוב מ-1980, והייתה האישה הראשונה בתפקיד.\n\nטד טרנר נולד ב-1938 בסינסינטי שבארצות הברית. ב-1980 הקים את רשת CNN, ערוץ החדשות הראשון ששידר 24 שעות ביממה, והיה גם בעלים של קבוצת הבייסבול אטלנטה ברייבס. ב-1977 זכה כמפרש בגביע אמריקה בהפלגה בספינה \"קוראג'ס\".\n\nשלושת האישים מראים שאפשר להגיע לפסגה בתחומים שונים מאוד: על לוח שחמט, בהנהגת מדינה ובעולם התקשורת. בריטניקה מונה את שלושתם בין הנולדים ב-19 בנובמבר.\n\nהוואנה היא בירת קובה, אלהבאד היא עיר בצפון הודו, וסינסינטי היא עיר במדינת אוהיו שבארצות הברית. ערוץ חדשות שמשדר 24 שעות ביממה מאפשר לצפות בחדשות בכל שעה. שלושתם מוכרים עד היום ברחבי העולם.",
-   "questions": [
-    "איזה משחק חשיבה אתם אוהבים, שחמט, שש-בש או אחר?",
-    "האם אתם זוכרים כיצד קיבלתם בצעירותכם חדשות מהעולם?",
-    "מה לדעתכם צריך כדי להקים משהו חדש לגמרי? נמקו."
-   ],
-   "sources": [
-    {
-     "title": "בריטניקה (באנגלית): More on this Day – November 19",
-     "url": "https://www.britannica.com/more-on-this-day/November-19"
-    }
-   ],
-   "verified": true,
-   "date": "2026-11-19",
-   "ts": 1795042039,
-   "qlevels": {
-    "easy": [
-     "האם קפבלנקה היה אלוף העולם בשחמט?",
-     "האם אינדירה גנדי הייתה ראש ממשלת הודו?",
-     "האם טד טרנר הקים את CNN?"
-    ],
-    "medium": [
-     "איפה נולד קפבלנקה?",
-     "בת של מי הייתה אינדירה גנדי?",
-     "באיזו שנה הקים טד טרנר את CNN?"
-    ],
-    "hard": [
-     "בין אילו שנים היה קפבלנקה אלוף העולם?",
-     "מה היה מיוחד בערוץ CNN כשהוקם?",
-     "באיזו קבוצת בייסבול היה טרנר בעלים?"
-    ]
-   },
-   "people": [
-    "חוסה ראול קפבלנקה",
-    "אינדירה גנדי",
-    "טד טרנר"
-   ],
-   "audio": [
-    "easy",
-    "medium",
-    "hard"
-   ],
-   "tr": {
-    "en": {
-     "title": "Born today, November 19: Capablanca, Indira Gandhi and Ted Turner",
-     "easy": "Three famous people were born today.\nCapablanca was the world chess champion.\nIndira Gandhi was the Prime Minister of India.\nTed Turner founded CNN.\nThey were born on different days of the year.",
-     "medium": "On November 19, three famous people were born. Jose Raul Capablanca was born in 1888 in Havana, Cuba, and was the world chess champion from 1921 to 1927. Indira Gandhi was born in 1917 in Allahabad, India, daughter of Jawaharlal Nehru, and served as Prime Minister of India, the first woman in the position. Ted Turner was born in 1938 in Cincinnati, in the United States, and founded the CNN network in 1980, the first news channel to broadcast 24 hours a day. All three were born on the same day of the year, but in different countries and years. Britannica lists them among those born on this date.",
-     "hard": "On November 19, three famous people were born, each in a different field.\n\nJose Raul Capablanca was born in 1888 in Havana, Cuba. He was the world chess champion from 1921 to 1927, and was known for a clear and simple playing style.\n\nIndira Gandhi was born in 1917 in Allahabad, India, the daughter of Joharlal Nehru, the first prime minister of independent India. She served as the Prime Minister of India from 1966 to 1977 and again from 1980, and was the first woman in the position.\n\nTed Turner was born in 1938 in Cincinnati in the United States. In 1980 he founded the CNN network, the first news channel to broadcast 24 hours a day, and was also the owner of the Atlanta Braves baseball team. In 1977 he won as a sailor in the America's Cup sailing on the ship \"Courages\".\n\nThe three personalities show that it is possible to reach the top in very different fields: on the chess board, in the leadership of a country and in the media world. Britannica lists all three of them as born on November 19.\n\nHavana is the capital of Cuba, Allahabad is a city in northern India, and Cincinnati is a city in the state of Ohio in the United States. A news channel that broadcasts 24 hours a day allows you to watch the news every hour. All three are still known around the world.",
-     "qlevels": {
-      "easy": [
-       "Was Capablanca the world chess champion?",
-       "Was Indira Gandhi the Prime Minister of India?",
-       "Did Ted Turner start CNN?"
-      ],
-      "medium": [
-       "Where was Capeblanca born?",
-       "Whose daughter was Indira Gandhi?",
-       "In what year did Ted Turner start CNN?"
-      ],
-      "hard": [
-       "Between which years was Capablanca world champion?",
-       "What was special about the CNN channel when it was founded?",
-       "What baseball team did Turner own?"
-      ]
-     },
-     "questions": [
-      "Which strategy game do you like, chess, backgammon or another?",
-      "Do you remember how you received news from the world in your youth?",
-      "What in your opinion is needed to establish something completely new? Explain."
-     ]
-    },
-    "ru": {
-     "title": "Сегодня, 19 ноября, родились: Капабланка, Индира Ганди и Тед Тернер.",
-     "easy": "Сегодня родились три знаменитых человека.\nКапабланка был чемпионом мира по шахматам.\nИндира Ганди была премьер-министром Индии.\nТед Тернер основал CNN.\nОни родились в разные дни года.",
-     "medium": "19 ноября родились трое известных людей. Хосе Рауль Капабланка родился в 1888 году в Гаване, Куба, и был чемпионом мира по шахматам с 1921 по 1927 год. Индира Ганди родилась в 1917 году в Аллахабаде, Индия, в семье Джавахарлала Неру, и была премьер-министром Индии, первой женщиной на этом посту. Тед Тернер родился в 1938 году в Цинциннати, США, и в 1980 году основал сеть CNN, первый новостной канал, вещавший 24 часа в сутки. Все трое родились в один и тот же день года, но в разных странах и годах. Britannica перечисляет их среди тех, кто родился в этот день.",
-     "hard": "19 ноября родились трое известных людей, каждый в разной сфере.\n\nХосе Рауль Капабланка родился в 1888 году в Гаване, Куба. Он был чемпионом мира по шахматам с 1921 по 1927 год и отличался ясным и простым стилем игры.\n\nИндира Ганди родилась в 1917 году в Аллахабаде, Индия, в семье Джохарлала Неру, первого премьер-министра независимой Индии. Она занимала пост премьер-министра Индии с 1966 по 1977 год, а затем с 1980 года и была первой женщиной на этом посту.\n\nТед Тернер родился в 1938 году в Цинциннати в США. В 1980 году он основал сеть CNN, первый новостной канал, вещавший 24 часа в сутки, а также был владельцем бейсбольной команды «Атланта Брэйвз». В 1977 году он выиграл в качестве моряка Кубок Америки по плаванию на корабле «Кураж».\n\nЭти три личности показывают, что достичь вершин можно в самых разных областях: на шахматной доске, в руководстве страной и в мире средств массовой информации. Согласно данным Britannica, все трое родились 19 ноября.\n\nГавана — столица Кубы, Аллахабад — город на севере Индии, а Цинциннати — город в штате Огайо в США. Новостной канал, вещающий 24 часа в сутки, позволяет смотреть новости каждый час. Все трое до сих пор известны во всем мире.",
-     "qlevels": {
-      "easy": [
-       "Был ли Капабланка чемпионом мира по шахматам?",
-       "Была ли Индира Ганди премьер-министром Индии?",
-       "Основал ли Тед Тернер CNN?"
-      ],
-      "medium": [
-       "Где родился Капабланка?",
-       "Чьей дочерью была Индира Ганди?",
-       "В каком году Тед Тернер основал CNN?"
-      ],
-      "hard": [
-       "В какие годы Капабланка был чемпионом мира?",
-       "Что было особенного в канале CNN при его создании?",
-       "Владельцем какой бейсбольной команды был Тернер?"
-      ]
-     },
-     "questions": [
-      "какую игру на мышление вы любите — шахматы, нарды или другую?",
-      "Помните ли вы, как в молодости получали новости из мира?",
-      "Что, по вашему мнению, нужно, чтобы создать что-то совершенно новое? Обоснуйте."
-     ]
-    },
-    "es": {
-     "title": "Nacidos hoy 19 de noviembre: Capablanca, Indira Gandhi y Ted Turner",
-     "easy": "Hoy nacieron tres personajes famosos.\nCapablanca fue el campeón mundial de ajedrez.\nIndira Gandhi fue la Primera Ministra de la India.\nTed Turner fundó CNN.\nNacieron en diferentes días del año.",
-     "medium": "El 19 de noviembre nacieron tres personajes ilustres. José Raúl Capablanca nació en 1888 en La Habana, Cuba, y fue campeón mundial de ajedrez de 1921 a 1927. Indira Gandhi nació en 1917 en Allahabad, India, hija de Jawaharlal Nehru, y se desempeñó como Primera Ministra de la India, la primera mujer en el cargo. Ted Turner nació en 1938 en Cincinnati, Estados Unidos, y fundó en 1980 la cadena CNN, el primer canal de noticias en transmitir las 24 horas del día. Los tres nacieron el mismo día del año, pero en países y años diferentes. La Británica los enumera entre los nacidos en esta fecha.",
-     "hard": "El 19 de noviembre nacieron tres personajes famosos, cada uno de un ámbito diferente.\n\nJosé Raúl Capablanca nació en 1888 en La Habana, Cuba. Fue campeón mundial de ajedrez de 1921 a 1927 y era conocido por un estilo de juego claro y sencillo.\n\nIndira Gandhi nació en 1917 en Allahabad, India, hija de Joharlal Nehru, el primer primer ministro de la India independiente. Se desempeñó como Primera Ministra de la India de 1966 a 1977 y nuevamente a partir de 1980, y fue la primera mujer en ocupar el cargo.\n\nTed Turner nació en 1938 en Cincinnati, Estados Unidos. En 1980 fundó la cadena CNN, el primer canal de noticias que transmitía las 24 horas del día, y también fue propietario del equipo de béisbol Atlanta Braves. En 1977 ganó como regatista la Copa América navegando en el barco \"Courages\".\n\nLas tres personalidades demuestran que es posible llegar a lo más alto en ámbitos muy diferentes: en el tablero de ajedrez, en el liderazgo de un país y en el mundo mediático. Britannica enumera a los tres como nacidos el 19 de noviembre.\n\nLa Habana es la capital de Cuba, Allahabad es una ciudad en el norte de la India y Cincinnati es una ciudad en el estado de Ohio en Estados Unidos. Un canal de noticias que transmite las 24 horas del día te permite ver las noticias cada hora. Los tres todavía son conocidos en todo el mundo.",
-     "qlevels": {
-      "easy": [
-       "¿Fue Capablanca campeón mundial de ajedrez?",
-       "¿Fue Indira Gandhi primera ministra de la India?",
-       "¿Fundó Ted Turner la CNN?"
-      ],
-      "medium": [
-       "¿Dónde nació Capablanca?",
-       "¿De quién era hija Indira Gandhi?",
-       "¿En qué año fundó Ted Turner la CNN?"
-      ],
-      "hard": [
-       "¿Entre qué años fue Capablanca campeón mundial?",
-       "¿Qué tuvo de especial el canal CNN cuando se fundó?",
-       "¿De qué equipo de béisbol fue dueño Turner?"
-      ]
-     },
-     "questions": [
-      "¿Qué juego de estrategia les gusta, ajedrez, backgammon u otro?",
-      "¿Recuerdan cómo recibían noticias del mundo en su juventud?",
-      "¿Qué creen que se necesita para crear algo completamente nuevo? Expliquen su respuesta."
      ]
     }
    },
